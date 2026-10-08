@@ -5,15 +5,15 @@
    (divisibilidad). Enlace profundo: #leibniz/maquina|binario|alfabeto|tratados|diagramas|calculemos|reverso|newton|voltaire. */
 
 const LZ_TXT = {   /* textos de interfaz: cadenas enteras (así las traduce web_i18n/ui/<lang>.json) */
-  cifra: "Dientes enganchados: {n}", ruedaAria: "Posición de la rueda pequeña", circulos: "Diagrama de círculos", lineas: "Diagrama de líneas",
-  numA: "Primer número", numB: "Segundo número", girar: "Girar la manivela", reves: "Girar al revés",
-  carro: "Desplazar el carro", reiniciar: "Recommencer", registro: "Resultado en la máquina",
-  pos: "El carro está en las {p}: la cifra del segundo número aquí es {d}. Vueltas dadas: {t}.",
-  posNombres: "unidades|decenas|centenas",
-  pasado: "Te has pasado de vueltas en esta posición: gira al revés para restar.",
-  faltan: "Aún faltan vueltas en esta posición.",
-  numero: "Número", sujeto: "Sujeto", predicado: "Predicado", frase: "«Todo {s} es {p}»",
-  verdad: "Verdadero: {s} ÷ {p} = {c}, sin resto.", falso: "Falso: {s} ÷ {p} no es exacta (sobra {r}).",
+  cifra: "Dents engrenées : {n}", ruedaAria: "Position de la petite roue", circulos: "Diagramme en cercles", lineas: "Diagramme en lignes",
+  numA: "Premier nombre", numB: "Second nombre", girar: "Tourner la manivelle", reves: "Tourner à l’envers",
+  carro: "Déplacer le chariot", reiniciar: "Recommencer", registro: "Résultat dans la machine",
+  pos: "Le chariot est sur les {p} : le chiffre du second nombre ici est {d}. Tours effectués : {t}.",
+  posNombres: "unités|dizaines|centaines",
+  pasado: "Tu as fait trop de tours à cette position : tourne à l’envers pour soustraire.",
+  faltan: "Il manque encore des tours à cette position.",
+  numero: "Nombre", sujeto: "Sujet", predicado: "Prédicat", frase: "« Tout {s} est {p} »",
+  verdad: "Vrai : {s} ÷ {p} = {c}, sans reste.", falso: "Faux : {s} ÷ {p} n’est pas exacte (il reste {r}).",
   vale: "{t} = {n}"
 };
 const lzT = (k, v) => String(LZ_TXT[k] || k).replace(/\{(\w+)\}/g, (_, x) => (v && v[x] != null ? v[x] : ""));

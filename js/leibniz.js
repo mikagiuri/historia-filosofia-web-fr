@@ -1,169 +1,267 @@
-"use strict";
-/* ===== Taller de Leibniz: ¿se puede calcular el pensamiento? (08-10, Bachillerato) =====
-   Textos de la vista #leibniz (leibnizview.js). Puente de la filosofía con la ingeniería, las matemáticas y
-   la informática: la máquina de calcular (1673), el sistema binario (1679/1703), los números característicos
-   (1679), el «calculemos» y lo que vino después, hasta la objeción del molino (Monadología, § 17).
-   Las piezas interactivas (rueda escalonada, hexagramas, divisibilidad) están en leibnizview.js; aquí solo prosa.
-   Fuentes comprobadas: Gerhardt, Philosophische Schriften VII, 200 (calculemos); la carta de Bouvet del
-   4-11-1701 (llegó en 1703); el ejemplar superviviente de la máquina, en la biblioteca de Hannover. */
-
+// Generado por web_i18n/i18n_rebuild.js (fr) a partir de web/js/leibniz.js. No editar a mano: editar la memoria tm/fr.json y regenerar.
 const LEIBNIZ = {
-  retrato: "Gottfried Wilhelm Leibniz (Leipzig, 1646 – Hannover, 1716), retratado por Christoph Bernhard Francke hacia 1695.",
-  intro: "Leibniz fue filósofo, matemático, jurista, diplomático e inventor. Tuvo un sueño muy ambicioso: que <strong>pensar fuera tan seguro como calcular</strong>. Si las ideas se pudieran escribir con signos exactos, una discusión se resolvería igual que una suma, sin gritos ni trampas.",
-  pista: "Su sueño no se cumplió del todo, pero por el camino inventó una máquina de calcular y el sistema de ceros y unos que hoy usa cualquier ordenador. Aquí vas a recorrerlo.",
-
-  maquina: {
-    titulo: "Una máquina que multiplica",
-    texto: [
-      "En 1642, Pascal había construido una máquina que sumaba y restaba. Leibniz quiso más: una que también <strong>multiplicara y dividiera</strong>. Presentó un modelo de madera en la Royal Society de Londres en 1673 y siguió perfeccionándola durante veinte años.",
-      "El secreto es la <strong>rueda escalonada</strong>: un cilindro con nueve dientes de longitud creciente. Una rueda pequeña se coloca a lo largo del cilindro y, según dónde esté, en cada vuelta engancha 0, 1, 2… hasta 9 dientes. Así cada vuelta de manivela suma de golpe la cifra elegida.",
-      "Solo se construyeron dos ejemplares y no funcionaban del todo bien: el mecanismo de «me llevo una» fallaba. Pero la rueda escalonada se siguió usando en las calculadoras mecánicas hasta bien entrado el siglo XX."
-    ],
-    cita: "Es indigno de personas excelentes perder horas como esclavos en el trabajo de calcular, que podría confiarse a cualquiera si se usaran máquinas.",
-    citaPie: "Leibniz, sobre su máquina aritmética (1685)",
-    ruedaTit: "Prueba la rueda",
-    ruedaTxt: "Mueve la rueda pequeña a lo largo del cilindro: los dientes que engancha son la cifra que se suma en cada vuelta.",
-    multTit: "Multiplica como Leibniz",
-    multTxt: "La máquina no multiplica «de golpe»: suma el primer número tantas veces como diga cada cifra del segundo y, entre una cifra y otra, desplaza el carro una posición (como cuando multiplicas a mano y corres un hueco).",
-    multFin: "Hecho: {a} × {b} = {r}. Has necesitado {v} vueltas de manivela, en lugar de {b} sumas seguidas."
-  },
-
-  binario: {
-    titulo: "Todo con dos cifras: 0 y 1",
-    texto: [
-      "Contamos de diez en diez porque tenemos diez dedos. Leibniz se preguntó qué pasaría si contáramos <strong>de dos en dos</strong>: solo harían falta dos cifras, 0 y 1. En binario, 2 se escribe 10; 3 es 11; 4 es 100… y 1 + 1 = 10.",
-      "Ya lo tenía estudiado en 1679, pero lo publicó en 1703. Para Leibniz tenía también un sentido religioso: todo puede salir del uno (Dios) y de la nada (el cero).",
-      "Entre tanto, un jesuita que vivía en Pekín, Joachim Bouvet, le envió un diagrama con los <strong>64 hexagramas</strong> del <em>Yijing</em> (el «Libro de los cambios» chino), atribuido al legendario Fuxi. Cada hexagrama son seis líneas, enteras o partidas. Si se lee la línea entera como 1 y la partida como 0, el diagrama ordena los números del 0 al 63. Leibniz quedó fascinado."
-    ],
-    cuidado: "Ojo con las conclusiones rápidas: Leibniz <strong>no copió</strong> el binario de China, porque ya lo tenía antes de recibir la carta. Y leer los hexagramas como números fue interpretación suya y de Bouvet: en China se usaban para adivinar y reflexionar, no para contar.",
-    hexTit: "Un hexagrama es un número",
-    hexTxt: "Pulsa las líneas para cambiarlas (entera = 1, partida = 0) o escribe un número del 0 al 63. Aquí, la línea de arriba es la cifra que más vale.",
-    puente: "Hoy, cada 1 y cada 0 es un circuito que deja pasar la corriente o no. Mira cómo se calcula con ellos en las <a href=\"#logica/puertas\">puertas lógicas del Rincón de lógica</a>."
-  },
-
-  alfabeto: {
-    titulo: "Un alfabeto de los pensamientos",
-    texto: [
-      "De joven, Leibniz leyó el <em>Arte magna</em> de Ramon Llull, un mallorquín del siglo XIII que combinaba conceptos con ruedas giratorias. Le dio una idea: si todos los conceptos complejos están hechos de conceptos simples, bastaría un <strong>«alfabeto de los pensamientos humanos»</strong> para escribir cualquier idea combinando sus letras.",
-      "En 1679 probó a usar números. A cada concepto simple le dio un <strong>número primo</strong> y a cada concepto compuesto, el producto de sus partes. Su ejemplo: animal = 2, racional = 3, así que ser humano (animal racional) = 2 × 3 = 6.",
-      "Y ahora viene lo bueno: «Todo ser humano es animal» es verdad porque <strong>6 se puede dividir entre 2</strong>. Comprobar una frase se convierte en hacer una división."
-    ],
-    /* simples: un primo cada uno; compuestos: el producto (ser humano = animal racional, la definición que usa Leibniz) */
-    conceptos: [
-      { t: "animal", n: 2 }, { t: "racional", n: 3 }, { t: "bípedo", n: 5 }, { t: "con plumas", n: 7 },
-      { t: "volador", n: 11 }, { t: "corredor", n: 13 },
-      { t: "ser humano", n: 6, de: "animal × racional" }, { t: "ave", n: 70, de: "animal × bípedo × con plumas" },
-      { t: "gorrión", n: 770, de: "ave × volador" }, { t: "avestruz", n: 910, de: "ave × corredor" },
-      { t: "murciélago", n: 22, de: "animal × volador" }
-    ],
-    probTit: "Pruébalo tú",
-    probTxt: "Elige un sujeto y un predicado. La frase «Todo… es…» será verdadera si el número del predicado divide exactamente al del sujeto.",
-    problema: "El problema: ¿qué conceptos son de verdad simples? ¿Qué número le darías a «justicia» o a «libertad»? Leibniz nunca consiguió completar su alfabeto, y para frases como «ningún…» o «algún…» tuvo que complicar el sistema con parejas de números."
-  },
-
-  tratados: {
-    titulo: "Sus escritos de lógica",
-    texto: "Leibniz no escribió un gran libro de lógica, sino cientos de borradores. La mayoría <strong>quedaron sin publicar</strong> durante más de dos siglos: el filósofo francés Louis Couturat los sacó a la luz entre 1901 y 1903. Por eso, cuando Boole y Frege reinventaron la lógica en el siglo XIX, no sabían que Leibniz había llegado antes a muchas de sus ideas.",
-    lista: [
-      { y: "1666", t: "<em>Disertación sobre el arte combinatoria</em>", d: "Su tesis de juventud: inspirado en Llull, propone combinar conceptos simples para obtener todos los compuestos." },
-      { y: "1679", t: "<em>Elementos de la característica universal</em> y otros escritos", d: "Los números característicos: cada concepto, un número; cada frase, una cuenta." },
-      { y: "1686", t: "<em>Investigaciones generales sobre el análisis de las nociones y las verdades</em>", d: "Su cálculo lógico más completo. Defiende que en toda verdad el predicado está contenido en el sujeto: decir «Todo S es P» es decir que la noción de S contiene la de P." },
-      { y: "h. 1686", t: "<em>Sobre la comprobación de la forma lógica mediante el trazado de líneas</em>", d: "El borrador de los diagramas: comprueba los silogismos dibujando círculos y líneas." },
-      { y: "1704", t: "<em>Nuevos ensayos sobre el entendimiento humano</em>", d: "Su respuesta a Locke, en forma de diálogo. Defiende el valor de la lógica de Aristóteles y de las formas del razonamiento. No se publicó hasta 1765." }
-    ]
-  },
-
-  diagramas: {
-    titulo: "Los diagramas de Euler… que dibujó Leibniz",
-    texto: [
-      "Los círculos que usamos para comprobar silogismos se llaman <strong>diagramas de Euler</strong>, porque el matemático Leonhard Euler los popularizó en sus <em>Cartas a una princesa de Alemania</em> (escritas en 1761). Pero Leibniz ya los había dibujado hacia 1686, cuando Euler ni había nacido. Y tampoco fue el primero: él mismo cuenta que de joven los había visto en un libro de Johann Christoph Sturm (1661).",
-      "Leibniz probó además otra forma: representar cada concepto como una <strong>línea</strong>. Si la línea de S queda dentro de la de P, todo S es P. Son los <strong>diagramas lineales</strong>, menos famosos pero igual de útiles."
-    ],
-    probTit: "Compara las dos versiones",
-    probTxt: "Elige una proposición o un silogismo y mira cómo lo dibujaría Leibniz con círculos y con líneas. En las líneas, el tramo de puntos es la parte que puede existir o no.",
-    casos: [
-      { id: "A", t: "Todo S es P", d: "S está entero dentro de P." },
-      { id: "E", t: "Ningún S es P", d: "S y P no se tocan." },
-      { id: "I", t: "Algún S es P", d: "S y P comparten una parte." },
-      { id: "O", t: "Algún S no es P", d: "Una parte de S queda fuera de P." },
-      { id: "barbara", t: "Todo M es P; todo S es M; luego todo S es P", d: "Silogismo Barbara: si S está dentro de M y M dentro de P, S queda dentro de P sin remedio." },
-      { id: "celarent", t: "Ningún M es P; todo S es M; luego ningún S es P", d: "Silogismo Celarent: S está dentro de M, y M no toca a P, así que S tampoco." }
-    ],
-    circulos: "Círculos (como Euler)", lineas: "Líneas (solo Leibniz)",
-    puente: "Practica con muchos más silogismos en el <a href=\"#logica/silogismos\">Coin de logique</a>."
-  },
-
-  calculemos: {
-    titulo: "¡Calculemos!",
-    cita: "Cuando surjan controversias, no hará falta más discusión entre dos filósofos que entre dos contables. Bastará con tomar la pluma, sentarse ante el ábaco y decirse el uno al otro (llamando a un amigo, si se quiere): calculemos.",
-    citaPie: "Leibniz, escrito de hacia 1685",
-    texto: "Ese era el sueño completo: un lenguaje exacto para escribir las ideas (la «característica universal») y unas reglas para calcular con ellas (el «cálculo del razonamiento»). Puedes probar una versión pequeña de ese sueño: en el <a href=\"#logica/tablas\">Coin de logique</a>, una tabla de verdad decide, haciendo cuentas, si un argumento es válido.",
-    lineaTit: "Lo que vino después"
-  },
-
-  linea: [
-    { y: "1666", t: "Leibniz, con 20 años, escribe sobre el «arte de combinar», inspirado en Llull." },
-    { y: "1673", t: "Presenta su máquina de calcular en la Royal Society." },
-    { y: "1679", t: "Aritmética binaria y números característicos." },
-    { y: "1684", t: "Publica el cálculo infinitesimal, que sabe sumar infinitos trozos cada vez más pequeños: la respuesta matemática a <a href=\"#logica/paradojas/aquiles\">Aquiles y la tortuga</a>." },
-    { y: "1854", t: "George Boole convierte la lógica en un álgebra de 0 y 1." },
-    { y: "1879", t: "Gottlob Frege inventa una escritura lógica para todo razonamiento matemático: lo más cerca que se ha estado del alfabeto de Leibniz." },
-    { y: "1931", t: "Kurt Gödel demuestra un límite: en cualquier sistema así hay verdades que no se pueden demostrar dentro de él." },
-    { y: "1936", t: "Alan Turing describe la máquina que puede hacer cualquier cálculo… y prueba que hay preguntas que ninguna máquina puede resolver." },
-    { y: "1938", t: "Claude Shannon muestra que el álgebra de Boole sirve para diseñar circuitos eléctricos. Nace el ordenador digital." },
-    { y: "Hoy", t: "La inteligencia artificial redacta, traduce y conversa haciendo cuentas con ceros y unos." }
+ "retrato": "Gottfried Wilhelm Leibniz (Leipzig, 1646 – Hanovre, 1716), portrait par Christoph Bernhard Francke vers 1695.",
+ "intro": "Leibniz fut philosophe, mathématicien, juriste, diplomate et inventeur. Il avait un rêve très ambitieux : que <strong>penser soit aussi sûr que calculer</strong>. Si les idées pouvaient s'écrire avec des signes exacts, une discussion se résoudrait comme une addition, sans cris ni tricheries.",
+ "pista": "Son rêve ne s'est pas tout à fait réalisé, mais en chemin il a inventé une machine à calculer et le système de zéros et de uns qu'utilise aujourd'hui n'importe quel ordinateur. Ici, tu vas le parcourir.",
+ "maquina": {
+  "titulo": "Une machine qui multiplie",
+  "texto": [
+   "En 1642, Pascal avait construit une machine qui additionnait et soustrayait. Leibniz voulut aller plus loin : une machine qui <strong>multiplierait et diviserait</strong> aussi. Il en présenta un modèle en bois à la Royal Society de Londres en 1673 et continua à la perfectionner pendant vingt ans.",
+   "Le secret, c'est le <strong>tambour à échelons</strong> : un cylindre portant neuf dents de longueur croissante. Une petite roue se place le long du cylindre et, selon l'endroit où elle se trouve, elle engrène à chaque tour 0, 1, 2… jusqu'à 9 dents. Ainsi, chaque tour de manivelle ajoute d'un seul coup le chiffre choisi.",
+   "Seuls deux exemplaires furent construits, et ils ne fonctionnaient pas tout à fait bien : le mécanisme de la « retenue » défaillait. Mais le tambour à échelons continua d'être utilisé dans les calculatrices mécaniques jusque bien avant dans le XXe siècle."
   ],
-
-  molino: {
-    titulo: "Pero… ¿calcular es pensar?",
-    texto: "Lo curioso es que el propio Leibniz pensaba que <strong>una máquina no puede sentir ni percibir</strong>. Lo explicó con un experimento mental:",
-    cita: "Si imaginamos una máquina cuya estructura le hiciera pensar, sentir y percibir, podríamos agrandarla manteniendo sus proporciones, de modo que pudiéramos entrar en ella como en un molino. Al recorrerla por dentro, solo encontraríamos piezas que se empujan unas a otras, y nunca nada que explique una percepción.",
-    citaPie: "Leibniz, Monadología, § 17 (1714)"
+  "cita": "Il est indigne d'hommes excellents de perdre des heures comme des esclaves dans le travail du calcul, qui pourrait être confié à n'importe qui si l'on utilisait des machines.",
+  "citaPie": "Leibniz, à propos de sa machine arithmétique (1685)",
+  "ruedaTit": "Essaie la roue",
+  "ruedaTxt": "Déplace la petite roue le long du cylindre : les dents qu'elle engrène sont le chiffre qui s'ajoute à chaque tour.",
+  "multTit": "Multiplie comme Leibniz",
+  "multTxt": "La machine ne multiplie pas « d'un coup » : elle additionne le premier nombre autant de fois que l'indique chaque chiffre du second et, entre un chiffre et le suivant, elle décale le chariot d'une position (comme quand tu multiplies à la main et que tu laisses un blanc).",
+  "multFin": "Terminé : {a} × {b} = {r}. Il t'a fallu {v} tours de manivelle, au lieu de {b} additions à la suite."
+ },
+ "binario": {
+  "titulo": "Tout avec deux chiffres : 0 et 1",
+  "texto": [
+   "Nous comptons de dix en dix parce que nous avons dix doigts. Leibniz se demanda ce qui se passerait si nous comptions <strong>de deux en deux</strong> : il suffirait de deux chiffres, 0 et 1. En binaire, 2 s'écrit 10 ; 3 s'écrit 11 ; 4 s'écrit 100… et 1 + 1 = 10.",
+   "Il l'avait déjà étudié en 1679, mais ne le publia qu'en 1703. Pour Leibniz, cela avait aussi un sens religieux : tout peut sortir de l'un (Dieu) et du néant (le zéro).",
+   "Entre-temps, un jésuite qui vivait à Pékin, Joachim Bouvet, lui envoya un diagramme des <strong>64 hexagrammes</strong> du <em>Yijing</em> (le « Livre des mutations » chinois), attribué au légendaire Fuxi. Chaque hexagramme est formé de six lignes, pleines ou brisées. Si l'on lit la ligne pleine comme 1 et la ligne brisée comme 0, le diagramme range les nombres de 0 à 63. Leibniz en fut fasciné."
+  ],
+  "cuidado": "Attention aux conclusions hâtives : Leibniz <strong>n'a pas copié</strong> le binaire sur la Chine, car il l'avait déjà avant de recevoir la lettre. Et lire les hexagrammes comme des nombres fut une interprétation de sa part et de celle de Bouvet : en Chine, on les utilisait pour la divination et la réflexion, pas pour compter.",
+  "hexTit": "Un hexagramme est un nombre",
+  "hexTxt": "Clique sur les lignes pour les changer (pleine = 1, brisée = 0) ou écris un nombre de 0 à 63. Ici, la ligne du haut est le chiffre qui vaut le plus.",
+  "puente": "Aujourd'hui, chaque 1 et chaque 0 est un circuit qui laisse passer le courant ou non. Regarde comment on calcule avec eux dans les <a href=\"#logica/puertas\">portes logiques du Coin de logique</a>."
+ },
+ "alfabeto": {
+  "titulo": "Un alphabet des pensées",
+  "texto": [
+   "Jeune, Leibniz lut l'<em>Ars magna</em> de Raymond Lulle, un Majorquin du XIIIe siècle qui combinait des concepts à l'aide de roues tournantes. Cela lui donna une idée : si tous les concepts complexes sont faits de concepts simples, il suffirait d'un <strong>« alphabet des pensées humaines »</strong> pour écrire n'importe quelle idée en combinant ses lettres.",
+   "En 1679, il essaya d'utiliser des nombres. À chaque concept simple, il donna un <strong>nombre premier</strong> et à chaque concept composé, le produit de ses parties. Son exemple : animal = 2, rationnel = 3, donc être humain (animal rationnel) = 2 × 3 = 6.",
+   "Et maintenant vient le meilleur : « Tout être humain est un animal » est vrai parce que <strong>6 est divisible par 2</strong>. Vérifier une phrase revient à faire une division."
+  ],
+  "conceptos": [
+   {
+    "t": "animal",
+    "n": 2
+   },
+   {
+    "t": "rationnel",
+    "n": 3
+   },
+   {
+    "t": "bipède",
+    "n": 5
+   },
+   {
+    "t": "à plumes",
+    "n": 7
+   },
+   {
+    "t": "volant",
+    "n": 11
+   },
+   {
+    "t": "coureur",
+    "n": 13
+   },
+   {
+    "t": "être humain",
+    "n": 6,
+    "de": "animal × rationnel"
+   },
+   {
+    "t": "oiseau",
+    "n": 70,
+    "de": "animal × bipède × à plumes"
+   },
+   {
+    "t": "moineau",
+    "n": 770,
+    "de": "oiseau × volant"
+   },
+   {
+    "t": "autruche",
+    "n": 910,
+    "de": "oiseau × coureur"
+   },
+   {
+    "t": "chauve-souris",
+    "n": 22,
+    "de": "animal × volant"
+   }
+  ],
+  "probTit": "À toi d'essayer",
+  "probTxt": "Choisis un sujet et un prédicat. La phrase « Tout… est… » sera vraie si le nombre du prédicat divise exactement celui du sujet.",
+  "problema": "Le problème : quels concepts sont vraiment simples ? Quel nombre donnerais-tu à « justice » ou à « liberté » ? Leibniz ne parvint jamais à achever son alphabet, et pour des phrases comme « aucun… » ou « quelque… » il dut compliquer le système avec des couples de nombres."
+ },
+ "tratados": {
+  "titulo": "Ses écrits de logique",
+  "texto": "Leibniz n'écrivit pas un grand livre de logique, mais des centaines de brouillons. La plupart <strong>restèrent inédits</strong> pendant plus de deux siècles : le philosophe français Louis Couturat les révéla entre 1901 et 1903. C'est pourquoi, quand Boole et Frege réinventèrent la logique au XIXe siècle, ils ne savaient pas que Leibniz était déjà parvenu à beaucoup de leurs idées.",
+  "lista": [
+   {
+    "y": "1666",
+    "t": "<em>Dissertatio de arte combinatoria</em>",
+    "d": "Sa thèse de jeunesse : inspiré par Lulle, il propose de combiner des concepts simples pour obtenir tous les composés."
+   },
+   {
+    "y": "1679",
+    "t": "<em>Elementa characteristicae universalis</em> et autres écrits",
+    "d": "Les nombres caractéristiques : chaque concept, un nombre ; chaque phrase, un calcul."
+   },
+   {
+    "y": "1686",
+    "t": "<em>Generales inquisitiones de analysi notionum et veritatum</em>",
+    "d": "Son calcul logique le plus complet. Il y défend que, dans toute vérité, le prédicat est contenu dans le sujet : dire « Tout S est P », c'est dire que la notion de S contient celle de P."
+   },
+   {
+    "y": "vers 1686",
+    "t": "<em>De formae logicae comprobatione per linearum ductus</em>",
+    "d": "Le brouillon des diagrammes : il vérifie les syllogismes en dessinant des cercles et des lignes."
+   },
+   {
+    "y": "1704",
+    "t": "<em>Nouveaux essais sur l'entendement humain</em>",
+    "d": "Sa réponse à Locke, sous forme de dialogue. Il y défend la valeur de la logique d'Aristote et des formes du raisonnement. Ils ne furent publiés qu'en 1765."
+   }
+  ]
+ },
+ "diagramas": {
+  "titulo": "Les diagrammes d'Euler… que Leibniz dessina",
+  "texto": [
+   "Les cercles que nous utilisons pour vérifier les syllogismes s'appellent des <strong>diagrammes d'Euler</strong>, parce que le mathématicien Leonhard Euler les a popularisés dans ses <em>Lettres à une princesse d'Allemagne</em> (écrites en 1761). Mais Leibniz les avait déjà dessinés vers 1686, alors qu'Euler n'était même pas né. Et il n'a pas été le premier non plus : il raconte lui-même que, jeune, il les avait vus dans un livre de Johann Christoph Sturm (1661).",
+   "Leibniz essaya aussi une autre forme : représenter chaque concept par une <strong>ligne</strong>. Si la ligne de S est à l'intérieur de celle de P, tout S est P. Ce sont les <strong>diagrammes linéaires</strong>, moins célèbres mais tout aussi utiles."
+  ],
+  "probTit": "Compare les deux versions",
+  "probTxt": "Choisis une proposition ou un syllogisme et regarde comment Leibniz le dessinerait avec des cercles et avec des lignes. Sur les lignes, le tronçon en pointillés est la partie qui peut exister ou non.",
+  "casos": [
+   {
+    "id": "A",
+    "t": "Tout S est P",
+    "d": "S est entièrement à l'intérieur de P."
+   },
+   {
+    "id": "E",
+    "t": "Aucun S n'est P",
+    "d": "S et P ne se touchent pas."
+   },
+   {
+    "id": "I",
+    "t": "Quelque S est P",
+    "d": "S et P ont une partie en commun."
+   },
+   {
+    "id": "O",
+    "t": "Quelque S n'est pas P",
+    "d": "Une partie de S reste en dehors de P."
+   },
+   {
+    "id": "barbara",
+    "t": "Tout M est P ; tout S est M ; donc tout S est P",
+    "d": "Syllogisme Barbara : si S est dans M et M dans P, S est forcément dans P."
+   },
+   {
+    "id": "celarent",
+    "t": "Aucun M n'est P ; tout S est M ; donc aucun S n'est P",
+    "d": "Syllogisme Celarent : S est dans M, et M ne touche pas P, donc S non plus."
+   }
+  ],
+  "circulos": "Cercles (comme Euler)",
+  "lineas": "Lignes (Leibniz seul)",
+  "puente": "Entraîne-toi avec bien d'autres syllogismes dans le <a href=\"#logica/silogismos\">Coin de logique</a>."
+ },
+ "calculemos": {
+  "titulo": "Calculons !",
+  "cita": "Quand des controverses surgiront, il n'y aura pas plus besoin de disputes entre deux philosophes qu'entre deux comptables. Il suffira de prendre la plume, de s'asseoir devant l'abaque et de se dire l'un à l'autre (en appelant un ami, si l'on veut) : calculons.",
+  "citaPie": "Leibniz, écrit d'environ 1685",
+  "texto": "Tel était le rêve complet : un langage exact pour écrire les idées (la « caractéristique universelle ») et des règles pour calculer avec elles (le « calcul du raisonnement »). Tu peux essayer une petite version de ce rêve : dans le <a href=\"#logica/tablas\">Coin de logique</a>, une table de vérité décide, par le calcul, si un argument est valide.",
+  "lineaTit": "Ce qui est venu après"
+ },
+ "linea": [
+  {
+   "y": "1666",
+   "t": "À 20 ans, Leibniz écrit sur l'« art de combiner », inspiré par Lulle."
   },
-
-  reverso: {
-    titulo: "El reverso: un genio maltratado",
-    intro: "Hasta aquí, el Leibniz brillante. Pero su vida acabó mal: enfrentado al hombre más poderoso de la ciencia inglesa y, después de muerto, convertido en el hazmerreír de media Europa."
+  {
+   "y": "1673",
+   "t": "Il présente sa machine à calculer à la Royal Society."
   },
-
-  newton: {
-    titulo: "La guerra del cálculo: Newton, juez y parte",
-    pie: "Isaac Newton, presidente de la Royal Society desde 1703.",
-    texto: [
-      "Newton y Leibniz inventaron el cálculo infinitesimal <strong>cada uno por su cuenta</strong>. Newton lo tenía hacia 1665-1666, pero no lo publicó; Leibniz llegó a él en 1675 y lo publicó en 1684, con una notación tan buena (dx, ∫) que es la que seguimos usando. Hoy los historiadores coinciden: ninguno copió al otro.",
-      "Pero entonces la cosa acabó en guerra. En 1711 Leibniz pidió a la Royal Society de Londres que lo defendiera de una acusación de plagio. El presidente de la Royal Society era… <strong>Newton</strong>. Él eligió a los miembros de la comisión, que en 1712 publicó su informe, el <em>Commercium epistolicum</em>, sin pedir a Leibniz su versión. Le daba la razón a Newton.",
-      "En 1715 apareció en la revista de la Royal Society una reseña anónima que elogiaba el informe. La había escrito <strong>el propio Newton</strong>. Y en 1726, diez años después de la muerte de Leibniz, Newton borró de su gran obra, los <em>Principia</em>, el párrafo en el que reconocía que Leibniz había llegado al cálculo por su cuenta."
-    ],
-    cuidado: "Para ser justos, Leibniz tampoco jugó limpio: en 1705 una reseña anónima, escrita por él, insinuaba que Newton había copiado su método, y en 1713 hizo circular otra hoja anónima contra Newton. Lo que los distingue es el poder: Newton fue <strong>juez y parte</strong>.",
-    final: "Leibniz murió en Hannover en 1716, caído en desgracia. A su entierro solo fue su secretario. Un testigo escribió que lo enterraron «más como a un ladrón que como lo que de verdad era: el orgullo de su país». Su tumba estuvo sin lápida más de cincuenta años."
+  {
+   "y": "1679",
+   "t": "Arithmétique binaire et nombres caractéristiques."
   },
-
-  voltaire: {
-    titulo: "Cándido: la burla de Voltaire",
-    pie: "Voltaire, que publicó Cándido en 1759.",
-    texto: [
-      "En la <em>Teodicea</em> (1710), Leibniz intentó responder a una pregunta muy antigua: si Dios es bueno y todopoderoso, ¿por qué existe el mal? Su respuesta: Dios eligió, entre todos los mundos posibles, <strong>el mejor de los mundos posibles</strong>. No un mundo sin males, sino el que tiene la mejor combinación posible de bienes y males.",
-      "El 1 de noviembre de 1755, un terremoto, un maremoto y un incendio destruyeron Lisboa y mataron a decenas de miles de personas. Voltaire escribió un poema furioso: ¿de verdad este es el mejor de los mundos? (Rousseau le contestó que la naturaleza no había construido veinte mil casas de seis y siete pisos: buena parte del desastre era obra humana.)",
-      "En 1759, Voltaire publicó <em>Cándido</em>, una novela corta en la que un joven ingenuo recorre el mundo encadenando desgracias: guerras, naufragios, la Inquisición, el propio terremoto de Lisboa. Su maestro, <strong>Pangloss</strong>, repite ante cada catástrofe que todo está bien en el mejor de los mundos posibles."
-    ],
-    cita: "Pangloss enseñaba la metafísico-teólogo-cosmolo-bobología. Demostraba de maravilla que no hay efecto sin causa y que, en este mejor de los mundos posibles…",
-    citaPie: "Voltaire, Cándido, cap. 1. En francés, «cosmolonigologie»: dentro va escondido nigaud, «bobo».",
-    nombre: "Y Leibniz sale con su nombre: en el capítulo 28, Pangloss, después de haber sido ahorcado, diseccionado y condenado a galeras, dice que no piensa cambiar de opinión, porque «Leibniz no puede equivocarse».",
-    matiz: "Ojo: Voltaire ridiculiza una versión simplificada. Leibniz no decía que cada desgracia sea buena, sino que el conjunto del mundo es el mejor posible. Y hay un dato curioso: Émilie du Châtelet, la científica con la que Voltaire vivió años, era leibniziana y defendió sus ideas en un libro de física (1740).",
-    pangloss: "¿Y el nombre? «Pangloss» viene del griego <em>pan</em> (todo) y <em>glossa</em> (lengua): «todo lengua», es decir, un charlatán. Hay quien ve ahí una burla del alfabeto universal de Leibniz, el idioma que iba a servir para todas las lenguas. Es una lectura tentadora, pero no hay pruebas de que Voltaire lo pensara así. ¿Qué haría falta para demostrarlo?",
-    final: "La novela acaba con una frase que se ha hecho famosa: «Hay que cultivar nuestro jardín». Menos teorías sobre el conjunto del mundo y más trabajo concreto para mejorarlo."
+  {
+   "y": "1684",
+   "t": "Il publie le calcul infinitésimal, qui sait additionner une infinité de morceaux de plus en plus petits : la réponse mathématique à <a href=\"#logica/paradojas/aquiles\">Achille et la tortue</a>."
   },
-
-  preguntas: {
-    titulo: "Pour penser",
-    lista: [
-      "¿Puede alguien ser juez en su propia causa? ¿Qué debería haber hecho la Royal Society?",
-      "Newton y Leibniz llegaron a lo mismo por separado. ¿Por qué crees que les importaba tanto quién fue el primero?",
-      "¿Es justa la burla de Voltaire si ataca una versión simplificada de Leibniz? ¿Para qué sirve la sátira en filosofía?",
-      "¿Se podría resolver un dilema moral calculando? ¿Qué parte se podría calcular y qué parte no?",
-      "Cuando traducimos una idea a números, ¿qué ganamos y qué perdemos?",
-      "Si entraras en el «molino» de una inteligencia artificial, ¿qué encontrarías? ¿Le da eso la razón a Leibniz?",
-      "Leibniz quería acabar con las discusiones. ¿Sería bueno un mundo en el que nunca hubiera que discutir?"
-    ]
+  {
+   "y": "1854",
+   "t": "George Boole transforme la logique en une algèbre de 0 et de 1."
+  },
+  {
+   "y": "1879",
+   "t": "Gottlob Frege invente une écriture logique pour tout raisonnement mathématique : ce qui s'est fait de plus proche de l'alphabet de Leibniz."
+  },
+  {
+   "y": "1931",
+   "t": "Kurt Gödel démontre une limite : dans tout système de ce genre, il y a des vérités qu'on ne peut pas démontrer à l'intérieur de celui-ci."
+  },
+  {
+   "y": "1936",
+   "t": "Alan Turing décrit la machine capable de faire n'importe quel calcul… et prouve qu'il existe des questions qu'aucune machine ne peut résoudre."
+  },
+  {
+   "y": "1938",
+   "t": "Claude Shannon montre que l'algèbre de Boole permet de concevoir des circuits électriques. L'ordinateur numérique naît."
+  },
+  {
+   "y": "Aujourd'hui",
+   "t": "L'intelligence artificielle rédige, traduit et converse en faisant des calculs avec des zéros et des uns."
   }
+ ],
+ "molino": {
+  "titulo": "Mais… calculer, est-ce penser ?",
+  "texto": "Ce qui est curieux, c'est que Leibniz lui-même pensait qu'<strong>une machine ne peut ni sentir ni percevoir</strong>. Il l'expliqua par une expérience de pensée :",
+  "cita": "Et feignant qu'il y ait une machine, dont la structure fasse penser, sentir, avoir perception ; on pourra la concevoir agrandie, en conservant les mêmes proportions, en sorte qu'on y puisse entrer comme dans un moulin. Et cela posé, on ne trouvera en la visitant au dedans, que des pièces qui se poussent les unes les autres, et jamais de quoi expliquer une perception.",
+  "citaPie": "Leibniz, Monadologie, § 17 (1714)"
+ },
+ "reverso": {
+  "titulo": "L'envers du décor : un génie malmené",
+  "intro": "Jusqu'ici, le Leibniz brillant. Mais sa vie finit mal : opposé à l'homme le plus puissant de la science anglaise et, après sa mort, devenu la risée de la moitié de l'Europe."
+ },
+ "newton": {
+  "titulo": "La guerre du calcul : Newton, juge et partie",
+  "pie": "Isaac Newton, président de la Royal Society depuis 1703.",
+  "texto": [
+   "Newton et Leibniz inventèrent le calcul infinitésimal <strong>chacun de son côté</strong>. Newton le possédait vers 1665-1666, mais ne le publia pas ; Leibniz y parvint en 1675 et le publia en 1684, avec une notation si bonne (dx, ∫) que c'est celle que nous utilisons encore. Aujourd'hui, les historiens s'accordent : aucun n'a copié l'autre.",
+   "Mais l'affaire tourna alors à la guerre. En 1711, Leibniz demanda à la Royal Society de Londres de le défendre contre une accusation de plagiat. Le président de la Royal Society était… <strong>Newton</strong>. C'est lui qui choisit les membres de la commission, laquelle publia en 1712 son rapport, le <em>Commercium epistolicum</em>, sans demander à Leibniz sa version. Il donnait raison à Newton.",
+   "En 1715 parut dans la revue de la Royal Society un compte rendu anonyme qui faisait l'éloge du rapport. Il avait été écrit par <strong>Newton lui-même</strong>. Et en 1726, dix ans après la mort de Leibniz, Newton supprima de sa grande œuvre, les <em>Principia</em>, le paragraphe où il reconnaissait que Leibniz était parvenu au calcul par ses propres moyens."
+  ],
+  "cuidado": "Pour être juste, Leibniz non plus ne joua pas franc jeu : en 1705, un compte rendu anonyme, écrit par lui, insinuait que Newton avait copié sa méthode, et en 1713 il fit circuler une autre feuille anonyme contre Newton. Ce qui les distingue, c'est le pouvoir : Newton fut <strong>juge et partie</strong>.",
+  "final": "Leibniz mourut à Hanovre en 1716, tombé en disgrâce. Seul son secrétaire assista à son enterrement. Un témoin écrivit qu'on l'enterra « plutôt comme un voleur que comme ce qu'il était vraiment : l'orgueil de son pays ». Sa tombe resta sans pierre tombale pendant plus de cinquante ans."
+ },
+ "voltaire": {
+  "titulo": "Candide : la moquerie de Voltaire",
+  "pie": "Voltaire, qui publia Candide en 1759.",
+  "texto": [
+   "Dans la <em>Théodicée</em> (1710), Leibniz tenta de répondre à une très ancienne question : si Dieu est bon et tout-puissant, pourquoi le mal existe-t-il ? Sa réponse : Dieu a choisi, parmi tous les mondes possibles, <strong>le meilleur des mondes possibles</strong>. Non pas un monde sans maux, mais celui qui offre la meilleure combinaison possible de biens et de maux.",
+   "Le 1er novembre 1755, un tremblement de terre, un raz-de-marée et un incendie détruisirent Lisbonne et tuèrent des dizaines de milliers de personnes. Voltaire écrivit un poème furieux : est-ce vraiment là le meilleur des mondes ? (Rousseau lui répondit que la nature n'avait pas construit vingt mille maisons de six et sept étages : une bonne part du désastre était l'œuvre des humains.)",
+   "En 1759, Voltaire publia <em>Candide</em>, un court roman dans lequel un jeune naïf parcourt le monde en enchaînant les malheurs : guerres, naufrages, Inquisition, le tremblement de terre de Lisbonne lui-même. Son maître, <strong>Pangloss</strong>, répète devant chaque catastrophe que tout est pour le mieux dans le meilleur des mondes possibles."
+  ],
+  "cita": "Pangloss enseignait la métaphysico-théologo-cosmolonigologie. Il prouvait admirablement qu'il n'y a point d'effet sans cause, et que, dans ce meilleur des mondes possibles…",
+  "citaPie": "Voltaire, Candide, chap. 1. Dans le texte original figure « cosmolonigologie » : on y trouve caché le mot « nigaud ».",
+  "nombre": "Et Leibniz y est nommé : au chapitre 28, Pangloss, après avoir été pendu, disséqué et condamné aux galères, dit qu'il ne compte pas changer d'avis, parce que « Leibniz ne peut pas se tromper ».",
+  "matiz": "Attention : Voltaire ridiculise une version simplifiée. Leibniz ne disait pas que chaque malheur est un bien, mais que l'ensemble du monde est le meilleur possible. Et il y a un détail curieux : Émilie du Châtelet, la scientifique avec qui Voltaire vécut des années, était leibnizienne et défendit ses idées dans un livre de physique (1740).",
+  "pangloss": "Et le nom ? « Pangloss » vient du grec <em>pan</em> (tout) et <em>glossa</em> (langue) : « tout langue », c'est-à-dire un bavard. Certains y voient une moquerie de l'alphabet universel de Leibniz, la langue qui devait servir pour toutes les langues. C'est une lecture tentante, mais rien ne prouve que Voltaire l'ait pensé ainsi. Que faudrait-il pour le démontrer ?",
+  "final": "Le roman s'achève sur une phrase devenue célèbre : « Il faut cultiver notre jardin. » Moins de théories sur l'ensemble du monde et plus de travail concret pour l'améliorer."
+ },
+ "preguntas": {
+  "titulo": "Pour réfléchir",
+  "lista": [
+   "Quelqu'un peut-il être juge dans sa propre cause ? Qu'aurait dû faire la Royal Society ?",
+   "Newton et Leibniz sont arrivés au même résultat séparément. Pourquoi crois-tu qu'il leur importait tant de savoir qui avait été le premier ?",
+   "La moquerie de Voltaire est-elle juste si elle attaque une version simplifiée de Leibniz ? À quoi sert la satire en philosophie ?",
+   "Pourrait-on résoudre un dilemme moral en calculant ? Quelle part pourrait se calculer et quelle part non ?",
+   "Quand nous traduisons une idée en nombres, qu'y gagnons-nous et qu'y perdons-nous ?",
+   "Si tu entrais dans le « moulin » d'une intelligence artificielle, que trouverais-tu ? Cela donne-t-il raison à Leibniz ?",
+   "Leibniz voulait en finir avec les disputes. Un monde où l'on n'aurait jamais à discuter serait-il un bon monde ?"
+  ]
+ }
 };

@@ -7,7 +7,7 @@
    al ocultar líneas, el plano se recoloca y se compacta. */
 const GEN_T = { lineas: "Lignes", todas: "Toutes", ninguna: "Aucune", op: "Oppositions",
   none: "Aucune ligne n’est active : clique sur l’une d’elles pour la voir.", hint: "Fais glisser pour parcourir l’histoire →" };
-const GEN_EPOCAS = [["ant", "Antique"], ["med", "Médiévale"], ["ren", "Renaissance"], ["mod", "Moderne"], ["ilu", "Illustration"], ["con", "Contemporaine"]];
+const GEN_EPOCAS = [["ant", "Antique"], ["med", "Médiévale"], ["ren", "Renaissance"], ["mod", "Moderne"], ["ilu", "Lumières"], ["con", "Contemporaine"]];
 /* (30-09) al entrar, solo dos líneas activas (con todas a la vez el plano abruma); «Todas» sigue a un clic */
 const GEN_DEFECTO = ["idea", "dual"];
 function genDefecto(){ return new Set(typeof GENEALOGIAS === "undefined" ? [] : GENEALOGIAS.lineas.filter(l => !GEN_DEFECTO.includes(l.id)).map(l => "l:" + l.id)); }

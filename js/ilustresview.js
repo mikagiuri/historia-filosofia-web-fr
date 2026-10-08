@@ -7,7 +7,7 @@
    Retrato de dominio público o CC (Wikimedia Commons) cuando lo hay; si no, un monograma. */
 
 const ILU_EPOCAS = [
-  ["ant", "Antique"], ["med", "Médiévale"], ["ren", "Renaissance"], ["mod", "Moderne"], ["ilu", "Illustration"], ["con", "Contemporaine"]
+  ["ant", "Antique"], ["med", "Médiévale"], ["ren", "Renaissance"], ["mod", "Moderne"], ["ilu", "Lumières"], ["con", "Contemporaine"]
 ];
 const ILU_SUBJECTS = { fil: "Philosophie 1re", hf: "Histoire de la philosophie" };
 let iluSubject = "all", iluEpoca = "all", iluQuery = "";

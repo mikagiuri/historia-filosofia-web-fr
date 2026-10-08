@@ -208,6 +208,13 @@ const CITAS = [
   "img": "media/retratos/museo2/adam-smith.jpg"
  },
  {
+  "c": "L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant.",
+  "a": "Blaise Pascal",
+  "o": "Pensées, fr. 200 (éd. Lafuma) / 347 (éd. Brunschvicg)",
+  "e": "moderne",
+  "img": "media/retratos/museo2/pascal.jpg"
+ },
+ {
   "c": "La raison est, et ne doit être, que l'esclave des passions.",
   "a": "David Hume",
   "o": "Traité de la nature humaine II, 3, 3",
@@ -1076,6 +1083,12 @@ const CITAS = [
   "c": "Nous sommes tous de lopins, et d'une contexture si informe et diverse, que chaque pièce, chaque moment, fait son jeu. Et se trouve autant de différence de nous à nous-mêmes, que de nous à autrui.",
   "a": "Montaigne",
   "o": "Essais (1580) II, 1",
+  "e": "moderne"
+ },
+ {
+  "c": "Rien de juste ni d'injuste qui ne change de qualité en changeant de climat. […] Plaisante justice qu'une rivière borne ! Vérité au-deçà des Pyrénées, erreur au-delà.",
+  "a": "Blaise Pascal",
+  "o": "Pensées, fr. 60 (éd. Lafuma) / 294 (éd. Brunschvicg)",
   "e": "moderne"
  },
  {

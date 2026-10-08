@@ -190,7 +190,7 @@ const PISTAS = [
          "Relis le premier paragraphe de l'explication."
         ],
         [
-         "Aux sophistes.",
+         "À un sophiste.",
          false,
          "Non. Celui qui revient n’est pas un sophiste, et les sophistes n’ont condamné personne. Ceux qui le rejettent sont les prisonniers, les gens ordinaires d’Athènes ; celui qui meurt est le maître de Platon."
         ],

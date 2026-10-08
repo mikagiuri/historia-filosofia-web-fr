@@ -172,13 +172,13 @@ const PISTAS = [
       "etiqueta": "Connaissance et politique",
       "titulo": "Le retour du philosophe",
       "definicion": [
-       "Le libéré revient et, habitué à la lumière, voit mal dans l'obscurité : les prisonniers se moquent de lui et, s'ils le pouvaient, le tueraient. C'est une allusion à la condamnation de <strong>Socrate</strong>.",
+       "Le libéré revient et, habitué à la lumière, voit mal dans l’obscurité : les prisonniers se moquent de lui et, s’ils le pouvaient, le tueraient. Celui qui revient, c’est <strong>Socrate</strong>, et les prisonniers sont ses <strong>concitoyens athéniens</strong>, qui l’ont condamné à mort en 399 av. J.-C.",
        "Pour Platon, bien gouverner exige de connaître l'Idée du Bien. C'est pourquoi, dans la cité juste, ce sont les <strong>philosophes</strong> qui gouvernent, même s'ils préféreraient rester à contempler.",
        "L'allégorie unit trois thèmes : la connaissance (montée vers les Idées), l'éducation (la sortie) et la politique (le retour pour gouverner)."
       ],
       "comprobacion": {
        "boton": "Terminer par une vérification",
-       "pregunta": "À qui fait allusion la réaction violente des prisonniers ?",
+       "pregunta": "À qui renvoie le libéré que les prisonniers veulent tuer ?",
        "opciones": [
         [
          "À Socrate, condamné à mort par Athènes.",
@@ -192,7 +192,7 @@ const PISTAS = [
         [
          "Aux sophistes.",
          false,
-         "Les sophistes n'ont pas été condamnés : Platon parle de son maître."
+         "Non. Celui qui revient n’est pas un sophiste, et les sophistes n’ont condamné personne. Ceux qui le rejettent sont les prisonniers, les gens ordinaires d’Athènes ; celui qui meurt est le maître de Platon."
         ],
         [
          "À personne en particulier.",

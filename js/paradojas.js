@@ -13,6 +13,12 @@ const PARADOJAS_GRUPOS = [
   "intro": "Zénon d'Élée, disciple de Parménide, a imaginé des arguments pour montrer que le mouvement, si on y réfléchit avec soin, semble impossible."
  },
  {
+  "id": "regreso",
+  "view": "paradojas",
+  "titulo": "Régressions et boucles",
+  "intro": "Quand une explication a besoin d'une autre explication, et celle-ci d'une autre, et ainsi de suite, il n'y a que trois issues : continuer sans fin (régression à l'infini), s'arrêter sur quelque chose qui ne s'explique plus (un absolu, un premier principe) ou revenir au point de départ (une boucle ou un cercle). Certains cercles sont vicieux et d'autres non ; certains absolus expliquent et d'autres cessent simplement de questionner. Un dessin célèbre le résume : <em>Mains dessinant</em> (1948), de M. C. Escher, où chaque main dessine l'autre."
+ },
+ {
   "id": "vaguedad",
   "view": "paradojas",
   "titulo": "Vague et identité",
@@ -23,6 +29,12 @@ const PARADOJAS_GRUPOS = [
   "view": "paradojas",
   "titulo": "Paradoxes de l'action et de la politique",
   "intro": "Ce ne sont pas des contradictions logiques, mais des situations où le moyen semble aller contre la fin, ou où la raison ne suffit pas pour décider."
+ },
+ {
+  "id": "colectivo",
+  "view": "paradojas",
+  "titulo": "Un et tous",
+  "intro": "Ce qui est bon ou vrai pour chacun peut cesser de l'être quand tous le font en même temps. Ce sont des paradoxes de la somme : l'erreur n'est pas dans chaque pas, mais dans le passage de « un » à « tous »."
  },
  {
   "id": "razonar",
@@ -213,6 +225,166 @@ const PARADOJAS = [
   "problema": "S'il peut la créer, il y a quelque chose qu'il ne peut pas faire : la soulever. S'il ne peut pas la créer, il y a quelque chose qu'il ne peut pas faire : la créer. Dans les deux cas, il n'est pas tout-puissant.",
   "salidas": "<ul><li><strong>Thomas d'Aquin</strong> : être omnipotent, c'est pouvoir faire tout ce qui est <em>possible</em>. Ce qui renferme une contradiction (« une pierre que ne peut pas soulever celui qui peut tout ») n'est pas une chose qu'on ne puisse pas faire, mais une phrase dépourvue de sens, comme « un cercle carré ».</li><li>D'autres pensent que le paradoxe montre que l'idée d'un pouvoir sans aucune limite est incohérente.</li></ul>",
   "pensar": "Est-ce une limitation de ne pas pouvoir faire le contradictoire ?"
+ },
+ {
+  "id": "berry",
+  "grupo": "autorref",
+  "titulo": "Le paradoxe de Berry",
+  "origen": "Russell l'a publié en 1908 et l'a attribué à G. G. Berry, bibliothécaire de l'université d'Oxford.",
+  "enunciado": "Pense à « le plus petit entier qui ne peut être nommé en moins de quinze mots ». Il existe de tels nombres, car avec moins de quinze mots on ne peut former qu'une quantité limitée de phrases, alors que les nombres ne s'épuisent pas ; et parmi eux, il y en aura un qui sera le plus petit. Mais la phrase entre guillemets compte quatorze mots.",
+  "problema": "La phrase nomme ce nombre en quatorze mots, donc le nombre peut bel et bien être nommé en moins de quinze mots : ce n'est pas celui que nous cherchions. Et si ce n'est pas lui, lequel est-ce ? Elle ne parle pas d'elle-même comme le menteur, mais elle utilise le mot « nommer » pour parler de tout ce qui peut être nommé, elle-même comprise.",
+  "salidas": "<ul><li>Comme pour le menteur, on sépare des niveaux : « nommable dans ce langage » ne peut pas être défini à l'intérieur de ce même langage.</li><li>L'idée a servi ensuite en mathématiques : Gregory Chaitin l'a utilisée pour démontrer qu'il existe des vérités sur la complexité des nombres qu'aucun système de règles ne peut prouver.</li></ul>",
+  "pensar": "Pourquoi n'y a-t-il pas de paradoxe si l'on remplace « quinze » par « cinq » ?"
+ },
+ {
+  "id": "agripa",
+  "grupo": "regreso",
+  "titulo": "Le trilemme de Münchhausen",
+  "origen": "Agrippa, sceptique grec (Ier siècle), rapporté par Sextus Empiricus dans les <em>Esquisses pyrrhoniennes</em> (livre I). Le nom est de Hans Albert (1968), d'après le baron de Münchhausen, qui racontait s'être sorti lui-même d'un marais en se tirant par les cheveux.",
+  "enunciado": "— Comment sais-tu que c'est vrai ? — Pour cette raison. — Et comment sais-tu que cette raison est vraie ? — Pour cette autre. — Et celle-ci ? … Si nous continuons à demander, il n'y a que trois fins possibles.",
+  "problema": "<ul><li><strong>Régression à l'infini</strong> : chaque raison en demande une autre, sans fin. Nous ne finissons jamais de justifier quoi que ce soit.</li><li><strong>Coupure</strong> : à un moment donné nous disons « cela ne se justifie plus, c'est ainsi ». Mais alors tout le reste repose sur quelque chose que nous avons accepté sans raison.</li><li><strong>Cercle</strong> : la chaîne revient à une raison que nous avions déjà utilisée. Mais alors ce que nous voulions prouver sert à se prouver lui-même.</li></ul><p>Aucune des trois ne ressemble à une véritable justification.</p>",
+  "salidas": "<ul><li><strong>Fondationnalisme</strong> : il y a des vérités qui n'ont pas besoin de preuve parce qu'elles sont évidentes. Pour Descartes, « je pense, donc je suis » ; pour Aristote, les premiers principes, comme celui de non-contradiction.</li><li><strong>Cohérentisme</strong> : les croyances ne forment pas une chaîne mais un réseau, et se soutiennent les unes les autres, comme les pierres d'une voûte.</li><li><strong>Faillibilisme</strong> (Popper, Albert) : il n'y a pas de fondement ultime. Nous acceptons les raisons tant qu'elles résistent aux critiques, en sachant que nous pouvons nous tromper.</li></ul>",
+  "pensar": "Un enfant qui demande « et pourquoi ? » encore et encore finit par épuiser la patience de n'importe qui. Laquelle des trois issues les adultes utilisent-ils le plus souvent pour l'arrêter ?"
+ },
+ {
+  "id": "tortugas",
+  "grupo": "regreso",
+  "titulo": "Des tortues jusqu'en bas",
+  "origen": "John Locke, <em>Essai sur l'entendement humain</em> (1690, livre II, chap. 23), raconte la version de l'éléphant et de la tortue. Celle des tortues à l'infini est une anecdote attribuée à plusieurs scientifiques ; Stephen Hawking l'utilise au début d'<em>Une brève histoire du temps</em> (1988).",
+  "enunciado": "Un sage explique que la Terre repose sur un éléphant, et l'éléphant sur une tortue. — Et la tortue, sur quoi repose-t-elle ? — Sur une autre tortue. — Et celle-là ? — C'est inutile, jeune homme : ce sont des tortues jusqu'en bas.",
+  "problema": "Chaque appui a besoin d'un autre appui. La réponse « des tortues jusqu'en bas » ne répond pas à la question : elle la repousse pour toujours. Si rien ne soutient la dernière tortue, parce qu'il n'y en a pas, qu'est-ce qui soutient l'ensemble ?",
+  "salidas": "<ul><li>Locke s'en sert pour se moquer de l'idée de <strong>substance</strong> : nous disons que les qualités des choses reposent sur « quelque chose », mais nous ne savons pas ce qu'est ce quelque chose, exactement comme le sage avec sa tortue.</li><li>La physique moderne change la question : la Terre ne repose sur rien, car « le bas » n'est pas une direction absolue ; elle est en orbite, tombant sans cesse autour du Soleil.</li><li>Elle montre la différence entre une régression <strong>qui explique</strong> et une qui ne fait que <strong>repousser</strong> l'explication.</li></ul>",
+  "pensar": "Une chaîne infinie de tortues, est-ce la même chose qu'une chaîne infinie d'ancêtres ? Pourquoi l'une nous paraît-elle absurde et l'autre beaucoup moins ?"
+ },
+ {
+  "id": "primermotor",
+  "grupo": "regreso",
+  "titulo": "La cause première : une régression qui s'arrête sur un absolu",
+  "origen": "Aristote, <em>Physique</em> (livre VIII) et <em>Métaphysique</em> (livre XII) ; Thomas d'Aquin, les « cinq voies » de la <em>Somme théologique</em> (I, question 2, article 3).",
+  "enunciado": "Tout ce qui se meut est mû par un autre. Cet autre, à son tour, est mû par un autre. Mais on ne peut pas continuer ainsi à l'infini, car alors il n'y aurait pas de premier moteur et rien ne se mouvrait. Donc il existe un premier moteur qui n'est mû par rien, « et c'est ce que tous comprennent par Dieu ».",
+  "problema": "Pour couper la régression, on pose un <strong>absolu</strong> : quelque chose qui explique tout le reste mais n'a pas besoin d'explication. L'objection est immédiate : si tout a une cause, qui a causé la cause première ? Et si quelque chose peut exister sans cause, pourquoi pas le monde lui-même ?",
+  "salidas": "<ul><li><strong>Thomas</strong> distingue deux chaînes. Une série infinie de pères et de fils ne lui paraît pas impossible. Ce qui est impossible, c'est une chaîne où chaque maillon agit <em>maintenant</em> grâce au précédent, comme la main qui meut le bâton qui meut la pierre : sans le premier, aucun ne bougerait.</li><li><strong>Spinoza</strong> appelle cet absolu <em>cause de soi</em> : ce dont la nature inclut l'existence.</li><li><strong>Kant</strong> (<em>Critique de la raison pure</em>, 1781) : la raison cherche toujours une condition qui ne soit plus conditionnée, et c'est pourquoi elle aboutit à un absolu. Mais nous ne pouvons pas savoir s'il existe : la question dépasse toute expérience possible.</li><li><strong>Russell</strong>, dans un débat radiophonique avec Copleston (1948), le rejette : « l'univers est simplement là, et c'est tout ».</li></ul>",
+  "pensar": "Arrêter une régression sur quelque chose qui « n'a pas besoin d'explication », est-ce expliquer ou cesser de questionner ? Un enfant qui répond « parce que » fait-il la même chose ?"
+ },
+ {
+  "id": "carroll",
+  "grupo": "regreso",
+  "titulo": "Ce que la tortue dit à Achille",
+  "origen": "Lewis Carroll, auteur d'<em>Alice au pays des merveilles</em> et professeur de logique, dans la revue <em>Mind</em> (1895).",
+  "enunciado": "Achille enseigne un raisonnement à la tortue : « S'il pleut, le sol est mouillé. Il pleut. Donc le sol est mouillé. » La tortue accepte les deux prémisses, mais pas la conclusion, tant qu'on n'a pas aussi écrit la règle : « S'il est vrai que s'il pleut le sol est mouillé, et qu'il est vrai qu'il pleut, alors le sol est mouillé. » Achille l'ajoute. La tortue demande alors une autre règle qui dise qu'avec ces trois-là, la conclusion s'ensuit. Et ainsi de suite.",
+  "problema": "Si chaque règle pour tirer une conclusion doit être ajoutée comme une prémisse de plus, il faudra une autre règle pour utiliser cette prémisse, et une autre… Nous ne parviendrions jamais à conclure quoi que ce soit, pas même avec le modus ponens, qui est le raisonnement le plus simple.",
+  "salidas": "<ul><li>Une règle d'inférence n'est pas une prémisse de plus : c'est ce qu'on <strong>fait</strong> avec les prémisses. Savoir raisonner, c'est savoir le faire, pas avoir une phrase de plus écrite.</li><li>La formule <em>(p ∧ (p → q)) → q</em> est une tautologie, vraie dans toutes les lignes de la table. Mais qu'elle soit vraie ne suffit pas pour obtenir <em>q</em> : il faut l'utiliser.</li><li>Wittgenstein revient sur quelque chose de semblable : suivre une règle ne peut pas toujours dépendre d'une autre règle qui l'interprète ; à un moment donné, nous agissons simplement.</li></ul>",
+  "pensar": "Que répondrais-tu à la tortue pour qu'elle cesse de demander des règles ?"
+ },
+ {
+  "id": "tercerhombre",
+  "grupo": "regreso",
+  "titulo": "Le troisième homme",
+  "origen": "Platon se le pose à lui-même dans le <em>Parménide</em> (132a) ; le nom est d'Aristote (<em>Métaphysique</em>, livre I).",
+  "enunciado": "Socrate, Platon et Phédon sont des hommes parce que tous participent de l'Idée d'Homme. Mais l'Idée d'Homme et les hommes concrets se ressemblent en quelque chose : tous sont « homme ». Pour expliquer cette ressemblance, il faudrait une autre Idée au-dessus d'eux : un « troisième homme ». Et ce troisième homme ressemblerait aux précédents, et aurait besoin d'une quatrième Idée…",
+  "problema": "Les Idées sont introduites pour expliquer pourquoi beaucoup de choses ont quelque chose en commun. Mais si l'Idée ressemble aux choses, elle devient elle-même une de ces choses, et il faut une autre Idée. Au lieu d'une Idée pour chaque type de chose, il y en aurait une infinité.",
+  "salidas": "<ul><li>L'Idée n'est pas un exemplaire de plus, comme un homme parfait placé à côté des autres. Elle n'<em>a</em> pas l'humanité, elle <em>est</em> l'humanité, et c'est pourquoi elle ne se compare pas aux hommes sur le même plan.</li><li><strong>Aristote</strong> utilise l'argument contre Platon : les formes n'existent pas séparées, mais dans les choses mêmes.</li><li>C'est une régression qui ne s'arrête pas sur un absolu : l'absolu proposé (l'Idée) a de nouveau besoin d'explication dès que nous le plaçons sur le même plan que ce qu'il explique.</li></ul>",
+  "pensar": "Une photographie de toi te ressemble-t-elle de la même manière que tu ressembles à une autre personne ?"
+ },
+ {
+  "id": "custodes",
+  "grupo": "regreso",
+  "titulo": "Qui surveille le surveillant ?",
+  "origen": "Juvénal, <em>Satires</em> (VI, 347-348) : <em>quis custodiet ipsos custodes ?</em> Platon le pose déjà dans la <em>République</em> (III, 403e).",
+  "enunciado": "Pour éviter les abus, on place un surveillant. Mais le surveillant peut aussi abuser, il faut donc quelqu'un pour le surveiller. Et qui surveille celui-là ?",
+  "problema": "C'est une régression politique. Il ne semble y avoir que deux manières d'y mettre fin : l'arrêter sur un <strong>absolu</strong>, un pouvoir ultime que personne ne surveille, ou la refermer en une <strong>boucle</strong>, où les surveillants se surveillent entre eux.",
+  "salidas": "<ul><li><strong>L'absolu</strong> : Hobbes, dans le <em>Léviathan</em> (1651), place un souverain qui n'est pas soumis aux lois qu'il dicte lui-même. La chaîne s'arrête ainsi, mais si le souverain abuse, personne ne peut l'arrêter.</li><li><strong>La boucle</strong> : Montesquieu, dans <em>De l'esprit des lois</em> (1748), propose que « le pouvoir arrête le pouvoir ». Si le législatif, l'exécutif et le judiciaire se contrôlent les uns les autres, il n'y a pas besoin d'un surveillant final. C'est un cercle, mais pas vicieux : personne ne se justifie lui-même, chacun limite les autres.</li><li>Platon répondait par l'éducation : le gardien bien formé n'a pas besoin de gardien. Il serait ridicule, dit-il, qu'un gardien ait besoin d'un autre gardien.</li></ul>",
+  "pensar": "Dans un examen, qui corrige celui qui corrige ? Quels mécanismes (révision, réclamation, inspection) forment une boucle et lesquels aboutissent à un dernier mot ?"
+ },
+ {
+  "id": "huevo",
+  "grupo": "regreso",
+  "titulo": "Qui est venu en premier, l'œuf ou la poule ?",
+  "origen": "Plutarque discute la question dans ses <em>Propos de table</em> (livre II, 3), aux Ier-IIe siècles.",
+  "enunciado": "Toute poule sort d'un œuf, et tout œuf de poule est pondu par une poule. Donc, avant n'importe quelle poule il y a eu un œuf, et avant cet œuf, une poule… Laquelle a été la première ?",
+  "problema": "C'est une boucle : chaque terme dépend de l'autre. Si nous la remontons, ou bien nous tournons en rond sans fin (régression), ou bien nous devons briser l'une des deux règles : ou il y a eu une poule qui n'est pas sortie d'un œuf, ou un œuf qui n'a pas été pondu par une poule.",
+  "salidas": "<ul><li><strong>Aristote</strong> répond que c'est la poule : ce qui existe en acte (la poule) est antérieur à ce qui n'est qu'en puissance (l'œuf, qui peut devenir poule).</li><li><strong>L'évolution</strong> brise la boucle : les espèces changent peu à peu. À un moment donné, un oiseau presque poule a pondu un œuf d'où est sorti quelque chose que nous appelons déjà poule. Donc l'œuf est venu en premier, mais il a été pondu par quelque chose qui n'était pas tout à fait une poule. La boucle était en réalité une <strong>spirale</strong> : chaque tour est un peu différent du précédent.</li><li>C'est aussi un cas de vague, comme le sorite : « poule » n'a pas de limite exacte.</li></ul>",
+  "pensar": "Cherche d'autres boucles de ce type : l'expérience et le travail (on ne t'embauche pas sans expérience, et tu n'as pas d'expérience sans travail). Comment se brisent-elles dans la vie réelle ?"
+ },
+ {
+  "id": "diccionario",
+  "grupo": "regreso",
+  "titulo": "La boucle du dictionnaire",
+  "origen": "Problème classique de la philosophie du langage ; Wittgenstein l'utilise, par exemple, dans les <em>Recherches philosophiques</em> (1953).",
+  "enunciado": "Tu cherches « grand » dans un dictionnaire et il dit à peu près « de taille supérieure à la normale ». Tu cherches « taille » : « dimension d'une chose ». Tu cherches « dimension » : « taille ou grandeur ». Tu es revenu au début.",
+  "problema": "Chaque mot est défini avec d'autres mots. Comme le dictionnaire a un nombre limité de mots, tôt ou tard les définitions forment des boucles. Alors, comment l'un d'eux en vient-il à signifier quoi que ce soit, si chacun renvoie à d'autres ?",
+  "salidas": "<ul><li>Les boucles sont inévitables, mais elles ne rendent pas le dictionnaire inutile : il ne sert qu'à celui qui connaît déjà <strong>certains</strong> mots.</li><li>Les premiers mots ne s'apprennent pas avec des définitions, mais en <strong>montrant du doigt</strong> et en les utilisant : « ceci est rouge », « cela est grand ». C'est la définition ostensive, qui coupe la régression en dehors du langage.</li><li>Wittgenstein ajoute que le geste de montrer ne suffit pas non plus à lui seul : il faut déjà savoir ce que l'on montre (la couleur ? la forme ? le nombre ?). La signification est dans l'usage, au sein d'une forme de vie.</li></ul>",
+  "pensar": "Comment expliquerais-tu ce qu'est le « rouge » à quelqu'un qui ne voit pas les couleurs ? Et ce qu'est « après » ?"
+ },
+ {
+  "id": "yablo",
+  "grupo": "regreso",
+  "titulo": "Le paradoxe de Yablo : un menteur sans autoréférence",
+  "origen": "Stephen Yablo, dans la revue <em>Analysis</em> (1993).",
+  "enunciado": "Imagine une liste infinie de phrases. La phrase 1 dit : « Toutes les phrases qui viennent après moi sont fausses. » La phrase 2 dit la même chose, et la 3, et ainsi sans fin. Aucune ne parle d'elle-même.",
+  "problema": "Si une phrase était vraie, toutes les suivantes seraient fausses. Mais si la suivante est fausse, l'une de celles qui viennent après elle est vraie, ce qui contredit ce qui précède. Donc toutes sont fausses. Mais si toutes celles qui suivent la phrase 1 sont fausses, la phrase 1 est vraie. Contradiction, et sans qu'aucune phrase ne parle d'elle-même.",
+  "salidas": "<ul><li>Il semblait que le menteur se réglait en interdisant qu'une phrase parle d'elle-même. Yablo montre que cela ne suffit pas : une <strong>régression infinie</strong> produit le même paradoxe qu'une <strong>boucle</strong>.</li><li>Certains logiciens (Graham Priest) répondent qu'il y a une autoréférence cachée : pour comprendre la liste entière, il faut se référer à la liste, qui contient chaque phrase.</li></ul>",
+  "pensar": "Qu'ont en commun une boucle (une phrase qui parle d'elle-même) et une chaîne infinie (des phrases qui parlent toujours des suivantes) ?"
+ },
+ {
+  "id": "distintos",
+  "grupo": "colectivo",
+  "titulo": "« Si nous voulons tous être différents, alors nous sommes tous pareils »",
+  "origen": "Idée très répétée à propos des modes. Georg Simmel l'a analysée dans <em>Philosophie de la mode</em> (1905) ; les Monty Python l'ont portée au cinéma dans <em>La Vie de Brian</em> (1979), où une foule répond en chœur que tous sont des individus.",
+  "enunciado": "Nous voulons tous être différents des autres. Mais si nous voulons tous la même chose, en cela nous sommes pareils. Et, de fait, ceux qui fuient la mode finissent tous habillés de la même façon.",
+  "problema": "<ul><li><strong>Il y a un jeu de mots</strong>. « Pareils » change de sens entre la prémisse et la conclusion. Que nous ayons tous le <em>même désir</em> (être différents) ne signifie pas que nous ayons les <em>mêmes traits</em>. C'est un sophisme d'équivoque : on confond un niveau (ce que nous voulons) avec un autre (ce que nous sommes).</li><li><strong>Mais il y a quelque chose de vrai</strong>. Être différent est une relation : on est toujours différent <em>de</em> quelque chose. Si nous prenons tous la même référence (ce que fait la majorité) et nous en éloignons en même temps, nous finissons par aller ensemble dans la même direction. Le mathématicien Jonathan Touboul l'a appelé l'<strong>effet hipster</strong> (2014) : les anticonformistes finissent par se ressembler entre eux.</li></ul>",
+  "salidas": "<ul><li><strong>Simmel</strong> : la mode unit deux désirs contraires. Nous voulons imiter, pour appartenir à un groupe, et nous distinguer, pour ne pas nous perdre en lui. Chaque mode naît pour distinguer et meurt quand tous l'imitent.</li><li><strong>Logiquement, il n'y a pas de contradiction</strong> : il est possible que nous soyons tous différents de tous en même temps. Ce qui est impossible, c'est autre chose : que nous soyons tous au-dessus de la moyenne, ou que nous soyons tous « plus originaux que la majorité ».</li><li>En 2019, une revue a illustré un article sur l'effet hipster avec la photo d'un homme barbu coiffé d'un bonnet. Un lecteur a écrit, indigné, parce qu'on avait utilisé sa photo sans permission. Ce n'était pas lui : c'était un autre homme qui lui ressemblait énormément.</li></ul>",
+  "pensar": "Tout le monde peut-il être original en même temps ? Et tout le monde peut-il être au-dessus de la moyenne ? Pourquoi la réponse est-elle différente ?"
+ },
+ {
+  "id": "concierto",
+  "grupo": "colectivo",
+  "titulo": "Debout au concert",
+  "origen": "Exemple classique des manuels d'économie pour expliquer le <strong>sophisme de composition</strong>. Le nom vient d'Aristote (<em>Réfutations sophistiques</em>), bien qu'il l'entendait de façon un peu différente.",
+  "enunciado": "À un concert, si une personne se met debout, elle voit mieux. Donc, si tout le public se met debout, tout le monde verra mieux.",
+  "problema": "La prémisse est vraie et la conclusion est fausse : si tout le monde se lève, tout le monde voit comme avant, mais moins confortablement. Ce qui vaut pour chacun séparément ne vaut pas forcément pour tous ensemble, car l’avantage de chacun dépendait du fait que les autres <em>ne</em> le faisaient pas.",
+  "salidas": "<ul><li>Le <strong>sophisme de composition</strong> passe des parties au tout (« chaque pièce est légère, donc la machine est légère »). Celui de <strong>division</strong> fait le contraire (« l'équipe est la meilleure, donc chaque joueur est le meilleur »).</li><li>Passer des parties au tout n'est pas toujours fallacieux : si chaque brique est rouge, le mur est rouge. Il faut regarder si la propriété dépend de la relation avec les autres.</li></ul>",
+  "pensar": "Cela se passe-t-il pareil avec étudier plus pour avoir une meilleure note que les autres, ou avec arriver plus tôt dans la file ?"
+ },
+ {
+  "id": "ahorro",
+  "grupo": "colectivo",
+  "titulo": "Le paradoxe de l'épargne",
+  "origen": "John Maynard Keynes, <em>Théorie générale de l'emploi, de l'intérêt et de la monnaie</em> (1936), qui rappelle Mandeville et sa <em>Fable des abeilles</em> (1714).",
+  "enunciado": "Épargner est bon pour une famille : si elle dépense moins qu'elle ne gagne, elle aura de l'argent pour quand elle en aura besoin. Donc, si en temps de crise toutes les familles épargnent davantage, le pays ira mieux.",
+  "problema": "Si tous dépensent moins en même temps, les commerces et les entreprises vendent moins, licencient des travailleurs, et ces familles gagnent moins et peuvent épargner moins. La tentative de tous d'épargner peut finir par moins d'épargne et plus de chômage. Ce qui est prudent pour un seul devient nuisible pour tous.",
+  "salidas": "<ul><li>C'est un autre cas de sophisme de composition : la dépense de l'un est le revenu d'un autre, et cela ne se voit pas si l'on regarde une seule famille.</li><li>Keynes conclut qu'en temps de crise l'État doit dépenser quand les familles ne le peuvent pas. D'autres économistes discutent de quand et jusqu'à quel point cette idée vaut.</li></ul>",
+  "pensar": "Kant demande ce qui arriverait si tous agissaient selon la même maxime. Ce test sert-il aussi en dehors de l'éthique, comme ici ?"
+ },
+ {
+  "id": "comunes",
+  "grupo": "colectivo",
+  "titulo": "La tragédie des biens communs",
+  "origen": "William Forster Lloyd (1833) ; Garrett Hardin l'a rendue célèbre dans la revue <em>Science</em> (1968).",
+  "enunciado": "Un pré appartient à tous les bergers du village. Chaque berger a intérêt à y mettre une brebis de plus : le bénéfice est tout pour lui, et le dommage causé au pré est réparti entre tous. Comme tous raisonnent de la même façon, le pré s'épuise et personne ne peut plus l'utiliser.",
+  "problema": "Chaque décision est rationnelle pour celui qui la prend, et le résultat est mauvais pour tous, y compris pour chacun. Il n'y a aucune erreur dans le calcul de chaque berger ; le problème est dans la somme.",
+  "salidas": "<ul><li><strong>Hardin</strong> proposait deux issues : répartir le pré en propriété privée ou le faire contrôler par l'État.</li><li><strong>Elinor Ostrom</strong> (prix Nobel d'économie en 2009) a étudié des villages qui partagent depuis des siècles pâturages, forêts ou systèmes d'irrigation sans les épuiser. Ils y parviennent avec des règles qu'ils fixent eux-mêmes, une surveillance mutuelle et des sanctions graduelles. Par exemple, le Tribunal des Eaux de Valence.</li><li>Le climat, les bancs de poissons ou le silence d'une bibliothèque sont aussi des « biens communs ».</li></ul>",
+  "pensar": "Quels « biens communs » y a-t-il dans ta classe ou dans ton lycée ? Quelles règles les protègent ?"
+ },
+ {
+  "id": "moore",
+  "grupo": "razonar",
+  "titulo": "Le paradoxe de Moore : « Il pleut, mais je ne le crois pas »",
+  "origen": "G. E. Moore l'a posé dans les années 1940 ; Wittgenstein lui a donné son nom.",
+  "enunciado": "« Il pleut, mais je ne crois pas qu'il pleuve. »",
+  "problema": "La phrase n'est pas une contradiction : il peut être vrai qu'il pleuve et que je ne le croie pas (je suis dans une cave sans fenêtres). Dite par un autre (« il pleut, mais il ne le croit pas »), elle est parfaitement normale. Et pourtant, dite par moi, elle sonne absurde. Pourquoi, si elle n'est pas contradictoire ?",
+  "salidas": "<ul><li>En <strong>affirmant</strong> quelque chose, je donne à entendre que je le crois. Ainsi, en disant « il pleut », je dis déjà implicitement « je crois qu'il pleut », et ensuite je le nie. La contradiction n'est pas dans ce que dit la phrase, mais entre la phrase et l'acte de la dire.</li><li>Wittgenstein a vu ici que « je crois que… » ne décrit pas toujours un état à moi : c'est souvent une manière prudente d'affirmer.</li></ul>",
+  "pensar": "Et la phrase « je ne crois pas qu'il pleuve, mais je peux me tromper » ? Est-elle aussi absurde ?"
+ },
+ {
+  "id": "prefacio",
+  "grupo": "razonar",
+  "titulo": "Le paradoxe de la préface",
+  "origen": "David Makinson, dans la revue <em>Analysis</em> (1965).",
+  "enunciado": "Une autrice a révisé son livre avec soin et croit chacune des phrases qu'elle a écrites. Mais dans la préface elle met : « Il y a sûrement des erreurs dans ce livre, et je m'en excuse. » Elle le croit aussi, car tous les livres longs contiennent des erreurs.",
+  "problema": "Elle croit que la phrase 1 est vraie, que la 2 est vraie… et que la dernière est vraie. Et elle croit en même temps que l'une d'elles est fausse. Ses croyances ensemble ne peuvent pas être toutes vraies. Et pourtant, il semble raisonnable de toutes les croire : plus raisonnable que de penser que son livre est parfait.",
+  "salidas": "<ul><li>Peut-être croire des choses incompatibles n'est-il pas toujours irrationnel, tant qu'elles ne se réunissent pas en une seule croyance (« tout mon livre est vrai »).</li><li>Autre issue : nous ne croyons pas chaque phrase à 100 %, mais avec un degré de confiance. Si chaque phrase est probable à 99 %, un livre de mille phrases en contient presque sûrement une fausse. Ainsi, il n'y a pas de contradiction.</li></ul>",
+  "pensar": "Crois-tu que toutes tes opinions sont vraies ? Et crois-tu que l'une d'elles est fausse ? Cela te semble-t-il une contradiction ?"
  },
  {
   "id": "infelices",

@@ -229,7 +229,7 @@ const GEN_TESIS = {
    "id": "kan-mentir",
    "ilustre": "kant",
    "t": "Il n'est pas permis de mentir, pas même à l'assassin qui demande où se cache ton ami.",
-   "ref": "Sur un prétendu droit de mentir par humanité (1797), AA VIII 425-430",
+   "ref": "D'un prétendu droit de mentir par humanité (1797), AA VIII 425-430",
    "forma": "paraphrase"
   },
   {

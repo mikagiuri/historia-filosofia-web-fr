@@ -21,7 +21,7 @@ const NUDOS = [
     "tipo": "real",
     "por": "Si mentir est mal « en soi », indépendamment de ce que cela provoque, il est mal aussi de mentir au meurtrier. Si, dans ce cas, c'est juste, alors mentir n'est pas mal en soi, mais selon les circonstances ou les conséquences.",
     "distinguir": "Piste : dans le cas du meurtrier, y a-t-il un autre devoir en jeu, protéger un innocent, qui pèse davantage ? Cela ne nie pas que mentir soit mal en soi : cela dit que deux devoirs entrent parfois en conflit.",
-    "fuente": "Kant, « Sur un prétendu droit de mentir par humanité » (1797) : pas même au meurtrier. W. D. Ross, les devoirs prima facie (1930)."
+    "fuente": "Kant, « D'un prétendu droit de mentir par humanité » (1797) : pas même au meurtrier. W. D. Ross, les devoirs prima facie (1930)."
    },
    {
     "k": "M7=A|M3=A",
@@ -74,7 +74,7 @@ const NUDOS = [
     "k": "M6=A|M3=A",
     "tipo": "aparente",
     "por": "Elles semblent se contredire : tu acceptes la prémisse de Kant (si tout le monde mentait quand cela l’arrange, personne ne pourrait se fier à personne) et tu rejettes sa conclusion (on ne peut pas mentir, même à l’assassin). Ce n’est pas une contradiction si la règle que tu universalises n’est pas « mentir quand cela arrange », mais « mentir à qui veut se servir de la vérité pour nuire », ce qui ne détruit pas la confiance entre personnes de bonne foi.",
-    "fuente": "Kant, « Sur un prétendu droit de mentir par humanité » (1797), AA VIII 425-430 ; Christine Korsgaard, « The Right to Lie: Kant on Dealing with Evil » (1986)."
+    "fuente": "Kant, « D'un prétendu droit de mentir par humanité » (1797), AA VIII 425-430 ; Christine Korsgaard, « The Right to Lie: Kant on Dealing with Evil » (1986)."
    },
    {
     "k": "M2=A|M6=A",

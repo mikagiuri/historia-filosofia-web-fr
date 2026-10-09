@@ -424,7 +424,7 @@ const DILEMAS = [
   "debate": {
    "epoca": "1797, le débat Constant-Kant",
    "texto": "« La véracité dans les déclarations auxquelles on ne peut se soustraire est un devoir formel de l'homme envers tout autre, si grand que soit le préjudice qui peut en résulter pour lui ou pour autrui. »",
-   "fuente": "Kant, Sur un prétendu droit de mentir par humanité (1797), en réponse à Constant.",
+   "fuente": "Kant, D'un prétendu droit de mentir par humanité (1797), en réponse à Constant.",
    "unidad": "hf-etica-deber"
   },
   "preguntas": [

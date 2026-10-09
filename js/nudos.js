@@ -52,6 +52,31 @@ const NUDOS = [
     "fuente": "Augustin d'Hippone, Du mensonge (De mendacio, vers 395) : il classe les mensonges et condamne aussi les pieux mensonges."
    },
    {
+    "k": "M1=D|M9=A",
+    "tipo": "real",
+    "por": "Mentir est une manière de tromper. Si tromper est mal même quand tout ce que tu dis est vrai, ce qui est mal n’est pas la fausseté, mais le fait de faire croire à autrui ce qui n’est pas. Alors pourquoi mentir ne serait-il pas mal en soi, puisqu’il vise toujours précisément cela ?",
+    "distinguir": "Piste : peut-être ce qui est mal est-il l’intention d’induire en erreur, et non la fausseté de ce qui est dit. Mais alors, le pieux mensonge n’a-t-il pas lui aussi cette intention ? Penses-y avec ta réponse sur le cadeau.",
+    "fuente": "Bernard Williams, Vérité et véracité (2002), chap. 5, sur le mensonge et les autres formes de tromperie."
+   },
+   {
+    "k": "M4=A|M5=D",
+    "tipo": "aparente",
+    "por": "Elles semblent se contredire : le pieux mensonge est acceptable, celui du gouvernement « pour le bien de la population » ne l’est pas, alors que les deux se justifient par le bien d’autrui. Mais ce n’est pas une contradiction s’il y a des différences pertinentes : le pouvoir de celui qui ment, l’échelle, le fait que la personne trompée ne puisse ni le vérifier ni y consentir, et ce qui est en jeu, la confiance publique.",
+    "fuente": "Platon, La République III (414b-415d), le « noble mensonge » ; Sissela Bok, Lying: Moral Choice in Public and Private Life (1978), sur les mensonges des gouvernements."
+   },
+   {
+    "k": "M6=A|M4=A",
+    "tipo": "aparente",
+    "por": "Elles semblent se contredire : tu admets que, si tout le monde mentait quand cela l’arrange, personne ne pourrait se fier à personne (la prémisse de l’universalisation chez Kant), mais tu acceptes le pieux mensonge, que Kant rejetterait. Ce n’est pas une contradiction si « mentir quand cela arrange » n’est pas la même chose que mentir dans des cas limités et reconnaissables, comme la politesse devant un cadeau, qui ne détruisent pas la confiance.",
+    "fuente": "Kant, Fondements de la métaphysique des mœurs (1785), AA IV 422 : l’exemple de la fausse promesse."
+   },
+   {
+    "k": "M6=A|M3=A",
+    "tipo": "aparente",
+    "por": "Elles semblent se contredire : tu acceptes la prémisse de Kant (si tout le monde mentait quand cela l’arrange, personne ne pourrait se fier à personne) et tu rejettes sa conclusion (on ne peut pas mentir, même à l’assassin). Ce n’est pas une contradiction si la règle que tu universalises n’est pas « mentir quand cela arrange », mais « mentir à qui veut se servir de la vérité pour nuire », ce qui ne détruit pas la confiance entre personnes de bonne foi.",
+    "fuente": "Kant, « Sur un prétendu droit de mentir par humanité » (1797), AA VIII 425-430 ; Christine Korsgaard, « The Right to Lie: Kant on Dealing with Evil » (1986)."
+   },
+   {
     "k": "M2=A|M6=A",
     "tipo": "aparente",
     "por": "Elles semblent s'opposer (« seules les conséquences comptent » face à une raison de principe de ne pas mentir), mais ce n'est pas une contradiction : l'affirmation sur la confiance est justement un argument conséquentialiste. Ce qui serait mal dans le mensonge, c'est qu'il détruit la confiance, et c'est une conséquence.",

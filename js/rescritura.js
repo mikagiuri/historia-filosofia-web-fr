@@ -570,5 +570,39 @@ const RESCRITURA_TEXTOS = [
     "porque": "Elle dit deux choses que le texte nie. Aristote distingue l'être humain des abeilles justement par la parole et le sens de la justice ; il ne le met pas à leur niveau. Et celui qui vit hors de la cité par nature est « une bête ou un dieu », non quelqu'un d'admirable parce qu'il se serait libéré."
    }
   ]
+ },
+ {
+  "id": "canibales",
+  "autor": "Michel de Montaigne",
+  "obra": "<em>Essais</em>, livre I, chapitre 31, « Des cannibales » (1580). Il parle des peuples indigènes du Brésil.",
+  "original": "Je trouve qu'il n'y a rien de barbare et de sauvage en cette nation, à ce qu'on m'en a rapporté, sinon que chacun appelle barbarie ce qui n'est pas de son usage. Comme de vrai, il semble que nous n'avons autre mire de la vérité et de la raison que l'exemple et idée des opinions et usances du pays où nous sommes : là est toujours la parfaite religion, la parfaite police, parfait et accompli usage de toutes choses. Ils sont sauvages, de même que nous appelons sauvages les fruits que nature, de soi et de son progrès ordinaire, a produits ; là où, à la vérité, ce sont ceux que nous avons altérés par notre artifice et détournés de l'ordre commun, que nous devrions appeler plutôt sauvages.",
+  "terminos": [
+   "barbare",
+   "barbarie",
+   "sauvage",
+   "nature"
+  ],
+  "versiones": [
+   {
+    "tipo": "rescritura",
+    "texto": "Montaigne soupçonne que, lorsque nous traitons d'autres peuples de barbares, nous disons seulement qu'ils ne vivent pas comme nous. Nous prenons les coutumes et les croyances de notre propre pays pour l'étalon du vrai et du raisonnable, et c'est pourquoi notre religion, nos lois et nos manières nous semblent toujours les meilleures. Il joue en outre sur le mot « sauvage » : si est sauvage ce qui pousse tout seul, comme le fruit des champs, ces peuples le sont au bon sens du terme ; ce qui s'est vraiment écarté de la nature, et qu'il faudrait dire sauvage, c'est ce que nous avons déformé par notre artifice.",
+    "porque": "Elle explique les deux idées (nous jugeons les autres à l'aune de nos coutumes ; le double sens de « sauvage ») avec des phrases personnelles, et rend explicite le jeu de mots, qui est la clé du texte."
+   },
+   {
+    "tipo": "copia",
+    "texto": "Il n'y a rien de barbare et de sauvage en cette nation, sinon que chacun appelle barbarie ce qui n'est pas de son usage. Nous n'avons autre mire de la vérité et de la raison que l'exemple et idée des opinions et usances du pays où nous sommes : là est toujours la parfaite religion, la parfaite police. Ils sont sauvages, de même que nous appelons sauvages les fruits que nature a produits, là où ce sont ceux que nous avons altérés par notre artifice que nous devrions appeler sauvages.",
+    "porque": "C'est l'original avec quelques coupes. La phrase la plus célèbre, « chacun appelle barbarie ce qui n'est pas de son usage », peut s'utiliser, mais entre guillemets."
+   },
+   {
+    "tipo": "sinonimia",
+    "texto": "J'estime qu'il n'y a rien d'incivilisé ni de primitif en ce peuple, d'après ce qu'on m'en a relaté, sinon que chacun nomme incivilité ce qui n'est pas de son habitude. À dire vrai, il semble que nous n'avons d'autre critère du certain et du sensé que le modèle et la notion des avis et pratiques de la contrée où nous résidons : là est toujours la foi accomplie, l'administration accomplie, la pratique accomplie et achevée de toutes les affaires. Ils sont primitifs, de même que nous appelons primitifs les produits que l'environnement, de lui-même et de sa marche habituelle, a engendrés ; là où, en réalité, ce sont ceux que nous avons modifiés par notre technique et écartés de l'ordre général, que nous devrions nommer plutôt primitifs.",
+    "porque": "Elle calque le texte phrase par phrase. Et elle casse le jeu de mots qui porte l'argument : Montaigne emploie « sauvage » en deux sens (non civilisé et non cultivé, comme le fruit), et « primitif » n'a pas le second. De plus, « nature » n'est pas « environnement »."
+   },
+   {
+    "tipo": "malinterpretacion",
+    "texto": "Montaigne soutient que les peuples indigènes d'Amérique étaient supérieurs aux Européens en tout et que le mieux serait d'abandonner la civilisation pour revenir vivre comme eux, en pleine nature.",
+    "porque": "Elle exagère et ajoute. Le texte critique le fait de juger les autres à l'aune de nos coutumes et retourne le mot « sauvage » ; il ne dit pas que ces peuples sont supérieurs en tout ni qu'il faut abandonner la civilisation."
+   }
+  ]
  }
 ];

@@ -536,5 +536,39 @@ const RESCRITURA_TEXTOS = [
     "porque": "Elle exagère dans deux sens. Kant ne parle pas d'un simple souhait, mais d'une volonté qui met « tous les moyens qui sont en notre pouvoir ». Et il ne dit pas que les talents ou le bonheur soient mauvais : il dit qu'ils sont bons à bien des égards, mais pas sans condition."
    }
   ]
+ },
+ {
+  "id": "politica",
+  "autor": "Aristote",
+  "obra": "<em>Politique</em>, livre I, chapitre 2 (IVe siècle av. J.-C.)",
+  "original": "De tout cela il ressort avec évidence que la cité fait partie des choses qui existent par nature, et que l'homme est par nature un animal politique. Et celui qui, par nature et non par hasard, vit hors de la cité est soit un être inférieur, soit un être supérieur à l'homme. La raison pour laquelle l'homme est un animal politique plus que n'importe quelle abeille ou n'importe quel animal grégaire est claire : la nature, comme nous le disons, ne fait rien en vain, et l'homme est le seul animal qui possède la parole. La voix est le signe de la douleur et du plaisir, et c'est pourquoi les autres animaux l'ont aussi, car leur nature va jusqu'à éprouver la douleur et le plaisir et à se les signifier les uns aux autres. Mais la parole existe pour manifester l'utile et le nuisible, et aussi le juste et l'injuste. Et c'est là le propre de l'homme par rapport aux autres animaux : être le seul à avoir la perception du bien et du mal, du juste et de l'injuste, et des autres choses de ce genre. C'est la mise en commun de ces choses qui constitue la famille et la cité. Celui qui ne peut vivre en communauté, ou qui n'a besoin de rien parce qu'il se suffit à lui-même, n'est pas membre de la cité : c'est une bête ou un dieu.",
+  "terminos": [
+   "cité",
+   "animal politique",
+   "parole",
+   "nature"
+  ],
+  "versiones": [
+   {
+    "tipo": "rescritura",
+    "texto": "Pour Aristote, vivre dans une cité n'est ni une invention ni un accord : cela relève de la nature humaine, car nous sommes des animaux politiques. Nous le sommes davantage que les abeilles ou que tout animal vivant en groupe, et la preuve en est que nous seuls avons la parole. Les autres animaux ont une voix, qui leur suffit pour exprimer et partager ce qui les fait souffrir ou les réjouit. La parole, elle, sert à autre chose : dire ce qui nous profite et ce qui nous nuit, ce qui est juste et ce qui ne l'est pas. Comme la nature ne donne rien sans but, si elle nous a donné la parole, c'est pour que nous partagions cette idée du bien et de la justice, et c'est cela qui donne naissance à la famille et à la cité. Voilà pourquoi celui qui est vraiment incapable de vivre avec les autres, ou qui n'en a aucun besoin, se situe au-dessous de l'humain, comme une bête, ou au-dessus, comme un dieu.",
+    "porque": "Elle suit l'argument entier (la cité est naturelle, la preuve par la parole, la différence entre la voix et la parole, la conclusion) dans un autre ordre et avec des phrases personnelles, et garde les termes « animal politique », « parole » et « cité »."
+   },
+   {
+    "tipo": "copia",
+    "texto": "La cité fait partie des choses qui existent par nature, et l'homme est par nature un animal politique, plus que n'importe quelle abeille ou n'importe quel animal grégaire, car la nature ne fait rien en vain et l'homme est le seul animal qui possède la parole. La voix est le signe de la douleur et du plaisir, et c'est pourquoi les autres animaux l'ont aussi ; mais la parole existe pour manifester l'utile et le nuisible, et aussi le juste et l'injuste. C'est la mise en commun de ces choses qui constitue la famille et la cité. Celui qui ne peut vivre en communauté n'est pas membre de la cité : c'est une bête ou un dieu.",
+    "porque": "Elle relie par des virgules des phrases entières de l'original et saute les autres. On dirait un bon résumé, mais il n'y a pas une seule phrase personnelle."
+   },
+   {
+    "tipo": "sinonimia",
+    "texto": "De tout ce qui précède on déduit clairement que la polis fait partie des réalités qui se donnent par essence, et que l'être humain est par essence un être social. Et celui qui, par essence et non par accident, habite hors de la polis est soit une entité inférieure, soit une entité supérieure à l'être humain. Le motif pour lequel l'être humain est un être social plus que n'importe quelle abeille ou n'importe quelle bête de troupeau est manifeste : l'essence, comme nous l'affirmons, ne fait rien inutilement, et l'être humain est le seul être vivant qui dispose du langage. Le son est l'indice de la souffrance et de la jouissance, et c'est pourquoi les autres êtres vivants le possèdent aussi, car leur essence va jusqu'à percevoir la souffrance et la jouissance et à se les transmettre les uns aux autres. Mais le langage existe pour exprimer le profitable et le préjudiciable, et aussi l'équitable et l'inique. Et c'est là le trait distinctif de l'être humain face aux autres êtres vivants : être le seul à posséder la notion du bien et du mal, de l'équitable et de l'inique, et des autres questions de cette sorte. La participation à ces questions est ce qui forme le foyer et la polis. Celui qui ne peut habiter en société, ou qui n'a besoin de rien parce qu'il est autosuffisant, n'est pas un élément de la polis : c'est un fauve ou une divinité.",
+    "porque": "Le même texte, phrase par phrase, avec des synonymes. Et il abîme les concepts clés : « animal politique » n'est pas « être social » (les abeilles aussi sont sociales ; le politique exige la parole et la justice), « nature » n'est pas « essence » et « parole » n'est pas n'importe quel « langage »."
+   },
+   {
+    "tipo": "malinterpretacion",
+    "texto": "Aristote soutient que nous, les êtres humains, sommes comme les abeilles : nous vivons en société par instinct, comme tous les animaux qui vivent en troupeau. C'est pourquoi celui qui vit seul, comme un ermite, est un être supérieur, presque un dieu, parce qu'il a réussi à se libérer de cet instinct.",
+    "porque": "Elle dit deux choses que le texte nie. Aristote distingue l'être humain des abeilles justement par la parole et le sens de la justice ; il ne le met pas à leur niveau. Et celui qui vit hors de la cité par nature est « une bête ou un dieu », non quelqu'un d'admirable parce qu'il se serait libéré."
+   }
+  ]
  }
 ];

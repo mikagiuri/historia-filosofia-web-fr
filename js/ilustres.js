@@ -2665,6 +2665,7 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-etica-deber",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-posmodernidad"
   ]
  },
@@ -2716,7 +2717,8 @@ const ILUSTRES = {
   "temas": [
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "roux": {
@@ -2783,7 +2785,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "hebert": {
@@ -2832,7 +2835,8 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-corazon-piedra"
   ]
  },
  "schiller": {
@@ -2858,7 +2862,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-kant-poetas"
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "babeuf": {
@@ -3015,6 +3020,7 @@ const ILUSTRES = {
    "hf-spinoza-universal",
    "hf-kant-poetas",
    "hf-sospecha",
+   "hf-corazon-piedra",
    "hf-capitalismo",
    "hf-posmodernidad",
    "hf-beauvoir"
@@ -3322,7 +3328,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-corazon-piedra"
   ]
  },
  "comte": {
@@ -3350,6 +3357,33 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-etica-deber",
    "hf-sospecha"
+  ]
+ },
+ "balzac": {
+  "name": "Honoré de Balzac",
+  "dates": "1799 – 1850",
+  "born": 1799,
+  "died": 1850,
+  "place": "Tours (France)",
+  "role": "romancier",
+  "idea": "Le roman peut dépeindre une société tout entière, et dans la société moderne, ce qui fait agir presque tous les personnages, c'est l'argent.",
+  "bio": "<p>Honoré de Balzac naquit à Tours en 1799. Il étudia le droit à Paris et travailla dans un cabinet d'avocats, mais il voulait être écrivain. Avant de réussir, il échoua comme éditeur et imprimeur, et cette affaire lui laissa des dettes qui le poursuivirent toute sa vie. Son premier roman signé de son nom, <em>Les Chouans</em>, parut en 1829. Dès lors, il écrivit sans relâche, la nuit et à grand renfort de café, des dizaines de romans. En 1850, il épousa la comtesse polonaise Ewelina Hańska, avec qui il correspondait depuis près de vingt ans, et il mourut à Paris cinq mois plus tard.</p>\n<p>Balzac réunit ses œuvres sous le titre de <em>La Comédie humaine</em> : plus de quatre-vingt-dix romans et récits où les mêmes personnages reparaissent d'un livre à l'autre, comme dans une société réelle. Il voulut être le « secrétaire » de son époque et décrire banquiers, usuriers, journalistes, paysans et fonctionnaires. C'est le grand maître du <strong>réalisme</strong>. Politiquement, il était monarchiste et catholique, mais son portrait de la bourgeoisie était si exact qu'Engels, dans une lettre de 1888, écrivit qu'il avait appris de lui plus que de tous les historiens, économistes et statisticiens de l'époque réunis. Engels appela cela le <strong>triomphe du réalisme</strong> : le romancier vit la vérité de son temps même contre ses propres sympathies politiques.</p>",
+  "obras": [
+   "La Peau de chagrin (1831)",
+   "Eugénie Grandet (1833)",
+   "Le Père Goriot (1835)",
+   "Illusions perdues (1837-1843)"
+  ],
+  "anecdota": "<p>Balzac passa la moitié de sa vie à fuir ses créanciers. Le 1er octobre 1840, il loua une maison à Passy, alors un village aux portes de Paris, mais pas à son nom : le bail était au nom de sa gouvernante, Louise Breugnol, et il se faisait passer pour « M. de Breugnol ». Dans sa maison précédente, rue des Batailles, il se faisait appeler « veuve Durand ». La maison de Passy était construite à flanc de coteau et avait une entrée sur deux rues : on raconte que, si un encaisseur sonnait à la porte du haut, Balzac descendait l'escalier et sortait par celle du bas, l'actuelle rue Berton. Il écrivit à Mme Hańska qu'il était là « caché pour quelque temps ». Il y resta sept ans et y révisa <em>La Comédie humaine</em>. C'est aujourd'hui la Maison de Balzac, un musée.</p>",
+  "fuente": "Bail de location (1840) et lettre de Balzac à Ewelina Hańska (16 novembre 1840) ; Maison de Balzac (Paris)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
   ]
  },
  "feuerbach": {
@@ -3532,6 +3566,60 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "dickens": {
+  "name": "Charles Dickens",
+  "dates": "1812 – 1870",
+  "born": 1812,
+  "died": 1870,
+  "place": "Portsmouth (Angleterre)",
+  "role": "romancier et journaliste",
+  "idea": "Une société qui ne compte que les données, les profits et l'utilité oublie les personnes, surtout les enfants et les pauvres.",
+  "bio": "<p>Charles Dickens naquit à Portsmouth en 1812. Sa famille vivait toujours endettée et, enfant, il connut de près la pauvreté. Il apprit la sténographie et débuta comme chroniqueur parlementaire, jusqu'à ce que <em>Les Papiers posthumes du Pickwick Club</em> (1836-1837) le rendent célèbre. Il publiait ses romans en feuilleton, si bien que des millions de lecteurs attendaient chaque chapitre. Dans sa maturité, il parcourut la Grande-Bretagne et les États-Unis pour des lectures publiques où il interprétait ses personnages. Il mourut en 1870 dans sa maison de Gad's Hill, dans le Kent, et fut enterré à l'abbaye de Westminster.</p>\n<p>Ses romans donnent la parole aux enfants abandonnés, aux hospices pour pauvres, aux prisons pour dettes et aux quartiers ouvriers de la <strong>révolution industrielle</strong>. Dickens ne voulait pas une révolution, mais éveiller la compassion de ses lecteurs pour réformer la société. Dans <em>Les Temps difficiles</em> (1854), dédié à Thomas Carlyle, il attaque la version la plus étroite de l'<strong>utilitarisme</strong> de Bentham et de l'économie politique : une école et une ville industrielle où seul compte ce qui peut se mesurer, et où les ouvriers ne sont que des « bras ». Le roman ne rejette pas la science, mais une manière de penser qui oublie l'imagination et les sentiments. C'est l'une des formes littéraires du soupçon envers le monde bourgeois que ce thème étudie aux côtés de Marx.</p>",
+  "obras": [
+   "Oliver Twist (1837-1839)",
+   "Un chant de Noël (1843)",
+   "David Copperfield (1849-1850)",
+   "Les Temps difficiles (1854)"
+  ],
+  "anecdota": "<p>En 1824, quand Charles avait douze ans, son père fut emprisonné pour dettes à la prison de la Marshalsea, à Londres. L'enfant dut quitter l'école et se mettre à travailler chez Warren's, une fabrique de cirage pour chaussures au bord de la Tamise. Dix heures par jour, il collait des étiquettes sur les pots, au milieu des rats, pour six shillings par semaine. Quand son père sortit de prison et se brouilla avec le patron, le garçon put retourner à l'école, mais sa mère voulait qu'il reste à la fabrique, et Dickens ne le lui pardonna jamais. Il garda le secret toute sa vie : il ne le confia qu'à son ami John Forster, qui le révéla dans sa biographie après la mort de l'écrivain. Une partie de cette expérience passa dans <em>David Copperfield</em>.</p>",
+  "fuente": "Fragment autobiographique de Dickens recueilli par John Forster dans La Vie de Charles Dickens (1872-1874)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
+ "buchner": {
+  "name": "Georg Büchner",
+  "dates": "1813 – 1837",
+  "born": 1813,
+  "died": 1837,
+  "place": "Goddelau (Allemagne)",
+  "role": "dramaturge, médecin et révolutionnaire",
+  "idea": "La nature n'agit pas selon des fins : tout ce qui existe est là pour soi-même, et la science doit chercher ses lois au lieu de demander à quoi cela sert.",
+  "bio": "<p>Georg Büchner naquit en 1813 à Goddelau, dans le grand-duché de Hesse, fils d'un médecin. Il étudia la médecine à Strasbourg et à Giessen. En 1834, il écrivit un pamphlet révolutionnaire pour les paysans et, poursuivi par la police, s'enfuit à Strasbourg en 1835. Avant de fuir, il avait écrit en cinq semaines environ le drame <em>La Mort de Danton</em>. En exil, il écrivit le récit <em>Lenz</em>, la comédie <em>Léonce et Léna</em> et l'ébauche de <em>Woyzeck</em>. Il obtint son doctorat avec une étude sur le système nerveux d'un poisson, le barbeau, et en 1836 il partit à Zurich comme enseignant à l'université. Il y mourut du typhus en février 1837, à vingt-trois ans.</p>\n<p>Büchner fut aussi un scientifique et un philosophe. Le 5 novembre 1836, il prononça à Zurich sa leçon d'épreuve, <em>Sur les nerfs crâniens</em>. Il y rejette l'explication <strong>téléologique</strong>, qui comprend chaque organe par son utilité, comme une pièce de machine, et en défend une autre qu'il appelle « philosophique » : la nature ne poursuit pas de fins, tout ce qui existe est là pour soi-même, et il faut en chercher la loi. C'est une idée proche de <strong>Spinoza</strong>, qu'il étudia à fond avec Descartes : en 1836, il prépara des leçons sur l'un et l'autre pour un cours sur la philosophie allemande depuis Descartes. Dans ses drames, ce regard sans finalités devient soupçon social : ses personnages pauvres ne sont pas des pièces utiles, mais des êtres humains écrasés.</p>",
+  "obras": [
+   "La Mort de Danton (1835)",
+   "Lenz (1835-1836)",
+   "Léonce et Léna (1836)",
+   "Woyzeck (1836-1837)"
+  ],
+  "anecdota": "<p>Le 13 juin 1835, alors que Büchner était depuis trois mois déjà à l'abri à Strasbourg, le juge d'instruction de Hesse signa contre lui un avis de recherche pour « participation à des actes de haute trahison ». L'avis fut publié plusieurs fois dans la presse de Darmstadt et de Francfort, et demandait aux autorités du pays et de l'étranger de l'arrêter. Il comprenait un signalement du fugitif : vingt et un ans, cheveux et barbe blonds, front très bombé, yeux gris, nez fort, petite bouche, visage ovale, constitution robuste et mince. Comme signe particulier, un seul : il était myope. Grâce à cet avis, nous conservons l'un des rares portraits « officiels » du jeune écrivain, dressé par la police qui le poursuivait.</p>",
+  "fuente": "Avis de recherche signé par le juge Georgi (Darmstadt, 13 juin 1835), publié dans la Großherzoglich Hessische Zeitung (18 juin 1835) ; Georg Büchner Portal",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-kant-poetas",
+   "hf-corazon-piedra"
+  ]
+ },
  "marx": {
   "name": "Karl Marx",
   "dates": "1818 – 1883",
@@ -3559,9 +3647,11 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-corazon-piedra",
    "hf-capitalismo"
   ]
  },

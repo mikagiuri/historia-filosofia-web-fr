@@ -442,17 +442,17 @@ const GEN_TESIS = {
   {
    "k": "kan-sapere|soc-examen",
    "tipo": "acuerdo",
-   "por": "Penser par soi-même et examiner sa propre vie : ne rien accepter sans examen. Kant lui-même se compare à Socrate : la philosophie n'apprend rien de nouveau à la raison commune, elle la rend seulement attentive à son propre principe (Fondements, AA IV 404). La différence : Socrate examine en dialoguant avec d'autres ; Kant demande le courage de se servir de son propre entendement sans la direction d'autrui."
+   "por": "Penser par soi-même et examiner sa propre vie : ne rien accepter sans examen. Kant lui-même se compare à Socrate : la philosophie n'apprend rien de nouveau à la raison commune, elle la rend seulement attentive à son propre principe (Fondements, AA IV 404). La différence : Socrate examine en dialoguant avec d'autres ; Kant demande le courage de se servir de son propre entendement sans la direction d'autrui."
   },
   {
    "k": "des-cogito|mar-conciencia",
    "tipo": "desacuerdo",
-   "por": "Ce n'est pas une polémique directe (Marx discute avec Hegel et Feuerbach), mais ils s'opposent sur le point de départ. Descartes commence par un moi qui pense et se sait exister avant de rien savoir du monde ou des autres ; pour Marx, ce moi isolé n'existe pas : la conscience et ses idées naissent de la vie matérielle et sociale, car l'essence humaine est « l'ensemble des rapports sociaux » (Thèses sur Feuerbach, VI)."
+   "por": "Ce n'est pas une polémique directe (Marx discute avec Hegel et Feuerbach), mais ils s'opposent sur le point de départ. Descartes commence par un moi qui pense et se sait exister avant de rien savoir du monde ou des autres ; pour Marx, ce moi isolé n'existe pas : la conscience et ses idées naissent de la vie matérielle et sociale, car l'essence humaine est « l'ensemble des rapports sociaux » (Thèses sur Feuerbach, VI)."
   },
   {
    "k": "mar-tesis|pla-rey",
    "tipo": "desacuerdo",
-   "por": "Platon non plus ne se contente pas d'interpréter : il veut que la philosophie change la cité. Le désaccord porte sur qui transforme. Pour Platon, quelques-uns qui connaissent le Bien gouvernent les autres ; Marx refuse de diviser la société entre ceux qui savent et éduquent et ceux qui sont éduqués, car « l'éducateur a lui-même besoin d'être éduqué » (Thèses sur Feuerbach, III) : le changement est l'œuvre de la pratique des travailleurs eux-mêmes."
+   "por": "Platon non plus ne se contente pas d'interpréter : il veut que la philosophie change la cité. Le désaccord porte sur qui transforme. Pour Platon, quelques-uns qui connaissent le Bien gouvernent les autres ; Marx refuse de diviser la société entre ceux qui savent et éduquent et ceux qui sont éduqués, car « l'éducateur a lui-même besoin d'être éduqué » (Thèses sur Feuerbach, III) : le changement est l'œuvre de la pratique des travailleurs eux-mêmes."
   },
   {
    "k": "pla-ideas|nie-fabula",

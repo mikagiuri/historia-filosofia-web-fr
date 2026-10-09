@@ -49,6 +49,7 @@
           <button data-view="glosario">Glossaire</button>
           <button data-view="ilustres">Illustres</button>
           <button data-view="citas">Phrases</button>
+          <button data-view="adagios">Adages</button>
         </div>
       </div>
       <div class="navsec">
@@ -288,6 +289,16 @@
     <div id="citasbody"></div>
   </section>
 
+  <section class="view" id="adagios">
+    <!-- (09-10) Adagios: lemas clásicos como lenguaje común, al modo de los lugares comunes del Renacimiento
+         (adagios.js + adagiosview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Référence</p>
+    <h1 class="title">Adages : la langue commune de la philosophie</h1>
+    <p class="lead">Des devises latines et grecques que les philosophes citent depuis des siècles : ce qu'elles disent, d'où elles viennent et quand les utiliser. Apprends-les comme un élève de la Renaissance.</p>
+    <div class="filterbar" id="adagiosfilter" role="group" aria-label="Filtrer les adages"></div>
+    <div id="adagiosbox"></div>
+  </section>
+
   <!-- TARJETAS -->
   <section class="view" id="tarjetas">
     <p class="eyebrow">Outil</p>
@@ -452,14 +463,25 @@
         <li>Immanuel Kant, <em>Qu’est-ce que les Lumières ?</em> : traductions de Roberto R. Aramayo (Alianza) et Eugenio Ímaz.</li>
         <li>Friedrich Nietzsche, <em>Ecce homo</em> : traduction d’Andrés Sánchez Pascual (Alianza).</li>
         <li>Simone de Beauvoir, <em>Le Deuxième Sexe</em> : traduction d’Alicia Martorell (Cátedra).</li>
-        <li>Les autres citations et lectures brèves proviennent de traductions du domaine public, adaptées.</li>
-        <li>Réseau de thèses (Généalogies) : sélection, références et relations de notre propre élaboration ; l’idée de relier des thèses, et non des auteurs, selon leur accord ou leur désaccord vient de <em>History of Philosophy — Summarized &amp; Visualized</em> (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Phrases : chaque citation indique son auteur, son œuvre et le passage, et celles qui ne sont pas littérales sont signalées comme paraphrases, formules traditionnelles ou attribuées. La traduction n’est pas identifiée citation par citation : ce sont des versions personnelles ou adaptées ; pour les citer dans un travail, il convient donc de les comparer avec une édition. Celles d’auteurs des XXe et XXIe siècles sont reproduites sous forme de citations brèves, avec leur auteur et leur œuvre.</li>
+        <li>Généalogies : le plan des lignes (traditions, penseurs et oppositions) est de notre propre élaboration, avec des relations délibérément approximatives. Réseau de thèses (Généalogies) : sélection, références et relations de notre propre élaboration ; l’idée de relier des thèses, et non des auteurs, selon leur accord ou leur désaccord vient de <em>History of Philosophy — Summarized &amp; Visualized</em> (denizcemonduygu.com/philo, Deniz Cem Önduygu).</li>
+        <li>Adages : textes latins et grecs du domaine public ; traductions et commentaires originaux. La sélection et les numéros de référence suivent les <em>Adagia</em> d'Érasme de Rotterdam (éditions de 1500 à 1536) et la traduction anglaise annotée des <em>Collected Works of Erasmus</em> (University of Toronto Press, vol. 31-36).</li>
         <li>Nœuds et fiches de cinéma (scène, questions et lecture piège) : création originale. L'idée de signaler les tensions entre les réponses de la personne qui répond vient de <em>Philosophy Experiments</em> (philosophyexperiments.com, Jeremy Stangroom).</li>
-        <li>Réécriture : les fragments de Platon, Aristote, Épicure, Hobbes, Descartes, Hume, Rousseau, Kant, Mill et Marx sont des versions propres établies à partir des originaux, du domaine public ; les quatre versions de chacun sont de notre propre élaboration.</li>
-        <li>Exploration « Poètes et philosophes » (thème 19) : les fragments de Kant, Hamann, Goethe, Schiller, Friedrich Schlegel et du <em>Plus ancien programme systématique de l’idéalisme allemand</em> sont des traductions personnelles à partir des originaux allemands, du domaine public.</li>
-        <li>Exploration « La bibliothèque que Marx voulait publier » (thème 21) : le plan de la « Bibliothèque des meilleurs écrivains socialistes étrangers » (carnet de Marx, mars 1845) et la lettre d’Engels à Marx du 17 mars 1845, dans <em>Marx-Engels Collected Works</em>, vol. 4 et 38 (Lawrence &amp; Wishart) ; Marx et Engels, <em>La Sainte Famille</em> (1845) et <em>Manifeste du Parti communiste</em> (1848). Les citations de Morelly, Maréchal, Fourier et Proudhon sont données dans l’original français ; celles d’Owen, de Marx et d’Engels sont des traductions personnelles, à partir des originaux du domaine public.</li>
+        <li>Réécriture : les fragments de Platon, Aristote, Épicure, Hobbes, Descartes, Hume, Rousseau, Kant, Mill et Marx sont des versions propres établies à partir des originaux (les originaux sont du domaine public) ; les quatre versions de chacun sont de notre propre élaboration.</li>
+        <li>Exploration « Surface et profondeur » (thème 6) : les citations littérales de Platon (<em>Apologie</em> 38a ; <em>République</em> VI, 510a) et de Nietzsche (<em>Le Gai Savoir</em>, préface, 4) sont d’une traduction non identifiée ; les autres passages de Platon (<em>République</em> VII et X, <em>Sophiste</em>, <em>Gorgias</em>, <em>Phèdre</em>, <em>Banquet</em>) sont résumés avec nos propres mots, à partir d’un texte de départ du professeur.</li>
+        <li>Exploration « Préjugé, opinion et axiome » (thème 6) : sans citations littérales ; les thèses de Platon sur l’opinion, la science et les hypothèses sont résumées avec nos propres mots.</li>
+        <li>Exploration « Platon et saint Augustin » (thème 11) : les citations d’Augustin d’Hippone (<em>Confessions</em> I, 1 ; <em>La Cité de Dieu</em> XIV, 28) sont d’une traduction non identifiée ; le tableau « Quatre penseurs face à face » est une élaboration personnelle du professeur, traduite de son original en basque ; le reste est résumé avec nos propres mots.</li>
+        <li>Exploration « Montaigne et les <em>Essais</em> » (thème 13) : les sept textes commentés et les citations brèves des <em>Essais</em> proviennent de la traduction espagnole de Constantino Román y Salamero (Garnier, Paris, 1898), qui est du domaine public ; deux phrases isolées du commentaire, l’une de Montaigne (II, 1) et l’autre de Pascal, ne proviennent pas de cette traduction et sont d’une traduction non identifiée.</li>
+        <li>Exploration « Simulation, solipsisme et le Cogito » (thème 14) : sans citations littérales, sauf « pienso, luego existo » (« je pense, donc je suis »), dans la traduction espagnole de Manuel García Morente ; les <em>Méditations métaphysiques</em> sont résumées avec nos propres mots, à partir d’un texte de départ du professeur.</li>
+        <li>Exploration « Spinoza : la philosophie comme système » (Philosophie 1re, thème 1 ; Histoire de la philosophie, thème 15) : les passages des encadrés « Spinoza contre… » (<em>Éthique</em> I, appendice ; II, 35, scolie ; III, préface ; IV, 45, scolie ; lettre 56 ; <em>Traité théologico-politique</em>, préface ; <em>Traité politique</em> I, 1) sont des versions personnelles à partir de l’original latin ; les autres phrases brèves de Spinoza (<em>Éthique</em> II, 7 ; IV, 67 ; V, 42 ; <em>Traité théologico-politique</em>, 20) sont d’une traduction non identifiée.</li>
+        <li>Atelier de Leibniz : textes de notre propre élaboration ; les citations et les données ont été vérifiées dans C. I. Gerhardt (éd.), <em>Die philosophischen Schriften von G. W. Leibniz</em>, vol. VII (le « calculons »), dans la <em>Monadologie</em> (§ 17), dans la lettre de Joachim Bouvet à Leibniz du 4 novembre 1701 et sur l’exemplaire conservé de la machine à calculer (bibliothèque de Hanovre).</li>
+        <li>Lectures des débats du « Duel de raisons » (Platon, Descartes, Spinoza, La Mettrie, Kant, Hegel et Fichte) : versions personnelles et condensées, et non traductions littérales ; les phrases entre guillemets résument le passage. Le choix des textes et les guides sont de notre propre élaboration.</li>
+        <li>Lecture sur la justice dans la <em>République</em> : le livre I (Thrasymaque et Socrate), en version personnelle et condensée ; le passage du livre VII (519e-520a), dans une traduction espagnole attribuée à Patricio de Azcárate, non vérifiée sur son édition de 1872.</li>
+        <li>Saint Augustin, <em>De la vie heureuse</em> (chap. 2) : traduction espagnole établie à partir de la version basque du professeur.</li>
+        <li>Exploration « Poètes et philosophes » (thème 19) : les fragments de Kant, Hamann, Goethe, Schiller, Friedrich Schlegel et du <em>Plus ancien programme systématique de l’idéalisme allemand</em> sont des traductions personnelles à partir des originaux allemands (les originaux sont du domaine public).</li>
+        <li>Exploration « La bibliothèque que Marx voulait publier » (thème 21) : le plan de la « Bibliothèque des meilleurs écrivains socialistes étrangers » (carnet de Marx, mars 1845) et la lettre d’Engels à Marx du 17 mars 1845, dans <em>Marx-Engels Collected Works</em>, vol. 4 et 38 (Lawrence &amp; Wishart) ; Marx et Engels, <em>La Sainte Famille</em> (1845) et <em>Manifeste du Parti communiste</em> (1848). Les citations de Morelly, Maréchal, Fourier et Proudhon sont données dans l’original français ; celles d’Owen, de Marx et d’Engels sont des traductions personnelles à partir des originaux (les originaux sont du domaine public).</li>
         <li>Exploration « Spinoza universel » (thème 15) : les extraits du herem de 1656, de Spinoza, de Kant (<em>Qu’est-ce que s’orienter dans la pensée ?</em>, AA VIII, 143, note), de Schelling, de Nietzsche et d’Einstein sont des traductions personnelles à partir des originaux ; ceux qui résument un passage sont signalés comme tels.</li>
-        <li>Exploration « Le cœur de pierre » (thème 21) : les extraits de Schiller, Hegel, Goethe, Büchner, Heine et du <em>Manifeste du Parti communiste</em> sont des traductions personnelles à partir des originaux ; Balzac est cité dans l’original et Dickens est traduit à partir de l’anglais.</li>
+        <li>Exploration « Le cœur de pierre » (thème 21) : les extraits de Schiller, Hegel, Goethe, Büchner, Heine et du <em>Manifeste du Parti communiste</em> sont des traductions personnelles à partir des originaux (les originaux sont du domaine public) ; Balzac est cité dans l’original et Dickens est traduit à partir de l’anglais.</li>
       </ul>
       <h2>Documents officiels</h2>
       <ul>
@@ -474,11 +496,15 @@
         <li>Eukeni Acebal, collection Areté : <em>Philosophie</em>, <em>Filosofiaren historia</em> et <em>Preparación de la PAU</em> (CC BY-SA 4.0).</li>
         <li>Guides ouverts de commentaire et de dissertation : <em>El taller de Filosofía</em>, <em>La lechuza de Minerva</em>, <em>Suma-T</em> et selectividadfilosofia.com.</li>
         <li>Site du professeur Rafael Robles : dissertation d’un modèle d’examen de 2025, liée pour la commenter.</li>
-        <li>Pour l’annexe « Poètes et philosophes » : Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> et <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets) ; Isaiah Berlin, <em>Las raíces del romanticismo</em> (Taurus) et <em>El mago del norte. J. G. Hamann y el origen del irracionalismo moderno</em> (Tecnos) ; Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press) ; Philippe Lacoue-Labarthe et Jean-Luc Nancy, <em>L’Absolu littéraire. Théorie de la littérature du romantisme allemand</em> (Seuil) ; Immanuel Kant, <em>Crítica del discernimiento</em>, édition de Roberto R. Aramayo et Salvador Mas (Alianza).</li>
-        <li>Pour l’annexe « Spinoza universel » : Steven Nadler, <em>Spinoza. Une vie</em> (Bayard, 2003) ; Jonathan Israel, <em>Les Lumières radicales</em> (Éditions Amsterdam, 2005) ; Gilles Deleuze, <em>Spinoza : philosophie pratique</em> (Minuit) ; Spinoza, <em>Éthique</em> ; Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
-        <li>Pour l’annexe « Le cœur de pierre » : Michael Löwy et Robert Sayre, <em>Révolte et mélancolie. Le romantisme à contre-courant de la modernité</em> (Payot) ; Raymond Williams, <em>Culture and Society, 1780-1950</em> ; Marshall Berman, <em>Tout ce qui est solide se volatilise</em>.</li>
+        <li>Pour l’exploration « Simulation, solipsisme et le Cogito » : sont commentés Nick Bostrom, « Are You Living in a Computer Simulation? » (<em>Philosophical Quarterly</em>, 2003), David J. Chalmers, <em>Reality+</em> (2022), et Hilary Putnam, <em>Raison, vérité et histoire</em> (1981), chap. 1.</li>
+        <li>Pour l’exploration « Surface et profondeur » : est commenté Byung-Chul Han, <em>Sauvons le beau</em>.</li>
+        <li>Indices : itinéraires de notre propre élaboration ; le format d’indices progressifs, du plus vague au plus concret, vient de l’<em>Universal Hint System</em> (UHS) des guides de jeux vidéo.</li>
+        <li>Coin de logique : paradoxes, exercices et arguments classiques, de notre propre élaboration ; l’origine de chaque paradoxe est indiquée sur sa fiche.</li>
+        <li>Pour l’exploration « Poètes et philosophes » : Rüdiger Safranski, <em>Goethe y Schiller. Historia de una amistad</em> et <em>Romanticismo. Una odisea del espíritu alemán</em> (Tusquets) ; Isaiah Berlin, <em>Las raíces del romanticismo</em> (Taurus) et <em>El mago del norte. J. G. Hamann y el origen del irracionalismo moderno</em> (Tecnos) ; Frederick C. Beiser, <em>The Fate of Reason. German Philosophy from Kant to Fichte</em> (Harvard University Press) ; Philippe Lacoue-Labarthe et Jean-Luc Nancy, <em>L’Absolu littéraire. Théorie de la littérature du romantisme allemand</em> (Seuil) ; Immanuel Kant, <em>Crítica del discernimiento</em>, édition de Roberto R. Aramayo et Salvador Mas (Alianza).</li>
+        <li>Pour l’exploration « Spinoza universel » : Steven Nadler, <em>Spinoza. Une vie</em> (Bayard, 2003) ; Jonathan Israel, <em>Les Lumières radicales</em> (Éditions Amsterdam, 2005) ; Gilles Deleuze, <em>Spinoza : philosophie pratique</em> (Minuit) ; Spinoza, <em>Éthique</em> ; Gabriel Albiac, <em>La sinagoga vacía</em> (Hiperión).</li>
+        <li>Pour l’exploration « Le cœur de pierre » : Michael Löwy et Robert Sayre, <em>Révolte et mélancolie. Le romantisme à contre-courant de la modernité</em> (Payot) ; Raymond Williams, <em>Culture and Society, 1780-1950</em> ; Marshall Berman, <em>Tout ce qui est solide se volatilise</em>.</li>
         <li>John Cottingham, <em>Descartes</em> (Alianza), et Bernard Williams, <em>Descartes. El proyecto de la investigación pura</em> (Cátedra).</li>
-        <li>Ressources de ludification du Gabriel Aresti BHI, idée originale du jeu « Eudaimonía ».</li>
+        <li>Ressources de ludification du Gabriel Aresti BHI (2e année de Bachillerato) : idée originale des jeux « Eudaimonía » et « La République » et illustrations des cartes d’« Eudaimonía ».</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Notes et références par thèmes</h2>
@@ -892,6 +918,7 @@
         <li>Œuvres d’art et portraits de Wikimedia Commons et de musées et bibliothèques (Metropolitan Museum, Rijksmuseum, LACMA, Wellcome Collection, New York Public Library, Library of Congress, Walters Art Museum), dans le domaine public ou sous licences CC0, CC BY et CC BY-SA. Chaque image porte son crédit.</li>
         <li>Exploration « Poètes et philosophes » : portraits, premières éditions, tableaux et vues de Wikimedia Commons, dans le domaine public ou sous licences CC0 et CC BY ; photochromes de Photoglob Zürich vers 1900 (Library of Congress), gravure de Daniel Chodowiecki (Rijksmuseum) et photographie de H.-P. Haack de la première édition des <em>Brigands</em>.</li>
         <li>Exploration « La bibliothèque que Marx voulait publier » et Illustres : portraits, couvertures et gravures de Wikimedia Commons dans le domaine public ou sous CC0 (Rijksmuseum, Paris Musées, National Library of Wales).</li>
+        <li>Adages : tableaux, gravures, frontispices et mosaïques de Wikimedia Commons, dans le domaine public ou sous licence CC0 (musée du Prado, National Gallery de Londres, British Library, British Museum, Rijksmuseum, Walters Art Museum, Bibliothèque nationale de France, entre autres) ; la devise et une médaille de Montaigne.</li>
         <li>Exploration « Spinoza universel » : portraits, gravures, couvertures et photographies de Wikimedia Commons dans le domaine public ou sous CC0 (Herzog August Bibliothek, Rijksmuseum, Library of Congress, entre autres).</li>
         <li>Exploration « Le cœur de pierre » : œuvres de Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz et d’autres, et illustrations d’époque, de Wikimedia Commons dans le domaine public ou sous CC0 (National Gallery de Londres, National Gallery of Art de Washington, Statens Museum for Kunst, entre autres).</li>
         <li>Photographies d’Unsplash.</li>
@@ -969,6 +996,8 @@
 <script src="js/rescrituraview.js"></script>
 <script src="js/nudos.js"></script>
 <script src="js/nudosview.js"></script>
+<script src="js/adagios.js"></script>
+<script src="js/adagiosview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>

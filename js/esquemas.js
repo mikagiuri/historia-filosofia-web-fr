@@ -91,6 +91,131 @@ const ESQUEMAS = {
    "idea": "Pour Aristote, changer, c'est passer de la puissance à l'acte, et un changement n'est pleinement expliqué que par ses quatre causes : de quoi, quoi, par qui et pour quoi. Tout dans la nature tend vers une fin."
   }
  },
+ "B1-REL-01": {
+  "subject": "hf",
+  "block": "B",
+  "tema": "Augustin d'Hippone",
+  "title": "Saint Augustin : l'être humain entre deux amours",
+  "mermaid": "flowchart TD\n  n0[\"SAINT AUGUSTIN : L'ÊTRE HUMAIN ENTRE DEUX AMOURS\"]:::axis\n  n1[\"Corps\"]\n  n2[\"Amour désordonné\"]\n  n3[\"Libre arbitre\"]:::key\n  n4[\"Péché et mal\"]\n  n5[\"Grâce\"]\n  n6[\"Intériorité\"]:::key\n  n7[\"Si je me trompe, j'existe\"]\n  n8[\"Illumination\"]\n  n9[\"Bonheur véritable\"]\n  n10[\"Les deux cités\"]:::key\n  n11[\"Cité terrestre\"]\n  n12[\"Cité de Dieu\"]\n  n13[\"Providence\"]\n  n14[\"Dieu créateur\"]\n  n15[\"Idées exemplaires\"]\n  n16[\"Temps\"]\n  n0 -->|a un| n1\n  n1 -->|peut entraîner vers l'| n2\n  n0 -->|choisit par son| n3\n  n3 -->|en se détournant de Dieu| n4\n  n3 -->|blessé, il a besoin de la| n5\n  n0 -->|cherche dans l'| n6\n  n6 -->|première certitude| n7\n  n6 -->|connaît par l'| n8\n  n6 -->|trouve le| n9\n  n0 -->|vit dans l'histoire| n10\n  n10 -->|amour de soi| n11\n  n10 -->|amour de Dieu| n12\n  n10 -->|mêlées, guidées par la| n13\n  n0 -->|tout procède de| n14\n  n14 -->|selon les| n15\n  n14 -->|crée avec le monde le| n16",
+  "v2": {
+   "pregunta": "Pourquoi l'être humain, qui cherche le bonheur, le cherche-t-il si souvent là où il n'est pas ?",
+   "raiz": "SAINT AUGUSTIN : L'ÊTRE HUMAIN ENTRE DEUX AMOURS",
+   "raiz_d": "« Tu nous as faits pour toi, et notre cœur est inquiet jusqu'à ce qu'il repose en toi » (Confessions I 1,1). Toute sa philosophie explique cette inquiétude et la manière d'en sortir.",
+   "ramas": [
+    {
+     "rel": "a un",
+     "t": "Corps",
+     "d": "Créé par Dieu et donc bon. Ce n'est ni une prison ni l'origine du mal.",
+     "c": [
+      {
+       "rel": "peut entraîner vers l'",
+       "t": "Amour désordonné",
+       "d": "Préférer les biens inférieurs, sensibles et passagers, comme s'ils étaient la fin ultime. Le mal ne vient pas des biens, mais de l'ordre de l'amour."
+      }
+     ]
+    },
+    {
+     "rel": "choisit par son",
+     "t": "Libre arbitre",
+     "k": true,
+     "d": "La volonté peut se tourner vers Dieu ou se détourner de lui.",
+     "c": [
+      {
+       "rel": "en se détournant de Dieu",
+       "t": "Péché et mal",
+       "d": "Le mal n'est pas une substance : c'est une privation de bien. Il naît de la volonté qui se détourne du Bien immuable (Confessions VII 12,18 et 16,22 ; Enchiridion 11-12)."
+      },
+      {
+       "rel": "blessé, il a besoin de la",
+       "t": "Grâce",
+       "d": "Après le péché originel, la volonté ne peut pas se tourner vers Dieu par ses seules forces (contre Pélage). Le salut dépend de Dieu : c'est le problème de la prédestination."
+      }
+     ]
+    },
+    {
+     "rel": "cherche dans l'",
+     "t": "Intériorité",
+     "k": true,
+     "d": "« Ne va pas au-dehors, rentre en toi-même ; c'est dans l'homme intérieur qu'habite la vérité » (De la vraie religion 39,72).",
+     "c": [
+      {
+       "rel": "première certitude",
+       "t": "Si je me trompe, j'existe",
+       "d": "Si fallor, sum (La Cité de Dieu XI 26) : celui qui doute ou se trompe existe déjà. C'est un antécédent du cogito de Descartes."
+      },
+      {
+       "rel": "connaît par",
+       "t": "Illumination",
+       "d": "L'esprit voit les vérités éternelles grâce à une lumière qui vient de Dieu (La Trinité XII 15,24). On discute pour savoir s'il s'agit d'une aide spéciale ou de la participation naturelle de l'esprit humain à l'esprit divin."
+      },
+      {
+       "rel": "trouve le",
+       "t": "Bonheur véritable",
+       "d": "Seul est heureux celui qui possède Dieu, le Bien suprême, que l'on ne peut pas perdre."
+      }
+     ]
+    },
+    {
+     "rel": "vit dans l'histoire",
+     "t": "Les deux cités",
+     "k": true,
+     "d": "« Deux amours ont fondé deux cités » (La Cité de Dieu XIV 28).",
+     "c": [
+      {
+       "rel": "amour de soi",
+       "t": "Cité terrestre",
+       "d": "L'amour de soi jusqu'au mépris de Dieu. Son pouvoir politique peut apporter l'ordre et la paix, non le salut."
+      },
+      {
+       "rel": "amour de Dieu",
+       "t": "Cité de Dieu",
+       "d": "L'amour de Dieu jusqu'au mépris de soi. Ce n'est ni l'Église visible ni un lieu : c'est une communauté de ceux qui aiment Dieu."
+      },
+      {
+       "rel": "mêlées, guidées par la",
+       "t": "Providence",
+       "d": "Les deux cités coexistent, mêlées, jusqu'à la fin des temps (La Cité de Dieu I 35) ; Dieu guide l'histoire."
+      }
+     ]
+    },
+    {
+     "rel": "tout procède de",
+     "t": "Dieu créateur",
+     "d": "Il crée le monde à partir de rien, librement.",
+     "c": [
+      {
+       "rel": "selon les",
+       "t": "Idées exemplaires",
+       "d": "Les modèles de toutes choses sont dans l'esprit de Dieu : ce sont les Idées de Platon, placées en Dieu (Quatre-vingt-trois questions diverses, q. 46)."
+      },
+      {
+       "rel": "crée avec le monde le",
+       "t": "Temps",
+       "d": "Le monde n'a pas été créé dans le temps, mais avec le temps. « Qu'est-ce donc que le temps ? Si personne ne me le demande, je le sais ; si je veux l'expliquer, je ne le sais plus » (Confessions XI 14,17)."
+      }
+     ]
+    }
+   ],
+   "cruces": [
+    {
+     "de": "Amour désordonné",
+     "rel": "fonde la",
+     "a": "Cité terrestre"
+    },
+    {
+     "de": "Grâce",
+     "rel": "conduit à la",
+     "a": "Cité de Dieu"
+    },
+    {
+     "de": "Idées exemplaires",
+     "rel": "se connaissent par",
+     "a": "Illumination"
+    }
+   ],
+   "idea": "L'être humain est libre d'aimer : s'il aime Dieu par-dessus tout, il trouve en lui-même la vérité et le bonheur ; s'il s'aime lui-même et aime les biens inférieurs comme une fin, il tombe dans le mal. Ces deux amours divisent l'histoire en deux cités, et tout procède de Dieu, qui crée le monde selon ses idées."
+  }
+ },
  "BH-REL-01": {
   "subject": "hf",
   "block": "B",

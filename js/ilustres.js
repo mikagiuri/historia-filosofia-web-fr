@@ -1873,6 +1873,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-descartes-makro"
   ]
  },
@@ -2137,6 +2138,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-ilustracion",
    "hf-kant",
+   "hf-marxismos",
    "hf-analitica",
    "hf-descartes-makro"
   ]
@@ -3277,7 +3279,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-marx-biblioteca"
+   "hf-marx-biblioteca",
+   "hf-marxismos"
   ]
  },
  "schelling": {
@@ -3703,8 +3706,32 @@ const ILUSTRES = {
    "hf-etica-deber",
    "hf-sospecha",
    "hf-marx-biblioteca",
+   "hf-marxismos",
    "hf-corazon-piedra",
    "hf-capitalismo"
+  ]
+ },
+ "mendel": {
+  "name": "Gregor Mendel",
+  "dates": "1822 – 1884",
+  "born": 1822,
+  "died": 1884,
+  "place": "Heinzendorf (Silésie, aujourd'hui République tchèque)",
+  "role": "moine augustin et naturaliste",
+  "idea": "Les caractères héréditaires se transmettent par des unités séparées, appelées aujourd'hui gènes, qui se combinent de génération en génération selon des proportions régulières et prévisibles.",
+  "bio": "<p>Gregor Mendel naquit dans une famille paysanne de la Silésie autrichienne. Il entra au monastère augustin de Brno (alors Brünn, en Moravie), qui lui permit d'étudier les sciences à l'Université de Vienne. Dans le potager du monastère, il réalisa pendant des années des expériences de croisement sur des milliers de plants de pois. En 1868, il fut élu abbé, et les tâches de sa charge l'éloignèrent de la recherche.</p>\n<p>Mendel découvrit les <strong>lois de l'hérédité</strong> : les caractères passent des parents aux enfants par des unités séparées qui se combinent selon des proportions régulières. Son travail passa presque inaperçu jusqu'à sa redécouverte en 1900. Il figure au programme parce que la <strong>génétique</strong> expliqua comment se transmettent les variations que sélectionne l'évolution ; unie à la théorie de Darwin, elle donna lieu à la théorie synthétique ou néodarwinisme.</p>",
+  "obras": [
+   "Expériences sur l'hybridation des plantes (1866)"
+  ],
+  "anecdota": "<p>Après avoir publié ses expériences sur les pois, Mendel envoya son travail à Carl von Nägeli, l'un des botanistes les plus prestigieux de son temps, dans l'espoir d'obtenir son soutien. Nägeli lui répondit avec un certain scepticisme et lui suggéra de répéter les croisements avec une autre plante, l'épervière (<em>Hieracium</em>). Mendel essaya pendant des années, mais les résultats ne cadraient pas avec ses lois : nous savons aujourd'hui que cette plante se reproduit souvent sans fécondation. Découragé et occupé comme abbé, il abandonna la recherche, et ses lois durent attendre jusqu'en 1900.</p>",
+  "fuente": "Correspondance de Mendel avec Carl von Nägeli",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos"
   ]
  },
  "kropotkin": {
@@ -3848,7 +3875,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-etica-deber"
+   "hf-etica-deber",
+   "hf-marxismos"
   ]
  },
  "russell": {
@@ -4103,6 +4131,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4128,6 +4157,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4230,6 +4260,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-montaigne-ensayos",
+   "hf-marxismos",
    "hf-capitalismo"
   ]
  },
@@ -4283,6 +4314,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4574,6 +4606,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-marxismos",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]

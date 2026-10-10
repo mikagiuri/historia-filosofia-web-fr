@@ -8,7 +8,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Condition ou structure qui vaut avant l'expérience concrète ; cela ne signifie pas que ce soit le contenu d'une idée innée."
+  "def": "Condition ou structure qui vaut avant l'expérience concrète ; cela ne signifie pas que ce soit le contenu d'une idée innée.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -18,7 +21,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Le processus par lequel l'entendement, partant des choses particulières, distingue la forme ou structure générale."
+  "def": "Le processus par lequel l'entendement, partant des choses particulières, distingue la forme ou structure générale.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -28,7 +34,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "La puissance est la possibilité d'être ; l'acte, l'état dans lequel cette possibilité est réalisée. Le changement se comprend comme passage de l'une à l'autre."
+  "def": "La puissance est la possibilité d'être ; l'acte, l'état dans lequel cette possibilité est réalisée. Le changement se comprend comme passage de l'une à l'autre.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -47,7 +56,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Le travailleur devient étranger à son produit, à son activité de travail, aux autres et à sa capacité créatrice."
+  "def": "Le travailleur devient étranger à son produit, à son activité de travail, aux autres et à sa capacité créatrice.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -97,7 +109,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Le conflit qui surgit lorsque la raison veut démontrer des affirmations opposées sur le monde entier au-delà de la limite de l'expérience."
+  "def": "Le conflit qui surgit lorsque la raison veut démontrer des affirmations opposées sur le monde entier au-delà de la limite de l'expérience.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -117,7 +132,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "Les auteurs qui ont défendu le christianisme primitif. Ils n'ont pas seulement prêché la foi : ils ont voulu l'expliquer par des raisons, face aux accusations de l'empire et à la philosophie classique."
+  "def": "Les auteurs qui ont défendu le christianisme primitif. Ils n'ont pas seulement prêché la foi : ils ont voulu l'expliquer par des raisons, face aux accusations de l'empire et à la philosophie classique.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -157,7 +175,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "L'idée du Dieu parfait contient en elle l'existence : une perfection ne peut pas manquer d'existence. Par conséquent, Dieu existe par sa propre définition."
+  "def": "L'idée du Dieu parfait contient en elle l'existence : une perfection ne peut pas manquer d'existence. Par conséquent, Dieu existe par sa propre définition.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -207,7 +228,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Que le sujet rationnel agisse selon le principe qu'il peut se donner à lui-même comme loi universelle."
+  "def": "Que le sujet rationnel agisse selon le principe qu'il peut se donner à lui-même comme loi universelle.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -217,7 +241,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Le mal ne naît pas toujours d'une intention malveillante ; il est parfois la conséquence du renoncement à penser. Eichmann en est l'exemple classique : amoureux de la bureaucratie, obéissance aveugle."
+  "def": "Le mal ne naît pas toujours d'une intention malveillante ; il est parfois la conséquence du renoncement à penser. Eichmann en est l'exemple classique : amoureux de la bureaucratie, obéissance aveugle.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -236,7 +263,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Le féminisme",
-  "def": "Pour Nussbaum, les capacités sont les possibilités qu'une personne peut réellement faire et être. La justice ne consiste pas seulement à reconnaître des droits ; elle consiste aussi à garantir les conditions pour les rendre réels."
+  "def": "Pour Nussbaum, les capacités sont les possibilités qu'une personne peut réellement faire et être. La justice ne consiste pas seulement à reconnaître des droits ; elle consiste aussi à garantir les conditions pour les rendre réels.",
+  "ilustre": [
+   "nussbaum"
+  ]
  },
  {
   "subject": "hf",
@@ -246,7 +276,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Concept pur de l'entendement ; il ne vient pas de l'expérience, mais il est nécessaire pour penser l'expérience comme objective."
+  "def": "Concept pur de l'entendement ; il ne vient pas de l'expérience, mais il est nécessaire pour penser l'expérience comme objective.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -266,7 +299,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Chez Ortega, l'ensemble des conditions historiques, sociales, matérielles et personnelles qui composent la vie concrète. Ce n'est pas un décor : cela fait partie du moi."
+  "def": "Chez Ortega, l'ensemble des conditions historiques, sociales, matérielles et personnelles qui composent la vie concrète. Ce n'est pas un décor : cela fait partie du moi.",
+  "ilustre": [
+   "ortega"
+  ]
  },
  {
   "subject": "hf",
@@ -284,7 +320,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "La politique classique",
-  "def": "Pour Aristote, le groupe social qui renforce la stabilité de la polis, parce qu'il adoucit les intérêts extrêmes."
+  "def": "Pour Aristote, le groupe social qui renforce la stabilité de la polis, parce qu'il adoucit les intérêts extrêmes.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -294,7 +333,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "La première certitude qu'exprime la formule « je pense, donc je suis » : le sujet qui doute ne peut pas se défaire en niant son propre penser."
+  "def": "La première certitude qu'exprime la formule « je pense, donc je suis » : le sujet qui doute ne peut pas se défaire en niant son propre penser.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -304,7 +346,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "Pour Augustin, la foi et la raison s'impulsent mutuellement : la raison cherche, la foi oriente, et la raison approfondit de nouveau."
+  "def": "Pour Augustin, la foi et la raison s'impulsent mutuellement : la raison cherche, la foi oriente, et la raison approfondit de nouveau.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -324,7 +369,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "Défis du XXIe siècle",
-  "def": "Il apparaît lorsque la consommation cesse d'être une activité destinée à satisfaire des besoins pour devenir une logique sociale qui organise l'identité, le prestige et le désir. Dans la critique de Klein, les marques et la publicité naturalisent ce pouvoir économique."
+  "def": "Il apparaît lorsque la consommation cesse d'être une activité destinée à satisfaire des besoins pour devenir une logique sociale qui organise l'identité, le prestige et le désir. Dans la critique de Klein, les marques et la publicité naturalisent ce pouvoir économique.",
+  "ilustre": [
+   "klein"
+  ]
  },
  {
   "subject": "hf",
@@ -353,7 +401,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "Chez Augustin, ce n'est pas un simple changement d'opinion. C'est réorganiser l'orientation entière de la vie : la vérité, la volonté et la recherche de Dieu se nouent."
+  "def": "Chez Augustin, ce n'est pas un simple changement d'opinion. C'est réorganiser l'orientation entière de la vie : la vérité, la volonté et la recherche de Dieu se nouent.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -363,7 +414,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Les êtres humains ne sont pas de simples membres d'un État ; ils ont des droits et des devoirs partagés dans un monde commun."
+  "def": "Les êtres humains ne sont pas de simples membres d'un État ; ils ont des droits et des devoirs partagés dans un monde commun.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -383,7 +437,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
-  "def": "Chez Kant, l'attitude qui examine la capacité et les limites de la raison ; elle veut dépasser le dogmatisme et le scepticisme."
+  "def": "Chez Kant, l'attitude qui examine la capacité et les limites de la raison ; elle veut dépasser le dogmatisme et le scepticisme.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -393,7 +450,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Examiner la capacité, la limite et les usages légitimes de la raison ; non pas une simple destruction, mais un jugement responsable."
+  "def": "Examiner la capacité, la limite et les usages légitimes de la raison ; non pas une simple destruction, mais un jugement responsable.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -402,7 +462,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Examiner les idées, les lois et les institutions en lien avec leurs conditions économiques et historiques."
+  "def": "Examiner les idées, les lois et les institutions en lien avec leurs conditions économiques et historiques.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -411,7 +474,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "L'idéologie qui utilise l'explication biologique de Darwin pour justifier l'inégalité sociale, le colonialisme ou la concurrence économique sauvage."
+  "def": "L'idéologie qui utilise l'explication biologique de Darwin pour justifier l'inégalité sociale, le colonialisme ou la concurrence économique sauvage.",
+  "ilustre": [
+   "darwin"
+  ]
  },
  {
   "subject": "hf",
@@ -421,7 +487,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Le terme qu'emploie Heidegger désigne l'être humain, mais pas comme simple objet biologique : c'est l'être qui peut s'interroger sur son être et qui est situé dans le monde."
+  "def": "Le terme qu'emploie Heidegger désigne l'être humain, mais pas comme simple objet biologique : c'est l'être qui peut s'interroger sur son être et qui est situé dans le monde.",
+  "ilustre": [
+   "heidegger"
+  ]
  },
  {
   "subject": "hf",
@@ -431,7 +500,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Agir par respect pour la loi morale ; non seulement coïncider avec la norme, mais avoir la bonne motivation morale."
+  "def": "Agir par respect pour la loi morale ; non seulement coïncider avec la norme, mais avoir la bonne motivation morale.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -449,7 +521,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "La politique classique",
-  "def": "La chaîne politique que décrit Platon : de l'aristocratie à la timocratie, l'oligarchie, la démocratie et la tyrannie."
+  "def": "La chaîne politique que décrit Platon : de l'aristocratie à la timocratie, l'oligarchie, la démocratie et la tyrannie.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -459,7 +534,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B6",
   "tema": "Société et pouvoir",
-  "def": "Les droits qui appartiennent à la personne avant l'État ; dans le cas de Locke, la vie, la liberté et la propriété."
+  "def": "Les droits qui appartiennent à la personne avant l'État ; dans le cas de Locke, la vie, la liberté et la propriété.",
+  "ilustre": [
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -496,7 +574,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Le féminisme",
-  "def": "La proposition de Butler est de ne pas accepter les catégories binaires de genre comme si elles étaient naturelles, mais de mettre à nu leur caractère performatif et historique."
+  "def": "La proposition de Butler est de ne pas accepter les catégories binaires de genre comme si elles étaient naturelles, mais de mettre à nu leur caractère performatif et historique.",
+  "ilustre": [
+   "butler"
+  ]
  },
  {
   "subject": "hf",
@@ -515,7 +596,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "« Dieu ou la Nature » : la formule centrale de Spinoza. Il n'y a qu'une seule substance, et toutes les choses en sont des modes ou des expressions."
+  "def": "« Dieu ou la Nature » : la formule centrale de Spinoza. Il n'y a qu'une seule substance, et toutes les choses en sont des modes ou des expressions.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -535,7 +619,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Situer les contradictions historiques dans les conditions matérielles : travail, propriété, production et rapports de classe."
+  "def": "Situer les contradictions historiques dans les conditions matérielles : travail, propriété, production et rapports de classe.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -545,7 +632,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "Dans la proposition d'Adorno, la pensée ne doit pas se hâter d'enfermer la réalité dans une formule apaisante. Elle essaie d'écouter ce que les concepts n'attrapent pas tout à fait."
+  "def": "Dans la proposition d'Adorno, la pensée ne doit pas se hâter d'enfermer la réalité dans une formule apaisante. Elle essaie d'écouter ce que les concepts n'attrapent pas tout à fait.",
+  "ilustre": [
+   "adorno"
+  ]
  },
  {
   "subject": "hf",
@@ -555,7 +645,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "Le concept de Derrida exprime que la signification n'est jamais tout à fait présente, mais reste toujours dans le jeu de la différence et du report. Le sens ne se fixe pas métaphysiquement."
+  "def": "Le concept de Derrida exprime que la signification n'est jamais tout à fait présente, mais reste toujours dans le jeu de la différence et du report. Le sens ne se fixe pas métaphysiquement.",
+  "ilustre": [
+   "derrida"
+  ]
  },
  {
   "subject": "hf",
@@ -565,7 +658,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "La valeur absolue de la personne ; ce n'est ni un prix, ni une utilité, ni une substituabilité."
+  "def": "La valeur absolue de la personne ; ce n'est ni un prix, ni une utilité, ni une substituabilité.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -575,7 +671,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Renaissance et science",
-  "def": "La dignité de l'homme : l'humanisme de la Renaissance (Pic de la Mirandole) a soutenu que l'être humain n'a pas de nature fixe, qu'il est un être capable de se construire lui-même en liberté."
+  "def": "La dignité de l'homme : l'humanisme de la Renaissance (Pic de la Mirandole) a soutenu que l'être humain n'a pas de nature fixe, qu'il est un être capable de se construire lui-même en liberté.",
+  "ilustre": [
+   "pico"
+  ]
  },
  {
   "subject": "hf",
@@ -593,7 +692,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C9",
   "tema": "Le féminisme",
-  "def": "La tradition féministe a distingué le sexe comme donnée biologique et le genre comme construction culturelle. Butler problématise cette distinction, en soutenant que le sexe aussi est construit par des normes sociales."
+  "def": "La tradition féministe a distingué le sexe comme donnée biologique et le genre comme construction culturelle. Butler problématise cette distinction, en soutenant que le sexe aussi est construit par des normes sociales.",
+  "ilustre": [
+   "butler"
+  ]
  },
  {
   "subject": "hf",
@@ -603,7 +705,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "L'opinion ou la croyance courante. Elle se meut dans le domaine des sens et des apparences, et n'a pas la solidité de l'épistémè."
+  "def": "L'opinion ou la croyance courante. Elle se meut dans le domaine des sens et des apparences, et n'a pas la solidité de l'épistémè.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -623,7 +728,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Distinguer la réalité en deux niveaux : le monde sensible changeant et le monde intelligible et immuable des Idées."
+  "def": "Distinguer la réalité en deux niveaux : le monde sensible changeant et le monde intelligible et immuable des Idées.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -633,7 +741,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Le doute systématique employé pour trouver une certitude solide ; il ne veut pas détruire la connaissance, mais chercher un fondement sûr."
+  "def": "Le doute systématique employé pour trouver une certitude solide ; il ne veut pas détruire la connaissance, mais chercher un fondement sûr.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -662,7 +773,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Pour Camus, l'être humain veut du sens, de l'ordre et de la clarté, mais le monde ne satisfait pas automatiquement cette exigence. Du choc entre les deux naît l'absurde."
+  "def": "Pour Camus, l'être humain veut du sens, de l'ordre et de la clarté, mais le monde ne satisfait pas automatiquement cette exigence. Du choc entre les deux naît l'absurde.",
+  "ilustre": [
+   "camus"
+  ]
  },
  {
   "subject": "hf",
@@ -671,7 +785,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "La célèbre dialectique de Hegel : la lutte pour la reconnaissance entre deux consciences de soi. L'esclave, par le travail, ouvre le chemin vers la liberté ; grande influence sur Marx et sur l'existentialisme."
+  "def": "La célèbre dialectique de Hegel : la lutte pour la reconnaissance entre deux consciences de soi. L'esclave, par le travail, ouvre le chemin vers la liberté ; grande influence sur Marx et sur l'existentialisme.",
+  "ilustre": [
+   "hegel",
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -680,7 +798,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Le sommet de la hiérarchie des Idées. Le principe suprême qui éclaire la connaissance et l'être, représenté par le soleil dans l'allégorie de la caverne."
+  "def": "Le sommet de la hiérarchie des Idées. Le principe suprême qui éclaire la connaissance et l'être, représenté par le soleil dans l'allégorie de la caverne.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -699,7 +820,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avicenne",
-  "def": "al-Qanun fi al-Tibb. L'encyclopédie médicale d'Avicenne, qui fut pendant des siècles le manuel de référence en Europe et dans le monde islamique."
+  "def": "al-Qanun fi al-Tibb. L'encyclopédie médicale d'Avicenne, qui fut pendant des siècles le manuel de référence en Europe et dans le monde islamique.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -718,7 +842,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "C'est l'idée que critique Beauvoir : que le destin de la femme est décidé par la biologie ou la tradition sociale. À son avis, ce destin est une construction historique, et la liberté peut le briser."
+  "def": "C'est l'idée que critique Beauvoir : que le destin de la femme est décidé par la biologie ou la tradition sociale. À son avis, ce destin est une construction historique, et la liberté peut le briser.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -727,7 +854,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "Le sommet de l'esprit objectif : le domaine où la liberté rationnelle se réalise dans l'institution commune, au-dessus de la famille et de la société civile."
+  "def": "Le sommet de l'esprit objectif : le domaine où la liberté rationnelle se réalise dans l'institution commune, au-dessus de la famille et de la société civile.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -737,7 +867,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "L'hypothèse pour porter le doute à l'extrême : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas s'effacer."
+  "def": "L'hypothèse pour porter le doute à l'extrême : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas s'effacer.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -746,7 +879,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avicenne",
-  "def": "L'expérience de pensée d'Avicenne : l'argument pour démontrer que la conscience de soi de l'âme est indépendante de la perception du corps."
+  "def": "L'expérience de pensée d'Avicenne : l'argument pour démontrer que la conscience de soi de l'âme est indépendante de la perception du corps.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -756,7 +892,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "L'école fondée par Aristote à Athènes. Elle unissait la recherche systématique, la classification, l'observation et le raisonnement logique."
+  "def": "L'école fondée par Aristote à Athènes. Elle unissait la recherche systématique, la classification, l'observation et le raisonnement logique.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -775,7 +914,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Allégorie qui symbolise la situation des êtres humains ordinaires : ils vivent parmi des apparences (les ombres) jusqu'à être libérés. C'est l'image de l'ascension dialectique et de l'éducation."
+  "def": "Allégorie qui symbolise la situation des êtres humains ordinaires : ils vivent parmi des apparences (les ombres) jusqu'à être libérés. C'est l'image de l'ascension dialectique et de l'éducation.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -784,7 +926,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "La maternité est souvent présentée comme la fin naturelle de la femme ; Beauvoir montre que ce mythe naturalise la répartition déséquilibrée du travail de soin."
+  "def": "La maternité est souvent présentée comme la fin naturelle de la femme ; Beauvoir montre que ce mythe naturalise la répartition déséquilibrée du travail de soin.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -804,7 +949,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "La difficulté de justifier l'induction : que quelque chose se soit toujours produit ne garantit pas logiquement que cela continuera de se produire. Pour Hume, cette attente n'est pas fondée par la raison, mais par l'habitude."
+  "def": "La difficulté de justifier l'induction : que quelque chose se soit toujours produit ne garantit pas logiquement que cela continuera de se produire. Pour Hume, cette attente n'est pas fondée par la raison, mais par l'habitude.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -813,7 +961,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Le dualisme platonicien laisse une question : comment le monde des Idées et les choses sensibles se relient-ils ? Aristote répond en situant les formes dans les choses mêmes."
+  "def": "Le dualisme platonicien laisse une question : comment le monde des Idées et les choses sensibles se relient-ils ? Aristote répond en situant les formes dans les choses mêmes.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -822,7 +973,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Aristote critique le fait que les formes soient situées à part des choses ; il pense que cela dédouble la réalité."
+  "def": "Aristote critique le fait que les formes soient situées à part des choses ; il pense que cela dédouble la réalité.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -831,7 +985,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
-  "def": "Axe essentiel de la métaphysique thomiste ; la clé pour comprendre le niveau de réalité auquel participent les êtres finis."
+  "def": "Axe essentiel de la métaphysique thomiste ; la clé pour comprendre le niveau de réalité auquel participent les êtres finis.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -840,7 +997,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Unique, continu, complet, immuable, éternel. Le changement que donnent les sens est pure apparence. On ne le connaît que par la raison."
+  "def": "Unique, continu, complet, immuable, éternel. Le changement que donnent les sens est pure apparence. On ne le connaît que par la raison.",
+  "ilustre": [
+   "parmenides"
+  ]
  },
  {
   "subject": "hf",
@@ -849,7 +1009,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BAV",
   "tema": "Avicenne",
-  "def": "L'être dont l'existence coïncide avec l'essence. Pour Avicenne, la chaîne des êtres contingents exige ce premier fondement."
+  "def": "L'être dont l'existence coïncide avec l'essence. Pour Avicenne, la chaîne des êtres contingents exige ce premier fondement.",
+  "ilustre": [
+   "avicena"
+  ]
  },
  {
   "subject": "hf",
@@ -858,7 +1021,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Critique de la théorie des Idées : si la chose et l'Idée sont semblables, il faudrait une autre Idée pour expliquer leur ressemblance, ce qui engendrerait une régression à l'infini."
+  "def": "Critique de la théorie des Idées : si la chose et l'Idée sont semblables, il faudrait une autre Idée pour expliquer leur ressemblance, ce qui engendrerait une régression à l'infini.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -867,7 +1033,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Pour les atomistes, l'espace non rempli qui rend le mouvement possible. Face à Parménide, accepter le vide est un pas décisif."
+  "def": "Pour les atomistes, l'espace non rempli qui rend le mouvement possible. Face à Parménide, accepter le vide est un pas décisif.",
+  "ilustre": [
+   "parmenides"
+  ]
  },
  {
   "subject": "hf",
@@ -876,7 +1045,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "L'image de Benjamin : le progrès n'est pas une amélioration tranquille, mais une accumulation de catastrophes ; l'ange veut regarder le passé, mais la tempête du « progrès » le pousse vers l'avant."
+  "def": "L'image de Benjamin : le progrès n'est pas une amélioration tranquille, mais une accumulation de catastrophes ; l'ange veut regarder le passé, mais la tempête du « progrès » le pousse vers l'avant.",
+  "ilustre": [
+   "benjamin"
+  ]
  },
  {
   "subject": "hf",
@@ -886,7 +1058,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Hume : les jugements moraux ne viennent pas de la raison, mais du sentiment. En disant « bon » ou « mauvais », nous exprimons un sentiment d'approbation ou de rejet, non un fait objectif."
+  "def": "Hume : les jugements moraux ne viennent pas de la raison, mais du sentiment. En disant « bon » ou « mauvais », nous exprimons un sentiment d'approbation ou de rejet, non un fait objectif.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -906,7 +1081,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "La connaissance vraie. On y parvient lorsque la raison comprend les Idées et leurs connexions."
+  "def": "La connaissance vraie. On y parvient lorsque la raison comprend les Idées et leurs connexions.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -925,7 +1103,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
-  "def": "La méthode de pensée développée dans les universités médiévales : elle cherche la vérité au moyen de questions, d'arguments, d'objections et de réponses systématiques."
+  "def": "La méthode de pensée développée dans les universités médiévales : elle cherche la vérité au moyen de questions, d'arguments, d'objections et de réponses systématiques.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -943,7 +1124,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Le lieu du débat politique et de l'action, où les citoyens parlent et s'écoutent. C'est là que naît le pouvoir."
+  "def": "Le lieu du débat politique et de l'action, où les citoyens parlent et s'écoutent. C'est là que naît le pouvoir.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -953,7 +1137,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "Dans le système de Hegel, le niveau où la liberté se réalise dans des institutions : le droit, la moralité, la famille, la société civile et l'État."
+  "def": "Dans le système de Hegel, le niveau où la liberté se réalise dans des institutions : le droit, la moralité, la famille, la société civile et l'État.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -963,7 +1150,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Le médiateur permettant d'appliquer les catégories aux phénomènes à travers le temps ; il unit le concept pur et l'intuition sensible."
+  "def": "Le médiateur permettant d'appliquer les catégories aux phénomènes à travers le temps ; il unit le concept pur et l'intuition sensible.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -992,7 +1182,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Langage et Science",
-  "def": "Une théorie est scientifique si certains faits possibles donnent la possibilité de la réfuter. C'est le principal critère de la science chez Popper."
+  "def": "Une théorie est scientifique si certains faits possibles donnent la possibilité de la réfuter. C'est le principal critère de la science chez Popper.",
+  "ilustre": [
+   "popper"
+  ]
  },
  {
   "subject": "hf",
@@ -1021,7 +1214,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "Tout ce que nous savons des choses correspond à la manière dont elles nous apparaissent (les phénomènes) ; nous ne pouvons pas connaître ce qu'il y a derrière les apparences."
+  "def": "Tout ce que nous savons des choses correspond à la manière dont elles nous apparaissent (les phénomènes) ; nous ne pouvons pas connaître ce qu'il y a derrière les apparences.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1031,7 +1227,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "La réalité qui nous apparaît dans l'expérience, structurée par les conditions de la sensibilité et de l'entendement."
+  "def": "La réalité qui nous apparaît dans l'expérience, structurée par les conditions de la sensibilité et de l'entendement.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1041,7 +1240,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Il se produit lorsque les rapports de travail et de pouvoir entre personnes apparaissent comme des rapports naturels entre choses."
+  "def": "Il se produit lorsque les rapports de travail et de pouvoir entre personnes apparaissent comme des rapports naturels entre choses.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1051,7 +1253,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Méthode critique pour examiner les valeurs morales selon leurs origines historiques, affectives et de pouvoir."
+  "def": "Méthode critique pour examiner les valeurs morales selon leurs origines historiques, affectives et de pouvoir.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1099,7 +1304,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "La tendance à comprendre le moi permanent non comme une substance unique, mais comme un ensemble de perceptions et d'expériences changeantes."
+  "def": "La tendance à comprendre le moi permanent non comme une substance unique, mais comme un ensemble de perceptions et d'expériences changeantes.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1139,7 +1347,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "La théorie selon laquelle les êtres concrets sont composés de matière et de forme. La forme n'est pas en dehors des choses ; c'est la structure même de la chose."
+  "def": "La théorie selon laquelle les êtres concrets sont composés de matière et de forme. La forme n'est pas en dehors des choses ; c'est la structure même de la chose.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1178,7 +1389,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Selon Anaxagore, les semences ou parties infiniment petites qui composent la réalité, chacune contenant quelque chose de toutes les choses. Le Nous (l'intelligence) les organise pour créer le monde à partir du mélange initial."
+  "def": "Selon Anaxagore, les semences ou parties infiniment petites qui composent la réalité, chacune contenant quelque chose de toutes les choses. Le Nous (l'intelligence) les organise pour créer le monde à partir du mélange initial.",
+  "ilustre": [
+   "anaxagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -1207,7 +1421,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "L'attente qui naît après avoir vu ensemble, encore et encore, certains événements. Pour Hume, la croyance pratique en la causalité vient de l'habitude."
+  "def": "L'attente qui naît après avoir vu ensemble, encore et encore, certains événements. Pour Hume, la croyance pratique en la causalité vient de l'habitude.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1216,7 +1433,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Elle n'est pas objet de la connaissance théorique, mais sert à orienter la pensée et la recherche."
+  "def": "Elle n'est pas objet de la connaissance théorique, mais sert à orienter la pensée et la recherche.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1226,7 +1446,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Les idées qui se présentent à l'entendement sans confusion et avec évidence ; pour Descartes, elles forment le noyau du critère de vérité."
+  "def": "Les idées qui se présentent à l'entendement sans confusion et avec évidence ; pour Descartes, elles forment le noyau du critère de vérité.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1236,7 +1459,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Forme de conscience qui présente les rapports historiques et sociaux comme s'ils étaient naturels, justes ou immuables."
+  "def": "Forme de conscience qui présente les rapports historiques et sociaux comme s'ils étaient naturels, justes ou immuables.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1265,7 +1491,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BH",
   "tema": "Hume",
-  "def": "La perception vive et intense de l'expérience : voir, entendre, sentir, la douleur ou le plaisir. Les idées sont des copies plus faibles des impressions."
+  "def": "La perception vive et intense de l'expérience : voir, entendre, sentir, la douleur ou le plaisir. Les idées sont des copies plus faibles des impressions.",
+  "ilustre": [
+   "hume"
+  ]
  },
  {
   "subject": "hf",
@@ -1295,7 +1524,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Le lien entre la base économique et les formes juridiques, politiques et culturelles qui se construisent sur elle."
+  "def": "Le lien entre la base économique et les formes juridiques, politiques et culturelles qui se construisent sur elle.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1305,7 +1537,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BL",
   "tema": "Locke",
-  "def": "La thèse de Berkeley : la matière n'existe pas comme substance indépendante ; ce qui existe, ce sont les idées perçues et les esprits qui les perçoivent. Son principe est « esse est percipi » (« être, c'est être perçu »). Conséquence radicale de l'empirisme."
+  "def": "La thèse de Berkeley : la matière n'existe pas comme substance indépendante ; ce qui existe, ce sont les idées perçues et les esprits qui les perçoivent. Son principe est « esse est percipi » (« être, c'est être perçu »). Conséquence radicale de l'empirisme.",
+  "ilustre": [
+   "locke",
+   "berkeley"
+  ]
  },
  {
   "subject": "hf",
@@ -1315,7 +1551,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Certaines idées et certains principes sont possédés par l'entendement lui-même dès la naissance, indépendamment de l'expérience. Base du rationalisme ; il a un lien avec l'anamnèse platonicienne."
+  "def": "Certaines idées et certains principes sont possédés par l'entendement lui-même dès la naissance, indépendamment de l'expérience. Base du rationalisme ; il a un lien avec l'anamnèse platonicienne.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1325,7 +1564,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "Selon Socrate, celui qui connaît vraiment le bien n'agirait pas mal exprès. La racine du mal est l'ignorance."
+  "def": "Selon Socrate, celui qui connaît vraiment le bien n'agirait pas mal exprès. La racine du mal est l'ignorance.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1345,7 +1587,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "Recourir à l'expérience intérieure du sujet dans la recherche de la vérité, mais sans s'en tenir à ses seules opinions."
+  "def": "Recourir à l'expérience intérieure du sujet dans la recherche de la vérité, mais sans s'en tenir à ses seules opinions.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -1365,7 +1610,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "L'espace et le temps : les formes a priori par lesquelles la sensibilité reçoit les phénomènes."
+  "def": "L'espace et le temps : les formes a priori par lesquelles la sensibilité reçoit les phénomènes.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1375,7 +1623,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "Socrate avoue qu'il ne sait pas et met à l'épreuve les croyances fermes de son interlocuteur."
+  "def": "Socrate avoue qu'il ne sait pas et met à l'épreuve les croyances fermes de son interlocuteur.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1395,7 +1646,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Langage et Science",
-  "def": "Selon le premier Wittgenstein, l'idée que la structure logique du langage et la structure des faits du monde peuvent partager la même forme. Ainsi, le langage est l'image logique du monde."
+  "def": "Selon le premier Wittgenstein, l'idée que la structure logique du langage et la structure des faits du monde peuvent partager la même forme. Ainsi, le langage est l'image logique du monde.",
+  "ilustre": [
+   "wittgenstein"
+  ]
  },
  {
   "subject": "hf",
@@ -1414,7 +1668,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Langage et Science",
-  "def": "L'usage du langage dans un contexte déterminé, avec ses propres règles. Selon le second Wittgenstein, la signification est liée à l'usage, non à une référence fixe."
+  "def": "L'usage du langage dans un contexte déterminé, avec ses propres règles. Selon le second Wittgenstein, la signification est liée à l'usage, non à une référence fixe.",
+  "ilustre": [
+   "wittgenstein"
+  ]
  },
  {
   "subject": "hf",
@@ -1423,7 +1680,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "Le procès de Socrate laisse une question acérée : faut-il toujours obéir à la loi, ou la conscience exige-t-elle une autre responsabilité face à une loi injuste ?"
+  "def": "Le procès de Socrate laisse une question acérée : faut-il toujours obéir à la loi, ou la conscience exige-t-elle une autre responsabilité face à une loi injuste ?",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1433,7 +1693,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Pour Platon, la justice n'est pas seulement la loi extérieure. C'est l'harmonie qui surgit lorsque chaque partie de l'âme et de la cité remplit dûment sa fonction."
+  "def": "Pour Platon, la justice n'est pas seulement la loi extérieure. C'est l'harmonie qui surgit lorsque chaque partie de l'âme et de la cité remplit dûment sa fonction.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1462,7 +1725,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "L'école philosophique fondée par Platon à Athènes. Elle unissait l'éducation mathématique, la dialectique et la préparation au gouvernement."
+  "def": "L'école philosophique fondée par Platon à Athènes. Elle unissait l'éducation mathématique, la dialectique et la préparation au gouvernement.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1471,7 +1737,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Pour Beauvoir, l'être humain est à la fois libre et conditionné. C'est pourquoi l'existence n'est ni une essence fermée, ni une liberté pure et sans limites."
+  "def": "Pour Beauvoir, l'être humain est à la fois libre et conditionné. C'est pourquoi l'existence n'est ni une essence fermée, ni une liberté pure et sans limites.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1481,7 +1750,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
-  "def": "Comprendre l'univers non comme un pur chaos, mais comme une structure vivante avec de l'ordre, du sens et des liens."
+  "def": "Comprendre l'univers non comme un pur chaos, mais comme une structure vivante avec de l'ordre, du sens et des liens.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -1499,7 +1771,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A9",
   "tema": "La politique classique",
-  "def": "Pour Platon, l'ordre politique qui surgit lorsque chaque partie de la cité remplit bien sa fonction."
+  "def": "Pour Platon, l'ordre politique qui surgit lorsque chaque partie de la cité remplit bien sa fonction.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1508,7 +1783,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Beauvoir suggère qu'être femme n'est pas une simple donnée biologique. La société, l'éducation et les rapports de pouvoir font entrer la femme dans un rôle déterminé."
+  "def": "Beauvoir suggère qu'être femme n'est pas une simple donnée biologique. La société, l'éducation et les rapports de pouvoir font entrer la femme dans un rôle déterminé.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1518,7 +1796,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Sartre dit que l'être humain n'est pas un objet fabriqué : il existe d'abord, puis se forme lui-même par ses actes."
+  "def": "Sartre dit que l'être humain n'est pas un objet fabriqué : il existe d'abord, puis se forme lui-même par ses actes.",
+  "ilustre": [
+   "sartre"
+  ]
  },
  {
   "subject": "hf",
@@ -1537,7 +1818,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité."
+  "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1555,7 +1839,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Formule qui exprime le déclin des valeurs absolues et des fondements transcendants. Cela ouvre le problème du nihilisme."
+  "def": "Formule qui exprime le déclin des valeurs absolues et des fondements transcendants. Cela ouvre le problème du nihilisme.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1564,7 +1851,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
-  "def": "La figure d'Hildegarde montre que les femmes aussi ont eu une grande production intellectuelle et spirituelle, même si les structures sociales la limitaient."
+  "def": "La figure d'Hildegarde montre que les femmes aussi ont eu une grande production intellectuelle et spirituelle, même si les structures sociales la limitaient.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -1573,7 +1863,11 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Même si l'entendement est vide en acte, il a le potentiel d'y écrire les formes des êtres. Selon Aristote, la connaissance vient de l'expérience, mais l'entendement a la capacité de recevoir les formes. (Plus tard Locke le reprendra sous le nom de « tabula rasa ».)"
+  "def": "Même si l'entendement est vide en acte, il a le potentiel d'y écrire les formes des êtres. Selon Aristote, la connaissance vient de l'expérience, mais l'entendement a la capacité de recevoir les formes. (Plus tard Locke le reprendra sous le nom de « tabula rasa ».)",
+  "ilustre": [
+   "aristoteles",
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -1582,7 +1876,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Dans la ligne de Beauvoir et d'Ortega y Gasset, le sujet ne choisit pas à partir de rien : son corps, les conditions de son époque et les relations sociales le situent."
+  "def": "Dans la ligne de Beauvoir et d'Ortega y Gasset, le sujet ne choisit pas à partir de rien : son corps, les conditions de son époque et les relations sociales le situent.",
+  "ilustre": [
+   "ortega",
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -1601,7 +1899,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "L'idée augustinienne : la vérité se trouve à l'intérieur de l'être humain, non à l'extérieur. Le principal précédent du tournant cartésien vers le sujet."
+  "def": "L'idée augustinienne : la vérité se trouve à l'intérieur de l'être humain, non à l'extérieur. Le principal précédent du tournant cartésien vers le sujet.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -1610,7 +1911,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Aristote distingue la cause matérielle, la formelle, l'efficiente et la finale pour expliquer les choses de façon plus complète."
+  "def": "Aristote distingue la cause matérielle, la formelle, l'efficiente et la finale pour expliquer les choses de façon plus complète.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1629,7 +1933,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Selon Arendt, les totalitarismes du XXe siècle ont une double racine : l'antisémitisme moderne (l'affaire Dreyfus) et l'impérialisme. Tous deux ont préparé la crise de l'État-nation et l'atomisation des masses."
+  "def": "Selon Arendt, les totalitarismes du XXe siècle ont une double racine : l'antisémitisme moderne (l'affaire Dreyfus) et l'impérialisme. Tous deux ont préparé la crise de l'État-nation et l'atomisation des masses.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -1639,7 +1946,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "La structure anthropologique qui distingue le rationnel, l'irascible et l'appétitif ; c'est aussi le pont entre l'éthique et la politique."
+  "def": "La structure anthropologique qui distingue le rationnel, l'irascible et l'appétitif ; c'est aussi le pont entre l'éthique et la politique.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1649,7 +1959,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A10",
   "tema": "L'hellénisme",
-  "def": "Le conseil de vie d'Épicure : « vis caché ». Loin de la vie politique agitée, la sérénité (ataraxie) se cherche dans le petit cercle d'amis et dans le plaisir mesuré."
+  "def": "Le conseil de vie d'Épicure : « vis caché ». Loin de la vie politique agitée, la sérénité (ataraxie) se cherche dans le petit cercle d'amis et dans le plaisir mesuré.",
+  "ilustre": [
+   "epicuro"
+  ]
  },
  {
   "subject": "hf",
@@ -1658,7 +1971,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "Selon Comte, l'humanité passe de l'explication théologique à la métaphysique, puis à l'état positif ; dans ce dernier dominent les faits et les lois."
+  "def": "Selon Comte, l'humanité passe de l'explication théologique à la métaphysique, puis à l'état positif ; dans ce dernier dominent les faits et les lois.",
+  "ilustre": [
+   "comte"
+  ]
  },
  {
   "subject": "hf",
@@ -1667,7 +1983,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
-  "def": "Le fondement de la norme morale que la raison humaine peut percevoir dans l'ordre de la nature et des fins humaines."
+  "def": "Le fondement de la norme morale que la raison humaine peut percevoir dans l'ordre de la nature et des fins humaines.",
+  "ilustre": [
+   "tomas"
+  ]
  },
  {
   "subject": "hf",
@@ -1687,7 +2006,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "La force qui exprime la clarté, la forme, la mesure, l'image et l'individualité. Dans la tragédie, elle apparaît aux côtés du dionysiaque."
+  "def": "La force qui exprime la clarté, la forme, la mesure, l'image et l'individualité. Dans la tragédie, elle apparaît aux côtés du dionysiaque.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1697,7 +2019,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Il exprime la démesure, le corps, l'impulsion, le chaos créateur et l'unité tragique de la vie."
+  "def": "Il exprime la démesure, le corps, l'impulsion, le chaos créateur et l'unité tragique de la vie.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1717,7 +2042,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "Idée liée à Gorgias : la parole peut être à la fois remède et poison ; elle n'explique pas seulement, elle agit aussi."
+  "def": "Idée liée à Gorgias : la parole peut être à la fois remède et poison ; elle n'explique pas seulement, elle agit aussi.",
+  "ilustre": [
+   "gorgias"
+  ]
  },
  {
   "subject": "hf",
@@ -1726,7 +2054,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "Selon Habermas, la connaissance est toujours liée à un intérêt : technique (dominer le monde), pratique (trouver du sens) et émancipateur (libérer l'être humain). Le dernier est le principal."
+  "def": "Selon Habermas, la connaissance est toujours liée à un intérêt : technique (dominer le monde), pratique (trouver du sens) et émancipateur (libérer l'être humain). Le dernier est le principal.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -1736,7 +2067,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "L'idée que la philosophie ne peut pas démontrer à elle seule toutes les vérités que donnent la foi ou la révélation."
+  "def": "L'idée que la philosophie ne peut pas démontrer à elle seule toutes les vérités que donnent la foi ou la révélation.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -1746,7 +2080,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Le conflit historique entre classes aux intérêts opposés à l'intérieur d'un mode de production."
+  "def": "Le conflit historique entre classes aux intérêts opposés à l'intérieur d'un mode de production.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1765,7 +2102,12 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C4",
   "tema": "Les maîtres du soupçon",
-  "def": "La dénomination qui réunit Marx, Nietzsche et Freud. Tous trois brisent la transparence de la conscience, mais à des niveaux et avec des fins différents."
+  "def": "La dénomination qui réunit Marx, Nietzsche et Freud. Tous trois brisent la transparence de la conscience, mais à des niveaux et avec des fins différents.",
+  "ilustre": [
+   "marx",
+   "nietzsche",
+   "freud"
+  ]
  },
  {
   "subject": "hf",
@@ -1785,7 +2127,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "Théorie qui examine comment les modes de production, les rapports de classe et les conditions matérielles conditionnent l'histoire."
+  "def": "Théorie qui examine comment les modes de production, les rapports de classe et les conditions matérielles conditionnent l'histoire.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -1795,7 +2140,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "La méthode qui aide à accoucher la pensée par des questions ; Socrate conduit l'interlocuteur vers la recherche."
+  "def": "La méthode qui aide à accoucher la pensée par des questions ; Socrate conduit l'interlocuteur vers la recherche.",
+  "ilustre": [
+   "socrates"
+  ]
  },
  {
   "subject": "hf",
@@ -1815,7 +2163,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "C'est le grand récit qui légitime globalement l'histoire, la science ou la politique. Exemples : le récit du progrès des Lumières, le développement de l'Esprit chez Hegel, la société sans classes du marxisme."
+  "def": "C'est le grand récit qui légitime globalement l'histoire, la science ou la politique. Exemples : le récit du progrès des Lumières, le développement de l'Esprit chez Hegel, la société sans classes du marxisme.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -1825,7 +2176,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "Définition : l'idée de Habermas selon laquelle les promesses de liberté et de raison des Lumières doivent être reconstruites de façon critique sans être écartées."
+  "def": "Définition : l'idée de Habermas selon laquelle les promesses de liberté et de raison des Lumières doivent être reconstruites de façon critique sans être écartées.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -1835,7 +2189,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "Défis du XXIe siècle",
-  "def": "Selon Bauman, c'est la situation historique où les structures, les liens et les identités de la société deviennent de plus en plus flexibles et instables."
+  "def": "Selon Bauman, c'est la situation historique où les structures, les liens et les identités de la société deviennent de plus en plus flexibles et instables.",
+  "ilustre": [
+   "bauman"
+  ]
  },
  {
   "subject": "hf",
@@ -1845,7 +2202,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "L'expression concrète de la substance unique. Les êtres particuliers ne sont pas des substances indépendantes, mais des modes limités."
+  "def": "L'expression concrète de la substance unique. Les êtres particuliers ne sont pas des substances indépendantes, mais des modes limités.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1854,7 +2214,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Le premier principe du mouvement : acte pur qui, sans changer lui-même, attire tout le reste comme cause finale."
+  "def": "Le premier principe du mouvement : acte pur qui, sans changer lui-même, attire tout le reste comme cause finale.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -1864,7 +2227,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Le domaine changeant, passager et apparent ; à lui seul, il ne donne pas la solidité de la connaissance vraie."
+  "def": "Le domaine changeant, passager et apparent ; à lui seul, il ne donne pas la solidité de la connaissance vraie.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -1874,7 +2240,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "La manière de distinguer dans chaque problème les conditions, les limites et l'usage légitime ; ce n'est pas une recette, mais une orientation rationnelle."
+  "def": "La manière de distinguer dans chaque problème les conditions, les limites et l'usage légitime ; ce n'est pas une recette, mais une orientation rationnelle.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -1884,7 +2253,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Renaissance et science",
-  "def": "Le mode de recherche qui unit observation, hypothèse, mesure et preuve ; avec l'œuvre de Galilée, il s'est placé au centre de la science moderne."
+  "def": "Le mode de recherche qui unit observation, hypothèse, mesure et preuve ; avec l'œuvre de Galilée, il s'est placé au centre de la science moderne.",
+  "ilustre": [
+   "galileo"
+  ]
  },
  {
   "subject": "hf",
@@ -1904,7 +2276,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BS",
   "tema": "Spinoza",
-  "def": "La manière de présenter la philosophie au moyen d'une chaîne rigoureuse de définitions, d'axiomes et de propositions ; Spinoza l'emploie dans l'Éthique pour montrer la cohérence de tout le système."
+  "def": "La manière de présenter la philosophie au moyen d'une chaîne rigoureuse de définitions, d'axiomes et de propositions ; Spinoza l'emploie dans l'Éthique pour montrer la cohérence de tout le système.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1914,7 +2289,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
-  "def": "Selon Leibniz, les substances simples, indivisibles et spirituelles qui composent la réalité. Chaque monade reflète l'univers entier depuis sa perspective, et elles s'accordent grâce à l'« harmonie préétablie »."
+  "def": "Selon Leibniz, les substances simples, indivisibles et spirituelles qui composent la réalité. Chaque monade reflète l'univers entier depuis sa perspective, et elles s'accordent grâce à l'« harmonie préétablie ».",
+  "ilustre": [
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -1924,7 +2302,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "L'être humain apporte quelque chose de nouveau au monde, il crée la possibilité de la nouveauté. La liberté politique est liée à la naissance."
+  "def": "L'être humain apporte quelque chose de nouveau au monde, il crée la possibilité de la nouveauté. La liberté politique est liée à la naissance.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -1943,7 +2324,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "Le courant qui relit l'héritage de Platon. Il fut important pour Augustin afin de penser la vérité, l'âme et la transcendance de Dieu."
+  "def": "Le courant qui relit l'héritage de Platon. Il fut important pour Augustin afin de penser la vérité, l'âme et la transcendance de Dieu.",
+  "ilustre": [
+   "platon",
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -1953,7 +2338,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "La crise qui surgit lorsque tombe le fondement des valeurs suprêmes. Il peut être passif, de désespérance, ou actif, occasion de créer des valeurs nouvelles."
+  "def": "La crise qui surgit lorsque tombe le fondement des valeurs suprêmes. Il peut être passif, de désespérance, ou actif, occasion de créer des valeurs nouvelles.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -1963,7 +2351,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "La perspective qui défend que les universaux n'ont pas de réalité indépendante ; ce sont des noms généraux que nous employons pour nommer les choses individuelles."
+  "def": "La perspective qui défend que les universaux n'ont pas de réalité indépendante ; ce sont des noms généraux que nous employons pour nommer les choses individuelles.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -1992,7 +2383,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Selon Anaxagore, l'intelligence ou principe directeur qui ordonne et met en mouvement l'univers."
+  "def": "Selon Anaxagore, l'intelligence ou principe directeur qui ordonne et met en mouvement l'univers.",
+  "ilustre": [
+   "anaxagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -2002,7 +2396,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Concept-limite pour penser la chose en soi ; on ne la connaît pas à la manière d'un phénomène."
+  "def": "Concept-limite pour penser la chose en soi ; on ne la connaît pas à la manière d'un phénomène.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2012,7 +2409,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
-  "def": "La doctrine de Malebranche : les corps et les âmes ne peuvent pas s'influencer directement ; Dieu est la seule cause, et chaque événement est l'« occasion » de Son intervention. Une réponse au dualisme corps-âme de Descartes."
+  "def": "La doctrine de Malebranche : les corps et les âmes ne peuvent pas s'influencer directement ; Dieu est la seule cause, et chaque événement est l'« occasion » de Son intervention. Une réponse au dualisme corps-âme de Descartes.",
+  "ilustre": [
+   "descartes",
+   "malebranche"
+  ]
  },
  {
   "subject": "hf",
@@ -2032,7 +2433,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "La formule « tout coule » ; selon Héraclite, la réalité est devenir et mouvement incessants."
+  "def": "La formule « tout coule » ; selon Héraclite, la réalité est devenir et mouvement incessants.",
+  "ilustre": [
+   "heraclito"
+  ]
  },
  {
   "subject": "hf",
@@ -2052,7 +2456,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "La structure et le sens que les choses sensibles reçoivent en participant des Idées. L'Idée est le modèle (archétype), et la chose sensible en est l'imitation (mimésis) ou la copie."
+  "def": "La structure et le sens que les choses sensibles reçoivent en participant des Idées. L'Idée est le modèle (archétype), et la chose sensible en est l'imitation (mimésis) ou la copie.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2072,7 +2479,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
-  "def": "La tradition philosophico-théologique des premiers penseurs de l'Église. Elle essaie d'expliquer la foi chrétienne avec les langages conceptuels de la Grèce et de Rome ; Augustin est l'un des sommets de la patristique occidentale."
+  "def": "La tradition philosophico-théologique des premiers penseurs de l'Église. Elle essaie d'expliquer la foi chrétienne avec les langages conceptuels de la Grèce et de Rome ; Augustin est l'un des sommets de la patristique occidentale.",
+  "ilustre": [
+   "agustin"
+  ]
  },
  {
   "subject": "hf",
@@ -2081,7 +2491,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "La pensée que propose Vattimo renonce aux vérités absolues, aux métaphysiques fermes et aux légitimations totales. Ce n'est pas une pensée banale, mais l'effort pour ne pas s'imposer comme force totalisante."
+  "def": "La pensée que propose Vattimo renonce aux vérités absolues, aux métaphysiques fermes et aux légitimations totales. Ce n'est pas une pensée banale, mais l'effort pour ne pas s'imposer comme force totalisante.",
+  "ilustre": [
+   "vattimo"
+  ]
  },
  {
   "subject": "hf",
@@ -2100,7 +2513,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
-  "def": "La tendance à comprendre l'être humain, la nature et le sacré dans une totalité inséparable."
+  "def": "La tendance à comprendre l'être humain, la nature et le sacré dans une totalité inséparable.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2110,7 +2526,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Il souligne que toute connaissance est située. Cela ne signifie pas que toutes les opinions se valent, mais que les discours absolus se déguisent eux-mêmes."
+  "def": "Il souligne que toute connaissance est située. Cela ne signifie pas que toutes les opinions se valent, mais que les discours absolus se déguisent eux-mêmes.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2129,7 +2548,11 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Doctrine selon laquelle la réalité surgit de plusieurs éléments et principes originels. Empédocle, Anaxagore et les atomistes étaient pluralistes."
+  "def": "Doctrine selon laquelle la réalité surgit de plusieurs éléments et principes originels. Empédocle, Anaxagore et les atomistes étaient pluralistes.",
+  "ilustre": [
+   "anaxagoras",
+   "empedocles"
+  ]
  },
  {
   "subject": "hf",
@@ -2139,7 +2562,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "La valeur excédentaire que le travailleur crée mais ne reçoit pas en salaire ; l'une des bases de l'accumulation du capital."
+  "def": "La valeur excédentaire que le travailleur crée mais ne reçoit pas en salaire ; l'une des bases de l'accumulation du capital.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -2148,7 +2574,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "Pour Foucault, le pouvoir et la vérité ne peuvent pas être séparés. Au moment où une société décide ce qui est normal ou vrai, le pouvoir est aussi à l'œuvre. Le savoir n'est jamais neutre."
+  "def": "Pour Foucault, le pouvoir et la vérité ne peuvent pas être séparés. Au moment où une société décide ce qui est normal ou vrai, le pouvoir est aussi à l'œuvre. Le savoir n'est jamais neutre.",
+  "ilustre": [
+   "foucault"
+  ]
  },
  {
   "subject": "hf",
@@ -2167,7 +2596,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Selon Arendt, ce n'est pas la même chose. Le pouvoir naît lorsque les gens agissent ensemble ; la violence, en revanche, peut être un outil pour remplacer ce pouvoir ou couvrir son vide."
+  "def": "Selon Arendt, ce n'est pas la même chose. Le pouvoir naît lorsque les gens agissent ensemble ; la violence, en revanche, peut être un outil pour remplacer ce pouvoir ou couvrir son vide.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2216,7 +2648,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CM",
   "tema": "Marx",
-  "def": "L'activité historique qui unit la théorie et la transformation pratique."
+  "def": "L'activité historique qui unit la théorie et la transformation pratique.",
+  "ilustre": [
+   "marx"
+  ]
  },
  {
   "subject": "hf",
@@ -2245,7 +2680,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Une même chose ne peut pas être et ne pas être à la fois et sous le même rapport ; c'est la condition de la définition, du débat et de la science."
+  "def": "Une même chose ne peut pas être et ne pas être à la fois et sous le même rapport ; c'est la condition de la définition, du débat et de la science.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2254,7 +2692,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B7",
   "tema": "Utilitarisme et libéralisme",
-  "def": "Selon Mill, la raison principale de limiter la liberté par la force est d'éviter de nuire à autrui."
+  "def": "Selon Mill, la raison principale de limiter la liberté par la force est d'éviter de nuire à autrui.",
+  "ilustre": [
+   "mill"
+  ]
  },
  {
   "subject": "hf",
@@ -2273,7 +2714,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Outil pour canaliser massivement la conscience et l'imaginaire politique."
+  "def": "Outil pour canaliser massivement la conscience et l'imaginaire politique.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2302,7 +2746,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "La raison fondée sur le dialogue libre, les arguments et le consensus raisonné. Pour Habermas, c'est de là que vient le potentiel émancipateur de la modernité."
+  "def": "La raison fondée sur le dialogue libre, les arguments et le consensus raisonné. Pour Habermas, c'est de là que vient le potentiel émancipateur de la modernité.",
+  "ilustre": [
+   "habermas"
+  ]
  },
  {
   "subject": "hf",
@@ -2331,7 +2778,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "C'est le concept de Zambrano : la raison ne se réduit pas au pur calcul ou à la définition, mais pense aussi par le vécu, la mémoire et la clarté intérieure."
+  "def": "C'est le concept de Zambrano : la raison ne se réduit pas au pur calcul ou à la définition, mais pense aussi par le vécu, la mémoire et la clarté intérieure.",
+  "ilustre": [
+   "zambrano"
+  ]
  },
  {
   "subject": "hf",
@@ -2341,7 +2791,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Dans la perspective aristotélicienne, les formes et les essences ne sont pas en dehors des choses ; il faut les trouver et les comprendre dans les choses concrètes elles-mêmes."
+  "def": "Dans la perspective aristotélicienne, les formes et les essences ne sont pas en dehors des choses ; il faut les trouver et les comprendre dans les choses concrètes elles-mêmes.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2350,7 +2803,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
-  "def": "Être accepté par l'autre comme sujet libre et égal. Pour Hegel, c'est la condition sociale de la liberté."
+  "def": "Être accepté par l'autre comme sujet libre et égal. Pour Hegel, c'est la condition sociale de la liberté.",
+  "ilustre": [
+   "hegel"
+  ]
  },
  {
   "subject": "hf",
@@ -2359,7 +2815,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
-  "def": "Selon Fraser, la justice de genre a besoin de deux axes : la redistribution des ressources, du temps et des opportunités sociales ; et, à la fois, la reconnaissance de la dignité et de la voix des sujets opprimés."
+  "def": "Selon Fraser, la justice de genre a besoin de deux axes : la redistribution des ressources, du temps et des opportunités sociales ; et, à la fois, la reconnaissance de la dignité et de la voix des sujets opprimés.",
+  "ilustre": [
+   "beauvoir"
+  ]
  },
  {
   "subject": "hf",
@@ -2368,7 +2827,11 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "La position éthique de Joxe Azurmendi : renoncer aux valeurs absolues, mais sans tomber dans le nihilisme ; unir l'éthique de la conviction (principes) et celle de la responsabilité (conséquences), sans reconnaître de valeur absolue à aucune des deux."
+  "def": "La position éthique de Joxe Azurmendi : renoncer aux valeurs absolues, mais sans tomber dans le nihilisme ; unir l'éthique de la conviction (principes) et celle de la responsabilité (conséquences), sans reconnaître de valeur absolue à aucune des deux.",
+  "ilustre": [
+   "kant",
+   "azurmendi"
+  ]
  },
  {
   "subject": "hf",
@@ -2378,7 +2841,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "C'est la manière dont le monde apparaît au sujet. Nous ne connaissons pas directement la chose en soi, mais le monde qui apparaît dans nos formes de connaissance."
+  "def": "C'est la manière dont le monde apparaît au sujet. Nous ne connaissons pas directement la chose en soi, mais le monde qui apparaît dans nos formes de connaissance.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2408,7 +2874,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "La substance pensante ; son trait n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience."
+  "def": "La substance pensante ; son trait n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2418,7 +2887,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "C'est la vengeance cachée née de l'impuissance ; elle fait du fort un méchant et présente la faiblesse comme une vertu."
+  "def": "C'est la vengeance cachée née de l'impuissance ; elle fait du fort un méchant et présente la faiblesse comme une vertu.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2437,7 +2909,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
-  "def": "La manière de penser sans séparer le savoir théorique, l'expérience pratique, le soin du corps, le symbole et la vie de la communauté."
+  "def": "La manière de penser sans séparer le savoir théorique, l'expérience pratique, le soin du corps, le symbole et la vie de la communauté.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2447,7 +2922,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BL",
   "tema": "Locke",
-  "def": "Les deux sources de l'expérience. Sensation : les idées que nous recevons du monde extérieur par les sens (couleurs, sons). Réflexion : la conscience des opérations internes de l'esprit (penser, vouloir)."
+  "def": "Les deux sources de l'expérience. Sensation : les idées que nous recevons du monde extérieur par les sens (couleurs, sons). Réflexion : la conscience des opérations internes de l'esprit (penser, vouloir).",
+  "ilustre": [
+   "locke"
+  ]
  },
  {
   "subject": "hf",
@@ -2466,7 +2944,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Chez Unamuno, la tension existentielle de l'être humain qui, tout en sachant qu'il doit mourir, continue de chercher du sens, de la permanence et de la foi."
+  "def": "Chez Unamuno, la tension existentielle de l'être humain qui, tout en sachant qu'il doit mourir, continue de chercher du sens, de la permanence et de la foi.",
+  "ilustre": [
+   "unamuno"
+  ]
  },
  {
   "subject": "hf",
@@ -2475,7 +2956,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Cette idée de Heidegger exprime que l'être humain compose sa vie avec des possibilités finies, et que sa mort est la limite propre et inévitable de ces possibilités."
+  "def": "Cette idée de Heidegger exprime que l'être humain compose sa vie avec des possibilités finies, et que sa mort est la limite propre et inévitable de ces possibilités.",
+  "ilustre": [
+   "heidegger"
+  ]
  },
  {
   "subject": "hf",
@@ -2484,7 +2968,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Selon Sartre, la conscience n'est pas une chose fermée ; c'est l'existence qui prend de la distance par rapport à elle-même, choisit et se forme comme projet."
+  "def": "Selon Sartre, la conscience n'est pas une chose fermée ; c'est l'existence qui prend de la distance par rapport à elle-même, choisit et se forme comme projet.",
+  "ilustre": [
+   "sartre"
+  ]
  },
  {
   "subject": "hf",
@@ -2494,7 +2981,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "La forme de raisonnement qui tire de deux prémisses une conclusion nécessaire ; la base de la logique aristotélicienne."
+  "def": "La forme de raisonnement qui tire de deux prémisses une conclusion nécessaire ; la base de la logique aristotélicienne.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2533,7 +3023,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "La situation où les individus s'insèrent dans de grands mécanismes de fabrication de l'opinion et du désir."
+  "def": "La situation où les individus s'insèrent dans de grands mécanismes de fabrication de l'opinion et du désir.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2561,7 +3054,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Pour Arendt, c'est l'une des bases du totalitarisme. Lorsque l'individu se détache des liens communs, il se retrouve plus démuni face à la propagande et à l'obéissance."
+  "def": "Pour Arendt, c'est l'une des bases du totalitarisme. Lorsque l'individu se détache des liens communs, il se retrouve plus démuni face à la propagande et à l'obéissance.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2581,7 +3077,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BD",
   "tema": "Descartes",
-  "def": "Le risque qui surgit lorsqu'on conclut que sa propre conscience (le cogito) est la seule certitude : ne pas pouvoir démontrer que le monde extérieur et les autres esprits existent, et penser que seul le moi est réel. Descartes veut le surmonter grâce à la garantie de Dieu."
+  "def": "Le risque qui surgit lorsqu'on conclut que sa propre conscience (le cogito) est la seule certitude : ne pas pouvoir démontrer que le monde extérieur et les autres esprits existent, et penser que seul le moi est réel. Descartes veut le surmonter grâce à la garantie de Dieu.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2601,7 +3100,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "La position selon laquelle la vérité et les valeurs dépendent du sujet : la perception et l'intérêt propres sont la mesure. C'est une forme de relativisme appliquée à l'individu (Protagoras : « l'homme est la mesure de toutes choses »)."
+  "def": "La position selon laquelle la vérité et les valeurs dépendent du sujet : la perception et l'intérêt propres sont la mesure. C'est une forme de relativisme appliquée à l'individu (Protagoras : « l'homme est la mesure de toutes choses »).",
+  "ilustre": [
+   "protagoras"
+  ]
  },
  {
   "subject": "hf",
@@ -2621,7 +3123,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "C'est la force vitale créatrice capable de créer des valeurs nouvelles. Ce n'est pas une caricature politique, mais l'image du dépassement de l'homme."
+  "def": "C'est la force vitale créatrice capable de créer des valeurs nouvelles. Ce n'est pas une caricature politique, mais l'image du dépassement de l'homme.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2631,7 +3136,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "La chose concrète, ce qui est par soi. Pour Aristote, les autres caractéristiques appartiennent à la substance."
+  "def": "La chose concrète, ce qui est par soi. Pour Aristote, les autres caractéristiques appartiennent à la substance.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2651,7 +3159,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "(telos + logie) Théorie philosophique qui propose que tous les êtres — y compris la nature — ont une fin. Synonyme : finalisme."
+  "def": "(telos + logie) Théorie philosophique qui propose que tous les êtres — y compris la nature — ont une fin. Synonyme : finalisme.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2670,7 +3181,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Langage et Science",
-  "def": "Définition : l'analyse de Russell pour clarifier la structure logique qui se trouve sous la grammaire superficielle d'une phrase."
+  "def": "Définition : l'analyse de Russell pour clarifier la structure logique qui se trouve sous la grammaire superficielle d'une phrase.",
+  "ilustre": [
+   "russell"
+  ]
  },
  {
   "subject": "hf",
@@ -2680,7 +3194,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "La réalité vraie ne se trouve pas dans la variabilité que donnent les sens, mais dans le niveau stable des idées ou formes."
+  "def": "La réalité vraie ne se trouve pas dans la variabilité que donnent les sens, mais dans le niveau stable des idées ou formes.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2707,7 +3224,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AA",
   "tema": "Aristote",
-  "def": "Il distingue la végétative, la sensitive et la rationnelle ; ce sont l'outil pour comprendre la gradation des vivants."
+  "def": "Il distingue la végétative, la sensitive et la rationnelle ; ce sont l'outil pour comprendre la gradation des vivants.",
+  "ilustre": [
+   "aristoteles"
+  ]
  },
  {
   "subject": "hf",
@@ -2727,7 +3247,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "Forme de pouvoir politique du XXe siècle qui absorbe entièrement l'individu au moyen d'une idéologie totalisante, en usant de la terreur et en créant la société de masse. Ce n'est pas la tyrannie classique."
+  "def": "Forme de pouvoir politique du XXe siècle qui absorbe entièrement l'individu au moyen d'une idéologie totalisante, en usant de la terreur et en créant la société de masse. Ce n'est pas la tyrannie classique.",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2737,7 +3260,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "L'âme est immortelle, elle change de corps (renaît dans un autre corps) et après la mort doit se purifier pour retourner au monde des Idées."
+  "def": "L'âme est immortelle, elle change de corps (renaît dans un autre corps) et après la mort doit se purifier pour retourner au monde des Idées.",
+  "ilustre": [
+   "platon"
+  ]
  },
  {
   "subject": "hf",
@@ -2746,7 +3272,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Le processus consistant à dépasser les vieilles valeurs qui nient la vie et à créer des valeurs nouvelles qui affirment la force de la vie, la créativité et l'auto-dépassement."
+  "def": "Le processus consistant à dépasser les vieilles valeurs qui nient la vie et à créer des valeurs nouvelles qui affirment la force de la vie, la créativité et l'auto-dépassement.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2756,7 +3285,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Relatif aux conditions qui rendent possible la connaissance objective ; non la chose en soi, mais la structure de l'expérience."
+  "def": "Relatif aux conditions qui rendent possible la connaissance objective ; non la chose en soi, mais la structure de l'expérience.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2766,7 +3298,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BOC",
   "tema": "Ockham",
-  "def": "Les sept arts libéraux médiévaux : le trivium (grammaire, rhétorique, dialectique) et le quadrivium (arithmétique, géométrie, astronomie, musique). Ils formaient le cursus de base de la scolastique dans les universités."
+  "def": "Les sept arts libéraux médiévaux : le trivium (grammaire, rhétorique, dialectique) et le quadrivium (arithmétique, géométrie, astronomie, musique). Ils formaient le cursus de base de la scolastique dans les universités.",
+  "ilustre": [
+   "ockham"
+  ]
  },
  {
   "subject": "hf",
@@ -2785,7 +3320,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "User de la raison devant le public : la capacité d'argumenter, de débattre et de critiquer les institutions."
+  "def": "User de la raison devant le public : la capacité d'argumenter, de débattre et de critiquer les institutions.",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",
@@ -2815,7 +3353,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
-  "def": "Chez Hildegarde, le concept qui exprime la verdeur, la force et la fécondité de la vie. Il noue la nature, la santé et la force vitale de Dieu."
+  "def": "Chez Hildegarde, le concept qui exprime la verdeur, la force et la fécondité de la vie. Il noue la nature, la santé et la force vitale de Dieu.",
+  "ilustre": [
+   "hildegarda"
+  ]
  },
  {
   "subject": "hf",
@@ -2835,7 +3376,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Renaissance et science",
-  "def": "Chez Machiavel, le courage et la détermination dont le gouvernant a besoin pour faire face à la fortune (le hasard). Ce n'est pas une vertu morale, mais la capacité efficace de dominer la situation politique en sa faveur."
+  "def": "Chez Machiavel, le courage et la détermination dont le gouvernant a besoin pour faire face à la fortune (le hasard). Ce n'est pas une vertu morale, mais la capacité efficace de dominer la situation politique en sa faveur.",
+  "ilustre": [
+   "maquiavelo"
+  ]
  },
  {
   "subject": "hf",
@@ -2845,7 +3389,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5B",
   "tema": "Hannah Arendt",
-  "def": "La théorie d'Arendt qui organise l'activité humaine en trois niveaux : le labeur (biologique), le travail (artificiel) et l'action (politique)."
+  "def": "La théorie d'Arendt qui organise l'activité humaine en trois niveaux : le labeur (biologique), le travail (artificiel) et l'action (politique).",
+  "ilustre": [
+   "arendt"
+  ]
  },
  {
   "subject": "hf",
@@ -2864,7 +3411,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Pour Schopenhauer, au fond de la réalité il n'y a pas de raison transparente, mais une impulsion sans fin rationnelle et un désir insatiable."
+  "def": "Pour Schopenhauer, au fond de la réalité il n'y a pas de raison transparente, mais une impulsion sans fin rationnelle et un désir insatiable.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2874,7 +3424,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "Le concept de Nietzsche ne signifie pas seulement domination brute. Il exprime la force créatrice de la vie, la capacité d'imposer des formes nouvelles et l'élan de se dépasser."
+  "def": "Le concept de Nietzsche ne signifie pas seulement domination brute. Il exprime la force créatrice de la vie, la capacité d'imposer des formes nouvelles et l'élan de se dépasser.",
+  "ilustre": [
+   "nietzsche"
+  ]
  },
  {
   "subject": "hf",
@@ -2884,7 +3437,10 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "A4",
   "tema": "Les premiers philosophes",
-  "def": "Selon Anaximandre, le principe n'est pas un élément concret, mais un fondement illimité, indéterminé et incommensurable."
+  "def": "Selon Anaximandre, le principe n'est pas un élément concret, mais un fondement illimité, indéterminé et incommensurable.",
+  "ilustre": [
+   "anaximandro"
+  ]
  },
  {
   "subject": "hf",
@@ -2924,7 +3480,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Le trait le plus caractéristique de l'époque moderne. L'exercice de la raison n'est limité par aucune instance extérieure (ni la tradition, ni l'autorité, ni la foi). La raison est le principe et le tribunal suprême pour juger du vrai."
+  "def": "Le trait le plus caractéristique de l'époque moderne. L'exercice de la raison n'est limité par aucune instance extérieure (ni la tradition, ni l'autorité, ni la foi). La raison est le principe et le tribunal suprême pour juger du vrai.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2934,7 +3493,12 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Courant philosophique qui reconnaît la raison comme unique source, fondement et critère de toute connaissance humaine. Au XVIIe siècle, avec Descartes, Spinoza et Leibniz, il est devenu un courant philosophique précis."
+  "def": "Courant philosophique qui reconnaît la raison comme unique source, fondement et critère de toute connaissance humaine. Au XVIIe siècle, avec Descartes, Spinoza et Leibniz, il est devenu un courant philosophique précis.",
+  "ilustre": [
+   "descartes",
+   "spinoza",
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -2944,7 +3508,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Théorie qui soutient que l'entendement possède certaines idées fondamentales dès la naissance. Selon le rationalisme, ce sont des principes indépendants de l'expérience, base de la connaissance sûre."
+  "def": "Théorie qui soutient que l'entendement possède certaines idées fondamentales dès la naissance. Selon le rationalisme, ce sont des principes indépendants de l'expérience, base de la connaissance sûre.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2954,7 +3521,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "La perception directe, sans doute possible, d'un esprit clair et attentif. Selon Descartes, le point de départ de la connaissance sûre."
+  "def": "La perception directe, sans doute possible, d'un esprit clair et attentif. Selon Descartes, le point de départ de la connaissance sûre.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2964,7 +3534,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Tirer des conclusions nécessaires à partir de principes sûrs, au moyen d'une chaîne logique."
+  "def": "Tirer des conclusions nécessaires à partir de principes sûrs, au moyen d'une chaîne logique.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2974,7 +3547,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Tout mettre en doute pour trouver un fondement sûr. C'est un instrument, non une fin."
+  "def": "Tout mettre en doute pour trouver un fondement sûr. C'est un instrument, non une fin.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2984,7 +3560,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Hypothèse du 3e niveau du doute : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas être éliminé."
+  "def": "Hypothèse du 3e niveau du doute : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas être éliminé.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -2994,7 +3573,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "« Je pense, donc je suis ». La première vérité et le fondement de la philosophie de Descartes : on ne peut pas nier l'existence du sujet qui doute."
+  "def": "« Je pense, donc je suis ». La première vérité et le fondement de la philosophie de Descartes : on ne peut pas nier l'existence du sujet qui doute.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3004,7 +3586,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Une idée est claire lorsqu'elle est immédiate et manifeste pour un esprit attentif. Elle est distincte lorsqu'elle est séparée de toutes les autres. Critère de vérité tiré du cogito."
+  "def": "Une idée est claire lorsqu'elle est immédiate et manifeste pour un esprit attentif. Elle est distincte lorsqu'elle est séparée de toutes les autres. Critère de vérité tiré du cogito.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3014,7 +3599,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Le degré de réalité de la chose qu'une idée représente. En appliquant le principe de causalité, la réalité objective d'une idée a besoin d'une cause qui ait une réalité formelle égale ou supérieure."
+  "def": "Le degré de réalité de la chose qu'une idée représente. En appliquant le principe de causalité, la réalité objective d'une idée a besoin d'une cause qui ait une réalité formelle égale ou supérieure.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3023,7 +3611,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité."
+  "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3033,7 +3624,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Ce qui existe en soi-même et n'a besoin d'aucune autre chose pour exister. Selon Descartes, au sens strict seul Dieu est substance."
+  "def": "Ce qui existe en soi-même et n'a besoin d'aucune autre chose pour exister. Selon Descartes, au sens strict seul Dieu est substance.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3043,7 +3637,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "La propriété essentielle de la substance, qui ne peut en être séparée. Celui de la res cogitans est la pensée ; celui de la res extensa, l'étendue."
+  "def": "La propriété essentielle de la substance, qui ne peut en être séparée. Celui de la res cogitans est la pensée ; celui de la res extensa, l'étendue.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3053,7 +3650,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Une modification particulière de l'attribut. Par exemple, comprendre et vouloir sont des modes de la pensée ; la forme et le mouvement, des modes de l'étendue."
+  "def": "Une modification particulière de l'attribut. Par exemple, comprendre et vouloir sont des modes de la pensée ; la forme et le mouvement, des modes de l'étendue.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3063,7 +3663,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "C'est la substance pensante ; sa caractéristique n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience."
+  "def": "C'est la substance pensante ; sa caractéristique n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3073,7 +3676,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "C'est le domaine des corps et de la nature : la réalité qui peut s'expliquer au moyen de l'étendue, de la figure, de la position et du mouvement."
+  "def": "C'est le domaine des corps et de la nature : la réalité qui peut s'expliquer au moyen de l'étendue, de la figure, de la position et du mouvement.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3083,7 +3689,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Structure que Descartes a proposée comme point d'union entre l'âme et le corps ; elle nomme le problème, mais ne le résout pas définitivement."
+  "def": "Structure que Descartes a proposée comme point d'union entre l'âme et le corps ; elle nomme le problème, mais ne le résout pas définitivement.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3093,7 +3702,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Conception qui divise la réalité en deux substances indépendantes : res cogitans (pensée) et res extensa (étendue)."
+  "def": "Conception qui divise la réalité en deux substances indépendantes : res cogitans (pensée) et res extensa (étendue).",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3103,7 +3715,10 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Conception qui explique la nature par la matière et le mouvement mécanique. Selon Descartes, l'univers fonctionne au moyen de grands tourbillons."
+  "def": "Conception qui explique la nature par la matière et le mouvement mécanique. Selon Descartes, l'univers fonctionne au moyen de grands tourbillons.",
+  "ilustre": [
+   "descartes"
+  ]
  },
  {
   "subject": "hf",
@@ -3113,7 +3728,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Doctrine de Malebranche : les substances n'agissent pas les unes sur les autres, Dieu est la seule cause."
+  "def": "Doctrine de Malebranche : les substances n'agissent pas les unes sur les autres, Dieu est la seule cause.",
+  "ilustre": [
+   "descartes",
+   "malebranche"
+  ]
  },
  {
   "subject": "hf",
@@ -3123,7 +3742,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Dieu et la Nature sont la même chose. Spinoza : Deus sive Natura. Il n'existe qu'une seule substance."
+  "def": "Dieu et la Nature sont la même chose. Spinoza : Deus sive Natura. Il n'existe qu'une seule substance.",
+  "ilustre": [
+   "descartes",
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -3133,7 +3756,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Selon Leibniz, la substance simple, active et indivisible. Les monades n'ont pas de fenêtres."
+  "def": "Selon Leibniz, la substance simple, active et indivisible. Les monades n'ont pas de fenêtres.",
+  "ilustre": [
+   "descartes",
+   "leibniz"
+  ]
  },
  {
   "subject": "hf",
@@ -3143,7 +3770,11 @@ const GLOSARIO = [
   "bloque": "B",
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
-  "def": "Doctrine de Leibniz : Dieu, en créant le monde, a synchronisé les substances pour toujours, sans influence externe."
+  "def": "Doctrine de Leibniz : Dieu, en créant le monde, a synchronisé les substances pour toujours, sans influence externe.",
+  "ilustre": [
+   "descartes",
+   "leibniz"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {

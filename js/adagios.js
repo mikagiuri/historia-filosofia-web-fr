@@ -37,7 +37,8 @@ const ADAGIOS = [
   "t": [
    "hf-sofistas",
    "hf-antropologia",
-   "fil-t2"
+   "fil-t2",
+   "hf-montaigne-ensayos"
   ]
  },
  {
@@ -697,6 +698,439 @@ const ADAGIOS = [
   "e": "mod",
   "t": [
    "hf-metafisica"
+  ]
+ },
+ {
+  "id": "examen",
+  "img": "media/galeria_museo/adagios/examen.jpg",
+  "pie": "Buste de Socrate, copie romaine d'un original grec du IVe siècle av. J.-C. (musées du Vatican)",
+  "la": "Ho anexétastos bíos ou biotós",
+  "gr": "Ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ",
+  "tr": "ho de anexétastos bíos ou biotós anthrópoi",
+  "es": "Une vie sans examen ne vaut pas d'être vécue.",
+  "o": "Platon, Apologie de Socrate 38a",
+  "sen": "Socrate le dit devant le tribunal qui le juge : il préfère mourir plutôt que de cesser de s'examiner lui-même et d'examiner les autres. Vivre en être humain, c'est se demander pourquoi nous faisons ce que nous faisons.",
+  "uso": "Pour expliquer à quoi sert la philosophie ou pour présenter Socrate.",
+  "trampa": "Il ne dit pas que la vie de celui qui ne philosophe pas vaut moins, mais que s'examiner fait partie du fait de bien vivre. Socrate ne demande pas d'écrire des traités : il demande de se poser des questions.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-sofistas",
+   "hf-antropologia",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "geometria",
+  "img": "media/galeria_museo/adagios/geometria.jpg",
+  "pie": "Mosaïque de l'Académie de Platon, provenant d'une villa de Pompéi (Ier siècle ; Musée archéologique de Naples)",
+  "la": "Ageometretos medeis eisito",
+  "gr": "Ἀγεωμέτρητος μηδεὶς εἰσίτω",
+  "tr": "ageométretos medéis eisíto",
+  "es": "Que nul n'entre ici s'il n'est géomètre.",
+  "o": "Inscription que la tradition place à l'entrée de l'Académie de Platon ; elle est transmise par des commentateurs d'Aristote du VIe siècle, comme Jean Philopon et Élias",
+  "sen": "Pour Platon, les mathématiques éduquent l'esprit à penser ce qui ne se voit pas avec les yeux : elles sont l'étape préalable pour parvenir aux Idées.",
+  "uso": "Pour Platon, la théorie des Idées et la ligne divisée.",
+  "trampa": "Rien ne prouve que l'inscription ait existé du temps de Platon : elle apparaît presque mille ans plus tard. Ce qui est bien de Platon, c'est la place des mathématiques dans l'éducation du philosophe (République VII).",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-platon",
+   "hf-ap"
+  ]
+ },
+ {
+  "id": "arche",
+  "img": "media/galeria_museo/adagios/arche.jpg",
+  "pie": "Buste de Bias de Priène avec son nom en grec, copie romaine (musées du Vatican)",
+  "la": "Magistratus virum indicat",
+  "gr": "Ἀρχὴ ἄνδρα δείκνυσι",
+  "tr": "arkhé ándra deíknysi",
+  "es": "Le pouvoir révèle l'homme.",
+  "er": "I, x, 76",
+  "o": "Sentence attribuée à Bias de Priène, l'un des Sept Sages ; Aristote la cite dans l'Éthique à Nicomaque V, 1, 1130a",
+  "sen": "Tant qu'il n'a pas de pouvoir, n'importe qui semble juste. C'est en commandant, quand ses décisions touchent les autres, qu'on voit vraiment comment est une personne.",
+  "uso": "Pour la justice, la politique ou le mythe de l'anneau de Gygès.",
+  "amb": "politica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "hf-politica",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "primum",
+  "img": "media/galeria_museo/adagios/primum.jpg",
+  "pie": "Le Repas de noces, de Pieter Bruegel l'Ancien (vers 1568 ; Kunsthistorisches Museum, Vienne)",
+  "la": "Primum vivere, deinde philosophari",
+  "es": "D'abord vivre, ensuite philosopher.",
+  "o": "Formule traditionnelle, parfois attribuée à Hobbes sans confirmation ; une idée semblable apparaît chez le poète grec Phocylide : « cherche d'abord de quoi vivre, et ensuite la vertu »",
+  "sen": "Avant de penser, il faut manger : la philosophie a besoin que les besoins fondamentaux soient satisfaits. Aristote disait déjà que la philosophie est née quand il y a eu du temps libre.",
+  "uso": "Pour l'origine de la philosophie ou pour le rapport entre les conditions matérielles et la pensée (Marx).",
+  "trampa": "Cela ne veut pas dire que philosopher soit un luxe inutile. On l'emploie souvent pour dire le contraire : seul celui qui vit dignement peut penser librement.",
+  "amb": "humano",
+  "e": "mod",
+  "t": [
+   "hf-mito",
+   "hf-sospecha",
+   "fil-t1"
+  ]
+ },
+ {
+  "id": "ancilla",
+  "img": "media/galeria_museo/adagios/ancilla.jpg",
+  "pie": "Le Triomphe de saint Thomas d'Aquin, de Benozzo Gozzoli (vers 1470 ; musée du Louvre) : Aristote et Platon à ses côtés, Averroès à ses pieds",
+  "la": "Philosophia ancilla theologiae",
+  "es": "La philosophie est la servante de la théologie.",
+  "o": "Formule scolastique ; l'image vient de Philon et de Clément d'Alexandrie et on l'attribue à Pierre Damien (XIe siècle), bien que la formule exacte ne se soit répandue que beaucoup plus tard",
+  "sen": "La raison est au service de la foi : elle sert à expliquer et à défendre ce que l'on croit, non à le juger.",
+  "uso": "Pour le thème de la foi et de la raison au Moyen Âge.",
+  "trampa": "Tous les penseurs médiévaux ne pensaient pas ainsi. Thomas d'Aquin reconnaît à la philosophie son propre domaine, et Averroès soutenait que la vérité de la raison ne contredit pas celle de la foi.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "gratia",
+  "img": "media/galeria_museo/adagios/gratia.jpg",
+  "pie": "Triomphe de saint Thomas d'Aquin sur les hérétiques, de Filippino Lippi (1489-1491 ; chapelle Carafa, Santa Maria sopra Minerva, Rome)",
+  "la": "Gratia non tollit naturam, sed perficit",
+  "es": "La grâce ne détruit pas la nature, mais la perfectionne.",
+  "o": "Thomas d'Aquin, Somme théologique I, q. 1, a. 8, ad 2",
+  "sen": "Ce que Dieu donne par la foi n'annule pas ce que l'être humain atteint par lui-même avec la raison, mais le complète. Foi et raison collaborent.",
+  "uso": "Pour la synthèse de Thomas d'Aquin entre Aristote et le christianisme.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-fe-razon",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "adaequatio",
+  "img": "media/galeria_museo/adagios/adaequatio.jpg",
+  "pie": "Saint Thomas d'Aquin, de Carlo Crivelli (1476 ; National Gallery, Londres)",
+  "la": "Veritas est adaequatio rei et intellectus",
+  "es": "La vérité est l'adéquation de la chose et de l'intellect.",
+  "o": "Thomas d'Aquin, De veritate q. 1, a. 1, qui l'attribue à Isaac Israéli ; l'idée vient d'Aristote, Métaphysique IV, 7",
+  "sen": "Un énoncé est vrai quand ce que nous pensons coïncide avec ce que sont les choses. C'est la théorie de la vérité comme correspondance.",
+  "uso": "Pour les théories de la vérité en théorie de la connaissance.",
+  "trampa": "Ce n'est pas la seule définition possible : il existe des théories de la vérité comme cohérence ou comme consensus, et les pragmatistes la comprennent comme ce qui fonctionne.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "recipitur",
+  "img": "media/galeria_museo/adagios/recipitur.jpg",
+  "pie": "La Laitière, de Johannes Vermeer (vers 1660 ; Rijksmuseum, Amsterdam) : le lait prend la forme du récipient",
+  "la": "Quidquid recipitur ad modum recipientis recipitur",
+  "es": "Tout ce qui est reçu est reçu selon le mode de celui qui reçoit.",
+  "o": "Axiome scolastique ; Thomas d'Aquin, Somme théologique I, q. 75, a. 5 ; son origine se trouve dans le néoplatonisme du Livre des causes",
+  "sen": "Celui qui reçoit quelque chose le transforme selon sa propre nature, comme le liquide prend la forme du récipient. Il en va de même pour la connaissance : chacun comprend selon sa capacité.",
+  "uso": "Pour la théorie de la connaissance, de la scolastique à Kant, ou pour parler de la manière dont une œuvre est reçue.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "fil-t3",
+   "hf-kant",
+   "hf-medieval"
+  ]
+ },
+ {
+  "id": "parendo",
+  "img": "media/galeria_museo/adagios/parendo.jpg",
+  "pie": "Francis Bacon, portrait attribué à Paul van Somer (1617)",
+  "la": "Natura non nisi parendo vincitur",
+  "es": "On ne commande à la nature qu'en lui obéissant.",
+  "o": "Francis Bacon, Novum Organum I, 3 (1620)",
+  "sen": "Pour dominer la nature, il faut connaître ses lois et les respecter. Savoir et pouvoir vont ensemble.",
+  "uso": "Pour Bacon, la révolution scientifique ou la technique.",
+  "trampa": "Ce n'est pas un appel à respecter la nature au sens écologiste : Bacon voulait la connaître pour mieux la dominer.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "hf-modernidad",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "etsi",
+  "img": "media/galeria_museo/adagios/etsi.jpg",
+  "pie": "Hugo Grotius, de Michiel van Mierevelt (1631)",
+  "la": "Etsi Deus non daretur",
+  "es": "Même si Dieu n'existait pas.",
+  "o": "Hugo Grotius, Du droit de la guerre et de la paix (1625), Prolégomènes, 11 : « même si nous accordions [...] que Dieu n'existe pas » ; la formule brève est postérieure",
+  "sen": "Les normes fondamentales de la justice vaudraient même si Dieu n'existait pas, parce qu'elles se fondent sur la nature humaine et sur la raison. C'est le point de départ du droit naturel moderne.",
+  "uso": "Pour le droit naturel, le contrat social ou la laïcité.",
+  "trampa": "Grotius était croyant : il ne nie pas Dieu, mais montre que le droit ne dépend pas de la foi de chacun. Il ajoute que supposer que Dieu n'existe pas serait un péché très grave.",
+  "amb": "politica",
+  "e": "mod",
+  "t": [
+   "hf-contrato",
+   "fil-t6",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "aeternitatis",
+  "img": "media/galeria_museo/adagios/aeternitatis.jpg",
+  "pie": "Portrait de Spinoza, anonyme hollandais (vers 1665-1666)",
+  "la": "Sub specie aeternitatis",
+  "es": "Du point de vue de l'éternité.",
+  "o": "Spinoza, Éthique II, proposition 44, corollaire 2 (« sub quadam aeternitatis specie »), et Éthique V",
+  "sen": "Il est propre à la raison de voir les choses comme nécessaires, non comme des accidents du moment. Les regarder ainsi libère des passions et donne une joie sereine.",
+  "uso": "Pour Spinoza ou pour parler de prendre de la distance par rapport à l'immédiat.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica"
+  ]
+ },
+ {
+  "id": "saltus",
+  "img": "media/galeria_museo/adagios/saltus.jpg",
+  "pie": "Page de titre de la Philosophia botanica de Linné (Stockholm, 1751), où apparaît la formule latine",
+  "fit": "contain",
+  "la": "Natura non facit saltus",
+  "es": "La nature ne fait pas de sauts.",
+  "o": "Leibniz, Nouveaux essais sur l'entendement humain, préface : « la nature ne fait jamais des sauts » ; la formule latine, chez Linné, Philosophia botanica (1751)",
+  "sen": "Dans la nature, tout change de façon graduelle, sans ruptures : entre deux états il y a toujours des intermédiaires. C'est la loi de continuité de Leibniz.",
+  "uso": "Pour Leibniz, la classification des êtres vivants ou l'évolution chez Darwin, qui la reprend.",
+  "trampa": "La physique du XXe siècle la remet en question : en mécanique quantique, l'énergie change par sauts.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "determinatio",
+  "img": "media/galeria_museo/adagios/determinatio.jpg",
+  "pie": "Hegel, de Jakob Schlesinger (1831)",
+  "la": "Omnis determinatio est negatio",
+  "es": "Toute détermination est une négation.",
+  "o": "Spinoza, lettre 50 à Jarig Jelles (1674) : « determinatio negatio est » ; Hegel en a fait une formule, avec « omnis »",
+  "sen": "Dire ce qu'est une chose suppose de dire ce qu'elle n'est pas : définir, c'est poser des limites. Pour Hegel, la négation est le moteur de la pensée et de la réalité.",
+  "uso": "Pour Spinoza, Hegel et la dialectique, y compris celle de Marx.",
+  "amb": "realidad",
+  "e": "mod",
+  "t": [
+   "hf-metafisica",
+   "hf-sospecha",
+   "fil-metafisica"
+  ]
+ },
+ {
+  "id": "carro",
+  "img": "media/galeria_museo/adagios/carro.jpg",
+  "pie": "« Le monde à l'envers », image populaire flamande (Turnhout, vers 1880) : un bœuf fauche l'herbe et un coq couve les œufs",
+  "fit": "contain",
+  "la": "Currus bovem trahit",
+  "es": "Mettre la charrue avant les bœufs.",
+  "er": "I, vii, 28",
+  "o": "« La charrette tire le bœuf », proverbe sur ce que l'on fait à l'envers",
+  "sen": "Faire les choses dans le mauvais ordre, commencer par la fin. En logique, c'est inverser la cause et l'effet, ou tenir pour prouvé ce que l'on veut prouver.",
+  "uso": "Pour l'argumentation et les sophismes : confondre la cause et l'effet, ou la pétition de principe.",
+  "trampa": "En espagnol, on dit « mettre la charrette devant le cheval ». L’image d’Érasme est encore plus absurde : une charrette qui tire le bœuf au lieu d’être tirée par lui.",
+  "amb": "saber",
+  "e": "ren",
+  "t": [
+   "fil-t4",
+   "hf-metodos"
+  ]
+ },
+ {
+  "id": "necesidad",
+  "img": "media/galeria_museo/adagios/necesidad.jpg",
+  "pie": "Frontispice de Nova reperta (« Nouvelles inventions »), gravure d'après Jan van der Straet (vers 1590)",
+  "la": "Necessitas magistra",
+  "es": "La nécessité est la mère de l'invention.",
+  "er": "IV, vi, 55",
+  "o": "L'idée se trouve chez Platon, République II, 369c, où Socrate dit de la cité que « c'est notre besoin qui la créera » ; le poète romain Perse appelle l'estomac « maître des arts » (Satires, prologue)",
+  "sen": "Les techniques, les métiers et même les cités naissent pour satisfaire des besoins : quand quelque chose nous manque, nous trouvons un moyen de l'obtenir.",
+  "uso": "Pour l'origine de la technique, de la société ou de la cité chez Platon.",
+  "trampa": "La phrase avec « mère » n'est pas de Platon : elle a été rendue célèbre par une traduction anglaise du XIXe siècle, celle de Benjamin Jowett.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-politica",
+   "hf-platon",
+   "fil-t6"
+  ]
+ },
+ {
+  "id": "hecho",
+  "img": "media/galeria_museo/adagios/hecho.jpg",
+  "pie": "Vanité, de Philippe de Champaigne (1646 ; musée de Tessé, Le Mans) : une tulipe, un crâne et un sablier",
+  "la": "Quod factum est, infectum fieri non potest",
+  "gr": "μόνου γὰρ αὐτοῦ καὶ θεὸς στερίσκεται, ἀγένητα ποιεῖν ἅσσ᾽ ἂν ᾖ πεπραγμένα",
+  "tr": "mónou gar autoú kai theós sterísketai, agéneta poiéin háss' an ei pepragména",
+  "es": "Ce qui est fait est fait.",
+  "er": "II, iii, 72",
+  "o": "Le proverbe espagnol « A lo hecho, pecho » a un antécédent chez le poète Agathon, cité par Aristote, Éthique à Nicomaque VI, 2, 1139b : « de cela seul même Dieu est privé : faire que ne soit pas arrivé ce qui a été fait » ; en latin, Plaute, Aulularia 741",
+  "sen": "Ce qui est fait ne peut être défait, il faut donc en assumer les conséquences. Aristote cite le vers pour expliquer que nous ne délibérons que sur l'avenir, non sur le passé.",
+  "uso": "Pour la responsabilité morale, la délibération chez Aristote ou le débat sur la question de savoir si Dieu peut changer le passé.",
+  "trampa": "Le proverbe demande d'assumer les conséquences ; le vers grec dit quelque chose de plus fort : même la toute-puissance ne peut pas changer le passé.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "habito",
+  "img": "media/galeria_museo/adagios/habito.jpg",
+  "pie": "Saint François en méditation, de Francisco de Zurbarán (1639 ; National Gallery, Londres)",
+  "la": "Cucullus non facit monachum",
+  "es": "L'habit ne fait pas le moine.",
+  "o": "Proverbe latin médiéval d'origine incertaine ; Shakespeare le cite dans La Nuit des rois (I, 5) et dans Mesure pour mesure (V, 1)",
+  "sen": "L'apparence ne change pas ce que l'on est : s'habiller en moine ne rend personne saint. Il faut juger sur les actes, non sur l'image.",
+  "uso": "Pour la distinction entre apparence et réalité ou pour la critique de l'hypocrisie.",
+  "trampa": "Cela ne veut pas dire que l'apparence ne compte pour rien : le proverbe avertit qu'elle ne suffit pas.",
+  "amb": "humano",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "oro",
+  "img": "media/galeria_museo/adagios/oro.jpg",
+  "pie": "L'Alchimiste, de David Teniers le Jeune (vers 1640-1650 ; Mauritshuis, La Haye)",
+  "la": "Non teneas aurum totum quod splendet ut aurum",
+  "es": "Tout ce qui brille n'est pas or.",
+  "o": "Alain de Lille, Livre des paraboles (XIIe siècle) : « ne tiens pas pour or tout ce qui brille comme l'or »",
+  "sen": "Ce qui semble précieux ne l'est pas toujours. Les apparences sont trompeuses, et il faut examiner avant de faire confiance.",
+  "uso": "Pour la différence entre apparence et réalité, la caverne de Platon ou l'esprit critique face à l'information.",
+  "trampa": "Il ne dit pas que rien de ce qui brille n'est de l'or, mais que tout ne l'est pas. La conclusion prudente est d'examiner, non de mépriser.",
+  "amb": "saber",
+  "e": "med",
+  "t": [
+   "hf-platon",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "taurum",
+  "img": "media/galeria_museo/adagios/taurum.jpg",
+  "pie": "Le Moschophore, statue d'un homme portant un veau (vers 570 av. J.-C.), tout juste mise au jour sur l'Acropole d'Athènes (photographie des environs de 1865)",
+  "la": "Taurum tollet, qui vitulum sustulerit",
+  "es": "Qui a porté le veau portera le taureau.",
+  "er": "I, ii, 51",
+  "o": "Proverbe ancien que recueille Érasme ; Montaigne raconte dans les Essais I, 23 (« De la coutume ») le cas d'une villageoise qui, à force de porter un veau dans ses bras, le portait encore quand c'était déjà un bœuf",
+  "sen": "L'habitude rend possible ce qui semblait impossible : ce que l'on fait peu à peu, chaque jour, finit par paraître naturel. C'est pourquoi, pour Montaigne, la coutume est si puissante, en bien comme en mal.",
+  "uso": "Pour la force de la coutume et des habitudes (Aristote, Hume) ou pour Montaigne.",
+  "trampa": "Montaigne ne le raconte pas comme un éloge de l'effort, mais comme un avertissement : la coutume nous habitue aussi à l'absurde et nous empêche de le voir.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-racionalismo",
+   "fil-t2"
+  ]
+ },
+ {
+  "id": "mores",
+  "img": "media/galeria_museo/adagios/mores.jpg",
+  "pie": "Némésis ou La Grande Fortune, gravure d'Albrecht Dürer (vers 1501-1502)",
+  "fit": "contain",
+  "la": "Sui cuique mores fingunt fortunam",
+  "es": "À chacun, son caractère forge sa fortune.",
+  "er": "II, iv, 30",
+  "o": "Vers que cite Cornélius Népos, Vie d'Atticus 11 ; Érasme le commente longuement, et Montaigne clôt avec lui l'essai I, 42 (« De l'inégalité qui est entre nous »)",
+  "sen": "Le sort de chacun dépend davantage de son caractère que du hasard. Montaigne l'emploie à la fin d'un essai sur l'inégalité : ce qui distingue vraiment les personnes les unes des autres, ce n'est ni leur richesse ni leur charge, mais ce qu'elles sont.",
+  "uso": "Pour le caractère et la fortune en éthique (les stoïciens, Machiavel) ou pour Montaigne.",
+  "trampa": "Cela ne signifie pas que chacun a ce qu'il mérite : Montaigne critique justement le fait que nous jugions les personnes sur leur fortune extérieure.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica",
+   "fil-t5"
+  ]
+ },
+ {
+  "id": "sellis",
+  "img": "media/galeria_museo/adagios/sellis.jpg",
+  "pie": "Les Proverbes flamands, de Pieter Bruegel l'Ancien (1559 ; Gemäldegalerie, Berlin) : parmi plus d'une centaine de proverbes peints figure celui de l'homme qui finit dans la cendre entre deux tabourets",
+  "la": "Duabus sedere sellis",
+  "es": "Être assis entre deux chaises.",
+  "er": "I, vii, 2",
+  "o": "Proverbe ancien que recueille Érasme ; Montaigne l'emploie dans les Essais I, 54 (« Des vaines subtilités ») pour les demi-savants, restés « entre deux selles »",
+  "sen": "Celui qui ne se décide pas entre deux positions finit sans aucune. Montaigne l'applique au savoir : les paysans simples et les vrais philosophes sont des gens de bien ; ceux qui font du mal sont ceux qui ont quitté l'ignorance naturelle sans parvenir à la sagesse.",
+  "uso": "Pour l'indécision, le juste milieu mal compris ou la critique des pédants par Montaigne.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "fil-t3"
+  ]
+ },
+ {
+  "id": "lucernam",
+  "img": "media/galeria_museo/adagios/lucernam.jpg",
+  "pie": "Astronome à la chandelle, de Gerrit Dou (vers 1656-1659 ; Getty Museum)",
+  "la": "Olet lucernam",
+  "es": "Cela sent la lampe.",
+  "er": "I, vii, 71",
+  "o": "Plutarque, Vie de Démosthène 8 : un rival disait que les discours de Démosthène sentaient la lampe ; Érasme le recueille, et Montaigne l'emploie dans les Essais I, 10 (« Du parler prompt ou tardif »)",
+  "sen": "Une œuvre qui « sent la lampe » laisse trop voir l'effort des nuits de travail : on la sent raide, peu naturelle. Montaigne préférait la parole qui paraît spontanée.",
+  "uso": "Pour le style, l'écriture d'essais ou l'improvisation face à la préparation.",
+  "trampa": "Montaigne ne méprise pas le travail : il dit que certains esprits ont besoin de se préparer et que d'autres brillent en improvisant, et que chacun doit connaître le sien.",
+  "amb": "humano",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos"
+  ]
+ },
+ {
+  "id": "crastinum",
+  "img": "media/galeria_museo/adagios/crastinum.jpg",
+  "pie": "Plutarque, dans une gravure de 1565. Montaigne lisait ses Vies dans la traduction française de Jacques Amyot",
+  "la": "In crastinum seria",
+  "es": "Les affaires sérieuses, à demain.",
+  "er": "IV, vii, 60",
+  "o": "Plutarque, Vie de Pélopidas 10 : c'est ce que dit Archias, tyran de Thèbes, en laissant fermée la lettre qui l'avertissait du complot contre lui ; Érasme le recueille, et Montaigne en fait le titre de l'essai II, 4 (« À demain les affaires »)",
+  "sen": "Remettre au lendemain ce qui est urgent peut coûter cher : Archias est mort cette nuit-là. Montaigne nuance : un sage peut différer une nouvelle par politesse ou pour une affaire plus importante, mais pas pour son propre plaisir.",
+  "uso": "Pour la prudence, la tendance à remettre à plus tard ce qui est important ou l'essai de Montaigne.",
+  "amb": "etica",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-etica"
+  ]
+ },
+ {
+  "id": "stultitia",
+  "img": "media/galeria_museo/adagios/stultitia.jpg",
+  "pie": "Page des Essais de Montaigne dans l'édition de 1595",
+  "fit": "contain",
+  "la": "In nihil sapiendo iucundissima vita",
+  "gr": "Ἐν τῷ φρονεῖν γὰρ μηδὲν ἥδιστος βίος",
+  "tr": "en to phronéin gar medén hédistos bíos",
+  "es": "La vie la plus douce est de ne rien savoir.",
+  "er": "II, x, 81",
+  "o": "Sophocle, Ajax 554. Érasme réunit sous cet adage des exemples et des citations que Montaigne recopie presque en bloc dans l'« Apologie de Raymond Sebond » (Essais II, 12). Montaigne connaissait si bien les Adages qu'il écrivit que, s'il avait vu Érasme, il aurait pris pour adage tout ce qu'il aurait dit à son valet (III, 2)",
+  "sen": "Celui qui ne sait ni ne soupçonne rien ne souffre pas : parfois l'ignorance semble plus heureuse que la sagesse. Montaigne raconte le cas d'un homme qui se croyait propriétaire de tous les navires qui arrivaient au Pirée et regretta qu'on l'ait guéri.",
+  "uso": "Pour le scepticisme de Montaigne, l'« Apologie » ou le débat sur la question de savoir si le savoir rend heureux (l'Ecclésiaste : « beaucoup de sagesse, beaucoup de chagrin »).",
+  "trampa": "Montaigne ne fait pas simplement l'éloge de l'ignorance : il s'en sert pour rabattre l'orgueil de la raison. Et la phrase est prononcée par Ajax dans une tragédie, non par un philosophe.",
+  "amb": "saber",
+  "e": "ant",
+  "t": [
+   "hf-montaigne-ensayos",
+   "hf-helenismo",
+   "fil-t1"
   ]
  }
 ];

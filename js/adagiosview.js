@@ -59,7 +59,8 @@ const ADG_ILU = [
   ["Érasme de Rotterdam", "erasmo"], ["Érasme", "erasmo"], ["Socrate", "socrates"], ["Platon", "platon"], ["Aristote", "aristoteles"],
   ["Héraclite", "heraclito"], ["Parménide", "parmenides"], ["Protagoras", "protagoras"], ["Épicure", "epicuro"], ["Sénèque", "seneca"],
   ["Tertullien", "tertuliano"], ["Ockham", "ockham"], ["Machiavel", "maquiavelo"], ["Hobbes", "hobbes"], ["Spinoza", "spinoza"],
-  ["Locke", "locke"], ["Leibniz", "leibniz"], ["Kant", "kant"], ["Heidegger", "heidegger"]
+  ["Locke", "locke"], ["Leibniz", "leibniz"], ["Kant", "kant"], ["Heidegger", "heidegger"],
+  ["Averroès", "averroes"], ["Hegel", "hegel"], ["Marx", "marx"], ["Darwin", "darwin"]
 ];
 let adgAmb = "all", adgPrueba = false;
 

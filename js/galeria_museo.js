@@ -142,7 +142,7 @@ const GALERIA_MUSEO = [
  },
  {
   "f": "media/retratos/museo/averroes.jpg",
-  "t": "Averroes",
+  "t": "Averroès",
   "pie": "The Disgrace of Averroes Vies Des Savants Illustr s · Louis Figuier (15 February 1819 – 8 November 1894) · Public Domain · Wikimedia Commons",
   "bloque": "B",
   "unidad": "Medieval-Moderna · museo (dominio público)",

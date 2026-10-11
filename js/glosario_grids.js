@@ -203,10 +203,6 @@ const GLOSARIO_GRIDS = {
        "t": "Principe de non-contradiction"
       }
      ]
-    },
-    {
-     "rel": "son école",
-     "t": "Le Lycée"
     }
    ],
    "cruces": [

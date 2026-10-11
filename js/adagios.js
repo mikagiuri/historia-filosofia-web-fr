@@ -601,7 +601,7 @@ const ADAGIOS = [
   "img": "media/galeria_museo/adagios/custodes.jpg",
   "pie": "Le panoptique de Jeremy Bentham (1843) : une prison où un seul surveillant peut tout voir",
   "fit": "contain",
-  "la": "Quis custodiet ipsos custodes?",
+  "la": "Quis custodiet ipsos custodes ?",
   "es": "Qui gardera les gardiens eux-mêmes ?",
   "o": "Juvénal, Satires VI, 347-348",
   "sen": "Si quelqu'un doit surveiller, qui le surveille, lui ? C'est la grande question du contrôle du pouvoir.",

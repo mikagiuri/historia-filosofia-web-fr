@@ -124,7 +124,7 @@ const REP_EVENTS = [
     threat:"Si la cité produit largement assez (excédent ≥ 40 % de la population), c’est la prospérité.",
     effect:()=>{ return (repProd()-repPop()) >= repPop()*0.4 ? { d:2, msg:"Excédent : +2." } : { d:0, msg:"Pas d’excédent notable." }; } },
   // — Atenas y su historia (contexto de Platón y Aristóteles) —
-  { id:"delos", name:"Ligue de Délos", src:"Historia", img:"ev-delos",
+  { id:"delos", name:"Ligue de Délos", src:"Histoire", img:"ev-delos",
     threat:"Avec une flotte forte (guerriers ≥ producteurs ÷ 2,5), les alliés paient un tribut ; sinon, ils se soulèvent.",
     effect:()=>{ return repNGeff() >= rep.t.E.n/2.5 ? { d:2, msg:"Tribut des alliés : +2." } : { d:-1, msg:"Les alliés se soulèvent : −1." }; } },
   { id:"esparta", name:"Invasion de Sparte", src:"Guerre du Péloponnèse", img:"ev-esparta",
@@ -133,7 +133,7 @@ const REP_EVENTS = [
   { id:"socrates", name:"Procès de Socrate", src:"Apologie", img:"ev-socrates",
     threat:"La cité juge son homme le plus sage. Sans un gardien pleinement sage (SJ 5), elle le condamne.",
     effect:()=>{ return rep.t.Z.max>=5 ? { d:1, msg:"La sagesse l’acquitte : +1." } : { d:-2, msg:"Le plus sage est condamné : −2." }; } },
-  { id:"pericles", name:"L’ambition de Périclès", src:"Historia", img:"ev-pericles",
+  { id:"pericles", name:"L’ambition de Périclès", src:"Histoire", img:"ev-pericles",
     threat:"Un chef brillant entreprend de grands travaux. Avec des gardiens tempérants (tempérance moyenne ≥4,5), c’est un siècle d’or ; sans mesure, c’est l’hybris.",
     effect:()=>{ const tavg=rep.t.Z.t/Math.max(1,rep.t.Z.n); return tavg>=4.5 ? { d:2, msg:"Siècle d’or de Périclès : +2." } : { d:-2, msg:"Ambition démesurée (hybris) : −2." }; } },
   { id:"sofistas", name:"Essor des sophistes", src:"Gorgias", img:"ev-sofistas",

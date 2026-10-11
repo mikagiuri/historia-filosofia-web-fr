@@ -455,6 +455,14 @@
 
   <!-- FUENTES Y AVISO (07-10): en todas las webs, enlazada desde el pie. data-web = webs publicadas que
        llevan esa fuente (student_lib.filterFuentes quita las demás); la web maestra las muestra todas. -->
+  <!-- (11-10) MAPA DE LA WEB: se rellena desde js/mapaview.js con el menú de cada build -->
+  <section class="view" id="mapa">
+    <p class="eyebrow">Orientation</p>
+    <h1 class="title">Plan du site</h1>
+    <p class="lead">Tout ce que contient ce site, dans le même ordre que le menu, et les thèmes de chaque matière. Clique sur n’importe quel nom pour y aller.</p>
+    <div id="mapabox"></div>
+  </section>
+
   <section class="view" id="fuentes">
     <p class="eyebrow">Avis</p>
     <h1 class="title">Sources et avis</h1>
@@ -480,7 +488,7 @@
         <li>Exploration « Spinoza : la philosophie comme système » (Philosophie 1re, thème 1 ; Histoire de la philosophie, thème 15) : les passages des encadrés « Spinoza contre… » (<em>Éthique</em> I, appendice ; II, 35, scolie ; III, préface ; IV, 45, scolie ; lettre 56 ; <em>Traité théologico-politique</em>, préface ; <em>Traité politique</em> I, 1) sont des versions personnelles à partir de l’original latin ; les autres phrases brèves de Spinoza (<em>Éthique</em> II, 7 ; IV, 67 ; V, 42 ; <em>Traité théologico-politique</em>, 20) sont des traductions personnelles, littérales, de l’original latin.</li>
         <li>Exploration « Les marxismes et l’empreinte de Marx dans les sciences » (Philosophie, 1re année, thème 6 ; Histoire de la philosophie, thème 21) : rédaction propre ; œuvres et dates vérifiées dans les éditions de référence et dans la <em>Stanford Encyclopedia of Philosophy</em>. La communication de Boris Hessen (Londres, 1931) et l’affaire Lyssenko-Vavilov, d’après les études d’histoire de la science soviétique.</li>
         <li>Ilustres : biographies de notre propre élaboration. Chaque anecdote indique sa source (ancienne ou moderne) et porte la mention « selon la tradition » lorsqu’il s’agit d’une légende ou d’une attribution douteuse. Les phrases citées dans les biographies et les anecdotes sont traduites par nos soins de l’original, sauf celles des auteurs qui ont écrit en espagnol.</li>
-        <li>Fiches d’époque (Illustres) : rédaction propre. Dates, œuvres et données vérifiées dans la <em>Stanford Encyclopedia of Philosophy</em>, l’<em>Encyclopaedia Britannica</em> et les éditions de référence de chaque auteur ; la citation de Kant provient de <em>Qu’est-ce que les Lumières ?</em> (1784).</li>
+        <li>Fiches d’époque (Illustres) : rédaction propre. Dates, œuvres et données vérifiées dans la <em>Stanford Encyclopedia of Philosophy</em>, l’<em>Encyclopaedia Britannica</em> et les éditions de référence de chaque auteur ; la citation de Kant provient de <em>Qu’est-ce que les Lumières ?</em> (1784). Section « Art » (11-10) : E. H. Gombrich, <em>Histoire de l’art</em> ; W. Tatarkiewicz, <em>Histoire de l’esthétique</em> ; E. Panofsky, <em>Architecture gothique et pensée scolastique</em> (1951) ; W. Benjamin, <em>L’Œuvre d’art à l’époque de sa reproductibilité technique</em> (1936) ; A. Danto, « The Artworld » (1964) ; dates des œuvres, dans les fiches du musée du Prado, des musées du Vatican et de l’<em>Encyclopaedia Britannica</em>.</li>
         <li>Atelier de Leibniz, « Le calcul : Leibniz invente les signes ∫ et d » : élaboration propre. Dates et données vérifiées dans J. J. O'Connor et E. F. Robertson, <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/" target="_blank" rel="noopener">« Gottfried Wilhelm von Leibniz »</a>, MacTutor (manuscrits du 29 octobre et du 21 novembre 1675 ; <em>Nova methodus</em>, 1684 ; premier ∫ imprimé, 1686) ; dans la reconstruction du <em>Supplementum geometriae dimensoriae</em> (1693) et sa ressemblance avec Barrow (M. Nauenberg, « Barrow and Leibniz on the fundamental theorem of the calculus », arXiv:1111.6145) ; dans Babbage, <em>Passages from the Life of a Philosopher</em> (1864), chap. IV, pour l'Analytical Society ; et dans M. Katz et al. sur les infinitésimaux comme « fictions utiles » (lettre à Masson, 1716). Le mot « intégrale » (Jacob Bernoulli, 1690) et l'accord de 1696 avec Johann Bernoulli, d'après les histoires de la notation mathématique.</li>
         <li>Atelier de Leibniz : textes de notre propre élaboration ; les citations et les données ont été vérifiées dans C. I. Gerhardt (éd.), <em>Die philosophischen Schriften von G. W. Leibniz</em>, vol. VII (le « calculons »), dans la <em>Monadologie</em> (§ 17), dans la lettre de Joachim Bouvet à Leibniz du 4 novembre 1701 et sur l’exemplaire conservé de la machine à calculer (bibliothèque de Hanovre).</li>
         <li>Lectures des débats du « Duel de raisons » (Platon, Descartes, Spinoza, La Mettrie, Kant, Hegel et Fichte) : versions personnelles et condensées, et non traductions littérales ; les phrases entre guillemets résument le passage. Le choix des textes et les guides sont de notre propre élaboration.</li>
@@ -967,7 +975,7 @@
     </article>
   </section>
 </main>
-<footer class="wrap sitefoot"><a href="#fuentes">Sources et avis</a></footer>
+<footer class="wrap sitefoot"><a href="#mapa">Plan du site</a> · <a href="#fuentes">Sources et avis</a></footer>
 
 <script src="js/store.js"></script>
 <script src="js/data.js"></script>
@@ -1066,6 +1074,7 @@
 <script src="js/search.js"></script>
 <script src="js/resume.js"></script>
 <script src="js/itinerario.js"></script>
+<script src="js/mapaview.js"></script>
 <script src="js/epocas.js"></script>
 <script src="js/compacto.js"></script>
 <script src="js/nav_toc.js"></script>

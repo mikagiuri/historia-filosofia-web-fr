@@ -104,37 +104,37 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Academia Antigua",
+    "nom": "L’Ancienne Académie",
     "a": "vers 387 – vers 268 av. J.-C.",
     "q": "Platon, Speusippe, Xénocrate, Polémon et Cratès",
     "d": "Ils développent les idées de Platon en mathématiques, en métaphysique et en éthique. Zénon de Kition, qui fondera ensuite le stoïcisme, étudia auprès de Polémon."
    },
    {
-    "n": "Academia escéptica",
+    "nom": "L’Académie sceptique",
     "a": "vers 268 – 241 av. J.-C.",
     "q": "Arcésilas",
     "d": "Retour au Socrate qui sait qu'il ne sait pas : face aux stoïciens, l'Académie défend la suspension du jugement quand il n'y a pas de certitude."
    },
    {
-    "n": "Academia Nueva",
+    "nom": "La Nouvelle Académie",
     "a": "IIe siècle av. J.-C.",
     "q": "Carnéade et Clitomaque",
     "d": "Un scepticisme modéré : il n'y a pas de certitude, mais il y a des idées plus ou moins convaincantes qui suffisent pour guider la vie."
    },
    {
-    "n": "Filón y Antíoco",
+    "nom": "Philon et Antiochos",
     "a": "vers 110 – 79 av. J.-C.",
     "q": "Philon de Larissa et Antiochos d'Ascalon",
     "d": "Philon, le dernier directeur connu, s'enfuit à Rome pendant la guerre contre Mithridate. Son disciple Antiochos abandonna le scepticisme et soutint que platoniciens, aristotéliciens et stoïciens disaient au fond la même chose, ce qui rapprocha l'école du stoïcisme."
    },
    {
-    "n": "Platonismo en la Atenas romana",
+    "nom": "Le platonisme dans l’Athènes romaine",
     "a": "Ier siècle av. J.-C. – IVe siècle apr. J.-C.",
     "q": "Des maîtres platoniciens, sans école continue",
     "d": "Après la guerre de 86 av. J.-C., on continue d'enseigner Platon à Athènes, mais plus dans la même institution. En 176, l'empereur Marc Aurèle crée dans la ville des chaires rémunérées pour les platoniciens, les aristotéliciens, les stoïciens et les épicuriens."
    },
    {
-    "n": "Escuela neoplatónica de Atenas",
+    "nom": "L’école néoplatonicienne d’Athènes",
     "a": "vers 400 – 529",
     "q": "Plutarque d'Athènes, Syrianus, Proclus et Damascius",
     "d": "Ils se nomment eux-mêmes « successeurs » de Platon et lisent ses dialogues, dans la lignée de Plotin, comme un chemin vers l'Un. Justinien leur interdit d'enseigner en 529, et Damascius et d'autres se réfugient un temps en Perse."
@@ -234,25 +234,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Aristóteles",
+    "nom": "Aristote",
     "a": "335 – 323 av. J.-C.",
     "q": "Aristote, Théophraste, Eudème, Aristoxène et Dicéarque",
     "d": "Un groupe de chercheurs qui travaillent en associés : ils recueillent des données, discutent et écrivent sur presque tous les savoirs."
    },
    {
-    "n": "Teofrasto y Estratón",
+    "nom": "Théophraste et Straton",
     "a": "322 – vers 269 av. J.-C.",
     "q": "Théophraste et Straton de Lampsaque",
     "d": "Théophraste organise l'étude des plantes et achète des terrains et des bâtiments pour l'école. Straton donne à la physique une orientation plus naturaliste."
    },
    {
-    "n": "Decadencia",
+    "nom": "Le déclin",
     "a": "vers 269 – 86 av. J.-C.",
     "q": "Lycon, Ariston de Céos, Critolaos et d'autres",
     "d": "L'école continue, mais sans grandes idées nouvelles : le stoïcisme et l'épicurisme attirent davantage. La guerre de 86 av. J.-C. met fin à son existence."
    },
    {
-    "n": "Los comentaristas",
+    "nom": "Les commentateurs",
     "a": "Ier siècle av. J.-C. – IIIe siècle apr. J.-C.",
     "q": "Andronicos de Rhodes et Alexandre d'Aphrodise",
     "d": "Il ne s'agit plus d'étendre l'œuvre d'Aristote, mais de l'éditer, de l'expliquer et de la défendre. Cette tradition passera aux philosophes arabes et au Moyen Âge latin."
@@ -436,19 +436,19 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Estoa antigua",
+    "nom": "L’ancien stoïcisme",
     "a": "vers 300 – milieu du IIe siècle av. J.-C.",
     "q": "Zénon, Cléanthe, Chrysippe, Diogène de Babylone et Antipatros",
     "d": "Le système se construit : logique, physique et éthique. Chrysippe en est le grand organisateur. De ces auteurs, il ne reste que des fragments cités par d'autres."
    },
    {
-    "n": "Estoa media",
+    "nom": "Le moyen stoïcisme",
     "a": "IIe – Ier siècles av. J.-C.",
     "q": "Panétius et Posidonios",
     "d": "Ils dialoguent avec Platon et Aristote et font connaître le stoïcisme aux Romains. Cicéron s'inspire de Panétius pour son ouvrage Des devoirs. Le centre se déplace d'Athènes à Rhodes."
    },
    {
-    "n": "Estoicismo romano",
+    "nom": "Le stoïcisme romain",
     "a": "Ier – IIIe siècle",
     "q": "Musonius Rufus, Sénèque, Épictète et Marc Aurèle",
     "d": "Une philosophie pratique pour vivre : lettres, entretiens et notes personnelles. Ce sont les seules œuvres stoïciennes conservées en entier."
@@ -760,25 +760,25 @@ const COMUNIDADES = [
   ],
   "etapas": [
    {
-    "n": "Los comienzos",
+    "nom": "Les débuts",
     "a": "1923 – 1930",
     "q": "Felix Weil, Carl Grünberg et Friedrich Pollock",
     "d": "Le premier centre de recherche marxiste d'une université allemande, avec un marxisme encore assez classique et universitaire."
    },
    {
-    "n": "Horkheimer y el exilio",
+    "nom": "Horkheimer et l’exil",
     "a": "1930 – 1950",
     "q": "Horkheimer, Adorno, Marcuse, Fromm, Löwenthal et Pollock ; Benjamin comme collaborateur",
     "d": "Naissance de la « théorie critique ». Avec le nazisme, l'Institut fuit à Genève, puis à New York et en Californie, où est écrite La Dialectique de la raison."
    },
    {
-    "n": "El regreso",
+    "nom": "Le retour",
     "a": "1951 – 1969",
     "q": "Horkheimer (directeur jusqu'en 1958) et Adorno (jusqu'en 1969)",
     "d": "Seuls Horkheimer, Adorno et Pollock reviennent. L'Institut forme de nouveaux sociologues dans l'Allemagne d'après-guerre et finit par se heurter au mouvement étudiant."
    },
    {
-    "n": "La segunda generación y después",
+    "nom": "La deuxième génération et après",
     "a": "à partir des années soixante",
     "q": "Jürgen Habermas et, plus tard, Axel Honneth",
     "d": "Habermas place au centre la communication et le dialogue rationnel ; Honneth, la lutte pour la reconnaissance."

@@ -67,6 +67,7 @@ const CITAS = [
   "a": "Épictète",
   "o": "Manuel 1, 1",
   "e": "antique",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "Pour les stoïciens, nos jugements, nos désirs et nos décisions dépendent de nous ; le corps, la réputation ou la richesse n'en dépendent pas. La sérénité consiste à ne s'occuper que des premiers.",
   "uso": "Pour expliquer l'éthique stoïcienne et l'imperturbabilité, ou dans une dissertation sur la liberté intérieure et la maîtrise des émotions."
@@ -273,6 +274,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pensées, fr. 200 (éd. Lafuma) / 347 (éd. Brunschvicg)",
   "e": "moderne",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "L'être humain est fragile et n'importe quoi peut le détruire, mais il est supérieur à l'univers parce qu'il sait qu'il meurt. Sa dignité réside dans la pensée.",
   "uso": "Pour présenter Pascal et la condition humaine entre grandeur et misère, ou dans une dissertation sur la dignité humaine."
@@ -859,6 +861,7 @@ const CITAS = [
   "a": "Kierkegaard",
   "o": "Crainte et tremblement (1843), Problème I",
   "e": "contemporaine",
+  "id": "kierkegaard",
   "img": "media/retratos/museo2/kierkegaard.jpg",
   "sen": "Pour Kierkegaard, la foi n'est pas raisonnable : le croyant, comme Abraham, se rapporte directement à Dieu au-dessus de l'éthique universelle, ce que la raison ne peut justifier.",
   "uso": "Pour expliquer le stade religieux et la figure d'Abraham chez Kierkegaard, ou dans des débats sur la foi et la raison."
@@ -1283,6 +1286,7 @@ const CITAS = [
   "a": "Épictète",
   "o": "Manuel 5",
   "e": "antique",
+  "id": "epicteto",
   "img": "media/retratos/citas/epicteto.jpg",
   "sen": "Pour Épictète, ce qui nous trouble, ce ne sont pas les choses, mais nos opinions sur elles. Le sage ne cherche pas de coupables : il accepte ce qui ne dépend pas de lui et s'occupe de ce qui en dépend.",
   "uso": "Pour expliquer le stoïcisme et la distinction entre ce qui dépend de nous et ce qui n'en dépend pas, ou dans des débats sur la responsabilité."
@@ -1302,6 +1306,7 @@ const CITAS = [
   "a": "Marc Aurèle",
   "o": "Pensées VI, 54",
   "e": "antique",
+  "id": "marco_aurelio",
   "img": "media/retratos/museo/marco-aurelio.jpg",
   "sen": "Pour Marc Aurèle, l'individu fait partie d'une communauté rationnelle ; c'est pourquoi son véritable bien ne peut aller contre le bien commun.",
   "uso": "Pour expliquer le cosmopolitisme stoïcien, ou dans des débats sur la relation entre l'intérêt individuel et le bien commun."
@@ -1401,6 +1406,7 @@ const CITAS = [
   "a": "Montaigne",
   "o": "Essais (1580) II, 1",
   "e": "moderne",
+  "id": "montaigne",
   "img": "media/retratos/museo2/montaigne.jpg",
   "sen": "Pour Montaigne, nous ne sommes pas un moi fixe et cohérent, mais un ensemble changeant de pièces : selon le moment, nous agissons d'une façon ou d'une autre, et parfois nous nous ressemblons moins à nous-mêmes qu'à une autre personne.",
   "uso": "Pour présenter les Essais de Montaigne et son scepticisme, ou dans une dissertation sur l'identité personnelle : sommes-nous toujours la même personne ?"
@@ -1410,6 +1416,7 @@ const CITAS = [
   "a": "Blaise Pascal",
   "o": "Pensées, fr. 60 (éd. Lafuma) / 294 (éd. Brunschvicg)",
   "e": "moderne",
+  "id": "pascal",
   "img": "media/retratos/museo2/pascal.jpg",
   "sen": "Pascal se moque de ceux qui croient en une justice universelle : le juste change selon le pays, et une frontière aussi arbitraire qu'une rivière ou une montagne suffit à changer une vérité en erreur.",
   "uso": "Pour expliquer le relativisme moral et culturel, ou dans une dissertation sur l'existence d'une justice naturelle valable pour tous."
@@ -1439,6 +1446,7 @@ const CITAS = [
   "a": "Schopenhauer",
   "o": "Sur le fondement de la morale (1840), § 16",
   "e": "contemporaine",
+  "id": "schopenhauer",
   "img": "media/retratos/museo/schopenhauer.jpg",
   "sen": "Pour Schopenhauer, une action n'a de valeur morale que lorsqu'elle naît de la compassion, c'est-à-dire du fait de ressentir la souffrance de l'autre comme la sienne ; ni l'égoïsme ni le simple devoir ne peuvent fonder la morale.",
   "uso": "Pour présenter l'éthique de Schopenhauer face au devoir kantien, ou dans une dissertation sur la question de savoir si la morale se fonde sur la raison ou sur les sentiments."

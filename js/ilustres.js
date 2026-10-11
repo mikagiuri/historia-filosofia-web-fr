@@ -69,6 +69,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-sofistas"
   ]
  },
@@ -90,6 +91,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso"
   ]
  },
@@ -111,6 +113,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-kant-juicios"
   ]
@@ -180,6 +183,27 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "confucio": {
+  "name": "Confucius",
+  "dates": "551 – 479 av. J.-C.",
+  "born": -551,
+  "died": -479,
+  "place": "État de Lu (actuelle Qufu, Chine)",
+  "role": "maître et penseur moral chinois",
+  "idea": "Une bonne société naît de personnes bien formées : l'humanité (ren), le respect des rites (li) et l'exemple de celui qui gouverne valent plus que le châtiment.",
+  "bio": "<p>Kong Qiu, que ses disciples appelèrent Kongzi ou Kong Fuzi (« maître Kong », d'où vient « Confucius »), naquit dans le petit État de Lu, dans une Chine divisée en royaumes rivaux. Orphelin de père dès l'enfance et issu d'une famille déchue, il occupa des postes modestes et se fit une réputation de maître : il acceptait des élèves de toute origine, pourvu qu'ils aient envie d'apprendre. Pendant des années, il parcourut d'autres États à la recherche d'un souverain qui mette ses idées en pratique, sans y parvenir, et revint à Lu pour enseigner jusqu'à sa mort.</p>\n<p>Il n'écrivit aucun traité : ses enseignements nous sont parvenus par les <em>Analectes</em> (<em>Lunyu</em>), des paroles et des conversations rassemblées par ses disciples. Au centre se trouvent le <strong>ren</strong>, l'humanité ou bienveillance, et le <strong>li</strong>, l'ensemble des rites et des formes de politesse qui encadrent la vie commune. L'idéal est le <strong>junzi</strong>, la « personne noble », noble par son caractère et non par sa naissance. À la question de savoir s'il existe un mot qui puisse guider toute une vie, il répond par une règle d'or sous forme négative : « Ce que tu ne voudrais pas pour toi, ne le fais pas aux autres ». Pour Confucius, celui qui gouverne doit le faire par l'exemple, comme le vent qui fait plier l'herbe, et non par la peur du châtiment.</p>",
+  "obras": [
+   "Analectes (Lunyu), recueillis par ses disciples"
+  ],
+  "anecdota": "<p>Dans les <em>Analectes</em>, Confucius résume sa propre vie en quelques lignes : à quinze ans, il résolut d'apprendre ; à trente ans, il se tenait ferme ; à quarante ans, il ne doutait plus ; à cinquante ans, il connut le mandat du Ciel ; à soixante ans, son oreille écoutait avec docilité ; et à soixante-dix ans, il pouvait suivre les désirs de son cœur sans s'écarter de ce qui est juste. C'est l'une des premières descriptions d'une vie entière comme un chemin de formation.</p>",
+  "fuente": "Analectes II, 4",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "heraclito": {
   "name": "Héraclite d'Éphèse",
   "dates": "v. 540 – v. 480 av. J.-C.",
@@ -200,6 +224,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-ap",
    "hf-platon",
@@ -226,6 +251,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-mito",
    "hf-preso",
    "hf-ap",
    "hf-platon",
@@ -319,6 +345,7 @@ const ILUSTRES = {
   "temas": [
    "hf-beefs",
    "hf-sofistas",
+   "hf-etica",
    "hf-kant-juicios"
   ]
  },
@@ -346,7 +373,8 @@ const ILUSTRES = {
   "temas": [
    "hf-beefs",
    "hf-sofistas",
-   "hf-platon-superficie"
+   "hf-platon-superficie",
+   "hf-etica"
   ]
  },
  "meliso": {
@@ -385,6 +413,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-preso",
    "hf-kant-juicios"
   ]
  },
@@ -440,6 +469,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-metodos",
    "hf-beefs",
    "hf-sofistas",
@@ -498,6 +528,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-preso",
+   "hf-sofistas",
    "hf-helenismo",
    "hf-kant-juicios"
   ]
@@ -623,9 +654,11 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-historicidad",
+   "hf-comunidades-perseguidos",
    "hf-euskal-herria",
    "hf-metodos",
    "hf-beefs",
+   "hf-mito",
    "hf-preso",
    "hf-sofistas",
    "hf-ap",
@@ -636,6 +669,7 @@ const ILUSTRES = {
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-helenismo",
    "hf-medieval",
    "hf-platon-agustin",
    "hf-fe-razon",
@@ -672,6 +706,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-preso",
    "hf-helenismo"
   ]
  },
@@ -734,15 +769,18 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-metodos",
    "hf-beefs",
    "hf-mito",
+   "hf-preso",
    "hf-sofistas",
    "hf-aa",
    "hf-platon",
    "hf-antropologia",
    "hf-etica",
    "hf-politica",
+   "hf-helenismo",
    "hf-medieval",
    "hf-fe-razon",
    "hf-aristoteles-arabe",
@@ -757,6 +795,29 @@ const ILUSTRES = {
    "hf-utilitarismo",
    "hf-kant-juicios",
    "hf-descartes-makro"
+  ]
+ },
+ "mencio": {
+  "name": "Mencius",
+  "dates": "v. 372 – 289 av. J.-C.",
+  "born": -372,
+  "died": -289,
+  "place": "État de Zou (Chine)",
+  "role": "penseur confucéen chinois",
+  "idea": "L'être humain est bon par nature : nous portons tous en nous les germes de la compassion et de la justice, et l'éducation les fait grandir.",
+  "bio": "<p>Meng Ke, appelé Mengzi (« maître Meng »), naquit plus d'un siècle après la mort de Confucius, à l'époque des Royaumes combattants. Il se forma à l'école confucéenne et, comme son maître, voyagea de cour en cour pour conseiller les rois, avec peu de succès pratique. Ses conversations et ses arguments furent recueillis dans le livre qui porte son nom, le <em>Mencius</em>.</p>\n<p>Sa thèse la plus connue est que la nature humaine est <strong>bonne</strong>. Il l'argumente par un exemple : n'importe qui, en voyant un enfant sur le point de tomber dans un puits, ressent un sursaut de compassion, non pour gagner la faveur des parents ni par crainte du qu'en-dira-t-on, mais spontanément. Nous avons tous quatre <strong>germes</strong> : la compassion, la honte devant le mal, le respect et le sens de ce qui est juste, que l'éducation doit cultiver comme on cultive les plantes. En politique, Mencius soutient que le souverain existe pour le bien du peuple ; s'il devient un tyran, il perd le mandat du Ciel et cesse d'être un vrai roi. Plus tard, Xunzi soutiendra le contraire : la nature humaine tend vers le mal et a besoin de la discipline des rites.</p>",
+  "obras": [
+   "Mencius (Mengzi), recueil de ses dialogues"
+  ],
+  "anecdota": "<p>Une histoire très populaire en Chine raconte que la mère de Mencius déménagea trois fois pour lui. Ils vivaient près d'un cimetière, et l'enfant jouait à faire des enterrements ; ils s'installèrent près d'un marché, et il jouait à acheter et à vendre ; enfin, ils s'installèrent près d'une école, et il commença à imiter les rites et l'étude. La mère décida alors de rester. L'anecdote est souvent citée pour montrer l'importance de l'environnement dans l'éducation, mais elle provient d'un recueil bien plus tardif et n'est pas un fait historique sûr.</p>",
+  "fuente": "Liu Xiang, Biographies de femmes exemplaires (Ier siècle av. J.-C.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-beefs"
   ]
  },
  "teofrasto": {
@@ -778,6 +839,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-preso",
    "hf-aristoteles-arabe",
    "hf-kant-juicios"
   ]
@@ -845,6 +907,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-helenismo",
    "hf-montaigne-ensayos"
   ]
@@ -970,7 +1033,9 @@ const ILUSTRES = {
   "subjects": [
    "hf"
   ],
-  "temas": []
+  "temas": [
+   "hf-helenismo"
+  ]
  },
  "seneca": {
   "name": "Sénèque",
@@ -995,7 +1060,55 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-helenismo",
    "hf-montaigne-ensayos"
+  ]
+ },
+ "epicteto": {
+  "name": "Épictète",
+  "dates": "v. 50 – v. 135",
+  "born": 50,
+  "died": 135,
+  "place": "Hiérapolis (Phrygie, actuelle Turquie)",
+  "role": "philosophe stoïcien grec",
+  "idea": "Il y a des choses qui dépendent de nous, nos jugements et nos décisions, et d'autres qui n'en dépendent pas ; la liberté consiste à ne pas faire dépendre son bonheur de ce qui ne dépend pas de nous.",
+  "bio": "<p>Épictète naquit esclave ; son nom signifie en grec « acquis ». À Rome, il appartint à Épaphrodite, un affranchi qui avait été secrétaire de Néron et qui lui permit d'étudier auprès du stoïcien Musonius Rufus. Une fois affranchi, il enseigna la philosophie à Rome jusqu'à ce que, vers l'an 93, l'empereur Domitien expulse les philosophes d'Italie. Il s'installa alors à Nicopolis, dans le nord-ouest de la Grèce, où il ouvrit une école fréquentée par des jeunes venus de tout l'Empire. Il vécut très simplement. Il boitait d'une jambe.</p>\n<p>Épictète n'écrivit rien. Son élève Arrien prit des notes de ses cours et les publia dans les <em>Entretiens</em> et dans un résumé, le <em>Manuel</em> (<em>Enchiridion</em>). Tout part d'une distinction : <strong>ce qui dépend de nous</strong> (nos opinions, nos désirs et nos décisions) et <strong>ce qui n'en dépend pas</strong> (le corps, la réputation, les biens, ce que font les autres). Ce ne sont pas les choses qui nous troublent, mais les opinions que nous avons sur elles. Celui qui place son bien dans ce qu'il ne contrôle pas vit comme un esclave ; celui qui le place dans ses propres jugements est libre, même enchaîné. Son manuel influença Marc Aurèle et, bien des siècles plus tard, les humanistes de la Renaissance ainsi que certaines thérapies psychologiques actuelles.</p>",
+  "obras": [
+   "Entretiens (recueillis par Arrien)",
+   "Manuel ou Enchiridion (résumé d'Arrien)"
+  ],
+  "anecdota": "<p>L'écrivain chrétien Origène raconte que le maître d'Épictète, pour le mettre à l'épreuve, lui tordait la jambe. Épictète l'avertit calmement : « Tu vas me la casser ». Quand la jambe se cassa, il dit seulement : « Ne te l'avais-je pas dit ? ». L'histoire est souvent citée comme exemple de sérénité stoïcienne, mais d'autres sources antiques disent que sa boiterie était de naissance ou due aux rhumatismes : il peut donc s'agir d'une légende.</p>",
+  "fuente": "Origène, Contre Celse VII, 53",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-helenismo"
+  ]
+ },
+ "marco_aurelio": {
+  "name": "Marc Aurèle",
+  "dates": "121 – 180",
+  "born": 121,
+  "died": 180,
+  "place": "Rome",
+  "role": "empereur romain et philosophe stoïcien",
+  "idea": "Chaque jour, il faut accomplir son devoir, accepter avec sérénité ce qui ne dépend pas de nous et se rappeler que tout est passager.",
+  "bio": "<p>Marc Aurèle fut adopté jeune par l'empereur Antonin le Pieux et reçut la meilleure éducation de son temps. Très tôt, il se passionna pour la philosophie stoïcienne, et son maître Junius Rusticus lui fit connaître les enseignements d'Épictète. Il fut empereur de Rome de 161 jusqu'à sa mort, en 180. Son règne fut marqué par des guerres aux frontières du Danube et par une grande épidémie, la peste antonine ; il passa de longues années en campagne et mourut au cours de l'une d'elles.</p>\n<p>Pendant ces campagnes, il écrivit en grec des notes pour lui-même, qu'il ne comptait pas publier et que nous connaissons aujourd'hui sous le titre de <em>Pensées pour moi-même</em> (son titre ancien est <em>À soi-même</em>). Ce sont des exercices pour mettre de l'ordre dans ses pensées : se rappeler que tout change et passe, que la mort est naturelle, que les autres forment avec nous une communauté raisonnable et que, quand quelqu'un nous offense, nous devons le comprendre plutôt que le haïr. C'est un stoïcien qui gouverne un empire et qui s'impose de vivre selon la raison. Son œuvre montre aussi la tension entre l'idéal philosophique et le pouvoir : sous son règne, les guerres et la persécution des chrétiens continuèrent.</p>",
+  "obras": [
+   "Pensées pour moi-même ou À soi-même (écrites vers 170-180)"
+  ],
+  "anecdota": "<p>Le livre I des <em>Pensées pour moi-même</em> est une liste de remerciements : Marc Aurèle note ce qu'il a appris de chaque personne de sa vie. À son maître Rusticus, il sait gré, entre autres, de lui avoir prêté, de sa propre bibliothèque, les notes des leçons d'Épictète. Et à la fin de ce livre, ou au début du suivant selon les éditions, il indique où il écrit : « Chez les Quades, au bord du Gran », c'est-à-dire dans un camp militaire au bord du fleuve Hron, dans l'actuelle Slovaquie.</p>",
+  "fuente": "Marc Aurèle, Pensées pour moi-même I, 7 et I, 17",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-helenismo"
   ]
  },
  "tertuliano": {
@@ -1123,6 +1236,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-helenismo"
   ]
  },
@@ -1341,6 +1455,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-beefs",
    "hf-aa",
    "hf-antropologia",
@@ -1765,7 +1880,33 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-descartes-makro"
+  ]
+ },
+ "montaigne": {
+  "name": "Michel de Montaigne",
+  "dates": "1533 – 1592",
+  "born": 1533,
+  "died": 1592,
+  "place": "Château de Montaigne (Périgord, France)",
+  "role": "humaniste et essayiste français",
+  "idea": "Le meilleur sujet d'étude, c'est soi-même : en examinant honnêtement sa propre vie, changeante et contradictoire, on apprend ce qu'est être humain et combien peu de choses nous savons avec certitude.",
+  "bio": "<p>Michel Eyquem de Montaigne naquit dans une famille de marchands enrichis de Bordeaux. Son père l'éduqua d'une manière singulière : jusqu'à six ans, on ne lui parla qu'en latin, qui fut ainsi sa première langue. Il étudia le droit et fut conseiller au Parlement de Bordeaux, où il se lia avec l'écrivain Étienne de La Boétie d'une amitié qui le marqua pour toujours. En 1571, à 38 ans, il se retira dans la tour de son château pour lire et écrire, même s'il revint à la vie publique comme maire de Bordeaux (1581-1585) et comme médiateur dans les guerres de religion entre catholiques et protestants.</p>\n<p>Dans sa retraite, il inventa un genre nouveau, l'<strong>essai</strong> : des textes brefs et libres dans lesquels il « met à l'épreuve » son jugement sur n'importe quel sujet, de l'amitié et de la mort aux cannibales, à l'éducation ou à l'expérience. Montaigne se prend lui-même comme objet d'étude et découvre un être changeant et plein de contradictions. Son attitude est <strong>sceptique</strong> : il prit pour devise la question « Que sais-je ? », avec une balance en équilibre. De ce scepticisme naissent sa tolérance et sa critique de la cruauté : dans « Des cannibales », il soutient que nous appelons barbarie ce qui n'est pas de notre usage. Il influença Descartes, Pascal et toute la littérature moderne.</p>",
+  "obras": [
+   "Essais (1580 ; augmentés en 1588 ; édition posthume de 1595)",
+   "Journal de voyage en Italie (écrit en 1580-1581, publié en 1774)"
+  ],
+  "anecdota": "<p>Quand il se retira dans sa tour, Montaigne fit peindre sur les poutres du plafond de sa bibliothèque plus de cinquante sentences en grec et en latin, tirées de la Bible, des sceptiques, de Lucrèce ou de Sextus Empiricus, pour les avoir toujours sous les yeux quand il lisait et écrivait. On peut encore les voir aujourd'hui dans la tour, conservée à côté du château. À côté, il fit graver une inscription en latin : le jour de son 38e anniversaire, il se retirait, « las depuis longtemps de la servitude de la cour et des charges publiques », dans le sein des doctes Muses.</p>",
+  "fuente": "Inscriptions de la tour de Montaigne (1571)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-montaigne-ensayos",
+   "hf-kant-poetas"
   ]
  },
  "giordano_bruno": {
@@ -1787,6 +1928,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-renacimiento-magia"
   ]
  },
@@ -1838,6 +1980,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-aa",
    "hf-modernidad",
    "hf-metafisica",
@@ -2061,6 +2204,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "pascal": {
+  "name": "Blaise Pascal",
+  "dates": "1623 – 1662",
+  "born": 1623,
+  "died": 1662,
+  "place": "Clermont (Auvergne, France)",
+  "role": "mathématicien, physicien et philosophe",
+  "idea": "La raison est puissante mais limitée : l'être humain est un roseau pensant, à la fois fragile et grand, et « le cœur a ses raisons que la raison ne connaît point ».",
+  "bio": "<p>Blaise Pascal fut un enfant prodige, instruit à la maison par son père, un magistrat passionné de sciences. À 16 ans, il écrivit un traité sur les coniques et, à 19 ans, il inventa une machine à calculer, la <strong>pascaline</strong>, pour aider son père dans ses comptes d'impôts. Il fit des expériences décisives sur le vide et la pression de l'air (en 1648, son beau-frère mesura, à sa demande, comment le mercure baissait quand on montait au puy de Dôme) et, dans des lettres échangées avec Fermat, il posa les bases du calcul des <strong>probabilités</strong>.</p>\n<p>En novembre 1654, il vécut une intense expérience religieuse et se rapprocha des jansénistes de l'abbaye de Port-Royal, un courant catholique rigoriste. Pour les défendre, il écrivit <em>Les Provinciales</em>, des lettres satiriques contre les jésuites. Il mourut à 39 ans, malade, en laissant des milliers de notes pour une apologie du christianisme, publiées sous le titre de <em>Pensées</em>. Il y présente l'être humain entre deux infinis, un « roseau pensant » capable de se savoir mortel ; il défend qu'il y a des vérités que l'on connaît par le <strong>cœur</strong>, et il propose le célèbre <strong>pari</strong> : si Dieu existe, celui qui croit gagne tout, et s'il n'existe pas, il ne perd presque rien. C'est l'un des grands critiques du rationalisme de Descartes.</p>",
+  "obras": [
+   "Expériences nouvelles touchant le vide (1647)",
+   "Les Provinciales (1656-1657)",
+   "Pensées (posthume, 1670)"
+  ],
+  "anecdota": "<p>Après sa mort, un domestique remarqua une bosse dans la doublure du pourpoint de Pascal. En la décousant, il trouva un papier plié et, à l'intérieur, une copie sur parchemin du même texte : une page datée de la nuit du 23 novembre 1654, « depuis environ dix heures et demie du soir jusques environ minuit et demi », qui commence par le mot « Feu ». C'est le récit de son expérience religieuse de cette nuit-là. Pascal l'avait porté cousu dans ses vêtements pendant huit ans, en le faisant passer d'un habit à l'autre, sans en parler à personne. On le connaît aujourd'hui sous le nom de <em>Mémorial</em>.</p>",
+  "fuente": "Mémorial de Pascal (1654), conservé à la Bibliothèque nationale de France",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-judios-andalus",
+   "hf-montaigne-ensayos"
+  ]
+ },
  "spinoza": {
   "name": "Baruch Spinoza",
   "dates": "1632 – 1677",
@@ -2089,6 +2258,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-medieval",
    "hf-judios-andalus",
    "hf-montaigne-ensayos",
@@ -3437,6 +3607,33 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "schopenhauer": {
+  "name": "Arthur Schopenhauer",
+  "dates": "1788 – 1860",
+  "born": 1788,
+  "died": 1860,
+  "place": "Dantzig (aujourd'hui Gdańsk, Pologne)",
+  "role": "philosophe allemand du pessimisme",
+  "idea": "Derrière tout ce qui existe se trouve une volonté aveugle qui n'est jamais rassasiée ; c'est pourquoi la vie est surtout douleur, et seuls l'art, la compassion et le renoncement nous libèrent un peu.",
+  "bio": "<p>Arthur Schopenhauer était le fils d'un riche négociant et de Johanna Schopenhauer, une romancière à succès avec qui il eut une relation très difficile. Après la mort de son père, il abandonna le commerce pour étudier la philosophie. À 30 ans, il publia son œuvre principale, <em>Le Monde comme volonté et comme représentation</em> (1819), qui se vendit à peine. Il échoua comme professeur à Berlin, vécut de son héritage et passa ses dernières décennies à Francfort, solitaire et aigri par le manque de reconnaissance, qui ne lui vint qu'à la fin, avec les <em>Parerga et Paralipomena</em> (1851).</p>\n<p>Schopenhauer part de Kant : le monde que nous connaissons est <strong>représentation</strong>, phénomène ordonné par notre esprit. Mais il ajoute que nous pouvons entrevoir ce qu'il y a derrière depuis l'intérieur de nous-mêmes : nous sommes <strong>volonté</strong>, désir. Cette volonté, aveugle, sans but et insatiable, est le fond de toute la réalité. C'est pourquoi la vie oscille entre la douleur du désir insatisfait et l'ennui du désir satisfait. Il y a trois issues : la contemplation de l'<strong>art</strong>, surtout la musique ; la <strong>compassion</strong>, qui est pour lui le fondement de la morale ; et le renoncement de l'ascète, proche des idées du bouddhisme et des Upanishads, qu'il fut l'un des premiers philosophes européens à étudier. Il influença de manière décisive Nietzsche, Wagner et Freud.</p>",
+  "obras": [
+   "Le Monde comme volonté et comme représentation (1819 ; augmenté en 1844)",
+   "Les Deux Problèmes fondamentaux de l'éthique (1841)",
+   "Parerga et Paralipomena (1851)"
+  ],
+  "anecdota": "<p>En 1820, Schopenhauer obtint le droit d'enseigner à l'université de Berlin, où Hegel était la grande figure. Convaincu que Hegel était un charlatan, il annonça son cours à la même heure que les leçons de Hegel, pour que les étudiants soient obligés de choisir. Ils choisirent Hegel : très peu d'élèves vinrent aux cours de Schopenhauer, et le cours ne fut jamais répété. Il ne pardonna jamais cet échec à la philosophie universitaire et continua d'attaquer Hegel dans ses livres pendant des décennies.</p>",
+  "fuente": "R. Safranski, Schopenhauer et les années folles de la philosophie (1987)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-beefs",
+   "hf-sospecha"
+  ]
+ },
  "heine": {
   "name": "Heinrich Heine",
   "dates": "1797 – 1856",
@@ -3568,6 +3765,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-comunidades-perseguidos",
    "hf-utilitarismo",
    "hf-etica-deber",
    "hf-sospecha"
@@ -3751,6 +3949,32 @@ const ILUSTRES = {
   "temas": [
    "hf-kant-poetas",
    "hf-corazon-piedra"
+  ]
+ },
+ "kierkegaard": {
+  "name": "Søren Kierkegaard",
+  "dates": "1813 – 1855",
+  "born": 1813,
+  "died": 1855,
+  "place": "Copenhague (Danemark)",
+  "role": "philosophe et théologien danois, précurseur de l'existentialisme",
+  "idea": "La vérité qui compte n'est pas celle des systèmes, mais celle que l'on vit : chaque individu doit se choisir lui-même, et ce choix se fait dans l'angoisse.",
+  "bio": "<p>Søren Kierkegaard était le plus jeune fils d'un négociant riche et très religieux, dont il hérita une foi tourmentée et une fortune qui lui permit de se consacrer à l'écriture. Il étudia la théologie à Copenhague. En 1840, il se fiança avec Regine Olsen, mais un an plus tard il rompit ses fiançailles, convaincu qu'il ne pourrait pas la rendre heureuse ; cette décision l'accompagna toute sa vie et traverse beaucoup de ses œuvres. Il publia de nombreux livres sous des <strong>pseudonymes</strong>, chacun avec un point de vue différent, pour obliger le lecteur à décider par lui-même. Il mourut à 42 ans, au milieu d'une violente polémique contre l'Église officielle danoise, qu'il accusait d'avoir fait du christianisme une habitude confortable.</p>\n<p>Kierkegaard réagit contre le grand système de Hegel, qui prétendait tout expliquer : il n'y a pas de place pour l'<strong>individu</strong> concret qui doit décider comment vivre. Il décrit trois <strong>stades</strong> de l'existence : le stade esthétique, qui vit pour le plaisir et la nouveauté ; le stade éthique, qui assume des engagements et des devoirs ; et le stade religieux, qui fait le saut de la foi sans garanties, comme Abraham prêt à sacrifier son fils. L'<strong>angoisse</strong> est le vertige de la liberté devant les possibles, et le désespoir, c'est ne pas vouloir être soi-même. C'est pourquoi on le considère comme le précurseur de l'existentialisme du XXe siècle.</p>",
+  "obras": [
+   "Ou bien… ou bien (1843)",
+   "Crainte et Tremblement (1843)",
+   "Le Concept d'angoisse (1844)",
+   "La Maladie à la mort (1849)"
+  ],
+  "anecdota": "<p>En 1846, Kierkegaard critiqua <em>Le Corsaire</em>, une revue satirique de Copenhague, et la revue se vengea par une campagne de caricatures. On le dessinait maigre, voûté et surtout avec une jambe de pantalon plus longue que l'autre. Les caricatures devinrent si populaires que les enfants l'interpellaient dans la rue et que les gens le montraient du doigt sur son passage. Kierkegaard, qui aimait se promener dans la ville et bavarder avec tout le monde, le vécut comme une humiliation qui le rendit encore plus seul.</p>",
+  "fuente": "Le Corsaire (1846) ; Journaux de Kierkegaard",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
   ]
  },
  "boole": {

@@ -83,7 +83,9 @@ const LOGM_REGLAS = [
 const LOGM_FALACIAS = [
   { k: "ac", n: "Affirmation du conséquent", p: "p → q; q", c: "p", ej: "S’il pleut, le sol est mouillé. Le sol est mouillé. Donc il a plu.", por: "Le sol peut être mouillé pour une autre raison : quelqu’un l’a arrosé. La condition suffisante n’est pas la seule possible." },
   { k: "na", n: "Négation de l’antécédent", p: "p → q; ¬p", c: "¬q", ej: "Si tu étudies, tu réussis. Tu n’as pas étudié. Donc tu ne réussiras pas.", por: "La règle ne dit pas ce qui se passe si tu n’étudies pas : tu réussiras peut-être pour une autre raison." },
-  { k: "ad", n: "Affirmation d’un disjoint", p: "p ∨ q; p", c: "¬q", ej: "Ou nous allons au cinéma, ou nous allons dîner. Nous allons au cinéma. Donc nous n’allons pas dîner.", por: "Le « ou » logique est inclusif : on peut faire les deux. Ce ne serait valide que si la phrase excluait les deux à la fois." }
+  { k: "ad", n: "Affirmation d’un disjoint", p: "p ∨ q; p", c: "¬q", ej: "Ou nous allons au cinéma, ou nous allons dîner. Nous allons au cinéma. Donc nous n’allons pas dîner.", por: "Le « ou » logique est inclusif : on peut faire les deux. Ce ne serait valide que si la phrase excluait les deux à la fois." },
+  { k: "nc", n: "Négation d’un conjoint", p: "¬(p ∧ q)", c: "¬p", ej: "Il n’est pas vrai qu’il soit à la maison et en classe à la fois. Donc il n’est pas à la maison.", por: "Il suffit que l’une des deux ne soit pas vraie : il peut être à la maison et pas en classe. De ¬(p ∧ q) découle seulement ¬p ∨ ¬q (De Morgan)." },
+  { k: "cc", n: "Conversion du conditionnel", p: "p → q", c: "q → p", ej: "Si c’est un chien, c’est un mammifère. Donc, si c’est un mammifère, c’est un chien.", por: "Que p suffise pour q ne veut pas dire que q suffise pour p : un chat aussi est un mammifère. C’est la même erreur que confondre « si » et « seulement si »." }
 ];
 const LOGM_EJ = [
   { t: "Si Socrate est un être humain, il est mortel. Socrate est un être humain. Donc Socrate est mortel.", r: "mp" },
@@ -95,7 +97,9 @@ const LOGM_EJ = [
   { t: "Si je doute, je pense. Je doute. Donc je pense.", r: "mp" },
   { t: "Ana étudie la philosophie ou l’histoire. Elle étudie la philosophie. Donc elle n’étudie pas l’histoire.", r: "ad" },
   { t: "Si l’âme était matérielle, elle se décomposerait comme le corps. L’âme ne se décompose pas. Donc l’âme n’est pas matérielle.", r: "mt" },
-  { t: "Si la théorie est bonne, ses prédictions se réalisent. Ses prédictions se réalisent. Donc la théorie est bonne.", r: "ac" }
+  { t: "Si la théorie est bonne, ses prédictions se réalisent. Ses prédictions se réalisent. Donc la théorie est bonne.", r: "ac" },
+  { t: "S’il pleut, il y a des nuages. Donc, s’il y a des nuages, il pleut.", r: "cc" },
+  { t: "Il n’est pas vrai que l’accusé soit coupable et ait agi seul. Donc l’accusé n’est pas coupable.", r: "nc" }
 ];
 function logmTodas(){ return LOGM_REGLAS.concat(LOGM_FALACIAS); }
 function logmForma(x){ return x.p.split(";").map(s => s.trim()).join(" · ") + " ⊢ " + x.c; }
@@ -108,6 +112,7 @@ function logRenderInferencia(){
   const T = logmTodas();
   return '<div class="lg-panel"><h2>' + logmT("validas") + '</h2><div class="lg-reglas">' + LOGM_REGLAS.map(x => logmCarta(x, false)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
+    logmPuedeNoPuede() +
     '<div class="lg-panel"><h2>' + logmT("ejTit") + '</h2><p class="lg-nota">' + logmT("ejAyuda") + "</p>" +
     LOGM_EJ.map((e, i) => {
       const r = LOG.inf[i], bien = T.find(x => x.k === e.r);
@@ -127,6 +132,10 @@ const LOGM_CQ_TXT = {
   cqNeg: "Nier un quantificateur : ¬∀x Px équivaut à ∃x ¬Px (« pas tous » = « certains ne… pas »), et ¬∃x Px équivaut à ∀x ¬Px (« aucun » = « chacun ne… pas »). C’est pourquoi A et O sont contradictoires, de même que E et I.",
   cqMundo: "Un petit monde", cqMundoAyuda: "Cinq individus (a, b, c, d, e). Coche ceux qui sont S et ceux qui sont P, et regarde quelles propositions sont vraies.",
   cqInd: "Individu", cqVacio: "Essaie de laisser S vide : alors « Tout S est P » et « Aucun S n’est P » sont vraies en même temps, et « Quelque S est P » est fausse. En logique moderne, la proposition universelle ne tient pas pour acquis qu’il existe des S : c’est l’engagement existentiel du thème 4.",
+  cqOrdenTit: "Un sophisme des quantificateurs : en inverser l’ordre",
+  cqOrden: "« Tout le monde a une mère » s’écrit ∀x ∃y Myx : pour chaque personne x, il y a quelqu’un y qui est sa mère. « Il y a une mère de tous » s’écrit ∃y ∀x Myx : il existe un y qui est la mère de tous les x. Inverser l’ordre de ∀ et ∃ change ce qui est dit : de la première ne découle pas la seconde.",
+  cqOrdenMadre: "sa mère", cqOrdenContra: "Contre-exemple : dans ce monde, chacun a sa mère, donc ∀x ∃y Myx est vraie ; mais aucune n’est la mère des trois, donc ∃y ∀x Myx est fausse. Prémisse vraie et conclusion fausse : l’inférence n’est pas valide. (Dans l’autre sens, si : s’il y a une mère de tous, chacun a une mère).",
+  cqOrdenFilo: "En philosophie : on discute pour savoir si Aristote fait ce saut au début de l’« Éthique à Nicomaque » (I 2), car de ce que toute action vise une fin il ne s’ensuit pas qu’il y ait une fin unique que toutes visent. Et certains critiques des arguments cosmologiques le voient dans le passage de « tout a une cause » à « il y a une cause de tout ».",
   cqTesti: "Le montre : {x}", cqContra: "Échoue pour : {x}", cqNadie: "il n’y en a aucun", cqSinS: "vraie parce qu’il n’y a aucun S",
   cqPresets: "Mondes d’exemple :", cqP1: "Tous les S sont P", cqP2: "Aucun S n’est P", cqP3: "Certains oui, d’autres non", cqP4: "Il n’y a aucun S",
   cqEjTit: "Quelle formule est-ce ?", cqEjAyuda: "Choisis la formule qui dit la même chose que la phrase. La majuscule est le prédicat et la minuscule, un individu précis.",
@@ -152,7 +161,9 @@ const LOGM_CQ_EJ = [
   { f: "Seuls les citoyens votaient à l’assemblée.", d: "V = votait à l’assemblée, C = citoyen", o: ["∀x (Cx → Vx)", "∀x (Vx → Cx)", "∃x (Vx ∧ Cx)"], r: 1, por: "Cas piège : « seuls les C » place la condition nécessaire après la flèche : tous ceux qui votaient étaient citoyens (tous les citoyens ne votaient pas forcément)." },
   { f: "Il y a quelque chose qui n’a pas été causé par autre chose.", d: "C = causé par autre chose", o: ["¬∃x Cx", "∀x ¬Cx", "∃x ¬Cx"], r: 2, por: "Il existe au moins un x qui n’est pas causé : c’est l’idée du premier moteur d’Aristote ou de la cause première de Thomas d’Aquin." },
   { f: "Socrate est mortel.", d: "M = mortel, s = Socrate", o: ["∃x Mx", "Ms", "∀x Mx"], r: 1, por: "Un individu précis s’écrit avec une lettre minuscule (une constante) : pas besoin de quantificateur." },
-  { f: "Quiconque pense existe.", d: "P = pense, E = existe", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Universelle affirmative (A). Pour en tirer « j’existe », il faudrait en plus la prémisse « je pense » (Pi) et l’instanciation universelle, comme avec Socrate." }
+  { f: "Quiconque pense existe.", d: "P = pense, E = existe", o: ["∀x (Px → Ex)", "∀x (Ex → Px)", "∃x (Px ∧ Ex)"], r: 0, por: "Universelle affirmative (A). Pour en tirer « j’existe », il faudrait en plus la prémisse « je pense » (Pi) et l’instanciation universelle, comme avec Socrate." },
+  { f: "Tout le monde a une mère.", d: "M = « y est la mère de x »", o: ["∃y ∀x Myx", "∀x ∃y Myx", "∀x ∀y Myx"], r: 1, por: "Pour chaque personne, il y a une mère (elle peut être différente dans chaque cas). ∃y ∀x Myx dirait qu’il y a une seule mère de tous : c’est l’inversion des quantificateurs." },
+  { f: "Il y a quelqu’un que tout le monde admire.", d: "A = « x admire y »", o: ["∀x ∃y Axy", "∃y ∀x Axy", "∃x ∃y Axy"], r: 1, por: "Il existe un y tel que tous l’admirent. ∀x ∃y Axy dirait seulement que chacun admire quelqu’un, peut-être des personnes différentes." }
 ];
 function logmCqEval(m){
   const ix = i => LOGM_CQ_IND[i], S = m.map(r => !!r[0]), P = m.map(r => !!r[1]), all = [0, 1, 2, 3, 4];
@@ -180,6 +191,10 @@ function logRenderCuantificadores(){
     '<div class="lg-panel"><h2>' + logmT("cqMundo") + '</h2><p class="lg-nota">' + logmT("cqMundoAyuda") + '</p><p class="lg-nota">' + logmT("cqPresets") + " " +
     [["p1", "cqP1"], ["p2", "cqP2"], ["p3", "cqP3"], ["p4", "cqP4"]].map(([k, l]) => '<button type="button" class="chip" data-cqpre="' + k + '">' + logmT(l) + "</button>").join(" ") + "</p>" +
     '<div id="lg-cq">' + logmCqMundo() + '</div><p class="lg-nota">' + logmT("cqVacio") + "</p></div>" +
+    logmGeneralizacion() +
+    /* (12-10) la falacia del cambio de orden de los cuantificadores, con su contraejemplo */
+    '<div class="lg-panel"><h2>' + logmT("cqOrdenTit") + "</h2><p>" + logmT("cqOrden") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th>x</th><th>' + logmT("cqOrdenMadre") + "</th></tr></thead><tbody>" +
+      [["a", "m1"], ["b", "m2"], ["c", "m3"]].map(([x, y]) => "<tr><td>" + x + "</td><td>" + y + "</td></tr>").join("") + '</tbody></table></div><p class="lg-nota">' + logmT("cqOrdenContra") + '</p><p class="lg-nota">' + logmT("cqOrdenFilo") + "</p></div>" +
     '<div class="lg-panel"><h2>' + logmT("cqEjTit") + '</h2><p class="lg-nota">' + logmT("cqEjAyuda") + "</p>" +
     LOGM_CQ_EJ.map((e, i) => {
       const r = ej[i];
@@ -190,6 +205,58 @@ function logRenderCuantificadores(){
 }
 
 Object.assign(LOGM_TXT, LOGM_CQ_TXT);
+
+/* ---------- (12-10) lo que faltaba: conversión ilícita, generalización apresurada y «lo que la lógica puede y no puede refutar» ---------- */
+const LOGM_EXTRA_TXT = {
+  convTit: "Conversion : peut-on retourner une proposition ?",
+  convIntro: "Convertir, c’est échanger le sujet et le prédicat. Parfois la vérité se conserve, parfois non : retourner une proposition quand on ne peut pas le faire, c’est le sophisme de la conversion illicite.",
+  convProp: "Proposition", convConv: "Convertie", convVale: "Valide ?", convEj: "Exemple",
+  convSi: "Sí", convNo: "Non : conversion illicite", convAcc: "Seulement « Quelque P est S » (s’il existe des S)",
+  genTit: "De quelques-uns à tous : la généralisation hâtive",
+  gen: "De ∃x (Sx ∧ Px), « quelque S est P », on ne peut pas déduire ∀x (Sx → Px), « tout S est P ». La logique le montre avec un contre-exemple : dans le monde « Certains oui, d’autres non », la I est vraie et la A est fausse. Combien de cas il faut pour généraliser avec prudence, ce n’est plus une question de logique déductive, mais d’induction : aucun nombre de cas ne le garantit.",
+  genVer: "Le voir dans le petit monde",
+  lpTit: "Ce que la logique peut réfuter et ce qu’elle ne peut pas réfuter",
+  lpIntro: "Les sophismes formels ci-dessus se réfutent par la forme : un contre-exemple suffit. D’autres sophismes n’ont pas de défaut de forme, mais les formaliser aide à les voir ; et d’autres encore ne peuvent pas être réfutés par la logique, parce que le problème se trouve dans le contenu.",
+  lpAyuda: "La logique aide, mais ne suffit pas", lpNo: "La logique ne les réfute pas", lpQueVe: "Ce que montre la logique",
+  lpNoIntro: "Leur forme peut être valide, ou ce n’est même pas un argument : le défaut tient à la vérité des prémisses ou à leur pertinence. Pour les repérer, il faut s’interroger sur le contenu.",
+  lpDuelo: "Entraîne-toi dans le Duel de raisons →"
+};
+const LOGM_CONV = [
+  ["A", "Tout S est P", "Tout P est S", "no", "Tout chien est mammifère ; mais tout mammifère n’est pas chien."],
+  ["E", "Aucun S n’est P", "Aucun P n’est S", "si", "Aucun poisson n’est mammifère ; donc aucun mammifère n’est poisson."],
+  ["I", "Quelque S est P", "Quelque P est S", "si", "Quelque philosophe est grec ; donc quelque Grec est philosophe."],
+  ["O", "Quelque S n’est pas P", "Quelque P n’est pas S", "no", "Quelque animal n’est pas chien ; mais il ne s’ensuit pas que quelque chien ne soit pas animal."]
+];
+const LOGM_AYUDA = [
+  { n: "Équivoque", ej: "La fin d’une chose est sa perfection. La mort est la fin de la vie. Donc la mort est la perfection de la vie.", ve: "Quand on formalise, « fin » au sens de « finalité » et « fin » au sens de « terme » reçoivent des lettres différentes : un quatrième terme apparaît et le syllogisme cesse d’être valide." },
+  { n: "Pétition de principe", ej: "Ce livre dit la vérité, parce que c’est le livre lui-même qui le dit.", ve: "L’argument est valide (p ⊢ p), mais la conclusion était déjà dans la prémisse : il ne prouve rien qui n’ait été tenu pour acquis." },
+  { n: "Faux dilemme", ej: "Soit tu es avec moi, soit tu es contre moi. Tu n’es pas avec moi. Donc tu es contre moi.", ve: "La forme est un syllogisme disjonctif, qui est valide. Ce qui ne va pas, c’est la prémisse p ∨ q : il y a d’autres options." },
+  { n: "Pente glissante", ej: "Si on laisse utiliser le portable à la récré, on l’utilisera en classe ; si on l’utilise en classe, personne ne sera attentif ; si personne n’est attentif, tout le monde échouera.", ve: "La chaîne p → q, q → r, r → s est valide (syllogisme hypothétique), mais chaque conditionnel est, au mieux, probable : la probabilité se perd à chaque étape." },
+  { n: "Enthymème", ej: "C’est cher, donc ce doit être bon.", ve: "Pour qu’il soit valide, il manque une prémisse : « tout ce qui est cher est bon ». La formalisation la met au jour, et l’on voit alors qu’elle est fausse." }
+];
+const LOGM_NOFORMAL = [
+  ["Attaque contre la personne (ad hominem)", "Il attaque celui qui parle, non ce qu’il dit."],
+  ["Fausse autorité", "Il appuie la conclusion sur quelqu’un qui n’est pas expert en la matière."],
+  ["Appel à la majorité (ad populum)", "Que beaucoup de gens le croient ne le rend pas vrai."],
+  ["Appel à la pitié ou à la peur", "Il cherche à susciter une émotion au lieu de donner une raison."],
+  ["Homme de paille", "Il réfute une version déformée de ce que l’autre a dit."],
+  ["Fausse cause", "Que quelque chose arrive après ne prouve pas que cela en soit la cause."]
+];
+function logmConversion(){
+  return '<div class="lg-panel"><h2>' + logmT("convTit") + '</h2><p class="lg-nota">' + logmT("convIntro") + '</p><div class="tablewrap"><table class="lg-tabla"><thead><tr><th></th><th>' + logmT("convProp") + "</th><th>" + logmT("convConv") + "</th><th>" + logmT("convVale") + "</th><th>" + logmT("convEj") + "</th></tr></thead><tbody>" +
+    LOGM_CONV.map(([t, p, c, v, e]) => "<tr><th>" + t + "</th><td>" + logEsc(p) + "</td><td>" + logEsc(c) + '</td><td class="lg-' + (v === "si" ? "v" : "f") + '">' + logmT(v === "si" ? "convSi" : "convNo") + (t === "A" ? "<br><small>" + logmT("convAcc") + "</small>" : "") + "</td><td>" + logEsc(e) + "</td></tr>").join("") + "</tbody></table></div></div>";
+}
+function logmGeneralizacion(){
+  return '<div class="lg-panel"><h2>' + logmT("genTit") + "</h2><p>" + logmT("gen") + '</p><p><button type="button" class="btn ghost" data-cqpre="p3">' + logmT("genVer") + "</button></p></div>";
+}
+function logmPuedeNoPuede(){
+  const duelo = document.getElementById("duelo") ? '<p><button type="button" class="btn ghost" data-igo="duelo" data-iarg="">' + logmT("lpDuelo") + "</button></p>" : "";
+  return '<div class="lg-panel"><h2>' + logmT("lpTit") + '</h2><p class="lg-nota">' + logmT("lpIntro") + "</p><h3>" + logmT("lpAyuda") + '</h3><div class="lg-reglas">' +
+    LOGM_AYUDA.map(x => '<div class="lg-regla lg-medio"><h3>' + logEsc(x.n) + '</h3><p><b>' + logmT("ejemplo") + ":</b> " + logEsc(x.ej) + "</p><p><b>" + logmT("lpQueVe") + ":</b> " + logEsc(x.ve) + "</p></div>").join("") + "</div>" +
+    "<h3>" + logmT("lpNo") + '</h3><p class="lg-nota">' + logmT("lpNoIntro") + '</p><ul class="lg-nof">' + LOGM_NOFORMAL.map(([n, d]) => "<li><b>" + logEsc(n) + ":</b> " + logEsc(d) + "</li>").join("") + "</ul>" + duelo + "</div>";
+}
+Object.assign(LOGM_TXT, LOGM_EXTRA_TXT);
+
 
 /* ---------- eventos (delegados en la caja del Rincón; logicaview.js maneja los demás) ---------- */
 (function(){
@@ -203,7 +270,7 @@ Object.assign(LOGM_TXT, LOGM_CQ_TXT);
     else if (b.dataset.fzsol != null){ const i = +b.dataset.fzsol; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { sol: true }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
     else if (b.dataset.infp != null){ LOG.prem = b.dataset.infp; LOG.concl = b.dataset.infc; LOG.tab = "tablas"; logRender(); const a = document.getElementById("lg-arg"); if (a) a.scrollIntoView({ block: "center" }); }
     else if (b.dataset.cqi != null){ const r = LOG.cq.m[+b.dataset.cqi]; r[+b.dataset.cqj] = r[+b.dataset.cqj] ? 0 : 1; const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
-    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
+    else if (b.dataset.cqpre){ LOG.cq.m = LOGM_CQ_PRE[b.dataset.cqpre].map(r => r.slice()); const c = document.getElementById("lg-cq"); if (c){ c.innerHTML = logmCqMundo(); if (b.closest(".lg-panel") !== c.closest(".lg-panel")) c.scrollIntoView({ block: "center" }); } }
     else if (b.dataset.cqej != null){ LOG.cq.ej[+b.dataset.cqej] = +b.dataset.cqo; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
     else if (b.dataset.infej != null){ LOG.inf[+b.dataset.infej] = b.dataset.infr; const y = window.scrollY; logRender(); window.scrollTo(0, y); }
   });

@@ -6218,6 +6218,50 @@ const QUIZZES = {
     ],
     "a": 1,
     "fb": "La condamnation du plus juste a montré à Platon qu'une politique sans savoir, dominée par l'opinion changeante, corrompt la justice ; d'où son projet d'une cité régie par la connaissance."
+   },
+   {
+    "q": "Quelles sont les deux expériences que Platon raconte dans la Lettre VII pour expliquer sa méfiance envers la politique de son temps ?",
+    "o": [
+     "La victoire dans les guerres médiques et la mort de Périclès.",
+     "Le gouvernement violent des Trente Tyrans et la condamnation de Socrate par la démocratie restaurée.",
+     "Son voyage en Égypte et son séjour à Sparte.",
+     "La fondation du Lycée et la mort d'Alexandre."
+    ],
+    "a": 1,
+    "fb": "Platon raconte une double déception : celle des Trente Tyrans, qui allèrent jusqu'à vouloir impliquer Socrate dans leurs crimes, et celle de la démocratie restaurée, qui le condamna à mort."
+   },
+   {
+    "q": "Dans l'éducation des gouvernants que propose Platon dans la République, qu'étudie-t-on entre 30 et 35 ans ?",
+    "o": [
+     "Gymnastique et musique.",
+     "Dialectique.",
+     "Rhétorique pour parler à l'assemblée.",
+     "Rien : c'est le temps du service militaire."
+    ],
+    "a": 1,
+    "fb": "Après dix ans de mathématiques, une nouvelle sélection ouvre la voie à cinq ans de dialectique, le chemin pour parvenir aux Idées par la raison ; viennent ensuite quinze ans de charges pratiques."
+   },
+   {
+    "q": "Selon Platon, pourquoi l'oligarchie tombe-t-elle ?",
+    "o": [
+     "Parce que les guerriers recherchent l'honneur.",
+     "Parce que la cité se divise en deux, riches et pauvres, et que les pauvres se révoltent.",
+     "Parce que les philosophes négligent l'éducation.",
+     "Parce qu'un tyran la conquiert de l'extérieur."
+    ],
+    "a": 1,
+    "fb": "L'oligarchie valorise l'argent et divise la cité en riches et pauvres ; la révolte des pauvres ouvre la voie à la démocratie."
+   },
+   {
+    "q": "Qu'illustre Aristote avec l'exemple du repas auquel chaque invité apporte un plat ?",
+    "o": [
+     "Que la propriété doit être commune.",
+     "Que beaucoup, ensemble, peuvent mieux juger qu'un petit nombre, même si aucun d'eux n'est excellent pris isolément.",
+     "Que le meilleur régime est la tyrannie.",
+     "Que la famille est antérieure à la polis."
+    ],
+    "a": 1,
+    "fb": "Dans la Politique (III, 11), Aristote soutient que la somme de la prudence de beaucoup peut surpasser celle d'un petit nombre : c'est pourquoi le peuple peut élire les gouvernants et leur demander des comptes."
    }
   ]
  },

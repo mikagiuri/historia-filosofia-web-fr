@@ -2417,6 +2417,59 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Paideia",
+  "et": "Du grec παιδεία (*paideía*), « soin des enfants, éducation », de παῖς (*país*), « enfant ».",
+  "area": "Politique",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "La politique classique",
+  "def": "Éducation au sens large : formation du caractère et de l'esprit. Chez Platon, tâche principale de la cité, qui sélectionne les gouvernants au terme d'un long parcours d'études et d'épreuves.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Timocratie",
+  "et": "Du grec τιμή (*timḗ*), « honneur », et κράτος (*krátos*), « pouvoir ».",
+  "area": "Politique",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "La politique classique",
+  "def": "Chez Platon, le gouvernement des guerriers, qui valorisent l'honneur et la victoire ; premier pas dans la dégénérescence de la cité idéale, avant l'oligarchie, la démocratie et la tyrannie.",
+  "ilustre": [
+   "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Métèque",
+  "et": "Du grec μέτοικος (*métoikos*), « celui qui habite avec », « résident ».",
+  "area": "Politique",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "La politique classique",
+  "def": "Étranger résidant à Athènes : il payait des impôts et pouvait servir dans l'armée, mais il n'avait pas de droits politiques et ne pouvait pas posséder de terres.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Trente Tyrans",
+  "et": "C'est ainsi que les appelaient leurs ennemis ; eux-mêmes se présentaient comme un gouvernement des meilleurs.",
+  "area": "Politique",
+  "bloque": "A",
+  "unidad": "A9",
+  "tema": "La politique classique",
+  "def": "Gouvernement oligarchique imposé à Athènes, avec l'appui de Sparte, après la défaite dans la guerre du Péloponnèse (404-403 av. J.-C.). Parmi eux se trouvaient Critias et Charmide, parents de Platon.",
+  "ilustre": [
+   "platon",
+   "socrates"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Ostracisme",
   "et": "Du grec ὄστρακον (*óstrakon*), « tesson de céramique » : les Athéniens y écrivaient le nom de celui qu'ils voulaient bannir.",
   "area": "Politique",

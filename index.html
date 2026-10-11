@@ -53,12 +53,13 @@
           <button data-view="ilustres">Illustres</button>
           <button data-view="citas">Phrases</button>
           <button data-view="adagios">Adages</button>
+          <button data-view="polemicas">Polémiques</button>
         </div>
       </div>
       <div class="navsec">
         <span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Jeux</span>
         <div class="navmenu">
-          <a class="gamelink" href="media/juego_duelo_de_razones_fr.html#hf" target="_blank" rel="noopener">Duel de raisons ↗</a>
+          <button data-view="duelo">Duel de raisons</button>
           <button data-view="eudaimonia">Eudaimonia</button>
           <button data-view="republica">La République</button>
           <button data-view="rayuela">Marelle philosophique</button>
@@ -291,6 +292,25 @@
     <p class="lead">Phrases célèbres de la philosophie, de l’Antiquité à aujourd’hui : chacune avec son <strong>auteur</strong> et son <strong>œuvre</strong>. Filtre par <strong>époque</strong>.</p>
     <div class="filterbar" id="citasfilter" role="group" aria-label="Filtrer les phrases par époque"></div>
     <div id="citasbody"></div>
+  </section>
+
+  <section class="view" id="duelo">
+    <!-- (11-10) Duelo de razones: antes juego aparte (media/juego_duelo_de_razones*.html, cinco copias); ahora sección (duelo.js + dueloview.js).
+         En todas las webs: cada una muestra los debates de su nivel (eso | fil | hf). -->
+    <p class="eyebrow">Jeux</p>
+    <h1 class="title">Duel de raisons</h1>
+    <div class="due-top"><button type="button" class="due-proybtn" id="dueproy">Mode projecteur</button></div>
+    <div id="duelobox"></div>
+  </section>
+
+  <section class="view" id="polemicas">
+    <!-- (11-10) Polémicas: pensadores coetáneos que se enfrentaron cara a cara, por cartas, con libros o desde escuelas rivales
+         (polemicas.js + polemicasview.js). Solo Bachillerato: la web de ESO no la lleva (build_eso.js). -->
+    <p class="eyebrow">Étudier</p>
+    <h1 class="title">Polémiques : face à face</h1>
+    <p class="lead">Des philosophes qui ont vécu à la même époque et se sont réellement affrontés. Choisis avec qui tu es, donne ta raison et regarde le meilleur argument de l’autre camp.</p>
+    <div class="filterbar" id="polemicasfilter" role="group" aria-label="Filtrer les polémiques"></div>
+    <div id="polemicasbox"></div>
   </section>
 
   <section class="view" id="adagios">
@@ -541,6 +561,7 @@
       <h2>Terminologie des traductions</h2>
       <ul>
         <li>Basque : les choix de terminologie se font avec l’<em>Euskaltzaindiaren Hiztegia</em> (dictionnaire de l’Académie de la langue basque), et chaque consultation est indiquée ici avec son lien. 11-10-2026 : « época », au sens de période historique, se traduit « aro » (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=aro" target="_blank" rel="noopener">aro</a>, sens 4 : chacune des parties en lesquelles se divise le temps historique), et non « garai » (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=garai" target="_blank" rel="noopener">garai</a>, période de temps en général) ; « falacia » se traduit « falazia » (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=falazia" target="_blank" rel="noopener">falazia</a>), et non « faltsukeria », qui signifie « fausseté ».</li>
+        <li>Basque, 12-10-2026 : « libre albedrío » (libre arbitre) se traduit « borondate askea » (<a href="https://www.euskaltzaindia.eus/index.php?option=com_hiztegianbilatu&amp;task=bilaketa&amp;Itemid=1693&amp;lang=eu&amp;query=borondate" target="_blank" rel="noopener">borondate</a>, sens 1 : faculté de vouloir, de faire ou de ne pas faire quelque chose, ou de choisir librement), la forme que le site utilise déjà.</li>
       </ul>
       <!-- NOTAS-ARETE-INICIO -->
       <h2>Notes et références par thèmes</h2>
@@ -965,6 +986,7 @@
         <li>Exploration « Le cœur de pierre » : œuvres de Goya, Loutherbourg, Turner, Daumier, Hübner, Kollwitz et d’autres, et illustrations d’époque, de Wikimedia Commons dans le domaine public ou sous CC0 (National Gallery de Londres, National Gallery of Art de Washington, Statens Museum for Kunst, entre autres).</li>
         <li>Photographies d’Unsplash.</li>
         <li>Illustrations générées par intelligence artificielle (Gemini et Nano Banana, de Google, et FLUX).</li>
+        <li>Les infographies sont de conception propre, réalisées avec l’aide d’outils d’intelligence artificielle et relues par l’enseignant.</li>
       </ul>
       <h2>Cinéma, séries et vidéos</h2>
       <ul>
@@ -976,10 +998,15 @@
         <li>Mermaid et Markmap (licence MIT) pour les schémas et les cartes.</li>
         <li>Polices Spectral, IBM Plex et Fraunces (SIL Open Font License).</li>
       </ul>
+      <h2>Licence</h2>
+      <ul>
+        <li>Le matériel original de ce site (textes, activités, quiz, schémas et infographies) est publié sous la licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" rel="license">Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0)</a> : il peut être copié et adapté en citant sa provenance, sans but commercial et en le partageant sous la même licence.</li>
+        <li>Sont exclus de cette licence les textes de la PAU, les traductions publiées par des éditeurs, ainsi que les images et textes de tiers, qui conservent leur propre licence, indiquée sur cette page et dans chaque crédit.</li>
+      </ul>
     </article>
   </section>
 </main>
-<footer class="wrap sitefoot"><a href="#mapa">Plan du site</a> · <a href="#fuentes">Sources et avis</a></footer>
+<footer class="wrap sitefoot"><a href="#mapa">Plan du site</a> · <a href="#fuentes">Sources et avis</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC BY-NC-SA 4.0</a></footer>
 
 <script src="js/store.js"></script>
 <script src="js/data.js"></script>
@@ -1042,6 +1069,10 @@
 <script src="js/nudosview.js"></script>
 <script src="js/adagios.js"></script>
 <script src="js/adagiosview.js"></script>
+<script src="js/polemicas.js"></script>
+<script src="js/polemicasview.js"></script>
+<script src="js/duelo.js"></script>
+<script src="js/dueloview.js"></script>
 <script src="js/juego_aristoteles.js"></script>
 <script src="js/aristotelesview.js"></script>
 <script src="js/platonview.js"></script>

@@ -183,6 +183,27 @@ const ILUSTRES = {
    "hf-preso"
   ]
  },
+ "lao_zi": {
+  "name": "Lao Zi",
+  "dates": "VIe-IVe s. av. J.-C. (selon la tradition)",
+  "born": -570,
+  "died": -480,
+  "place": "État de Chu (Chine)",
+  "role": "sage chinois, à qui l'on attribue le Daodejing",
+  "idea": "Le Dao, le chemin de la nature, agit sans forcer : le sage suit cet exemple, préfère ce qui est humble et souple, et gouverne en intervenant le moins possible (wu wei).",
+  "bio": "<p>Lao Zi (aussi écrit Laozi ou Lao-tseu) signifie « le vieux maître ». Selon la tradition, il fut archiviste à la cour des Zhou, un peu plus âgé que Confucius, qu'il aurait reçu. Mais les historiens doutent qu'il ait existé comme personne concrète : le livre qu'on lui attribue, le <em>Daodejing</em> (<em>Livre de la voie et de la vertu</em>), semble être un recueil de sentences qui prit sa forme vers les IVe-IIIe siècles av. J.-C. C'est l'un des textes fondateurs du <strong>taoïsme</strong> et l'un des livres les plus traduits au monde.</p>\n<p>Au centre se trouve le <strong>Dao</strong>, « le chemin » : l'origine sans nom de toutes choses, qu'on ne peut définir avec des mots. Le sage imite le Dao en pratiquant le <strong>wu wei</strong>, le « non-agir » : non pas rester immobile, mais agir sans forcer, comme l'eau, qui est ce qu'il y a de plus mou au monde et qui pourtant use la pierre. Le souple l'emporte sur le rigide. Face à Confucius, qui fait confiance aux rites et à l'éducation, Lao Zi se méfie des normes et de l'excès de gouvernement : plus il y a de lois et d'interdits, plus il y aura de voleurs. C'est pourquoi on l'a parfois lu comme un éloge de la nature et de la simplicité face à la civilisation.</p>",
+  "obras": [
+   "Daodejing ou Tao-tö-king (attribué)"
+  ],
+  "anecdota": "<p>L'historien Sima Qian raconte que Lao Zi, voyant la décadence de la cour, décida de partir vers l'ouest. Arrivé au poste-frontière, le gardien, Yin Xi, lui demanda de ne pas s'en aller sans laisser sa sagesse par écrit. Lao Zi écrivit alors un livre d'environ cinq mille caractères, en deux parties, sur la voie et la vertu, et partit ; personne ne sut où il finit ses jours. La tradition postérieure ajouta qu'il voyageait monté sur un buffle. C'est une légende, mais elle explique l'origine que les Chinois attribuèrent pendant des siècles au <em>Daodejing</em>.</p>",
+  "fuente": "Sima Qian, Mémoires historiques, chap. 63 (Ier s. av. J.-C.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "confucio": {
   "name": "Confucius",
   "dates": "551 – 479 av. J.-C.",
@@ -416,6 +437,27 @@ const ILUSTRES = {
    "hf-preso",
    "hf-kant-juicios"
   ]
+ },
+ "buda": {
+  "name": "Siddhartha Gautama, le Bouddha",
+  "dates": "Ve s. av. J.-C. (dates incertaines)",
+  "born": -480,
+  "died": -400,
+  "place": "Lumbini (actuel Népal)",
+  "role": "maître spirituel indien, fondateur du bouddhisme",
+  "idea": "La vie est traversée par la souffrance, qui naît du désir et de l'attachement ; cette souffrance peut s'éteindre si l'on suit un chemin de vie droit et mesuré.",
+  "bio": "<p>Siddhartha Gautama naquit dans le nord de l'Inde, dans une famille noble du clan des Shakya. Ses dates sont incertaines : la tradition le situe au VIe siècle av. J.-C., et beaucoup d'historiens aujourd'hui, vers le Ve. Selon les récits traditionnels, il abandonna à 29 ans la vie de palais pour chercher la fin de la souffrance ; il pratiqua pendant des années un ascétisme extrême, jusqu'à presque mourir de faim, et le rejeta au profit d'une <strong>voie du milieu</strong> entre le plaisir et la mortification. En méditant sous un arbre à Bodh-Gaya, il atteignit l'« éveil » : « Bouddha » signifie « l'éveillé ». Il passa le reste de sa vie à enseigner et mourut vers 80 ans.</p>\n<p>Son enseignement se résume dans les <strong>quatre nobles vérités</strong> : la vie est marquée par la souffrance (<em>dukkha</em>) ; cette souffrance naît du désir et de l'attachement ; elle peut s'éteindre (le <strong>nirvana</strong>) ; et il existe un chemin pour y parvenir, le noble octuple sentier (compréhension, intention, parole, action et moyens d'existence justes, effort, attention et concentration). Tout est <strong>impermanent</strong>, et il n'y a pas non plus de moi fixe et permanent auquel s'accrocher. Le Bouddha n'écrivit rien ; ses discours furent transmis de mémoire et mis par écrit des siècles plus tard. Sa pensée arriva en Europe au XIXe siècle et influença beaucoup Schopenhauer.</p>",
+  "obras": [
+   "Il n'écrivit rien : ses enseignements sont recueillis dans le Canon pali (Tipitaka) et dans le Dhammapada"
+  ],
+  "anecdota": "<p>Selon la légende, son père l'éleva dans le luxe pour qu'il ne connaisse jamais la douleur. Mais un jour, en sortant du palais, Siddhartha vit un vieillard, puis un malade, puis un cadavre, et comprit que la vieillesse, la maladie et la mort attendent tout le monde. Enfin, il croisa un ascète serein et décida de suivre ce chemin. Ce sont les « quatre rencontres », un récit bien postérieur à sa vie qui exprime, plus qu'un fait historique, le point de départ de son enseignement.</p>",
+  "fuente": "Ashvaghosha, Vie du Bouddha (Buddhacarita, Ier-IIe s. apr. J.-C.)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "filolao": {
   "name": "Philolaos de Crotone",
@@ -1706,6 +1748,30 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "leonardo": {
+  "name": "Léonard de Vinci",
+  "dates": "1452 – 1519",
+  "born": 1452,
+  "died": 1519,
+  "place": "Vinci (Toscane, Italie)",
+  "role": "artiste, ingénieur et chercheur de la Renaissance",
+  "idea": "L'expérience est la mère de la connaissance : pour comprendre la nature, il faut l'observer, la mesurer et la dessiner, au lieu de se fier seulement aux livres.",
+  "bio": "<p>Léonard naquit à Vinci, fils illégitime d'un notaire, et se forma comme apprenti dans l'atelier du peintre Verrocchio, à Florence. Il travailla pour les Médicis, pour Ludovic Sforza à Milan, pour César Borgia et, à la fin de sa vie, pour le roi François Ier de France, à la cour duquel il mourut. Il peignit des œuvres comme <em>La Cène</em> et <em>La Joconde</em>, mais laissa beaucoup d'œuvres inachevées : chercher l'intéressait autant que peindre.</p>\n<p>Léonard se disait lui-même « homme sans lettres », car il n'avait pas étudié le latin à l'université. C'est justement pour cela qu'il se méfiait de l'autorité des livres et défendait l'<strong>expérience</strong> : observer, expérimenter et dessiner. Dans des milliers de pages de carnets, il étudia l'anatomie humaine (il disséqua des cadavres), le vol des oiseaux, le mouvement de l'eau, l'optique et la mécanique, et dessina des machines qui ne furent jamais construites. Ce ne fut pas un scientifique au sens moderne, car il ne publia rien et ne formula pas de lois mathématiques, mais sa manière d'unir l'œil, la main et la raison annonce la science qui viendrait avec Galilée.</p>",
+  "obras": [
+   "La Cène (1495-1498)",
+   "L'Homme de Vitruve (v. 1490)",
+   "La Joconde (v. 1503-1519)",
+   "Carnets (Codex Atlanticus, Codex Leicester et autres)"
+  ],
+  "anecdota": "<p>Léonard écrivait presque toutes ses notes à l'envers, de droite à gauche et avec les lettres inversées, si bien que pour les lire facilement il faut les placer devant un miroir. On a longtemps dit qu'il le faisait pour garder ses inventions secrètes, mais l'explication la plus probable est plus simple : il était gaucher, et écrire ainsi lui permettait de ne pas étaler l'encre avec la main.</p>",
+  "fuente": "Carnets de Léonard (Codex Atlanticus, Bibliothèque ambrosienne de Milan)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "pico": {
   "name": "Giovanni Pico della Mirandola",
   "dates": "1463 – 1494",
@@ -2472,6 +2538,29 @@ const ILUSTRES = {
    "hf-ilustracion",
    "hf-kant-juicios"
   ]
+ },
+ "du_chatelet": {
+  "name": "Émilie du Châtelet",
+  "dates": "1706 – 1749",
+  "born": 1706,
+  "died": 1749,
+  "place": "Paris (France)",
+  "role": "mathématicienne, physicienne et philosophe des Lumières",
+  "idea": "La physique de Newton doit être complétée par une réflexion philosophique sur ses fondements ; et le savoir, pour les femmes aussi, est l'une des sources du bonheur.",
+  "bio": "<p>Gabrielle Émilie Le Tonnelier de Breteuil, marquise du Châtelet, naquit dans une famille noble de Paris. Son père lui permit une éducation exceptionnelle pour une femme de son époque : latin, langues et surtout mathématiques, qu'elle continua d'étudier adulte avec des mathématiciens comme Maupertuis. Pendant quinze ans, elle partagea avec Voltaire sa vie et son travail au château de Cirey, devenu un petit centre de recherche avec bibliothèque et laboratoire.</p>\n<p>Dans ses <em>Institutions de physique</em> (1740), elle tenta de donner à la physique de Newton des fondements philosophiques en empruntant des idées à Leibniz, et soutint, à partir des expériences de 's Gravesande, que la « force vive » d'un corps en mouvement dépend du carré de sa vitesse, une idée proche de ce que nous appelons aujourd'hui l'énergie cinétique. Sa grande œuvre est la <strong>traduction commentée en français des <em>Principia</em> de Newton</strong>, qui reste la version française de référence. Dans son <em>Discours sur le bonheur</em>, elle soutient que l'amour de l'étude est la passion qui dépend le plus de soi-même, surtout pour les femmes, à qui presque tous les autres chemins étaient fermés. Elle mourut à 42 ans, quelques jours après avoir accouché.</p>",
+  "obras": [
+   "Institutions de physique (1740)",
+   "Discours sur le bonheur (écrit vers 1746-1747, publié en 1779)",
+   "Principes mathématiques de la philosophie naturelle de Newton, traduction et commentaire (publiée en 1759)"
+  ],
+  "anecdota": "<p>En 1749, enceinte à 42 ans, Émilie du Châtelet savait que l'accouchement pouvait lui coûter la vie. C'est pourquoi elle s'acharna à terminer à temps sa traduction de Newton : elle travaillait jusque tard dans la nuit et dormait très peu. Début septembre, elle envoya le manuscrit à la Bibliothèque du Roi pour qu'il soit en sécurité. Elle donna naissance à une fille et mourut quelques jours plus tard. La traduction, avec son commentaire, fut publiée dix ans après, avec une préface de Voltaire.</p>",
+  "fuente": "Lettres d'Émilie du Châtelet (1749) ; préface de Voltaire à l'édition de 1759",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "euler": {
   "name": "Leonhard Euler",
@@ -4180,6 +4269,59 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "bergson": {
+  "name": "Henri Bergson",
+  "dates": "1859 – 1941",
+  "born": 1859,
+  "died": 1941,
+  "place": "Paris (France)",
+  "role": "philosophe français de la durée et de la vie",
+  "idea": "Le temps vécu, la durée, ne peut pas se mesurer comme celui des horloges : seule l'intuition saisit ce qui change et s'écoule, et la vie est un élan créateur.",
+  "bio": "<p>Henri Bergson naquit à Paris, fils d'un musicien juif polonais et d'une mère anglaise. Brillant en mathématiques, il choisit la philosophie. Il fut professeur au Collège de France, où ses cours remplissaient les salles d'un public venu de toute la ville, et en 1927 il reçut le prix Nobel de littérature. Il mourut dans le Paris occupé par les nazis, en janvier 1941.</p>\n<p>Son point de départ est le <strong>temps</strong>. Le temps de la physique et des horloges est un temps « spatialisé », divisé en instants égaux que l'on peut compter. Mais le temps que nous vivons de l'intérieur, la <strong>durée</strong>, est un écoulement continu dans lequel le passé se prolonge dans le présent, comme les notes d'une mélodie. L'intelligence, qui découpe la réalité en morceaux pour pouvoir la manipuler, sert à la technique ; pour saisir ce qui change, il faut l'<strong>intuition</strong>. Dans <em>L'Évolution créatrice</em> (1907), il présente la vie comme un <strong>élan vital</strong> (<em>l'expression est de Bergson</em>) qui crée des formes nouvelles, et dans <em>Les Deux Sources de la morale et de la religion</em> (1932), il distingue une morale close, celle de la pression du groupe, et une morale ouverte, celle des personnes qui étendent l'amour à toute l'humanité.</p>",
+  "obras": [
+   "Essai sur les données immédiates de la conscience (1889)",
+   "Matière et mémoire (1896)",
+   "Le Rire (1900)",
+   "L'Évolution créatrice (1907)",
+   "Les Deux Sources de la morale et de la religion (1932)"
+  ],
+  "anecdota": "<p>Le 6 avril 1922, lors d'une visite d'Einstein à Paris, Bergson et lui se retrouvèrent à une séance de la Société française de philosophie. Bergson soutint qu'outre le temps que mesurent les physiciens, il existe un temps vécu que la théorie de la relativité ne peut pas éliminer. Einstein répondit par une phrase restée célèbre : « Le temps des philosophes n'existe pas ». Le choc entre les deux marqua pendant des décennies la relation entre la philosophie et la physique.</p>",
+  "fuente": "Bulletin de la Société française de philosophie (1922)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-spinoza-universal"
+  ]
+ },
+ "husserl": {
+  "name": "Edmund Husserl",
+  "dates": "1859 – 1938",
+  "born": 1859,
+  "died": 1938,
+  "place": "Prossnitz (Moravie, aujourd'hui Prostějov, République tchèque)",
+  "role": "philosophe allemand, fondateur de la phénoménologie",
+  "idea": "Il faut « revenir aux choses mêmes » : décrire sans préjugés comment les choses apparaissent à la conscience, qui est toujours conscience de quelque chose.",
+  "bio": "<p>Edmund Husserl naquit dans une famille juive de Moravie et commença par étudier les mathématiques. Influencé par Franz Brentano, il passa à la philosophie et fut professeur à Göttingen et à Fribourg-en-Brisgau, où il eut pour élèves et assistants Edith Stein et Martin Heidegger. Avec l'arrivée des nazis au pouvoir, en raison de son origine juive, il fut écarté de l'université et traité comme un proscrit ; il mourut à Fribourg en 1938.</p>\n<p>Husserl fonde la <strong>phénoménologie</strong>, qui veut être une philosophie rigoureuse, sans présupposés. Sa devise est « revenir aux choses mêmes » : décrire avec soin comment les choses nous sont données dans l'expérience. La clé est l'<strong>intentionnalité</strong> : toute conscience est conscience <em>de</em> quelque chose ; voir, c'est voir quelque chose, désirer, c'est désirer quelque chose. Pour étudier cette relation, il faut pratiquer l'<strong>épochè</strong>, « mettre entre parenthèses » nos croyances habituelles sur le monde, sans les nier, pour observer comment il apparaît. Dans sa dernière période, il parle du <strong>monde de la vie</strong>, le monde quotidien que nous tenons pour acquis, et accuse les sciences de l'avoir oublié en réduisant tout à des nombres. Sa méthode influença Heidegger, Sartre, Merleau-Ponty et une bonne partie de la philosophie du XXe siècle.</p>",
+  "obras": [
+   "Recherches logiques (1900-1901)",
+   "Idées directrices pour une phénoménologie pure (1913)",
+   "Méditations cartésiennes (1931)",
+   "La Crise des sciences européennes et la phénoménologie transcendantale (1936)"
+  ],
+  "anecdota": "<p>À sa mort, Husserl laissa quelque 40 000 pages de manuscrits rédigés en sténographie, presque tous inédits. En 1938, c'était un trésor en danger : les nazis pouvaient les détruire parce qu'ils étaient d'un auteur juif. Un jeune franciscain belge, Herman Van Breda, réussit à les faire sortir clandestinement d'Allemagne, par l'intermédiaire de l'ambassade de Belgique, et à les emporter à Louvain. C'est là que furent fondées les Archives Husserl, qui aujourd'hui encore les étudient et les publient.</p>",
+  "fuente": "H. L. Van Breda, « Le sauvetage de l'héritage husserlien » (1959)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-existencialismo"
+  ]
+ },
  "unamuno": {
   "name": "Miguel de Unamuno",
   "dates": "1864 – 1936",
@@ -4361,6 +4503,30 @@ const ILUSTRES = {
    "hf-beauvoir"
   ]
  },
+ "jaspers": {
+  "name": "Karl Jaspers",
+  "dates": "1883 – 1969",
+  "born": 1883,
+  "died": 1969,
+  "place": "Oldenbourg (Allemagne)",
+  "role": "psychiatre et philosophe existentialiste allemand",
+  "idea": "Dans les situations limites (la mort, la souffrance, le combat, la culpabilité), la personne découvre sa propre existence et sa liberté, et apprend à communiquer vraiment avec les autres.",
+  "bio": "<p>Karl Jaspers étudia la médecine et travailla comme psychiatre à Heidelberg ; sa <em>Psychopathologie générale</em> (1913) fut un ouvrage de référence en psychiatrie. Il se consacra ensuite à la philosophie. Marié à Gertrud Mayer, d'une famille juive, il fut chassé de sa chaire par les nazis en 1937 et on lui interdit de publier. Après la guerre, il retourna à l'université, écrivit <em>La Culpabilité allemande</em> (1946) sur la responsabilité des Allemands, et en 1948 il s'installa à Bâle, en Suisse, où il vécut jusqu'à sa mort. Il fut le maître et l'ami de Hannah Arendt.</p>\n<p>Jaspers est l'un des fondateurs de la philosophie de l'existence. La science explique le monde, mais elle ne peut pas nous dire qui nous sommes ni comment vivre. Nous le découvrons dans les <strong>situations limites</strong>, celles auxquelles nous ne pouvons pas échapper : la mort, la souffrance, le combat, la culpabilité. Face à elles, la personne prend conscience de son existence et de sa liberté. Pour Jaspers, la vérité s'atteint dans la <strong>communication</strong> avec les autres, et non dans la solitude. Il forgea aussi l'idée d'une <strong>période axiale</strong> : entre 800 et 200 av. J.-C., en Chine, en Inde, en Perse, en Israël et en Grèce, apparurent presque en même temps Confucius et Lao Zi, le Bouddha, les prophètes et les philosophes grecs, et avec eux les grandes questions sur l'être humain.</p>",
+  "obras": [
+   "Psychopathologie générale (1913)",
+   "Philosophie (1932)",
+   "La Culpabilité allemande (1946)",
+   "Origine et sens de l'histoire (1949)"
+  ],
+  "anecdota": "<p>Pendant les dernières années de la guerre, Jaspers et sa femme Gertrud vivaient à Heidelberg dans la crainte constante qu'elle soit déportée dans un camp d'extermination. Ils avaient décidé que, si l'on venait la chercher, ils se donneraient la mort ensemble, et ils gardaient du poison chez eux pour ce moment. Ils apprirent que sa déportation était prévue pour la mi-avril 1945. Le 30 mars, les troupes américaines entrèrent dans Heidelberg et cela n'arriva pas.</p>",
+  "fuente": "K. Jaspers, Autobiographie philosophique (1957) ; lettres avec Hannah Arendt",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
+ },
  "sapir": {
   "name": "Edward Sapir",
   "dates": "1884 – 1939",
@@ -4539,6 +4705,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-analitica"
+  ]
+ },
+ "marcuse": {
+  "name": "Herbert Marcuse",
+  "dates": "1898 – 1979",
+  "born": 1898,
+  "died": 1979,
+  "place": "Berlin (Allemagne)",
+  "role": "philosophe de l'École de Francfort",
+  "idea": "La société industrielle avancée crée de faux besoins et nous fait nous sentir libres tout en nous intégrant au système, si bien que l'on perd la capacité d'imaginer une autre façon de vivre.",
+  "bio": "<p>Herbert Marcuse naquit dans une famille juive de Berlin. Il étudia avec Husserl et Heidegger à Fribourg et rejoignit l'Institut de recherche sociale de Francfort. Avec l'arrivée des nazis, il s'exila en 1934 aux États-Unis, où, pendant la guerre, il travailla pour les services de renseignement américains en analysant l'Allemagne nazie. Il fut ensuite professeur dans plusieurs universités, la dernière en Californie.</p>\n<p>Dans <em>Éros et civilisation</em> (1955), il réunit Marx et Freud : la société réprime les désirs plus que nécessaire pour maintenir le travail et l'ordre. Dans <em>L'Homme unidimensionnel</em> (1964), il soutient que la société de consommation crée de <strong>faux besoins</strong> et absorbe même la contestation, si bien que les gens n'imaginent plus d'alternatives. Son essai sur la <strong>tolérance répressive</strong> (1965) soutenait que, dans des sociétés inégalitaires, une tolérance qui traite toutes les idées de la même façon favorise les puissants. Ses idées inspirèrent une partie du mouvement étudiant de 1968, mais elles reçurent aussi des critiques sérieuses : beaucoup de libéraux virent dans cette thèse une justification pour refuser la parole à ceux qui pensent autrement, et d'autres penseurs de gauche lui reprochèrent d'être trop pessimiste ou trop abstrait. C'est un débat encore ouvert sur les limites de la tolérance.</p>",
+  "obras": [
+   "Raison et révolution (1941)",
+   "Éros et civilisation (1955)",
+   "L'Homme unidimensionnel (1964)",
+   "« La tolérance répressive » (1965)"
+  ],
+  "anecdota": "<p>Lors des manifestations étudiantes de 1968, en Europe et aux États-Unis, certains manifestants scandaient et peignaient sur les murs les « trois M » : Marx, Mao et Marcuse. Le professeur de 70 ans fut surpris de se voir transformé en symbole, et il ne se reconnut pas toujours dans ce qui se disait en son nom. Parmi ses étudiants en Californie figura Angela Davis, qui allait devenir une militante connue.</p>",
+  "fuente": "Presse de 1968 ; entretiens avec Marcuse",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-marxismos",
+   "hf-capitalismo"
   ]
  },
  "ryle": {

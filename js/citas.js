@@ -832,6 +832,7 @@ const CITAS = [
   "a": "Karl Jaspers",
   "o": "Introduction à la philosophie (1950), chap. I",
   "e": "contemporaine",
+  "id": "jaspers",
   "img": "media/retratos/citas/jaspers.jpg",
   "sen": "Jaspers dit que la philosophie n'est pas un savoir achevé, mais un chemin : l'essentiel est de continuer à questionner, car chaque réponse ouvre de nouvelles questions.",
   "uso": "Pour présenter ce qu'est la philosophie en début d'année, ou dans une dissertation sur la différence entre philosophie et science."
@@ -1780,6 +1781,7 @@ const CITAS = [
   "a": "Henri Bergson",
   "o": "attribuée ; lettre à Léon Brunschvicg à l'occasion du 250e anniversaire de la mort de Spinoza",
   "e": "contemporaine",
+  "id": "bergson",
   "img": "media/galeria_museo/spinoza_universal/bergson.jpg",
   "sen": "La phrase souligne l'immense influence de Spinoza : tout philosophe, en plus de sa propre pensée, devrait se situer par rapport à lui.",
   "uso": "Pour présenter l'importance de Spinoza dans l'histoire de la philosophie moderne et contemporaine.",

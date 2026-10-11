@@ -1030,7 +1030,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Le « monde de la vie » de Husserl (all. Lebenswelt) : le monde d'expérience vécue qui précède et sous-tend la science, plein de sens quotidien. L'existentialisme part de là pour expliquer que l'être humain est situé dans le monde."
+  "def": "Le « monde de la vie » de Husserl (all. Lebenswelt) : le monde d'expérience vécue qui précède et sous-tend la science, plein de sens quotidien. L'existentialisme part de là pour expliquer que l'être humain est situé dans le monde.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -1184,7 +1187,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "Marcuse ne comprend pas le désir seulement comme un risque privé. Le corps, l'imagination et l'art peuvent être une force critique contre la normalité quotidienne."
+  "def": "Marcuse ne comprend pas le désir seulement comme un risque privé. Le corps, l'imagination et l'art peuvent être une force critique contre la normalité quotidienne.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -1668,7 +1674,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C8",
   "tema": "L'existentialisme",
-  "def": "Trait fondamental de la phénoménologie (Husserl) : la conscience est toujours « conscience de quelque chose », toujours dirigée vers quelque chose. Penser, vouloir ou craindre ont toujours un objet."
+  "def": "Trait fondamental de la phénoménologie (Husserl) : la conscience est toujours « conscience de quelque chose », toujours dirigée vers quelque chose. Penser, vouloir ou craindre ont toujours un objet.",
+  "ilustre": [
+   "husserl"
+  ]
  },
  {
   "subject": "hf",
@@ -3034,7 +3043,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "Selon Marcuse, toute civilisation a besoin de certaines limites, mais la société capitaliste ajoute à ces limites nécessaires une discipline sociale excédentaire, au profit du travail, de la consommation et de l'obéissance."
+  "def": "Selon Marcuse, toute civilisation a besoin de certaines limites, mais la société capitaliste ajoute à ces limites nécessaires une discipline sociale excédentaire, au profit du travail, de la consommation et de l'obéissance.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",
@@ -3218,7 +3230,10 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
-  "def": "Pour Marcuse, la société qui naît lorsque la critique et les alternatives politiques sont absorbées à l'intérieur du système. Le désaccord lui-même peut devenir un style de marché."
+  "def": "Pour Marcuse, la société qui naît lorsque la critique et les alternatives politiques sont absorbées à l'intérieur du système. Le désaccord lui-même peut devenir un style de marché.",
+  "ilustre": [
+   "marcuse"
+  ]
  },
  {
   "subject": "hf",

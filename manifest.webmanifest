@@ -1,8 +1,8 @@
 {
   "name": "Histoire de la philosophie · 2e",
   "short_name": "Hist. philo.",
-  "description": "El taller de filosofía en una página: teoría, materiales, esquemas, tarjetas, mapas y juegos.",
-  "lang": "es",
+  "description": "L'atelier de philosophie en une page : théorie, supports, schémas, fiches, cartes et jeux.",
+  "lang": "fr",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",

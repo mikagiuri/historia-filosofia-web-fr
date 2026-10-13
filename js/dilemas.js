@@ -63,7 +63,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "Ve siècle av. J.-C., les Lumières grecques",
+   "epoca": "Siglo V a. C., la Ilustración griega",
    "texto": "« N'est-ce pas nous qui t'avons engendré, nourri et éduqué ? […] Te semble-t-il que tu es à égalité de droits avec ta patrie, et que ce qu'elle te fait, tu puisses le lui rendre ? »",
    "fuente": "Platon, Criton, 50a-51c (les Lois s'adressent à Socrate).",
    "unidad": "hf-sofistas"
@@ -115,7 +115,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "IVe siècle av. J.-C.",
+   "epoca": "Siglo IV a. C.",
    "texto": "« C'est notre tâche de contraindre les meilleurs à parvenir à la connaissance du Bien, à gravir cette pente escarpée et, quand ils l'auront atteinte, à ne pas leur permettre ce qu'on leur permet aujourd'hui : rester là-haut et ne plus vouloir redescendre auprès des prisonniers. »",
    "fuente": "Platon, La République, VII, 519c-520a (texte de la PAU).",
    "unidad": "hf-platon"
@@ -166,7 +166,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "IVe-IIIe siècles av. J.-C., l'hellénisme",
+   "epoca": "Siglos IV-III a. C., el helenismo",
    "texto": "« Parmi les choses, les unes dépendent de nous et les autres non. […] Si tu considères comme tien ce qui ne l'est pas, tu te lamenteras, tu te troubleras et tu accuseras les dieux et les hommes. »",
    "fuente": "Épictète, Manuel, 1. Épicure répond dans la Lettre à Ménécée : « Le plaisir est le principe et la fin de la vie heureuse ».",
    "unidad": "hf-helenismo"
@@ -217,7 +217,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "IIe-XIVe siècles",
+   "epoca": "Siglos II-XIV",
    "texto": "« Comprends pour croire, crois pour comprendre. » Et Thomas : « La foi présuppose la connaissance naturelle, comme la grâce présuppose la nature ».",
    "fuente": "Augustin, Sermon 43 ; Thomas d'Aquin, Somme théologique, I, q. 2, a. 2.",
    "unidad": "hf-fe-razon"
@@ -267,7 +267,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XIIIe siècle",
+   "epoca": "Siglo XIII",
    "texto": "« Bien que la foi chrétienne soit au-dessus de la raison, il ne peut y avoir d'opposition entre elles, car toutes deux procèdent de Dieu. »",
    "fuente": "Thomas d'Aquin, Somme contre les Gentils, I, 7. La condamnation de 1277 de l'évêque Tempier interdit la thèse selon laquelle « il y a des choses vraies selon la philosophie qui ne le sont pas selon la foi ».",
    "unidad": "hf-medieval"
@@ -319,7 +319,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XVIIe siècle",
+   "epoca": "Siglo XVII",
    "texto": "« Comme je désirais m'occuper uniquement de la recherche de la vérité, je pensai qu'il fallait que je rejetasse comme absolument faux tout ce en quoi je pourrais imaginer le moindre doute, afin de voir s'il ne resterait pas, après cela, quelque chose dans ma créance qui fût entièrement indubitable. »",
    "fuente": "Descartes, Discours de la méthode, IV (1637).",
    "unidad": "hf-racionalismo"
@@ -370,7 +370,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "XVIIe-XVIIIe siècles",
+   "epoca": "Siglos XVII-XVIII",
    "texto": "« L'homme est né libre, et partout il est dans les fers. » Face à Hobbes : « Les pactes, sans l'épée, ne sont que des paroles, sans force pour protéger personne ».",
    "fuente": "Rousseau, Du contrat social, I, 1 (1762) ; Hobbes, Léviathan, XVII (1651).",
    "unidad": "hf-contrato"
@@ -422,7 +422,7 @@ const DILEMAS = [
    }
   ],
   "debate": {
-   "epoca": "1797, le débat Constant-Kant",
+   "epoca": "1797, el debate Constant-Kant",
    "texto": "« La véracité dans les déclarations auxquelles on ne peut se soustraire est un devoir formel de l'homme envers tout autre, si grand que soit le préjudice qui peut en résulter pour lui ou pour autrui. »",
    "fuente": "Kant, D'un prétendu droit de mentir par humanité (1797), en réponse à Constant.",
    "unidad": "hf-etica-deber"

@@ -347,9 +347,9 @@ const DECKS = {
   ]
  },
  "citasA": {
-  "name": "Citations · Antiquité (bloc A)",
+  "name": "Phrases · Antique",
   "subject": "hf",
-  "block": "A",
+  "epoca": "ant",
   "tipo": "frases",
   "cards": [
    [
@@ -404,10 +404,10 @@ const DECKS = {
    ]
   ]
  },
- "citasB": {
-  "name": "Citations · Médiévale, moderne et Lumières (B)",
+ "citasM": {
+  "name": "Phrases · Médiévale",
   "subject": "hf",
-  "block": "B",
+  "epoca": "med",
   "tipo": "frases",
   "cards": [
    [
@@ -439,7 +439,15 @@ const DECKS = {
     "💡",
     "« La révélation doit être comprise selon la capacité humaine, en recourant à des métaphores et à des symboles pour exprimer l'ineffable. »",
     "Maïmonide — La difficulté de l'interprétation (Guide des égarés I, 31)"
-   ],
+   ]
+  ]
+ },
+ "citasMo": {
+  "name": "Phrases · Moderne",
+  "subject": "hf",
+  "epoca": "mod",
+  "tipo": "frases",
+  "cards": [
    [
     "💡",
     "« Nous ne t'avons donné, ô Adam, ni place déterminée, ni visage propre, ni don particulier, afin que la place, le visage et les dons que tu choisiras soient tiens selon ta volonté et ta décision. »",
@@ -482,6 +490,29 @@ const DECKS = {
    ],
    [
     "💡",
+    "« Beaucoup se sont imaginé des républiques et des principautés qui n'ont jamais existé ni n'ont été réellement connues ; car il y a si loin de la façon dont on vit à celle dont on devrait vivre, que celui qui laisse ce qui se fait pour ce qui devrait se faire apprend plutôt sa ruine que sa préservation. »",
+    "Machiavel — Virtù et fortune (Le Prince XV)"
+   ],
+   [
+    "💡",
+    "« Tout le cadre de la nature parle d'un auteur intelligent ; et aucun chercheur rationnel ne peut, après une réflexion sérieuse, suspendre un seul instant sa croyance aux principes premiers du véritable théisme. »",
+    "Hume — Critique de la religion (Dialogues sur la religion naturelle X)"
+   ],
+   [
+    "💡",
+    "« L'esprit n'a pas de sexe. »",
+    "Poulain de la Barre — L'esprit n'a pas de sexe (De l'égalité des deux sexes)"
+   ]
+  ]
+ },
+ "citasI": {
+  "name": "Phrases · Lumières",
+  "subject": "hf",
+  "epoca": "ilu",
+  "tipo": "frases",
+  "cards": [
+   [
+    "💡",
     "« Chacun de nous met en commun sa personne et toute sa puissance sous la suprême direction de la volonté générale. »",
     "Rousseau — La volonté générale (Du contrat social I, 6)"
    ],
@@ -507,11 +538,6 @@ const DECKS = {
    ],
    [
     "💡",
-    "« L'esprit n'a pas de sexe. »",
-    "Poulain de la Barre — L'esprit n'a pas de sexe (De l'égalité des deux sexes)"
-   ],
-   [
-    "💡",
     "« Je ne souhaite pas qu'elles [les femmes] aient du pouvoir sur les hommes, mais sur elles-mêmes. »",
     "Wollstonecraft — Éducation et égalité (Défense des droits de la femme IV)"
    ],
@@ -522,28 +548,8 @@ const DECKS = {
    ],
    [
     "💡",
-    "« L'homme le plus opprimé peut opprimer un être : sa femme. Elle est la prolétaire du prolétaire lui-même. »",
-    "Flora Tristan — Émancipation ouvrière et féminine (L'Union ouvrière)"
-   ],
-   [
-    "💡",
     "« Agis seulement d'après la maxime grâce à laquelle tu peux vouloir en même temps qu'elle devienne une loi universelle. »",
     "Kant — Impératif catégorique (Fondements, BA 52)"
-   ],
-   [
-    "💡",
-    "« Le vrai est le tout. »",
-    "Hegel — Esprit absolu (Phénoménologie de l'esprit, Préface)"
-   ],
-   [
-    "💡",
-    "« Beaucoup se sont imaginé des républiques et des principautés qui n'ont jamais existé ni n'ont été réellement connues ; car il y a si loin de la façon dont on vit à celle dont on devrait vivre, que celui qui laisse ce qui se fait pour ce qui devrait se faire apprend plutôt sa ruine que sa préservation. »",
-    "Machiavel — Virtù et fortune (Le Prince XV)"
-   ],
-   [
-    "💡",
-    "« Tout le cadre de la nature parle d'un auteur intelligent ; et aucun chercheur rationnel ne peut, après une réflexion sérieuse, suspendre un seul instant sa croyance aux principes premiers du véritable théisme. »",
-    "Hume — Critique de la religion (Dialogues sur la religion naturelle X)"
    ],
    [
     "💡",
@@ -556,22 +562,32 @@ const DECKS = {
     " — Sapere aude Kant, Qu'est-ce que les Lumières ?"
    ],
    [
-    "💡",
-    "« La raison gouverne le monde. »",
-    "Hegel — La raison dans l'histoire (Philosophie de l'histoire, Introduction)"
+    "🌍",
+    "« Les Lumières, c'est la sortie de l'être humain hors de la minorité dont il est lui-même responsable. »",
+    " — Qu'est-ce que les Lumières ? Kant 1784"
    ]
   ]
  },
  "citasC": {
-  "name": "Citations · Contemporaine (bloc C)",
+  "name": "Phrases · Contemporaine",
   "subject": "hf",
-  "block": "C",
+  "epoca": "con",
   "tipo": "frases",
   "cards": [
    [
     "🌍",
-    "« Les Lumières, c'est la sortie de l'être humain hors de la minorité dont il est lui-même responsable. »",
-    " — Qu'est-ce que les Lumières ? Kant 1784"
+    "« Le vrai est le tout. »",
+    "Hegel — Esprit absolu (Phénoménologie de l'esprit, Préface)"
+   ],
+   [
+    "🌍",
+    "« La raison gouverne le monde. »",
+    "Hegel — La raison dans l'histoire (Philosophie de l'histoire, Introduction)"
+   ],
+   [
+    "🌍",
+    "« L'homme le plus opprimé peut opprimer un être : sa femme. Elle est la prolétaire du prolétaire lui-même. »",
+    "Flora Tristan — Émancipation ouvrière et féminine (L'Union ouvrière)"
    ],
    [
     "🌍",

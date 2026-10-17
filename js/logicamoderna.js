@@ -40,7 +40,9 @@ const LOGM_FZ = [
   { f: "Je t’appellerai si et seulement si tu arrives en retard.", d: [["p", "je t’appelle"], ["q", "tu arrives en retard"]], s: "p ↔ q", pista: "« Si et seulement si » réunit deux conditionnels : p → q et q → p." },
   { f: "Ou tu étudies, ou tu travailles, mais pas les deux.", d: [["p", "tu étudies"], ["q", "tu travailles"]], s: "(p ∨ q) ∧ ¬(p ∧ q)", pista: "Cas piège : le « ou » logique est inclusif ; ici, il faut ajouter que les deux ne se produisent pas en même temps." },
   { f: "Il n’est pas vrai que, s’il pleut, le match soit annulé.", d: [["p", "il pleut"], ["q", "le match est annulé"]], s: "¬(p → q)", pista: "Le « il n’est pas vrai que » nie tout le conditionnel : il va devant la parenthèse." },
-  { f: "Épicure : « Quand nous sommes là, la mort n’est pas là ; et quand la mort est là, nous ne sommes plus là ».", d: [["p", "nous sommes là"], ["q", "la mort est là"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "Ce sont deux conditionnels reliés par « et ». (Lettre à Ménécée, 125.)" }
+  { f: "Épicure : « Quand nous sommes là, la mort n’est pas là ; et quand la mort est là, nous ne sommes plus là ».", d: [["p", "nous sommes là"], ["q", "la mort est là"]], s: "(p → ¬q) ∧ (q → ¬p)", pista: "Ce sont deux conditionnels reliés par « et ». (Lettre à Ménécée, 125.)" },
+  /* (17-10) caso «Mónica» con cinco letras (docs/34): la ficha de Argumentos clásicos lo formaliza con tres */
+  { f: "Monique, à la lettre : « S'il désire de bonnes choses et les a, il est heureux ; mais s'il désire de mauvaises choses, même s'il les a, il est malheureux ».", d: [["p", "est heureux"], ["q", "désire de bonnes choses"], ["r", "a de bonnes choses"], ["s", "désire de mauvaises choses"], ["t", "a de mauvaises choses"]], s: "((q ∧ r) → p) ∧ ((s ∧ t) → ¬p)", pista: "« Mais » et « même si » s'écrivent avec ∧ : « même s'il les a » ne nie pas qu'il les a, elle l'affirme. Compare-la à la lecture à trois lettres de la fiche de Monique (Arguments classiques) : quelqu'un qui désire le bien et le mal, a tout et est heureux ? Une formule l'admet et l'autre non." }
 ];
 function logmEquiv(a, b){
   const vars = logVars([a, b]);

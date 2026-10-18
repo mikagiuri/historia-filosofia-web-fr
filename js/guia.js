@@ -11,9 +11,7 @@ const GUIA = {
   "materia_hf": "Histoire de la philosophie",
   "materia_fil": "Philosophie 1re"
  },
- "pdf": {
-  "hf": "media/guia/hf/guia_aula_de_filosofia_hf.pdf"
- },
+ "pdf": {},
  "bloques": [
   {
    "type": "h",

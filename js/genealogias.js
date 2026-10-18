@@ -366,3 +366,159 @@ const GENEALOGIAS = {
   }
  ]
 };
+const GENEALOGIAS_PLANOS = [
+ {
+  "id": "dios",
+  "name": "Preuves de l'existence de Dieu",
+  "desc": "Comment les arguments sur Dieu sont passés d'un penseur à l'autre, de Platon au XXe siècle, et qui les a attaqués.",
+  "lineas": [
+   {
+    "id": "mov",
+    "name": "1re voie : le mouvement",
+    "color": "#e0a526",
+    "desc": "Tout ce qui se meut est mû par un autre, et la chaîne ne peut pas être infinie : il y a un premier moteur.",
+    "ilustre": [
+     "platon",
+     "aristoteles",
+     "averroes",
+     "maimonides",
+     "tomas"
+    ]
+   },
+   {
+    "id": "cau",
+    "name": "2e voie : la cause",
+    "color": "#3fa7c9",
+    "desc": "Rien n'est cause de soi-même, et sans une première cause il n'y en aurait aucune : il y a une cause première.",
+    "ilustre": [
+     "aristoteles",
+     "avicena",
+     "tomas",
+     "duns_escoto",
+     "ockham"
+    ]
+   },
+   {
+    "id": "con",
+    "name": "3e voie : la contingence",
+    "color": "#7b61d9",
+    "desc": "Ce qui pourrait ne pas exister a besoin d'autre chose pour exister : il y a un être nécessaire par lui-même.",
+    "ilustre": [
+     "avicena",
+     "maimonides",
+     "tomas",
+     "leibniz",
+     "copleston"
+    ]
+   },
+   {
+    "id": "gra",
+    "name": "4e voie : les degrés",
+    "color": "#b44fc4",
+    "desc": "S'il y a des choses plus ou moins bonnes et vraies, il y a un maximum qui est leur mesure et leur cause.",
+    "ilustre": [
+     "platon",
+     "agustin",
+     "boecio",
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "id": "ord",
+    "name": "5e voie : l'ordre",
+    "color": "#2e9e6b",
+    "desc": "Les choses dépourvues de connaissance agissent en vue d'une fin, comme la flèche que dirige l'archer : il y a une intelligence qui ordonne la nature.",
+    "ilustre": [
+     "ciceron",
+     "tomas",
+     "paley"
+    ]
+   },
+   {
+    "id": "ont",
+    "name": "Argument ontologique",
+    "color": "#d95f02",
+    "desc": "Du seul concept de Dieu, « ce dont on ne peut rien penser de plus grand », il s'ensuivrait qu'il existe.",
+    "ilustre": [
+     "anselmo",
+     "descartes",
+     "leibniz"
+    ]
+   },
+   {
+    "id": "kal",
+    "name": "Kalâm : le monde a commencé",
+    "color": "#9a7b5f",
+    "desc": "Le monde a eu un commencement, et tout ce qui commence à exister a une cause.",
+    "ilustre": [
+     "al_kindi",
+     "al_ghazali",
+     "buenaventura"
+    ]
+   },
+   {
+    "id": "cri",
+    "name": "Les critiques",
+    "color": "#6e6e78",
+    "desc": "Ceux qui ont mis en doute que la raison puisse démontrer l'existence de Dieu.",
+    "ilustre": [
+     "hume",
+     "kant",
+     "darwin",
+     "russell"
+    ]
+   }
+  ],
+  "op": [
+   {
+    "ilustre": [
+     "anselmo",
+     "tomas"
+    ]
+   },
+   {
+    "ilustre": [
+     "tomas",
+     "buenaventura"
+    ]
+   },
+   {
+    "ilustre": [
+     "avicena",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "al_ghazali",
+     "averroes"
+    ]
+   },
+   {
+    "ilustre": [
+     "descartes",
+     "kant"
+    ]
+   },
+   {
+    "ilustre": [
+     "hume",
+     "paley"
+    ]
+   },
+   {
+    "ilustre": [
+     "paley",
+     "darwin"
+    ]
+   },
+   {
+    "ilustre": [
+     "russell",
+     "copleston"
+    ]
+   }
+  ]
+ }
+];

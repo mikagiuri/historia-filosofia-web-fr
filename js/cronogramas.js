@@ -924,6 +924,359 @@ const CRONOGRAMAS = [
   "groupsLabel": "Courants"
  },
  {
+  "id": "B-MED-VIAS-01",
+  "code": "B-MED-VIAS-01",
+  "title": "Les cinq voies et leurs antécédents : chaque argument, de Platon au XXe siècle",
+  "type": "timeline",
+  "groupsLabel": "Arguments",
+  "start": -450,
+  "end": 2026,
+  "groups": [
+   {
+    "name": "1re voie : mouvement",
+    "color": "var(--e-ant)"
+   },
+   {
+    "name": "2e voie : cause",
+    "color": "var(--e-mod)"
+   },
+   {
+    "name": "3e voie : contingence",
+    "color": "var(--e-ilu)"
+   },
+   {
+    "name": "4e voie : degrés",
+    "color": "var(--e-med)"
+   },
+   {
+    "name": "5e voie : ordre et dessein",
+    "color": "var(--e-con)"
+   },
+   {
+    "name": "Argument ontologique",
+    "color": "var(--e-ren)"
+   },
+   {
+    "name": "Kalâm : le monde a commencé",
+    "color": "var(--e-int)"
+   }
+  ],
+  "axes": [
+   {
+    "name": "Platon",
+    "start": -427,
+    "end": -347,
+    "grp": 0,
+    "note": "Lois X : l'âme est la seule chose qui se meut elle-même, origine de tout mouvement"
+   },
+   {
+    "name": "Platon · degrés",
+    "start": -427,
+    "end": -347,
+    "grp": 3,
+    "note": "L'Idée du Bien : les choses bonnes y participent"
+   },
+   {
+    "name": "Aristote",
+    "start": -384,
+    "end": -322,
+    "grp": 0,
+    "note": "Physique VIII et Métaphysique XII : le moteur immobile, qui meut comme ce qui est aimé"
+   },
+   {
+    "name": "Aristote · cause",
+    "start": -384,
+    "end": -322,
+    "grp": 1,
+    "note": "Les quatre causes ; la cause efficiente est celle qui produit"
+   },
+   {
+    "name": "Aristote · degrés",
+    "start": -384,
+    "end": -322,
+    "grp": 3,
+    "note": "Métaphysique II : le plus vrai est le plus étant (la 4e voie le cite)"
+   },
+   {
+    "name": "Cicéron",
+    "start": -106,
+    "end": -43,
+    "grp": 4,
+    "note": "De la nature des dieux II : le cadran solaire et la sphère de Posidonios"
+   },
+   {
+    "name": "Augustin d'Hippone",
+    "start": 354,
+    "end": 430,
+    "grp": 3,
+    "note": "Du libre arbitre II : la vérité est au-dessus de l'esprit"
+   },
+   {
+    "name": "Boèce",
+    "start": 480,
+    "end": 524,
+    "grp": 3,
+    "note": "Consolation de la philosophie III : du bien imparfait au bien parfait"
+   },
+   {
+    "name": "Jean Damascène",
+    "start": 675,
+    "end": 749,
+    "grp": 4,
+    "note": "Exposition de la foi I, 3 : l'ordre du monde"
+   },
+   {
+    "name": "Al-Kindî",
+    "start": 801,
+    "end": 873,
+    "grp": 6,
+    "note": "Le monde a commencé, donc il a une cause"
+   },
+   {
+    "name": "Saadia Gaon",
+    "start": 882,
+    "end": 942,
+    "grp": 6,
+    "note": "Le même argument, dans le judaïsme"
+   },
+   {
+    "name": "Avicenne · cause",
+    "start": 980,
+    "end": 1037,
+    "grp": 1,
+    "note": "Le nécessaire par un autre dépend d'une chaîne qui ne tient pas toute seule"
+   },
+   {
+    "name": "Avicenne",
+    "start": 980,
+    "end": 1037,
+    "grp": 2,
+    "note": "La Guérison : le possible par soi et le nécessaire par soi"
+   },
+   {
+    "name": "Anselme · degrés",
+    "start": 1033,
+    "end": 1109,
+    "grp": 3,
+    "note": "Monologion (1076) : des degrés du bien à ce qui est souverainement bon"
+   },
+   {
+    "name": "Anselme de Cantorbéry",
+    "start": 1033,
+    "end": 1109,
+    "grp": 5,
+    "note": "Proslogion (1077-1078) : ce dont on ne peut rien penser de plus grand"
+   },
+   {
+    "name": "Gaunilon (critique)",
+    "start": 1080,
+    "end": null,
+    "fl": true,
+    "grp": 5,
+    "note": "Pour l'insensé : l'île perdue"
+   },
+   {
+    "name": "Al-Ghazâlî",
+    "start": 1058,
+    "end": 1111,
+    "grp": 6,
+    "note": "Il soutient que le monde a eu un commencement"
+   },
+   {
+    "name": "Averroès",
+    "start": 1126,
+    "end": 1198,
+    "grp": 0,
+    "note": "Il revient à la preuve d'Aristote par le mouvement"
+   },
+   {
+    "name": "Maïmonide",
+    "start": 1138,
+    "end": 1204,
+    "grp": 0,
+    "note": "Guide des égarés II, 1 : la preuve du premier moteur"
+   },
+   {
+    "name": "Maïmonide · contingence",
+    "start": 1138,
+    "end": 1204,
+    "grp": 2,
+    "note": "Tout ne peut pas naître et mourir, même dans un monde éternel"
+   },
+   {
+    "name": "Bonaventure",
+    "start": 1217,
+    "end": 1274,
+    "grp": 6,
+    "note": "La raison peut démontrer que le monde a commencé"
+   },
+   {
+    "name": "Thomas d'Aquin · 1re voie",
+    "start": 1225,
+    "end": 1274,
+    "grp": 0,
+    "note": "Somme théologique I, q. 2, a. 3 (vers 1266-1268) : le premier moteur"
+   },
+   {
+    "name": "Thomas d'Aquin · 2e voie",
+    "start": 1225,
+    "end": 1274,
+    "grp": 1,
+    "note": "La première cause efficiente"
+   },
+   {
+    "name": "Thomas d'Aquin · 3e voie",
+    "start": 1225,
+    "end": 1274,
+    "grp": 2,
+    "note": "Le nécessaire par soi-même"
+   },
+   {
+    "name": "Thomas d'Aquin · 4e voie",
+    "start": 1225,
+    "end": 1274,
+    "grp": 3,
+    "note": "Le maximum, cause de toute perfection"
+   },
+   {
+    "name": "Thomas d'Aquin · 5e voie",
+    "start": 1225,
+    "end": 1274,
+    "grp": 4,
+    "note": "Une intelligence qui ordonne la nature"
+   },
+   {
+    "name": "Thomas · contre Anselme",
+    "start": 1225,
+    "end": 1274,
+    "grp": 5,
+    "note": "Il rejette l'argument d'Anselme (I, q. 2, a. 1, ad 2)"
+   },
+   {
+    "name": "Thomas · contre le kalâm",
+    "start": 1225,
+    "end": 1274,
+    "grp": 6,
+    "note": "Il nie que la raison puisse démontrer que le monde a commencé (I, q. 46, a. 2)"
+   },
+   {
+    "name": "Duns Scot",
+    "start": 1266,
+    "end": 1308,
+    "grp": 1,
+    "note": "Une première cause, à partir du possible"
+   },
+   {
+    "name": "Guillaume d'Ockham",
+    "start": 1287,
+    "end": 1347,
+    "grp": 1,
+    "note": "La cause qui conserve maintenant les choses dans l'existence"
+   },
+   {
+    "name": "Descartes",
+    "start": 1596,
+    "end": 1650,
+    "grp": 5,
+    "note": "Méditation V (1641) : l'idée d'un être parfait"
+   },
+   {
+    "name": "Leibniz",
+    "start": 1646,
+    "end": 1716,
+    "grp": 2,
+    "note": "Principe de raison suffisante : pourquoi y a-t-il quelque chose plutôt que rien ? (1714)"
+   },
+   {
+    "name": "Leibniz · ontologique",
+    "start": 1646,
+    "end": 1716,
+    "grp": 5,
+    "note": "Il complète l'argument : il faut d'abord prouver que Dieu est possible"
+   },
+   {
+    "name": "Hume (critique)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 2,
+    "note": "Dialogues (1779) : la causalité ne va pas au-delà de l'expérience"
+   },
+   {
+    "name": "Hume · dessein (critique)",
+    "start": 1711,
+    "end": 1776,
+    "grp": 4,
+    "note": "Dialogues : l'analogie entre le monde et une machine est faible"
+   },
+   {
+    "name": "Kant (critique)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 2,
+    "note": "Critique de la raison pure (1781) : la preuve cosmologique cache la preuve ontologique"
+   },
+   {
+    "name": "Kant · dessein (critique)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 4,
+    "note": "La preuve par l'ordre du monde n'aboutit pas à un être parfait"
+   },
+   {
+    "name": "Kant · ontologique (crit.)",
+    "start": 1724,
+    "end": 1804,
+    "grp": 5,
+    "note": "« L'être n'est pas un prédicat réel »"
+   },
+   {
+    "name": "Paley",
+    "start": 1743,
+    "end": 1805,
+    "grp": 4,
+    "note": "Théologie naturelle (1802) : la montre et l'œil"
+   },
+   {
+    "name": "Darwin (critique)",
+    "start": 1809,
+    "end": 1882,
+    "grp": 4,
+    "note": "De l'origine des espèces (1859) : l'adaptation sans concepteur"
+   },
+   {
+    "name": "Russell (critique)",
+    "start": 1872,
+    "end": 1970,
+    "grp": 2,
+    "note": "Débat à la BBC (1948) : l'univers est simplement là"
+   },
+   {
+    "name": "Copleston",
+    "start": 1907,
+    "end": 1994,
+    "grp": 2,
+    "note": "Il défend l'argument de la contingence face à Russell (1948)"
+   },
+   {
+    "name": "Plantinga",
+    "start": 1932,
+    "end": null,
+    "vive": true,
+    "grp": 5,
+    "note": "Version modale de l'argument (1974)"
+   },
+   {
+    "name": "William Lane Craig",
+    "start": 1949,
+    "end": null,
+    "vive": true,
+    "grp": 6,
+    "note": "Retour du kalâm (1979)"
+   }
+  ],
+  "events": []
+ },
+ {
   "id": "B-REN-KRO-01",
   "code": "B-REN-KRO-01",
   "title": "La Renaissance : humanisme, Réforme et révolution scientifique (XVe-XVIIe siècles)",

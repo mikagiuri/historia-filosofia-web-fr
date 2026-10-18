@@ -21255,7 +21255,7 @@ const QUIZZES = {
     "fb": "La phrase apparaît dans La Révolution russe (1918) de Rosa Luxemburg, qui avertissait que la dictature d'un parti pouvait trahir la révolution."
    },
    {
-    "q": "Qui a proposé en 1910 de célébrer une Journée internationale des femmes, qui finirait par être fixée au 8 mars ?",
+    "q": "Quelle penseuse socialiste a proposé en 1910, avec Käte Duncker et d'autres déléguées, de célébrer chaque année une Journée internationale des femmes, qui finirait par être fixée au 8 mars ?",
     "o": [
      "Rosa Luxemburg",
      "Clara Zetkin",
@@ -21263,7 +21263,7 @@ const QUIZZES = {
      "Simone de Beauvoir"
     ],
     "a": 1,
-    "fb": "C'est Clara Zetkin qui a proposé en 1910 la Journée internationale des femmes, unissant la libération des femmes et la lutte des classes."
+    "fb": "C'est Clara Zetkin qui l'a proposée, avec Käte Duncker et d'autres déléguées, à la conférence des femmes socialistes de Copenhague (1910), encore sans date fixe ; elle unissait ainsi la libération des femmes et la lutte des classes."
    },
    {
     "q": "Fanon soutient qu'on n'enlève pas seulement la terre au colonisé, mais que sa langue, son corps et l'image qu'il a de lui-même en sont aussi marqués. Qu'en conclut-il ?",

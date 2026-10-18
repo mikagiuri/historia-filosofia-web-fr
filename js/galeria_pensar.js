@@ -77,7 +77,7 @@ const GALERIA_PENSAR = [
   "t": "Canard ou lapin ? (1892)",
   "pie": "La même image, deux lectures : nous voyons ce que nous nous attendons à voir.",
   "license": "Public domain",
-  "artist": "Unknown artistUnknown artist",
+  "artist": "Unknown author",
   "page": "https://commons.wikimedia.org/wiki/File:Kaninchen_und_Ente.png"
  },
  {

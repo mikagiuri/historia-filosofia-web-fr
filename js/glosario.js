@@ -4000,6 +4000,100 @@ const GLOSARIO = [
    "descartes",
    "leibniz"
   ]
+ },
+ {
+  "subject": "hf",
+  "t": "Hipparchia de Maronée",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A10",
+  "tema": "L'hellénisme",
+  "def": "Philosophe cynique (IVe-IIIe s. av. J.-C.), l'une des très rares femmes philosophes de l'Antiquité dont on ait connaissance. Elle renonça à la richesse pour vivre selon la nature aux côtés de Cratès, appliquant l'idéal cynique jusqu'à sa condition de femme.",
+  "ilustre": [
+   "hiparquia"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Marguerite Porete",
+  "area": "Religion",
+  "bloque": "B",
+  "tema": "La philosophie médiévale",
+  "def": "Mystique et béguine (v. 1250-1310). Dans *Le Miroir des âmes simples*, elle défendit l'union directe de l'âme avec Dieu par l'amour et la liberté, sans médiation du clergé. L'Inquisition de Paris la brûla pour hérésie en 1310.",
+  "ilustre": [
+   "porete"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Christine de Pizan",
+  "area": "Féminisme",
+  "bloque": "B",
+  "tema": "La philosophie médiévale",
+  "def": "Écrivaine (1364-v. 1430), première femme d'Europe à avoir vécu de sa plume. Dans *La Cité des dames*, elle réfuta par des arguments la misogynie de son époque ; on la considère comme une devancière de la « querelle des femmes ».",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Querelle des femmes",
+  "area": "Féminisme",
+  "bloque": "B",
+  "tema": "La philosophie médiévale",
+  "def": "Longue polémique, ouverte par Christine de Pizan vers 1400 avec la « querelle de la Rose », sur la dignité et la capacité intellectuelle des femmes ; elle se prolongea dans la culture européenne jusqu'à la Révolution française.",
+  "ilustre": [
+   "pizan"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "María de Maeztu",
+  "area": "Éducation",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "L'existentialisme",
+  "def": "Pédagogue (1881-1948), disciple d'Unamuno et d'Ortega. Elle dirigea la Residencia de Señoritas (1915-1936), qui ouvrit aux jeunes Espagnoles l'accès à l'université et à la vie intellectuelle.",
+  "ilustre": [
+   "maeztu"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Lou Andreas-Salomé",
+  "area": "Psychologie",
+  "bloque": "C",
+  "unidad": "CN",
+  "tema": "Les philosophes du soupçon",
+  "def": "Écrivaine et psychanalyste (1861-1937), interlocutrice de Nietzsche, Rilke et Freud. Autrice de l'une des premières études sérieuses de la philosophie de Nietzsche et d'essais sur l'érotisme et la religiosité.",
+  "ilustre": [
+   "salome"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Besoins radicaux",
+  "et": "*Radical*, du latin *radix*, « racine » : ce qui touche à la racine.",
+  "area": "Politique",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Les luttes après le marxisme",
+  "def": "Selon Ágnes Heller, les besoins qualitativement supérieurs que le capitalisme ne peut satisfaire et qui, en se heurtant à la réalité sociale, poussent vers un changement émancipateur.",
+  "ilustre": [
+   "heller"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Ágnes Heller",
+  "area": "Politique",
+  "bloque": "C",
+  "unidad": "C5A",
+  "tema": "Les luttes après le marxisme",
+  "def": "Philosophe hongroise (1929-2019), de l'École de Budapest. Elle pensa la vie quotidienne et les besoins radicaux depuis le marxisme ; plus tard, elle critiqua le socialisme réel comme une « dictature des besoins » et défendit la démocratie.",
+  "ilustre": [
+   "heller"
+  ]
  }
 ];
 const GLOSARIO_TRAMPAS = {

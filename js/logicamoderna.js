@@ -115,6 +115,7 @@ function logRenderInferencia(){
   return '<div class="lg-panel"><h2>' + logmT("validas") + '</h2><div class="lg-reglas">' + LOGM_REGLAS.map(x => logmCarta(x, false)).join("") + "</div></div>" +
     '<div class="lg-panel"><h2>' + logmT("falacias") + '</h2><div class="lg-reglas">' + LOGM_FALACIAS.map(x => logmCarta(x, true)).join("") + "</div></div>" +
     '<p><button type="button" class="btn ghost" data-lgtab="falacias">' + logmT("falVer") + "</button></p>" +
+    '<p><button type="button" class="btn ghost" data-lgtab="leyes">' + logmT("leyesIr") + "</button></p>" +
     '<div class="lg-panel"><h2>' + logmT("ejTit") + '</h2><p class="lg-nota">' + logmT("ejAyuda") + "</p>" +
     LOGM_EJ.map((e, i) => {
       const r = LOG.inf[i], bien = T.find(x => x.k === e.r);
@@ -281,6 +282,145 @@ function logRenderFalacias(){
 }
 
 
+/* ---------- (18-10) pestaña «Leyes lógicas»: las 70 leyes elementales y las 21 reglas derivadas de deducción ----------
+   Transcritas de dos fotocopias que trajo el profesor el 18-10 («Leyes elementales de la lógica de enunciados», 2 hojas
+   a máquina, y «Reglas derivadas de deducción», 2 hojas). Las 70 leyes se han comprobado como tautologías y las 21 reglas
+   como argumentos válidos con este mismo motor (logParse/logEval). Erratas de la hoja corregidas: en la 40 falta la
+   flecha de «(p r)». La 68 lleva (p → r), la forma habitual de la ley de ese nombre; la hoja pone (q → r), que también
+   es tautología (orden del profesor del 18-10). Las abreviaturas de los nombres se escriben enteras («Lcp» = ley de carga de premisa, regla Cpr). */
+Object.assign(LOGM_TXT, {
+  tabLeyes: "Lois logiques",
+  introLeyes: "Une loi logique est une formule toujours vraie, quelle que soit la valeur de ses lettres : une tautologie. Voici 70 lois de la logique des propositions, regroupées par familles, et les 21 règles dérivées de déduction qui s’appuient sur elles. Cliquez sur « Table » pour vérifier n’importe laquelle vous-même.",
+  leyesTit: "Lois élémentaires de la logique des propositions",
+  leyesNota: "Les crochets [ ] sont des parenthèses : ils aident à voir ce qui est à l’intérieur de quoi. Les lois dont le connecteur principal est ↔ disent que deux formules sont équivalentes et qu’on peut remplacer l’une par l’autre ; celles qui ont → permettent de passer de l’une à l’autre dans un seul sens.",
+  leyTabla: "Table",
+  derTit: "Règles dérivées de déduction",
+  derNota: "Dans une déduction, chaque règle permet de passer des formules placées au-dessus du trait (les prémisses) à celle qui est en dessous (la conclusion). Le trait double signifie que la règle vaut dans les deux sens. Ce sont des raccourcis : chacune se démontre avec les règles de base et correspond à l’une des lois ci-dessus.",
+  derInter: "Si A et B sont équivalentes, dans toute formule C qui contient A on peut mettre B à sa place : C<sub>A</sub> est la formule avec A, et C<sub>B</sub>, la même formule avec B. C’est pourquoi toute loi avec ↔ sert à réécrire une partie d’une formule.",
+  leyesIr: "Les 70 lois logiques et les 21 règles dérivées, dans « Lois logiques » →"
+});
+const LOGM_LEYES = [
+  ["Principes", [
+    [1, "p ↔ p", "Principe d’identité"],
+    [2, "¬(p ∧ ¬p)", "Principe de non-contradiction"],
+    [3, "p ∨ ¬p", "Principe du tiers exclu"],
+    [4, "¬¬p ↔ p", "Principe de double négation"],
+    [5, "¬¬¬p ↔ ¬p", "Principe de triple négation"]]],
+  ["Idempotence, commutativité et associativité", [
+    [6, "(p ∧ p) ↔ p", "Loi d’idempotence de la conjonction"],
+    [7, "(p ∧ q) ↔ (q ∧ p)", "Loi de commutativité de la conjonction"],
+    [8, "[(p ∧ q) ∧ r] ↔ [p ∧ (q ∧ r)]", "Loi d’associativité de la conjonction"],
+    [9, "(p ∨ p) ↔ p", "Loi d’idempotence de la disjonction"],
+    [10, "(p ∨ q) ↔ (q ∨ p)", "Loi de commutativité de la disjonction"],
+    [11, "[(p ∨ q) ∨ r] ↔ [p ∨ (q ∨ r)]", "Loi d’associativité de la disjonction"]]],
+  ["Distributivité", [
+    [12, "[p ∧ (q ∨ r)] ↔ [(p ∧ q) ∨ (p ∧ r)]", "Loi de distributivité de la conjonction par rapport à la disjonction"],
+    [13, "[(p ∨ q) ∧ (r ∨ s)] ↔ [(p ∧ r) ∨ (p ∧ s) ∨ (q ∧ r) ∨ (q ∧ s)]", "Loi de distributivité de la conjonction par rapport à la disjonction (forme développée)"],
+    [14, "[p ∨ (q ∧ r)] ↔ [(p ∨ q) ∧ (p ∨ r)]", "Loi de distributivité de la disjonction par rapport à la conjonction"],
+    [15, "[(p ∧ q) ∨ (r ∧ s)] ↔ [(p ∨ r) ∧ (p ∨ s) ∧ (q ∨ r) ∧ (q ∨ s)]", "Loi de distributivité de la disjonction par rapport à la conjonction (forme développée)"]]],
+  ["Simplification et addition", [
+    [16, "[p ∧ (p ∧ q)] ↔ (p ∧ q)", "1re loi de simplification de la conjonction"],
+    [17, "[p ∧ (p ∨ q)] ↔ p", "2e loi de simplification de la conjonction"],
+    [18, "[p ∧ (q ∨ ¬q)] ↔ p", "3e loi de simplification de la conjonction"],
+    [19, "(p ∧ q) → p", "4e loi de simplification de la conjonction (a fortiori)"],
+    [20, "(p ∧ q) → q", "5e loi de simplification de la conjonction (a fortiori)"],
+    [21, "[p ∨ (p ∨ q)] ↔ (p ∨ q)", "1re loi de simplification de la disjonction"],
+    [22, "[p ∨ (p ∧ q)] ↔ p", "2e loi de simplification de la disjonction"],
+    [23, "[p ∨ (q ∧ ¬q)] ↔ p", "3e loi de simplification de la disjonction"],
+    [24, "p → (p ∨ q)", "Loi d’addition"],
+    [25, "q → (p ∨ q)", "Loi d’addition"]]],
+  ["Lois de De Morgan", [
+    [26, "¬(p ∨ q) ↔ (¬p ∧ ¬q)", "1re loi de De Morgan"],
+    [27, "¬(p ∧ q) ↔ (¬p ∨ ¬q)", "2e loi de De Morgan"],
+    [28, "(p ∨ q) ↔ ¬(¬p ∧ ¬q)", "3e loi de De Morgan"],
+    [29, "(p ∧ q) ↔ ¬(¬p ∨ ¬q)", "4e loi de De Morgan"]]],
+  ["Interdéfinition des connecteurs", [
+    [30, "(p ∧ q) ↔ ¬(p → ¬q)", "Loi d’interdéfinition"],
+    [31, "(p ∨ q) ↔ (¬p → q)", "Loi d’interdéfinition"],
+    [32, "(p → q) ↔ ¬(p ∧ ¬q)", "Loi d’interdéfinition"],
+    [33, "(p → q) ↔ (¬p ∨ q)", "Loi d’interdéfinition"],
+    [34, "(p ↔ q) ↔ [(p → q) ∧ (q → p)]", "Loi d’interdéfinition"]]],
+  ["Exportation, permutation des prémisses et syllogisme", [
+    [35, "[(p ∧ q) → r] ↔ [p → (q → r)]", "Loi d’exportation et d’importation"],
+    [36, "[p → (q → r)] ↔ [q → (p → r)]", "Loi de permutation des prémisses"],
+    [37, "p → [q → (p ∧ q)]", "Découle des lois 35 et 1"],
+    [38, "[(p → q) ∧ (q → r)] → (p → r)", "Loi du syllogisme"],
+    [39, "(p → q) → [(q → r) → (p → r)]", "Loi du syllogisme (à partir des lois 38 et 35)"],
+    [40, "(q → r) → [(p → q) → (p → r)]", "Loi du syllogisme (à partir des lois 39 et 36)"],
+    [41, "(p → q) → [(r ∨ p) → (r ∨ q)]", "Loi du syllogisme"]]],
+  ["Modus ponens, modus tollens, syllogisme disjonctif et dilemmes", [
+    [42, "[(p → q) ∧ p] → q", "Modus ponendo ponens (1)"],
+    [43, "p → [(p → q) → q]", "Modus ponendo ponens (2)"],
+    [44, "[(p → q) ∧ ¬q] → ¬p", "Modus tollendo tollens (1)"],
+    [45, "¬q → [(p → q) → ¬p]", "Modus tollendo tollens (2)"],
+    [46, "[(p ∨ q) ∧ ¬p] → q", "Syllogisme disjonctif"],
+    [47, "[(p ∨ q) ∧ ¬q] → p", "Syllogisme disjonctif"],
+    [48, "[(p ∨ q) ∧ (p → r) ∧ (q → r)] → r", "Loi du dilemme constructif simple"],
+    [49, "[(p ∨ q) ∧ (p → r) ∧ (q → s)] → (r ∨ s)", "Loi du dilemme constructif complexe"],
+    [50, "[(¬p ∨ ¬q) ∧ (r → p) ∧ (r → q)] → ¬r", "Loi du dilemme destructif simple"],
+    [51, "[(¬p ∨ ¬q) ∧ (r → p) ∧ (s → q)] → (¬r ∨ ¬s)", "Loi du dilemme destructif complexe"]]],
+  ["Réduction à l’absurde", [
+    [52, "(p → ¬p) → ¬p", "1re loi de réduction à l’absurde"],
+    [53, "(¬p → p) → p", "2e loi de réduction à l’absurde (loi de Clavius ou consequentia mirabilis)"],
+    [54, "[(p → q) ∧ (p → ¬q)] → ¬p", "3e loi de réduction à l’absurde"],
+    [55, "[p → (q ∧ ¬q)] → ¬p", "4e loi de réduction à l’absurde"]]],
+  ["Du faux suit n’importe quoi (et le vrai, de n’importe quoi)", [
+    [56, "(p ∧ ¬p) → p", "Ex falso sequitur quodlibet"],
+    [57, "(p ∧ ¬p) → ¬p", "Ex falso sequitur quodlibet"],
+    [58, "(p ∧ ¬p) → q", "Ex falso sequitur quodlibet"],
+    [59, "p → (¬p → q)", "Ex falso sequitur quodlibet (à partir des lois 58 et 35)"],
+    [60, "¬p → (p → q)", "Ex falso sequitur quodlibet"],
+    [61, "[(p → q) ∧ (p ∧ ¬q)] → r", "Ex falso sequitur quodlibet"],
+    [62, "p → (q → p)", "Verum sequitur ad quodlibet (loi paradoxale ou loi d’affaiblissement)"]]],
+  ["Contraposition et implication", [
+    [63, "(p → q) ↔ (¬q → ¬p)", "Loi de contraposition du conditionnel"],
+    [64, "(p → q) ↔ [p ↔ (p ∧ q)]", "Loi de l’implication"],
+    [65, "(p → q) ↔ [q ↔ (p ∨ q)]", "Loi de l’implication"],
+    [66, "[p → (p → q)] ↔ (p → q)", "Loi de l’implication"],
+    [67, "(p ∧ q) → (p → q)", "Loi de l’implication"],
+    [68, "[(p → q) ∧ (p → r)] → [p → (q ∧ r)]", "Loi de composition du conséquent"],
+    [69, "[(p → q) ∧ (r → s)] → [(p ∨ r) → (q ∨ s)]", "Loi de disjonction des deux membres"],
+    [70, "[(p → q) ∧ (r → s)] → [(p ∧ r) → (q ∧ s)]", "Loi de conjonction des deux membres (praeclarum theorema, Leibniz)"]]]
+];
+/* reglas: [nº, nombre, abreviatura, formas]; cada forma = [premisas separadas por «;», conclusión, raya doble] */
+const LOGM_DERIVADAS = [
+  [1, "Syllogisme hypothétique", "Sil", [["p → q; q → r", "p → r"]]],
+  [2, "Permutation des prémisses", "Mut", [["p → (q → r)", "q → (p → r)"]]],
+  [3, "Identité", "Id", [["p", "p"]]],
+  [4, "Affaiblissement (ajout d’une prémisse)", "Cpr", [["p", "q → p"]]],
+  [5, "Distributivité de la conjonction", "DC", [["p ∧ (q ∨ r)", "(p ∧ q) ∨ (p ∧ r)", 1]]],
+  [6, "Distributivité de la disjonction", "DD", [["p ∨ (q ∧ r)", "(p ∨ q) ∧ (p ∨ r)", 1]]],
+  [7, "Contraposition", "Cp", [["p → q", "¬q → ¬p", 1], ["p → ¬q", "q → ¬p", 1], ["¬p → q", "¬q → p", 1], ["¬p → ¬q", "q → p", 1]]],
+  [8, "Modus tollens", "MT", [["p → q; ¬q", "¬p"]]],
+  [9, "Introduction de la double négation", "IDN", [["p", "¬¬p"]]],
+  [10, "Syllogisme disjonctif", "SD", [["p ∨ q; ¬q", "p"], ["p ∨ q; ¬p", "q"]]],
+  [11, "Dilemme constructif simple", "Dil 1", [["p ∨ q; p → r; q → r", "r"]]],
+  [12, "Dilemme constructif complexe", "Dil 2", [["p ∨ q; p → r; q → s", "r ∨ s"]]],
+  [13, "Dilemme destructif simple", "Dil 3", [["¬p ∨ ¬q; r → p; r → q", "¬r"]]],
+  [14, "Dilemme destructif complexe", "Dil 4", [["¬p ∨ ¬q; r → p; s → q", "¬r ∨ ¬s"]]],
+  [15, "Substitution ou remplacement", "I", null],
+  [16, "Définition de l’implication", "DI 1", [["p → q", "¬(p ∧ ¬q)"]]],
+  [17, "Définition de l’implication", "DI 2", [["p → q", "¬p ∨ q"]]],
+  [18, "Définition de la conjonction", "DfC 1", [["p ∧ q", "¬(p → ¬q)"]]],
+  [19, "Définition de la conjonction", "DfC 2", [["p ∧ q", "¬(¬p ∨ ¬q)"]]],
+  [20, "Définition de la disjonction", "DfD 1", [["p ∨ q", "¬p → q"]]],
+  [21, "Définition de la disjonction", "DfD 2", [["p ∨ q", "¬(¬p ∧ ¬q)"]]]
+];
+function logmDeduccion(p, c, doble){
+  return '<div class="lg-ded" dir="ltr">' + p.split(";").map(x => "<span>" + logEsc(x.trim()) + "</span>").join("") + '<span class="lg-ded-c' + (doble ? " lg-ded-2" : "") + '">' + logEsc(c) + "</span></div>";
+}
+function logRenderLeyes(){
+  const tit = logmT("verTabla");
+  return '<div class="lg-panel"><h2>' + logmT("leyesTit") + '</h2><p class="lg-nota">' + logmT("leyesNota") + "</p>" +
+    LOGM_LEYES.map(([g, ls], k) => '<details class="lg-leyes"' + (k ? "" : " open") + "><summary>" + logEsc(g) + " (" + ls[0][0] + "–" + ls[ls.length - 1][0] + ')</summary><ol class="lg-leyes-l">' +
+      ls.map(([n, f, nom]) => '<li value="' + n + '"><span class="lg-ley-n">' + n + '.</span><span class="lg-ley-f" dir="ltr">' + logEsc(f) + '</span><span class="lg-ley-nom">' + logEsc(nom) + '</span><button type="button" class="chip" data-ley="' + logEsc(f) + '" title="' + tit + '">' + logmT("leyTabla") + "</button></li>").join("") + "</ol></details>").join("") + "</div>" +
+    '<div class="lg-panel"><h2>' + logmT("derTit") + '</h2><p class="lg-nota">' + logmT("derNota") + '</p><div class="lg-reglas">' +
+    LOGM_DERIVADAS.map(([n, nom, ab, fs]) => '<div class="lg-regla"><h3>' + n + ". " + logEsc(nom) + " <small>(" + ab + ")</small></h3>" +
+      (fs ? '<div class="lg-ded-fila">' + fs.map(([p, c, d]) => '<div class="lg-ded-caja">' + logmDeduccion(p, c, d) + '<button type="button" class="chip" data-infp="' + logEsc(p) + '" data-infc="' + logEsc(c) + '" title="' + tit + '">' + logmT("leyTabla") + "</button></div>").join("") + "</div>"
+        : '<div class="lg-ded-fila"><div class="lg-ded-caja"><div class="lg-ded" dir="ltr"><span>A ↔ B</span><span>C<sub>A</sub></span><span class="lg-ded-c">C<sub>B</sub></span></div></div></div><p>' + logmT("derInter") + "</p>") + "</div>").join("") + "</div></div>";
+}
+
+
 /* ---------- eventos (delegados en la caja del Rincón; logicaview.js maneja los demás) ---------- */
 (function(){
   const box = document.getElementById("logicabox"); if (!box) return;
@@ -291,6 +431,7 @@ function logRenderFalacias(){
     const b = ev.target.closest("button"); if (!b) return;
     if (b.dataset.fzok != null){ const i = +b.dataset.fzok; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { hecho: true, sol: false }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
     else if (b.dataset.fzsol != null){ const i = +b.dataset.fzsol; LOG.fz[i] = Object.assign(LOG.fz[i] || {}, { sol: true }); const r = document.getElementById("lg-fzr-" + i); if (r) r.innerHTML = logmFzRes(i); }
+    else if (b.dataset.ley != null){ LOG.formula = b.dataset.ley; LOG.tab = "tablas"; logRender(); const t = document.getElementById("lg-tabla"); if (t) t.scrollIntoView({ block: "center" }); }
     else if (b.dataset.infp != null){ LOG.prem = b.dataset.infp; LOG.concl = b.dataset.infc; LOG.tab = "tablas"; logRender(); const a = document.getElementById("lg-arg"); if (a) a.scrollIntoView({ block: "center" }); }
     else if (b.dataset.cqi != null){ const r = LOG.cq.m[+b.dataset.cqi]; r[+b.dataset.cqj] = r[+b.dataset.cqj] ? 0 : 1; const c = document.getElementById("lg-cq"); if (c) c.innerHTML = logmCqMundo(); }
     else if (b.dataset.falsil){ const [m, f] = b.dataset.falsil.split("-"); Object.assign(LOG.sil, { may: m[0], men: m[1], con: m[2], fig: +f }); LOG.tab = "silogismos"; logRender(); const c = document.getElementById("lg-sil"); if (c) c.scrollIntoView({ block: "start" }); }

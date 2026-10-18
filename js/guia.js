@@ -5,7 +5,7 @@ const GUIA = {
   "eyebrow": "Guide pour les élèves",
   "lead": "Ce qu’il y a sur le site et comment en tirer parti pour étudier, s’entraîner et préparer les examens. Les captures d’écran montrent le site sur ordinateur, sauf indication contraire.",
   "abrir": "Ouvrir",
-  "pie": "Comment utiliser ce site ? Guide avec captures d’écran",
+  "pie": "Comment utiliser ce site ? Guide avec captures d’écran",
   "pdf": "Télécharger ce guide en PDF",
   "indice": "Dans ce guide",
   "materia_hf": "Histoire de la philosophie",
@@ -19,11 +19,11 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le site réunit en un seul endroit tout ce que nous travaillons en classe : la théorie de chaque thème, des résumés, des cartes de révision, des quiz, des exercices, des jeux et tout ce qu’il faut pour les examens."
+   "x": "Le site réunit en un seul endroit tout ce que nous travaillons en classe : la théorie de chaque thème, des résumés, des cartes de révision, des quiz, des exercices, des jeux et tout ce qu’il faut pour les examens."
   },
   {
    "type": "p",
-   "x": "<strong>Pas besoin de s’inscrire</strong> ni d’installer quoi que ce soit, et il existe en cinq langues : espagnol, basque, français, anglais et arabe. <strong>Ta progression est enregistrée dans ton navigateur</strong> : les cartes que tu connais déjà, ton meilleur score aux quiz et le dernier thème que tu as lu. Elle n’est enregistrée sur aucun serveur et personne d’autre ne la voit."
+   "x": "<strong>Pas besoin de s’inscrire</strong> ni d’installer quoi que ce soit, et il existe en cinq langues : espagnol, basque, français, anglais et arabe. <strong>Ta progression est enregistrée dans ton navigateur</strong> : les cartes que tu connais déjà, ton meilleur score aux quiz et le dernier thème que tu as lu. Elle n’est enregistrée sur aucun serveur et personne d’autre ne la voit."
   },
   {
    "type": "warn",
@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
+   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>Écrire et lire</strong> (la dissertation et les textes). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
+   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>Écrire et lire</strong> (la dissertation et les textes). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
    "solo": "fil"
   },
   {
@@ -45,21 +45,21 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "En ouvrant le site, tu arrives sur la <strong>page de la matière</strong> : le titre, une brève présentation et la <strong>liste des thèmes</strong>. Clique sur un thème pour ouvrir sa théorie. De n’importe où, tu reviens ici avec <strong>Étudier › Théorie</strong> ou en cliquant sur « Salle de philosophie », en haut à gauche."
+   "x": "En ouvrant le site, tu arrives sur la <strong>page de la matière</strong> : le titre, une brève présentation et la <strong>liste des thèmes</strong>. Clique sur un thème pour ouvrir sa théorie. De n’importe où, tu reviens ici avec <strong>Étudier › Théorie</strong> ou en cliquant sur « Salle de philosophie », en haut à gauche."
   },
   {
    "type": "img",
    "src": "01_ficha.webp",
-   "cap": "La page de la matière : en haut, le menu ; en dessous, la liste des thèmes."
+   "cap": "La page de la matière : en haut, le menu ; en dessous, la liste des thèmes."
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Introduction, Antique, Médiévale, Moderne, Lumières et Contemporaine), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Introduction, Antique, Médiévale, Moderne, Lumières et Contemporaine), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>branches</strong> de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés par <strong>branches</strong> de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
    "solo": "fil"
   },
   {
@@ -69,12 +69,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "<strong>Explorations</strong> déplie des lectures d’approfondissement du thème, qui sont facultatives. Plus bas se trouve <strong>Explore la matière</strong> : tout ce que contient le site, compté par type.",
+   "x": "<strong>Explorations</strong> déplie des lectures d’approfondissement du thème, qui sont facultatives. Plus bas se trouve <strong>Explore la matière</strong> : tout ce que contient le site, compté par type.",
    "solo": "fil"
   },
   {
    "type": "p",
-   "x": "Dans l’en-tête, tu as aussi le <strong>moteur de recherche</strong> 🔎, le bouton de <strong>langue</strong> 🌐, celui du <strong>thème clair ou sombre</strong> ◐ et celui de ce <strong>guide</strong> ?."
+   "x": "Dans l’en-tête, tu as aussi le <strong>moteur de recherche</strong> 🔎, le bouton de <strong>langue</strong> 🌐, celui du <strong>thème clair ou sombre</strong> ◐ et celui de ce <strong>guide</strong> ?."
   },
   {
    "type": "h",
@@ -83,20 +83,20 @@ const GUIA = {
   {
    "type": "img",
    "src": "05_tema.webp",
-   "cap": "Un thème ouvert : à gauche, ses parties ; à droite, le texte."
+   "cap": "Un thème ouvert : à gauche, ses parties ; à droite, le texte."
   },
   {
    "type": "p",
-   "x": "Dans la colonne de gauche se trouvent les <strong>parties du thème</strong> : clique sur l’une d’elles pour y aller directement. <strong>Voir le thème en entier</strong> affiche toutes les parties à la suite, pour le lire du début à la fin ou l’imprimer avec le navigateur."
+   "x": "Dans la colonne de gauche se trouvent les <strong>parties du thème</strong> : clique sur l’une d’elles pour y aller directement. <strong>Voir le thème en entier</strong> affiche toutes les parties à la suite, pour le lire du début à la fin ou l’imprimer avec le navigateur."
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème : ses cartes, quiz, infographies, cartes conceptuelles, schémas et les notions du glossaire."
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème : ses cartes, quiz, infographies, cartes conceptuelles, schémas et les notions du glossaire."
   },
   {
    "type": "img",
    "src": "06_para_seguir.webp",
-   "cap": "L’encadré de fin de thème : chaque bouton t’emmène vers un matériel de ce même thème."
+   "cap": "L’encadré de fin de thème : chaque bouton t’emmène vers un matériel de ce même thème."
   },
   {
    "type": "tip",
@@ -109,7 +109,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "02_menu_estudiar.webp",
-   "cap": "Le menu « Étudier », avec la rubrique « Histoire » dépliée.",
+   "cap": "Le menu « Étudier », avec la rubrique « Histoire » dépliée.",
    "w": "menu"
   },
   {
@@ -122,17 +122,17 @@ const GUIA = {
     },
     {
      "nombre": "Résumés",
-     "texto": "Un résumé par thème ou par auteur, sur une page, pour réviser avant l’examen. Avec le bouton « Voir en graphe », tu vois le même résumé sous forme de schéma de notions reliées par des flèches.",
+     "texto": "Un résumé par thème ou par auteur, sur une page, pour réviser avant l’examen. Avec le bouton « Voir en graphe », tu vois le même résumé sous forme de schéma de notions reliées par des flèches.",
      "view": "esqautor"
     },
     {
      "nombre": "Cartes",
-     "texto": "Clique sur la carte (ou appuie sur la barre d’espace) pour la retourner et marque « Je la connais » celles que tu maîtrises. Ta progression est enregistrée.",
+     "texto": "Clique sur la carte (ou appuie sur la barre d’espace) pour la retourner et marque « Je la connais » celles que tu maîtrises. Ta progression est enregistrée.",
      "view": "tarjetas"
     },
     {
      "nombre": "Cartes conceptuelles",
-     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour zoomer.",
+     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour zoomer.",
      "view": "mapas"
     },
     {
@@ -142,7 +142,7 @@ const GUIA = {
     },
     {
      "nombre": "Glossaire",
-     "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes.",
+     "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes.",
      "view": "glosario"
     }
    ]
@@ -150,23 +150,23 @@ const GUIA = {
   {
    "type": "img",
    "src": "07_tarjetas.webp",
-   "cap": "Cartes : choisis le type, le filtre et le paquet ; en dessous, les boutons pour avancer, mélanger et marquer « Je la connais »."
+   "cap": "Cartes : choisis le type, le filtre et le paquet ; en dessous, les boutons pour avancer, mélanger et marquer « Je la connais »."
   },
   {
    "type": "p",
-   "x": "En cliquant sur <strong>Histoire ▸</strong>, tu déplies du matériel pour comprendre le contexte des philosophes. Ce n’est pas indispensable, mais cela aide beaucoup à situer les idées :"
+   "x": "En cliquant sur <strong>Histoire ▸</strong>, tu déplies du matériel pour comprendre le contexte des philosophes. Ce n’est pas indispensable, mais cela aide beaucoup à situer les idées :"
   },
   {
    "type": "list",
    "rows": [
     {
      "nombre": "Époques",
-     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos.",
+     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos.",
      "view": "epocas"
     },
     {
      "nombre": "Biographies",
-     "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions.",
+     "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions.",
      "view": "ilustres"
     },
     {
@@ -181,7 +181,7 @@ const GUIA = {
     },
     {
      "nombre": "Chronogrammes",
-     "texto": "Des frises chronologiques : qui a vécu en même temps que qui.",
+     "texto": "Des frises chronologiques : qui a vécu en même temps que qui.",
      "view": "cronogramas",
      "solo": "hf"
     },
@@ -198,7 +198,7 @@ const GUIA = {
     },
     {
      "nombre": "Galerie",
-     "texto": "Des images par auteur et par thème ; clique dessus pour les voir en plein écran.",
+     "texto": "Des images par auteur et par thème ; clique dessus pour les voir en plein écran.",
      "view": "galeria"
     }
    ]
@@ -210,7 +210,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "03_menu_practicar.webp",
-   "cap": "Le menu « S’entraîner », avec « Jeux » et « Débattre » dépliés.",
+   "cap": "Le menu « S’entraîner », avec « Jeux » et « Débattre » dépliés.",
    "w": "menu"
   },
   {
@@ -228,7 +228,7 @@ const GUIA = {
     },
     {
      "nombre": "Réécriture",
-     "texto": "Apprends à expliquer un texte avec tes propres mots : sans le recopier, sans te contenter de remplacer des mots par des synonymes et sans raconter autre chose.",
+     "texto": "Apprends à expliquer un texte avec tes propres mots : sans le recopier, sans te contenter de remplacer des mots par des synonymes et sans raconter autre chose.",
      "view": "rescritura"
     },
     {
@@ -241,15 +241,15 @@ const GUIA = {
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Quiz : filtre, choisis le quiz dans la liste déroulante et réponds."
+   "cap": "Quiz : filtre, choisis le quiz dans la liste déroulante et réponds."
   },
   {
    "type": "tip",
-   "x": "Fais le quiz d’un thème sans regarder tes notes et lis toujours l’explication des questions que tu rates : c’est là que tu apprends."
+   "x": "Fais le quiz d’un thème sans regarder tes notes et lis toujours l’explication des questions que tu rates : c’est là que tu apprends."
   },
   {
    "type": "p",
-   "x": "Les rubriques <strong>Jeux ▸</strong> et <strong>Débattre ▸</strong> servent à réviser en jouant et à t’entraîner à argumenter :"
+   "x": "Les rubriques <strong>Jeux ▸</strong> et <strong>Débattre ▸</strong> servent à réviser en jouant et à t’entraîner à argumenter :"
   },
   {
    "type": "list",
@@ -266,7 +266,7 @@ const GUIA = {
     },
     {
      "nombre": "Eudaimonia",
-     "texto": "Incarne un penseur grec et affronte des dilemmes moraux : tes décisions déterminent si tu atteins la vie bonne.",
+     "texto": "Incarne un penseur grec et affronte des dilemmes moraux : tes décisions déterminent si tu atteins la vie bonne.",
      "view": "eudaimonia",
      "solo": "hf"
     },
@@ -278,7 +278,7 @@ const GUIA = {
     },
     {
      "nombre": "Marelle philosophique",
-     "texto": "Un voyage dans un réseau d’idées : tes réponses décident du chemin et, à la fin, tu découvres avec quels philosophes tu es d’accord.",
+     "texto": "Un voyage dans un réseau d’idées : tes réponses décident du chemin et, à la fin, tu découvres avec quels philosophes tu es d’accord.",
      "view": "rayuela"
     },
     {
@@ -293,12 +293,12 @@ const GUIA = {
     },
     {
      "nombre": "Polémiques",
-     "texto": "Des philosophes d’une même époque qui se sont vraiment affrontés : choisis ton camp et lis le meilleur argument de l’autre côté.",
+     "texto": "Des philosophes d’une même époque qui se sont vraiment affrontés : choisis ton camp et lis le meilleur argument de l’autre côté.",
      "view": "polemicas"
     },
     {
      "nombre": "Duel de raisons",
-     "texto": "Débats contre l’ordinateur ; une jauge indique qui le public trouve le plus convaincant.",
+     "texto": "Débats contre l’ordinateur ; une jauge indique qui le public trouve le plus convaincant.",
      "view": "duelo"
     },
     {
@@ -310,7 +310,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les activités de <strong>Débattre</strong> sont un bon entraînement pour la dissertation : elles obligent à donner des raisons et à tenir compte de celles de l’autre côté."
+   "x": "Les activités de <strong>Débattre</strong> sont un bon entraînement pour la dissertation : elles obligent à donner des raisons et à tenir compte de celles de l’autre côté."
   },
   {
    "type": "h",
@@ -320,7 +320,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "Le menu « PAU ».",
+   "cap": "Le menu « PAU ».",
    "w": "menu",
    "solo": "hf"
   },
@@ -353,7 +353,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Commence par le Guide de l’épreuve pour savoir ce qu’on va te demander, puis suis le Parcours PAU de la page de la matière : il te fait passer dans l’ordre par chaque exercice."
+   "x": "Commence par le Guide de l’épreuve pour savoir ce qu’on va te demander, puis suis le Parcours PAU de la page de la matière : il te fait passer dans l’ordre par chaque exercice."
   },
   {
    "type": "h",
@@ -363,7 +363,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "Le menu « Écrire et lire ».",
+   "cap": "Le menu « Écrire et lire ».",
    "w": "menu",
    "solo": "fil"
   },
@@ -373,7 +373,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Dissertations",
-     "texto": "La dissertation courte : la méthode pas à pas, des modèles corrigés et des questions pour t’entraîner.",
+     "texto": "La dissertation courte : la méthode pas à pas, des modèles corrigés et des questions pour t’entraîner.",
      "view": "disertaciones"
     },
     {
@@ -389,7 +389,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Clique sur la loupe 🔎 et tape un mot : le moteur de recherche cherche dans tout le site (théorie, glossaire, lectures, questions, cartes…) et regroupe les résultats par type, avec le mot surligné. Déplace-toi avec les flèches, ouvre un résultat avec Entrée et ferme avec Échap. Quand tu ouvres un résultat, le site t’emmène à l’endroit exact où le mot apparaît."
+   "x": "Clique sur la loupe 🔎 et tape un mot : le moteur de recherche cherche dans tout le site (théorie, glossaire, lectures, questions, cartes…) et regroupe les résultats par type, avec le mot surligné. Déplace-toi avec les flèches, ouvre un résultat avec Entrée et ferme avec Échap. Quand tu ouvres un résultat, le site t’emmène à l’endroit exact où le mot apparaît."
   },
   {
    "type": "img",
@@ -402,7 +402,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le site fonctionne de la même façon sur le téléphone. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les trois onglets s’ouvrent l’un sous l’autre, et chaque rubrique marquée ▸ se déplie quand tu la touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
+   "x": "Le site fonctionne de la même façon sur le téléphone. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les trois onglets s’ouvrent l’un sous l’autre, et chaque rubrique marquée ▸ se déplie quand tu la touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
   },
   {
    "type": "img",
@@ -424,12 +424,12 @@ const GUIA = {
     },
     {
      "titulo": "Révise avec le résumé",
-     "texto": "Étudier › Résumés. Si le visuel t’aide, clique sur « Voir en graphe ».",
+     "texto": "Étudier › Résumés. Si le visuel t’aide, clique sur « Voir en graphe ».",
      "view": "esqautor"
     },
     {
      "titulo": "Fixe les notions",
-     "texto": "Depuis l’encadré « Pour continuer avec ce thème », ouvre ses cartes et marque celles que tu connais déjà.",
+     "texto": "Depuis l’encadré « Pour continuer avec ce thème », ouvre ses cartes et marque celles que tu connais déjà.",
      "view": "tarjetas"
     },
     {
@@ -444,19 +444,19 @@ const GUIA = {
     },
     {
      "titulo": "Prépare l’examen",
-     "texto": "PAU : lectures, commentaires et dissertations.",
+     "texto": "PAU : lectures, commentaires et dissertations.",
      "view": "pau",
      "solo": "hf"
     },
     {
      "titulo": "Prépare l’examen",
-     "texto": "Écrire et lire : dissertations et lectures.",
+     "texto": "Écrire et lire : dissertations et lectures.",
      "view": "disertaciones",
      "solo": "fil"
     },
     {
      "titulo": "Si tu veux aller plus loin",
-     "texto": "Les rubriques Histoire ▸, Jeux ▸ et Débattre ▸ : du contexte, des jeux et des débats pour aller plus loin."
+     "texto": "Les rubriques Histoire ▸, Jeux ▸ et Débattre ▸ : du contexte, des jeux et des débats pour aller plus loin."
     }
    ]
   },
@@ -468,24 +468,24 @@ const GUIA = {
    "type": "list",
    "rows": [
     {
-     "nombre": "Ai-je besoin d’un compte ?",
+     "nombre": "Ai-je besoin d’un compte ?",
      "texto": "Non. Le site est ouvert et ne demande aucune donnée."
     },
     {
-     "nombre": "Où est enregistrée ma progression ?",
+     "nombre": "Où est enregistrée ma progression ?",
      "texto": "Uniquement dans ton navigateur. Si tu changes d’appareil ou si tu effaces les données de navigation, elle est perdue."
     },
     {
-     "nombre": "Puis-je imprimer un thème ?",
-     "texto": "Oui : ouvre le thème, clique sur « Voir le thème en entier » et utilise l’option d’impression du navigateur."
+     "nombre": "Puis-je imprimer un thème ?",
+     "texto": "Oui : ouvre le thème, clique sur « Voir le thème en entier » et utilise l’option d’impression du navigateur."
     },
     {
-     "nombre": "Le site remplace-t-il les cours ou le manuel ?",
+     "nombre": "Le site remplace-t-il les cours ou le manuel ?",
      "texto": "Non. C’est une aide pour étudier et réviser ce que nous travaillons en classe."
     },
     {
      "nombre": "J’ai trouvé une erreur",
-     "texto": "Dis-le à ton professeur ou à ta professeure : le site est corrigé et s’enrichit pendant toute l’année."
+     "texto": "Dis-le à ton professeur ou à ta professeure : le site est corrigé et s’enrichit pendant toute l’année."
     }
    ]
   }

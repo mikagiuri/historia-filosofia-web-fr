@@ -527,7 +527,8 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-etica-deber",
-   "hf-sospecha"
+   "hf-sospecha",
+   "hf-filosofas-dialogo"
   ]
  },
  "aspasia": {
@@ -548,7 +549,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-sofistas"
+   "hf-sofistas",
+   "hf-filosofas-dialogo"
   ]
  },
  "democrito": {
@@ -722,10 +724,12 @@ const ILUSTRES = {
    "hf-modernidad",
    "hf-montaigne-ensayos",
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -812,6 +816,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-mito",
@@ -924,7 +929,33 @@ const ILUSTRES = {
   "temas": [
    "hf-helenismo",
    "hf-montaigne-ensayos",
+   "hf-bayle-diccionario",
    "hf-descartes-makro"
+  ]
+ },
+ "hiparquia": {
+  "name": "Hipparchia de Maronée",
+  "dates": "v. 350 – v. 280 av. J.-C.",
+  "born": -350,
+  "died": -280,
+  "place": "Maronée (Thrace) ; vécut à Athènes",
+  "role": "philosophe cynique",
+  "idea": "Elle vécut jusqu'au bout la philosophie cynique qu'elle prêchait : elle renonça à la richesse et au rôle que son époque réservait aux femmes pour vivre selon la nature, à égalité avec son compagnon Cratès.",
+  "bio": "<p>Hipparchia naquit à Maronée, en Thrace, dans une famille aisée. Elle découvrit la philosophie cynique par l'intermédiaire de son frère Métroclès, disciple de <strong>Cratès de Thèbes</strong>, et en fut si convaincue que, contre la volonté de ses parents, elle décida de partager la vie de Cratès : pauvreté volontaire, sans maison ni biens, vivant dans la rue selon la <strong>nature</strong> (<em>physis</em>) et non selon la convention sociale (<em>nómos</em>).</p>\n<p>Les cyniques défendaient l'égalité entre hommes et femmes, mais dans la pratique Hipparchia dut se faire une place dans une société et dans une école qui continuaient à se méfier des femmes. Elle y parvint par sa propre cohérence : elle fut, par ses actes, la meilleure représentante de la vie cynique, et l'une des très rares femmes philosophes de l'Antiquité dont nous ayons connaissance. Elle écrivit plusieurs ouvrages —<em>Hypothèses philosophiques</em>, <em>Épichérèmes</em>, <em>Questions à Théodore</em>—, tous perdus, de sorte que nous la connaissons surtout par ce qu'en a raconté Diogène Laërce.</p>\n<p>Elle apparaît dans le programme aux côtés des cyniques et des écoles de l'<strong>hellénisme</strong>, et comme une figure qui met à l'épreuve jusqu'où allait réellement l'égalité que ces écoles proclamaient.</p>",
+  "obras": [
+   "Hypothèses philosophiques (perdue)",
+   "Épichérèmes (perdue)",
+   "Questions à Théodore l'Athée (perdue)"
+  ],
+  "anecdota": "<p>Lors d'un banquet chez Lysimaque, le philosophe Théodore l'Athée lui reprocha de ne pas se comporter comme il convient à une femme et d'avoir abandonné son métier à tisser. Hipparchia lui répondit par un syllogisme moqueur —ce qui n'est pas un délit chez Théodore ne l'est pas non plus chez elle— et, face à l'attaque, répliqua sans se troubler : trouve-t-il mal qu'elle ait employé à étudier le temps qui, selon lui, aurait dû être passé à tisser ?</p>",
+  "fuente": "Diogène Laërce, *Vies des philosophes illustres* VI (vie de Cratès) ; les titres de ses ouvrages perdus proviennent de la *Souda* (s.v. Hipparchia) ; épigramme d'Antipater de Sidon, *Anthologie palatine* VII, 413 ; adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "epicuro": {
@@ -1102,8 +1133,32 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-helenismo",
    "hf-montaigne-ensayos"
+  ]
+ },
+ "quintiliano": {
+  "name": "Quintilien",
+  "dates": "v. 35 – v. 100 apr. J.-C.",
+  "born": 35,
+  "died": 100,
+  "place": "Calagurris (Hispanie ; actuelle Calahorra, La Rioja)",
+  "role": "rhéteur et pédagogue romain",
+  "idea": "La fin de l'éducation est de former l'orateur parfait, qui n'est pas seulement celui qui parle bien, mais l'« homme de bien expert dans l'art de parler » : sans honnêteté, il n'y a pas de véritable éloquence.",
+  "bio": "<p>Marcus Fabius Quintilien naquit vers l'an 35 à Calagurris, l'actuelle Calahorra (La Rioja), dans l'Hispanie romaine. Il se forma à Rome puis, après un temps passé en Hispanie, revint dans la capitale, où il ouvrit une école de rhétorique et exerça comme avocat. L'empereur <strong>Vespasien</strong> lui accorda une chaire publique de rhétorique rémunérée par l'État, chose jusque-là inédite : il fut l'un des premiers maîtres payés par le Trésor public pour enseigner. Il enseigna une vingtaine d'années —parmi ses élèves figure Pline le Jeune— et, une fois retiré, écrivit sa grande œuvre.</p>\n<p>L'<em>Institution oratoire</em> (<em>Institutio oratoria</em>), en douze livres, est le traité de pédagogie le plus complet de l'Antiquité : il suit la formation du futur orateur du berceau jusqu'à la maturité. Quintilien recommande d'apprendre en jouant durant les premières années, d'adapter l'enseignement au caractère de chaque enfant et rejette les <strong>châtiments corporels</strong>, qu'il juge humiliants et inutiles. Son idéal, qu'il emprunte à une phrase de Caton, est le <em>vir bonus dicendi peritus</em>, « l'homme de bien expert dans l'art de parler » : la parole bien employée ne vaut rien sans la vertu. Très lu à la Renaissance, il influença l'idée humaniste de l'éducation.</p>",
+  "obras": [
+   "L'Institution oratoire (Institutio oratoria, ou De la formation de l'orateur)"
+  ],
+  "anecdota": "<p>Dans le prologue du livre VI de l'<em>Institution oratoire</em>, Quintilien interrompt son traité pour raconter un malheur personnel : il avait perdu sa jeune épouse puis, peu après, ses deux jeunes fils, en qui il avait mis tous ses espoirs. Il confesse qu'il fut sur le point d'abandonner l'œuvre et qu'il ne continua d'écrire que pour donner un sens à sa douleur. C'est l'un des passages les plus sincères de la littérature latine : le maître qui enseignait à parler en public se montre, pour une fois, comme un père effondré.</p>",
+  "fuente": "Quintilien, Institution oratoire VI, préambule (la formule « vir bonus dicendi peritus » en XII, 1 ; traduction propre du latin)",
+  "tradicion": false,
+  "block": "ant",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "epicteto": {
@@ -1282,6 +1337,32 @@ const ILUSTRES = {
    "hf-helenismo"
   ]
  },
+ "isidoro": {
+  "name": "Isidore de Séville",
+  "dates": "v. 556 – 636",
+  "born": 556,
+  "died": 636,
+  "place": "Carthagène (Hispanie ; évêque à Séville)",
+  "role": "évêque, encyclopédiste et Père de l'Église",
+  "idea": "Rassembler et ordonner tout le savoir de l'Antiquité pour le sauver en une époque de ruine ; sa méthode est l'étymologie, car connaître l'origine du nom d'une chose aide à comprendre la chose elle-même.",
+  "bio": "<p>Isidore naquit vers l'an 556 dans une famille hispano-romaine, probablement à Carthagène, d'où les siens s'établirent à Séville. Ce fut une famille de saints : ses frères Léandre et Fulgence devinrent évêques et sa sœur Florentine, abbesse. À la mort de Léandre, vers l'an 600, Isidore lui succéda comme <strong>archevêque de Séville</strong>, charge qu'il occupa plus de trente ans dans l'Hispanie des rois wisigoths. Il présida d'importants conciles, comme le IVe concile de Tolède (633), qui organisa l'Église et l'enseignement du royaume.</p>\n<p>Il lui revint de vivre alors que l'Empire romain d'Occident était déjà tombé et que beaucoup de la culture antique se perdait. Pour la sauver, il écrivit les <em>Étymologies</em> (<em>Etymologiae</em> ou <em>Origines</em>), une encyclopédie en vingt livres qui résume tout ce que l'on savait : grammaire, médecine, droit, géographie, agriculture, les animaux, les pierres… Sa méthode consiste à chercher l'origine des mots, car —écrit-il— « lorsque tu vois d'où est né un nom, tu en comprends plus vite le sens » (<em>Étymologies</em> I, 29 ; traduction propre du latin). L'ouvrage, qu'il laissa inachevé et que son ami Braulion de Saragosse mit en ordre, fut l'un des livres les plus copiés du Moyen Âge.</p>",
+  "obras": [
+   "Étymologies (Etymologiae ou Origines)",
+   "De la nature des choses (De natura rerum)",
+   "Histoire des Goths (Historia Gothorum)",
+   "Sentences (Sententiae)"
+  ],
+  "anecdota": "<p>À la fin des années quatre-vingt-dix, un groupe de catholiques du monde d'internet commença à proposer Isidore comme patron du réseau et des informaticiens : ses <em>Étymologies</em>, disaient-ils, fonctionnaient comme une base de données avant l'heure, car elles reliaient les savoirs les uns aux autres tout comme un moteur de recherche relie aujourd'hui les pages. En l'an 2000 fut fondé à cette fin l'Ordre de Saint-Isidore de Séville, et vers 2001 le Vatican étudia même cette désignation. Elle ne devint jamais tout à fait officielle, mais l'idée se répandit tant qu'en bien des endroits on l'appelle, à demi sérieusement, « le saint d'internet ».</p>",
+  "fuente": "ACI Prensa, « ¿Quién es el patrono de internet ? » ; Word on Fire, « The Patron Saint of the Internet » ; la désignation n'est pas officielle",
+  "tradicion": false,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "escoto_erigena": {
   "name": "Jean Scot Érigène",
   "dates": "v. 810 – v. 877",
@@ -1357,6 +1438,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-medieval",
+   "hf-fe-razon",
    "hf-racionalismo"
   ]
  },
@@ -1498,6 +1581,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-aa",
    "hf-antropologia",
@@ -1527,6 +1611,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-aa",
    "hf-aristoteles-arabe",
    "hf-verdad-no-contradice",
@@ -1644,7 +1729,31 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-renacimiento-magia"
+  ]
+ },
+ "porete": {
+  "name": "Marguerite Porete",
+  "dates": "v. 1250 – 1310",
+  "born": 1250,
+  "died": 1310,
+  "place": "Hainaut (aujourd'hui entre la Belgique et le nord de la France)",
+  "role": "mystique et béguine",
+  "idea": "Elle soutint que l'âme qui aime peut s'unir à Dieu par l'amour et la liberté, sans avoir besoin du clergé ni des sacrements ; elle mourut sur le bûcher pour n'avoir pas renié son livre.",
+  "bio": "<p>Marguerite Porete fut une béguine, c'est-à-dire une femme religieuse qui n'entrait dans aucun ordre monastique soumis à des règles dictées par des hommes, mais vivait consacrée aux plus démunis. Vers 1290 elle écrivit <em>Le Miroir des âmes simples</em>, et elle le fit en français, rompant la tradition d'écrire en latin : elle voulait que les gens ordinaires le comprennent.</p>\n<p>Le livre est une allégorie où dialoguent l'Âme, l'Amour (qui représente Dieu), la Raison et les Vertus. Sa thèse la plus audacieuse est que l'âme, portée par l'amour, peut atteindre un « pays de la liberté » où elle n'a même plus besoin de la Raison ni de la médiation de l'Église. C'est cette idée d'union directe avec Dieu par le désir et la liberté qui éveilla les soupçons des tribunaux.</p>\n<p>En 1310, l'Inquisition de Paris la condamna pour hérésie et la brûla vive pour n'avoir pas abjuré son œuvre. Le livre continua de circuler, copié de façon anonyme ou sous des noms masculins, et ce n'est qu'au XXe siècle qu'on lui rendit sa paternité. Elle apparaît dans le programme comme un maillon entre la mystique médiévale et la pensée moderne sur la liberté de l'individu.</p>",
+  "obras": [
+   "Le Miroir des âmes simples (Le Mirouer des simples âmes)"
+  ],
+  "anecdota": "<p>Durant son procès, Marguerite refusa de témoigner et de demander pardon, et c'est pourquoi elle fut livrée au bras séculier et exécutée. Son livre circula ensuite sans nom d'auteur, parfois attribué à des hommes, et pendant six siècles nul ne sut qui l'avait écrit. Ce n'est qu'en 1946 que la chercheuse Romana Guarnieri établit que ce <em>Miroir</em> anonyme et la Marguerite Porete brûlée en 1310 étaient la même œuvre et la même personne.</p>",
+  "fuente": "Marguerite Porete, *Le Miroir des âmes simples* ; actes du procès inquisitorial de Paris (1310) ; adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
   ]
  },
  "dante": {
@@ -1725,6 +1834,33 @@ const ILUSTRES = {
    "hf-medieval",
    "hf-fe-razon",
    "hf-modernidad"
+  ]
+ },
+ "pizan": {
+  "name": "Christine de Pizan",
+  "dates": "1364 – v. 1430",
+  "born": 1364,
+  "died": 1430,
+  "place": "Venise ; vécut à la cour de France",
+  "role": "écrivaine et penseuse",
+  "idea": "Première femme d'Europe à avoir vécu de sa plume ; dans *La Cité des dames* elle réfuta par des arguments la misogynie de son époque et défendit la dignité et la capacité intellectuelle des femmes.",
+  "bio": "<p>D'origine vénitienne, Christine de Pizan passa son enfance à la cour de Charles V de France, où son père était médecin et astrologue. Grâce à lui, elle reçut une formation peu habituelle pour les femmes. Devenue veuve à 25 ans avec des enfants à charge, au lieu de se remarier ou d'entrer au couvent, elle choisit une voie presque inédite : vivre comme <strong>écrivaine professionnelle</strong>.</p>\n<p>Son œuvre la plus connue, <em>La Cité des dames</em> (1405), est une allégorie où trois figures —la Raison, la Droiture et la Justice— aident l'autrice à bâtir une cité symbolique peuplée de femmes illustres de l'histoire, à l'abri des calomnies. Elle y répond, point par point et par des arguments, aux textes qui présentaient la femme comme un être inférieur. Elle avait auparavant été au cœur de la fameuse <strong>querelle de la Rose</strong>, une polémique littéraire contre la misogynie du <em>Roman de la Rose</em>.</p>\n<p>On la considère comme une devancière de la « querelle des femmes » et, pour beaucoup, du féminisme. Elle apparaît liée à la fin du Moyen Âge et à la tradition des utopies écrites par des femmes.</p>",
+  "obras": [
+   "La Cité des dames",
+   "Le Livre des trois vertus",
+   "L'Épître au dieu d'Amour",
+   "Chant en l'honneur de Jeanne d'Arc (Ditié de Jehanne d'Arc)"
+  ],
+  "anecdota": "<p>Simone de Beauvoir, dans <em>Le Deuxième Sexe</em>, souligne qu'avec l'<em>Épître au dieu d'Amour</em> de Christine de Pizan « c'est la première fois que nous voyons une femme prendre la plume pour défendre son sexe » (paraphrase). Des siècles après sa mort, un groupe d'hommes alla jusqu'à fonder un « Ordre de la Rose » pour défendre sa cause dans cette polémique.</p>",
+  "fuente": "Christine de Pizan, *La Cité des dames* ; Simone de Beauvoir, *Le Deuxième Sexe* (introduction) ; adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "med",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-utopias-autoras",
+   "hf-filosofas-dialogo"
   ]
  },
  "nicolas_cusa": {
@@ -1817,6 +1953,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-modernidad"
   ]
@@ -1895,7 +2032,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-modernidad"
+   "hf-filosofia-espanola",
+   "hf-modernidad",
+   "hf-utopias-autoras"
   ]
  },
  "lutero": {
@@ -1926,6 +2065,110 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "vitoria": {
+  "name": "Francisco de Vitoria",
+  "dates": "v. 1483 – 1546",
+  "born": 1483,
+  "died": 1546,
+  "place": "Burgos ou Vitoria",
+  "role": "théologien et juriste dominicain",
+  "idea": "Il existe un droit commun à tous les peuples, y compris à ceux d'Amérique : ni la différence de religion ni celle des mœurs ne justifient à elles seules de les conquérir ou de leur ôter leurs terres.",
+  "bio": "<p>Francisco de Vitoria naquit vers 1483 (on débat si ce fut à Burgos ou à Vitoria) et entra très jeune dans l'ordre des <strong>dominicains</strong>. Il étudia à Paris et, à partir de 1526, occupa la chaire principale de théologie à l'université de Salamanque, où il enseigna jusqu'à sa mort. Autour de lui se forma la fameuse <strong>École de Salamanque</strong>, un groupe de théologiens et de juristes qui discutèrent avec rigueur les grands problèmes de leur temps. Il ne publia pas de livres : ce que nous conservons, ce sont les <em>relectiones</em>, des leçons solennelles qu'il prononçait de vive voix et que ses élèves recopièrent.</p>\n<p>Son apport majeur naît d'une question gênante pour la Couronne : de quel droit l'Espagne conquérait-elle les territoires d'Amérique ? Dans <em>Sur les Indiens</em>, il soutient que les peuples indigènes étaient les véritables propriétaires de leurs terres et avaient la capacité de se gouverner, de sorte que ni leur religion ni leurs mœurs ne suffisaient à les en déposséder. Il admettait toutefois certains titres susceptibles de légitimer la présence espagnole, comme le droit de commercer et de voyager. Pour avoir réfléchi aux droits et aux devoirs entre les peuples, Vitoria est considéré comme l'un des <strong>pères du droit international</strong>.</p>",
+  "obras": [
+   "Sur les Indiens (Relectio de Indis, 1539)",
+   "Sur le droit de la guerre (Relectio de iure belli, 1539)",
+   "Relectiones théologiques (recueillies par ses élèves)"
+  ],
+  "anecdota": "<p>Vitoria n'écrivit aucun des livres qui le rendent aujourd'hui célèbre. Il enseignait en parlant et, une fois par an, prononçait une <em>relectio</em>, une leçon publique et solennelle devant toute l'université. Ses étudiants prenaient des notes avec tant de soin que, grâce à ces cahiers, on a pu reconstituer et publier ses idées après sa mort. C'est un bon exemple de la façon dont, avant l'imprimerie bon marché et les notes numériques, la pensée d'un maître ne pouvait survivre que si quelqu'un prenait la peine de bien la recopier.</p>",
+  "fuente": "Les relectiones De Indis et De iure belli sont conservées et éditées à partir des manuscrits de ses élèves ; Vitoria ne publia rien de son vivant (donnée relevée dans les éditions critiques de ses Relectiones)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola"
+  ]
+ },
+ "las_casas": {
+  "name": "Bartolomé de Las Casas",
+  "dates": "v. 1484 – 1566",
+  "born": 1484,
+  "died": 1566,
+  "place": "Séville",
+  "role": "frère dominicain, défenseur des indigènes d'Amérique",
+  "idea": "Les indigènes d'Amérique sont des êtres humains libres et rationnels, dotés des mêmes droits que quiconque ; les conquérir et les réduire en esclavage par la force est une injustice.",
+  "bio": "<p>Bartolomé de las Casas naquit à Séville vers 1484 et passa jeune aux Indes récemment découvertes, où il fut d'abord <strong>encomendero</strong>, c'est-à-dire propriétaire du travail forcé d'un groupe d'indigènes. Vers 1514, après avoir lu et médité sur l'injustice de ce système, il renonça à son encomienda et consacra le reste de sa longue vie à défendre les indigènes. Il se fit frère dominicain, devint évêque du Chiapas et traversa bien des fois l'Atlantique pour réclamer des lois qui protégeraient les natifs. On le connaît comme le <strong>« Protecteur des Indiens »</strong>.</p>\n<p>Son livre le plus célèbre, la <em>Très brève relation de la destruction des Indes</em>, décrit crûment les abus des conquérants afin d'émouvoir le roi et de forcer un changement de politique. Las Casas influença les <strong>Lois nouvelles</strong> de 1542, qui tentèrent de limiter les encomiendas. Son œuvre eut deux effets opposés : elle servit à dénoncer l'injustice, mais fut aussi utilisée par les pays rivaux de l'Espagne pour forger la <strong>« légende noire »</strong>, une image exagérément cruelle de tout ce qui était espagnol. Sa défense des indigènes fut-elle un premier grand cri en faveur des droits humains, ou son récit exagéra-t-il les chiffres et les faits ? C'est ce que les historiens discutent encore, avec des arguments dans les deux sens.</p>",
+  "obras": [
+   "Très brève relation de la destruction des Indes (1552)",
+   "Histoire des Indes",
+   "Apologie (défense lue lors de la controverse de Valladolid, 1550)"
+  ],
+  "anecdota": "<p>Las Casas ne commença pas comme défenseur des indigènes : au début, il fut lui-même encomendero et tirait profit de leur travail. Le revirement, comme il le raconte dans son <em>Histoire des Indes</em>, survint alors qu'il préparait un sermon et s'arrêta sur un passage de la Bible qui condamnait d'ôter le pain au pauvre et de mal payer le journalier. En y réfléchissant, il conclut que tout ce que l'on faisait aux indigènes était injuste, renonça aux siens et changea de vie. C'est un cas intéressant à méditer : celui qui dénonça plus tard un système en avait fait partie, ce qui n'annule pas sa critique, mais oblige à la lire en sachant d'où elle venait.</p>",
+  "fuente": "Bartolomé de las Casas, Histoire des Indes (récit de sa propre conversion, vers 1514)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "sepulveda": {
+  "name": "Juan Ginés de Sepúlveda",
+  "dates": "v. 1490 – 1573",
+  "born": 1490,
+  "died": 1573,
+  "place": "Pozoblanco (Cordoue)",
+  "role": "humaniste, chroniqueur royal et traducteur d'Aristote",
+  "idea": "S'appuyant sur Aristote, il soutint que certains peuples sont par nature plus aptes à commander et d'autres à obéir, et que, pour cette raison, la guerre contre les indigènes pouvait être juste.",
+  "bio": "<p>Juan Ginés de Sepúlveda naquit près de Cordoue vers 1490 et se forma en Italie, où il devint un grand connaisseur du grec et un traducteur admiré d'<strong>Aristote</strong> en latin. Il fut chroniqueur officiel de l'empereur Charles Quint et l'un des humanistes espagnols les plus respectés de son temps. On se souvient aujourd'hui de lui surtout pour avoir été le grand rival de Bartolomé de las Casas dans le débat sur la conquête de l'Amérique, ce qui fait parfois oublier sa valeur de philologue et de traducteur.</p>\n<p>Dans son ouvrage <em>Démocratès second</em>, il soutint que la guerre contre les indigènes pouvait être <strong>juste</strong>. Il s'appuya pour cela sur l'idée aristotélicienne qu'il existe des personnes et des peuples « serfs par nature », plus aptes à obéir qu'à se gouverner, et ajouta que les soumettre permettait de mettre fin aux sacrifices humains et de leur faire recevoir le christianisme. Ses arguments sont aujourd'hui difficiles à accepter, mais ils s'appuyaient à l'époque sur des autorités très estimées, comme Aristote et le droit de la guerre. Comprendre pourquoi une personne cultivée pouvait défendre cela, et ce qu'on lui répondit, aide à voir que les idées injustes ne viennent pas toujours de gens ignorants : voilà pourquoi il faut examiner les raisons, et pas seulement les intentions.</p>",
+  "obras": [
+   "Démocratès second ou Des justes causes de la guerre contre les Indiens (Democrates alter, v. 1544)",
+   "Traductions latines d'Aristote (la Politique, entre autres)",
+   "Chroniques de Charles Quint"
+  ],
+  "anecdota": "<p>Le livre dans lequel Sepúlveda défendait la guerre contre les indigènes, <em>Démocratès second</em>, ne fut pas publié du vivant de l'auteur. Lorsqu'il demanda l'autorisation officielle de l'imprimer, l'affaire fut renvoyée aux universités de Salamanque et d'Alcalá, et les théologiens conseillèrent de <strong>ne pas l'autoriser</strong>. C'est un détail révélateur : bien que nous associions aujourd'hui cette époque à l'intolérance, les idées de Sepúlveda ne convainquaient pas non plus tous les savants de son propre pays, et rencontrèrent une opposition en Espagne même. Le texte complet ne fut édité que bien des années après sa mort.</p>",
+  "fuente": "Histoire de la censure du Démocratès second : les avis de Salamanque et d'Alcalá (vers 1548) en déconseillèrent l'impression, rapporté dans les éditions modernes de l'œuvre",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola",
+   "hf-beefs"
+  ]
+ },
+ "vives": {
+  "name": "Juan Luis Vives",
+  "dates": "1493 – 1540",
+  "born": 1493,
+  "died": 1540,
+  "place": "Valence",
+  "role": "humaniste et pédagogue valencien",
+  "idea": "L'éducation doit partir de l'expérience et de l'observation de chaque personne, et atteindre aussi les femmes et les pauvres, non une seule minorité cultivée.",
+  "bio": "<p>Juan Luis Vives naquit à Valence en 1493, dans une famille de juifs convertis au christianisme (les conversos). Très jeune, il partit étudier à Paris et passa presque toute sa vie hors d'Espagne, surtout en Flandre, dans la ville de Bruges. Il fut l'ami d'<strong>Érasme de Rotterdam</strong> et de <strong>Thomas More</strong>, enseigna à l'université de Louvain et en Angleterre, où il fut le précepteur de la princesse Marie Tudor. Il écrivit presque toujours en latin, la langue savante de l'époque, et on le considère comme l'un des grands humanistes de la Renaissance européenne.</p>\n<p>Ce qui intéressait Vives avant tout, c'était l'<strong>éducation</strong> et la connaissance de l'être humain. Dans <em>De disciplinis</em>, il critique l'enseignement routinier de son temps et propose d'apprendre en observant la nature et sa propre expérience ; dans <em>De anima et vita</em>, il étudie les émotions avant bien des philosophes postérieurs. Il défendit l'instruction des femmes dans <em>De l'éducation de la femme chrétienne</em> et, dans <em>De l'assistance aux pauvres</em>, proposa à la ville de Bruges que l'aide aux nécessiteux fût une tâche organisée par la communauté, et non une simple aumône occasionnelle. Ce mélange d'humanisme, de pédagogie et de souci social est ce qui en fait un penseur encore actuel.</p>",
+  "obras": [
+   "De l'éducation de la femme chrétienne (De institutione feminae christianae, 1523)",
+   "De l'assistance aux pauvres (De subventione pauperum, 1526)",
+   "Des disciplines (De disciplinis, 1531)",
+   "De l'âme et de la vie (De anima et vita, 1538)"
+  ],
+  "anecdota": "<p>La famille de Vives subit de près l'<strong>Inquisition</strong>. C'était une famille de conversos, et à Valence les tribunaux surveillaient ceux qu'ils soupçonnaient de continuer à pratiquer le judaïsme en secret. Son père fut jugé et exécuté sur le bûcher en 1524 et, des années plus tard, sa mère déjà morte, on ordonna d'exhumer ses restes et de les brûler sous la même accusation. Ces faits, cachés pendant des siècles, furent mis au jour au XXe siècle lors de l'étude des archives inquisitoriales. Ils aident à comprendre pourquoi Vives vécut toujours loin de sa terre et pourquoi il écrivit avec tant de prudence sur la religion. Il convient de s'en souvenir comme d'un épisode douloureux que les historiens débattent encore, et non comme d'un jugement définitif sur toute une époque.</p>",
+  "fuente": "Recherches de Miguel de la Pinta Llorente et José María de Palacio sur les procès inquisitoriaux de la famille Vives (archives du XVIe siècle, publiées en 1964)",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "calvino": {
   "name": "Jean Calvin",
   "dates": "1509 – 1564",
@@ -1947,7 +2190,33 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola",
    "hf-descartes-makro"
+  ]
+ },
+ "servet": {
+  "name": "Michel Servet",
+  "dates": "1511 – 1553",
+  "born": 1511,
+  "died": 1553,
+  "place": "Villanueva de Sijena (Aragon)",
+  "role": "médecin et théologien aragonais",
+  "idea": "Il soutint qu'il n'y a aucun fondement au dogme de la Trinité et réclama la liberté de penser en matière de religion ; il décrivit aussi comment le sang passe par les poumons.",
+  "bio": "<p>Michel Servet naquit en 1511 à Villanueva de Sijena, en Aragon. Ce fut un esprit inquiet et universel : il étudia le droit, la médecine, la géographie et la théologie. Comme médecin, dans son ouvrage <em>La Restitution du christianisme</em>, il décrivit la <strong>circulation pulmonaire</strong> ou « petite » circulation du sang : il expliqua que le sang passe du cœur aux poumons, s'y mêle à l'air et revient au cœur. Ce fut l'une des premières descriptions de ce parcours en Europe, bien qu'elle soit restée enfouie dans un livre de théologie que presque personne ne lut.</p>\n<p>Ce qui lui valut la gloire et ce qui lui coûta la vie, ce furent ses idées religieuses. Servet nia le dogme de la <strong>Trinité</strong> (que Dieu est Père, Fils et Saint-Esprit en une seule essence) et demanda de revenir à un christianisme qui, selon lui, était l'originel. Cela en fit l'ennemi aussi bien de l'Église catholique que des réformateurs protestants. Poursuivi par l'Inquisition française, il s'enfuit et se retrouva à Genève, où régnait le réformateur <strong>Jean Calvin</strong>. Il y fut jugé et <strong>brûlé sur le bûcher</strong> en 1553. Sa mort provoqua un débat qui importe encore : un pouvoir, religieux ou politique, peut-il tuer quelqu'un pour ce qu'il pense ? Peu après, Sébastien Castellion écrivit que contraindre à croire par la force et tuer pour une idée ne peut se défendre, dans l'un des premiers grands appels à la <strong>tolérance</strong>.</p>",
+  "obras": [
+   "Des erreurs sur la Trinité (De Trinitatis erroribus, 1531)",
+   "La Restitution du christianisme (Christianismi restitutio, 1553)"
+  ],
+  "anecdota": "<p>La description de la circulation du sang par les poumons n'apparaît pas dans un traité de médecine, mais cachée au milieu d'un livre de théologie, la <em>Restitution du christianisme</em>. Presque tous les exemplaires furent brûlés avec leur auteur, et seuls quelques-uns furent sauvés ; longtemps on douta que Servet eût vraiment écrit cela, jusqu'à ce que l'on retrouve ces rares exemplaires. C'est pourquoi la découverte scientifique passa presque inaperçue à son époque : la médecine dut redécouvrir plus tard ce même parcours du sang, par d'autres chemins.</p>",
+  "fuente": "Michel Servet, Christianismi restitutio (1553), où est décrite la circulation pulmonaire ; parmi les rares exemplaires qui échappèrent à l'autodafé",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-comunidades-perseguidos",
+   "hf-filosofia-espanola"
   ]
  },
  "montaigne": {
@@ -1971,7 +2240,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-montaigne-ensayos",
+   "hf-utopias-autoras",
+   "hf-bayle-diccionario",
    "hf-kant-poetas"
   ]
  },
@@ -1998,6 +2270,31 @@ const ILUSTRES = {
    "hf-renacimiento-magia"
   ]
  },
+ "suarez": {
+  "name": "Francisco Suárez",
+  "dates": "1548 – 1617",
+  "born": 1548,
+  "died": 1617,
+  "place": "Grenade",
+  "role": "théologien et philosophe jésuite",
+  "idea": "Le pouvoir politique ne descend pas directement de Dieu au roi : Dieu le dépose dans le peuple, et le peuple le remet à celui qui gouverne ; voilà pourquoi le pouvoir a des limites.",
+  "bio": "<p>Francisco Suárez naquit à Grenade en 1548 et entra dans la <strong>Compagnie de Jésus</strong>. Il fut professeur dans plusieurs universités et finit à celle de Coimbra, au Portugal. On le surnomma <em>Doctor Eximius</em> (« docteur éminent ») et il fut l'un des derniers grands représentants de la <strong>scolastique</strong>, la philosophie née dans les universités médiévales, qui unissait la raison d'Aristote à la théologie chrétienne. Son ouvrage <em>Disputes métaphysiques</em> ordonna si clairement les problèmes de la métaphysique qu'on l'étudia pendant plus d'un siècle dans toute l'Europe, y compris dans les universités protestantes.</p>\n<p>En politique, Suárez prolongea les idées de l'École de Salamanque. Il soutint que le roi ne reçoit pas le pouvoir directement de Dieu, comme le prétendaient certains monarques, mais que Dieu le dépose dans la <strong>communauté</strong>, et que c'est la communauté qui le transfère au gouvernant au moyen d'une sorte de pacte. Il s'ensuit que le pouvoir du roi n'est pas absolu et que les lois injustes peuvent être contestées. Dans <em>Défense de la foi catholique</em>, il rejeta la prétention du roi Jacques Ier d'Angleterre de régner aussi sur la conscience religieuse de ses sujets. Ces idées sur l'origine du pouvoir influencèrent la discussion moderne sur la souveraineté.</p>",
+  "obras": [
+   "Disputes métaphysiques (Disputationes metaphysicae, 1597)",
+   "Des lois (De legibus, 1612)",
+   "Défense de la foi catholique (Defensio fidei catholicae, 1613)"
+  ],
+  "anecdota": "<p>En 1613, Suárez publia la <em>Défense de la foi catholique</em> contre le roi <strong>Jacques Ier d'Angleterre</strong>, qui exigeait des catholiques un serment de fidélité heurtant leur religion. Le livre irrita tant les monarchies qui défendaient leur pouvoir absolu qu'il fut brûlé publiquement à Londres en 1613 et à Paris en 1614, ce dernier sur ordre du parlement français. Qu'un livre d'un professeur de théologie finisse sur le bûcher dans deux capitales montre à quel point la question « d'où vient le pouvoir de celui qui commande ? » était alors une affaire politique explosive, et non une simple discussion universitaire.</p>",
+  "fuente": "Fait rapporté dans les biographies de Suárez et dans les études sur la Defensio fidei (1613), condamnée au feu à Londres et à Paris",
+  "tradicion": false,
+  "block": "ren",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "francis_bacon": {
   "name": "Francis Bacon",
   "dates": "1561 – 1626",
@@ -2021,6 +2318,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-racionalismo"
   ]
  },
@@ -2076,6 +2374,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-renacimiento-magia",
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -2230,6 +2529,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-medieval",
    "hf-platon-agustin",
@@ -2241,10 +2541,38 @@ const ILUSTRES = {
    "hf-descartes-simulacion",
    "hf-metafisica",
    "hf-spinoza-sistema",
+   "hf-bayle-diccionario",
    "hf-kant",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-existencialismo",
    "hf-descartes-makro"
+  ]
+ },
+ "gracian": {
+  "name": "Baltasar Gracián",
+  "dates": "1601 – 1658",
+  "born": 1601,
+  "died": 1658,
+  "place": "Belmonte de Calatayud (Aragon)",
+  "role": "écrivain et philosophe moraliste jésuite",
+  "idea": "Dans un monde plein d'apparences et de tromperies, bien vivre exige de la finesse, de la prudence et l'art de connaître les autres et soi-même.",
+  "bio": "<p>Baltasar Gracián naquit en 1601 près de Calatayud, en Aragon, et entra dans la <strong>Compagnie de Jésus</strong>. Il fut professeur et prédicateur, mais surtout un écrivain très raffiné, maître du style bref et incisif que l'on nomme <strong>conceptisme</strong> : dire beaucoup en peu de mots, par des phrases qui obligent à penser. Il vécut en plein <strong>Baroque</strong>, une époque désabusée où l'on se méfiait des apparences, et son œuvre reflète cette atmosphère : le monde est un théâtre de tromperies et il faut apprendre à s'y mouvoir sans se laisser vaincre.</p>\n<p>Dans l'<em>Oracle manuel et art de prudence</em>, il réunit trois cents maximes brèves pour se conduire avec intelligence parmi les autres ; c'est un livre revenu à la mode comme manuel d'astuce et de connaissance de soi. Dans <em>Le Criticón</em>, son œuvre majeure, il raconte sous forme de roman le voyage de deux personnages à travers la vie, de l'innocence jusqu'à la sagesse du désabusement. Gracián ne propose pas un système philosophique à la manière de Descartes, mais une <strong>sagesse pratique</strong> : comment penser, comment parler et comment traiter avec les gens. Son regard lucide et parfois pessimiste influença plus tard des penseurs comme Schopenhauer et Nietzsche.</p>",
+  "obras": [
+   "Le Héros (1637)",
+   "Oracle manuel et art de prudence (1647)",
+   "Agudeza y arte de ingenio (1648)",
+   "Le Criticón (1651–1657)"
+  ],
+  "anecdota": "<p>Gracián eut des ennuis avec son propre ordre. Il publia plusieurs ouvrages sans la permission des jésuites et en les signant d'un faux nom, celui de son frère Lorenzo Gracián, pour contourner la censure interne. Lorsqu'il fit paraître la troisième partie du <em>Criticón</em>, la Compagnie réagit : on le réprimanda, on l'écarta de sa chaire, on le mit à l'écart en le transférant dans une autre maison et on lui interdit de publier de nouveau. (La « pénitence au pain et à l'eau » que répètent certaines biographies de vulgarisation n'est pas attestée dans les registres de l'ordre.) C'est un exemple de quelque chose de fréquent dans l'histoire de la pensée : un auteur brillant qui se heurte à l'institution à laquelle il appartient, et qui doit chercher des détours pour pouvoir publier ce qu'il pense.</p>",
+  "fuente": "Documentation interne de la Compagnie de Jésus sur les sanctions infligées à Gracián après la publication du Criticón sans autorisation, rapportée dans les biographies modernes de l'auteur",
+  "tradicion": false,
+  "block": "mod",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "isabel": {
@@ -2267,6 +2595,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -2332,6 +2661,7 @@ const ILUSTRES = {
    "hf-metafisica",
    "hf-spinoza-sistema",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant-poetas",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2361,6 +2691,7 @@ const ILUSTRES = {
   "temas": [
    "hf-aa",
    "hf-medieval",
+   "hf-utopias-autoras",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
@@ -2451,10 +2782,12 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2467,23 +2800,49 @@ const ILUSTRES = {
   "died": 1706,
   "place": "Le Carla (France)",
   "role": "philosophe et érudit, précurseur des Lumières",
-  "idea": "Il défendit la tolérance et la liberté de conscience et soutint qu'une société d'athées pourrait être aussi morale qu'une société de croyants ; son Dictionnaire historique et critique fit du doute et de la critique des sources une méthode et fut une œuvre de référence pour les Lumières.",
-  "bio": "<p>Pierre Bayle naquit en 1647 à Le Carla, un village du sud de la France (aujourd'hui Carla-Bayle), dans une famille huguenote, c'est-à-dire protestante calviniste ; son père était pasteur. Il étudia chez les jésuites à Toulouse, où il se convertit brièvement au catholicisme, puis revint peu après au protestantisme. Comme la loi française traitait ce retour comme un délit, il dut fuir à Genève. Il fut professeur de philosophie à l'académie protestante de Sedan et, lorsque Louis XIV la ferma en 1681, il s'installa à Rotterdam, aux Pays-Bas, où il enseigna à l'École illustre et dirigea presque seul la revue <em>Nouvelles de la République des Lettres</em>. Il perdit sa chaire en 1693 après un affrontement avec un autre réfugié huguenot, le théologien Pierre Jurieu, et mourut à Rotterdam en 1706, travaillant jusqu'au bout.</p>\n<p>Bayle consacra son œuvre à combattre la superstition, le fanatisme et l'intolérance. Dans les <em>Pensées diverses sur la comète</em>, il soutint que les comètes n'annoncent pas de malheurs et défendit une idée scandaleuse pour son époque : qu'une <strong>société d'athées</strong> pourrait être aussi ordonnée et honnête qu'une société de croyants, parce que la conduite ne dépend pas des croyances religieuses. Dans le <em>Commentaire philosophique</em>, il défendit la <strong>tolérance</strong> et la liberté de conscience, y compris celle de qui se trompe de bonne foi. Son œuvre majeure est le <em>Dictionnaire historique et critique</em>, fait d'articles brefs accompagnés de très longues <strong>notes</strong> en bas de page, où il examine avec doutes et objections les sources, les religions et les systèmes philosophiques. Là, dans l'article « Spinoza », il fit l'éloge de la vie honnête du philosophe tout en rejetant sa doctrine. Le <em>Dictionnaire</em> fut l'un des livres les plus lus du XVIIIe siècle et l'une des grandes références des Lumières.</p>",
+  "idea": "Il défendit la tolérance et la liberté de conscience et soutint qu'une société d'athées pourrait être aussi morale qu'une société de croyants ; son Dictionnaire historique et critique fit du doute et de la critique des sources une méthode et fut une œuvre de référence pour les Lumières.",
+  "bio": "<p>Pierre Bayle naquit en 1647 à Le Carla, un village du sud de la France (aujourd'hui Carla-Bayle), dans une famille huguenote, c'est-à-dire protestante calviniste ; son père était pasteur. Il étudia chez les jésuites à Toulouse, où il se convertit brièvement au catholicisme, puis revint peu après au protestantisme. Comme la loi française traitait ce retour comme un délit, il dut fuir à Genève. Il fut professeur de philosophie à l'académie protestante de Sedan et, lorsque Louis XIV la ferma en 1681, il s'installa à Rotterdam, aux Pays-Bas, où il enseigna à l'École illustre et dirigea presque seul la revue <em>Nouvelles de la République des Lettres</em>. Il perdit sa chaire en 1693 après un affrontement avec un autre réfugié huguenot, le théologien Pierre Jurieu, et mourut à Rotterdam en 1706, travaillant jusqu'au bout.</p>\n<p>Bayle consacra son œuvre à combattre la superstition, le fanatisme et l'intolérance. Dans les <em>Pensées diverses sur la comète</em>, il soutint que les comètes n'annoncent pas de malheurs et défendit une idée scandaleuse pour son époque : qu'une <strong>société d'athées</strong> pourrait être aussi ordonnée et honnête qu'une société de croyants, parce que la conduite ne dépend pas des croyances religieuses. Dans le <em>Commentaire philosophique</em>, il défendit la <strong>tolérance</strong> et la liberté de conscience, y compris celle de qui se trompe de bonne foi. Son œuvre majeure est le <em>Dictionnaire historique et critique</em>, fait d'articles brefs accompagnés de très longues <strong>notes</strong> en bas de page, où il examine avec doutes et objections les sources, les religions et les systèmes philosophiques. Là, dans l'article « Spinoza », il fit l'éloge de la vie honnête du philosophe tout en rejetant sa doctrine. Le <em>Dictionnaire</em> fut l'un des livres les plus lus du XVIIIe siècle et l'une des grandes références des Lumières.</p>",
   "obras": [
    "Pensées diverses sur la comète (1682)",
-   "Commentaire philosophique sur ces paroles « Contrains-les d'entrer » (1686)",
-   "Dictionnaire historique et critique (1697 ; 2e éd. 1702)",
+   "Commentaire philosophique sur ces paroles « Contrains-les d'entrer » (1686)",
+   "Dictionnaire historique et critique (1697 ; 2e éd. 1702)",
    "Nouvelles de la République des Lettres (revue, 1684-1687)"
   ],
   "anecdota": "<p>En 1685, à cause des écrits de Pierre, qui depuis Rotterdam critiquait la politique religieuse de Louis XIV, les autorités françaises arrêtèrent son frère aîné Jacob, pasteur comme leur père. Jacob mourut quelques mois plus tard en prison, en raison des dures conditions de détention. Bayle reçut la nouvelle presque en même temps que celle de la révocation de l'édit de Nantes, qui privait de leurs droits les protestants français. Beaucoup de spécialistes situent en cette année-là, la plus dure de sa vie, un changement de ton dans son œuvre.</p>",
-  "fuente": "Stanford Encyclopedia of Philosophy, « Pierre Bayle » (plato.stanford.edu/entries/bayle)",
+  "fuente": "Stanford Encyclopedia of Philosophy, « Pierre Bayle » (plato.stanford.edu/entries/bayle)",
   "tradicion": false,
   "block": "mod",
   "subjects": [
    "hf"
   ],
   "temas": [
-   "hf-spinoza-universal"
+   "hf-spinoza-universal",
+   "hf-bayle-diccionario"
+  ]
+ },
+ "feijoo": {
+  "name": "Benito Jerónimo Feijoo",
+  "dates": "1676 – 1764",
+  "born": 1676,
+  "died": 1764,
+  "place": "Casdemiro (Ourense, Galice)",
+  "role": "moine bénédictin et essayiste",
+  "idea": "Combattre par l'expérience et la raison les erreurs communes, les superstitions et les faux miracles : il ne faut pas croire une chose parce que tout le monde ou la coutume le dit, mais parce qu'il y a des preuves.",
+  "bio": "<p>Benito Jerónimo Feijoo naquit en 1676 à Casdemiro, un hameau d'Ourense (Galice), dans une famille de petite noblesse. Très jeune, il entra dans l'ordre des <strong>bénédictins</strong> et passa presque toute sa vie au monastère de San Vicente d'Oviedo, où il fut professeur à l'université. Il n'en sortit guère, mais lisait tout ce qui arrivait d'Europe —science, médecine, philosophie— et le mit à la portée du public espagnol dans un castillan clair. Il vécut 87 ans et mourut à Oviedo en 1764.</p>\n<p>Son œuvre tient en deux grands recueils d'essais, le <em>Théâtre critique universel</em> (1726-1740) et les <em>Lettres érudites et curieuses</em> (1742-1760), écrits pour détromper le lecteur des « erreurs communes » : guérisseurs, faux miracles, présages, remèdes absurdes. Feijoo n'était pas un révolutionnaire ; il restait un moine croyant, mais il demandait de distinguer ce qu'enseigne la foi de ce que soutient la seule superstition, et de se fier à l'<strong>expérience</strong> et à la <strong>raison</strong>. On le considère comme celui qui introduisit l'esprit critique moderne en Espagne, aux débuts des Lumières. Dans son essai « Défense des femmes », il soutint que la prétendue infériorité intellectuelle de la femme ne vient pas de la nature, mais du manque d'éducation.</p>",
+  "obras": [
+   "Théâtre critique universel (1726-1740)",
+   "Lettres érudites et curieuses (1742-1760)",
+   "« Défense des femmes » (dans le Théâtre critique universel, tome I, 1726)"
+  ],
+  "anecdota": "<p>Pendant près de vingt-cinq ans, des dizaines d'auteurs publièrent des livres attaquant ou défendant Feijoo : ce fut la plus grande polémique intellectuelle de l'Espagne du XVIIIe siècle. En 1750, pour y mettre fin, le roi <strong>Ferdinand VI</strong> édicta un ordre interdisant d'imprimer des écrits contre le moine et son œuvre. C'est un cas insolite : le pouvoir royal prenait la défense d'un écrivain face à ses critiques. La mesure intervint après un quart de siècle de répliques et de contre-répliques.</p>",
+  "fuente": "Ordonnance royale de Ferdinand VI de 1750 ; études sur la polémique autour de Feijoo (Centro de Estudios del Siglo XVIII, université d'Oviedo)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
   ]
  },
  "berkeley": {
@@ -2562,6 +2921,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-spinoza-universal",
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-kant-juicios"
   ]
  },
@@ -2698,6 +3058,7 @@ const ILUSTRES = {
    "hf-racionalismo",
    "hf-metafisica",
    "hf-spinoza-universal",
+   "hf-bayle-diccionario",
    "hf-kant",
    "hf-kant-juicios",
    "hf-descartes-makro"
@@ -2757,6 +3118,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-bayle-diccionario",
    "hf-marx-biblioteca"
   ]
  },
@@ -2802,7 +3164,8 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-ilustracion",
+   "hf-bayle-diccionario"
   ]
  },
  "morelly": {
@@ -2898,6 +3261,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
    "hf-montaigne-ensayos",
@@ -2911,6 +3275,7 @@ const ILUSTRES = {
    "hf-kant-juicios",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-descartes-makro"
   ]
  },
@@ -3003,7 +3368,7 @@ const ILUSTRES = {
   "place": "Shadwell, Virginie (colonies britanniques d'Amérique)",
   "role": "homme politique des Lumières américain, auteur de la Déclaration d'indépendance",
   "idea": "Tous les êtres humains ont des droits naturels, comme la vie, la liberté et la recherche du bonheur ; les gouvernements existent pour les protéger, tirent leur pouvoir du consentement des gouvernés et doivent se séparer de la religion.",
-  "bio": "<p>Thomas Jefferson naquit en Virginie, dans une famille de planteurs, et étudia le droit au College of William &amp; Mary. Il fut le principal rédacteur de la <strong>Déclaration d'indépendance</strong> des États-Unis (1776), ambassadeur en France à la veille de la Révolution, secrétaire d'État sous Washington et troisième président du pays (1801-1809). Dans sa vieillesse, il fonda l'université de Virginie. Il mourut dans sa maison de Monticello le 4 juillet 1826, cinquante ans jour pour jour après la Déclaration.</p>\n<p>La Déclaration reprend la théorie des droits naturels et du contrat social de <strong>Locke</strong> : tous les hommes sont créés égaux, avec des droits inaliénables à « la vie, la liberté et la recherche du bonheur », et si un gouvernement les viole, le peuple peut le changer. Jefferson défendit aussi la <strong>liberté religieuse</strong> et un « mur de séparation » entre l'Église et l'État. Sa grande contradiction : il proclama l'égalité et fut en même temps propriétaire de centaines de personnes réduites en esclavage tout au long de sa vie.</p>",
+  "bio": "<p>Thomas Jefferson naquit en Virginie, dans une famille de planteurs, et étudia le droit au College of William &amp ; Mary. Il fut le principal rédacteur de la <strong>Déclaration d'indépendance</strong> des États-Unis (1776), ambassadeur en France à la veille de la Révolution, secrétaire d'État sous Washington et troisième président du pays (1801-1809). Dans sa vieillesse, il fonda l'université de Virginie. Il mourut dans sa maison de Monticello le 4 juillet 1826, cinquante ans jour pour jour après la Déclaration.</p>\n<p>La Déclaration reprend la théorie des droits naturels et du contrat social de <strong>Locke</strong> : tous les hommes sont créés égaux, avec des droits inaliénables à « la vie, la liberté et la recherche du bonheur », et si un gouvernement les viole, le peuple peut le changer. Jefferson défendit aussi la <strong>liberté religieuse</strong> et un « mur de séparation » entre l'Église et l'État. Sa grande contradiction : il proclama l'égalité et fut en même temps propriétaire de centaines de personnes réduites en esclavage tout au long de sa vie.</p>",
   "obras": [
    "Déclaration d'indépendance (1776)",
    "Notes sur l'État de Virginie (1785)",
@@ -3076,6 +3441,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jovellanos": {
+  "name": "Gaspar Melchor de Jovellanos",
+  "dates": "1744 – 1811",
+  "born": 1744,
+  "died": 1811,
+  "place": "Gijón (Asturies)",
+  "role": "homme des Lumières, juriste, homme politique et écrivain",
+  "idea": "Le progrès d'un pays dépend avant tout de l'éducation et de la suppression des entraves qui étouffent l'économie : l'instruction publique est la première source de la prospérité sociale.",
+  "bio": "<p>Gaspar Melchor de Jovellanos naquit à Gijón en 1744, dans une famille noble déchue. Il étudia le droit et fut magistrat à Séville puis à Madrid. Figure centrale des Lumières espagnoles, il appartint aux académies et aux <strong>Sociétés économiques des Amis du Pays</strong>, qui voulaient moderniser le pays. En 1794, il fonda dans sa ville l'Institut royal asturien de nautique et de minéralogie, une école d'enseignements utiles. Il devint ministre de la Grâce et de la Justice (1797-1798), même s'il resta peu en poste.</p>\n<p>Son écrit le plus influent est le <em>Rapport sur la loi agraire</em> (1795) : suivant les idées de l'économiste <strong>Adam Smith</strong>, il préconisait de donner plus de liberté à l'agriculture et de lever les entraves qui la freinaient (majorats, terres de mainmorte, privilèges de la Mesta). Il écrivit aussi des mémoires sur l'éducation et sur les spectacles publics, ainsi qu'un <em>Journal</em> qui est un grand portrait de son époque. En politique, il fut un réformiste modéré : il voulait changer l'Espagne de l'intérieur, par les lois et l'éducation, non par une révolution. Durant la guerre contre Napoléon, il fit partie de la Junte centrale qui gouverna au nom du roi absent.</p>",
+  "obras": [
+   "Rapport sur la loi agraire (1795)",
+   "Mémoire sur l'éducation publique (1802)",
+   "Mémoire sur les spectacles et divertissements publics (1790)",
+   "Journal"
+  ],
+  "anecdota": "<p>En 1801, par intrigues politiques et sans qu'aucun procès n'ait eu lieu, Jovellanos fut arrêté et enfermé au château de Bellver, à Majorque, sur ordre du favori <strong>Godoy</strong>. Il y passa plus de sept ans prisonnier, sans condamnation, jusqu'à ce que la chute de Godoy en 1808 lui rende la liberté. Durant sa détention, il ne cessa d'étudier et d'écrire : il rédigea des descriptions du château lui-même et de l'île. Le réformiste qui avait servi l'État finit emprisonné par ce même pouvoir.</p>",
+  "fuente": "Journal de Jovellanos ; biographies de référence (Real Academia de la Historia, « Gaspar Melchor de Jovellanos » ; Biblioteca Virtual Miguel de Cervantes)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "bentham": {
   "name": "Jeremy Bentham",
   "dates": "1748 – 1832",
@@ -3125,7 +3516,9 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
-   "hf-ilustracion"
+   "hf-utopias-autoras",
+   "hf-ilustracion",
+   "hf-filosofas-dialogo"
   ]
  },
  "goethe": {
@@ -3272,8 +3665,10 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-ilustracion",
    "hf-marx-biblioteca",
+   "hf-filosofas-dialogo",
    "hf-corazon-piedra"
   ]
  },
@@ -3587,6 +3982,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-utopias-autoras",
    "hf-marx-biblioteca"
   ]
  },
@@ -3793,6 +4189,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-sospecha"
   ]
@@ -4060,6 +4457,32 @@ const ILUSTRES = {
    "hf-marx-biblioteca"
   ]
  },
+ "balmes": {
+  "name": "Jaime Balmes",
+  "dates": "1810 – 1848",
+  "born": 1810,
+  "died": 1848,
+  "place": "Vic (Barcelone, Catalogne)",
+  "role": "prêtre, philosophe et écrivain politique",
+  "idea": "Bien penser, c'est voir la vérité des choses et distinguer le vrai du faux ; la foi et la raison ne s'opposent pas, elles ont besoin l'une de l'autre.",
+  "bio": "<p>Jaime Balmes (Jaume Balmes en catalan) naquit à Vic en 1810, dans une famille modeste. Il fut ordonné <strong>prêtre</strong> et obtint un doctorat en théologie. De santé fragile, il ne vécut que 37 ans, mais écrivit en ce temps une œuvre immense de philosophie, d'apologétique et de politique, et fonda des revues très influentes. Il mourut de la tuberculose dans sa ville natale en 1848.</p>\n<p>Son livre le plus lu est <em>Le Critère</em> (1845), un guide pratique pour apprendre à <strong>bien penser</strong>, dans une langue simple et pleine d'exemples : on l'utilisa pendant plus d'un siècle dans les écoles espagnoles. Dans <em>Philosophie fondamentale</em>, il chercha un point de départ sûr pour la connaissance, en dialoguant avec Descartes. Il soutint que la foi et la raison se complètent, dans la ligne de la philosophie chrétienne qu'on appellerait plus tard néoscolastique. Il fut aussi un grand journaliste politique : dans des ouvrages comme <em>Le Protestantisme comparé au catholicisme</em>, il compara le rôle des deux confessions dans l'histoire de l'Europe.</p>",
+  "obras": [
+   "Le Critère (1845)",
+   "Philosophie fondamentale (1846)",
+   "Le Protestantisme comparé au catholicisme dans ses rapports avec la civilisation européenne (1842-1844)",
+   "Philosophie élémentaire (1847)"
+  ],
+  "anecdota": "<p>Balmes écrivit <em>Le Protestantisme comparé au catholicisme</em> en partie comme réponse à l'<em>Histoire de la civilisation en Europe</em> du Français François Guizot, qui attribuait au protestantisme une bonne part du progrès moderne. L'œuvre de Balmes fut bientôt traduite en français, en italien, en allemand et en anglais, et fit connaître dans toute l'Europe un prêtre d'une petite ville catalane. Il fut l'un des rares penseurs espagnols de son siècle à avoir un écho international de son vivant.</p>",
+  "fuente": "J. Balmes, El protestantismo comparado con el catolicismo (1842-1844) ; F. Guizot, Histoire de la civilisation en Europe (1828) ; biographies de référence (Real Academia de la Historia, « Jaime Balmes »)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "dickens": {
   "name": "Charles Dickens",
   "dates": "1812 – 1870",
@@ -4187,8 +4610,10 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-metodos",
    "hf-beefs",
+   "hf-utopias-autoras",
    "hf-metafisica",
    "hf-spinoza-universal",
    "hf-ilustracion",
@@ -4257,7 +4682,7 @@ const ILUSTRES = {
   "place": "Röcken (Saxe, Prusse)",
   "role": "philosophe et philologue allemand",
   "idea": "Après la mort de Dieu et la chute des valeurs traditionnelles, l'être humain doit surmonter le nihilisme en affirmant la vie et en créant ses propres valeurs.",
-  "bio": "<p>Friedrich Nietzsche naquit à Röcken, fils d'un pasteur protestant. Il étudia la philologie classique et, à seulement 24 ans, fut nommé professeur à l'Université de Bâle (Suisse). Sa mauvaise santé l'obligea à quitter sa chaire en 1879 ; depuis lors, il vécut en errant entre la Suisse, l'Italie et le sud de la France, écrivant sans relâche. En 1889, il subit à Turin un effondrement mental dont il ne se remit pas. Il mourut à Weimar.</p>\n<p>Sa philosophie est un <strong>vitalisme</strong> : la vie (instinct, corps, passion) est la valeur suprême. Il distingue le dionysiaque et l'apollinien, et accuse Platon et le christianisme d'avoir inventé un « monde vrai » contre la vie. Avec sa méthode <strong>généalogique</strong>, il montre que la morale traditionnelle naît du ressentiment des faibles : c'est une morale d'esclaves. La mort de Dieu ouvre le <strong>nihilisme</strong>, que le <strong>surhomme</strong> doit surmonter en créant ses propres valeurs par la <strong>volonté de puissance</strong> et en acceptant l'éternel retour.</p>\n<p>Il est l'un des trois maîtres du soupçon, avec Marx et Freud. Il a souvent écrit sous forme d'aphorismes et dans un style littéraire. Après sa mort, sa sœur a publié comme s'il s'agissait de son grand livre un recueil de ses notes (<em>La Volonté de puissance</em>), mais elle n'a guère altéré ses écrits ; les lectures déformées de sa philosophie sont avant tout l'œuvre de la réception ultérieure. Son perspectivisme et sa critique de la vérité ont influencé l'existentialisme et les penseurs postmodernes, comme Foucault.</p>",
+  "bio": "<p>Friedrich Nietzsche naquit à Röcken, fils d'un pasteur protestant. Il étudia la philologie classique et, à seulement 24 ans, fut nommé professeur à l'Université de Bâle (Suisse). Sa mauvaise santé l'obligea à quitter sa chaire en 1879 ; depuis lors, il vécut en errant entre la Suisse, l'Italie et le sud de la France, écrivant sans relâche. En 1889, il subit à Turin un effondrement mental dont il ne se remit pas. Il mourut à Weimar.</p>\n<p>Sa philosophie est un <strong>vitalisme</strong> : la vie (instinct, corps, passion) est la valeur suprême. Il distingue le dionysiaque et l'apollinien, et accuse Platon et le christianisme d'avoir inventé un « monde vrai » contre la vie. Avec sa méthode <strong>généalogique</strong>, il montre que la morale traditionnelle naît du ressentiment des faibles : c'est une morale d'esclaves. La mort de Dieu ouvre le <strong>nihilisme</strong>, que le <strong>surhomme</strong> doit surmonter en créant ses propres valeurs par la <strong>volonté de puissance</strong> et en acceptant l'éternel retour.</p>\n<p>Il est l'un des trois maîtres du soupçon, avec Marx et Freud. Il a souvent écrit sous forme d'aphorismes et dans un style littéraire. Après sa mort, sa sœur a publié comme s'il s'agissait de son grand livre un recueil de ses notes (<em>La Volonté de puissance</em>), mais elle n'a guère altéré ses écrits ; les lectures déformées de sa philosophie sont avant tout l'œuvre de la réception ultérieure. Son perspectivisme et sa critique de la vérité ont influencé l'existentialisme et les penseurs postmodernes, comme Foucault.</p>",
   "obras": [
    "La Naissance de la tragédie (1872)",
    "Le Gai Savoir (1882)",
@@ -4284,6 +4709,7 @@ const ILUSTRES = {
    "hf-kant-poetas",
    "hf-etica-deber",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-posmodernidad",
    "hf-existencialismo"
   ]
@@ -4339,6 +4765,7 @@ const ILUSTRES = {
   "temas": [
    "hf-ilustracion",
    "hf-sospecha",
+   "hf-filosofas-dialogo",
    "hf-capitalismo",
    "hf-posmodernidad"
   ]
@@ -4403,15 +4830,15 @@ const ILUSTRES = {
   "died": 1952,
   "place": "Burlington (États-Unis)",
   "role": "philosophe pragmatiste et réformateur de l'éducation américaine",
-  "idea": "Penser, c'est enquêter pour résoudre les problèmes que pose l'expérience ; c'est pourquoi l'éducation ne consiste pas à mémoriser, mais à « apprendre en faisant », et la démocratie est avant tout une forme de vie partagée.",
-  "bio": "<p>John Dewey naquit à Burlington, dans l'État du Vermont (États-Unis), en 1859. Il étudia à l'université du Vermont et obtint son doctorat à l'université Johns Hopkins. Il fut professeur dans le Michigan et, à partir de 1894, à l'université de Chicago, où il dirigea une célèbre école expérimentale ; en 1904 il passa à l'université Columbia, à New York, où il enseigna le reste de sa vie. Il participa très activement aux débats publics sur l'éducation, la démocratie et les droits, voyagea dans des pays comme le Japon, la Chine, le Mexique et l'Union soviétique, et mourut à New York en 1952, à quatre-vingt-douze ans.</p>\n<p>Dewey est, avec Charles S. Peirce et William James, l'une des grandes figures du <strong>pragmatisme</strong> américain, courant pour lequel la valeur d'une idée se mesure à ses conséquences pratiques. Sa version, l'<strong>instrumentalisme</strong>, conçoit la pensée comme un instrument pour résoudre les problèmes qui surgissent dans l'<strong>expérience</strong> : penser, c'est au fond enquêter. De là sa proposition éducative la plus connue, « apprendre en faisant », opposée à un enseignement fondé seulement sur la mémoire, et sa défense de la <strong>démocratie</strong> non comme un simple système de gouvernement, mais comme une forme de vie dans laquelle les personnes coopèrent et décident ensemble. Il figure au programme comme représentant du pragmatisme et d'une manière de comprendre la vérité, la connaissance et l'éducation différente de la tradition rationaliste européenne.</p>",
+  "idea": "Penser, c'est enquêter pour résoudre les problèmes que pose l'expérience ; c'est pourquoi l'éducation ne consiste pas à mémoriser, mais à « apprendre en faisant », et la démocratie est avant tout une forme de vie partagée.",
+  "bio": "<p>John Dewey naquit à Burlington, dans l'État du Vermont (États-Unis), en 1859. Il étudia à l'université du Vermont et obtint son doctorat à l'université Johns Hopkins. Il fut professeur dans le Michigan et, à partir de 1894, à l'université de Chicago, où il dirigea une célèbre école expérimentale ; en 1904 il passa à l'université Columbia, à New York, où il enseigna le reste de sa vie. Il participa très activement aux débats publics sur l'éducation, la démocratie et les droits, voyagea dans des pays comme le Japon, la Chine, le Mexique et l'Union soviétique, et mourut à New York en 1952, à quatre-vingt-douze ans.</p>\n<p>Dewey est, avec Charles S. Peirce et William James, l'une des grandes figures du <strong>pragmatisme</strong> américain, courant pour lequel la valeur d'une idée se mesure à ses conséquences pratiques. Sa version, l'<strong>instrumentalisme</strong>, conçoit la pensée comme un instrument pour résoudre les problèmes qui surgissent dans l'<strong>expérience</strong> : penser, c'est au fond enquêter. De là sa proposition éducative la plus connue, « apprendre en faisant », opposée à un enseignement fondé seulement sur la mémoire, et sa défense de la <strong>démocratie</strong> non comme un simple système de gouvernement, mais comme une forme de vie dans laquelle les personnes coopèrent et décident ensemble. Il figure au programme comme représentant du pragmatisme et d'une manière de comprendre la vérité, la connaissance et l'éducation différente de la tradition rationaliste européenne.</p>",
   "obras": [
    "L'École et la société (1899)",
    "Comment nous pensons (1910)",
    "Démocratie et éducation (1916)",
    "L'Art comme expérience (1934)"
   ],
-  "anecdota": "<p>En janvier 1896, alors qu'il était professeur à l'université de Chicago, Dewey lança une école expérimentale, connue sous le nom d'« École-Laboratoire ». Elle commença avec une poignée d'élèves et deux institutrices, et fonctionnait comme un laboratoire où vérifier si ses idées pédagogiques servaient vraiment en classe : les enfants apprenaient en cuisinant, en cousant ou en construisant des choses, au lieu de se contenter de mémoriser. En quelques années, elle passa de ce groupe initial à plus d'une centaine d'élèves. L'expérience, recueillie plus tard par deux de ses institutrices, devint un modèle cité par les mouvements de rénovation éducative du XXe siècle.</p>",
+  "anecdota": "<p>En janvier 1896, alors qu'il était professeur à l'université de Chicago, Dewey lança une école expérimentale, connue sous le nom d'« École-Laboratoire ». Elle commença avec une poignée d'élèves et deux institutrices, et fonctionnait comme un laboratoire où vérifier si ses idées pédagogiques servaient vraiment en classe : les enfants apprenaient en cuisinant, en cousant ou en construisant des choses, au lieu de se contenter de mémoriser. En quelques années, elle passa de ce groupe initial à plus d'une centaine d'élèves. L'expérience, recueillie plus tard par deux de ses institutrices, devint un modèle cité par les mouvements de rénovation éducative du XXe siècle.</p>",
   "fuente": "K. C. Mayhew et A. C. Edwards, The Dewey School (1936)",
   "tradicion": false,
   "block": "con",
@@ -4419,6 +4846,31 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": []
+ },
+ "salome": {
+  "name": "Lou Andreas-Salomé",
+  "dates": "1861 – 1937",
+  "born": 1861,
+  "died": 1937,
+  "place": "Saint-Pétersbourg",
+  "role": "écrivaine et psychanalyste",
+  "idea": "Elle pensa la religiosité sans Dieu, l'érotisme et la création artistique ; interlocutrice de Nietzsche, Rilke et Freud, elle fit de sa propre liberté une forme de pensée.",
+  "bio": "<p>Lou naquit à Saint-Pétersbourg en 1861, dans une famille aisée d'origine allemande. Jeune, elle étudia les langues classiques, la philosophie et la littérature, et partit pour l'université de Zurich —l'une des rares à admettre des femmes— résolue à consacrer sa vie à la pensée et à conserver son indépendance.</p>\n<p>En 1882, elle rencontra à Rome Paul Rée et <strong>Nietzsche</strong>, avec qui elle forma un intense trio intellectuel. Elle refusa les demandes en mariage de l'un et de l'autre. Après la rupture, elle publia <em>Friedrich Nietzsche dans ses œuvres</em> (1894), l'une des premières études sérieuses de sa philosophie. Plus tard, elle fut l'amie et le guide du poète <strong>Rilke</strong> puis, au tournant du siècle, s'approcha de la <strong>psychanalyse</strong> : elle rencontra <strong>Freud</strong>, se forma auprès de lui et écrivit sur l'érotisme et sur la psychologie féminine.</p>\n<p>Elle mourut à Göttingen en 1937 ; la Gestapo confisqua sa bibliothèque peu après. Dans le programme, elle sert de contrepoint à Nietzsche : elle fut la penseuse qu'il admira le plus, puis réduite au silence par ceux qui firent de son œuvre un étendard du nazisme.</p>",
+  "obras": [
+   "Friedrich Nietzsche dans ses œuvres",
+   "L'Érotisme",
+   "Ma vie (mémoires)"
+  ],
+  "anecdota": "<p>Au lieu de se marier, Salomé proposa à Nietzsche et à Rée de vivre tous les trois ensemble comme une « commune » intellectuelle vouée à l'étude. De cette époque date la célèbre photographie où elle pose dans une petite charrette, un fouet de jouet à la main, les deux philosophes la tirant. Elle disait d'elle-même : « je ne suis pas capable de vivre selon des modèles, et je ne pourrai servir de modèle à personne » (paraphrase).</p>",
+  "fuente": "Lou Andreas-Salomé, *Friedrich Nietzsche dans ses œuvres* et *Ma vie* ; adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
+  ]
  },
  "unamuno": {
   "name": "Miguel de Unamuno",
@@ -4444,6 +4896,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -4481,10 +4934,10 @@ const ILUSTRES = {
   "died": 1919,
   "place": "Zamość (Pologne)",
   "role": "penseuse et révolutionnaire marxiste",
-  "idea": "Le socialisme et la démocratie sont inséparables : elle critiqua aussi bien le réformisme qui renonce à transformer la société que le pouvoir d'un parti unique, et plaça sa confiance dans l'initiative spontanée des travailleurs.",
-  "bio": "<p>Rosa Luxemburg naquit en 1871 à Zamość, une ville de la partie de la Pologne qui appartenait alors à l'Empire russe, dans une famille juive. Elle partit étudier en Suisse et obtint un doctorat en sciences de l'État (droit et économie) à l'université de Zurich en 1897, avec une thèse sur le développement industriel de la Pologne. Elle s'installa ensuite en Allemagne, où elle rejoignit le Parti social-démocrate (SPD) et devint l'une de ses théoriciennes les plus en vue. Elle s'opposa fermement à la Première Guerre mondiale et en passa une bonne partie en prison pour son agitation contre la guerre. Avec Karl Liebknecht, elle fonda la Ligue spartakiste et, dans les derniers jours de 1918, le Parti communiste d'Allemagne. En janvier 1919, pendant le soulèvement spartakiste de Berlin, elle fut arrêtée et assassinée par des soldats des Freikorps.</p>\n<p>Luxemburg fut une penseuse <strong>marxiste</strong>, mais elle ne conçut jamais le marxisme comme un système clos. Dans <em>Réforme sociale ou révolution ?</em> (1899), elle polémiqua avec Eduard Bernstein, qui proposait d'améliorer le capitalisme peu à peu au lieu de le transformer ; elle défendit que les réformes ne suffisent pas, sans renoncer pour autant à l'action quotidienne. Elle avait davantage confiance dans la <strong>grève de masse</strong>, l'action collective et spontanée des travailleurs, que dans le contrôle d'un parti dirigé d'en haut. C'est pourquoi, bien qu'elle ait salué la Révolution russe de 1917, elle critiqua très tôt le fait que Lénine et Trotski suppriment l'assemblée élue et les autres partis : pour elle, <strong>socialisme et démocratie</strong> ne pouvaient être séparés. Elle figure au programme d'Histoire de la philosophie, dans la critique du capitalisme postérieure à Marx, aux côtés de Lénine et de Clara Zetkin, comme preuve qu'il y eut au sein du marxisme un débat ouvert sur le rapport entre révolution, liberté et démocratie.</p>",
+  "idea": "Le socialisme et la démocratie sont inséparables : elle critiqua aussi bien le réformisme qui renonce à transformer la société que le pouvoir d'un parti unique, et plaça sa confiance dans l'initiative spontanée des travailleurs.",
+  "bio": "<p>Rosa Luxemburg naquit en 1871 à Zamość, une ville de la partie de la Pologne qui appartenait alors à l'Empire russe, dans une famille juive. Elle partit étudier en Suisse et obtint un doctorat en sciences de l'État (droit et économie) à l'université de Zurich en 1897, avec une thèse sur le développement industriel de la Pologne. Elle s'installa ensuite en Allemagne, où elle rejoignit le Parti social-démocrate (SPD) et devint l'une de ses théoriciennes les plus en vue. Elle s'opposa fermement à la Première Guerre mondiale et en passa une bonne partie en prison pour son agitation contre la guerre. Avec Karl Liebknecht, elle fonda la Ligue spartakiste et, dans les derniers jours de 1918, le Parti communiste d'Allemagne. En janvier 1919, pendant le soulèvement spartakiste de Berlin, elle fut arrêtée et assassinée par des soldats des Freikorps.</p>\n<p>Luxemburg fut une penseuse <strong>marxiste</strong>, mais elle ne conçut jamais le marxisme comme un système clos. Dans <em>Réforme sociale ou révolution ?</em> (1899), elle polémiqua avec Eduard Bernstein, qui proposait d'améliorer le capitalisme peu à peu au lieu de le transformer ; elle défendit que les réformes ne suffisent pas, sans renoncer pour autant à l'action quotidienne. Elle avait davantage confiance dans la <strong>grève de masse</strong>, l'action collective et spontanée des travailleurs, que dans le contrôle d'un parti dirigé d'en haut. C'est pourquoi, bien qu'elle ait salué la Révolution russe de 1917, elle critiqua très tôt le fait que Lénine et Trotski suppriment l'assemblée élue et les autres partis : pour elle, <strong>socialisme et démocratie</strong> ne pouvaient être séparés. Elle figure au programme d'Histoire de la philosophie, dans la critique du capitalisme postérieure à Marx, aux côtés de Lénine et de Clara Zetkin, comme preuve qu'il y eut au sein du marxisme un débat ouvert sur le rapport entre révolution, liberté et démocratie.</p>",
   "obras": [
-   "Réforme sociale ou révolution ? (1899)",
+   "Réforme sociale ou révolution ? (1899)",
    "Grève de masse, parti et syndicats (1906)",
    "L'Accumulation du capital (1913)",
    "La Révolution russe (écrite en 1918)"
@@ -4534,15 +4987,15 @@ const ILUSTRES = {
   "died": 1952,
   "place": "Saint-Pétersbourg (Empire russe)",
   "role": "révolutionnaire et diplomate soviétique",
-  "idea": "Elle unit le socialisme et l'émancipation de la femme : l'égalité légale ne suffit pas si ne changent pas le travail domestique, la famille et les relations amoureuses.",
-  "bio": "<p>Alexandra Mikhaïlovna Kollontaï naquit en 1872 à Saint-Pétersbourg, dans une famille aristocratique russe, mais elle rompit tôt avec ce milieu pour se consacrer au militantisme socialiste. Elle étudia l'économie à Zurich et, après des années d'exil à travers l'Europe, rejoignit les bolcheviks. Après la révolution de 1917, elle fut nommée commissaire du peuple à l'Assistance sociale, dans l'un des premiers gouvernements au monde à compter une femme. Dans les décennies suivantes, elle fut en outre l'une des premières femmes à représenter son pays comme cheffe d'une mission diplomatique, en Norvège, au Mexique et en Suède. Elle mourut à Moscou en 1952.</p>\n<p>Kollontaï unit le <strong>socialisme</strong> et l'<strong>émancipation de la femme</strong> : elle soutenait que le droit de vote et l'égalité devant la loi ne suffisent pas si ne changent pas le travail domestique, la famille et les relations amoureuses. Elle défendit la socialisation des tâches ménagères et de la garde des enfants, et réfléchit à une <strong>nouvelle morale</strong> de l'amour, libéré de la dépendance économique. Au sein même du parti, elle dirigea l'<strong>Opposition ouvrière</strong>, qui critiquait la bureaucratisation du pouvoir soviétique. Elle figure au programme parmi ceux qui prolongèrent et discutèrent le marxisme, et son œuvre reste une référence pour les féminismes socialistes, dans un débat encore ouvert sur le rapport entre l'égalité économique et la liberté personnelle.</p>",
+  "idea": "Elle unit le socialisme et l'émancipation de la femme : l'égalité légale ne suffit pas si ne changent pas le travail domestique, la famille et les relations amoureuses.",
+  "bio": "<p>Alexandra Mikhaïlovna Kollontaï naquit en 1872 à Saint-Pétersbourg, dans une famille aristocratique russe, mais elle rompit tôt avec ce milieu pour se consacrer au militantisme socialiste. Elle étudia l'économie à Zurich et, après des années d'exil à travers l'Europe, rejoignit les bolcheviks. Après la révolution de 1917, elle fut nommée commissaire du peuple à l'Assistance sociale, dans l'un des premiers gouvernements au monde à compter une femme. Dans les décennies suivantes, elle fut en outre l'une des premières femmes à représenter son pays comme cheffe d'une mission diplomatique, en Norvège, au Mexique et en Suède. Elle mourut à Moscou en 1952.</p>\n<p>Kollontaï unit le <strong>socialisme</strong> et l'<strong>émancipation de la femme</strong> : elle soutenait que le droit de vote et l'égalité devant la loi ne suffisent pas si ne changent pas le travail domestique, la famille et les relations amoureuses. Elle défendit la socialisation des tâches ménagères et de la garde des enfants, et réfléchit à une <strong>nouvelle morale</strong> de l'amour, libéré de la dépendance économique. Au sein même du parti, elle dirigea l'<strong>Opposition ouvrière</strong>, qui critiquait la bureaucratisation du pouvoir soviétique. Elle figure au programme parmi ceux qui prolongèrent et discutèrent le marxisme, et son œuvre reste une référence pour les féminismes socialistes, dans un débat encore ouvert sur le rapport entre l'égalité économique et la liberté personnelle.</p>",
   "obras": [
    "Les Fondements sociaux de la question féminine (1909)",
    "La Nouvelle Morale et la classe ouvrière (1918)",
    "L'Opposition ouvrière (1921)",
-   "Place à l'Éros ailé ! (1923)"
+   "Place à l'Éros ailé ! (1923)"
   ],
-  "anecdota": "<p>En 1923, le gouvernement soviétique l'envoya en Norvège à la tête de sa mission diplomatique, et peu après elle fut officiellement accréditée : elle fut l'une des premières femmes au monde à représenter son pays comme cheffe d'une légation. Elle resta dans le service diplomatique pendant près de vingt ans, surtout en Suède. Là, la santé déjà très affaiblie après un accident vasculaire cérébral qui l'obligea à utiliser un fauteuil roulant, elle participa en 1944 aux contacts qui aidèrent à mettre fin à la guerre entre la Finlande et l'Union soviétique.</p>",
+  "anecdota": "<p>En 1923, le gouvernement soviétique l'envoya en Norvège à la tête de sa mission diplomatique, et peu après elle fut officiellement accréditée : elle fut l'une des premières femmes au monde à représenter son pays comme cheffe d'une légation. Elle resta dans le service diplomatique pendant près de vingt ans, surtout en Suède. Là, la santé déjà très affaiblie après un accident vasculaire cérébral qui l'obligea à utiliser un fauteuil roulant, elle participa en 1944 aux contacts qui aidèrent à mettre fin à la guerre entre la Finlande et l'Union soviétique.</p>",
   "fuente": "Cathy Porter, Alexandra Kollontai. A Biography (Virago, 1980)",
   "tradicion": false,
   "block": "con",
@@ -4606,6 +5059,29 @@ const ILUSTRES = {
    "hf-kant-poetas"
   ]
  },
+ "maeztu": {
+  "name": "María de Maeztu",
+  "dates": "1881 – 1948",
+  "born": 1881,
+  "died": 1948,
+  "place": "Vitoria-Gasteiz",
+  "role": "pédagogue",
+  "idea": "Elle mit en pratique l'égalité des femmes devant l'éducation : depuis la Residencia de Señoritas, elle ouvrit aux jeunes filles l'accès à l'université et à la vie intellectuelle de l'Espagne de son temps.",
+  "bio": "<p>María de Maeztu y Whitney naquit à Vitoria en 1881. Elle se forma comme institutrice puis étudia la philosophie, comme disciple d'<strong>Unamuno</strong> et d'<strong>Ortega y Gasset</strong>, et poursuivit ses études en Allemagne et aux États-Unis. Elle maîtrisait plusieurs langues et compta bientôt parmi les figures les plus respectées de l'éducation espagnole.</p>\n<p>Dans l'entourage de l'<strong>Institución Libre de Enseñanza</strong>, elle dirigea, de 1915 à 1936, la <strong>Residencia de Señoritas</strong>, son projet le plus important : un lieu où toute jeune fille pouvait étudier, se loger et se préparer à l'université, à une époque où les Espagnoles avaient encore besoin d'autorisations spéciales pour y accéder. Y passèrent des intellectuelles comme Gabriela Mistral ou Maria Montessori. Elle impulsa aussi l'Instituto-Escuela et présida le Liceo Club Femenino.</p>\n<p>Sa pédagogie prônait des élèves actifs, loin de l'apprentissage par cœur, avec l'éducation comme moteur de réforme sociale. Au déclenchement de la guerre civile, et après l'exécution de son frère Ramiro, elle s'exila en Argentine, où elle continua d'enseigner jusqu'à sa mort, à Mar del Plata, en 1948. Elle apparaît liée à la pensée espagnole du premier tiers du XXe siècle, aux côtés d'Ortega et de María Zambrano.</p>",
+  "obras": [],
+  "anecdota": "<p>La Residencia de Señoritas fut bien plus qu'un logement : elle devint le point de rencontre des femmes intellectuelles de Madrid. Son caractère laïque lui valut les attaques des secteurs les plus conservateurs, qui allèrent jusqu'à qualifier ses membres de « femmes sans vertu ni piété ». Sous le franquisme, le bâtiment même du Liceo finit occupé par la Sección Femenina, aux idéaux opposés aux siens.</p>",
+  "fuente": "Adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0) ; dates d'après le Diccionario biográfico Auñamendi (Eusko Ikaskuntza) et EcuRed (morte le 7-1-1948 à Mar del Plata ; le livre indique à tort 1952)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-euskal-herria",
+   "hf-filosofia-espanola",
+   "hf-filosofas-dialogo"
+  ]
+ },
  "schlick": {
   "name": "Moritz Schlick",
   "dates": "1882 – 1936",
@@ -4650,6 +5126,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-existencialismo",
    "hf-beauvoir"
   ]
@@ -4752,6 +5229,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-euskal-herria",
+   "hf-filosofia-espanola",
    "hf-beefs",
    "hf-posmodernidad",
    "hf-existencialismo"
@@ -4789,21 +5267,22 @@ const ILUSTRES = {
   "died": 1937,
   "place": "Ales (Italie)",
   "role": "penseur marxiste et homme politique italien",
-  "idea": "Une classe ne domine pas seulement par la force, mais par l'hégémonie : le consentement qu'elle obtient à travers la culture (l'école, la presse, la religion). C'est pourquoi la politique se joue aussi sur le terrain des idées et du sens commun.",
-  "bio": "<p>Antonio Gramsci naquit en 1891 à Ales, un village de Sardaigne (Italie), dans une famille modeste et nombreuse. De santé fragile depuis l'enfance, il obtint une bourse et étudia la linguistique à l'université de Turin, même s'il abandonna ses études pour se consacrer au journalisme et à la politique. À Turin, une ville de grandes usines, il se rapprocha du mouvement ouvrier, écrivit dans la presse socialiste et fonda en 1919 la revue <em>L'Ordre nouveau</em> (<em>L'Ordine Nuovo</em>). En 1921, il fut l'un des fondateurs du Parti communiste d'Italie et, en 1924, il fut élu député. Le régime fasciste de Mussolini l'arrêta en 1926, malgré son immunité parlementaire, et le condamna à plus de vingt ans de prison. Malade et jamais rétabli, il mourut à Rome en 1937, quelques jours après avoir été formellement remis en liberté.</p>\n<p>En prison, il écrivit ses <em>Cahiers de prison</em>, des milliers de pages de notes qu'il ne put publier de son vivant. Son idée la plus connue est celle d'<strong>hégémonie</strong> : une classe sociale ne se maintient pas au pouvoir seulement par la coercition, mais aussi par le consentement qu'elle obtient lorsqu'elle parvient à faire passer sa vision du monde pour le <strong>sens commun</strong> de toute la société, à travers l'école, la presse, la religion ou la culture. Pour expliquer ce travail culturel, il parla des <strong>intellectuels organiques</strong>, des personnes que chaque groupe social produit pour donner forme à ses idées. Gramsci est une figure centrale de ce qu'on appelle le marxisme occidental, qui déplaça l'attention de l'économie vers la culture et la conscience. Il figure au programme dans ce bloc, et son concept d'hégémonie est utilisé aujourd'hui dans des débats de bords politiques très divers, ce qui le maintient vivant et discuté.</p>",
+  "idea": "Une classe ne domine pas seulement par la force, mais par l'hégémonie : le consentement qu'elle obtient à travers la culture (l'école, la presse, la religion). C'est pourquoi la politique se joue aussi sur le terrain des idées et du sens commun.",
+  "bio": "<p>Antonio Gramsci naquit en 1891 à Ales, un village de Sardaigne (Italie), dans une famille modeste et nombreuse. De santé fragile depuis l'enfance, il obtint une bourse et étudia la linguistique à l'université de Turin, même s'il abandonna ses études pour se consacrer au journalisme et à la politique. À Turin, une ville de grandes usines, il se rapprocha du mouvement ouvrier, écrivit dans la presse socialiste et fonda en 1919 la revue <em>L'Ordre nouveau</em> (<em>L'Ordine Nuovo</em>). En 1921, il fut l'un des fondateurs du Parti communiste d'Italie et, en 1924, il fut élu député. Le régime fasciste de Mussolini l'arrêta en 1926, malgré son immunité parlementaire, et le condamna à plus de vingt ans de prison. Malade et jamais rétabli, il mourut à Rome en 1937, quelques jours après avoir été formellement remis en liberté.</p>\n<p>En prison, il écrivit ses <em>Cahiers de prison</em>, des milliers de pages de notes qu'il ne put publier de son vivant. Son idée la plus connue est celle d'<strong>hégémonie</strong> : une classe sociale ne se maintient pas au pouvoir seulement par la coercition, mais aussi par le consentement qu'elle obtient lorsqu'elle parvient à faire passer sa vision du monde pour le <strong>sens commun</strong> de toute la société, à travers l'école, la presse, la religion ou la culture. Pour expliquer ce travail culturel, il parla des <strong>intellectuels organiques</strong>, des personnes que chaque groupe social produit pour donner forme à ses idées. Gramsci est une figure centrale de ce qu'on appelle le marxisme occidental, qui déplaça l'attention de l'économie vers la culture et la conscience. Il figure au programme dans ce bloc, et son concept d'hégémonie est utilisé aujourd'hui dans des débats de bords politiques très divers, ce qui le maintient vivant et discuté.</p>",
   "obras": [
    "La Question méridionale (1926)",
    "Lettres de prison (écrites 1926-1937)",
    "Cahiers de prison (écrits 1929-1935)"
   ],
-  "anecdota": "<p>Lors du procès tenu à Rome en 1928, le procureur réclama une condamnation très dure avec une phrase devenue célèbre : il fallait empêcher ce cerveau de fonctionner pendant vingt ans. Le tribunal condamna Gramsci à vingt ans, quatre mois et cinq jours de prison. Le régime voulait réduire ses idées au silence, mais ce fut précisément en prison qu'il écrivit les <em>Cahiers</em> qui le feraient connaître dans le monde entier.</p>",
-  "fuente": "Giuseppe Fiori, Vie d'Antonio Gramsci (1966) ; actes du procès de 1928",
+  "anecdota": "<p>Lors du procès tenu à Rome en 1928, le procureur réclama une condamnation très dure avec une phrase devenue célèbre : il fallait empêcher ce cerveau de fonctionner pendant vingt ans. Le tribunal condamna Gramsci à vingt ans, quatre mois et cinq jours de prison. Le régime voulait réduire ses idées au silence, mais ce fut précisément en prison qu'il écrivit les <em>Cahiers</em> qui le feraient connaître dans le monde entier.</p>",
+  "fuente": "Giuseppe Fiori, Vie d'Antonio Gramsci (1966) ; actes du procès de 1928",
   "tradicion": false,
   "block": "con",
   "subjects": [
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-marxismos",
    "hf-capitalismo"
   ]
@@ -4932,6 +5411,32 @@ const ILUSTRES = {
    "hf-descartes-makro"
   ]
  },
+ "gaos": {
+  "name": "José Gaos",
+  "dates": "1900 – 1969",
+  "born": 1900,
+  "died": 1969,
+  "place": "Gijón (Asturies)",
+  "role": "philosophe et traducteur de l'exil espagnol au Mexique",
+  "idea": "Les exilés espagnols en Amérique n'étaient pas de simples « bannis » (desterrados), mais des « transterrés » (transterrados) : ils avaient changé de terre, tout en restant sur une terre qui leur était propre par la langue et la culture partagées.",
+  "bio": "<p>José Gaos naquit à Gijón en 1900 et fut disciple d'<strong>Ortega y Gasset</strong> à Madrid. Professeur titulaire de philosophie, il devint recteur de l'université de Madrid dans les années de la Seconde République et de la guerre civile. À la fin de la guerre, il partit en exil et s'installa en 1938 au Mexique, où il enseigna à l'Université nationale (UNAM) et au Colegio de México jusqu'à sa mort, en 1969.</p>\n<p>Au Mexique, il forgea le mot qui lui reste attaché : pour les intellectuels espagnols qui, comme lui, refaisaient leur vie de l'autre côté de l'Atlantique, il préféra <strong>« transterrés »</strong> (transterrados) à « bannis » (desterrados), car ils n'avaient pas perdu leur terre, mais l'avaient transportée dans un pays qui parlait leur langue. Il fut en outre un traducteur décisif : sa version d'<em>Être et Temps</em>, de Heidegger (1951), fut pendant un demi-siècle la porte d'entrée de ce livre dans le monde hispanophone. Il forma toute une génération de philosophes mexicains et laissa une œuvre sur l'histoire des idées et sur ce qu'est la philosophie elle-même.</p>",
+  "obras": [
+   "De la philosophie",
+   "Confessions professionnelles (1958)",
+   "Histoire de notre idée du monde",
+   "traduction de « L'Être et le Temps » de Heidegger (1951)"
+  ],
+  "anecdota": "<p>Lorsque Gaos traduisit <em>Être et Temps</em>, de Heidegger, il dut inventer en castillan des mots pour des idées que l'allemand exprimait par des termes très difficiles. Sa version du <em>Dasein</em> heideggérien —l'être humain entendu comme « être-là »— fut discutée pendant des décennies. La traduction, publiée au Mexique en 1951, fut la seule disponible en espagnol durant un demi-siècle et marqua la façon dont plusieurs générations lurent Heidegger dans notre langue.</p>",
+  "fuente": "M. Heidegger, El ser y el tiempo, trad. de José Gaos, Fondo de Cultura Económica, Mexico, 1951 (préface du traducteur)",
+  "tradicion": false,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofia-espanola"
+  ]
+ },
  "popper": {
   "name": "Karl Popper",
   "dates": "1902 – 1994",
@@ -4958,6 +5463,7 @@ const ILUSTRES = {
    "hf-beefs",
    "hf-platon",
    "hf-politica",
+   "hf-utopias-autoras",
    "hf-sospecha",
    "hf-capitalismo",
    "hf-analitica"
@@ -5014,6 +5520,7 @@ const ILUSTRES = {
    "hf"
   ],
   "temas": [
+   "hf-filosofia-espanola",
    "hf-existencialismo"
   ]
  },
@@ -5097,6 +5604,7 @@ const ILUSTRES = {
   ],
   "temas": [
    "hf-ilustracion",
+   "hf-filosofas-dialogo",
    "hf-beauvoir"
   ]
  },
@@ -5107,16 +5615,16 @@ const ILUSTRES = {
   "died": 1943,
   "place": "Paris (France)",
   "role": "philosophe française",
-  "idea": "Avant les droits viennent les obligations envers les autres ; prêter une véritable attention à qui souffre est la forme la plus haute de justice et de respect de sa dignité.",
-  "bio": "<p>Simone Weil naquit à Paris en 1909, dans une famille juive cultivée et aisée ; son frère, André Weil, fut un mathématicien célèbre. Élève brillante, elle obtint en 1931 l'agrégation de philosophie et enseigna dans plusieurs lycées. Préoccupée par la condition des travailleurs, elle demanda en 1934 un congé pour s'employer comme ouvrière dans des usines de Paris. En 1936, elle participa quelques mois à la guerre civile espagnole, dans une colonne anarchiste. Pendant la Seconde Guerre mondiale, elle s'exila avec sa famille et finit à Londres, en collaborant avec la France libre. Elle mourut à Ashford (Angleterre) en 1943, à 34 ans, malade de la tuberculose et affaiblie parce qu'elle mangeait à peine plus que ce que, selon elle, recevaient les Français sous l'occupation.</p>\n<p>Weil est une penseuse difficile à classer, entre la philosophie, l'engagement politique et la mystique. Elle soutint qu'avant les droits viennent les <strong>obligations</strong> envers les autres, et que toute personne mérite le respect du seul fait d'en être une. Elle accorda une place centrale à l'<strong>attention</strong> : savoir vraiment regarder l'autre, surtout celui qui subit le <strong>malheur</strong> (ce qu'elle appelait le <em>malheur</em>), une infortune qui humilie et isole. Elle réfléchit aussi au travail, à l'oppression et à la liberté, et dans sa dernière période au sacré et à la nécessité de <strong>s'enraciner</strong> dans une communauté. Elle figure dans la section comme l'une des voix les plus originales de la pensée du XXe siècle, qui unit la réflexion éthique et politique à l'expérience vécue à la première personne.</p>",
+  "idea": "Avant les droits viennent les obligations envers les autres ; prêter une véritable attention à qui souffre est la forme la plus haute de justice et de respect de sa dignité.",
+  "bio": "<p>Simone Weil naquit à Paris en 1909, dans une famille juive cultivée et aisée ; son frère, André Weil, fut un mathématicien célèbre. Élève brillante, elle obtint en 1931 l'agrégation de philosophie et enseigna dans plusieurs lycées. Préoccupée par la condition des travailleurs, elle demanda en 1934 un congé pour s'employer comme ouvrière dans des usines de Paris. En 1936, elle participa quelques mois à la guerre civile espagnole, dans une colonne anarchiste. Pendant la Seconde Guerre mondiale, elle s'exila avec sa famille et finit à Londres, en collaborant avec la France libre. Elle mourut à Ashford (Angleterre) en 1943, à 34 ans, malade de la tuberculose et affaiblie parce qu'elle mangeait à peine plus que ce que, selon elle, recevaient les Français sous l'occupation.</p>\n<p>Weil est une penseuse difficile à classer, entre la philosophie, l'engagement politique et la mystique. Elle soutint qu'avant les droits viennent les <strong>obligations</strong> envers les autres, et que toute personne mérite le respect du seul fait d'en être une. Elle accorda une place centrale à l'<strong>attention</strong> : savoir vraiment regarder l'autre, surtout celui qui subit le <strong>malheur</strong> (ce qu'elle appelait le <em>malheur</em>), une infortune qui humilie et isole. Elle réfléchit aussi au travail, à l'oppression et à la liberté, et dans sa dernière période au sacré et à la nécessité de <strong>s'enraciner</strong> dans une communauté. Elle figure dans la section comme l'une des voix les plus originales de la pensée du XXe siècle, qui unit la réflexion éthique et politique à l'expérience vécue à la première personne.</p>",
   "obras": [
-   "Réflexions sur les causes de la liberté et de l'oppression sociale (écrit en 1934 ; publié en 1955)",
+   "Réflexions sur les causes de la liberté et de l'oppression sociale (écrit en 1934 ; publié en 1955)",
    "La Pesanteur et la grâce (1947)",
    "L'Enracinement (1949)",
    "Attente de Dieu (1950)"
   ],
-  "anecdota": "<p>En 1934, Simone Weil, qui était une brillante professeure de philosophie, demanda un congé pour s'employer comme ouvrière non qualifiée dans des usines de Paris, dont une de Renault. Elle voulait connaître de l'intérieur, et pas seulement dans les livres, ce que signifiaient la fatigue, la chaîne de montage et la soumission aux chefs. Pendant près d'un an, elle supporta un travail épuisant et nota chaque jour ce qu'elle vivait dans un cahier, son « journal d'usine ». Cette expérience marqua pour toujours sa manière de penser l'oppression et la dignité du travail.</p>",
-  "fuente": "Simone Pétrement, Vie de Simone Weil (1973) ; Simone Weil, La Condition ouvrière (journal d'usine, 1934-1935)",
+  "anecdota": "<p>En 1934, Simone Weil, qui était une brillante professeure de philosophie, demanda un congé pour s'employer comme ouvrière non qualifiée dans des usines de Paris, dont une de Renault. Elle voulait connaître de l'intérieur, et pas seulement dans les livres, ce que signifiaient la fatigue, la chaîne de montage et la soumission aux chefs. Pendant près d'un an, elle supporta un travail épuisant et nota chaque jour ce qu'elle vivait dans un cahier, son « journal d'usine ». Cette expérience marqua pour toujours sa manière de penser l'oppression et la dignité du travail.</p>",
+  "fuente": "Simone Pétrement, Vie de Simone Weil (1973) ; Simone Weil, La Condition ouvrière (journal d'usine, 1934-1935)",
   "tradicion": false,
   "block": "con",
   "subjects": [
@@ -5289,16 +5797,16 @@ const ILUSTRES = {
   "died": 1994,
   "place": "Vienne (Autriche)",
   "role": "philosophe des sciences",
-  "idea": "Il n'existe pas une méthode scientifique unique valable pour toujours ; les grandes avancées de la science ont souvent été obtenues en brisant les règles, c'est pourquoi « tout est bon ».",
-  "bio": "<p>Paul Feyerabend naquit à Vienne en 1924. Pendant la Seconde Guerre mondiale, il fut mobilisé par l'armée allemande et fut gravement blessé au front : une balle dans la colonne vertébrale l'obligea à marcher avec une canne et lui causa des douleurs le reste de sa vie. À la fin de la guerre, il étudia à Vienne et se rapprocha de la philosophie des sciences auprès de Karl Popper, à Londres. À partir de 1958, il fut professeur pendant des décennies à l'université de Californie, à Berkeley, et enseigna aussi à Zurich. Il mourut en Suisse en 1994.</p>\n<p>Feyerabend est connu pour son <strong>anarchisme méthodologique</strong>, défendu dans <em>Contre la méthode</em> (1975) : il soutint qu'il n'existe aucune règle de la méthode scientifique qui n'ait dû être brisée une fois ou l'autre pour que la science progresse, et il le résuma dans le mot d'ordre <strong>« tout est bon »</strong>. Il ne prétendait pas rejeter la science, mais en discuter l'autorité : il réclamait la <strong>séparation de la science et de l'État</strong>, tout comme celle de la religion et de l'État, afin qu'aucune vision du monde ne s'impose aux autres. Au programme, il apparaît comme le maillon le plus radical de la philosophie des sciences, en débat avec la falsifiabilité de Popper et les paradigmes de Kuhn.</p>",
+  "idea": "Il n'existe pas une méthode scientifique unique valable pour toujours ; les grandes avancées de la science ont souvent été obtenues en brisant les règles, c'est pourquoi « tout est bon ».",
+  "bio": "<p>Paul Feyerabend naquit à Vienne en 1924. Pendant la Seconde Guerre mondiale, il fut mobilisé par l'armée allemande et fut gravement blessé au front : une balle dans la colonne vertébrale l'obligea à marcher avec une canne et lui causa des douleurs le reste de sa vie. À la fin de la guerre, il étudia à Vienne et se rapprocha de la philosophie des sciences auprès de Karl Popper, à Londres. À partir de 1958, il fut professeur pendant des décennies à l'université de Californie, à Berkeley, et enseigna aussi à Zurich. Il mourut en Suisse en 1994.</p>\n<p>Feyerabend est connu pour son <strong>anarchisme méthodologique</strong>, défendu dans <em>Contre la méthode</em> (1975) : il soutint qu'il n'existe aucune règle de la méthode scientifique qui n'ait dû être brisée une fois ou l'autre pour que la science progresse, et il le résuma dans le mot d'ordre <strong>« tout est bon »</strong>. Il ne prétendait pas rejeter la science, mais en discuter l'autorité : il réclamait la <strong>séparation de la science et de l'État</strong>, tout comme celle de la religion et de l'État, afin qu'aucune vision du monde ne s'impose aux autres. Au programme, il apparaît comme le maillon le plus radical de la philosophie des sciences, en débat avec la falsifiabilité de Popper et les paradigmes de Kuhn.</p>",
   "obras": [
    "Contre la méthode (1975)",
    "La science dans une société libre (1978)",
    "Adieu la raison (1987)",
    "Tuer le temps (autobiographie, 1995)"
   ],
-  "anecdota": "<p>La douleur qui accompagna Feyerabend toute sa vie venait de la guerre. Selon ce qu'il raconte dans son autobiographie, en 1945, alors qu'il était officier de l'armée allemande pendant la retraite, il fut atteint de plusieurs tirs tandis qu'il réglait la circulation des troupes ; l'une des balles se logea dans sa colonne vertébrale. Il en garda des séquelles permanentes et marcha avec une canne à partir de ce moment. Il relata lui-même l'épisode avec un humour amer, sans héroïsme, comme l'un des hasards parmi d'autres qui avaient marqué sa biographie.</p>",
-  "fuente": "Paul Feyerabend, Tuer le temps (autobiographie, 1995) ; le mot d'ordre « tout est bon » dans Contre la méthode (1975)",
+  "anecdota": "<p>La douleur qui accompagna Feyerabend toute sa vie venait de la guerre. Selon ce qu'il raconte dans son autobiographie, en 1945, alors qu'il était officier de l'armée allemande pendant la retraite, il fut atteint de plusieurs tirs tandis qu'il réglait la circulation des troupes ; l'une des balles se logea dans sa colonne vertébrale. Il en garda des séquelles permanentes et marcha avec une canne à partir de ce moment. Il relata lui-même l'épisode avec un humour amer, sans héroïsme, comme l'un des hasards parmi d'autres qui avaient marqué sa biographie.</p>",
+  "fuente": "Paul Feyerabend, Tuer le temps (autobiographie, 1995) ; le mot d'ordre « tout est bon » dans Contre la méthode (1975)",
   "tradicion": false,
   "block": "con",
   "subjects": [
@@ -5338,15 +5846,15 @@ const ILUSTRES = {
   "died": 1995,
   "place": "Paris (France)",
   "role": "philosophe français de la différence et du désir",
-  "idea": "La philosophie ne décrit pas des essences éternelles, mais crée des concepts pour penser la différence et le changement ; et le désir n'est pas un manque, mais une force qui produit des liens et des mondes.",
-  "bio": "<p>Gilles Deleuze naquit à Paris en 1925 et y passa presque toute sa vie. Il fut professeur à l'université de Paris VIII (Vincennes), où ses cours, ouverts à quiconque voulait entrer, devinrent célèbres. À partir de 1969, il écrivit plusieurs livres avec le psychanalyste Félix Guattari. Malade des poumons pendant des années, il mourut à Paris en 1995.</p>\n<p>Dans <em>Différence et répétition</em> (1968), il soutient que la philosophie a donné trop d'importance à l'identique et au général, et revendique la <strong>différence</strong> comme quelque chose de premier, non comme une simple comparaison entre des choses déjà données. Avec Guattari, il défend que le <strong>désir</strong> n'est pas un manque privé, mais une force qui produit des relations, des images et des institutions, et il propose l'image du <strong>rhizome</strong> : une façon de penser faite de connexions multiples, sans centre ni hiérarchie fixe, face au modèle de l'arbre. Au programme, il apparaît comme l'une des voix de la postmodernité (thème 23) et, surtout, pour sa lecture de Spinoza : pour Deleuze, Spinoza est le philosophe de la joie et de la <strong>puissance</strong>, et la question « que peut un corps ? » résume sa manière de comprendre l'éthique.</p>",
+  "idea": "La philosophie ne décrit pas des essences éternelles, mais crée des concepts pour penser la différence et le changement ; et le désir n'est pas un manque, mais une force qui produit des liens et des mondes.",
+  "bio": "<p>Gilles Deleuze naquit à Paris en 1925 et y passa presque toute sa vie. Il fut professeur à l'université de Paris VIII (Vincennes), où ses cours, ouverts à quiconque voulait entrer, devinrent célèbres. À partir de 1969, il écrivit plusieurs livres avec le psychanalyste Félix Guattari. Malade des poumons pendant des années, il mourut à Paris en 1995.</p>\n<p>Dans <em>Différence et répétition</em> (1968), il soutient que la philosophie a donné trop d'importance à l'identique et au général, et revendique la <strong>différence</strong> comme quelque chose de premier, non comme une simple comparaison entre des choses déjà données. Avec Guattari, il défend que le <strong>désir</strong> n'est pas un manque privé, mais une force qui produit des relations, des images et des institutions, et il propose l'image du <strong>rhizome</strong> : une façon de penser faite de connexions multiples, sans centre ni hiérarchie fixe, face au modèle de l'arbre. Au programme, il apparaît comme l'une des voix de la postmodernité (thème 23) et, surtout, pour sa lecture de Spinoza : pour Deleuze, Spinoza est le philosophe de la joie et de la <strong>puissance</strong>, et la question « que peut un corps ? » résume sa manière de comprendre l'éthique.</p>",
   "obras": [
    "Nietzsche et la philosophie (1962)",
    "Différence et répétition (1968)",
    "L'Anti-Œdipe (1972, avec Félix Guattari)",
    "Mille plateaux (1980, avec Félix Guattari)"
   ],
-  "anecdota": "<p>En 1988 et 1989, Deleuze accepta d'enregistrer avec la journaliste Claire Parnet un long entretien d'environ huit heures, organisé comme un abécédaire : un mot par lettre, de A comme « Animal » à Z comme « Zigzag ». Il posa comme condition initiale qu'il ne soit pas diffusé avant sa mort, même s'il en autorisa finalement la diffusion : la série, connue sous le nom d'<em>Abécédaire de Gilles Deleuze</em>, fut diffusée sur la chaîne Arte entre 1994 et 1995, lors de sa dernière année de vie, et est devenue l'une des manières les plus répandues d'approcher sa pensée.</p>",
+  "anecdota": "<p>En 1988 et 1989, Deleuze accepta d'enregistrer avec la journaliste Claire Parnet un long entretien d'environ huit heures, organisé comme un abécédaire : un mot par lettre, de A comme « Animal » à Z comme « Zigzag ». Il posa comme condition initiale qu'il ne soit pas diffusé avant sa mort, même s'il en autorisa finalement la diffusion : la série, connue sous le nom d'<em>Abécédaire de Gilles Deleuze</em>, fut diffusée sur la chaîne Arte entre 1994 et 1995, lors de sa dernière année de vie, et est devenue l'une des manières les plus répandues d'approcher sa pensée.</p>",
   "fuente": "François Dosse, Gilles Deleuze et Félix Guattari. Biographies croisées (2007)",
   "tradicion": false,
   "block": "con",
@@ -5492,6 +6000,31 @@ const ILUSTRES = {
    "hf-posmodernidad"
   ]
  },
+ "heller": {
+  "name": "Ágnes Heller",
+  "dates": "1929 – 2019",
+  "born": 1929,
+  "died": 2019,
+  "place": "Budapest",
+  "role": "philosophe",
+  "idea": "À partir d'un marxisme renouvelé, elle pensa la vie quotidienne comme base du social et les « besoins radicaux » comme moteur du changement ; elle défendit ensuite la démocratie face à la « dictature des besoins » du socialisme réel.",
+  "bio": "<p>Ágnes Heller naquit en 1929 à Budapest, dans une famille juive. Son père mourut à Auschwitz et elle-même, avec sa mère, parvint à survivre à la persécution nazie. Elle étudia la philosophie après avoir écouté le marxiste <strong>Georg Lukács</strong>, qui fut son maître ; avec d'autres disciples, elle forma l'<strong>École de Budapest</strong>, qui cherchait à repenser le marxisme à partir du jeune Marx.</p>\n<p>Sa pensée tourne autour de trois idées : la <strong>vie quotidienne</strong> comme domaine fondamental du social (« sans elle, il n'y a pas de société »), la <strong>théorie des besoins radicaux</strong> —ceux que le capitalisme ne peut satisfaire et qui poussent au changement— et une <strong>éthique de la personnalité</strong>. En appliquant sa propre théorie au socialisme soviétique, elle vit que celui-ci était devenu une « dictature des besoins » ; cette critique la conduisit à l'exil en 1977, en Australie puis à New York, où elle occupa la chaire de Hannah Arendt.</p>\n<p>Avec les années, elle défendit la démocratie libérale comme cadre le plus juste pour « une vie bonne », sans renoncer à ses racines matérialistes. Elle revint en Hongrie en 1989 et continua d'enseigner. Elle apparaît dans le programme comme un exemple du renouveau critique du marxisme au XXe siècle.</p>",
+  "obras": [
+   "La Théorie des besoins chez Marx",
+   "Sociologie de la vie quotidienne",
+   "Une philosophie de l'histoire en fragments"
+  ],
+  "anecdota": "<p>Rescapée du ghetto de Budapest et de l'exil politique, Heller avait coutume de dire que, jetés dans la contingence, nous pouvons nous forger notre propre destin. Elle mourut en 2019, à quatre-vingt-dix ans, alors qu'elle nageait dans le lac Balaton, comme chaque matin.</p>",
+  "fuente": "Ágnes Heller, *La Théorie des besoins chez Marx* et *Sociologie de la vie quotidienne* ; adapté de Lola Cabrera Trigo, *El pensamiento en femenino plural* (Erein, collection « En diálogo con… » ; CC BY-NC-SA 4.0)",
+  "tradicion": true,
+  "block": "con",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-filosofas-dialogo"
+  ]
+ },
  "derrida": {
   "name": "Jacques Derrida",
   "dates": "1930 – 2004",
@@ -5525,16 +6058,16 @@ const ILUSTRES = {
   "died": 2007,
   "place": "New York (États-Unis)",
   "role": "philosophe américain, représentant du néopragmatisme",
-  "idea": "Il n'y a pas de vérité qui soit une copie exacte de la réalité ni de fondement ultime du savoir ; en démocratie, il vaut mieux remplacer la recherche de la Vérité par la conversation, l'ironie et la solidarité.",
-  "bio": "<p>Richard Rorty naquit à New York en 1931, fils de deux écrivains de gauche opposés à Staline. Il étudia aux universités de Chicago et de Yale. Il enseigna la philosophie à Princeton, où il se forma au sein de la philosophie analytique, puis à l'université de Virginie et à Stanford, cette fois comme professeur de sciences humaines. Il mourut à Palo Alto, en Californie, en 2007.</p>\n<p>Rorty reprit la tradition pragmatiste américaine de Dewey et James et rompit avec l'idée que l'esprit est un <strong>miroir</strong> qui reflète la réalité telle qu'elle est : il consacra à cette image <em>La Philosophie et le Miroir de la nature</em> (1979). Pour lui, il n'y a pas de <strong>vérité</strong> entendue comme copie exacte du monde ni de fondement ultime de la connaissance ; la vérité est plutôt ce qu'une communauté accepte après l'avoir mis à l'épreuve. Dans <em>Contingence, ironie et solidarité</em> (1989), il soutint que, dans une démocratie libérale, plutôt que de chercher un fondement absolu, il vaut mieux prendre soin de la <strong>conversation</strong>, de l'ironie (savoir que son propre vocabulaire n'est pas sacré) et de la <strong>solidarité</strong>. Sur le site, il apparaît dans le thème de la postmodernité de Philosophie : après la critique du soupçon, il propose de remplacer la dispute sur qui possède la Vérité par la conversation démocratique, sans que la vérité ou la justice cessent pour autant d'importer.</p>",
+  "idea": "Il n'y a pas de vérité qui soit une copie exacte de la réalité ni de fondement ultime du savoir ; en démocratie, il vaut mieux remplacer la recherche de la Vérité par la conversation, l'ironie et la solidarité.",
+  "bio": "<p>Richard Rorty naquit à New York en 1931, fils de deux écrivains de gauche opposés à Staline. Il étudia aux universités de Chicago et de Yale. Il enseigna la philosophie à Princeton, où il se forma au sein de la philosophie analytique, puis à l'université de Virginie et à Stanford, cette fois comme professeur de sciences humaines. Il mourut à Palo Alto, en Californie, en 2007.</p>\n<p>Rorty reprit la tradition pragmatiste américaine de Dewey et James et rompit avec l'idée que l'esprit est un <strong>miroir</strong> qui reflète la réalité telle qu'elle est : il consacra à cette image <em>La Philosophie et le Miroir de la nature</em> (1979). Pour lui, il n'y a pas de <strong>vérité</strong> entendue comme copie exacte du monde ni de fondement ultime de la connaissance ; la vérité est plutôt ce qu'une communauté accepte après l'avoir mis à l'épreuve. Dans <em>Contingence, ironie et solidarité</em> (1989), il soutint que, dans une démocratie libérale, plutôt que de chercher un fondement absolu, il vaut mieux prendre soin de la <strong>conversation</strong>, de l'ironie (savoir que son propre vocabulaire n'est pas sacré) et de la <strong>solidarité</strong>. Sur le site, il apparaît dans le thème de la postmodernité de Philosophie : après la critique du soupçon, il propose de remplacer la dispute sur qui possède la Vérité par la conversation démocratique, sans que la vérité ou la justice cessent pour autant d'importer.</p>",
   "obras": [
    "La Philosophie et le Miroir de la nature (1979)",
    "Conséquences du pragmatisme (1982)",
    "Contingence, ironie et solidarité (1989)",
    "Forger notre pays (1998)"
   ],
-  "anecdota": "<p>En 1992, Rorty publia un essai autobiographique, « Trotsky et les orchidées sauvages », dans lequel il racontait comment, enfant, il essayait de concilier deux choses qui semblaient ne pas s'accorder : l'engagement pour la justice sociale dont il avait hérité de ses parents et son goût privé, presque secret, pour la recherche d'orchidées sauvages dans les montagnes du nord-ouest du New Jersey. Pendant des années, disait-il, il chercha une vérité unique qui réunirait « Trotsky » et « les orchidées », jusqu'à ce qu'il en vienne à penser que ce n'était pas nécessaire : le public, c'est-à-dire la solidarité, et le privé, la beauté qui importe à chacun, pouvaient suivre des chemins différents. De cette tentative naquit une bonne partie de sa philosophie.</p>",
-  "fuente": "Richard Rorty, « Trotsky et les orchidées sauvages » (1992), repris dans Filosofía y futuro (éd. esp., Gedisa, 2002)",
+  "anecdota": "<p>En 1992, Rorty publia un essai autobiographique, « Trotsky et les orchidées sauvages », dans lequel il racontait comment, enfant, il essayait de concilier deux choses qui semblaient ne pas s'accorder : l'engagement pour la justice sociale dont il avait hérité de ses parents et son goût privé, presque secret, pour la recherche d'orchidées sauvages dans les montagnes du nord-ouest du New Jersey. Pendant des années, disait-il, il chercha une vérité unique qui réunirait « Trotsky » et « les orchidées », jusqu'à ce qu'il en vienne à penser que ce n'était pas nécessaire : le public, c'est-à-dire la solidarité, et le privé, la beauté qui importe à chacun, pouvaient suivre des chemins différents. De cette tentative naquit une bonne partie de sa philosophie.</p>",
+  "fuente": "Richard Rorty, « Trotsky et les orchidées sauvages » (1992), repris dans Filosofía y futuro (éd. esp., Gedisa, 2002)",
   "tradicion": false,
   "block": "con",
   "subjects": [

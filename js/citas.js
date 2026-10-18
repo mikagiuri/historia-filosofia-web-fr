@@ -648,6 +648,14 @@ const CITAS = [
   "uso": "Pour ouvrir un thème sur la connaissance scientifique et la relation entre l'esprit et la réalité, ou dans une dissertation sur l'étonnement philosophique."
  },
  {
+  "c": "Le féminisme est un enfant non désiré des Lumières.",
+  "a": "Amelia Valcárcel",
+  "o": "« La mémoire collective et les défis du féminisme » (2000)",
+  "e": "contemporaine",
+  "sen": "Le féminisme naît du fait de prendre au sérieux l'égalité et l'universalité proclamées par les Lumières et de les appliquer aussi aux femmes, à qui les Lumières elles-mêmes les avaient refusées.",
+  "uso": "Pour expliquer le féminisme des Lumières (Poulain de la Barre, Mary Wollstonecraft) et la relation entre les Lumières et l'égalité."
+ },
+ {
   "c": "La triste vérité est que la plus grande partie du mal est commise par des gens qui ne décident jamais d'être bons ou mauvais.",
   "a": "Arendt",
   "o": "La Vie de l'esprit (1978), vol. I, « La pensée »",

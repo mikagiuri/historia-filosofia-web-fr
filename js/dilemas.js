@@ -486,7 +486,7 @@ const DILEMAS = [
   ],
   "ysi": "Et si ta camarade, arrivée au pouvoir, se révélait aussi cruelle qu'elle disait que l'était le groupe ? Nietzsche dirait que le maître n'est pas cruel par ressentiment mais par excès de force. Y a-t-il une différence pour la victime ?",
   "pau": "« Les valeurs morales ont-elles une histoire, ou sont-elles éternelles ? » Réfléchis en 200-300 mots à partir de la généalogie de Nietzsche et d'au moins une autre position (Kant, Marx ou Beauvoir), avec un exemple actuel.",
-  "dato": "On répète depuis des décennies qu'Elisabeth, la sœur de Nietzsche, aurait profondément manipulé ses manuscrits pour les mettre au service du nazisme. La philologie l'a corrigé : elle n'a guère altéré ses écrits. Ce qu'elle a fait, c'est publier en 1901, après son effondrement, un recueil de notes éparses comme s'il s'agissait de son grand livre : « La Volonté de puissance »."
+  "dato": "On répète depuis des décennies qu'Elisabeth, la sœur de Nietzsche, aurait profondément manipulé ses manuscrits pour les mettre au service du nazisme. La philologie l'a corrigé : elle n'a guère altéré ses écrits. Ce qu'elle a fait, c'est publier en 1901, après son effondrement, un recueil de notes éparses comme s'il s'agissait de son grand livre : « La Volonté de puissance »."
  },
  {
   "subject": "hf",

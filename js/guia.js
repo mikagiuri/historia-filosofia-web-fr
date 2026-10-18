@@ -165,7 +165,7 @@ const GUIA = {
      "view": "epocas"
     },
     {
-     "nombre": "Illustres",
+     "nombre": "Biographies",
      "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions.",
      "view": "ilustres"
     },

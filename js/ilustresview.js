@@ -122,7 +122,7 @@ function renderIluControls(){
     '<div class="fgroup"><span class="flabel">Ordre</span>' +
       '<button class="fbtn" data-iord="cron" aria-pressed="' + (iluOrden === "cron") + '">Par date</button>' +
       '<button class="fbtn" data-iord="alfa" aria-pressed="' + (iluOrden === "alfa") + '">Alphabétique</button></div>' +
-    '<div class="ilu-tools"><input class="ilu-search" id="ilusearch" type="search" placeholder="Chercher un penseur, une œuvre ou une idée…" autocomplete="off" aria-label="Chercher dans Illustres"></div>';
+    '<div class="ilu-tools"><input class="ilu-search" id="ilusearch" type="search" placeholder="Chercher un penseur, une œuvre ou une idée…" autocomplete="off" aria-label="Chercher dans Biographies"></div>';
   box.querySelectorAll("[data-iamb]").forEach(b => b.addEventListener("click", () => {
     iluAmb = b.dataset.iamb;
     box.querySelectorAll("[data-iamb]").forEach(x => x.setAttribute("aria-pressed", x.dataset.iamb === iluAmb));
@@ -282,7 +282,7 @@ function iluAbrirGlosario(t, sub){
    los pensadores de esa época en Ilustres (calculado) y el paso a la época siguiente. */
 const ILU_EPO = { ver: "Voir la fiche de l’époque", abre: "Ce qui l’ouvre", social: "Société", politico: "Politique",
   ciencia: "Science et technique", arte: "Art", pensamiento: "Pensée", pensadores: "Penseurs de cette époque", rupturas: "Ruptures et transitions",
-  trampa: "Piège", epoca: "Époque", volver: "← Tous les illustres" };
+  trampa: "Piège", epoca: "Époque", volver: "← Toutes les biographies" };
 function iluListaPlegada(items, n){
   const resto = items.slice(n);
   return items.slice(0, n).join(", ") + (resto.length ? ' <details class="ilu-conc-mas"><summary>' + ILU_REL.mas.replace("{n}", resto.length) + '</summary>' + resto.join(", ") + '</details>' : '');
@@ -355,7 +355,7 @@ function loadIlustre(id){
   const i = seq.findIndex(x => x.id === id), prev = seq[i - 1], next = seq[i + 1];
   const r = iluRetrato(p);
   box.innerHTML =
-    '<div class="ilu-nav"><button class="btn ghost" data-back>← Tous les illustres</button>' +
+    '<div class="ilu-nav"><button class="btn ghost" data-back>← Toutes les biographies</button>' +
     '<span class="ilu-pn">' +
       (prev ? '<button class="btn ghost" data-go-ilu="' + iluEsc(prev.id) + '" title="' + iluEsc(prev.name) + '">‹ Précédent</button>' : '') +
       (next ? '<button class="btn ghost" data-go-ilu="' + iluEsc(next.id) + '" title="' + iluEsc(next.name) + '">Suivant ›</button>' : '') +
@@ -412,7 +412,7 @@ function iluInjectTheory(){
   if (!ps.length) return;
   const strip = document.createElement("aside");
   strip.className = "ilu-strip";
-  strip.innerHTML = '<h3>Illustres de ce thème</h3><div class="ilu-strip-list">' +
+  strip.innerHTML = '<h3>Biographies de ce thème</h3><div class="ilu-strip-list">' +
     ps.map(p => '<button data-ilu="' + iluEsc(p.id) + '" data-b="' + p.block + '">' + iluEsc(p.name) + '<span>' + iluEsc(p.dates) + '</span></button>').join("") + '</div>';
   body.appendChild(strip);
   strip.querySelectorAll("[data-ilu]").forEach(b => b.addEventListener("click", () => {

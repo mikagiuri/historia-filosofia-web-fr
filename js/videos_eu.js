@@ -223,7 +223,7 @@ const VIDEOS_EU = [
  {
   "id": "i4fqB-UH8qc",
   "eu_titulo": "Ideia jakin batzuk barneratuta jaiotzen gara? | ENPIRISMOA",
-  "es": "Naissons-nous avec certaines idées déjà en nous ? L'empirisme",
+  "es": "Naissons-nous avec certaines idées déjà en nous ? L'empirisme",
   "dur": "8:01",
   "ilustre": [],
   "temas": [
@@ -234,7 +234,7 @@ const VIDEOS_EU = [
  {
   "id": "rdt7Nktw1UE",
   "eu_titulo": "Arauak behar ditugu gizartean bizitzeko? | KONTRAKTUALISMOA",
-  "es": "Avons-nous besoin de règles pour vivre en société ? Le contractualisme",
+  "es": "Avons-nous besoin de règles pour vivre en société ? Le contractualisme",
   "dur": "8:53",
   "ilustre": [],
   "temas": [
@@ -245,7 +245,7 @@ const VIDEOS_EU = [
  {
   "id": "XMEhVUZEON0",
   "eu_titulo": "Nola izan zoriontsu? | ESTOIZISMOA",
-  "es": "Comment être heureux ? Le stoïcisme",
+  "es": "Comment être heureux ? Le stoïcisme",
   "dur": "7:33",
   "ilustre": [],
   "temas": [
@@ -256,7 +256,7 @@ const VIDEOS_EU = [
  {
   "id": "BF0ZX6H2ENw",
   "eu_titulo": "Nola dakigu ez garela simulazio batean bizi? | ESZEPTIZISMO KARTESIARRA",
-  "es": "Comment savons-nous que nous ne vivons pas dans une simulation ? Le scepticisme cartésien",
+  "es": "Comment savons-nous que nous ne vivons pas dans une simulation ? Le scepticisme cartésien",
   "dur": "7:13",
   "ilustre": [],
   "temas": [
@@ -277,7 +277,7 @@ const VIDEOS_EU = [
  {
   "id": "SWufM6vrbuI",
   "eu_titulo": "Ezin bada frogatu, ez da nire iraultza | POSITIBISMOA",
-  "es": "Si ça ne se prouve pas, ce n'est pas ma révolution : le positivisme",
+  "es": "Si ça ne se prouve pas, ce n'est pas ma révolution : le positivisme",
   "dur": "8:36",
   "ilustre": [],
   "temas": [
@@ -313,7 +313,7 @@ const VIDEOS_EU = [
  {
   "id": "4YDjEghhQYU",
   "eu_titulo": "Zoriontsu izateko formula? | EPIKUREISMOA",
-  "es": "Une formule pour être heureux ? L'épicurisme",
+  "es": "Une formule pour être heureux ? L'épicurisme",
   "dur": "8:09",
   "ilustre": [],
   "temas": [
@@ -324,7 +324,7 @@ const VIDEOS_EU = [
  {
   "id": "e-l8L6EzsFg",
   "eu_titulo": "Nork urratu du emakumeen askapen bidea? | EMAKUMEEN AUZIA",
-  "es": "Qui a ouvert la voie de la libération des femmes ? La question des femmes",
+  "es": "Qui a ouvert la voie de la libération des femmes ? La question des femmes",
   "dur": "9:37",
   "ilustre": [],
   "temas": [
@@ -339,13 +339,13 @@ const VIDEOS_EU = [
   "dur": "9:06",
   "ilustre": [],
   "temas": [
-   "hf-capitalismo"
+   "hf-silicon-valley"
   ]
  },
  {
   "id": "BHKYDCE3Qss",
   "eu_titulo": "Utopiak, zergatik eta zertarako? | UTOPIAK",
-  "es": "Les utopies : pourquoi et pour quoi faire ?",
+  "es": "Les utopies : pourquoi et pour quoi faire ?",
   "dur": "8:28",
   "ilustre": [],
   "temas": [
@@ -366,7 +366,7 @@ const VIDEOS_EU = [
  {
   "id": "N6tM9u5OwN0",
   "eu_titulo": "Adimen artifizialak artea egin dezake?",
-  "es": "L'intelligence artificielle peut-elle faire de l'art ?",
+  "es": "L'intelligence artificielle peut-elle faire de l'art ?",
   "dur": "6:53",
   "ilustre": [],
   "temas": [
@@ -376,21 +376,23 @@ const VIDEOS_EU = [
  {
   "id": "9AO8Vg3UuAI",
   "eu_titulo": "Teknozientzia: zientzia enpresa teknologiko handien esku?",
-  "es": "La technoscience : la science aux mains des grandes entreprises technologiques ?",
+  "es": "La technoscience : la science aux mains des grandes entreprises technologiques ?",
   "dur": "6:07",
   "ilustre": [],
   "temas": [
-   "hf-siglo21"
+   "hf-siglo21",
+   "hf-silicon-valley"
   ]
  },
  {
   "id": "puKloEvxJ0k",
   "eu_titulo": "Teknologiari begiratzeko bi modu: teknopositibismoa vs luddismoa",
-  "es": "Deux façons de regarder la technologie : technopositivisme contre luddisme",
+  "es": "Deux façons de regarder la technologie : technopositivisme contre luddisme",
   "dur": "4:21",
   "ilustre": [],
   "temas": [
-   "hf-siglo21"
+   "hf-siglo21",
+   "hf-silicon-valley"
   ]
  }
 ];

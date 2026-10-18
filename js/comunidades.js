@@ -653,6 +653,144 @@ const COMUNIDADES = [
   ]
  },
  {
+  "id": "coterie-holbach",
+  "cas_ilu": [
+   "holbach",
+   "diderot",
+   "helvetius",
+   "dalembert",
+   "hume",
+   "rousseau"
+  ],
+  "nombre": "Le cercle du baron d'Holbach (la « coterie holbachique »)",
+  "fechas": "Paris et Grandval, vers 1750 – 1789",
+  "cas_epoca": "ilu",
+  "lugar": "La maison du baron d'Holbach, rue Royale, butte Saint-Roch, au centre de Paris. Deux fois par semaine, le jeudi et le dimanche, on y donnait de longs dîners où l'on parlait avec une liberté qu'on ne trouvait presque nulle part ailleurs en Europe. L'été, le groupe partait à la campagne, dans la maison de la famille de l'épouse d'Holbach à Grandval, dans la vallée de la Marne, au sud-est de Paris, où Diderot passait des semaines entières et d'où il écrivait ses lettres à Sophie Volland.",
+  "hoy": "L'ancienne rue Royale, butte Saint-Roch a été absorbée par le tracé de l'actuel 1er arrondissement de Paris, près de l'église Saint-Roch, et il ne reste rien de signalé de la maison d'Holbach. Le domaine de Grandval se trouvait sur ce qui est aujourd'hui Sucy-en-Brie (Val-de-Marne) ; nous n'avons pu confirmer son état actuel par aucune source fiable.",
+  "miembros": "L'hôte était Paul-Henri Thiry, baron d'Holbach, un Allemand établi à Paris qui avait hérité d'une grande fortune. L'âme du groupe était son ami intime Denis Diderot, directeur de l'Encyclopédie. Y venaient souvent Helvétius, le critique Friedrich Melchior Grimm (qui rapportait ces réunions dans sa Correspondance littéraire), l'abbé Raynal, l'abbé Morellet, l'écrivain Marmontel et Jacques-André Naigeon, secrétaire et collaborateur d'Holbach qui éditerait plus tard ses œuvres. D'Alembert, codirecteur de l'Encyclopédie, y venait aussi. Et à cette table défilèrent de célèbres voyageurs étrangers : David Hume, Adam Smith, Laurence Sterne, Edward Gibbon, Cesare Beccaria ou Benjamin Franklin. Rousseau fut parmi les premiers à fréquenter le groupe, mais il finit par rompre avec lui. (Grimm, Raynal, Morellet, Marmontel et Naigeon n'ont pas ici de fiche propre.)",
+  "vida": "Ce n'était ni une école ni une académie, mais un cercle d'amis : on y mangeait bien et on y discutait de tout pendant des heures, de science, de religion, de politique et de morale. Beaucoup d'entre eux écrivaient dans l'Encyclopédie ; Holbach lui-même rédigea plusieurs centaines d'articles, surtout de chimie, de minéralogie et de science allemande, qu'il traduisait. La maison fonctionnait en outre comme une petite imprimerie clandestine d'idées : c'est de là que sortaient, sous de faux noms et éditées hors de France, les œuvres les plus audacieuses du groupe.",
+  "ideas": "Ils formaient l'aile la plus radicale des Lumières françaises. Ils défendaient un matérialisme complet (seule existe la matière en mouvement, la pensée aussi), une critique frontale de la religion et une morale fondée sur la raison et sur la recherche du bonheur commun, non sur la récompense ou le châtiment d'une autre vie. Holbach fut l'un des premiers auteurs à se déclarer ouvertement athées. Tous ne pensaient pas de même —Hume n'était pas athée et discutait avec eux, et beaucoup préféraient un déisme plus prudent—, mais ils partageaient la conviction qu'aucune autorité, ni l'Église ni le roi, ne devait échapper à l'examen de la raison.",
+  "cita": {
+   "t": "Regardez autour de la table : nous sommes dix-huit ; quinze sont tout simplement athées, et les trois autres ne l'ont pas encore décidé.",
+   "ref": "Réponse du baron d'Holbach à David Hume —qui disait n'avoir jamais rencontré d'athée—, telle que la rapporte Diderot dans une lettre à Sophie Volland (octobre 1765) ; les chiffres varient quelque peu selon la version"
+  },
+  "fin": "Il ne prit pas fin d'un coup : il s'éteignit avec ses protagonistes. Helvétius mourut en 1771, Hume en 1776, Rousseau en 1778, d'Alembert en 1783 et Diderot en 1784. Holbach lui-même mourut à Paris le 21 janvier 1789, quelques mois avant que n'éclate la Révolution française. Aucun d'eux ne la vit. Naigeon continua d'éditer et de diffuser les œuvres du baron pendant la Révolution.",
+  "trampa": "Il est tentant de tracer une ligne droite —« les philosophes des Lumières ont préparé et provoqué la Révolution française »—, mais mieux vaut s'arrêter. Presque tous les membres du cercle étaient morts avant 1789, et la plupart n'étaient ni révolutionnaires ni démocrates : Holbach se méfiait des foules et espérait des réformes faites d'en haut, non une révolution venue d'en bas. Les historiens débattent de l'influence réelle de ces idées sur ce qui suivit (voir « Le débat »). Et autre confusion fréquente : « matérialiste » et « athée » ne signifiaient pas ici « égoïste » ni « sans morale » ; ils défendaient précisément une éthique raisonnée et le bonheur partagé.",
+  "pregunta": "Les idées discutées lors d'un dîner entre amis changent-elles le monde, ou seuls les faits le changent-ils ? Lorsque, après une révolution ou une catastrophe, on cherche des coupables parmi les penseurs qui ont précédé, explique-t-on ou accuse-t-on ?",
+  "temas": [
+   "hf-ilustracion",
+   "hf-metafisica",
+   "hf-contrato"
+  ],
+  "fuentes": [
+   {
+    "t": "Stanford Encyclopedia of Philosophy : Paul-Henri Thiry (Baron) d'Holbach",
+    "url": "https://plato.stanford.edu/entries/holbach/"
+   },
+   {
+    "t": "Wikipédia : Coterie holbachique",
+    "url": "https://en.wikipedia.org/wiki/Coterie_Holbachique"
+   },
+   {
+    "t": "Wikipédia : Baron d'Holbach",
+    "url": "https://es.wikipedia.org/wiki/Barón_d%27Holbach"
+   }
+  ],
+  "imgs": [
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_retrato.jpg",
+    "pie": "Le baron d'Holbach, portrait au crayon et à l'aquarelle de Louis Carrogis Carmontelle (1766)",
+    "page": "https://commons.wikimedia.org/wiki/File:D%27Holbach.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_enciclopedia.jpg",
+    "pie": "Frontispice de l'Encyclopédie de Diderot et d'Alembert, gravé en 1772 par Benoît-Louis Prévost d'après un dessin de Charles-Nicolas Cochin de 1764 : la Raison et la Philosophie soulèvent le voile qui couvre la Vérité. Holbach écrivit pour l'ouvrage de nombreux articles, surtout de chimie et de minéralogie.",
+    "page": "https://commons.wikimedia.org/wiki/File:Encyclopedie_frontispice_full.jpg"
+   },
+   {
+    "f": "media/galeria_museo/comunidades/coterie_holbach_sistema.jpg",
+    "pie": "Page de titre du Système de la nature (1770), l'œuvre la plus radicale d'Holbach, publiée sous le nom d'un auteur déjà mort, « M. Mirabaud », pour échapper à la censure",
+    "page": "https://commons.wikimedia.org/wiki/File:Systemedelanature.jpg"
+   }
+  ],
+  "cronologia": [
+   {
+    "a": "1723",
+    "t": "Naissance de Paul-Henri Thiry, futur baron d'Holbach, à Edesheim (Palatinat, actuelle Allemagne). Il grandira et fera fortune en France."
+   },
+   {
+    "a": "vers 1750",
+    "t": "Installé à Paris et à la tête d'une grande fortune, Holbach ouvre sa maison aux philosophes. Commencent les dîners du jeudi et du dimanche."
+   },
+   {
+    "a": "1751",
+    "t": "Paraît le premier tome de l'Encyclopédie, dirigée par Diderot et d'Alembert. Holbach y collabore avec des articles de science."
+   },
+   {
+    "a": "1759",
+    "t": "Le pouvoir révoque le privilège de l'Encyclopédie et l'ouvrage est interdit ; Diderot la poursuit en partie en secret."
+   },
+   {
+    "a": "vers 1761-1766",
+    "t": "Circule clandestinement Le Christianisme dévoilé, première grande attaque d'Holbach contre la religion."
+   },
+   {
+    "a": "1765",
+    "t": "David Hume, de passage à Paris, dîne chez d'Holbach : de là vient la célèbre anecdote sur les athées à table. Cette année-là paraissent, sous une fausse adresse d'imprimeur, les dix tomes de texte manquants de l'Encyclopédie."
+   },
+   {
+    "a": "1770",
+    "t": "Publication du Système de la nature sous le nom de « Mirabaud ». Le Parlement de Paris le condamne et le fait brûler ; Voltaire le réfute pour défendre son déisme."
+   },
+   {
+    "a": "1771",
+    "t": "Mort d'Helvétius, l'un des habitués du cercle."
+   },
+   {
+    "a": "1772",
+    "t": "Les tomes de planches de l'Encyclopédie sont achevés."
+   },
+   {
+    "a": "1784",
+    "t": "Mort de Diderot, l'ami le plus proche d'Holbach et l'âme du groupe (d'Alembert était mort en 1783)."
+   },
+   {
+    "a": "21 janvier 1789",
+    "t": "Mort du baron d'Holbach à Paris, quelques mois avant la Révolution."
+   },
+   {
+    "a": "14 juillet 1789",
+    "t": "Début de la Révolution française. Aucun des principaux membres du cercle ne la vit."
+   }
+  ],
+  "etapas": [
+   {
+    "nom": "La table se remplit",
+    "a": "vers 1750 – 1759",
+    "q": "Holbach, Diderot, Grimm, Rousseau (au début) et d'Alembert",
+    "d": "Le cercle naît autour des dîners d'Holbach, en plein démarrage de l'Encyclopédie. Rousseau fréquente le groupe, mais les désaccords grandissent et il finira par rompre avec ce qu'il appela avec mépris la « coterie holbachique »."
+   },
+   {
+    "nom": "Les années de l'Encyclopédie",
+    "a": "1751 – 1772",
+    "q": "Diderot, d'Alembert, Holbach, Helvétius, Marmontel, Morellet et Raynal",
+    "d": "Beaucoup des habitués écrivent dans l'Encyclopédie malgré l'interdiction. La maison devient aussi un point de rencontre des voyageurs étrangers éclairés qui passent par Paris."
+   },
+   {
+    "nom": "Les livres clandestins",
+    "a": "vers 1761 – 1776",
+    "q": "Holbach et son secrétaire Naigeon",
+    "d": "Holbach publie ses œuvres les plus audacieuses —elles culminent dans le Système de la nature (1770)— sous de faux noms et éditées hors de France. C'est le moment le plus combatif du matérialisme et de l'athéisme du groupe."
+   },
+   {
+    "nom": "La fin et le débat postérieur",
+    "a": "à partir de 1771",
+    "q": "Les derniers survivants et, ensuite, les historiens",
+    "d": "Le cercle s'éteint à la mort de ses membres, tous avant 1789. Depuis lors, on débat du rapport qu'ont eu ces idées avec la Révolution : l'historien Jonathan Israel situe ces « Lumières radicales » à l'origine des valeurs démocratiques de 1789, tandis que d'autres chercheurs nuancent cette thèse et rappellent que la plupart de ces philosophes n'étaient ni révolutionnaires ni démocrates."
+   }
+  ]
+ },
+ {
   "id": "escuela-francfort",
   "cas_ilu": [
    "horkheimer",

@@ -2969,6 +2969,32 @@ const ILUSTRES = {
    "hf-sospecha"
   ]
  },
+ "jefferson": {
+  "name": "Thomas Jefferson",
+  "dates": "1743 – 1826",
+  "born": 1743,
+  "died": 1826,
+  "place": "Shadwell, Virginie (colonies britanniques d'Amérique)",
+  "role": "homme politique des Lumières américain, auteur de la Déclaration d'indépendance",
+  "idea": "Tous les êtres humains ont des droits naturels, comme la vie, la liberté et la recherche du bonheur ; les gouvernements existent pour les protéger, tirent leur pouvoir du consentement des gouvernés et doivent se séparer de la religion.",
+  "bio": "<p>Thomas Jefferson naquit en Virginie, dans une famille de planteurs, et étudia le droit au College of William &amp; Mary. Il fut le principal rédacteur de la <strong>Déclaration d'indépendance</strong> des États-Unis (1776), ambassadeur en France à la veille de la Révolution, secrétaire d'État sous Washington et troisième président du pays (1801-1809). Dans sa vieillesse, il fonda l'université de Virginie. Il mourut dans sa maison de Monticello le 4 juillet 1826, cinquante ans jour pour jour après la Déclaration.</p>\n<p>La Déclaration reprend la théorie des droits naturels et du contrat social de <strong>Locke</strong> : tous les hommes sont créés égaux, avec des droits inaliénables à « la vie, la liberté et la recherche du bonheur », et si un gouvernement les viole, le peuple peut le changer. Jefferson défendit aussi la <strong>liberté religieuse</strong> et un « mur de séparation » entre l'Église et l'État. Sa grande contradiction : il proclama l'égalité et fut en même temps propriétaire de centaines de personnes réduites en esclavage tout au long de sa vie.</p>",
+  "obras": [
+   "Déclaration d'indépendance (1776)",
+   "Notes sur l'État de Virginie (1785)",
+   "Statut de la Virginie pour la liberté religieuse (1786)",
+   "La Vie et la morale de Jésus de Nazareth (1820)"
+  ],
+  "anecdota": "<p>Jefferson prépara sa propre version des Évangiles : avec une lame, il découpa dans plusieurs exemplaires de la Bible les versets qui contenaient les enseignements moraux de Jésus et les colla dans l'ordre, en laissant de côté les miracles et le surnaturel. Il écrivit à John Adams que séparer l'authentique était aussi facile que de distinguer des diamants dans un tas de fumier. Le volume, connu sous le nom de « Bible de Jefferson », est conservé à la Smithsonian Institution.</p>",
+  "fuente": "Lettre de Jefferson à John Adams (12-10-1813) ; exemplaire original à la Smithsonian Institution (Washington)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": [
+   "hf-metafisica"
+  ]
+ },
  "jacobi": {
   "name": "Friedrich Heinrich Jacobi",
   "dates": "1743 – 1819",
@@ -3349,6 +3375,28 @@ const ILUSTRES = {
   "temas": [
    "hf-kant-poetas"
   ]
+ },
+ "malthus": {
+  "name": "Thomas Robert Malthus",
+  "dates": "1766 – 1834",
+  "born": 1766,
+  "died": 1834,
+  "place": "Surrey (Angleterre)",
+  "role": "pasteur et économiste anglais",
+  "idea": "Si rien ne la freine, la population croît bien plus vite que les ressources alimentaires ; c'est pourquoi la faim, la maladie et la misère agissent comme un frein, à moins que les gens ne limitent les naissances.",
+  "bio": "<p>Thomas Robert Malthus naquit dans le Surrey, dans une famille aisée ; son père était un ami de Rousseau. Il étudia à l'université de Cambridge et fut ordonné pasteur de l'Église anglicane. À partir de 1805, il enseigna l'histoire et l'économie politique au collège de la Compagnie des Indes orientales, et fut le premier professeur d'économie politique d'Angleterre. Il discuta pendant des années avec son ami l'économiste David Ricardo. Il mourut à Bath en 1834.</p>\n<p>Dans l'<em>Essai sur le principe de population</em> (1798), écrit contre l'optimisme de <strong>Godwin</strong> et de <strong>Condorcet</strong>, il soutient que la population tend à croître en progression géométrique (1, 2, 4, 8…) et les ressources alimentaires seulement en progression arithmétique (1, 2, 3, 4…). C'est pourquoi le progrès indéfini est impossible : la faim, la maladie et la guerre freinent la population, et la seule chose qui puisse les éviter est la « contrainte morale » (se marier tard et ne pas avoir plus d'enfants que l'on ne peut nourrir). Ses idées influencèrent les lois contre l'aide aux pauvres et, des années plus tard, Darwin.</p>",
+  "obras": [
+   "Essai sur le principe de population (1798 ; édition augmentée, 1803)",
+   "Principes d'économie politique (1820)"
+  ],
+  "anecdota": "<p>En octobre 1838, Charles Darwin lut « pour se distraire » l'<em>Essai sur le principe de population</em>. Il y trouva l'idée qui lui manquait : si naissent bien plus d'êtres que ceux qui peuvent survivre, dans la lutte pour l'existence se conserveront les variations favorables et disparaîtront les défavorables. Ainsi, racontait Darwin, il eut enfin une théorie avec laquelle travailler : la sélection naturelle.</p>",
+  "fuente": "Charles Darwin, Autobiographie (1887)",
+  "tradicion": false,
+  "block": "ilu",
+  "subjects": [
+   "hf"
+  ],
+  "temas": []
  },
  "schleiermacher": {
   "name": "Friedrich Schleiermacher",

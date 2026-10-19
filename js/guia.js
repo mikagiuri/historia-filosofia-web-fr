@@ -3,7 +3,7 @@ const GUIA = {
  "ui": {
   "titulo": "Comment utiliser le site",
   "eyebrow": "Guide pour les élèves",
-  "lead": "Ce qu’il y a sur le site et comment en tirer parti pour étudier, s’entraîner et préparer les examens. Les captures d’écran montrent le site sur ordinateur, sauf indication contraire.",
+  "lead": "Ce qu’il y a sur le site et comment en tirer parti pour étudier, t’entraîner et préparer les examens. Les captures montrent le site sur ordinateur et en mode nuit, sauf indication contraire.",
   "abrir": "Ouvrir",
   "pie": "Comment utiliser ce site ? Guide avec captures d’écran",
   "pdf": "Télécharger ce guide en PDF",
@@ -31,13 +31,17 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
+   "x": "Le menu a <strong>cinq onglets</strong>. Les trois premiers sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Le menu n’a <strong>que trois onglets</strong>, classés par importance : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>Écrire et lire</strong> (la dissertation et les textes). Dans chacun, le premier élément est le plus important ; le complémentaire se trouve un niveau plus loin, dans des rubriques qui se déplient avec une petite flèche ▸.",
+   "x": "Le menu a <strong>cinq onglets</strong>. Les trois premiers sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
    "solo": "fil"
+  },
+  {
+   "type": "p",
+   "x": "Certaines sections réunissent plusieurs choses du même type : en haut, elles ont une <strong>rangée de boutons</strong> pour passer de l’une à l’autre. Par exemple, dans Quiz tu peux passer à <strong>Contre la montre</strong>, et dans Biographies, à <strong>Persécutés</strong> ou à <strong>Communautés</strong>."
   },
   {
    "type": "h",
@@ -54,8 +58,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Introduction, Antique, Médiévale, Moderne, Lumières et Contemporaine), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Antique, Médiévale, Renaissance, Moderne, Lumières et Contemporaine), chacune avec sa couleur, et la liste commence par le Thème 3. Les thèmes 1 et 2, qui introduisent la matière, sont à la fin. La couleur de chaque époque t’accompagne dans tout le site : dans les filtres, les cartes et les quiz.",
    "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "Si tu as déjà utilisé le site, <strong>Reprendre là où tu t’étais arrêté(e)</strong> apparaît en haut, avec la dernière chose que tu as ouverte."
   },
   {
    "type": "p",
@@ -74,7 +82,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Dans l’en-tête, tu as aussi le <strong>moteur de recherche</strong> 🔎, le bouton de <strong>langue</strong> 🌐, celui du <strong>thème clair ou sombre</strong> ◐ et celui de ce <strong>guide</strong> ?."
+   "x": "Dans l’en-tête, tu as aussi le <strong>moteur de recherche</strong> 🔎, le bouton de <strong>langue</strong> 🌐, celui du <strong>thème clair ou sombre</strong> ◐ et celui de ce <strong>guide</strong> ?. Les captures de ce guide sont en <strong>mode nuit</strong> ; si tu préfères le fond clair, appuie sur ◐."
   },
   {
    "type": "h",
@@ -91,12 +99,18 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème : ses cartes, quiz, infographies, cartes conceptuelles, schémas et les notions du glossaire."
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du glossaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du glossaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "solo": "fil"
   },
   {
    "type": "img",
    "src": "06_para_seguir.webp",
-   "cap": "L’encadré de fin de thème : chaque bouton t’emmène vers un matériel de ce même thème."
+   "cap": "L’encadré de fin de thème, avec « Approfondir » déplié : chaque bouton te mène à un matériel de ce même thème."
   },
   {
    "type": "tip",
@@ -109,7 +123,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "02_menu_estudiar.webp",
-   "cap": "Le menu « Étudier », avec la rubrique « Histoire » dépliée.",
+   "cap": "Le menu « Étudier ».",
    "w": "menu"
   },
   {
@@ -121,24 +135,14 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Résumés",
-     "texto": "Un résumé par thème ou par auteur, sur une page, pour réviser avant l’examen. Avec le bouton « Voir en graphe », tu vois le même résumé sous forme de schéma de notions reliées par des flèches.",
-     "view": "esqautor"
-    },
-    {
      "nombre": "Cartes",
      "texto": "Clique sur la carte (ou appuie sur la barre d’espace) pour la retourner et marque « Je la connais » celles que tu maîtrises. Ta progression est enregistrée.",
      "view": "tarjetas"
     },
     {
-     "nombre": "Cartes conceptuelles",
-     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour zoomer.",
+     "nombre": "Cartes et infographies",
+     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour agrandir. Les infographies et les schémas de chaque thème s’ouvrent depuis l’encadré « Pour continuer avec ce thème » ou depuis « Explore la matière », sur la page de la matière.",
      "view": "mapas"
-    },
-    {
-     "nombre": "Infographies",
-     "texto": "Des planches visuelles de chaque thème pour réviser d’un coup d’œil.",
-     "view": "infografias"
     },
     {
      "nombre": "Glossaire",
@@ -153,64 +157,13 @@ const GUIA = {
    "cap": "Cartes : choisis le type, le filtre et le paquet ; en dessous, les boutons pour avancer, mélanger et marquer « Je la connais »."
   },
   {
-   "type": "p",
-   "x": "En cliquant sur <strong>Histoire ▸</strong>, tu déplies du matériel pour comprendre le contexte des philosophes. Ce n’est pas indispensable, mais cela aide beaucoup à situer les idées :"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Époques",
-     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos.",
-     "view": "epocas"
-    },
-    {
-     "nombre": "Biographies",
-     "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions.",
-     "view": "ilustres"
-    },
-    {
-     "nombre": "Persécutés",
-     "texto": "Des philosophes et des scientifiques à qui leur façon de penser a coûté la vie, la liberté ou la patrie.",
-     "view": "perseguidos"
-    },
-    {
-     "nombre": "Communautés",
-     "texto": "Des écoles et des groupes de penseurs, et les lieux où ils se réunissaient.",
-     "view": "comunidades"
-    },
-    {
-     "nombre": "Chronogrammes",
-     "texto": "Des frises chronologiques : qui a vécu en même temps que qui.",
-     "view": "cronogramas",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Généalogies",
-     "texto": "Les grandes traditions de pensée dessinées comme un plan de métro.",
-     "view": "genealogias",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Adages",
-     "texto": "Des devises latines et grecques que les philosophes citent depuis des siècles, et quand les utiliser.",
-     "view": "adagios"
-    },
-    {
-     "nombre": "Galerie",
-     "texto": "Des images par auteur et par thème ; clique dessus pour les voir en plein écran.",
-     "view": "galeria"
-    }
-   ]
-  },
-  {
    "type": "h",
    "x": "S’entraîner"
   },
   {
    "type": "img",
    "src": "03_menu_practicar.webp",
-   "cap": "Le menu « S’entraîner », avec « Jeux » et « Débattre » dépliés.",
+   "cap": "Le menu « S’entraîner ».",
    "w": "menu"
   },
   {
@@ -218,7 +171,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Quiz",
-     "texto": "Des questions à choix multiples avec correction immédiate et l’explication de chaque réponse. Ton meilleur score est enregistré.",
+     "texto": "Des questions à choix multiples avec correction immédiate et l’explication de chaque réponse. Ton meilleur score est enregistré. En haut, le bouton Contre la montre : des questions chronométrées, avec des points pour la rapidité et pour les séries.",
      "view": "cuestionarios"
     },
     {
@@ -235,78 +188,22 @@ const GUIA = {
      "nombre": "Coin de logique",
      "texto": "Tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices.",
      "view": "logica"
+    },
+    {
+     "nombre": "Débattre",
+     "texto": "Quatre façons d’entraîner l’argumentation, avec leurs boutons en haut : Dilemmes (choisis entre deux choses qui comptent et donne ta raison), Polémiques (des philosophes d’une même époque qui se sont vraiment affrontés), Duel (débats contre l’ordinateur) et Nœuds (découvre où tes propres opinions se contredisent).",
+     "view": "dilemas"
     }
    ]
   },
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Quiz : filtre, choisis le quiz dans la liste déroulante et réponds."
+   "cap": "Quiz : en haut, le bouton Contre la montre ; en dessous, filtre, choisis le quiz dans la liste déroulante et réponds."
   },
   {
    "type": "tip",
    "x": "Fais le quiz d’un thème sans regarder tes notes et lis toujours l’explication des questions que tu rates : c’est là que tu apprends."
-  },
-  {
-   "type": "p",
-   "x": "Les rubriques <strong>Jeux ▸</strong> et <strong>Débattre ▸</strong> servent à réviser en jouant et à t’entraîner à argumenter :"
-  },
-  {
-   "type": "list",
-   "rows": [
-    {
-     "nombre": "Défi",
-     "texto": "Des questions contre la montre, avec des points pour la vitesse et pour les séries.",
-     "view": "reto"
-    },
-    {
-     "nombre": "Paires",
-     "texto": "Associe chaque terme du glossaire à sa définition, contre la montre.",
-     "view": "parejas"
-    },
-    {
-     "nombre": "Eudaimonia",
-     "texto": "Incarne un penseur grec et affronte des dilemmes moraux : tes décisions déterminent si tu atteins la vie bonne.",
-     "view": "eudaimonia",
-     "solo": "hf"
-    },
-    {
-     "nombre": "La République",
-     "texto": "Répartis la population entre les trois classes de Platon et garde la cité en harmonie.",
-     "view": "republica",
-     "solo": "hf"
-    },
-    {
-     "nombre": "Marelle philosophique",
-     "texto": "Un voyage dans un réseau d’idées : tes réponses décident du chemin et, à la fin, tu découvres avec quels philosophes tu es d’accord.",
-     "view": "rayuela"
-    },
-    {
-     "nombre": "Atelier de Leibniz",
-     "texto": "D’une machine à multiplier du XVIIe siècle aux zéros et aux uns de ton téléphone.",
-     "view": "leibniz"
-    },
-    {
-     "nombre": "Dilemmes éthiques",
-     "texto": "Choisis entre deux choses qui comptent, donne ta raison et regarde si tu changes d’avis.",
-     "view": "dilemas"
-    },
-    {
-     "nombre": "Polémiques",
-     "texto": "Des philosophes d’une même époque qui se sont vraiment affrontés : choisis ton camp et lis le meilleur argument de l’autre côté.",
-     "view": "polemicas"
-    },
-    {
-     "nombre": "Duel de raisons",
-     "texto": "Débats contre l’ordinateur ; une jauge indique qui le public trouve le plus convaincant.",
-     "view": "duelo"
-    },
-    {
-     "nombre": "Nœuds",
-     "texto": "Découvre où tes propres opinions se contredisent et défais chaque nœud avec une raison.",
-     "view": "nudos"
-    }
-   ]
   },
   {
    "type": "p",
@@ -385,6 +282,92 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "Histoire"
+  },
+  {
+   "type": "p",
+   "x": "L’onglet <strong>Histoire</strong> réunit de quoi comprendre le contexte des philosophes. Ce n’est pas indispensable, mais cela aide beaucoup à situer les idées :"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Époques",
+     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos. En haut, les boutons Chronogrammes et Généalogies.",
+     "view": "epocas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Époques",
+     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos.",
+     "view": "epocas",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Chronogrammes",
+     "texto": "Des frises chronologiques : qui a vécu en même temps que qui.",
+     "view": "cronogramas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Biographies",
+     "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions. En haut, les boutons Persécutés (des philosophes et des scientifiques à qui leur façon de penser a coûté la vie, la liberté ou la patrie) et Communautés (écoles et groupes de penseurs).",
+     "view": "ilustres"
+    },
+    {
+     "nombre": "Adages",
+     "texto": "Des devises latines et grecques que les philosophes citent depuis des siècles, et quand les utiliser.",
+     "view": "adagios"
+    },
+    {
+     "nombre": "Galerie",
+     "texto": "Des images par auteur et par thème ; clique dessus pour les voir en plein écran.",
+     "view": "galeria"
+    }
+   ]
+  },
+  {
+   "type": "h",
+   "x": "Jeux"
+  },
+  {
+   "type": "p",
+   "x": "L’onglet <strong>Jeux</strong> sert à réviser en jouant :"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "Eudaimonia",
+     "texto": "Incarne un penseur grec et affronte des dilemmes moraux : tes décisions déterminent si tu atteins la vie bonne.",
+     "view": "eudaimonia",
+     "solo": "hf"
+    },
+    {
+     "nombre": "La République",
+     "texto": "Répartis la population entre les trois classes de Platon et garde la cité en harmonie.",
+     "view": "republica",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Marelle philosophique",
+     "texto": "Un voyage dans un réseau d’idées : tes réponses décident du chemin et, à la fin, tu découvres avec quels philosophes tu es d’accord.",
+     "view": "rayuela"
+    },
+    {
+     "nombre": "Atelier de Leibniz",
+     "texto": "D’une machine à multiplier du XVIIe siècle aux zéros et aux uns de ton téléphone.",
+     "view": "leibniz"
+    },
+    {
+     "nombre": "L'univers aristotélicien",
+     "texto": "Physique, chimie, biologie et philosophie selon Aristote, et ce qu'en a fait la science moderne.",
+     "view": "universo"
+    }
+   ]
+  },
+  {
+   "type": "h",
    "x": "Le moteur de recherche"
   },
   {
@@ -402,7 +385,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le site fonctionne de la même façon sur le téléphone. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les trois onglets s’ouvrent l’un sous l’autre, et chaque rubrique marquée ▸ se déplie quand tu la touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
+   "x": "Le site fonctionne de la même façon sur le portable. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les cinq onglets s’ouvrent l’un sous l’autre, et chacun se déplie quand tu le touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
   },
   {
    "type": "img",
@@ -423,9 +406,9 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "titulo": "Révise avec le résumé",
-     "texto": "Étudier › Résumés. Si le visuel t’aide, clique sur « Voir en graphe ».",
-     "view": "esqautor"
+     "titulo": "Révise avec le schéma",
+     "texto": "Depuis l’encadré « Pour continuer avec ce thème », ouvre son schéma, sa carte ou son infographie.",
+     "view": "MATERIA"
     },
     {
      "titulo": "Fixe les notions",
@@ -456,7 +439,7 @@ const GUIA = {
     },
     {
      "titulo": "Si tu veux aller plus loin",
-     "texto": "Les rubriques Histoire ▸, Jeux ▸ et Débattre ▸ : du contexte, des jeux et des débats pour aller plus loin."
+     "texto": "Les onglets Histoire et Jeux, S’entraîner › Débattre et le bloc « Approfondir » de l’encadré du thème : contexte, jeux, débats et vidéos pour aller plus loin."
     }
    ]
   },

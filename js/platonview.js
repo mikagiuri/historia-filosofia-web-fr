@@ -168,7 +168,7 @@ function renderRepStart(){
 function drawRepModes(){
   document.getElementById("repModes").innerHTML=
     '<span class="flabel">Difficulté</span>'+Object.entries(REP_MODES).map(([k,m])=>'<button class="pbtn" data-mode="'+k+'" aria-pressed="'+(k===rep.mode)+'">'+m.name+'</button>').join("")+
-    '<span class="flabel" style="margin-left:.8rem">Actions</span><button class="pbtn" data-acc="si" aria-pressed="'+(rep.acciones==="si")+'">Avec actions</button><button class="pbtn" data-acc="no" aria-pressed="'+(rep.acciones==="no")+'">Sans actions</button>'+
+    '<span class="flabel" style="margin-left:.8rem">Actions</span><button class="pbtn" data-acc="si" aria-pressed="'+(rep.acciones==="si")+'">Avec actions</button><button class="pbtn" data-acc="non" aria-pressed="'+(rep.acciones==="non")+'">Sans actions</button>'+
     '<button class="pbtn rep-rnd" id="repRandom">🎲 Aléatoire</button>'+
     (repHistLoad().length?'<button class="pbtn rep-hist-open" id="repHistOpen">📚 Parties ('+repHistLoad().length+')</button>':'');
   document.querySelectorAll("#repModes [data-mode]").forEach(b=>b.addEventListener("click",()=>{ rep.mode=b.dataset.mode; drawRepModes(); drawRepSummary(); }));
@@ -368,7 +368,7 @@ function renderRepHistory(){
       '<span class="rep-hist-io">'+(h.length?'<button class="btn2" id="repHistExport" title="Télécharge toutes tes parties dans un fichier JSON pour les conserver ou les emporter sur un autre ordinateur">⬆️ Exporter</button>':'')+'<button class="btn2" id="repHistImport" title="Charge des parties depuis un fichier JSON exporté (elles s’ajoutent à celles de cet ordinateur, sans les effacer)">⬇️ Importer</button>'+(h.length?'<button class="btn2" id="repHistClear" title="Efface toutes les parties enregistrées dans ce navigateur (cela n’affecte pas les fichiers exportés)">🗑️ Tout effacer</button>':'')+'</span>'+
       '<input type="file" id="repHistFile" accept="application/json,.json" style="display:none">'+
       '</div>'+
-    (h.length? h.map((r,i)=>'<details class="rep-hist-item"><summary><span class="rep-hist-badge">'+r.emoji+'</span> '+(r.name?'<b class="rep-hist-name">'+repEsc(r.name)+'</b> · ':'')+r.rank+' · ⚖ '+r.arm+' · '+r.turns+' tours · '+r.mode+(r.acc==="no"?" (sans actions)":"")+' · <span class="rep-hist-date">'+r.date+'</span></summary>'+
+    (h.length? h.map((r,i)=>'<details class="rep-hist-item"><summary><span class="rep-hist-badge">'+r.emoji+'</span> '+(r.name?'<b class="rep-hist-name">'+repEsc(r.name)+'</b> · ':'')+r.rank+' · ⚖ '+r.arm+' · '+r.turns+' tours · '+r.mode+(r.acc==="non"?" (sans actions)":"")+' · <span class="rep-hist-date">'+r.date+'</span></summary>'+
         '<pre class="rep-hist-text">'+repEsc(r.text)+'</pre>'+
         '<div class="rep-hist-btns"><button class="btn2" data-hcopy="'+i+'">📋 Copier</button><button class="btn2" data-hdl="'+i+'">💾 Télécharger</button></div></details>').join("")
       : '<p class="rep-hist-empty">Tu n’as encore terminé aucune partie. Joues-en une et elle sera enregistrée ici (les '+REP_HIST_MAX+' dernières sont conservées).</p>')+

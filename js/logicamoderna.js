@@ -224,10 +224,10 @@ const LOGM_EXTRA_TXT = {
   lpDuelo: "Entraîne-toi dans le Duel de raisons →"
 };
 const LOGM_CONV = [
-  ["A", "Tout S est P", "Tout P est S", "no", "Tout chien est mammifère ; mais tout mammifère n’est pas chien."],
+  ["A", "Tout S est P", "Tout P est S", "non", "Tout chien est mammifère ; mais tout mammifère n’est pas chien."],
   ["E", "Aucun S n’est P", "Aucun P n’est S", "si", "Aucun poisson n’est mammifère ; donc aucun mammifère n’est poisson."],
   ["I", "Quelque S est P", "Quelque P est S", "si", "Quelque philosophe est grec ; donc quelque Grec est philosophe."],
-  ["O", "Quelque S n’est pas P", "Quelque P n’est pas S", "no", "Quelque animal n’est pas chien ; mais il ne s’ensuit pas que quelque chien ne soit pas animal."]
+  ["O", "Quelque S n’est pas P", "Quelque P n’est pas S", "non", "Quelque animal n’est pas chien ; mais il ne s’ensuit pas que quelque chien ne soit pas animal."]
 ];
 const LOGM_AYUDA = [
   { n: "Équivoque", ej: "La fin d’une chose est sa perfection. La mort est la fin de la vie. Donc la mort est la perfection de la vie.", ve: "Quand on formalise, « fin » au sens de « finalité » et « fin » au sens de « terme » reçoivent des lettres différentes : un quatrième terme apparaît et le syllogisme cesse d’être valide." },

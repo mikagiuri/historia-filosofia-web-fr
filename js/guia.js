@@ -412,14 +412,9 @@ const GUIA = {
      "view": "rayuela"
     },
     {
-     "nombre": "Atelier de Leibniz",
-     "texto": "D’une machine à multiplier du XVIIe siècle aux zéros et aux uns de ton téléphone.",
+     "nombre": "Ateliers",
+     "texto": "Trois ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie) et L'art de la parole (littérature, rhétorique et langues anciennes).",
      "view": "leibniz"
-    },
-    {
-     "nombre": "L'univers aristotélicien",
-     "texto": "Physique, chimie, biologie et philosophie selon Aristote, et ce qu'en a fait la science moderne.",
-     "view": "universo"
     }
    ]
   },

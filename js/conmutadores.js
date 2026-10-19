@@ -11,6 +11,7 @@
      debatir        →  Dilemas · Polémicas · Duelo · Nudos   (dilemas / polemicas / duelo / nudos)
      epocas         →  Fichas · Cronogramas · Genealogías   (epocas / cronogramas / genealogias)
      ilustres       →  Todos · Perseguidos · Comunidades   (ilustres / perseguidos / comunidades)
+     talleres       →  Taller de Leibniz · El universo aristotélico · El arte de la palabra   (leibniz / universo / palabra; 19-10)
 
    Integración con el resto (sin tocar esos ficheros más que lo justo):
    - app.js (show) usa commuteEntry(id) para marcar en el menú la ENTRADA del grupo
@@ -25,7 +26,8 @@ const CONMUTADORES = [
   { entry: "cuestionarios", modos: [["cuestionarios", "Quiz"], ["reto", "Contre la montre"]] },
   { entry: "dilemas",      modos: [["dilemas", "Dilemmes"], ["polemicas", "Polémiques"], ["duelo", "Duel"], ["nudos", "Nœuds"]] },
   { entry: "epocas",       modos: [["epocas", "Fiches"], ["cronogramas", "Chronogrammes"], ["genealogias", "Généalogies"]] },
-  { entry: "ilustres",     modos: [["ilustres", "Tous"], ["perseguidos", "Persécutés"], ["comunidades", "Communautés"]] }
+  { entry: "ilustres",     modos: [["ilustres", "Tous"], ["perseguidos", "Persécutés"], ["comunidades", "Communautés"]] },
+  { entry: "leibniz",      modos: [["leibniz", "Atelier de Leibniz"], ["universo", "L'univers aristotélicien"], ["palabra", "L'art de la parole"]] }   // (19-10) «Talleres»: unidades transversales
 ];
 
 /* índices vista → { entrada, rótulo, grupo } */

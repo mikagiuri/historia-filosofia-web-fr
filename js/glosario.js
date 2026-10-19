@@ -2687,6 +2687,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 2,
+  "impg": 13,
+  "t": "Métanoïa",
+  "et": "Du grec μετάνοια (*metánoia*) : μετά (*metá*), « changement, après », + νοῦς (*noûs*), « esprit » : « changement d’esprit », et aussi « repentir ». Platon dit περιαγωγή (*periagōgḗ*), « faire faire demi-tour » (*République* VII, 518d).",
+  "area": "Anthropologie",
+  "bloque": "A",
+  "unidad": "AP",
+  "tema": "Platon",
+  "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
+  "ilustre": [
+   "platon",
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Métarécit",

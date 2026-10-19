@@ -41,6 +41,19 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "t": "Akrasía (incontinence, faiblesse de la volonté)",
+  "et": "Du grec ἀκρασία (*akrasía*), « absence de maîtrise » : de ἀ- privatif et κράτος (*krátos*), « force, pouvoir ».",
+  "area": "Éthique",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "L'éthique classique",
+  "def": "État de celui qui sait ce qu'il doit faire, mais cède au désir et agit contre son propre jugement ; ensuite, il le regrette. Pour Aristote, il montre, face à l'intellectualisme socratique, que savoir le bien ne suffit pas pour le faire.",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "t": "Alexandrie",
   "area": "Histoire",
   "bloque": "A",
@@ -1796,6 +1809,19 @@ const GLOSARIO = [
   "def": "Pour Platon, la justice n'est pas seulement la loi extérieure. C'est l'harmonie qui surgit lorsque chaque partie de l'âme et de la cité remplit dûment sa fonction. Elle est réalisée par celui qui équilibre les trois autres vertus (sagesse, courage et tempérance) : c'est pourquoi elle est la vertu qui ordonne toutes les autres.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "t": "Kakía (vice)",
+  "et": "Du grec κακία (*kakía*), « méchanceté », de κακός (*kakós*), « mauvais ».",
+  "area": "Éthique",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "L'éthique classique",
+  "def": "Disposition mauvaise du caractère : le vicieux agit mal par choix, convaincu que c'est le bien, et c'est pourquoi il ne regrette pas. Aristote l'oppose à la vertu et le distingue de l'incontinence (akrasía), qui, elle, regrette.",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {

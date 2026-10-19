@@ -118,6 +118,63 @@ const GUIA = {
   },
   {
    "type": "h",
+   "x": "Les points d’importance (●●●●●)",
+   "solo": "hf"
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Sur ce site, les penseurs, les thèmes et les termes du glossaire portent de un à cinq <strong>points d’importance</strong> ●●●●○ : plus il y a de points, plus cela pèse dans la matière et à la PAU. Chaque niveau a son nom :"
+  },
+  {
+   "type": "list",
+   "solo": "hf",
+   "rows": [
+    {
+     "nombre": "●●●●● Indispensable",
+     "texto": "Lecture ou auteur de la PAU, ou quelque chose sans quoi on ne comprend pas le reste."
+    },
+    {
+     "nombre": "●●●●○ Essentiel",
+     "texto": "Ce que le curriculum marque comme indispensable (avec astérisque) ou ce qui est déjà tombé à la PAU."
+    },
+    {
+     "nombre": "●●●○○ Important",
+     "texto": "Ce que nomme le curriculum, ou ce qui est nécessaire pour comprendre ce qui précède."
+    },
+    {
+     "nombre": "●●○○○ Complémentaire",
+     "texto": "Utile comme contexte ou pour argumenter dans la dissertation."
+    },
+    {
+     "nombre": "●○○○○ Approfondissement",
+     "texto": "Curiosité ou approfondissement : pour en savoir plus."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Critère : d'abord le curriculum basque (Décret 76/2023), ensuite la PAU de l'UPV/EHU. Autrement dit, ce que la loi demande d’étudier dans cette matière et ce qui est demandé à l’examen."
+  },
+  {
+   "type": "p",
+   "solo": "hf",
+   "x": "Les points apparaissent dans <strong>Biographies</strong> (à côté des dates de chaque penseur ; dans sa fiche, avec le nom du niveau et une ligne <strong>Pourquoi</strong> qui en donne la raison), dans la <strong>liste des thèmes</strong> de la page de la matière et dans le <strong>Glossaire</strong>. Dans Biographies et dans le Glossaire, le bouton <strong>Seulement indispensables et essentiels</strong> ne garde que ceux qui ont cinq et quatre points, et <strong>Ce que signifient les points</strong> déplie cette même explication."
+  },
+  {
+   "type": "img",
+   "solo": "hf",
+   "src": "11_imprescindibles.webp",
+   "cap": "Une fiche de Biographies : les points, le nom du niveau et le « Pourquoi »."
+  },
+  {
+   "type": "tip",
+   "solo": "hf",
+   "x": "Si tu as peu de temps, commence par ce qui a cinq et quatre points ; le reste t’aide à mieux comprendre et à argumenter dans la dissertation."
+  },
+  {
+   "type": "h",
    "x": "Étudier"
   },
   {

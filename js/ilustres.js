@@ -2792,7 +2792,7 @@ const ILUSTRES = {
    "Éthique démontrée selon l'ordre géométrique (1677)",
    "Traité de la réforme de l'entendement (1677)"
   ],
-  "anecdota": "<p>En août 1672, une foule déchaînée assassina à La Haye les frères De Witt, dirigeants de la république néerlandaise que Spinoza admirait. Indigné, le philosophe, pourtant toujours si serein, voulut sortir afficher près du lieu un écriteau portant les mots latins <em>ultimi barbarorum</em>, « les pires des barbares ». Son logeur, craignant qu'on ne le tue lui aussi, ferma la porte à clé et ne le laissa pas sortir. Spinoza le raconta des années plus tard à Leibniz, qui le nota.</p>",
+  "anecdota": "<p>En août 1672, une foule déchaînée assassina à La Haye les frères De Witt, dirigeants de la république des Provinces-Unies que Spinoza admirait. Indigné, le philosophe, d'ordinaire si serein, voulut sortir cette nuit-là pour afficher près du lieu un placard portant les mots latins <em>ultimi barbarorum</em>, « les derniers des barbares », c'est-à-dire le plus bas degré de la barbarie. Son logeur, craignant que la foule ne le mette lui aussi en pièces, ferma la maison à clé et l'empêcha de sortir. Spinoza le raconta quatre ans plus tard à Leibniz, qui le nota.</p>",
   "fuente": "Leibniz, notes de sa conversation avec Spinoza (1676)",
   "tradicion": false,
   "vida": [

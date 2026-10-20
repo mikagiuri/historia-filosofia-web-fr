@@ -60,6 +60,33 @@ const DILEMAS = [
     "elige": "B",
     "porque": "Il hérite de la réponse de son maître, mais dans La République il conclut que le problème de fond est autre : tant que gouverneront ceux qui ne savent pas, les lois seront injustes ; la solution n'est pas de fuir, mais que les philosophes gouvernent.",
     "ilustre": "platon"
+   },
+   {
+    "quien": "Spinoza",
+    "elige": "B",
+    "porque": "Avec des nuances. L'homme libre n'agit jamais par tromperie, pas même pour échapper à un danger de mort (Éthique, IV, 72, scolie), et fuir en se jouant des lois de sa propre cité y ressemblerait. Mais se retirer à temps exige autant de fermeté que combattre (IV, 69, corollaire), et lui, chassé de sa communauté comme Socrate, s'est mis à l'écart avec prudence pour continuer à penser : ni martyr ni fugitif.",
+    "ilustre": "spinoza"
+   },
+   {
+    "quien": "Kant",
+    "elige": "B",
+    "porque": "Obéis dans tes actes et raisonne en public : l'officier exécute l'ordre et peut ensuite le critiquer par écrit (Qu'est-ce que les Lumières ?, 1784). Dans la Métaphysique des mœurs (1797), il refuse tout droit de rébellion ; savoir si cela exclut aussi de refuser d'exécuter un ordre immoral reste un débat ouvert entre ses interprètes.",
+    "ilustre": "kant"
+   }
+  ],
+  "otra": "Celle de Spinoza, condamné comme Socrate par sa propre communauté : ni fuir en se jouant de la loi ni rester pour mourir, mais se mettre à l'écart à temps, taire l'indispensable (sa devise était « Caute », avec prudence) et continuer à penser.",
+  "enlaces": [
+   {
+    "t": "Persécutés pour leurs idées : Socrate",
+    "href": "#perseguidos/socrates"
+   },
+   {
+    "t": "Persécutés pour leurs idées : Spinoza",
+    "href": "#perseguidos/spinoza"
+   },
+   {
+    "t": "Exploration - Fuir ou rester ?",
+    "href": "#teoria/hf-spinoza-huir"
    }
   ],
   "debate": {

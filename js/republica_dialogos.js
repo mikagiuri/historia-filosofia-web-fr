@@ -484,6 +484,263 @@ const REP_DIAL = {
    ]
   }
  ],
+ "versiones": {
+  "degen": {
+   "emoji": "⛓️",
+   "eyebrow": "Version A",
+   "name": "Dégénérescence des régimes",
+   "libros": "République VIII-IX et X",
+   "lema": "La cité et l’âme se corrompent : de l’aristocratie à la tyrannie.",
+   "intro": "Fonde la cité juste et tiens bon : chaque crise peut lui faire descendre une marche. Gagne celui qui ne tombe pas."
+  },
+  "clases": {
+   "emoji": "⚖️",
+   "eyebrow": "Version B",
+   "name": "Les classes qui sauvent la pólis",
+   "libros": "République II-IV",
+   "lema": "Chaque classe remplit sa fonction et la justice sauve la cité.",
+   "intro": "Répartis les trois classes, éduque les gardiens et fais en sorte que chacun fasse ce qui lui revient : la sagesse en haut, le courage chez les auxiliaires, la tempérance chez tous."
+  }
+ },
+ "acciones": [
+  {
+   "id": "censura",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-censura",
+   "name": "Censure des poètes",
+   "src": "República II-III, 377b-392c",
+   "d": "Les jeunes grandissent avec des modèles de vertu : +1 de sagesse pour chaque gardien."
+  },
+  {
+   "id": "limite",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-limite",
+   "name": "Limite à la richesse",
+   "src": "Leyes V, 744d-e",
+   "d": "Nul ne peut posséder plus de quatre fois ce que possède le plus pauvre : cela freine l’oligarchie (+1 d’harmonie)."
+  },
+  {
+   "id": "sorteo",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-sorteo",
+   "name": "Charges tirées au sort",
+   "src": "República VIII, 557a",
+   "d": "Plus de citoyens gouvernent (+2 AP), mais pour Platon c’est le passage à la démocratie (−1 d’harmonie)."
+  },
+  {
+   "id": "escolta",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-escolta",
+   "name": "Garde personnelle",
+   "src": "República VIII, 566b",
+   "d": "Un protecteur du peuple réclame une escorte : +2 d’harmonie tout de suite, mais −0,5 à chaque tour suivant."
+  },
+  {
+   "id": "consejo",
+   "v": "a",
+   "ap": 2,
+   "img": "ac-consejo",
+   "name": "Conseil nocturne",
+   "src": "Leyes XII, 961a-b",
+   "d": "Les meilleurs se réunissent pour veiller sur les lois : +2 d’harmonie."
+  },
+  {
+   "id": "zanganos",
+   "v": "a",
+   "ap": 1,
+   "img": "ac-zanganos",
+   "name": "Dehors les frelons",
+   "src": "República VIII, 552c",
+   "d": "Les oisifs qui dépensent sans produire sont la maladie de la ruche : +1 d’harmonie."
+  },
+  {
+   "id": "oficio",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-oficio",
+   "name": "Un métier par personne",
+   "src": "República II, 370a-c",
+   "d": "Chacun ne fait qu’une seule chose, celle qui convient à sa nature : +6 de production."
+  },
+  {
+   "id": "musica",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-musica",
+   "name": "Musique et gymnastique",
+   "src": "República III, 410c-412a",
+   "d": "Éducation de l’âme et du corps : +1 de sagesse pour chaque gardien."
+  },
+  {
+   "id": "lana",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-lana",
+   "name": "Teindre la laine",
+   "src": "República IV, 429d-430b",
+   "d": "L’éducation fixe chez les auxiliaires l’opinion droite sur ce qu’il faut craindre, comme une teinture qui ne part pas au lavage : ce tour-ci, les guerriers valent ×1,5."
+  },
+  {
+   "id": "pruebas",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-pruebas",
+   "name": "Épreuves des gardiens",
+   "src": "República III, 413c-414a",
+   "d": "Ne gouvernent que ceux qui résistent aux plaisirs et aux peurs : tous tes gardiens comptent comme justes."
+  },
+  {
+   "id": "comun",
+   "v": "b",
+   "ap": 2,
+   "img": "ac-comun",
+   "name": "Vie commune des gardiens",
+   "src": "República III, 416d-417b",
+   "d": "Sans or ni maisons à eux, rien ne les sépare de la cité : +2 d’harmonie."
+  },
+  {
+   "id": "mito",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-mito",
+   "name": "Mythe des métaux",
+   "src": "República III, 415a-c",
+   "d": "Un récit commun unit la cité : +1 d’harmonie."
+  },
+  {
+   "id": "rey",
+   "v": "b",
+   "ap": 3,
+   "img": "ac-rey",
+   "name": "Roi-philosophe",
+   "src": "República V, 473c-d",
+   "d": "Si tu as des gardiens d’une sagesse pleine, ce sont eux qui gouvernent : +3 d’harmonie. Sinon, cela ne sert à rien."
+  },
+  {
+   "id": "bajar",
+   "v": "b",
+   "ap": 1,
+   "img": "ac-bajar",
+   "name": "Retourner dans la caverne",
+   "src": "República VII, 519c-520d",
+   "d": "Les sages descendent gouverner : +2 d’harmonie, mais −1 de sagesse pour chaque gardien."
+  }
+ ],
+ "fases": [
+  {
+   "name": "Spécialisation",
+   "lema": "À chacun un métier : la cité naît de ce que nul ne se suffit à soi-même (369b)."
+  },
+  {
+   "name": "Gardiens",
+   "lema": "Éduquer ceux qui défendent : musique, gymnastique et opinion droite."
+  },
+  {
+   "name": "Gouvernement",
+   "lema": "Qui commande ? Ceux qui savent, s’il y en a."
+  },
+  {
+   "name": "Épreuve",
+   "lema": "La justice tient-elle quand les crises arrivent ?"
+  }
+ ],
+ "funciones": [
+  {
+   "k": "sophia",
+   "emoji": "🦉",
+   "name": "Sagesse",
+   "gr": "σοφία (*sophía*)",
+   "clase": "gouvernants",
+   "ok": "Il y a des gouvernants d’une sagesse pleine, avec la science du Bien.",
+   "no": "Aucun gardien n’atteint la sagesse pleine.",
+   "loc": "République IV, 428b-429a"
+  },
+  {
+   "k": "andreia",
+   "emoji": "🛡️",
+   "name": "Courage",
+   "gr": "ἀνδρεία (*andreía*)",
+   "clase": "auxiliaires",
+   "ok": "Les auxiliaires suffisent à défendre la cité et conservent l’opinion droite sur ce qui est redoutable.",
+   "no": "Les défenseurs sont trop peu nombreux.",
+   "loc": "République IV, 429b-430c"
+  },
+  {
+   "k": "sophrosyne",
+   "emoji": "🍷",
+   "name": "Tempérance",
+   "gr": "σωφροσύνη (*sophrosýne*)",
+   "clase": "toutes les classes",
+   "ok": "La cité se suffit à elle-même : tous acceptent qui commande.",
+   "no": "La production ne suffit pas : l’appétit déborde la cité.",
+   "loc": "République IV, 430d-432a"
+  },
+  {
+   "k": "dikaiosyne",
+   "emoji": "⚖️",
+   "name": "Justice",
+   "gr": "δικαιοσύνη (*dikaiosýne*)",
+   "clase": "la cité tout entière",
+   "ok": "Chaque classe fait ce qui lui revient : la cité est juste.",
+   "no": "Il manque l’une des trois : il n’y a pas encore de justice.",
+   "loc": "République IV, 433a-434c"
+  }
+ ],
+ "doxa": "Les auxiliaires n’ont pas la science, ἐπιστήμη (*epistéme*), mais l’opinion droite, ὀρθὴ δόξα (*orthè dóxa*) : leur courage est « la conservation de l’opinion droite et légitime sur ce qu’il faut craindre et ne pas craindre » (République IV, 430b). Seuls les gouvernants sortent de la caverne.",
+ "finB": [
+  {
+   "min": 8,
+   "todas": true,
+   "emoji": "🏛️",
+   "name": "Callipolis : la cité juste",
+   "lema": "Les trois classes font ce qui leur revient et la cité tient."
+  },
+  {
+   "min": 5,
+   "emoji": "⚖️",
+   "name": "Une cité debout, pas tout à fait juste",
+   "lema": "Elle tient, mais une fonction fait défaut."
+  },
+  {
+   "min": 0.1,
+   "emoji": "⚠️",
+   "name": "Une cité désordonnée",
+   "lema": "Chaque classe empiète sur ce qui revient aux autres."
+  },
+  {
+   "min": -999,
+   "emoji": "💥",
+   "name": "La cité se dissout",
+   "lema": "Sans justice, la cité cesse d’être une."
+  }
+ ],
+ "er": {
+  "titulo": "Épilogue · le mythe d’Er",
+  "situacion": "Er, un guerrier mort au combat, revient à la vie sur le bûcher et raconte ce qu’il a vu : les âmes choisissent leur prochaine vie. Le premier à choisir, sans réfléchir, prend celle du tyran le plus puissant ; puis il découvre qu’il y est écrit qu’il dévorera ses propres enfants.",
+  "cita": "« La faute revient à celui qui choisit ; le dieu n’est pas coupable. »",
+  "loc": "République X, 617e",
+  "griego": "αἰτία ἑλομένου· θεὸς ἀναίτιος (*aitía heloménou; theòs anaítios*).",
+  "pregunta": "C’est à toi de choisir une vie. Laquelle prends-tu ?",
+  "opts": [
+   {
+    "t": "La vie du tyran : un pouvoir sans limites.",
+    "r": "C’est le choix du premier, qui venait d’une cité ordonnée mais avait été vertueux « par habitude, sans philosophie » (619c-d)."
+   },
+   {
+    "t": "La vie tranquille d’un simple particulier, comme Ulysse.",
+    "r": "Ulysse, guéri de son ambition, cherche longtemps la vie d’un homme privé, sans charges, et la choisit avec contentement (620c-d)."
+   },
+   {
+    "t": "La vie qui saura le mieux distinguer la bonne de la mauvaise.",
+    "r": "C’est ce que conseille Socrate : apprendre à toujours choisir la meilleure vie parmi les possibles est ce qui importe le plus (618b-c)."
+   }
+  ],
+  "cierre": "Ainsi s’achève la République : « le mythe a été sauvé et ne s’est pas perdu, et il nous sauvera si nous lui obéissons » (621b-c)."
+ },
  "ui": {
   "regTitulo": "Régime de ta cité (République, livre VIII)",
   "degenera": "Ta cité dégénère",
@@ -506,6 +763,35 @@ const REP_DIAL = {
   "dTuya": "Ta conclusion : quelle position de ta partie défendrais-tu par écrit, et pourquoi ?",
   "glosario": "Concepts dans le glossaire",
   "sinDialogos": "Dans cette partie, il n’y a pas eu de dialogues.",
-  "hudReg": "Régime"
+  "hudReg": "Régime",
+  "elegir": "Choisis une version",
+  "accionesMax": "Actions (3 max. ce tour)",
+  "elegirIntro": "Deux jeux avec le même moteur et des accents différents. Tu peux en changer quand tu veux.",
+  "jugarEsta": "Jouer cette version →",
+  "cambiar": "↺ Changer de version",
+  "fase": "Phase",
+  "nuevaFase": "Nouvelle phase : +2 AP",
+  "funciones": "Les fonctions de la cité",
+  "escolta": "La garde personnelle grandit : −0,5 d’harmonie.",
+  "erElige": "Ton choix",
+  "verFin": "Voir la fin →",
+  "version": "Version",
+  "chuleta": "📋 Aide-mémoire du jeu",
+  "chuletaT": "Aide-mémoire : toutes les règles et formules",
+  "volver": "← Retour",
+  "cAcciones": "Cartes d’action (coût en AP et effet)",
+  "cComunes": "Communes aux deux versions",
+  "cEventos": "Événements (ce qui les déclenche et ce qu’ils font)",
+  "cEconomia": "Économie de points",
+  "cEconomiaT": "Tu commences avec 8 AP. Chaque tour, tu gagnes 1 AP de plus ; dans la version B, chaque nouvelle phase donne 2 AP. Tu peux jouer jusqu’à 3 actions par tour, chacune une seule fois.",
+  "cVictoria": "Comment on gagne et comment on perd",
+  "cVictoriaA": "Version A : tu commences en aristocratie avec 10 d’harmonie. Sous 8, timocratie ; sous 6, oligarchie ; sous 4, démocratie ; sous 2, tyrannie. On ne remonte pas. À 0 d’harmonie ou avec moins de 3 habitants, la cité s’effondre. Tu gagnes si tu finis en aristocratie ou en timocratie.",
+  "cVictoriaB": "Version B : tu gagnes la Callipolis si tu finis avec 8 d’harmonie ou plus et les quatre fonctions remplies ; avec 5 ou plus, la cité tient encore debout. À 0 d’harmonie ou avec moins de 3 habitants, elle se dissout.",
+  "cFunciones": "Les quatre fonctions (version B) : sagesse = un gardien au moins avec une sagesse de 5 ; courage = guerriers ≥ producteurs ÷ 2,5 ; tempérance = production ≥ population ; justice = les trois à la fois.",
+  "cClases": "Les classes et leur coût",
+  "cClasesT": "Coût de chaque profil = somme de ses trois vertus. Gardien : les trois ≥ 4. Guerrier : courage et tempérance ≥ 4. Producteur : tempérance ≥ 4 ; chaque producteur nourrit 2 personnes. Sous 30 habitants, l’événement « Cité amoindrie » retire des points. En mode Réel, producteurs ≥ 2 × (gardiens + guerriers) : c’est une règle du jeu, pas de Platon.",
+  "cDialogos": "Dialogues : ceux de ta version apparaissent, un tous les trois tours. Tu choisis une position et une raison ; le résultat change la cité.",
+  "cDestino": "Cartes du destin (peste, guerre, tremblement de terre, mort du fondateur) : elles retirent des points et tuent, quelles que soient tes décisions. Il en sort 3 en mode Réel et 2 en mode Facile.",
+  "cTurnos": "Durée : 12 tours en mode Facile et 14 en mode Réel."
  }
 };

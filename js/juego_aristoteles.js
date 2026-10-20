@@ -3152,5 +3152,324 @@ const JUEGO_ARIS = {
   "Cela vaut-il la peine d'être incorruptible si cela peut te coûter la vie ?",
   "Qu'est-ce qui distingue la vie politique, la vie discursive et la vie contemplative ? Laquelle est la plus heureuse, selon Aristote ?",
   "Pourquoi la *phronêsis* (prudence) est-elle si importante pour bien vivre ?"
- ]
+ ],
+ "juzgar": {
+  "causas": {
+   "fidelidad": {
+    "nombre": "Pour ne pas trahir ses principes",
+    "desc": "meurt pour avoir défendu la justice ou la vérité, ou pour avoir refusé de répondre à une injustice par une autre"
+   },
+   "temeridad": {
+    "nombre": "Pour avoir pris des risques inutiles",
+    "desc": "meurt en cherchant un danger qu’il pouvait éviter"
+   },
+   "ambicion": {
+    "nombre": "Par ambition",
+    "desc": "meurt en poursuivant le pouvoir ou la gloire"
+   },
+   "enemigos": {
+    "nombre": "Des mains de ses ennemis",
+    "desc": "les ennemis accumulés mettent fin à sa vie (procès ou attentat)"
+   },
+   "salud": {
+    "nombre": "Par épuisement",
+    "desc": "son corps n’en peut plus"
+   },
+   "ruina": {
+    "nombre": "Dans la ruine",
+    "desc": "perd tout et se retrouve exclu de la vie de la cité"
+   }
+  },
+  "teorias": [
+   {
+    "id": "aristoteles",
+    "nombre": "Aristote",
+    "sub": "comme dans le jeu",
+    "w": {
+     "car": 2,
+     "phr": 1,
+     "sal": 1,
+     "hac": 1,
+     "rep": 1,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 8,
+     "hac": 8,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.6,
+     "temeridad": 0.35,
+     "ambicion": 0.4,
+     "enemigos": 0.5,
+     "salud": 0.5,
+     "ruina": 0.5
+    },
+    "txt": "Le bonheur est une activité de l’âme conforme à la vertu, et de plus « dans une vie complète : une hirondelle ne fait pas le printemps » (Éthique à Nicomaque I, 7). Mais il a besoin de biens extérieurs : il n’est guère possible d’être heureux quand on est très laid, de basse naissance, ou seul et sans enfants (I, 8), et personne ne dit heureux celui qui finit dans de grands malheurs, comme Priam (I, 9). Ici, cela se traduit par une somme du caractère et des biens avec des plafonds : dans cette lecture, au-delà d’un certain point, plus de richesse n’ajoute pas de bonheur. Une vie interrompue n’est pas une vie complète, même si toutes les morts ne pèsent pas autant : le courage est le juste milieu entre la lâcheté et la témérité (III, 7), et mourir avec noblesse n’est pas la même chose que mourir par témérité."
+   },
+   {
+    "id": "estoicos",
+    "nombre": "Stoïciens",
+    "sub": "la vertu seule",
+    "w": {
+     "car": 3,
+     "phr": 2,
+     "sal": 0,
+     "hac": 0,
+     "rep": 0,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.8,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Seule la vertu est un bien ; la vie, la santé, la richesse et la réputation ne sont ni des biens ni des maux, mais des « indifférents » (Diogène Laërce VII, 101-103 ; Épictète, Manuel 1). Le sage est heureux même s’il perd tout, et la mort ne lui enlève rien non plus : ce qui compte, c’est la façon de vivre tant qu’on vit. Dans cette lecture, seule pèse une mort due à une passion, comme la témérité ou l’ambition, car elle révèle un jugement erroné."
+   },
+   {
+    "id": "epicuro",
+    "nombre": "Épicure",
+    "sub": "un plaisir tranquille",
+    "w": {
+     "car": 1,
+     "phr": 1,
+     "sal": 2,
+     "hac": 0.5,
+     "rep": 0,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 4,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.9,
+     "ambicion": 0.8,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Le plaisir que nous cherchons, c’est de ne pas souffrir dans le corps et de ne pas être troublé dans l’âme (Lettre à Ménécée, chez Diogène Laërce X, 131), et la mort n’est rien pour nous (X, 124). Le nécessaire suffit : plus de richesse ne donne pas plus de plaisir. Dans cette lecture, la célébrité et les ennemis apportent le trouble, et c’est pourquoi les ennemis comptent en négatif."
+   },
+   {
+    "id": "spinoza",
+    "nombre": "Spinoza",
+    "sub": "puissance et comprendre",
+    "w": {
+     "car": 1,
+     "phr": 2,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 10,
+     "hac": 6,
+     "rep": 6,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 1,
+     "temeridad": 0.7,
+     "ambicion": 0.7,
+     "enemigos": 1,
+     "salud": 1,
+     "ruina": 1
+    },
+    "txt": "Nous appelons bon ce qui sert à conserver notre être, c’est-à-dire ce qui augmente notre puissance d’agir (Éthique IV, 8, démonstration). La plus grande satisfaction de l’âme naît du troisième genre de connaissance (V, 27), et la béatitude n’est pas la récompense de la vertu, mais la vertu elle-même (V, 42). Rien n’est plus utile à l’homme que l’homme (IV, 18, scolie), et la haine ne peut jamais être bonne (IV, 45). L’homme libre ne pense à rien moins qu’à la mort (IV, 67) : dans cette lecture, une vie courte n’est pas pire parce qu’elle est courte. Mais la manière de mourir n’est pas indifférente : l’homme libre montre la même fermeté à se retirer à temps qu’à combattre (IV, 69, corollaire) ; mourir par témérité ou entraîné par l’ambition révèle donc une passion, non la liberté."
+   },
+   {
+    "id": "trasimaco",
+    "nombre": "Thrasymaque",
+    "sub": "le pouvoir",
+    "w": {
+     "car": 0,
+     "phr": 0.5,
+     "sal": 1,
+     "hac": 2,
+     "rep": 2,
+     "ene": 0
+    },
+    "tope": {
+     "car": 12,
+     "phr": 12,
+     "sal": 12,
+     "hac": 12,
+     "rep": 12,
+     "ene": 12
+    },
+    "muerte": {
+     "fidelidad": 0.3,
+     "temeridad": 0.6,
+     "ambicion": 0.9,
+     "enemigos": 0.7,
+     "salud": 0.7,
+     "ruina": 0.3
+    },
+    "txt": "La justice est l’intérêt du plus fort (Platon, République I, 338c), et le plus heureux est celui qui commet l’injustice la plus complète, le tyran (344a-c). Il appelle la justice une « noble naïveté » (348c). Dans cette lecture, le caractère ne compte pas, les ennemis sont le prix du succès et mourir pour la justice serait la pire des sottises."
+   }
+  ],
+  "mia": {
+   "nombre": "Ta théorie",
+   "sub": "modifie-la",
+   "txt": "Déplace les poids et les plafonds : qu’est-ce qui compte dans une vie bonne, et jusqu’où ? Un poids négatif retranche (les ennemis, par exemple)."
+  },
+  "estilos": [
+   {
+    "id": "prudente",
+    "nombre": "Prudent",
+    "w": {
+     "phr": 2,
+     "car": 1.5,
+     "sal": 1,
+     "hac": 0.5,
+     "rep": 0.5,
+     "ene": -1.5
+    },
+    "muerte": 20
+   },
+   {
+    "id": "ambicioso",
+    "nombre": "Ambitieux",
+    "w": {
+     "rep": 2,
+     "hac": 2,
+     "car": 0,
+     "phr": 0.3,
+     "sal": 0.5,
+     "ene": -0.2
+    },
+    "muerte": 3
+   },
+   {
+    "id": "incorruptible",
+    "nombre": "Incorruptible",
+    "w": {
+     "car": 3,
+     "phr": 1,
+     "rep": 0.2,
+     "hac": 0,
+     "sal": 0.3,
+     "ene": 0
+    },
+    "muerte": 1
+   },
+   {
+    "id": "epicureo",
+    "nombre": "Tranquille",
+    "w": {
+     "sal": 2,
+     "ene": -2,
+     "phr": 1,
+     "car": 0.5,
+     "hac": 0.5,
+     "rep": -0.5
+    },
+    "muerte": 10
+   },
+   {
+    "id": "azar",
+    "nombre": "Au hasard",
+    "w": null,
+    "muerte": 0
+   }
+  ],
+  "preguntas": [
+   "Cherche une vie que Thrasymaque jugerait excellente et les stoïciens un échec. Qu’a-t-elle ? Avec qui es-tu d’accord ?",
+   "Aristote exige une vie complète. Compare deux vies interrompues pour des raisons différentes (pour ne pas trahir, par témérité, par ambition) : doivent-elles peser autant ? Que dirait un stoïcien ? Et Spinoza ?",
+   "Pourquoi, à ton avis, la vie prudente s’en sort-elle bien dans presque toutes les théories ? Est-ce un trait du jeu ou une thèse d’Aristote sur la phrónesis ?",
+   "Construis « ta théorie » et défends-la : qu’est-ce qui pèse le plus dans une vie bonne, et qu’est-ce qui ne compte pas ?",
+   "Les poids que tu vois sont une interprétation discutable de chaque philosophe. Changes-en un qui te paraît injuste et explique pourquoi."
+  ],
+  "ui": {
+   "modoJugar": "Jouer",
+   "modoJuzgar": "Juger la vie",
+   "lede": "Vis une vie grecque avec le moteur d’Eudaimonia, puis regarde comment la jugeraient Aristote, les stoïciens, Épicure, Spinoza et Thrasymaque. La même vie peut être une réussite pour les uns et un échec pour les autres : la formule du bonheur est aussi une thèse philosophique.",
+   "aviso": "Les poids, les plafonds et les facteurs de chaque école sont une interprétation de ce laboratoire pour pouvoir comparer, non une doctrine des auteurs : aucun d’eux n’a mis de chiffres sur le bonheur. Discute-les et change-les dans « Ta théorie ».",
+   "t1": "1 · Vis une vie",
+   "personaje": "Personnage",
+   "jugarYo": "La jouer moi-même",
+   "o": "ou",
+   "auto": "La vivre en automatique",
+   "conEstilo": "avec un style",
+   "t2": "2 · La vie comme trajectoire",
+   "t2d": "Chaque variable, tour après tour. Passe le doigt ou la souris sur un graphique pour voir quelle décision a été prise à chaque moment. La bande ombrée est la maturité.",
+   "t3": "3 · Les poids du bonheur",
+   "t4": "4 · Comparer des vies",
+   "t4d": "Enregistre des vies et compare-les : chaque théorie choisit sa meilleure vie (★). Sont-elles d’accord ?",
+   "guardar": "Enregistrer cette vie",
+   "diez": "Ajouter 10 vies automatiques au hasard",
+   "vaciar": "Vider",
+   "paraPensar": "Pour réfléchir en classe",
+   "virtud": "Vertu",
+   "debilidad": "Faiblesse",
+   "ronda": "tour",
+   "bloqueada": "(ton caractère ne te le permet pas)",
+   "sinCambios": "aucun changement",
+   "tuDecision": "Ta décision :",
+   "saleBien": "Ça tourne bien :",
+   "saleMal": "Ça tourne mal :",
+   "fortuna": "Hasard :",
+   "peligro": "Danger :",
+   "muerte": "Mort :",
+   "pasaTiempo": "Le temps passe :",
+   "seguir": "Continuer",
+   "verFinal": "Voir la fin",
+   "jugadaPorTi": "jouée par toi",
+   "muereAntes": "Meurt avant l’heure",
+   "acabaRuina": "Finit dans la ruine",
+   "completa": "Vit une vie complète",
+   "decisiones": "{n} décisions",
+   "conEstiloX": "(style « {e} »)",
+   "bajaVer": "Descends voir sa trajectoire et comment chaque théorie la juge.",
+   "puntoPartida": "Point de départ :",
+   "rondaX": "Tour {n} ({e}) :",
+   "deA": "{k} : de {a} à {b}",
+   "juegoDice": "Le jeu lui-même lui donne {n} points d’eudaimonia : « {b} ». En dessous, la même vie jugée par cinq théories et par la tienne (de 0 à 100 %). Clique sur l’une d’elles pour voir ses poids.",
+   "copiar": "Copier ces poids dans « Ta théorie » pour les modifier",
+   "variable": "Variable",
+   "peso": "Poids",
+   "tope": "Plafond",
+   "truncada": "Si la vie est interrompue : pourquoi elle l’est",
+   "causa": "Cause",
+   "factor": "Facteur",
+   "multiplica": "La note est multipliée par",
+   "estaVida": "← cette vie",
+   "pesoDe": "Poids de {k}",
+   "topeDe": "Plafond de {k}",
+   "factorDe": "Facteur : {k}",
+   "comoCalcula": "Comment on calcule : somme de poids × valeur (sans dépasser le plafond) de chaque variable, divisée par le maximum possible. Les poids négatifs retranchent.",
+   "curvaT": "Le bonheur selon {t}, tour après tour",
+   "curvaAria": "Le bonheur selon {t} tout au long de la vie : il finit à {p} %",
+   "caida": "La chute finale est ce que cette théorie retranche selon la façon dont la vie s’est interrompue ({c} : ×{f}).",
+   "soloFinal": "Aristote dirait que seule la fin compte : on ne peut dire heureux personne avant d’avoir vu sa vie entière.",
+   "rondaN": "tour {n}",
+   "vidaCol": "Vie",
+   "quitar": "Retirer cette vie",
+   "vacio": "Aucune vie enregistrée pour l’instant. Vis-en une et appuie sur « Enregistrer cette vie », ou ajoutes-en dix automatiques."
+  }
+ }
 };

@@ -53,6 +53,11 @@ const PISTAS = [
       "boton": "J'ai besoin de voir le schéma",
       "etiqueta": "Schéma de l'allégorie",
       "titulo": "Ce que représente chaque élément",
+      "glosario": [
+       "g-el-mito-de-la-caverna",
+       "g-doxa",
+       "g-episteme"
+      ],
       "definicion": [
        "<strong>Prisonniers enchaînés</strong> → les êtres humains sans éducation philosophique.",
        "<strong>Ombres sur le mur</strong> → les apparences sensibles : l'opinion (<em>doxa</em>).",
@@ -91,6 +96,11 @@ const PISTAS = [
      {
       "etiqueta": "Définition et explication",
       "titulo": "Les deux mondes",
+      "glosario": [
+       "g-mundo-sensible",
+       "g-teoria-de-las-ideas",
+       "g-dualismo-ontologico"
+      ],
       "definicion": [
        "Platon sépare le <strong>monde sensible</strong> (changeant, multiple, saisi par les sens) du <strong>monde intelligible</strong> ou des Idées (éternel, immuable, saisi par la raison).",
        "Le sensible n'est qu'une copie imparfaite des Idées, comme les ombres sont des copies des objets.",
@@ -171,6 +181,10 @@ const PISTAS = [
       "boton": "Afficher l'explication",
       "etiqueta": "Connaissance et politique",
       "titulo": "Le retour du philosophe",
+      "glosario": [
+       "g-el-bien",
+       "g-dialectica-ap"
+      ],
       "definicion": [
        "Le libéré revient et, habitué à la lumière, voit mal dans l’obscurité : les prisonniers se moquent de lui et, s’ils le pouvaient, le tueraient. Celui qui revient, c’est <strong>Socrate</strong>, et les prisonniers sont ses <strong>concitoyens athéniens</strong>, qui l’ont condamné à mort en 399 av. J.-C.",
        "Pour Platon, bien gouverner exige de connaître l'Idée du Bien. C'est pourquoi, dans la cité juste, ce sont les <strong>philosophes</strong> qui gouvernent, même s'ils préféreraient rester à contempler.",
@@ -268,6 +282,9 @@ const PISTAS = [
       "boton": "J'ai besoin de voir les étapes",
       "etiqueta": "Le chemin du doute",
       "titulo": "Trois motifs de douter",
+      "glosario": [
+       "g-el-genio-maligno"
+      ],
       "definicion": [
        "<strong>Les sens</strong> : ils nous trompent parfois → la perception ordinaire n'est pas tout à fait fiable.",
        "<strong>Le rêve</strong> : nous ne distinguons pas toujours avec certitude la veille du sommeil → le monde extérieur peut être douteux.",
@@ -308,6 +325,10 @@ const PISTAS = [
      {
       "etiqueta": "Définition et explication",
       "titulo": "Le doute méthodique",
+      "glosario": [
+       "g-duda-metodica",
+       "g-ideas-claras-y-distintas"
+      ],
       "definicion": [
        "Le <strong>doute méthodique</strong> consiste à traiter comme faux, de manière provisoire, tout ce dont on peut douter.",
        "Ce n'est pas du <strong>scepticisme</strong> : le sceptique reste dans le doute ; Descartes l'utilise comme un outil pour trouver un fondement solide.",
@@ -388,6 +409,11 @@ const PISTAS = [
       "boton": "Afficher l'explication",
       "etiqueta": "La première certitude",
       "titulo": "Le cogito",
+      "glosario": [
+       "g-cogito",
+       "g-res-cogitans",
+       "g-la-garantia-de-dios"
+      ],
       "definicion": [
        "Même si tout le reste est douteux, il y a quelque chose que je ne peux nier : que je suis en train de douter. Et douter, c'est penser.",
        "Si je pense, j'existe comme chose pensante : « <strong>je pense, donc je suis</strong> » (<em>cogito, ergo sum</em>).",
@@ -485,6 +511,9 @@ const PISTAS = [
       "boton": "J'ai besoin de lire un texte",
       "etiqueta": "Texte d'appui",
       "titulo": "Lis et cherche l'opposition décisive",
+      "glosario": [
+       "g-deber"
+      ],
       "cita": {
        "texto": "« Une action accomplie par devoir tire sa valeur morale, non du but qu'elle doit permettre d'atteindre, mais de la maxime d'après laquelle elle est décidée. »",
        "fuente": "Kant, Fondation de la métaphysique des mœurs, chap. I"
@@ -524,6 +553,11 @@ const PISTAS = [
      {
       "etiqueta": "Définition et explication",
       "titulo": "Impératif catégorique",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-imperativo-hipotetico",
+       "g-autonomia"
+      ],
       "definicion": [
        "C'est un commandement moral qui oblige de manière <strong>inconditionnelle</strong> : il ne dépend pas du fait que nous voulions atteindre une fin particulière.",
        "Un impératif hypothétique prend la forme « si tu veux X, tu dois faire Y ». Le catégorique ordonne d'agir par devoir, même si l'action ne nous profite pas. Exemple : « Ne mens pas » vaut même quand mentir te profiterait.",
@@ -604,6 +638,10 @@ const PISTAS = [
       "boton": "Afficher la formulation",
       "etiqueta": "Formulation de la loi universelle",
       "titulo": "La formulation",
+      "glosario": [
+       "g-imperativo-categorico",
+       "g-a-priori"
+      ],
       "cita": {
        "texto": "« Agis uniquement d'après la maxime grâce à laquelle tu peux vouloir en même temps qu'elle devienne une loi universelle. »",
        "fuente": "Kant, Fondation de la métaphysique des mœurs, chap. II"
@@ -705,6 +743,9 @@ const PISTAS = [
       "boton": "J'ai besoin de lire un texte",
       "etiqueta": "Texte d'appui",
       "titulo": "Lis la formule et remarque deux expressions",
+      "glosario": [
+       "g-imperativo-categorico"
+      ],
       "cita": {
        "texto": "« Agis de telle sorte que tu traites l'humanité, aussi bien dans ta personne que dans la personne de tout autre, toujours en même temps comme une fin, et jamais simplement comme un moyen. »",
        "fuente": "Kant, Fondation de la métaphysique des mœurs, chap. II"
@@ -744,6 +785,10 @@ const PISTAS = [
      {
       "etiqueta": "Définition et explication",
       "titulo": "Prix et dignité",
+      "glosario": [
+       "g-dignidad",
+       "g-autonomia"
+      ],
       "definicion": [
        "Pour Kant, les choses ont un <strong>prix</strong> : on peut les remplacer par quelque chose d'équivalent. Les personnes ont une <strong>dignité</strong> : une valeur qui n'admet ni équivalent ni échange.",
        "La dignité procède de l'<strong>autonomie</strong> : l'être raisonnable est capable de se donner à lui-même la loi morale. C'est pourquoi il est une fin en soi et non un simple instrument.",
@@ -824,6 +869,10 @@ const PISTAS = [
       "boton": "Afficher l'explication",
       "etiqueta": "Les deux épreuves, dans le même cas",
       "titulo": "La fausse promesse, vue deux fois",
+      "glosario": [
+       "g-deber",
+       "g-imperativo-categorico"
+      ],
       "definicion": [
        "<strong>Loi universelle.</strong> Si tout le monde faisait de fausses promesses quand cela l'arrange, plus personne ne croirait aux promesses : la maxime se détruit lorsqu'on l'universalise.",
        "<strong>Humanité.</strong> Celui qui reçoit la fausse promesse ne peut pas consentir à un plan qui consiste à le tromper : on l'utilise uniquement comme moyen.",

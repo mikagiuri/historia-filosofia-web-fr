@@ -149,6 +149,10 @@ const GUIA = {
     {
      "nombre": "●○○○○ Approfondissement",
      "texto": "Curiosité ou approfondissement : pour en savoir plus."
+    },
+    {
+     "nombre": "●●●◐○ Demi-point",
+     "texto": "Entre deux niveaux. Un 3,5 ne compte pas encore comme essentiel."
     }
    ]
   },

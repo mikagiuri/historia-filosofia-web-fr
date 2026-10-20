@@ -1251,7 +1251,7 @@ const GLOSARIO = [
   "imp": 5,
   "impg": 1,
   "t": "Le problème des deux mondes",
-  "et": "Aristote reproche aux platoniciens d'avoir « séparé » (ἐχώρισαν) les Idées des choses (*Métaphysique* M 4) ; d'où le nom de χωρισμός (*khorismós*), « séparation », sous lequel on connaît le problème.",
+  "et": "Aristote reproche aux platoniciens d'avoir « séparé » (ἐχώρισαν, *ekhórisan*) les Idées des choses (*Métaphysique* M 4) ; d'où le nom de χωρισμός (*khorismós*), « séparation », sous lequel on connaît le problème.",
   "area": "Métaphysique",
   "bloque": "A",
   "unidad": "AA",
@@ -2695,7 +2695,7 @@ const GLOSARIO = [
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
+  "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, *metanoeîte*, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
   "ilustre": [
    "platon",
    "agustin"

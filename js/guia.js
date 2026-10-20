@@ -247,7 +247,7 @@ const GUIA = {
     },
     {
      "nombre": "Coin de logique",
-     "texto": "Tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices.",
+     "texto": "Tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices ; et un laboratoire avec des arbres de vérité, un monde de figures, des relations et des démonstrations guidées.",
      "view": "logica"
     },
     {
@@ -417,7 +417,7 @@ const GUIA = {
     },
     {
      "nombre": "Ateliers",
-     "texto": "Trois ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie) et L'art de la parole (littérature, rhétorique et langues anciennes).",
+     "texto": "Quatre ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie), L'art de la parole (littérature, rhétorique et langues anciennes) et Les affects selon Spinoza (psychologie et un modèle simulé pas à pas).",
      "view": "leibniz"
     }
    ]

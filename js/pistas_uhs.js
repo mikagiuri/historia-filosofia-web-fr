@@ -13,6 +13,11 @@ const PISTAS = [
     "fase": "Phase 1 · Rappel",
     "etiqueta": "Question de départ",
     "pregunta": "Que représentent les prisonniers, les ombres et l'extérieur de la caverne ?",
+    "repaso": [
+     "Ai-je dit que c'est une allégorie sur la connaissance, et non un récit réel ?",
+     "Ai-je expliqué que les ombres sont l'opinion (<em>doxa</em>) sur le sensible ?",
+     "Ai-je dit que l'extérieur et le soleil sont les Idées et le Bien, que seule la raison atteint (<em>épistémè</em>) ?"
+    ],
     "intro": [
      "Rappelle-toi la scène : des prisonniers enchaînés depuis l'enfance regardent le mur du fond d'une grotte. Essaie d'expliquer ce que veut dire Platon avant de demander de l'aide."
     ],
@@ -32,12 +37,14 @@ const PISTAS = [
       [
        "Le monde des Idées.",
        false,
-       "Non : le monde des Idées est à l'extérieur, éclairé par le soleil."
+       "Non : le monde des Idées est à l'extérieur, éclairé par le soleil.",
+       "g-mundo-sensible"
       ],
       [
        "Une vraie prison de l'Athènes de son temps.",
        false,
-       "Ce n'est pas un récit historique : c'est une allégorie sur la connaissance."
+       "Ce n'est pas un récit historique : c'est une allégorie sur la connaissance.",
+       "g-el-mito-de-la-caverna"
       ],
       [
        "L'inconscient de chaque personne.",
@@ -141,6 +148,11 @@ const PISTAS = [
     "fase": "Phase 2 · Approfondissement",
     "etiqueta": "Nouvelle question",
     "pregunta": "Pourquoi le prisonnier libéré doit-il retourner dans la caverne ?",
+    "repaso": [
+     "Ai-je dit que celui qui a vu le Bien a le devoir de redescendre chercher les autres ?",
+     "Ai-je relié le retour au gouvernement des philosophes dans la <em>République</em> ?",
+     "Ai-je mentionné que les prisonniers le rejettent, comme Athènes a condamné Socrate ?"
+    ],
     "intro": [
      "Le récit ne s'arrête pas à l'extérieur : celui qui a vu le soleil retourne chercher les autres. Réfléchis à ce que cela a à voir avec la politique de Platon."
     ],
@@ -170,7 +182,8 @@ const PISTAS = [
       [
        "Qu'il n'y avait rien à voir dehors.",
        false,
-       "Dehors se trouve ce qu'il y a de plus réel : les Idées et le soleil (le Bien)."
+       "Dehors se trouve ce qu'il y a de plus réel : les Idées et le soleil (le Bien).",
+       "g-el-bien"
       ]
      ],
      "ok": "Exact. L'allégorie unit théorie de la connaissance et politique.",
@@ -242,6 +255,11 @@ const PISTAS = [
     "fase": "Phase 1 · Rappel",
     "etiqueta": "Question de départ",
     "pregunta": "Qu'est-ce que le doute méthodique et à quoi Descartes l'emploie-t-il ?",
+    "repaso": [
+     "Ai-je dit que c'est une méthode pour atteindre une vérité indubitable, et non pour rester dans le doute ?",
+     "Ai-je nommé les raisons de douter : les sens, le rêve et le malin génie ?",
+     "Ai-je distingué Descartes du sceptique ?"
+    ],
     "intro": [
      "Descartes décide de douter de tout ce qui peut être mis en doute. Essaie d'expliquer pourquoi quelqu'un ferait une chose pareille avant de demander de l'aide."
     ],
@@ -261,7 +279,8 @@ const PISTAS = [
       [
        "Démontrer que nous ne pouvons rien savoir.",
        false,
-       "Ce serait du scepticisme. Descartes doute précisément pour sortir du doute."
+       "Ce serait du scepticisme. Descartes doute précisément pour sortir du doute.",
+       "g-duda-metodica"
       ],
       [
        "Se moquer des philosophes précédents.",
@@ -369,6 +388,11 @@ const PISTAS = [
     "fase": "Phase 2 · Approfondissement",
     "etiqueta": "Nouvelle question",
     "pregunta": "Quelle certitude résiste au doute le plus radical ?",
+    "repaso": [
+     "Ai-je dit que la certitude est « je pense, donc je suis » (<em>cogito</em>) ?",
+     "Ai-je justifié pourquoi elle résiste : pour douter, et même pour être trompé, je dois penser, et pour penser, exister ?",
+     "Ai-je dit que c'est le premier principe sur lequel Descartes reconstruit la connaissance ?"
+    ],
     "intro": [
      "Suppose que le malin génie te trompe en tout. Y a-t-il quelque chose dont tu ne puisses malgré tout douter ?"
     ],
@@ -388,7 +412,8 @@ const PISTAS = [
       [
        "Parce que les sens me montrent que j'existe.",
        false,
-       "On a déjà douté des sens : le cogito n'en dépend pas."
+       "On a déjà douté des sens : le cogito n'en dépend pas.",
+       "g-cogito"
       ],
       [
        "Parce que la tradition philosophique le dit.",
@@ -398,7 +423,8 @@ const PISTAS = [
       [
        "Parce que le malin génie ne peut tromper personne.",
        false,
-       "Il peut me tromper en tout le reste, mais pas sur le fait que j'existe tant que je pense."
+       "Il peut me tromper en tout le reste, mais pas sur le fait que j'existe tant que je pense.",
+       "g-el-genio-maligno"
       ]
      ],
      "ok": "Exact. Plus je doute, plus je suis sûr que je pense, et donc que j'existe.",
@@ -471,6 +497,11 @@ const PISTAS = [
     "fase": "Phase 1 · Rappel",
     "etiqueta": "Question de départ",
     "pregunta": "Qu'est-ce que l'impératif catégorique ?",
+    "repaso": [
+     "Ai-je dit que c'est un commandement qui oblige sans conditions, sans « si tu veux… » derrière ?",
+     "L'ai-je distingué de l'impératif hypothétique ?",
+     "Ai-je dit qu'il donne sa valeur morale à l'action : agir par devoir, non par intérêt ?"
+    ],
     "intro": [
      "Essaie de répondre avant d'ouvrir un indice. Tu n'as pas besoin d'une définition parfaite : il suffit de retrouver son trait essentiel."
     ],
@@ -486,7 +517,8 @@ const PISTAS = [
       [
        "C'est une règle qui indique quel moyen employer pour atteindre une fin.",
        false,
-       "C'est un impératif hypothétique : l'obligation dépend de la fin que tu poursuis."
+       "C'est un impératif hypothétique : l'obligation dépend de la fin que tu poursuis.",
+       "g-imperativo-hipotetico"
       ],
       [
        "C'est un commandement qui oblige de façon inconditionnelle, sans dépendre d'une fin désirée.",
@@ -598,6 +630,11 @@ const PISTAS = [
     "fase": "Phase 2 · Approfondissement",
     "etiqueta": "Nouvelle question",
     "pregunta": "Comment Kant vérifie-t-il si une maxime est morale ?",
+    "repaso": [
+     "Ai-je dit que ce que l'on examine, c'est la maxime, la règle d'après laquelle j'agis ?",
+     "Ai-je expliqué l'épreuve : puis-je vouloir que cette maxime devienne une loi pour tous ?",
+     "Ai-je donné l'exemple d'une maxime qui échoue à l'épreuve, comme celle de la fausse promesse ?"
+    ],
     "intro": [
      "Un nouveau cycle commence. Nous ne cherchons plus à définir ce qu'est l'impératif catégorique, mais comment on l'utilise comme épreuve. Kant l'a exprimé de plusieurs façons : t'en souviens-tu d'une ?"
     ],
@@ -627,7 +664,8 @@ const PISTAS = [
       [
        "L'action isolée, sans considérer sa règle.",
        false,
-       "Non : ce qu'on examine, c'est la règle qui guide l'action."
+       "Non : ce qu'on examine, c'est la règle qui guide l'action.",
+       "g-imperativo-categorico"
       ]
      ],
      "ok": "Exact. On n'universalise pas une action isolée, mais la règle ou maxime qui la guide.",
@@ -671,7 +709,8 @@ const PISTAS = [
         [
          "L'action isolée, sans considérer sa règle.",
          false,
-         "Relis la citation : quel mot va avec « loi universelle » ?"
+         "Relis la citation : quel mot va avec « loi universelle » ?",
+         "g-imperativo-categorico"
         ]
        ],
        "ok": "Exact. Ce qu'on universalise, c'est la maxime.",
@@ -703,6 +742,11 @@ const PISTAS = [
     "fase": "Phase 1 · Rappel",
     "etiqueta": "Question de départ",
     "pregunta": "Que signifie traiter l'humanité toujours comme une fin et jamais seulement comme un moyen ?",
+    "repaso": [
+     "Ai-je dit que ce qui est interdit, c'est de traiter quelqu'un <em>seulement</em> comme un moyen, et non de recourir à son aide ?",
+     "Ai-je expliqué que les personnes ont une dignité, et non un prix ?",
+     "Ai-je fondé cette dignité sur le fait que la personne est raisonnable et se donne à elle-même la loi morale ?"
+    ],
     "intro": [
      "Essaie de l'expliquer avec tes propres mots avant de demander de l'aide. Pense à un exemple de quelqu'un que l'on « utilise »."
     ],
@@ -722,7 +766,8 @@ const PISTAS = [
       [
        "Acheter son pain à la boulangère.",
        false,
-       "Tu l'utilises comme moyen, mais pas seulement comme moyen : elle accepte librement l'échange."
+       "Tu l'utilises comme moyen, mais pas seulement comme moyen : elle accepte librement l'échange.",
+       "g-dignidad"
       ],
       [
        "Demander de l'aide à un camarade pour un exercice, en lui expliquant pourquoi tu en as besoin.",
@@ -829,6 +874,11 @@ const PISTAS = [
     "fase": "Phase 2 · Relation",
     "etiqueta": "Nouvelle question",
     "pregunta": "Pourquoi la fausse promesse échoue-t-elle dans les deux formules à la fois ?",
+    "repaso": [
+     "Ai-je expliqué pourquoi la maxime de la fausse promesse ne peut pas être universalisée ?",
+     "Ai-je dit qu'en lui mentant, j'utilise l'autre seulement comme un moyen ?",
+     "Ai-je conclu que les deux formules expriment la même loi morale ?"
+    ],
     "intro": [
      "Tu connais la formule de la loi universelle et celle de l'humanité. Il s'agit maintenant de les relier à un même cas : faire une fausse promesse pour obtenir de l'argent."
     ],
@@ -858,7 +908,8 @@ const PISTAS = [
       [
        "Seule la première est catégorique ; la seconde est un impératif hypothétique.",
        false,
-       "La formule de l'humanité ne dit pas « si tu veux… » : elle oblige sans condition, comme la première."
+       "La formule de l'humanité ne dit pas « si tu veux… » : elle oblige sans condition, comme la première.",
+       "g-imperativo-hipotetico"
       ]
      ],
      "ok": "Exact. La règle qui ne peut pas être universalisée est aussi celle qui utilise quelqu'un uniquement comme moyen.",

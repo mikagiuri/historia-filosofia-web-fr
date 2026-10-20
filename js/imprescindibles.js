@@ -1248,6 +1248,10 @@ const IMPRESCINDIBLES = {
   "14": [
    1,
    "Curiosité ou approfondissement"
+  ],
+  "15": [
+   4,
+   "Vocabulaire de base de l'Éthique de Spinoza (thème 15, niveau 5 dans la révision du professeur du 20-10-2026)"
   ]
  }
 };

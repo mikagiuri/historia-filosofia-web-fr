@@ -66,6 +66,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Joie et tristesse (Spinoza)",
+  "id": "g-alegria-y-tristeza",
+  "et": "*Joie*, du latin *alacer*, « vif, plein d'entrain » ; *tristesse*, du latin *tristitia*, le mot qu'emploie Spinoza.",
+  "area": "Éthique",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Avec le désir, ce sont les affects fondamentaux : la joie est le passage à une plus grande perfection ou puissance d'agir ; la tristesse, le passage à une moindre (*Éthique* III, prop. 11, scolie). L'amour est une joie accompagnée de l'idée d'une cause extérieure, et la haine, une tristesse accompagnée de cette idée (prop. 13, scolie).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Alexandrie",
@@ -394,6 +410,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Béatitude (Spinoza)",
+  "id": "g-beatitud",
+  "et": "Du latin *beatitudo*, de *beatus*, « heureux, bienheureux ».",
+  "area": "Éthique",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Le bonheur le plus haut, qui naît de la connaissance de Dieu ou de la Nature et de l'amour intellectuel que cette connaissance produit. Ce n'est pas la récompense de la vertu, mais la vertu elle-même (*Éthique* V, prop. 42).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Biopolitique",
@@ -537,6 +569,22 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "La dépendance politique, économique et culturelle d'un pays ou d'un peuple. Pour Fanon, le colonialisme blesse aussi l'image que le sujet a de lui-même."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Conatus",
+  "id": "g-conatus",
+  "et": "Du latin *conatus*, « effort, élan », de *conari*, « tenter ».",
+  "area": "Anthropologie",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "L'effort par lequel chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être. Pour Spinoza, ce n'est pas quelque chose que la chose possède, mais son essence même (*Éthique* III, prop. 6-7). Chez l'être humain, quand il en est conscient, il s'appelle désir.",
+  "ilustre": [
+   "spinoza"
+  ]
  },
  {
   "subject": "hf",
@@ -1946,6 +1994,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 15,
+  "t": "Idée adéquate",
+  "id": "g-idea-adecuada",
+  "et": "Du latin *adaequatus*, « égalé, ajusté ».",
+  "area": "Épistémologie",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "L'idée qui possède en elle toutes les propriétés d'une idée vraie, parce qu'elle comprend son objet par ses causes (*Éthique* II, déf. 4). C'est la clé de la liberté : un affect qui est une passion cesse de l'être dès que nous en formons une idée claire et distincte (V, prop. 3).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Idée régulatrice",
   "id": "g-idea-regulativa",
@@ -3121,6 +3185,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Natura naturans et natura naturata",
+  "id": "g-natura-naturans",
+  "et": "Latin scolastique : participes actif et passif de *naturare*, « produire comme le fait la nature » : celle qui produit et celle qui est produite.",
+  "area": "Métaphysique",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "Deux manières de regarder l'unique réalité. Comme cause libre, la substance avec ses attributs, qui est en soi et se conçoit par soi, est la *natura naturans* ; comme tout ce qui s'en suit nécessairement, ses modes, elle est la *natura naturata* (*Éthique* I, prop. 29, scolie).",
+  "ilustre": [
+   "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Faux besoins",
@@ -3284,6 +3364,22 @@ const GLOSARIO = [
   "def": "Éducation au sens large : formation du caractère et de l'esprit. Chez Platon, tâche principale de la cité, qui sélectionne les gouvernants au terme d'un long parcours d'études et d'épreuves.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 15,
+  "t": "Servitude (Spinoza)",
+  "id": "g-servidumbre",
+  "et": "Du latin *servitudo*, de *servus*, « esclave ».",
+  "area": "Éthique",
+  "bloque": "B",
+  "unidad": "BS",
+  "tema": "Spinoza",
+  "def": "L'impuissance humaine à modérer et à réprimer les affects : celui qui y est soumis n'est pas maître de lui, mais dépend de la fortune (*Éthique* IV, préface). On ne la vainc pas à force de volonté, car un affect ne se réprime que par un autre affect contraire et plus fort (IV, prop. 7).",
+  "ilustre": [
+   "spinoza"
   ]
  },
  {

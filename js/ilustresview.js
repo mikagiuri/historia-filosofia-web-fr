@@ -434,7 +434,7 @@ function iluVideosEu(p){
   const eu = (document.documentElement.lang || "").slice(0, 2) === "eu";
   return '<div class="ilu-sec"><h3>Vidéo en basque</h3><ul class="ilu-obras">' + V.map(v => '<li><a href="https://www.youtube.com/watch?v=' + iluEsc(v.id) +
     '" target="_blank" rel="noopener" hreflang="eu">' + iluEsc(eu ? v.eu_titulo : v.es) + '</a> · Ikusgela, ' + iluEsc(v.dur) + (eu ? '' : ' · <span lang="eu">«' + iluEsc(v.eu_titulo) + '»</span>') +
-    ' · <a href="media/ikusgela/' + iluEsc(v.id) + '.html" target="_blank" rel="noopener" hreflang="eu" title="Texte de la vidéo : sous-titres d'Ikusgela">Transcription</a></li>').join("") + '</ul></div>';
+    ' · <a href="media/ikusgela/' + iluEsc(v.id) + '.html" target="_blank" rel="noopener" hreflang="eu" title="Texte de la vidéo : sous-titres d’Ikusgela">Transcription</a></li>').join("") + '</ul></div>';
 }
 
 /* En la teoría: al final de cada unidad, una tira con los ilustres que aparecen en ella (enlaza a su

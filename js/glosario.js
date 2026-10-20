@@ -82,18 +82,6 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
-  "imp": 3,
-  "impg": 12,
-  "t": "Alexandrie",
-  "id": "g-alejandria",
-  "area": "Histoire",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "L'hellénisme",
-  "def": "Elle fut l'un des principaux centres du savoir hellénistique. La Bibliothèque, le Musée et les réseaux de savants ont organisé la culture grecque dans un monde plus vaste."
- },
- {
-  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Aliénation",
@@ -5210,21 +5198,6 @@ const GLOSARIO = [
   "ilustre": [
    "descartes",
    "leibniz"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Hipparchia de Maronée",
-  "id": "g-hiparquia-de-maronea",
-  "area": "Histoire",
-  "bloque": "A",
-  "unidad": "A10",
-  "tema": "L'hellénisme",
-  "def": "Philosophe cynique (IVe-IIIe s. av. J.-C.), l'une des très rares femmes philosophes de l'Antiquité dont on ait connaissance. Elle renonça à la richesse pour vivre selon la nature aux côtés de Cratès, appliquant l'idéal cynique jusqu'à sa condition de femme.",
-  "ilustre": [
-   "hiparquia"
   ]
  },
  {

@@ -766,6 +766,16 @@ const REP_DIAL = {
   "hudReg": "Régime",
   "elegir": "Choisis une version",
   "accionesMax": "Actions (3 max. ce tour)",
+  "clasesB": [
+   "Gouvernants",
+   "Auxiliaires",
+   "Producteurs"
+  ],
+  "rosterB": [
+   "🦉 Gouvernants : σοφία (*sophía*) <span class=\"rep-floor\">les trois vertus ≥4 · peu nombreux, ceux qui délibèrent sur le tout</span>",
+   "🛡️ Auxiliaires : ἀνδρεία (*andreía*) <span class=\"rep-floor\">courage et tempérance ≥4 · ils gardent l’opinion droite</span>",
+   "🌾 Producteurs : σωφροσύνη (*sophrosýne*) <span class=\"rep-floor\">tempérance ≥4 · ils nourrissent la cité</span>"
+  ],
   "elegirIntro": "Deux jeux avec le même moteur et des accents différents. Tu peux en changer quand tu veux.",
   "jugarEsta": "Jouer cette version →",
   "cambiar": "↺ Changer de version",

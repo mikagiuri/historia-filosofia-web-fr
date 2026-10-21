@@ -96,6 +96,7 @@ const REP_MAZO_B = {
    "v": "b",
    "fase": 1,
    "ap": 1,
+   "img": "ac-deporte",
    "name": "Éducation : gymnastique (γυμναστική, *gymnastiké*)",
    "d": "+1 de courage pour chaque gardien auxiliaire. Si « Musique » a déjà été jouée, +1 d’harmonie pour l’équilibre atteint.",
    "cita": "« Ce n’est pas le corps bon qui rend l’âme bonne, mais l’inverse : l’âme bonne, par sa vertu, rend le corps le meilleur possible. La gymnastique et la musique ne sont pas l’une pour le corps et l’autre pour l’âme : toutes deux éduquent, surtout, l’âme. »",
@@ -444,6 +445,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_desigualdad",
    "v": "b",
+   "img": "../aristoteles/azar-fanaticos",
    "name": "Révolte pour cause d’inégalité",
    "loc": "République IV, 422e-423a",
    "cita": "« Toute cité, si petite soit-elle, est en réalité deux cités ennemies : celle des pauvres et celle des riches ; et dans chacune, beaucoup d’autres. Si tu les traites comme une seule, tu te trompes. »",
@@ -521,6 +523,7 @@ const REP_MAZO_B = {
   {
    "id": "b_ev_defensa",
    "v": "b",
+   "img": "../aristoteles/azar-guerra",
    "name": "Guerre pour le territoire",
    "loc": "République II, 374a-e",
    "cita": "« Laisserons-nous la guerre au premier venu ? Ou est-ce aussi un métier ? Car si le cordonnier ne peut être à la fois laboureur, tisserand et maçon, comment celui qui a un autre métier serait-il bon à la guerre ? Garder la cité demande plus de soin que n’importe quel travail, et plus de temps, et d’art, et de dévouement. »",

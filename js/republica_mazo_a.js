@@ -43,7 +43,7 @@ const REP_MAZO_A = {
    "id": "sorteo",
    "v": "a",
    "ap": 1,
-   "img": "ac-sorteo",
+   "img": "../aristoteles/azar-suerte",
    "name": "Charges tirées au sort",
    "d": "Les charges sont réparties entre tous : +2 AP, mais −1 d’harmonie et la cité se rapproche de la démocratie.",
    "cita": "« Ils se partagent à égalité le gouvernement et les charges, et le plus souvent par tirage au sort. »",

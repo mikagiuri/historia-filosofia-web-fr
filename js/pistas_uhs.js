@@ -2,6 +2,7 @@
 const PISTAS = [
  {
   "id": "hf-caverna",
+  "ilustre": "platon",
   "subject": "hf",
   "tema": "Thème 6 · Platon",
   "unidad": "hf-platon",
@@ -243,7 +244,508 @@ const PISTAS = [
   }
  },
  {
+  "id": "platon-alma",
+  "ilustre": "platon",
+  "subject": "hf",
+  "tema": "Thème 7 · Platon : l'âme",
+  "unidad": "hf-antropologia",
+  "materia": "Philosophie · Platon",
+  "titulo": "Comment est l'âme selon Platon, et qu'est-ce qu'être juste ?",
+  "lede": "Le point le plus souvent tombé à la PAU : les trois parties de l'âme, leurs vertus et leur reflet dans la cité. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Quelles sont les trois parties de l'âme selon Platon, et que fait chacune ?",
+    "repaso": [
+     "Ai-je nommé les trois parties : rationnelle (<em>logistikón</em>), irascible (<em>thymoeidés</em>) et concupiscible ou désirante (<em>epithymetikón</em>) ?",
+     "Ai-je dit ce que fait chacune : connaître et guider, défendre le juste avec ardeur, rechercher le plaisir et les biens matériels ?",
+     "Ai-je expliqué l'argument : des impulsions s'opposent en nous, donc l'âme n'est pas une seule chose ?"
+    ],
+    "intro": [
+     "Pense à quelqu'un qui a très soif devant un verre d'eau qu'il sait contaminée. Quelque chose en lui veut boire et quelque chose lui dit que non. Platon part d'une scène de ce genre."
+    ],
+    "pistas": [
+     "Pour atterrir : Platon observe qu'en nous des <strong>impulsions s'opposent</strong>. Si quelque chose veut et quelque chose résiste en même temps, l'âme ne peut pas être une seule chose.",
+     "Une partie <strong>raisonne</strong> et calcule ce qui convient ; une autre <strong>désire</strong> : manger, boire, le plaisir, l'argent.",
+     "Il y en a une troisième, qui n'est ni raison ni désir : l'<strong>ardeur</strong>, la partie qui s'indigne devant l'injuste et défend l'honneur. Elle se range d'ordinaire du côté de la raison.",
+     "Dans le <em>Phèdre</em>, il le raconte avec une image : un <strong>cocher</strong> (la raison) qui conduit un char attelé de deux chevaux ailés, l'un noble (l'irascible) et l'autre rétif (le concupiscible)."
+    ],
+    "comprobacion": {
+     "pregunta": "Quelle partie de l'âme s'indigne devant l'injustice et s'allie d'ordinaire à la raison ?",
+     "opciones": [
+      [
+       "La partie irascible (<em>thymoeidés</em>).",
+       true
+      ],
+      [
+       "La partie concupiscible (<em>epithymetikón</em>).",
+       false,
+       "C'est la partie des désirs : manger, boire, le plaisir, la richesse.",
+       "g-alma-concupiscible"
+      ],
+      [
+       "La partie rationnelle (<em>logistikón</em>).",
+       false,
+       "La raison connaît et guide ; celle qui s'indigne et lui prête sa force est une autre.",
+       "g-alma-racional"
+      ],
+      [
+       "Aucune : pour Platon, l'âme est une.",
+       false,
+       "C'est précisément le conflit des impulsions qui le conduit à distinguer trois parties.",
+       "g-las-tres-partes-del-alma"
+      ]
+     ],
+     "ok": "Bien : l'ardeur (<em>thymós</em>) est l'alliée naturelle de la raison.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Deux parties qui s'opposent",
+      "glosario": [
+       "g-alma-racional",
+       "g-alma-concupiscible"
+      ],
+      "cita": {
+       "texto": "« Ce par quoi l'âme raisonne, nous l'appellerons le rationnel ; et ce par quoi elle aime, a faim et soif et s'agite sous l'effet des autres désirs, l'irrationnel et le désirant. »",
+       "fuente": "Platon, <em>République</em> IV, 439d (traduction personnelle du grec)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "D'après le texte, que fait la partie désirante de l'âme ?",
+       "opciones": [
+        [
+         "Elle aime, a faim et soif et s'agite sous l'effet des désirs.",
+         true
+        ],
+        [
+         "Elle raisonne et calcule ce qui convient.",
+         false,
+         "Cela, c'est le rôle de la partie rationnelle, la première que nomme le texte."
+        ],
+        [
+         "Elle s'indigne devant l'injustice.",
+         false,
+         "C'est la partie irascible, que cet extrait ne nomme pas encore."
+        ],
+        [
+         "Elle se souvient des Idées.",
+         false,
+         "Le souvenir des Idées (<em>anámnesis</em>) relève de la raison, non des désirs."
+        ]
+       ],
+       "ok": "Exact : c'est la partie des désirs.",
+       "mal": "Relis la seconde moitié de la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Trois parties, trois fonctions",
+      "glosario": [
+       "g-las-tres-partes-del-alma",
+       "g-alma-irascible"
+      ],
+      "definicion": [
+       "<strong>Rationnelle (<em>logistikón</em>)</strong> → elle connaît la vérité et guide l'âme tout entière. Dans le <em>Timée</em>, Platon la situe dans la tête.",
+       "<strong>Irascible (<em>thymoeidés</em>)</strong> → l'ardeur : elle s'indigne devant l'injuste et défend l'honneur. Alliée de la raison. Dans la poitrine.",
+       "<strong>Concupiscible (<em>epithymetikón</em>)</strong> → les désirs du corps et de la richesse. Dans le ventre.",
+       "<strong>Le char ailé du <em>Phèdre</em></strong> → le cocher est la raison ; le cheval noble, l'irascible ; le rétif, le concupiscible."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Dans l'image du char ailé, qui est le cocher ?",
+       "opciones": [
+        [
+         "La raison, qui doit guider les deux chevaux.",
+         true
+        ],
+        [
+         "Le désir, qui tire avec plus de force.",
+         false,
+         "Le désir est le cheval rétif, non celui qui tient les rênes."
+        ],
+        [
+         "Le corps, qui transporte l'âme.",
+         false,
+         "L'image tout entière est celle de l'âme : le cocher et les chevaux en sont les parties."
+        ],
+        [
+         "Les dieux, qui dirigent notre vie.",
+         false,
+         "Dans l'image, les dieux ont leur propre char ; le cocher de l'âme humaine, c'est sa raison."
+        ]
+       ],
+       "ok": "Correct : la raison tient les rênes.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce que la justice dans l'âme, et quel rapport a-t-elle avec les classes de la cité juste ?",
+    "repaso": [
+     "Ai-je dit la vertu de chaque partie : sagesse (raison), courage (irascible) et tempérance ?",
+     "Ai-je défini la justice comme le fait que chaque partie fasse ce qui lui revient, la raison commandant : l'harmonie des trois ?",
+     "Ai-je mis en rapport les trois parties avec les trois classes de la cité : gouvernants, gardiens et producteurs ?"
+    ],
+    "intro": [
+     "Dans la <em>République</em>, Platon cherche la justice d'abord dans la cité, parce qu'elle est « plus grande et plus facile à voir », puis dans l'âme. Demande-toi ce qu'elles ont en commun."
+    ],
+    "pistas": [
+     "Rappelle-toi : chaque partie de l'âme a sa <strong>vertu</strong>, sa manière d'être bien. La raison, la <strong>sagesse</strong> ; l'irascible, le <strong>courage</strong>.",
+     "La <strong>tempérance</strong> est l'accord de toutes les parties pour que la raison commande ; surtout, que les désirs se laissent guider.",
+     "Et la <strong>justice</strong> ? Ce n'est pas la vertu d'une partie : c'est que <strong>chaque partie fasse ce qui lui revient</strong> et ne se mêle pas de ce qui regarde les autres. C'est l'harmonie de l'ensemble.",
+     "La cité juste a la même structure : les <strong>gouvernants</strong> (la raison, la sagesse), les <strong>gardiens</strong> (l'ardeur, le courage) et les <strong>producteurs</strong> (les désirs). Elle est juste quand chaque classe fait ce qui lui revient."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Platon, qu'est-ce que la justice dans l'âme ?",
+     "opciones": [
+      [
+       "Que chaque partie fasse ce qui lui revient, la raison commandant : l'harmonie des trois.",
+       true
+      ],
+      [
+       "Que la raison élimine les désirs.",
+       false,
+       "Platon ne veut pas éliminer les désirs, mais qu'ils obéissent à la raison.",
+       "g-templanza"
+      ],
+      [
+       "Que toutes les parties commandent à égalité.",
+       false,
+       "L'harmonie n'est pas une égalité de commandement : la raison doit guider.",
+       "g-justicia"
+      ],
+      [
+       "Donner à chacun ce qu'il mérite selon la loi.",
+       false,
+       "Ce serait une justice légale ; dans la <em>République</em>, la justice est un ordre intérieur.",
+       "g-justicia"
+      ]
+     ],
+     "ok": "Exact : la justice est l'ordre des trois parties.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "L'âme et la cité",
+      "titulo": "Faire ce qui nous revient",
+      "glosario": [
+       "g-justicia",
+       "g-sabiduria",
+       "g-valentia",
+       "g-templanza"
+      ],
+      "cita": {
+       "texto": "« Faire ce qui nous revient et ne pas se mêler de beaucoup de choses, voilà la justice. »",
+       "fuente": "Platon, <em>République</em> IV, 433a (traduction personnelle du grec)"
+      },
+      "definicion": [
+       "<strong>Âme</strong> → raison (sagesse, <em>sophía</em>), irascible (courage, <em>andreía</em>), concupiscible. La tempérance (<em>sophrosýne</em>) est l'accord de toutes pour que la raison commande.",
+       "<strong>Cité</strong> → gouvernants philosophes (sagesse), gardiens ou auxiliaires (courage) et producteurs. Les auxiliaires n'ont pas la science (<em>epistéme</em>), mais une opinion droite sur ce qu'il faut craindre (430b).",
+       "<strong>Justice</strong> (<em>dikaiosýne</em>) → dans les deux, que chaque partie fasse ce qui lui revient. C'est pourquoi l'éthique et la politique de Platon sont une même question vue en petit et en grand."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Quelle classe de la cité correspond à la partie irascible de l'âme ?",
+       "opciones": [
+        [
+         "Les gardiens ou auxiliaires, dont la vertu est le courage.",
+         true
+        ],
+        [
+         "Les gouvernants philosophes.",
+         false,
+         "Les gouvernants correspondent à la raison et à la sagesse."
+        ],
+        [
+         "Les producteurs : paysans, artisans et commerçants.",
+         false,
+         "Les producteurs correspondent à la partie des désirs."
+        ],
+        [
+         "Aucune : la cité n'a rien à voir avec l'âme.",
+         false,
+         "Pour Platon, la cité est l'âme « en grand »."
+        ]
+       ],
+       "ok": "Correct : l'ardeur de l'âme, les gardiens de la cité.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer l'âme et la justice chez Platon",
+   "parrafos": [
+    "L'âme a trois parties : rationnelle (sagesse), irascible (courage) et concupiscible ; la tempérance est leur accord pour que la raison commande. La justice, c'est que chaque partie fasse ce qui lui revient, et la cité juste reproduit cette structure avec des gouvernants, des gardiens et des producteurs.",
+    "Pour la PAU : mets en rapport cette théorie de l'âme avec la caverne (éduquer la raison) et avec le gouvernement des philosophes."
+   ],
+   "siguiente": "hf-caverna"
+  }
+ },
+ {
+  "id": "descartes-metodo",
+  "ilustre": "descartes",
+  "subject": "hf",
+  "tema": "Thème 14 · Descartes",
+  "unidad": "hf-racionalismo",
+  "materia": "Philosophie · Descartes",
+  "titulo": "Quelle méthode propose Descartes, et comment vit-il tant qu'il doute ?",
+  "lede": "Les parties II et III du « Discours de la méthode », lecture de la PAU : quatre règles pour penser et quatre maximes pour vivre. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Quelles sont les quatre règles de la méthode, et pourquoi Descartes les emprunte-t-il aux mathématiques ?",
+    "repaso": [
+     "Ai-je nommé les quatre règles : évidence, analyse, synthèse (ordre) et dénombrement ?",
+     "Ai-je expliqué la première : ne rien admettre pour vrai sans le connaître avec évidence, en évitant la précipitation et la prévention ?",
+     "Ai-je dit pourquoi les mathématiques : ce sont les seules sciences qui étaient parvenues à des démonstrations certaines, par de longues chaînes de raisons ?"
+    ],
+    "intro": [
+     "Descartes se plaint de n'avoir trouvé, après des années d'études, que des doutes. Il décide de chercher une méthode. Demande-toi comment on résout un problème de géométrie difficile."
+    ],
+    "pistas": [
+     "Pour atterrir : Descartes préfère <strong>peu de règles</strong> bien observées à beaucoup de règles mal suivies, comme un État qui a peu de lois qu'on respecte.",
+     "La première règle est celle de l'<strong>évidence</strong> : n'accepter rien qui ne se présente à l'esprit de façon claire et distincte.",
+     "Les deux suivantes sont comme démonter puis remonter : <strong>diviser</strong> chaque difficulté en parties (analyse) et <strong>ordonner</strong> ses pensées du plus simple au plus complexe (synthèse).",
+     "La quatrième, <strong>dénombrer</strong> et passer tout en revue pour ne rien omettre. Le modèle, ce sont les géomètres, avec leurs « longues chaînes de raisons » simples et sûres."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'exige la première règle de la méthode ?",
+     "opciones": [
+      [
+       "Ne rien admettre pour vrai que l'on ne connaisse avec évidence, en évitant la précipitation et la prévention.",
+       true
+      ],
+      [
+       "Diviser chaque difficulté en autant de parties que possible.",
+       false,
+       "C'est la deuxième règle, celle de l'analyse.",
+       "g-reglas-del-metodo"
+      ],
+      [
+       "Croire ce que disent les sages anciens.",
+       false,
+       "Tout le contraire : Descartes veut s'appuyer seulement sur l'évidence, non sur l'autorité.",
+       "g-racionalismo"
+      ],
+      [
+       "Tout vérifier par des expériences.",
+       false,
+       "Le modèle de Descartes, ce sont les mathématiques, non l'expérience.",
+       "g-intuicion"
+      ]
+     ],
+     "ok": "Bien : l'évidence est la porte d'entrée.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "La première règle",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-ideas-claras-y-distintas"
+      ],
+      "cita": {
+       "texto": "« Le premier était de ne recevoir jamais aucune chose pour vraie que je ne la connusse évidemment être telle ; c'est-à-dire, d'éviter soigneusement la précipitation et la prévention, et de ne comprendre rien de plus en mes jugements que ce qui se présenterait si clairement et si distinctement à mon esprit, que je n'eusse aucune occasion de le mettre en doute. »",
+       "fuente": "Descartes, <em>Discours de la méthode</em>, II (AT VI 18 ; texte original)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "D'après le texte, qu'y a-t-il à éviter ?",
+       "opciones": [
+        [
+         "La précipitation (juger trop tôt) et la prévention (les préjugés).",
+         true
+        ],
+        [
+         "Le doute, parce qu'il paralyse la pensée.",
+         false,
+         "Au contraire : le critère est qu'il ne reste aucune occasion de douter."
+        ],
+        [
+         "Les mathématiques, parce qu'elles sont trop abstraites.",
+         false,
+         "Le texte ne parle pas d'éviter les mathématiques ; elles en sont le modèle."
+        ],
+        [
+         "Les sens, parce qu'ils trompent toujours.",
+         false,
+         "Cela, il le travaillera dans la partie IV ; ici, il est question de précipitation et de prévention."
+        ]
+       ],
+       "ok": "Exact : ni hâte ni préjugés.",
+       "mal": "Relis la première phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Quatre règles",
+      "glosario": [
+       "g-reglas-del-metodo",
+       "g-intuicion",
+       "g-deduccion"
+      ],
+      "definicion": [
+       "<strong>Évidence</strong> → n'accepter que ce qui se présente clairement et distinctement, sans occasion de douter.",
+       "<strong>Analyse</strong> → diviser chaque difficulté en autant de parties qu'il faudra pour la mieux résoudre.",
+       "<strong>Synthèse (ordre)</strong> → conduire ses pensées avec ordre, du plus simple au plus complexe.",
+       "<strong>Dénombrement</strong> → faire des dénombrements si entiers et des revues si générales que l'on n'omette rien."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi Descartes emprunte-t-il sa méthode aux mathématiques ?",
+       "opciones": [
+        [
+         "Parce que les mathématiciens sont les seuls à être parvenus à des démonstrations certaines et évidentes.",
+         true
+        ],
+        [
+         "Parce que toute connaissance consiste à faire des calculs.",
+         false,
+         "Il ne dit pas que tout est calcul : il imite la manière de raisonner, non le contenu."
+        ],
+        [
+         "Parce que l'université de son temps l'ordonnait ainsi.",
+         false,
+         "Descartes s'écarte précisément de ce qu'enseignaient les écoles."
+        ],
+        [
+         "Parce que les mathématiques n'ont besoin d'aucune règle.",
+         false,
+         "C'est l'inverse : c'est d'elles qu'il tire les règles."
+        ]
+       ],
+       "ok": "Correct : il veut pour toute la philosophie la certitude de la géométrie.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Si Descartes met tout en doute, comment vit-il en attendant ? Qu'est-ce que la morale par provision ?",
+    "repaso": [
+     "Ai-je expliqué l'image de la maison : pendant qu'on la reconstruit, il en faut une autre où habiter ?",
+     "Ai-je nommé les maximes : obéir aux lois et aux coutumes, être ferme et résolu, se vaincre soi-même plutôt que la fortune et cultiver la raison ?",
+     "Ai-je utilisé l'exemple des voyageurs égarés dans la forêt pour expliquer la fermeté ?"
+    ],
+    "intro": [
+     "Le doute méthodique vaut pour la connaissance, non pour la vie quotidienne : il faut continuer à manger, à décider et à traiter avec les autres. Demande-toi ce que ferait quelqu'un qui démolit sa maison pour la rebâtir."
+    ],
+    "pistas": [
+     "Rappelle-toi l'image de la partie III : celui qui démolit sa maison pour la rebâtir a besoin d'<strong>une autre maison</strong> où loger en attendant.",
+     "Cette maison provisoire est une <strong>morale par provision</strong> : quelques maximes pour ne pas rester indécis dans l'action.",
+     "La première : obéir aux <strong>lois et aux coutumes</strong> de son pays et suivre les opinions les plus modérées. La deuxième : être <strong>ferme</strong> dans ses actions, comme les voyageurs égarés dans une forêt, qui doivent marcher toujours le plus droit possible dans une même direction.",
+     "La troisième : tâcher de <strong>se vaincre soi-même plutôt que la fortune</strong> et de changer ses désirs plutôt que l'ordre du monde. Et en conclusion : consacrer sa vie à <strong>cultiver sa raison</strong>."
+    ],
+    "comprobacion": {
+     "pregunta": "À quoi sert la morale par provision de Descartes ?",
+     "opciones": [
+      [
+       "À pouvoir agir avec fermeté pendant que sa raison met tout en doute.",
+       true
+      ],
+      [
+       "À remplacer l'éthique pour toujours.",
+       false,
+       "Elle est provisoire : une maison où vivre pendant que l'on construit la définitive.",
+       "g-moral-provisional"
+      ],
+      [
+       "À douter aussi des lois et à leur désobéir.",
+       false,
+       "La première maxime demande justement d'obéir aux lois et aux coutumes.",
+       "g-moral-provisional"
+      ],
+      [
+       "À démontrer que Dieu existe.",
+       false,
+       "Cela, c'est la partie IV ; la morale par provision concerne la vie pratique.",
+       "g-la-garantia-de-dios"
+      ]
+     ],
+     "ok": "Exact : doute dans la connaissance, fermeté dans l'action.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Vivre tout en doutant",
+      "titulo": "Les voyageurs de la forêt",
+      "glosario": [
+       "g-moral-provisional",
+       "g-duda-metodica"
+      ],
+      "cita": {
+       "texto": "« Imitant en ceci les voyageurs qui, se trouvant égarés en quelque forêt, ne doivent pas errer en tournoyant tantôt d'un côté, tantôt d'un autre, ni encore moins s'arrêter en une place, mais marcher toujours le plus droit qu'ils peuvent vers un même côté. »",
+       "fuente": "Descartes, <em>Discours de la méthode</em>, III (AT VI 24 ; texte original)"
+      },
+      "definicion": [
+       "<strong>1re maxime</strong> → obéir aux lois et aux coutumes de son pays, garder sa religion et suivre les opinions les plus modérées.",
+       "<strong>2e maxime</strong> → être ferme et résolu dans ses actions : une fois la décision prise, persévérer même si l'opinion est douteuse, comme les voyageurs de la forêt.",
+       "<strong>3e maxime</strong> → se vaincre soi-même plutôt que la fortune ; changer ses désirs plutôt que l'ordre du monde.",
+       "<strong>Conclusion</strong> → employer sa vie à cultiver sa raison et à avancer dans la connaissance de la vérité, selon la méthode."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Qu'enseigne l'exemple des voyageurs égarés dans la forêt ?",
+       "opciones": [
+        [
+         "Que, dans l'action, il vaut mieux suivre fermement une décision, même douteuse, que rester à douter.",
+         true
+        ],
+        [
+         "Qu'il faut attendre d'être sûr avant de faire un pas.",
+         false,
+         "C'est justement ce qu'il critique : celui qui attend ainsi reste dans la forêt."
+        ],
+        [
+         "Qu'il faut revenir sur ses pas.",
+         false,
+         "Il ne dit pas de revenir : il dit de marcher droit vers un même côté."
+        ],
+        [
+         "Que la nature est dangereuse.",
+         false,
+         "C'est une image sur la décision, non sur la nature."
+        ]
+       ],
+       "ok": "Correct : en marchant droit, on finit par sortir de la forêt.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer la méthode et la morale par provision",
+   "parrafos": [
+    "Descartes emprunte aux mathématiques quatre règles : évidence, analyse, synthèse et dénombrement. Tant que sa méthode met tout en doute, il vit avec une morale par provision : obéir aux lois, être ferme dans l'action, se vaincre soi-même plutôt que la fortune et cultiver la raison.",
+    "Pour la PAU : relie ces parties II et III à la IV (le doute méthodique et le cogito), là où la méthode donne son premier fruit."
+   ],
+   "siguiente": "hf-duda"
+  }
+ },
+ {
   "id": "hf-duda",
+  "ilustre": "descartes",
   "subject": "hf",
   "tema": "Thème 14 · Descartes",
   "unidad": "hf-racionalismo",
@@ -486,6 +988,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-naturaleza",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Thème 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -729,6 +1232,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-libertad",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Thème 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -976,6 +1480,7 @@ const PISTAS = [
  },
  {
   "id": "spinoza-alegria",
+  "ilustre": "spinoza",
   "subject": "hf",
   "tema": "Thème 15 · Spinoza",
   "unidad": "hf-metafisica",
@@ -1219,7 +1724,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "kant-ilustracion",
+  "ilustre": "kant",
+  "subject": "hf",
+  "tema": "Thème 18 · Kant : les Lumières",
+  "unidad": "hf-ilustracion",
+  "materia": "Philosophie · Kant",
+  "titulo": "Qu'est-ce que les Lumières, selon Kant ?",
+  "lede": "La lecture de Kant à la PAU : un article de journal de 1784 qui continue de défier celui qui le lit. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Comment Kant définit-il les Lumières, et pourquoi dit-il que la minorité est de notre faute ?",
+    "repaso": [
+     "Ai-je dit que les Lumières sont la sortie d'une minorité dont on est soi-même responsable ?",
+     "Ai-je expliqué que la minorité consiste à ne pas savoir se servir de son propre entendement sans la direction d'un autre ?",
+     "Ai-je donné les causes, la paresse et la lâcheté, et la devise <em>Sapere aude</em> ?"
+    ],
+    "intro": [
+     "Kant répond dans un journal à une question que l'on débattait alors à Berlin. Sa réponse commence par une célèbre définition. Essaie de la reconstituer avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour atterrir : pour Kant, les Lumières ne sont ni une époque ni un ensemble de livres, mais un <strong>changement dans la personne</strong> : une sortie.",
+     "On sort d'une <strong>minorité</strong> : ne pas savoir se servir de son propre entendement sans qu'un autre nous guide.",
+     "Cette minorité est <strong>de notre faute</strong> quand ce n'est pas l'entendement qui nous manque, mais la résolution et le courage de s'en servir. Ses causes : la <strong>paresse</strong> et la <strong>lâcheté</strong>. Il est bien commode d'avoir un livre qui pense pour moi et un tuteur qui décide pour moi.",
+     "C'est pourquoi la devise des Lumières est <em>Sapere aude !</em> : « aie le courage de te servir de ton propre entendement ! »."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Kant, pourquoi la minorité est-elle de notre faute ?",
+     "opciones": [
+      [
+       "Parce qu'elle tient non à un manque d'entendement, mais à un manque de résolution et de courage pour s'en servir sans la direction d'un autre.",
+       true
+      ],
+      [
+       "Parce que les mineurs n'ont pas assez étudié.",
+       false,
+       "Ce n'est pas une question d'études ni d'âge : c'est une question de courage pour penser par soi-même.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Parce que les gouvernants ne laissent pas les gens penser.",
+       false,
+       "Kant critique les tuteurs, mais la faute qu'il désigne est celle de qui se laisse guider par paresse et par lâcheté.",
+       "g-minoria-de-edad"
+      ],
+      [
+       "Parce que la raison humaine n'est pas capable de connaître la vérité.",
+       false,
+       "Kant ne dit pas que la raison nous manque : il dit que nous n'osons pas nous en servir.",
+       "g-autonomia"
+      ]
+     ],
+     "ok": "Bien : la minorité est de notre faute parce qu'elle naît de la paresse et de la lâcheté.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "La définition",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "cita": {
+       "texto": "« Les Lumières, c'est la sortie de l'homme hors de l'état de minorité, dont il est lui-même responsable. La minorité est l'incapacité de se servir de son entendement sans la direction d'un autre. »",
+       "fuente": "Kant, <em>Réponse à la question : Qu'est-ce que les Lumières ?</em> (1784), Ak. VIII 35 (traduction personnelle de l'allemand)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "D'après le texte, qu'est-ce que la minorité ?",
+       "opciones": [
+        [
+         "L'incapacité de se servir de son propre entendement sans la direction d'un autre.",
+         true
+        ],
+        [
+         "Ne pas avoir encore dix-huit ans.",
+         false,
+         "Kant ne parle pas de l'âge légal : un adulte peut rester « mineur »."
+        ],
+        [
+         "Ne pas avoir de droits politiques.",
+         false,
+         "Le texte parle de l'entendement, non des droits."
+        ],
+        [
+         "Ne savoir ni lire ni écrire.",
+         false,
+         "On peut savoir beaucoup lire et laisser quand même un autre penser à sa place."
+        ]
+       ],
+       "ok": "Exact : c'est ne pas oser penser sans tuteur.",
+       "mal": "Relis la deuxième phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Paresse, lâcheté et tuteurs",
+      "glosario": [
+       "g-minoria-de-edad",
+       "g-autonomia"
+      ],
+      "definicion": [
+       "<strong>Lumières</strong> → sortir de la minorité ; penser par soi-même.",
+       "<strong>Minorité dont on est responsable</strong> → ce n'est pas l'entendement qui manque, mais la résolution et le courage. Ses causes sont la paresse (il est commode qu'un autre pense à ma place) et la lâcheté (on a peur de se tromper seul).",
+       "<strong>Les tuteurs</strong> → ceux qui se chargent de penser pour les autres et leur font voir le danger de marcher seuls.",
+       "<strong><em>Sapere aude</em></strong> → « ose savoir » : la devise que Kant emprunte à un vers d'Horace."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Quel rôle jouent les tuteurs dans le texte de Kant ?",
+       "opciones": [
+        [
+         "Ils se chargent de penser pour les autres et leur font peur de marcher seuls, et ainsi les maintiennent dans la minorité.",
+         true
+        ],
+        [
+         "Ce sont les maîtres qui aident à penser par soi-même.",
+         false,
+         "Pour Kant, ils font le contraire : ils maintiennent les autres sous leur direction."
+        ],
+        [
+         "Ce sont les seuls à être déjà sortis de la minorité.",
+         false,
+         "Ce n'est pas cela qui importe : le texte les présente comme ceux qui dirigent les autres."
+        ],
+        [
+         "Ils représentent les esprits éclairés.",
+         false,
+         "C'est l'inverse : les esprits éclairés demandent que chacun pense par soi-même, sans tuteurs."
+        ]
+       ],
+       "ok": "Correct : le tuteur rend la minorité confortable.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Quelle différence y a-t-il entre l'usage public et l'usage privé de la raison, et pourquoi seul le premier doit-il toujours être libre ?",
+    "repaso": [
+     "Ai-je défini l'usage public : celui qu'une personne fait, comme savant, devant tout le public des lecteurs ?",
+     "Ai-je défini l'usage privé : celui que l'on fait dans une charge ou un poste qui nous a été confié, où il faut obéir ?",
+     "Ai-je donné un exemple (l'officier, le contribuable, le pasteur) et expliqué que l'usage public est ce qui produit les Lumières ?"
+    ],
+    "intro": [
+     "Kant ne demande pas de désobéir. Il demande quelque chose de plus subtil : il distingue deux usages de la raison. Pense à un officier de l'armée qui reçoit un ordre qui lui paraît erroné."
+    ],
+    "pistas": [
+     "Rappelle-toi la condition que pose Kant pour les Lumières : il suffit de la <strong>liberté</strong>, et de la plus inoffensive de toutes.",
+     "Cette liberté est celle de faire <strong>usage public</strong> de sa propre raison : parler comme savant devant tout le public qui lit.",
+     "L'<strong>usage privé</strong> est celui que nous faisons dans une charge qui nous a été confiée. Là, on peut le limiter : l'officier en service doit obéir, même si l'ordre lui paraît mauvais.",
+     "Mais ce même officier, <strong>comme savant</strong>, peut ensuite écrire contre les défauts du service. C'est pourquoi Kant résume ce que dit son roi : « raisonnez autant que vous voudrez et sur ce que vous voudrez, mais obéissez »."
+    ],
+    "comprobacion": {
+     "pregunta": "Un officier reçoit un ordre qui lui paraît erroné. Selon Kant, que doit-il faire ?",
+     "opciones": [
+      [
+       "Obéir tant qu'il est en service, puis, comme savant, critiquer publiquement l'erreur devant les lecteurs.",
+       true
+      ],
+      [
+       "Désobéir, parce que la raison est au-dessus des ordres.",
+       false,
+       "Dans la charge, l'usage privé de la raison peut être limité : là, il faut obéir.",
+       "g-uso-privado"
+      ],
+      [
+       "Obéir et se taire toujours, parce que c'est ainsi que fonctionne l'État.",
+       false,
+       "Kant demande que l'usage public soit toujours libre : se taire pour toujours n'est pas la solution.",
+       "g-uso-publico"
+      ],
+      [
+       "Démissionner, parce qu'on ne peut pas obéir et penser à la fois.",
+       false,
+       "Kant montre que c'est possible : obéir dans la charge et raisonner en public."
+      ]
+     ],
+     "ok": "Exact : obéir dans l'usage privé et raisonner librement dans l'usage public.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Deux usages de la raison",
+      "titulo": "Raisonner en public, obéir dans la charge",
+      "glosario": [
+       "g-uso-publico",
+       "g-uso-privado"
+      ],
+      "cita": {
+       "texto": "« J'entends par usage public de sa propre raison celui que l'on en fait, comme savant, devant l'ensemble du public qui lit. »",
+       "fuente": "Kant, <em>Qu'est-ce que les Lumières ?</em> (1784), Ak. VIII 37 (traduction personnelle de l'allemand)"
+      },
+      "definicion": [
+       "<strong>Usage public</strong> → parler ou écrire comme savant devant tous les lecteurs. Il doit toujours être libre, parce que c'est le seul qui porte les Lumières aux autres.",
+       "<strong>Usage privé</strong> → celui que l'on fait dans une charge qui nous a été confiée (l'officier, le fonctionnaire, le pasteur devant sa communauté). On peut le limiter sans freiner les Lumières.",
+       "C'est pourquoi Kant dit qu'il vit dans une <strong>époque de Lumières</strong>, mais non dans une époque éclairée : le chemin est ouvert, non parcouru."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Pourquoi l'usage public de la raison doit-il toujours être libre ?",
+       "opciones": [
+        [
+         "Parce que c'est le seul qui puisse porter les Lumières aux autres.",
+         true
+        ],
+        [
+         "Parce qu'ainsi personne n'a jamais à obéir.",
+         false,
+         "Kant maintient l'obéissance dans l'usage privé."
+        ],
+        [
+         "Parce que seuls les gouvernants l'exercent.",
+         false,
+         "N'importe qui peut l'exercer, comme savant, devant les lecteurs."
+        ],
+        [
+         "Parce qu'il n'a aucune conséquence.",
+         false,
+         "Kant le dit « inoffensif » pour l'ordre, mais c'est justement ce qui fait avancer les Lumières."
+        ]
+       ],
+       "ok": "Correct : sans usage public libre, il n'y a pas de Lumières.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer « Qu'est-ce que les Lumières ? »",
+   "parrafos": [
+    "Les Lumières sont la sortie d'une minorité dont on est soi-même responsable : ce n'est pas l'entendement qui manque, mais la résolution et le courage (<em>Sapere aude</em>). Pour en sortir, il suffit de la liberté de faire usage public de sa raison, qui doit toujours être libre, tandis que l'usage privé, celui de la charge, peut être limité.",
+    "Pour la PAU : dans le résumé, distingue la définition, les causes et les deux usages de la raison ; dans l'option A ou B, relie-le à l'autonomie de l'éthique kantienne."
+   ],
+   "siguiente": "kant-imperativo"
+  }
+ },
+ {
   "id": "kant-imperativo",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "Thème 20 · Kant : l'éthique du devoir",
   "unidad": "hf-etica-deber",
@@ -1465,6 +2218,7 @@ const PISTAS = [
  },
  {
   "id": "kant-humanidad",
+  "ilustre": "kant",
   "subject": "hf",
   "tema": "Thème 20 · Kant : l'éthique du devoir",
   "unidad": "hf-etica-deber",
@@ -1704,6 +2458,7 @@ const PISTAS = [
  },
  {
   "id": "marx-alienacion",
+  "ilustre": "marx",
   "subject": "hf",
   "tema": "Thème 21 · Marx",
   "unidad": "hf-sospecha",
@@ -1950,6 +2705,7 @@ const PISTAS = [
  },
  {
   "id": "nietzsche-destino",
+  "ilustre": "nietzsche",
   "subject": "hf",
   "tema": "Thème 21 · Nietzsche",
   "unidad": "hf-sospecha",
@@ -2196,6 +2952,7 @@ const PISTAS = [
  },
  {
   "id": "beauvoir-conclusion",
+  "ilustre": "beauvoir",
   "subject": "hf",
   "tema": "Thème 26 · Beauvoir",
   "unidad": "hf-beauvoir",

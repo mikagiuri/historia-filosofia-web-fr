@@ -693,14 +693,14 @@ const REP_DIAL = {
  "doxa": "Les auxiliaires n’ont pas la science, ἐπιστήμη (*epistéme*), mais l’opinion droite, ὀρθὴ δόξα (*orthè dóxa*) : leur courage est « la conservation de l’opinion droite et légitime sur ce qu’il faut craindre et ne pas craindre » (République IV, 430b). Seuls les gouvernants sortent de la caverne.",
  "finB": [
   {
-   "min": 8,
+   "min": 20,
    "todas": true,
    "emoji": "🏛️",
    "name": "Callipolis : la cité juste",
    "lema": "Les trois classes font ce qui leur revient et la cité tient."
   },
   {
-   "min": 5,
+   "min": 12,
    "emoji": "⚖️",
    "name": "Une cité debout, pas tout à fait juste",
    "lema": "Elle tient, mais une fonction fait défaut."
@@ -766,6 +766,8 @@ const REP_DIAL = {
   "hudReg": "Régime",
   "elegir": "Choisis une version",
   "accionesMax": "Actions (3 max. ce tour)",
+  "justiciaTurno": "⚖️ La cité est juste : chaque classe fait ce qui lui revient (+0,5).",
+  "opcional": "facultatif",
   "clasesB": [
    "Gouvernants",
    "Auxiliaires",
@@ -796,8 +798,8 @@ const REP_DIAL = {
   "cEconomiaT": "Tu commences avec 8 AP. Chaque tour, tu gagnes 1 AP de plus ; dans la version B, chaque nouvelle phase donne 2 AP. Tu peux jouer jusqu’à 3 actions par tour, chacune une seule fois.",
   "cVictoria": "Comment on gagne et comment on perd",
   "cVictoriaA": "Version A : tu commences en aristocratie avec 10 d’harmonie. Sous 8, timocratie ; sous 6, oligarchie ; sous 4, démocratie ; sous 2, tyrannie. On ne remonte pas. À 0 d’harmonie ou avec moins de 3 habitants, la cité s’effondre. Tu gagnes si tu finis en aristocratie ou en timocratie.",
-  "cVictoriaB": "Version B : tu gagnes la Callipolis si tu finis avec 8 d’harmonie ou plus et les quatre fonctions remplies ; avec 5 ou plus, la cité tient encore debout. À 0 d’harmonie ou avec moins de 3 habitants, elle se dissout.",
-  "cFunciones": "Les quatre fonctions (version B) : sagesse = un gardien au moins avec une sagesse de 5 ; courage = guerriers ≥ producteurs ÷ 2,5 ; tempérance = production ≥ population ; justice = les trois à la fois.",
+  "cVictoriaB": "Version B : tu gagnes la Callipolis si tu finis avec 20 d’harmonie ou plus et que la cité est juste (les trois fonctions remplies) ; avec 12 ou plus, la cité reste debout. Avec 0 d’harmonie ou moins de 3 habitants, elle se dissout. En B, l’harmonie monte vite : le difficile est d’arriver à la fin avec chaque classe à sa place.",
+  "cFunciones": "Les fonctions de la cité (dans les deux versions) : sagesse = un gardien de sagesse 5 ; courage = guerriers ≥ producteurs ÷ 2,5 ; tempérance = production ≥ population. La justice n’est pas une quatrième vertu : c’est que les trois soient remplies à la fois, chaque classe à sa place (République IV, 433a-c). À chaque tour où la cité est juste, +0,5 d’harmonie.",
   "cClases": "Les classes et leur coût",
   "cClasesT": "Coût de chaque profil = somme de ses trois vertus. Gardien : les trois ≥ 4. Guerrier : courage et tempérance ≥ 4. Producteur : tempérance ≥ 4 ; chaque producteur nourrit 2 personnes. Sous 30 habitants, l’événement « Cité amoindrie » retire des points. En mode Réel, producteurs ≥ 2 × (gardiens + guerriers) : c’est une règle du jeu, pas de Platon.",
   "cDialogos": "Dialogues : ceux de ta version apparaissent, un tous les trois tours. Tu choisis une position et une raison ; le résultat change la cité.",

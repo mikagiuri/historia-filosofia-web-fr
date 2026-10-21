@@ -3000,6 +3000,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Minorité",
+  "id": "g-minoria-de-edad",
+  "et": "Traduit l'allemand *Unmündigkeit* : ne pas être *mündig*, « majeur », mot issu de l'ancien *munt*, « protection, tutelle ».",
+  "area": "Éthique",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "La philosophie de Kant",
+  "def": "Pour Kant, l'incapacité de se servir de son propre entendement sans la direction d'un autre. On en est soi-même responsable quand elle tient non à un manque d'entendement, mais à un manque de résolution et de courage ; ses causes sont la paresse et la lâcheté (*Qu'est-ce que les Lumières ?*, 1784, Ak. VIII 35).",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Modernité inachevée",
@@ -3044,6 +3060,22 @@ const GLOSARIO = [
   "def": "L'expression concrète de la substance unique. Les êtres particuliers ne sont pas des substances indépendantes, mais des modes limités.",
   "ilustre": [
    "spinoza"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Morale par provision",
+  "id": "g-moral-provisional",
+  "et": "*Provisoire*, du latin *providere*, « prévoir, pourvoir » : ce que l'on adopte en attendant le définitif.",
+  "area": "Éthique",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes et le rationalisme : unité complète",
+  "def": "Les maximes que Descartes se donne pour vivre tant qu'il met tout en doute (*Discours de la méthode*, III) : obéir aux lois et aux coutumes de son pays, être ferme dans ses actions une fois la décision prise, chercher à se vaincre soi-même plutôt que la fortune et consacrer sa vie à cultiver la raison.",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -3352,6 +3384,22 @@ const GLOSARIO = [
   "def": "Éducation au sens large : formation du caractère et de l'esprit. Chez Platon, tâche principale de la cité, qui sélectionne les gouvernants au terme d'un long parcours d'études et d'épreuves.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 4,
+  "t": "Règles de la méthode",
+  "id": "g-reglas-del-metodo",
+  "et": "*Règle*, du latin *regula*, « règle, norme » ; *méthode*, du grec μέθοδος (*méthodos*), « chemin pour aller à la recherche de quelque chose ».",
+  "area": "Méthode",
+  "bloque": "B",
+  "unidad": "DM",
+  "tema": "Descartes et le rationalisme : unité complète",
+  "def": "Les quatre règles du *Discours de la méthode* (II) : évidence (ne rien admettre que l'on ne connaisse avec évidence), analyse (diviser chaque difficulté en autant de parties qu'il faudra), synthèse (conduire ses pensées avec ordre, du plus simple au plus complexe) et dénombrement (tout passer en revue pour ne rien omettre).",
+  "ilustre": [
+   "descartes"
   ]
  },
  {
@@ -4608,6 +4656,22 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "La mesure adéquate entre l'excès et le défaut, ajustée à la situation et à la droite raison."
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Usage privé de la raison",
+  "id": "g-uso-privado",
+  "et": "*Privé*, du latin *privatus*, « particulier, écarté de ce qui est public ».",
+  "area": "Politique",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "La philosophie de Kant",
+  "def": "Celui qu'une personne fait de sa raison dans une charge ou un poste civil qui lui a été confié : un officier en service, un fonctionnaire, un pasteur devant sa communauté. Kant admet qu'on le limite, car là il faut obéir ; l'usage public, en revanche, doit toujours être libre (Ak. VIII 37).",
+  "ilustre": [
+   "kant"
+  ]
  },
  {
   "subject": "hf",

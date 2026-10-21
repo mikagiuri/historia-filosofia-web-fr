@@ -7,6 +7,7 @@ const LAB = {
   "mesaMundo": "Monde de figures",
   "mesaRelaciones": "Relations",
   "mesaDemos": "Démonstrations guidées",
+  "mesaSpinoza": "Spinoza (en développement)",
   "intro": "Des tables pour faire de la logique avec les mains : déchiffrer un connecteur inconnu, faire pousser des arbres de vérité, construire des mondes où les phrases sont vraies, dessiner des relations et suivre pas à pas des démonstrations célèbres.",
   "verdadera": "vraie",
   "falsa": "fausse",
@@ -224,6 +225,29 @@ const LAB = {
   "menCuatro": "quatre carrés d'aire 4",
   "menAria1": "Carré de 2 pieds de côté divisé en 4 petits carrés",
   "menAria2": "Carré de 4 pieds de côté : il contient quatre carrés comme celui de départ",
+  "mesaKant": "Les jugements de Kant",
+  "kLede": "Pour Kant, tout ce que fait l'entendement se ramène à juger (<em>Critique de la raison pure</em>, A69/B94). C'est pourquoi il range les formes du jugement sous quatre titres de trois moments (A70/B95) et en tire, une à une, les douze catégories (A80/B106). Clique sur une ligne pour voir un exemple, comment on l'écrit aujourd'hui et sur quelle table du Coin on la travaille.",
+  "kJuicio": "Jugement",
+  "kCategoria": "Catégorie",
+  "kEjemplo": "Exemple",
+  "kHoy": "Dans la logique actuelle",
+  "kQueHace": "Ce que fait la catégorie",
+  "kTrabajala": "Travaille-le ici :",
+  "kElige": "Clique sur une ligne du tableau.",
+  "kTercera": "La troisième catégorie de chaque titre naît de la réunion des deux premières (B110-111) : {t}",
+  "kParejaDudosa": "Pour la quantité, Kant apparie les deux tables dans l'ordre (universel-unité, singulier-totalité), et les spécialistes discutent pour savoir si c'est une inadvertance.",
+  "kModal": "La logique modale (□, « il est nécessaire que » ; ◇, « il est possible que ») n'est pas dans le Coin : elle a été construite par C. I. Lewis (1918) et Saul Kripke (1959-1963).",
+  "kExplo": "Pour en savoir plus, voir l'exploration d'Histoire de la philosophie « Des jugements aux catégories »",
+  "kEjTit": "Mets-lui ses étiquettes",
+  "kEjAyuda": "Selon Kant, tout jugement a en même temps une forme de chaque titre. Choisis celle de chacun et vérifie. Regarde la forme de la phrase, pas si elle est vraie.",
+  "kComprobar": "Vérifier",
+  "kSiguiente": "Un autre jugement",
+  "kFrase": "Jugement {n} sur {m}",
+  "kBien": "Bien.",
+  "kMal": "Non : c'est {x}.",
+  "kNoSePide": "pas demandé ici",
+  "kTodas": "<strong>Tout est juste !</strong>",
+  "kRevisa": "Revois celles qui sont marquées.",
   "menAria3": "Carré de 3 pieds de côté avec 9 petits carrés",
   "menAria4": "Quatre carrés de 2 pieds avec leurs diagonales, qui forment un carré incliné"
  },
@@ -443,6 +467,217 @@ const LAB = {
   "Réflexive et antisymétrique, mais pas transitive",
   "Symétrique et asymétrique à la fois, avec au moins une flèche"
  ],
+ "kant": {
+  "titulos": [
+   {
+    "nom": "Quantité",
+    "preg": "de combien de choses parle-t-on ?",
+    "momentos": [
+     {
+      "juicio": "Universel",
+      "cat": "Unité",
+      "ej": "Tous les métaux sont conducteurs.",
+      "letras": "M : métal · C : conducteur",
+      "hace": "Prendre quelque chose comme un",
+      "nota": "On gagne en précision : « pour toute chose, si c'est un métal, elle est conductrice ». Cela n'affirme pas qu'il existe des métaux."
+     },
+     {
+      "juicio": "Particulier",
+      "cat": "Pluralité",
+      "ej": "Certains métaux sont magnétiques.",
+      "letras": "M : métal · G : magnétique",
+      "hace": "Prendre quelque chose comme multiple",
+      "nota": "Cela affirme qu'il en existe au moins un, et rien de plus : « certains » ne veut pas dire « pas tous »."
+     },
+     {
+      "juicio": "Singulier",
+      "cat": "Totalité",
+      "ej": "Ce métal est du cuivre.",
+      "letras": "a : ce métal · C : cuivre",
+      "hace": "Prendre le multiple comme un tout",
+      "nota": "Kant avait raison. La logique traditionnelle traitait le singulier comme un universel ; la logique actuelle l'écrit autrement, sans quantificateur, avec un nom d'individu (a)."
+     }
+    ]
+   },
+   {
+    "nom": "Qualité",
+    "preg": "affirme-t-on ou nie-t-on ?",
+    "momentos": [
+     {
+      "juicio": "Affirmatif",
+      "cat": "Réalité",
+      "ej": "L'âme est mortelle.",
+      "letras": "a : l'âme · M : mortel",
+      "hace": "Que quelque chose soit donné",
+      "nota": "Sans changement."
+     },
+     {
+      "juicio": "Négatif",
+      "cat": "Négation",
+      "ej": "L'âme n'est pas mortelle.",
+      "letras": "a : l'âme · M : mortel",
+      "hace": "Que quelque chose ne soit pas donné",
+      "nota": "Sans changement."
+     },
+     {
+      "juicio": "Infini",
+      "cat": "Limitation",
+      "ej": "L'âme est non-mortelle.",
+      "letras": "a : l'âme · M : mortel",
+      "hace": "Le réel borné par une négation",
+      "nota": "La distinction se perd. En logique des prédicats, « non-mortel » et « n'est pas mortel » s'écrivent de la même façon. Seules les logiques des termes, plus proches d'Aristote, distinguent nier un prédicat et nier une phrase."
+     }
+    ]
+   },
+   {
+    "nom": "Relation",
+    "preg": "comment les parties s'unissent-elles ?",
+    "momentos": [
+     {
+      "juicio": "Catégorique",
+      "cat": "Substance et accident",
+      "ej": "L'eau est liquide.",
+      "letras": "a : l'eau · L : liquide",
+      "hace": "Ce qui demeure sous ce qui change",
+      "nota": "La forme « S est P » se divise en deux : prédiquer quelque chose d'un individu, ou mettre en relation deux classes."
+     },
+     {
+      "juicio": "Hypothétique",
+      "cat": "Cause et effet",
+      "ej": "S'il existe une justice parfaite, le méchant obstiné sera puni.",
+      "letras": "p : il existe une justice parfaite · q : le méchant obstiné sera puni",
+      "hace": "Ce qui, une fois posé, est suivi d'autre chose selon une règle",
+      "nota": "Comme chez Kant, il n'affirme ni p ni q : seulement leur connexion. Mais le « → » actuel est plus faible : il est vrai dès que p est fausse. La causalité de Kant n'est pas le connecteur, mais la connexion nécessaire dans le temps."
+     },
+     {
+      "juicio": "Disjonctif",
+      "cat": "Communauté (action réciproque)",
+      "ej": "Le monde existe par un hasard aveugle, ou par une nécessité interne, ou par une cause externe.",
+      "letras": "p : par un hasard aveugle · q : par une nécessité interne · r : par une cause externe",
+      "hace": "Des choses qui existent en même temps et agissent les unes sur les autres",
+      "nota": "Le « ∨ » actuel est inclusif. Pour dire ce que dit Kant, à savoir qu'une et une seule des alternatives est vraie, il faut ajouter que deux ne sont pas vraies en même temps."
+     }
+    ]
+   },
+   {
+    "nom": "Modalité",
+    "preg": "avec quelle force affirme-t-on ?",
+    "momentos": [
+     {
+      "juicio": "Problématique",
+      "cat": "Possibilité et impossibilité",
+      "ej": "Il se peut qu'il pleuve.",
+      "letras": "p : il pleut",
+      "hace": "Ce qui s'accorde avec les conditions de l'expérience",
+      "nota": "Il passe à la logique modale, avec ses propres règles : ◇p équivaut à ¬□¬p (« il n'est pas nécessaire que non »)."
+     },
+     {
+      "juicio": "Assertorique",
+      "cat": "Existence et non-existence",
+      "ej": "Il pleut.",
+      "letras": "p : il pleut",
+      "hace": "Ce qui est effectivement donné dans la perception",
+      "nota": "Sans opérateur : c'est l'affirmation pure et simple."
+     },
+     {
+      "juicio": "Apodictique",
+      "cat": "Nécessité et contingence",
+      "ej": "Il doit pleuvoir.",
+      "letras": "p : il pleut",
+      "hace": "Ce qui ne peut pas ne pas être donné, selon les lois de l'expérience",
+      "nota": "Le sens change. Pour Kant, la modalité n'ajoute rien au contenu du jugement ; dans la logique modale, □ fait partie du contenu et change ses conditions de vérité."
+     }
+    ]
+   }
+  ],
+  "terceras": "la totalité est la pluralité considérée comme unité ; la limitation, la réalité liée à la négation ; la communauté, la causalité des substances les unes sur les autres, réciproquement ; et la nécessité, l'existence donnée par la possibilité même.",
+  "ejercicio": [
+   {
+    "txt": "Tous les corps sont pesants.",
+    "r": [
+     0,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Socrate est mortel.",
+    "r": [
+     2,
+     0,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Certains métaux ne sont pas magnétiques.",
+    "r": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Aucun métal n'est transparent.",
+    "r": [
+     0,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "txt": "Il se peut que certaines planètes aient de l'eau liquide.",
+    "r": [
+     1,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "txt": "L'âme est non-mortelle.",
+    "r": [
+     -1,
+     2,
+     0,
+     1
+    ],
+    "nota": "L'exemple est de Kant : il affirme, mais place seulement l'âme dans le reste, illimité, de ce qui n'est pas mortel."
+   },
+   {
+    "txt": "S'il existe une justice parfaite, le méchant obstiné sera puni.",
+    "r": [
+     -1,
+     -1,
+     1,
+     -1
+    ],
+    "nota": "Il est aussi de Kant (A73/B98) : il unit deux jugements sans affirmer ni l'un ni l'autre."
+   },
+   {
+    "txt": "Le monde existe par un hasard aveugle, ou par une nécessité interne, ou par une cause externe.",
+    "r": [
+     -1,
+     -1,
+     2,
+     -1
+    ],
+    "nota": "Un autre exemple de Kant (A73-74/B99) : les alternatives s'excluent et, ensemble, couvrent tout."
+   },
+   {
+    "txt": "Nécessairement, tout changement a une cause.",
+    "r": [
+     0,
+     0,
+     0,
+     2
+    ]
+   }
+  ]
+ },
  "demos": [
   {
    "id": "raiz2",

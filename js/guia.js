@@ -373,7 +373,7 @@ const GUIA = {
     {
      "nombre": "Biographies",
      "texto": "Les biographies des penseurs qui apparaissent dans la théorie : qui ils étaient, ce qu’ils ont pensé et dans quels thèmes nous les étudions. En haut, les boutons Persécutés (des philosophes et des scientifiques à qui leur façon de penser a coûté la vie, la liberté ou la patrie) et Communautés (écoles et groupes de penseurs).",
-     "view": "ilustres"
+     "view": "biografias"
     },
     {
      "nombre": "Adages",

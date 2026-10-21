@@ -26,7 +26,7 @@ const CONMUTADORES = [
   { entry: "cuestionarios", modos: [["cuestionarios", "Quiz"], ["reto", "Contre la montre"]] },
   { entry: "dilemas",      modos: [["dilemas", "Dilemmes"], ["polemicas", "Polémiques"], ["duelo", "Duel"], ["nudos", "Nœuds"]] },
   { entry: "epocas",       modos: [["epocas", "Fiches"], ["cronogramas", "Chronogrammes"], ["genealogias", "Généalogies"]] },
-  { entry: "ilustres",     modos: [["ilustres", "Tous"], ["perseguidos", "Persécutés"], ["comunidades", "Communautés"]] },
+  { entry: "biografias",     modos: [["biografias", "Tous"], ["perseguidos", "Persécutés"], ["comunidades", "Communautés"]] },
   { entry: "leibniz",      modos: [["leibniz", "Atelier de Leibniz"], ["universo", "L'univers aristotélicien"], ["palabra", "L'art de la parole"], ["afectos", "Les affects selon Spinoza"]] }   // (20-10) + afectos; (19-10) «Talleres»: unidades transversales
 ];
 

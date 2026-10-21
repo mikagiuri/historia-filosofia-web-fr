@@ -1635,6 +1635,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Eudaimonía (bonheur)",
+  "id": "g-eudaimonia",
+  "et": "Du grec εὐδαιμονία (*eudaimonía*) : εὖ (*eû*) « bien » + δαίμων (*daímon*) « divinité, destin » ; littéralement, « avoir un bon destin ».",
+  "area": "Éthique",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "L'éthique classique",
+  "def": "Pour Aristote, la fin ultime de la vie humaine, ce que l'on recherche pour soi-même et non pour autre chose. Ce n'est pas un sentiment passager, mais une activité de l'âme conforme à la vertu dans une vie entière ; elle a aussi besoin de quelques biens extérieurs (*Éthique à Nicomaque* I 7-8).",
+  "ilustre": [
+   "aristoteles"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Fabrication du consentement",
@@ -3384,6 +3400,22 @@ const GLOSARIO = [
   "def": "Éducation au sens large : formation du caractère et de l'esprit. Chez Platon, tâche principale de la cité, qui sélectionne les gouvernants au terme d'un long parcours d'études et d'épreuves.",
   "ilustre": [
    "platon"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Prudence (phrónesis)",
+  "id": "g-phronesis",
+  "et": "Du grec φρόνησις (*phrónesis*), de φρονεῖν (*phroneîn*), « penser, être sensé ». Le latin l'a traduit par *prudentia*.",
+  "area": "Éthique",
+  "bloque": "A",
+  "unidad": "A8",
+  "tema": "L'éthique classique",
+  "def": "La vertu intellectuelle qui sait bien délibérer sur ce qui convient pour bien vivre dans chaque situation concrète. C'est elle qui fixe le juste milieu des vertus éthiques : c'est pourquoi la vertu se définit comme « ce que déterminerait l'homme prudent » (*Éthique à Nicomaque* II 6 et VI 5).",
+  "ilustre": [
+   "aristoteles"
   ]
  },
  {

@@ -494,6 +494,255 @@ const PISTAS = [
   }
  },
  {
+  "id": "aristoteles-etica",
+  "ilustre": "aristoteles",
+  "subject": "hf",
+  "tema": "Thème 8 · Aristote : l'éthique",
+  "unidad": "hf-etica",
+  "materia": "Philosophie · Aristote",
+  "titulo": "Qu'est-ce que le bonheur pour Aristote, et pourquoi la vertu est-elle un juste milieu ?",
+  "lede": "L'éthique de l'<em>Éthique à Nicomaque</em> : une fin pour toute la vie et un caractère qui se forme par la pratique. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Qu'est-ce que le bonheur (<em>eudaimonía</em>) pour Aristote ?",
+    "repaso": [
+     "Ai-je dit que le bonheur est la fin ultime, ce que l'on recherche pour soi-même et non pour autre chose ?",
+     "Ai-je expliqué l'argument de la fonction propre : le propre de l'être humain est l'activité rationnelle ?",
+     "Ai-je dit que c'est une activité conforme à la vertu dans une vie entière, et qu'elle a aussi besoin de quelques biens extérieurs ?"
+    ],
+    "intro": [
+     "Tout ce que nous faisons, nous le faisons pour quelque chose : nous étudions pour réussir, nous réussissons pour avoir un emploi… Aristote se demande où s'arrête cette chaîne. Essaie de répondre avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour atterrir : toute action vise une <strong>fin</strong>. Mais il ne peut y avoir une chaîne infinie de « pour » : il doit exister une fin que l'on recherche <strong>pour elle-même</strong>.",
+     "Tous lui donnent le même nom : <strong>bonheur</strong> (<em>eudaimonía</em>). Le problème est de savoir en quoi il consiste : plaisir, honneurs, richesse…",
+     "Aristote répond par la <strong>fonction propre</strong> (<em>érgon</em>) : un bon flûtiste est celui qui joue bien de la flûte. Que fait l'être humain que ne font ni les plantes ni les animaux ? <strong>Vivre selon la raison</strong>.",
+     "C'est pourquoi le bonheur est une <strong>activité de l'âme conforme à la vertu</strong>, non un état passager, et de plus « dans une vie entière » : une hirondelle ne fait pas le printemps."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Aristote, qu'est-ce que le bonheur ?",
+     "opciones": [
+      [
+       "Une activité de l'âme conforme à la vertu, maintenue tout au long d'une vie entière.",
+       true
+      ],
+      [
+       "Le plaisir que nous ressentons quand nous obtenons ce que nous désirons.",
+       false,
+       "Le plaisir accompagne l'activité bonne, mais le bonheur n'est pas un sentiment passager.",
+       "g-eudaimonia"
+      ],
+      [
+       "Avoir beaucoup d'argent et beaucoup d'honneurs.",
+       false,
+       "Richesse et honneurs sont des moyens ou dépendent des autres ; le bonheur est recherché pour lui-même.",
+       "g-eudaimonia"
+      ],
+      [
+       "Une récompense reçue après la mort.",
+       false,
+       "Pour Aristote, le bonheur se vit dans cette vie, dans l'activité.",
+       "g-teleologia"
+      ]
+     ],
+     "ok": "Bien : activité, conforme à la vertu, dans une vie entière.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "La définition",
+      "glosario": [
+       "g-eudaimonia",
+       "g-arete"
+      ],
+      "cita": {
+       "texto": "« Le bien humain se révèle être une activité de l'âme conforme à la vertu […], et de plus dans une vie entière. Car une hirondelle ne fait pas le printemps, ni un seul jour ; et de même, un seul jour ou un court espace de temps ne rend personne bienheureux et heureux. »",
+       "fuente": "Aristote, <em>Éthique à Nicomaque</em> I 7, 1098a16-20 (traduction personnelle du grec)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Que veut dire « une hirondelle ne fait pas le printemps » ?",
+       "opciones": [
+        [
+         "Qu'un bon moment isolé ne suffit pas : le bonheur se mesure sur une vie entière.",
+         true
+        ],
+        [
+         "Que le bonheur dépend de la saison de l'année.",
+         false,
+         "C'est une image : un seul signe ne suffit pas pour dire que quelque chose est arrivé."
+        ],
+        [
+         "Que le bonheur est impossible.",
+         false,
+         "Il ne dit pas que ce soit impossible, mais qu'il exige de la continuité."
+        ],
+        [
+         "Que les animaux ne peuvent pas être heureux.",
+         false,
+         "C'est vrai pour Aristote, mais ce n'est pas ce que dit cette image."
+        ]
+       ],
+       "ok": "Exact : le bonheur est l'affaire d'une vie entière.",
+       "mal": "Relis la deuxième phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Fin ultime et fonction propre",
+      "glosario": [
+       "g-eudaimonia",
+       "g-teleologia"
+      ],
+      "definicion": [
+       "<strong>Fin ultime</strong> → le bonheur est ce que l'on veut pour lui-même ; tout le reste, on le veut pour lui.",
+       "<strong>Fonction propre (<em>érgon</em>)</strong> → ce qui distingue l'être humain, c'est la raison ; bien vivre, c'est bien l'exercer.",
+       "<strong>Activité conforme à la vertu</strong> → le bonheur n'est pas quelque chose que l'on a, mais quelque chose que l'on fait, et dans une vie entière.",
+       "<strong>Biens extérieurs</strong> → à la différence de Socrate ou des stoïciens, Aristote admet qu'il en faut quelques-uns : des amis, la santé, une certaine fortune."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi Aristote dit-il que le bonheur consiste à vivre selon la raison ?",
+       "opciones": [
+        [
+         "Parce que la raison est la fonction propre de l'être humain, ce qui le distingue des plantes et des animaux.",
+         true
+        ],
+        [
+         "Parce que la raison nous libère de tout désir.",
+         false,
+         "Aristote ne veut pas supprimer les désirs, mais les ordonner."
+        ],
+        [
+         "Parce que seuls les philosophes peuvent être heureux.",
+         false,
+         "Quiconque vit conformément à la vertu peut l'être, à des degrés divers."
+        ],
+        [
+         "Parce que les dieux l'ordonnent.",
+         false,
+         "L'argument part de la nature humaine, non d'un commandement divin."
+        ]
+       ],
+       "ok": "Correct : être heureux, c'est bien faire ce qui est propre à l'être humain.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce que la vertu éthique, comment s'acquiert-elle et pourquoi est-elle un juste milieu ?",
+    "repaso": [
+     "Ai-je dit que la vertu éthique s'acquiert par l'habitude, en pratiquant : nous devenons justes en faisant des choses justes ?",
+     "Ai-je défini le juste milieu entre deux vices, l'un par excès et l'autre par défaut, avec un exemple (le courage) ?",
+     "Ai-je expliqué que le juste milieu est relatif à nous et que c'est la prudence (<em>phrónesis</em>) qui le fixe ?"
+    ],
+    "intro": [
+     "Personne ne naît courageux ni juste, mais pas non plus le contraire. Pense à la façon dont on apprend à jouer d'un instrument et applique-le au caractère."
+    ],
+    "pistas": [
+     "Rappelle-toi : il y a des vertus de l'intelligence, qui s'apprennent par l'enseignement, et des vertus du caractère ou <strong>éthiques</strong>, qui s'acquièrent par l'<strong>habitude</strong>.",
+     "De même qu'on devient citharède en jouant de la cithare, <strong>nous devenons justes en faisant des choses justes</strong> et courageux en faisant des choses courageuses. La vertu est une habitude.",
+     "Chaque vertu éthique est un <strong>juste milieu</strong> entre deux vices : le courage se situe entre la lâcheté (défaut) et la témérité (excès).",
+     "Mais ce milieu n'est pas une moyenne mathématique : il est <strong>relatif à nous</strong> et à la situation, et c'est la raison de l'<strong>homme prudent</strong> (<em>phrónesis</em>) qui le fixe."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Aristote, comment s'acquiert la vertu éthique ?",
+     "opciones": [
+      [
+       "Par l'habitude : en pratiquant des actes vertueux jusqu'à former le caractère.",
+       true
+      ],
+      [
+       "En lisant et en apprenant ce qu'est le bien, comme le disait Socrate.",
+       false,
+       "Cela vaudrait pour les vertus intellectuelles ; les vertus éthiques se forment par la pratique.",
+       "g-akrasia"
+      ],
+      [
+       "On l'a par nature dès la naissance.",
+       false,
+       "La nature nous en donne la capacité, mais la vertu s'acquiert par l'habitude.",
+       "g-virtud"
+      ],
+      [
+       "En obéissant aux lois sans réfléchir.",
+       false,
+       "Il faut la prudence : la vertu n'est pas une obéissance aveugle, mais la formation du caractère.",
+       "g-phronesis"
+      ]
+     ],
+     "ok": "Exact : le caractère se forme en pratiquant.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Le juste milieu",
+      "titulo": "Ni lâche ni téméraire",
+      "glosario": [
+       "g-termino-medio",
+       "g-phronesis",
+       "g-virtud"
+      ],
+      "cita": {
+       "texto": "« La vertu est donc une disposition acquise de choix, consistant en un juste milieu relatif à nous, déterminé par la raison, et tel que le déterminerait l'homme prudent. »",
+       "fuente": "Aristote, <em>Éthique à Nicomaque</em> II 6, 1106b36-1107a2 (traduction personnelle du grec)"
+      },
+      "definicion": [
+       "<strong>Habitude</strong> → la vertu éthique n'est ni un sentiment ni une capacité naturelle : c'est une disposition qui se forme en pratiquant.",
+       "<strong>Juste milieu</strong> → entre deux vices : le courage entre la lâcheté et la témérité ; la générosité entre l'avarice et la prodigalité.",
+       "<strong>Relatif à nous</strong> → ce n'est pas la moyenne arithmétique : la ration juste pour un athlète n'est pas celle d'un débutant. C'est pourquoi il faut la <strong>prudence</strong> pour le fixer dans chaque cas.",
+       "<strong>Face à Socrate</strong> → savoir le bien ne suffit pas ; celui qui sait et ne le fait pas souffre d'<em>akrasía</em>, un manque de maîtrise de soi."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Pourquoi le juste milieu est-il « relatif à nous » ?",
+       "opciones": [
+        [
+         "Parce qu'il dépend de la personne et de la situation, et que c'est la prudence qui le fixe, non une règle mathématique.",
+         true
+        ],
+        [
+         "Parce que chacun décide de ce qui lui plaît.",
+         false,
+         "Ce n'est pas un caprice : c'est la raison de l'homme prudent qui le fixe."
+        ],
+        [
+         "Parce que c'est la moyenne exacte entre deux quantités.",
+         false,
+         "Précisément ce qu'Aristote nie : ce n'est pas une moyenne arithmétique."
+        ],
+        [
+         "Parce que la vertu est différente dans chaque cité et qu'il n'y a rien de commun.",
+         false,
+         "Les vertus sont les mêmes ; ce qui varie, c'est la façon de les appliquer au cas."
+        ]
+       ],
+       "ok": "Correct : le milieu s'ajuste au cas avec prudence.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer l'éthique d'Aristote",
+   "parrafos": [
+    "Le bonheur est la fin ultime : une activité de l'âme conforme à la vertu dans une vie entière. La vertu éthique est une habitude qui se forme en pratiquant et consiste en un juste milieu relatif à nous, que fixe la prudence : le courage, entre la lâcheté et la témérité.",
+    "Pour la dissertation : compare-la avec l'intellectualisme moral de Socrate et avec l'éthique du devoir de Kant, ou avec celle de Spinoza, pour qui la béatitude est la vertu même."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -2947,6 +3196,255 @@ const PISTAS = [
    "parrafos": [
     "Nietzsche se nomme « le premier immoraliste » : il nie le type d'homme « bon » et la morale chrétienne, qu'il considère comme une morale de la <em>décadence</em>, hostile à la vie. Sa formule est la transvaluation de toutes les valeurs : créer des valeurs qui disent oui à la vie, résumées dans « Dionysos contre le Crucifié ».",
     "Pour la PAU : dans le résumé, rappelle les deux négations du §4 ; dans l'option A ou B, relie-les à la mort de Dieu et au nihilisme."
+   ]
+  }
+ },
+ {
+  "id": "arendt-mal-accion",
+  "ilustre": "arendt",
+  "subject": "hf",
+  "tema": "Thème 22 · Hannah Arendt",
+  "unidad": "hf-capitalismo",
+  "materia": "Philosophie · Hannah Arendt",
+  "titulo": "Qu'est-ce que la banalité du mal, et pourquoi l'action est-elle ce qu'il y a de plus humain ?",
+  "lede": "Deux idées de Hannah Arendt : le mal qui n'a pas besoin de monstres et la vie active parmi les autres. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Que veut dire Arendt par « la banalité du mal » ?",
+    "repaso": [
+     "Ai-je raconté le contexte : le procès d'Eichmann à Jérusalem (1961), qu'Arendt a suivi pour <em>The New Yorker</em> ?",
+     "Ai-je expliqué la thèse : un mal énorme peut être commis par quelqu'un d'ordinaire qui renonce à penser, et non par un monstre ?",
+     "Ai-je dit que « banal » ne signifie pas que le mal soit peu de chose, et que la thèse est discutée (Cesarani, Stangneth) ?"
+    ],
+    "intro": [
+     "En 1961, Adolf Eichmann fut jugé à Jérusalem ; il avait organisé la déportation de millions de Juifs vers les camps d'extermination. Arendt s'attendait à trouver un monstre. Réfléchis à ce qui a pu la surprendre."
+    ],
+    "pistas": [
+     "Pour atterrir : Arendt a suivi le procès en tant que journaliste. Ce qu'elle a vu n'était ni un sadique ni un fanatique écumant, mais un <strong>fonctionnaire ordinaire</strong>.",
+     "Eichmann parlait par phrases toutes faites et répétait qu'il avait obéi aux ordres et bien fait son travail. Arendt remarque une chose : il <strong>ne pensait pas</strong> à ce qu'il faisait.",
+     "D'où sa thèse : un mal immense peut naître non d'une intention démoniaque, mais du <strong>renoncement à penser</strong> et à se mettre à la place de l'autre, au sein d'une machine bureaucratique.",
+     "« Banal » ne veut pas dire que le mal soit peu de chose : cela veut dire qu'il <strong>n'a pas besoin de monstres</strong>. C'est pourquoi penser, juger par soi-même, est une tâche morale."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Arendt, qu'avait Eichmann qui explique son mal ?",
+     "opciones": [
+      [
+       "L'incapacité de penser à ce qu'il faisait et de se mettre à la place des autres.",
+       true
+      ],
+      [
+       "Une méchanceté sadique et démoniaque, hors du commun.",
+       false,
+       "C'est justement ce qu'Arendt s'attendait à trouver et n'a pas trouvé.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "Une maladie mentale qui l'empêchait de savoir ce qu'il faisait.",
+       false,
+       "Les psychiatres l'ont déclaré normal ; pour Arendt, il est responsable.",
+       "g-banalidad-del-mal"
+      ],
+      [
+       "Aucune culpabilité : il ne faisait qu'obéir aux ordres.",
+       false,
+       "Arendt ne l'excuse pas : obéir sans penser n'exonère pas de la responsabilité.",
+       "g-banalidad-del-mal"
+      ]
+     ],
+     "ok": "Bien : le mal sans monstres naît du fait de ne pas penser.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Pure irréflexion",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-totalitarismo"
+      ],
+      "cita": {
+       "texto": "Ce n'était pas de la bêtise, mais « pure irréflexion » qui en avait fait l'un des plus grands criminels de son temps.",
+       "fuente": "Arendt, <em>Eichmann à Jérusalem. Rapport sur la banalité du mal</em> (1963), postface (paraphrase ; l'expression citée, dans ma traduction personnelle de l'anglais)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Qu'est-ce qu'Arendt distingue en disant que ce n'était pas de la bêtise, mais de l'irréflexion ?",
+       "opciones": [
+        [
+         "Qu'Eichmann était capable de penser, mais ne le faisait pas : il ne s'arrêtait pas pour juger ce qu'il faisait.",
+         true
+        ],
+        [
+         "Qu'Eichmann n'était pas très intelligent.",
+         false,
+         "Au contraire : elle dit expressément que ce n'était pas de la bêtise."
+        ],
+        [
+         "Qu'Eichmann pensait trop.",
+         false,
+         "L'irréflexion est justement le contraire : ne pas s'arrêter pour penser."
+        ],
+        [
+         "Qu'Eichmann ne savait pas ce qui se passait dans les camps.",
+         false,
+         "Il savait ce qu'il organisait ; ce qui manquait, c'était le jugement sur cela."
+        ]
+       ],
+       "ok": "Exact : ce n'est pas un manque d'intelligence, mais de jugement.",
+       "mal": "Relis la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Un mal sans monstres, et son débat",
+      "glosario": [
+       "g-banalidad-del-mal",
+       "g-soledad-politica"
+      ],
+      "definicion": [
+       "<strong>La thèse</strong> → le mal extrême peut être commis par des gens ordinaires qui obéissent et ne pensent pas, au sein d'une bureaucratie qui répartit le travail et dilue la responsabilité.",
+       "<strong>Ce qu'elle ne dit pas</strong> → elle ne dit pas que le mal soit peu de chose ni qu'Eichmann fût innocent : Arendt a approuvé sa condamnation.",
+       "<strong>Le débat</strong> → certains historiens, comme David Cesarani (2004) et Bettina Stangneth (2011), ont montré, documents à l'appui, qu'Eichmann était un antisémite convaincu et non un simple bureaucrate. D'autres répondent que la thèse d'Arendt porte sur le type de mal, et pas seulement sur un homme.",
+       "<strong>La leçon</strong> → penser et juger par soi-même n'est pas un luxe de philosophes : c'est ce qui peut freiner le mal."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Que signifie « banal » dans « la banalité du mal » ?",
+       "opciones": [
+        [
+         "Que le mal n'a pas besoin de monstres : il peut venir de gens ordinaires qui ne pensent pas.",
+         true
+        ],
+        [
+         "Que le mal est peu de chose et qu'il ne faut pas y attacher d'importance.",
+         false,
+         "Arendt n'enlève rien à la gravité du crime ; elle parle de son origine."
+        ],
+        [
+         "Que le mal est ennuyeux.",
+         false,
+         "Ce n'est pas une question de goût : c'est une thèse sur l'origine du mal."
+        ],
+        [
+         "Que tout le monde est également coupable.",
+         false,
+         "Elle ne répartit pas la culpabilité à parts égales : chacun répond de ce qu'il fait."
+        ]
+       ],
+       "ok": "Correct : « banal » s'oppose à « démoniaque », non à « grave ».",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce qui distingue le travail, l'œuvre et l'action, et pourquoi l'action est-elle la plus importante ?",
+    "repaso": [
+     "Ai-je distingué les trois activités : travail (maintenir la vie), œuvre (fabriquer un monde durable) et action (entre les personnes, par la parole et les actes) ?",
+     "Ai-je expliqué que l'action a besoin de la pluralité et d'un espace public ?",
+     "Ai-je relié l'action à la natalité : la capacité de commencer quelque chose de nouveau ?"
+    ],
+    "intro": [
+     "Dans <em>Condition de l'homme moderne</em> (1958), Arendt distingue trois manières d'être actif. Pense à la différence entre manger, construire une table et parler dans une assemblée."
+    ],
+    "pistas": [
+     "Rappelle-toi : Arendt appelle <strong>vie active</strong> (<em>vita activa</em>) l'ensemble de ce que nous faisons, par opposition à la vie contemplative des philosophes.",
+     "Le <strong>travail</strong> entretient la vie biologique : manger, nettoyer, produire ce qui se consomme et qu'il faut refaire. L'<strong>œuvre</strong> fabrique des objets durables qui forment un monde commun : maisons, outils, ouvrages.",
+     "L'<strong>action</strong> est différente : elle se déroule entre les personnes, sans intermédiaire de choses, par la parole et les actes. Elle a besoin de la <strong>pluralité</strong> : nous sommes différents et nous vivons ensemble.",
+     "Agir, c'est <strong>commencer quelque chose de nouveau</strong> : chaque naissance apporte au monde quelqu'un capable de commencer (la <strong>natalité</strong>). C'est pourquoi l'action, qui vit dans l'espace public, est le fondement de la liberté politique."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'a de propre l'action, par rapport au travail et à l'œuvre ?",
+     "opciones": [
+      [
+       "Qu'elle a lieu entre les personnes, par la parole et les actes, et permet de commencer quelque chose de nouveau dans un espace public.",
+       true
+      ],
+      [
+       "Qu'elle produit des objets qui durent longtemps.",
+       false,
+       "Cela, c'est l'œuvre, qui fabrique le monde des choses.",
+       "g-vita-activa"
+      ],
+      [
+       "Qu'elle sert à entretenir la vie biologique.",
+       false,
+       "Cela, c'est le travail : manger, nettoyer, produire ce qui se consomme.",
+       "g-vita-activa"
+      ],
+      [
+       "Qu'elle se fait dans la solitude, en pensant.",
+       false,
+       "L'action a besoin des autres : sans pluralité, il n'y a pas d'action.",
+       "g-espacio-publico"
+      ]
+     ],
+     "ok": "Exact : l'action est l'activité politique par excellence.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "La vie active",
+      "titulo": "Travail, œuvre et action",
+      "glosario": [
+       "g-vita-activa",
+       "g-natalidad",
+       "g-espacio-publico"
+      ],
+      "cita": {
+       "texto": "L'action correspond à la condition de la pluralité : « les hommes, et non l'Homme, vivent sur la Terre ».",
+       "fuente": "Arendt, <em>Condition de l'homme moderne</em> (1958), chap. 1 (paraphrase ; l'expression citée, dans ma traduction personnelle de l'anglais)"
+      },
+      "definicion": [
+       "<strong>Travail</strong> → entretenir la vie : ce qui est produit se consomme et il faut le refaire. Sa figure est l'<em>animal laborans</em>.",
+       "<strong>Œuvre</strong> → fabriquer des choses durables qui forment un monde commun, plus stable que nos vies. Sa figure est l'<em>homo faber</em>.",
+       "<strong>Action</strong> → parler et agir devant les autres, dans un espace public, et commencer quelque chose de nouveau (natalité). C'est là qu'apparaît qui est chacun.",
+       "<strong>Le danger</strong> → quand tout devient travail et consommation, ou quand un régime isole les personnes et détruit l'espace public, l'action disparaît, et avec elle la liberté."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Quel rapport y a-t-il entre l'action et la natalité ?",
+       "opciones": [
+        [
+         "Chaque naissance apporte quelqu'un de nouveau, capable de commencer quelque chose : agir, c'est cette capacité de commencer.",
+         true
+        ],
+        [
+         "Que l'action sert à avoir des enfants.",
+         false,
+         "C'est une image philosophique : naître, c'est commencer, et agir aussi."
+        ],
+        [
+         "Que seuls les jeunes peuvent agir.",
+         false,
+         "Tout le monde peut agir : chacun est un commencement."
+        ],
+        [
+         "Que l'action répète toujours la même chose.",
+         false,
+         "Au contraire : le propre de l'action est la nouveauté."
+        ]
+       ],
+       "ok": "Correct : la natalité est la racine de la liberté d'agir.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer deux idées d'Arendt",
+   "parrafos": [
+    "La banalité du mal : un mal immense peut être commis par quelqu'un d'ordinaire qui renonce à penser, et non par un monstre ; la thèse est discutée, car les documents montrent un Eichmann plus idéologique. La vie active : le travail entretient la vie, l'œuvre fabrique un monde et l'action, entre les personnes et dans un espace public, permet de commencer quelque chose de nouveau.",
+    "Pour la dissertation : relie le « penser » d'Arendt à l'« ose penser » de Kant et à la solitude politique qui, selon elle, prépare le totalitarisme."
    ]
   }
  },

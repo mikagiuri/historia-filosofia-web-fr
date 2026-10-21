@@ -1301,6 +1301,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Le mal comme privation",
+  "id": "g-mal-como-privacion",
+  "et": "*Privation*, du latin *privatio*, de *privare*, « ôter, laisser sans quelque chose ». Les scolastiques l'appelaient *privatio boni*, « privation de bien ».",
+  "area": "Métaphysique",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Augustin d'Hippone",
+  "def": "La réponse d'Augustin au problème du mal : le mal n'est ni une substance ni un principe rival de Dieu, comme le soutenaient les manichéens, mais le manque d'un bien qui devrait être présent. Tout ce qui existe, en tant qu'il existe, est bon (*Confessions* VII, 12, 18).",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 11,
   "t": "Le malaise dans la culture",
   "id": "g-el-malestar-en-la-cultura",
@@ -2788,6 +2804,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Libre arbitre",
+  "id": "g-libre-albedrio",
+  "et": "*Arbitre*, du latin *arbitrium*, « jugement, décision » ; *libre*, du latin *liber*.",
+  "area": "Anthropologie",
+  "bloque": "B",
+  "unidad": "B1",
+  "tema": "Augustin d'Hippone",
+  "def": "La capacité de la volonté de choisir. Pour Augustin, c'est un bien que Dieu a donné à l'être humain pour qu'il agisse bien ; le mal moral naît de son mauvais usage, quand la volonté se détourne du bien suprême vers des biens moindres, et c'est pourquoi l'être humain en est responsable, non Dieu (*Du libre arbitre*). Plus tard, face à Pélage, il insiste sur le fait que sans la grâce la volonté ne suffit pas pour faire le bien.",
+  "ilustre": [
+   "agustin"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 8,
   "t": "L'apollinien",
   "id": "g-lo-apolineo",
@@ -3432,6 +3464,22 @@ const GLOSARIO = [
   "def": "Les quatre règles du *Discours de la méthode* (II) : évidence (ne rien admettre que l'on ne connaisse avec évidence), analyse (diviser chaque difficulté en autant de parties qu'il faudra), synthèse (conduire ses pensées avec ordre, du plus simple au plus complexe) et dénombrement (tout passer en revue pour ne rien omettre).",
   "ilustre": [
    "descartes"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Relations d'idées et questions de fait",
+  "id": "g-relaciones-de-ideas",
+  "et": "*Relation*, du latin *relatio*, « renvoi d'une chose à une autre » ; *fait*, du latin *factum*, « ce qui est fait, ce qui s'est produit ».",
+  "area": "Épistémologie",
+  "bloque": "B",
+  "unidad": "BH",
+  "tema": "Hume",
+  "def": "Les deux sortes de connaissance selon Hume (*Enquête sur l'entendement humain*, IV) : les relations d'idées (mathématiques et logique), certaines par démonstration, parce que leur contraire est contradictoire ; et les questions de fait, qui dépendent de l'expérience et dont le contraire est toujours possible (que le soleil ne se lève pas demain). Ce qui n'est ni l'un ni l'autre, dit-il à la fin de l'ouvrage, « au feu ».",
+  "ilustre": [
+   "hume"
   ]
  },
  {

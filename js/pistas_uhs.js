@@ -1,6 +1,257 @@
 // Generado por web_i18n/i18n_rebuild.js (fr) a partir de web/js/pistas_uhs.js. No editar a mano: editar la memoria tm/fr.json y regenerar.
 const PISTAS = [
  {
+  "id": "socrates-sofistas",
+  "ilustre": "socrates",
+  "subject": "hf",
+  "tema": "Thème 5 · Socrate et les sophistes",
+  "unidad": "hf-sofistas",
+  "materia": "Philosophie · Socrate",
+  "titulo": "Pourquoi Socrate s'est-il opposé aux sophistes et pourquoi disait-il que personne ne fait le mal en connaissance de cause ?",
+  "lede": "Deux questions que la PAU de 2026 a déjà posées : la critique des sophistes et l'intellectualisme moral. Demande seulement les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "En quoi Socrate s'opposait-il aux sophistes ?",
+    "repaso": [
+     "Ai-je expliqué le relativisme de Protagoras : « l'homme est la mesure de toutes choses » ?",
+     "Ai-je dit que Socrate cherche des définitions universelles (ce qu'est la justice, ce qu'est le courage), valables pour tous ?",
+     "Ai-je décrit sa méthode : l'ironie (reconnaître qu'on ne sait pas) et la maïeutique (aider à accoucher de la vérité) ?"
+    ],
+    "intro": [
+     "Les sophistes se faisaient payer pour enseigner à bien parler à l'assemblée. Socrate ne se faisait pas payer et disait ne rien savoir. Réfléchis : pourquoi quelqu'un comme lui pouvait-il être un problème pour eux ?"
+    ],
+    "pistas": [
+     "Pour t'ancrer : les sophistes enseignaient la <strong>rhétorique</strong>, l'art de convaincre. Pour beaucoup, ce qui est juste dépendait de la cité et de ce que chacun pensait : c'est l'opposition entre <em>nómos</em> (la convention) et <em>phýsis</em> (la nature).",
+     "Protagoras le résumait ainsi : l'homme est <strong>la mesure de toutes choses</strong>. Si chacun est la mesure, il n'y a pas de vérité commune : c'est le <strong>relativisme</strong>.",
+     "Socrate pose la question inverse : <strong>qu'est-ce que</strong> la justice, le courage, la piété ? Il cherche une <strong>définition universelle</strong>, la même pour tous.",
+     "Sa méthode comporte deux temps : l'<strong>ironie</strong>, qui consiste à reconnaître qu'on ne sait pas et à démonter le faux savoir de l'autre, et la <strong>maïeutique</strong>, qui l'aide à « accoucher » de la vérité, comme sa mère, qui était sage-femme."
+    ],
+    "comprobacion": {
+     "pregunta": "Que cherche Socrate face au relativisme des sophistes ?",
+     "opciones": [
+      [
+       "Des définitions universelles des vertus, valables pour tous.",
+       true
+      ],
+      [
+       "Convaincre l'assemblée avec les meilleurs discours.",
+       false,
+       "C'est ce qu'enseignaient les sophistes avec la rhétorique.",
+       "g-sofistas"
+      ],
+      [
+       "Démontrer que chacun a sa propre vérité.",
+       false,
+       "C'est la position de Protagoras, celle que Socrate critique.",
+       "g-subjetivismo"
+      ],
+      [
+       "Enseigner contre de l'argent aux jeunes gens riches.",
+       false,
+       "Socrate ne se faisait pas payer : c'était l'une de ses différences avec les sophistes.",
+       "g-sofistas"
+      ]
+     ],
+     "ok": "Bien : face à l'opinion de chacun, un concept commun.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "La mesure de toutes choses",
+      "glosario": [
+       "g-sofistas",
+       "g-nomos"
+      ],
+      "cita": {
+       "texto": "« L'homme est la mesure de toutes choses : de celles qui sont, du fait qu'elles sont ; de celles qui ne sont pas, du fait qu'elles ne sont pas. »",
+       "fuente": "Protagoras, cité par Platon dans le <em>Théétète</em>, 152a (traduction personnelle du grec)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Si l'homme est la mesure de toutes choses, quelle conséquence Protagoras en tire-t-il ?",
+       "opciones": [
+        [
+         "Que les choses sont pour chacun telles qu'elles lui apparaissent : il n'y a pas de vérité commune.",
+         true
+        ],
+        [
+         "Que l'être humain est l'être le plus important de l'univers.",
+         false,
+         "Il ne parle pas d'importance, mais de qui décide de ce qui est vrai."
+        ],
+        [
+         "Qu'il faut tout mesurer avec des instruments.",
+         false,
+         "La « mesure » est le critère de vérité, non une règle physique."
+        ],
+        [
+         "Que seuls les sages connaissent la vérité.",
+         false,
+         "Tout le contraire : chacun est une mesure, et non quelques-uns seulement."
+        ]
+       ],
+       "ok": "Exact : c'est cela, le relativisme.",
+       "mal": "Relis la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Ironie et maïeutique",
+      "glosario": [
+       "g-ironia-socratica",
+       "g-mayeutica"
+      ],
+      "cita": {
+       "texto": "« Mon art d'accoucheur a tout le reste en commun avec celui des sages-femmes, mais il s'en distingue en ce qu'il assiste des hommes et non des femmes, et en ce qu'il veille sur les âmes qui enfantent, et non sur les corps. »",
+       "fuente": "Platon, <em>Théétète</em>, 150b (traduction personnelle du grec)"
+      },
+      "definicion": [
+       "<strong>Ironie</strong> → Socrate se présente comme ignorant et, par ses questions, montre que l'autre ne sait pas non plus ce qu'il croyait savoir. Dans l'<em>Apologie de Socrate</em> (21d), il dit que son avantage est de ne pas croire savoir ce qu'il ne sait pas ; le « je sais seulement que je ne sais rien » est une formule postérieure.",
+       "<strong>Maïeutique</strong> → ensuite, il aide l'autre à découvrir par lui-même la vérité qu'il portait en lui, comme une sage-femme aide à accoucher.",
+       "<strong>Le but</strong> → parvenir à la définition universelle (le <em>lógos</em>) de chaque vertu."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "À quoi sert l'ironie socratique ?",
+       "opciones": [
+        [
+         "À montrer que l'interlocuteur ne sait pas ce qu'il croyait savoir, et à ouvrir ainsi la recherche.",
+         true
+        ],
+        [
+         "À se moquer des autres et à gagner la discussion.",
+         false,
+         "Elle ne cherche ni à humilier ni à gagner, mais à ce que l'autre reconnaisse son ignorance."
+        ],
+        [
+         "À enseigner directement la bonne réponse.",
+         false,
+         "Socrate ne donne pas la réponse : il aide l'autre à la trouver."
+        ],
+        [
+         "À démontrer qu'aucune vérité n'existe.",
+         false,
+         "Au contraire : douter est le premier pas pour chercher la vérité."
+        ]
+       ],
+       "ok": "Correct : d'abord vider le faux savoir, ensuite chercher.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce que l'intellectualisme moral, et pourquoi Socrate dit-il que personne ne fait le mal en connaissance de cause ?",
+    "repaso": [
+     "Ai-je dit que, pour Socrate, la vertu est connaissance : celui qui sait ce qu'est le bien le fait ?",
+     "Ai-je expliqué la conséquence : le mal naît de l'ignorance, et c'est pourquoi personne n'agit mal volontairement ?",
+     "Ai-je mentionné la critique d'Aristote : on peut connaître le bien et ne pas le faire (<em>akrasía</em>) ?"
+    ],
+    "intro": [
+     "Si quelqu'un sait que quelque chose lui fait du mal et le fait quand même, le savait-il vraiment ? Socrate répond que non. Réfléchis : pourquoi ?"
+    ],
+    "pistas": [
+     "Rappelle-toi la recherche de définitions : pour Socrate, savoir ce qu'est la justice est la condition pour être juste.",
+     "Va un pas plus loin : la <strong>vertu est connaissance</strong>. Celui qui connaît vraiment le bien le fait, parce que nous cherchons tous ce qui nous semble bon.",
+     "C'est pourquoi <strong>personne ne fait le mal en connaissance de cause</strong> : celui qui agit mal se trompe, il croit bon ce qui ne l'est pas. Le mal naît de l'<strong>ignorance</strong>.",
+     "D'où la tâche de la philosophie : examiner sa propre vie. « Une vie sans examen ne mérite pas d'être vécue ». Aristote lui objectera que nous savons parfois le meilleur et faisons le pire (<em>akrasía</em>)."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon l'intellectualisme moral, d'où naît le mal ?",
+     "opciones": [
+      [
+       "De l'ignorance : celui qui agit mal ne sait pas vraiment ce qu'est le bien.",
+       true
+      ],
+      [
+       "D'une volonté perverse qui choisit le mal en sachant qu'il l'est.",
+       false,
+       "Pour Socrate, personne ne choisit le mal comme mal : c'est précisément ce qu'il nie.",
+       "g-intelectualismo-moral"
+      ],
+      [
+       "Des passions, qui sont plus fortes que la raison.",
+       false,
+       "C'est plutôt l'objection d'Aristote (<em>akrasía</em>).",
+       "g-akrasia"
+      ],
+      [
+       "Des lois injustes de la cité.",
+       false,
+       "Socrate parle de la connaissance de chacun, non des lois.",
+       "g-intelectualismo-moral"
+      ]
+     ],
+     "ok": "Exact : celui qui agit mal se trompe.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Vertu et connaissance",
+      "titulo": "Personne ne se trompe volontairement",
+      "glosario": [
+       "g-intelectualismo-moral",
+       "g-akrasia"
+      ],
+      "cita": {
+       "texto": "« Aucun être humain ne se trompe volontairement, ni ne fait en connaissance de cause des choses honteuses et mauvaises. » « Une vie sans examen n'est pas digne d'être vécue par un être humain. »",
+       "fuente": "Platon, <em>Protagoras</em>, 345d-e, et <em>Apologie de Socrate</em>, 38a (traduction personnelle du grec)"
+      },
+      "definicion": [
+       "<strong>La vertu est connaissance</strong> → savoir ce qu'est le bien suffit pour le faire ; personne ne cherche son propre mal.",
+       "<strong>Le mal est ignorance</strong> → celui qui agit mal confond ce qui paraît bon avec ce qui l'est. C'est pourquoi ce dont il a besoin n'est pas une punition, mais un enseignement.",
+       "<strong>L'objection d'Aristote</strong> → l'<em>akrasía</em> existe : savoir ce que l'on doit faire et céder au désir. Connaître le bien ne suffit pas : il faut former le caractère."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Qu'objecte Aristote à l'intellectualisme moral ?",
+       "opciones": [
+        [
+         "Qu'on peut savoir ce qui est bien et ne pas le faire, par faiblesse de la volonté (<em>akrasía</em>).",
+         true
+        ],
+        [
+         "Que le bien ne peut pas être connu.",
+         false,
+         "Aristote croit bien qu'on le connaît ; ce qu'il dit, c'est que le connaître ne suffit pas."
+        ],
+        [
+         "Que la vertu est un don des dieux.",
+         false,
+         "Pour Aristote, la vertu éthique s'acquiert par l'habitude."
+        ],
+        [
+         "Que Socrate ne savait rien.",
+         false,
+         "L'objection est philosophique, ce n'est pas un jugement sur Socrate."
+        ]
+       ],
+       "ok": "Correct : savoir ne suffit pas ; il faut du caractère.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer Socrate",
+   "parrafos": [
+    "Face au relativisme des sophistes (« l'homme est la mesure de toutes choses »), Socrate cherche des définitions universelles par l'ironie et la maïeutique. Son intellectualisme moral soutient que la vertu est connaissance et que personne ne fait le mal en connaissance de cause : le mal naît de l'ignorance.",
+    "Pour la PAU : dans la dissertation, confronte l'intellectualisme moral à l'<em>akrasía</em> d'Aristote et à l'éthique de l'habitude."
+   ],
+   "siguiente": "aristoteles-etica"
+  }
+ },
+ {
   "id": "hf-caverna",
   "ilustre": "platon",
   "subject": "hf",
@@ -743,6 +994,253 @@ const PISTAS = [
   }
  },
  {
+  "id": "agustin-mal",
+  "ilustre": "agustin",
+  "subject": "hf",
+  "tema": "Thème 12 · Augustin d'Hippone",
+  "unidad": "hf-fe-razon",
+  "materia": "Philosophie · Augustin d'Hippone",
+  "titulo": "Si Dieu est bon, d'où vient le mal ?",
+  "lede": "La question qui a accompagné Augustin pendant la moitié de sa vie et l'une des plus posées du programme. Demande seulement les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Qu'est-ce que le mal pour Augustin, face à la réponse des manichéens ?",
+    "repaso": [
+     "Ai-je posé le problème : si Dieu est bon et tout-puissant, d'où vient le mal ?",
+     "Ai-je expliqué la réponse des manichéens : deux principes éternels, l'un bon et l'autre mauvais, en lutte ?",
+     "Ai-je dit la réponse d'Augustin : le mal n'est pas une substance, mais la privation d'un bien, parce que tout ce qui existe est bon ?"
+    ],
+    "intro": [
+     "Dans sa jeunesse, Augustin appartint pendant des années aux manichéens, qui avaient une réponse très simple au mal. Plus tard, il l'abandonna. Réfléchis : qu'avait-elle d'attrayant et qu'avait-elle de problématique ?"
+    ],
+    "pistas": [
+     "Pour t'ancrer : voici le problème. Si Dieu est <strong>bon</strong> et <strong>tout-puissant</strong>, et qu'il a tout créé, d'où sort le mal ?",
+     "Les <strong>manichéens</strong> répondaient qu'il y a <strong>deux principes</strong> éternels, l'un bon (la lumière) et l'autre mauvais (les ténèbres), en lutte. Ainsi Dieu n'est pas responsable du mal, mais il cesse d'être le seul principe.",
+     "Augustin, avec l'aide des néoplatoniciens, donne une autre réponse : tout ce qui existe, en tant qu'il existe, est <strong>bon</strong>, parce qu'il vient de Dieu.",
+     "Alors le mal <strong>n'est pas une chose</strong>, il n'est pas une substance : il est <strong>manque de bien</strong>, une privation, comme la cécité est le manque de vue ou l'obscurité, le manque de lumière."
+    ],
+    "comprobacion": {
+     "pregunta": "Pour Augustin, qu'est-ce que le mal ?",
+     "opciones": [
+      [
+       "La privation ou le manque d'un bien qui devrait être là, non une substance.",
+       true
+      ],
+      [
+       "Un principe éternel qui lutte contre Dieu.",
+       false,
+       "C'est la réponse des manichéens, qu'Augustin a abandonnée.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Une illusion : le mal n'existe d'aucune manière.",
+       false,
+       "Le mal existe comme manque réel de bien : ce n'est pas une illusion, mais pas non plus une chose.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Une création de Dieu pour punir les hommes.",
+       false,
+       "Tout ce que Dieu crée est bon : le mal n'est pas l'une de ses créatures.",
+       "g-mal-como-privacion"
+      ]
+     ],
+     "ok": "Bien : le mal est un manque de bien, non une chose.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Tout ce qui existe est bon",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-neoplatonismo"
+      ],
+      "cita": {
+       "texto": "« Ainsi donc, toutes les choses qui existent sont bonnes ; et ce mal dont je cherchais l'origine n'est pas une substance. »",
+       "fuente": "Augustin, <em>Confessions</em> VII, 12, 18 (traduction personnelle du latin)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "D'après le texte, pourquoi le mal ne peut-il pas être une substance ?",
+       "opciones": [
+        [
+         "Parce que tout ce qui existe est bon : si le mal était une chose existante, il serait bon.",
+         true
+        ],
+        [
+         "Parce que le mal est trop petit pour compter.",
+         false,
+         "Ce n'est pas une question de taille, mais de la sorte de réalité dont il s'agit."
+        ],
+        [
+         "Parce qu'il n'existe que dans l'imagination.",
+         false,
+         "Le texte ne dit pas qu'il est imaginaire : il dit qu'il n'est pas une substance."
+        ],
+        [
+         "Parce que Dieu l'a détruit.",
+         false,
+         "Le texte ne parle pas de destruction : il parle de ce qu'est le mal."
+        ]
+       ],
+       "ok": "Exact : ce qui existe est bon ; le mal, c'est ce qui manque.",
+       "mal": "Relis la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Du manichéisme à la privation",
+      "glosario": [
+       "g-mal-como-privacion",
+       "g-conversion"
+      ],
+      "definicion": [
+       "<strong>Le problème</strong> → si Dieu est bon et tout-puissant et qu'il crée tout, le mal semble le contredire (« je cherchais d'où vient le mal », <em>Confessions</em> VII, 5, 7).",
+       "<strong>Les manichéens</strong> → deux principes éternels, le bien et le mal, en lutte. Cela résout le problème au prix d'un Dieu qui n'est pas le seul principe.",
+       "<strong>Augustin</strong> → tout ce qui existe est bon en tant qu'il existe ; le mal est la privation d'un bien dû (la cécité est le manque de vue). Il reprend cette idée aux néoplatoniciens."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Quel exemple explique bien le mal comme privation ?",
+       "opciones": [
+        [
+         "La cécité, qui n'est pas une chose, mais le manque de vue chez celui qui devrait voir.",
+         true
+        ],
+        [
+         "Un poison, qui est une substance nuisible.",
+         false,
+         "Un poison est une chose existante ; l'exemple de privation est un manque."
+        ],
+        [
+         "Un démon qui tente les gens.",
+         false,
+         "Ce serait penser le mal comme un être, ce qu'Augustin rejette."
+        ],
+        [
+         "Une tempête, qui détruit les récoltes.",
+         false,
+         "La tempête est quelque chose qui existe ; la privation, c'est ce qui manque."
+        ]
+       ],
+       "ok": "Correct : le mal est un manque, non une chose.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Si le mal n'est pas une chose, d'où vient le mal que font les êtres humains ?",
+    "repaso": [
+     "Ai-je dit que le mal moral naît de la volonté, qui use mal du libre arbitre ?",
+     "Ai-je expliqué le « mauvais usage » : la volonté se détourne du bien suprême vers des biens moindres ?",
+     "Ai-je dit qu'ainsi le responsable du mal moral est l'être humain, non Dieu, et ai-je mentionné le débat avec Pélage sur la grâce ?"
+    ],
+    "intro": [
+     "Augustin se demande dans les <em>Confessions</em> pourquoi, dans sa jeunesse, il a volé des poires qu'il ne voulait même pas manger. Le mal que nous faisons ne ressemble pas à un simple manque de lumière. Réfléchis : où le situe-t-il ?"
+    ],
+    "pistas": [
+     "Rappelle-toi : le mal n'est pas une substance. Mais l'être humain fait le mal, et cela doit être expliqué.",
+     "Augustin le situe dans la <strong>volonté</strong>. Dieu nous a donné le <strong>libre arbitre</strong>, qui est un bien : sans lui, nous ne pourrions ni agir bien ni rien mériter.",
+     "Le mal moral est un <strong>mauvais usage</strong> de cette liberté : la volonté se détourne du bien suprême (Dieu) et se tourne vers des biens moindres (le plaisir, le pouvoir, les choses) comme s'ils étaient ce qu'il y a de plus haut.",
+     "C'est pourquoi le responsable du mal moral est l'<strong>être humain</strong>, non Dieu. Plus tard, face à <strong>Pélage</strong>, Augustin insistera sur le fait que la volonté blessée ne peut pas faire le bien sans l'aide de la grâce."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Augustin, d'où naît le mal moral ?",
+     "opciones": [
+      [
+       "Du mauvais usage du libre arbitre : la volonté se détourne du bien suprême vers des biens moindres.",
+       true
+      ],
+      [
+       "De Dieu, qui nous a faits avec des défauts.",
+       false,
+       "Pour Augustin, ce qui est créé est bon ; le mal moral vient de la volonté humaine.",
+       "g-libre-albedrio"
+      ],
+      [
+       "Du corps, qui est mauvais par nature.",
+       false,
+       "Cela ressemble au manichéisme ; pour Augustin, le corps, en tant que créature, est bon.",
+       "g-mal-como-privacion"
+      ],
+      [
+       "Du destin, que personne ne peut changer.",
+       false,
+       "Augustin défend la responsabilité de la volonté libre.",
+       "g-libre-albedrio"
+      ]
+     ],
+     "ok": "Exact : le mal moral est un désordre de la volonté.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "La volonté",
+      "titulo": "Une volonté tordue",
+      "glosario": [
+       "g-libre-albedrio",
+       "g-interioridad"
+      ],
+      "cita": {
+       "texto": "« J'ai cherché ce qu'était l'iniquité et je n'ai pas trouvé une substance, mais la perversion d'une volonté qui se détourne de la substance suprême, de toi, Dieu, vers les choses les plus basses. »",
+       "fuente": "Augustin, <em>Confessions</em> VII, 16, 22 (traduction personnelle du latin)"
+      },
+      "definicion": [
+       "<strong>Le libre arbitre est un bien</strong> → sans lui, il n'y aurait ni bien moral ni responsabilité.",
+       "<strong>Le mal moral est un désordre</strong> → aimer davantage l'inférieur que le supérieur : les biens moindres comme s'ils étaient le bien suprême.",
+       "<strong>Responsabilité</strong> → le mal que nous faisons est le nôtre, non celui de Dieu.",
+       "<strong>Le débat avec Pélage</strong> → Pélage croyait que la volonté suffit pour faire le bien ; Augustin soutint qu'elle a besoin de la grâce. C'est l'une de ses polémiques les plus longues."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Dans la citation, qu'est-ce que l'iniquité (le mal moral) ?",
+       "opciones": [
+        [
+         "Une volonté qui se détourne de Dieu, le bien suprême, vers les choses les plus basses.",
+         true
+        ],
+        [
+         "Une substance mauvaise qui existe dans le monde.",
+         false,
+         "Le texte dit expressément qu'il n'a pas trouvé de substance."
+        ],
+        [
+         "Une punition de Dieu.",
+         false,
+         "La citation parle de la volonté humaine, non d'une punition."
+        ],
+        [
+         "L'ignorance du bien, comme le disait Socrate.",
+         false,
+         "Pour Augustin, le problème est dans la volonté, et pas seulement dans la connaissance."
+        ]
+       ],
+       "ok": "Correct : le mal moral réside dans l'orientation de la volonté.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer le problème du mal chez Augustin",
+   "parrafos": [
+    "Face aux manichéens, qui posaient deux principes éternels, Augustin soutient que tout ce qui existe est bon et que le mal n'est pas une substance, mais une privation de bien. Le mal moral naît du mauvais usage du libre arbitre : une volonté qui se détourne du bien suprême vers des biens moindres. C'est pourquoi l'être humain en est responsable, non Dieu.",
+    "Pour la PAU : confronte sa réponse à l'intellectualisme de Socrate (le mal comme ignorance) et à celle de Spinoza (rien n'est mauvais en soi, mais seulement par rapport à nous)."
+   ]
+  }
+ },
+ {
   "id": "descartes-metodo",
   "ilustre": "descartes",
   "subject": "hf",
@@ -1233,6 +1731,256 @@ const PISTAS = [
     "Descartes doute avec méthode — les sens, le rêve, le malin génie — pour trouver une vérité indubitable. Il la trouve dans le cogito : si je doute, je pense, et si je pense, j'existe. Son critère de vérité sera la clarté et la distinction.",
     "Pour la PAU : compare ce point de départ rationaliste à celui de Hume, pour qui toute connaissance vient de l'expérience."
    ]
+  }
+ },
+ {
+  "id": "hume-empirismo",
+  "ilustre": "hume",
+  "subject": "hf",
+  "tema": "Thème 14 · Hume",
+  "unidad": "hf-racionalismo",
+  "materia": "Philosophie · Hume",
+  "titulo": "D'où viennent nos idées selon Hume, et pourquoi ne pouvons-nous pas voir la causalité ?",
+  "lede": "Le pendant de Descartes à la PAU : l'empirisme poussé jusqu'au bout. Demande seulement les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Quelle différence y a-t-il entre impressions et idées, et quel critère Hume en tire-t-il ?",
+    "repaso": [
+     "Ai-je défini les impressions (perceptions vives : sentir, voir, désirer) et les idées (leurs copies plus faibles : se souvenir, imaginer) ?",
+     "Ai-je dit que toute idée vient d'une impression antérieure ?",
+     "Ai-je expliqué le critère : si un mot ne renvoie à aucune impression, il n'a pas de contenu (et l'a-t-il appliqué à la substance ou au moi) ?"
+    ],
+    "intro": [
+     "Ce n'est pas la même chose de se brûler avec une poêle et de se rappeler qu'on s'est brûlé. Hume part d'une différence de ce genre. Essaie d'expliquer laquelle avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour t'ancrer : Hume est <strong>empiriste</strong>, face à Descartes. Tout ce qui est dans l'esprit arrive par l'expérience ; il n'y a pas d'idées innées.",
+     "Tout ce qui est dans l'esprit, il l'appelle <strong>perceptions</strong>, et il les divise en deux : les <strong>impressions</strong> (ce que nous sentons, voyons ou désirons, vives et intenses) et les <strong>idées</strong> (leurs copies plus faibles, quand nous nous souvenons ou imaginons).",
+     "La clé : <strong>toute idée est la copie d'une impression</strong>. Même si nous imaginons une montagne d'or, nous la composons avec des impressions de montagnes et d'or.",
+     "D'où un <strong>critère</strong> : devant un mot philosophique, demande-toi « de quelle impression provient-il ? ». S'il n'y en a aucune, le mot n'a pas de contenu. Ainsi il s'attaque à des idées comme la <strong>substance</strong> ou le <strong>moi</strong>, qui n'est rien d'autre qu'un faisceau de perceptions."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Hume, d'où viennent toutes nos idées ?",
+     "opciones": [
+      [
+       "D'impressions antérieures : toute idée est une copie plus faible d'une impression.",
+       true
+      ],
+      [
+       "De la raison, qui les possède dès la naissance.",
+       false,
+       "C'est l'innéisme de Descartes, que Hume rejette.",
+       "g-empirismo"
+      ],
+      [
+       "De Dieu, qui les met dans notre esprit.",
+       false,
+       "Hume ne recourt pas à Dieu pour expliquer la connaissance : tout vient de l'expérience.",
+       "g-impresion"
+      ],
+      [
+       "De l'imagination, qui les crée à partir de rien.",
+       false,
+       "L'imagination combine, mais toujours avec des matériaux qui viennent d'impressions.",
+       "g-impresion"
+      ]
+     ],
+     "ok": "Bien : sans impression préalable, pas d'idée.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Des copies des impressions",
+      "glosario": [
+       "g-impresion",
+       "g-empirismo"
+      ],
+      "cita": {
+       "texto": "« Toutes nos idées, ou perceptions plus faibles, sont des copies de nos impressions, ou perceptions plus vives. »",
+       "fuente": "Hume, <em>Enquête sur l'entendement humain</em> (1748), II, § 13 (traduction personnelle de l'anglais)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "D'après le texte, qu'est-ce qui distingue les impressions des idées ?",
+       "opciones": [
+        [
+         "Leur vivacité : les impressions sont plus vives ; les idées, des copies plus faibles.",
+         true
+        ],
+        [
+         "Leur origine : les unes viennent des sens et les autres de la raison pure.",
+         false,
+         "Pour Hume, les deux viennent de l'expérience ; la différence est d'intensité."
+        ],
+        [
+         "Leur vérité : les impressions sont vraies et les idées, fausses.",
+         false,
+         "Le texte ne parle pas de vérité et de fausseté, mais de vivacité."
+        ],
+        [
+         "Il n'y a pas de différence : elles sont la même chose.",
+         false,
+         "Le texte les distingue : les unes sont des copies des autres."
+        ]
+       ],
+       "ok": "Exact : la différence est de force et de vivacité.",
+       "mal": "Relis la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Le critère empiriste",
+      "glosario": [
+       "g-impresion",
+       "g-haz-de-percepciones"
+      ],
+      "definicion": [
+       "<strong>Impressions</strong> → perceptions vives : sensations, émotions, désirs.",
+       "<strong>Idées</strong> → copies plus faibles des impressions : ce dont nous nous souvenons ou que nous imaginons.",
+       "<strong>Critère</strong> → toute idée légitime procède d'une impression ; si un mot ne renvoie à aucune, il est dépourvu de signification.",
+       "<strong>Conséquences</strong> → nous n'avons pas d'impression d'une substance qui serait sous les qualités, ni d'un moi permanent : le moi est un faisceau de perceptions."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Que se passe-t-il, selon le critère de Hume, avec l'idée d'un « moi » permanent ?",
+       "opciones": [
+        [
+         "Qu'il n'y en a aucune impression : le moi est un faisceau de perceptions qui se succèdent.",
+         true
+        ],
+        [
+         "Que c'est la première certitude, comme dans le <em>cogito</em> de Descartes.",
+         false,
+         "C'est la position de Descartes, que Hume met en doute."
+        ],
+        [
+         "Que c'est une idée innée.",
+         false,
+         "Hume rejette les idées innées."
+        ],
+        [
+         "Qu'on le perçoit avec les sens comme n'importe quel objet.",
+         false,
+         "Tout le contraire : nous ne trouvons aucune impression du moi."
+        ]
+       ],
+       "ok": "Correct : sans impression du moi, il ne reste qu'un faisceau de perceptions.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Pourquoi Hume dit-il que nous ne connaissons pas la connexion nécessaire entre cause et effet ?",
+    "repaso": [
+     "Ai-je distingué les relations d'idées (certaines, comme les mathématiques) et les questions de fait (elles dépendent de l'expérience) ?",
+     "Ai-je expliqué que, de la causalité, nous ne voyons que la succession et la conjonction constante, non une connexion nécessaire ?",
+     "Ai-je dit que l'inférence causale repose sur la coutume ou l'habitude, et l'ai-je reliée au problème de l'induction ?"
+    ],
+    "intro": [
+     "Une boule de billard en frappe une autre et la seconde se met en mouvement. Nous disons que la première a « causé » le mouvement. Hume demande ce que nous avons vu exactement."
+    ],
+    "pistas": [
+     "Rappelle-toi les deux sortes de connaissance : les <strong>relations d'idées</strong> (comme « deux et deux font quatre ») sont certaines sans regarder le monde ; les <strong>questions de fait</strong> dépendent de l'expérience et leur contraire est toujours possible.",
+     "La causalité est une question de fait. Applique le critère des impressions : avec les boules de billard, nous voyons l'une et ensuite l'autre, <strong>contiguïté et succession</strong>, et nous voyons que cela se répète toujours. Mais <strong>nous ne voyons aucune connexion nécessaire</strong>.",
+     "D'où vient alors l'idée que cela « doit » arriver ? De la <strong>coutume</strong> : après avoir vu plusieurs fois la même chose, l'esprit s'attend à ce que cela se répète.",
+     "C'est pourquoi nous ne pouvons pas démontrer que l'avenir sera comme le passé : c'est le <strong>problème de l'induction</strong>. Pourtant, la coutume nous permet de vivre : elle est « le grand guide de la vie humaine »."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Hume, d'où naît l'idée de connexion nécessaire entre cause et effet ?",
+     "opciones": [
+      [
+       "De la coutume : après avoir vu plusieurs fois la même chose, nous nous attendons à ce qu'elle se répète.",
+       true
+      ],
+      [
+       "Du fait que nous percevons directement la force qui unit la cause à l'effet.",
+       false,
+       "C'est ce que Hume nie : nous ne voyons que la succession, non la connexion.",
+       "g-habito"
+      ],
+      [
+       "D'une démonstration rationnelle, comme en mathématiques.",
+       false,
+       "La causalité est une question de fait, non une relation d'idées.",
+       "g-relaciones-de-ideas"
+      ],
+      [
+       "De Dieu, qui garantit l'ordre de la nature.",
+       false,
+       "Hume ne recourt pas à Dieu : il l'explique par la coutume.",
+       "g-habito"
+      ]
+     ],
+     "ok": "Exact : la nécessité est mise par l'habitude, non par l'expérience.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Causalité et coutume",
+      "titulo": "Le grand guide de la vie",
+      "glosario": [
+       "g-relaciones-de-ideas",
+       "g-habito",
+       "g-el-problema-de-la-induccion"
+      ],
+      "cita": {
+       "texto": "« La coutume est donc le grand guide de la vie humaine. »",
+       "fuente": "Hume, <em>Enquête sur l'entendement humain</em> (1748), V, § 36 (traduction personnelle de l'anglais)"
+      },
+      "definicion": [
+       "<strong>Ce que nous voyons</strong> → contiguïté, succession (d'abord la cause, ensuite l'effet) et conjonction constante (cela s'est toujours passé ainsi).",
+       "<strong>Ce que nous ne voyons pas</strong> → la connexion nécessaire, le « cela doit arriver ». Il n'y en a pas d'impression.",
+       "<strong>D'où elle vient</strong> → de la coutume ou habitude : la répétition crée dans l'esprit l'attente que cela se répétera.",
+       "<strong>La conséquence</strong> → nous ne pouvons pas démontrer que l'avenir ressemblera au passé (problème de l'induction). C'est un scepticisme modéré : il n'empêche pas de vivre, mais il rabaisse les prétentions de la raison."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Qu'est-ce que le problème de l'induction ?",
+       "opciones": [
+        [
+         "Que nous ne pouvons pas démontrer que l'avenir sera comme le passé, même si quelque chose s'est répété de nombreuses fois.",
+         true
+        ],
+        [
+         "Que la science ne sert à rien.",
+         false,
+         "Hume ne dit pas cela : la coutume nous sert à vivre, mais sans certitude absolue."
+        ],
+        [
+         "Que les mathématiques sont incertaines.",
+         false,
+         "Les relations d'idées, comme les mathématiques, sont bien certaines."
+        ],
+        [
+         "Que nous n'avons jamais vu une cause.",
+         false,
+         "Nous voyons des successions ; ce que nous ne voyons pas, c'est la connexion nécessaire."
+        ]
+       ],
+       "ok": "Correct : de ce qui est répété, on ne déduit pas ce qui est nécessaire.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer l'empirisme de Hume",
+   "parrafos": [
+    "Toutes nos idées sont des copies d'impressions ; si un mot ne renvoie à aucune impression, il est dépourvu de contenu. La causalité est une question de fait : nous voyons la succession et la conjonction constante, mais non la connexion nécessaire, qui naît de la coutume. C'est pourquoi nous ne pouvons pas démontrer que l'avenir sera comme le passé.",
+    "Pour la PAU : compare-le à Descartes, point par point : l'origine des idées (innées ou venues de l'expérience), le critère de vérité (évidence ou impression) et la portée de la raison."
+   ],
+   "siguiente": "descartes-metodo"
   }
  },
  {

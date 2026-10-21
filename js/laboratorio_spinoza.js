@@ -675,6 +675,263 @@ const LABSPZ = {
    "nota": "Elle ne découle de rien de ce qui précède : Spinoza l'appuie sur la prop. 34 (la puissance de Dieu est son essence), sans la formaliser. Si on l'ajoute, dans un monde fini elle oblige à des cercles causaux."
   }
  ],
+ "repaso": {
+  "titulo": "Rappel : choses, propriétés et relations",
+  "intro": "Tout ce que la table considère comme connu, ici à côté. Les étiquettes des prémisses ouvrent l’entrée qui convient.",
+  "bloques": [
+   {
+    "id": "cosas",
+    "titulo": "Choses",
+    "txt": "Ce sont les cercles du dessin. Les lettres <b>x</b>, <b>y</b>, <b>z</b> sont des variables : elles valent pour n’importe quelle chose, comme le « quelqu’un » de « si quelqu’un arrive en retard, il rate le train ». A, B, C et D sont des noms de choses concrètes.",
+    "ej": "Dans un monde de trois choses, « pour tout x » veut dire : pour A, pour B et pour C."
+   },
+   {
+    "id": "propiedad",
+    "titulo": "Propriétés : P(x)",
+    "txt": "Une propriété, <b>une seule chose</b> l’a ou ne l’a pas. On l’écrit avec son nom et la chose entre parenthèses.",
+    "ej": "increado(A) : A est incréé. Dans le dessin, le double cercle."
+   },
+   {
+    "id": "relacion",
+    "titulo": "Relations : R(x, y)",
+    "txt": "Une relation se donne <b>entre deux choses</b>, et l’ordre compte : Crea(A, B) dit que A a créé B, et non que B a créé A. Dans le dessin, c’est une flèche qui va de la première à la seconde.",
+    "ej": "Antes(A, B) : A a commencé avant B. La flèche part de A et arrive à B."
+   },
+   {
+    "id": "cuantificadores",
+    "titulo": "Tous et quelque",
+    "txt": "<b>∀x</b> se lit « pour toute chose x » : ce qui suit vaut pour chacune. <b>∃x</b> se lit « il y a une chose x » : cela vaut au moins pour une. Pour réfuter un « pour tout », un seul cas suffit ; pour réfuter un « il y a », il faut les regarder tous.",
+    "ej": "∀x. ¬Crea(x, x) : aucune chose ne se crée elle-même. ∃x. increado(x) : au moins une chose est incréée."
+   },
+   {
+    "id": "formas",
+    "titulo": "Les formes de toujours",
+    "txt": "Les phrases de la logique de tous les jours ont une forme fixe :",
+    "lista": [
+     "« Tout P est Q » : ∀x. P(x) → Q(x). Attention ! Avec « → », pas avec « ∧ ».",
+     "« Quelque P est Q » : ∃x. P(x) ∧ Q(x). Ici, si, avec « ∧ ».",
+     "« Aucun P n’est Q » : ∀x. P(x) → ¬Q(x).",
+     "« Quelque P n’est pas Q » : ∃x. P(x) ∧ ¬Q(x).",
+     "« Si… alors » : A → B n’est faux que lorsque A est vrai et B faux."
+    ]
+   },
+   {
+    "id": "irrefl",
+    "titulo": "Irréflexive",
+    "txt": "",
+    "ej": "Rien n’a commencé avant soi-même : aucune flèche de Antes ne revient à son cercle."
+   },
+   {
+    "id": "refl",
+    "titulo": "Réflexive",
+    "txt": "",
+    "ej": "« Mesure autant que » : chaque chose mesure autant qu’elle-même."
+   },
+   {
+    "id": "sim",
+    "titulo": "Symétrique",
+    "txt": "",
+    "ej": "« Est contemporain de » : si A l’est de B, B l’est de A."
+   },
+   {
+    "id": "asim",
+    "titulo": "Asymétrique",
+    "txt": "",
+    "ej": "Créer, si celui qui crée commence avant : si A a créé B, B n’a pas créé A (proposition 2)."
+   },
+   {
+    "id": "trans",
+    "titulo": "Transitive",
+    "txt": "",
+    "ej": "Si A a commencé avant B et B avant C, A a commencé avant C."
+   },
+   {
+    "id": "inclusion",
+    "titulo": "Une relation à l’intérieur d’une autre",
+    "txt": "Toute flèche d’une relation est aussi une flèche de l’autre : ∀x y. R(x, y) → S(x, y). La réciproque n’est pas nécessaire.",
+    "ej": "Crea à l’intérieur de Antes : si A a créé B, A a commencé avant B. Mais A peut commencer avant B sans l’avoir créé."
+   },
+   {
+    "id": "unico",
+    "titulo": "Au plus une flèche arrive",
+    "txt": "À chaque chose arrive au plus une flèche de la relation : ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
+    "ej": "Rien n’a deux créateurs : si A et B ont créé C, A et B sont la même chose."
+   },
+   {
+    "id": "serie",
+    "titulo": "À tout arrive une flèche",
+    "txt": "Chaque chose reçoit au moins une flèche : ∀x. ∃y. R(y, x).",
+    "ej": "Tout a été créé par quelque chose. Dans un monde fini, avec « Antes » irréflexive et transitive, c’est impossible (proposition 6)."
+   }
+  ],
+  "tSimbolos": "Les symboles",
+  "bPracticar": "S’exercer aux propriétés des relations dans la table « Relations »",
+  "tLectura": "Cela se lit ainsi",
+  "tPasos": "Pas à pas",
+  "pHip": "supposition",
+  "pFin": "conclusion",
+  "conCosas": "Avec {x}, la proposition dit",
+  "falsoAqui": "Dans ce monde, c’est faux : vérifie-le sur le dessin.",
+  "tForma": "Forme",
+  "tFormula": "En logique"
+ },
+ "lectura": {
+  "paraToda": "pour toute chose {v}",
+  "paraTodas": "pour toutes les choses {v}",
+  "paraTodo": "pour tout attribut {v}",
+  "paraTodos": "pour tous les attributs {v}",
+  "hayUna": "il y a une chose {v} telle que",
+  "hayVarias": "il y a des choses {v} telles que",
+  "hayAtr": "il y a un attribut {v} tel que",
+  "hayAtrs": "il y a des attributs {v} tels que",
+  "hayMixto": "il y a une chose {c} et un attribut {a} tels que",
+  "noHay": "il n’y a aucune chose {v} telle que",
+  "noHayAtr": "il n’y a aucun attribut {v} tel que",
+  "trasTodo": "{a} : {b}",
+  "conY": "{a} et {b}",
+  "conO": "{a} ou {b}",
+  "si": "si {a}, alors {b}",
+  "sii": "{a} si et seulement si {b}",
+  "noEs": "il n’est pas vrai que {a}",
+  "igual": "{1} est la même chose que {2}",
+  "distinto": "{1} est distinct de {2}",
+  "define": "{a} veut dire : {b}",
+  "Dios": "Dieu",
+  "rel": {
+   "Antes": [
+    "{1} a commencé avant {2}",
+    "{1} n’a pas commencé avant {2}"
+   ],
+   "DuraMas": [
+    "{1} dure plus longtemps que {2}",
+    "{1} ne dure pas plus longtemps que {2}"
+   ],
+   "Crea": [
+    "{1} a créé {2}",
+    "{1} n’a pas créé {2}"
+   ],
+   "increado": [
+    "{1} est incréé",
+    "{1} n’est pas incréé"
+   ],
+   "En": [
+    "{1} est en {2}",
+    "{1} n’est pas en {2}"
+   ],
+   "SeConcibePor": [
+    "{1} se conçoit par {2}",
+    "{1} ne se conçoit pas par {2}"
+   ],
+   "Causa": [
+    "{1} est cause de {2}",
+    "{1} n’est pas cause de {2}"
+   ],
+   "AlgoEnComun": [
+    "{1} et {2} ont quelque chose en commun",
+    "{1} et {2} n’ont rien en commun"
+   ],
+   "EsParteDe": [
+    "{1} est une partie de {2}",
+    "{1} n’est pas une partie de {2}"
+   ],
+   "Limita": [
+    "{1} limite {2}",
+    "{1} ne limite pas {2}"
+   ],
+   "MasRealidad": [
+    "{1} a plus de réalité que {2}",
+    "{1} n’a pas plus de réalité que {2}"
+   ],
+   "TieneAtributo": [
+    "{1} a l’attribut {2}",
+    "{1} n’a pas l’attribut {2}"
+   ],
+   "AtributoSeConcibePor": [
+    "l’attribut {1} se conçoit par l’attribut {2}",
+    "l’attribut {1} ne se conçoit pas par l’attribut {2}"
+   ],
+   "EsenciaImplicaExistencia": [
+    "l’essence de {1} implique son existence",
+    "l’essence de {1} n’implique pas son existence"
+   ],
+   "ConcebibleComoNoExistente": [
+    "{1} peut se concevoir comme non existant",
+    "{1} ne peut pas se concevoir comme non existant"
+   ],
+   "Existe": [
+    "{1} existe",
+    "{1} n’existe pas"
+   ],
+   "ModoDeAtributo": [
+    "{1} est un mode de l’attribut {2}",
+    "{1} n’est pas un mode de l’attribut {2}"
+   ],
+   "SigueDeAtributoAbsoluto": [
+    "{1} découle de la nature absolue de l’attribut {2}",
+    "{1} ne découle pas de la nature absolue de l’attribut {2}"
+   ],
+   "SigueDeModificacion": [
+    "{1} découle de l’attribut modifié par {2}",
+    "{1} ne découle pas de l’attribut modifié par {2}"
+   ],
+   "sustancia": [
+    "{1} est une substance",
+    "{1} n’est pas une substance"
+   ],
+   "modo": [
+    "{1} est un mode",
+    "{1} n’est pas un mode"
+   ],
+   "afeccion": [
+    "{1} est une affection de {2}",
+    "{1} n’est pas une affection de {2}"
+   ],
+   "anterior_por_naturaleza": [
+    "{1} est antérieur par nature à {2}",
+    "{1} n’est pas antérieur par nature à {2}"
+   ],
+   "finita": [
+    "{1} est fini en son genre",
+    "{1} n’est pas fini en son genre"
+   ],
+   "divisible": [
+    "{1} est divisible",
+    "{1} n’est pas divisible"
+   ],
+   "libre": [
+    "{1} est libre",
+    "{1} n’est pas libre"
+   ],
+   "eterno": [
+    "{1} est éternel",
+    "{1} n’est pas éternel"
+   ],
+   "atributo_eterno": [
+    "l’attribut {1} est éternel",
+    "l’attribut {1} n’est pas éternel"
+   ],
+   "causa_inmanente": [
+    "{1} est cause immanente de {2}",
+    "{1} n’est pas cause immanente de {2}"
+   ],
+   "causa_transitiva": [
+    "{1} est cause transitive de {2}",
+    "{1} n’est pas cause transitive de {2}"
+   ],
+   "contingente": [
+    "{1} est contingent",
+    "{1} n’est pas contingent"
+   ],
+   "finita_modo": [
+    "{1} est un mode fini",
+    "{1} n’est pas un mode fini"
+   ],
+   "eterno_por_atributo": [
+    "{1} est éternel par son attribut",
+    "{1} n’est pas éternel par son attribut"
+   ]
+  }
+ },
  "guia": {
   "titulo": "Ce que tu as devant toi et comment t'en servir",
   "secciones": [
@@ -854,6 +1111,24 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pasos": [
+     {
+      "txt": "Suppose qu’une chose x se soit créée elle-même : Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Celui qui crée commence avant ce qui est créé, donc x a commencé avant x : Antes(x, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Mais rien ne commence avant soi-même : ¬Antes(x, x). Contradiction.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Donc l’hypothèse était fausse : rien ne se crée soi-même.",
+      "k": "fin"
+     }
+    ],
     "nombre": "1. Rien ne se crée soi-même",
     "pregunta": "Rien <b>ne se crée</b> soi-même.",
     "prueba": "Si quelque chose se créait soi-même, cela aurait commencé avant soi-même, et rien ne commence avant soi-même.",
@@ -864,6 +1139,28 @@ const LABSPZ = {
    },
    {
     "id": "Q2",
+    "pasos": [
+     {
+      "txt": "Suppose que x ait créé y et que y ait créé x : Crea(x, y) ∧ Crea(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Alors x a commencé avant y, et y avant x : Antes(x, y) ∧ Antes(y, x).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "En enchaînant, x a commencé avant x : Antes(x, x).",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "Mais rien ne commence avant soi-même. Contradiction.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Donc, si x crée y, y ne crée pas x.",
+      "k": "fin"
+     }
+    ],
     "nombre": "2. Créer n'est pas réciproque",
     "pregunta": "Si x crée y, <b>y ne crée pas x</b>.",
     "prueba": "x a commencé avant y, et y avant x ; par la transitivité, x a commencé avant x, ce qui est impossible.",
@@ -875,6 +1172,20 @@ const LABSPZ = {
    },
    {
     "id": "Q3",
+    "pasos": [
+     {
+      "txt": "Pars du fait que x a créé y et que y a créé z : Crea(x, y) ∧ Crea(y, z).",
+      "k": "hip"
+     },
+     {
+      "txt": "Alors x a commencé avant y, et y avant z : Antes(x, y) ∧ Antes(y, z).",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "En enchaînant, x a commencé avant z : Antes(x, z).",
+      "k": "T_transitiva"
+     }
+    ],
     "nombre": "3. Le créateur du créateur est antérieur",
     "pregunta": "Si x crée y et y crée z, x <b>a commencé avant z</b>.",
     "prueba": "x a commencé avant y, et y avant z ; par la transitivité, x avant z.",
@@ -885,6 +1196,28 @@ const LABSPZ = {
    },
    {
     "id": "Q4",
+    "pasos": [
+     {
+      "txt": "Pars du fait que x a créé y, et suppose que y dure plus longtemps que x : Crea(x, y) ∧ DuraMas(y, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Celui qui crée dure plus longtemps que ce qui est créé : DuraMas(x, y).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "En enchaînant, x dure plus longtemps que x : DuraMas(x, x).",
+      "k": "D_transitiva"
+     },
+     {
+      "txt": "Mais rien ne dure plus longtemps que soi-même. Contradiction.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "Donc ce qui est créé ne dure pas plus longtemps que son créateur.",
+      "k": "fin"
+     }
+    ],
     "nombre": "4. Ce qui est créé ne dure pas plus longtemps que son créateur",
     "pregunta": "Si x crée y, y <b>ne dure pas plus longtemps</b> que x.",
     "prueba": "x dure plus longtemps que y (la prémisse discutable) ; si de plus y durait plus longtemps que x, par la transitivité x durerait plus longtemps que lui-même.",
@@ -902,6 +1235,28 @@ const LABSPZ = {
    },
    {
     "id": "Q6",
+    "pasos": [
+     {
+      "txt": "Suppose que rien ne soit incréé : chaque chose a un créateur.",
+      "k": "hip"
+     },
+     {
+      "txt": "Choisis une chose, cherche son créateur, puis le créateur de celui-ci, et ainsi de suite. Chaque pas remonte dans le temps.",
+      "k": "C_creador_anterior"
+     },
+     {
+      "txt": "Ce qui a commencé avant quelque chose qui a commencé avant a commencé avant : toute la chaîne remonte dans le temps.",
+      "k": "T_transitiva"
+     },
+     {
+      "txt": "Le monde est fini, donc la chaîne finit par répéter une chose, qui aurait commencé avant elle-même. Contradiction.",
+      "k": "T_irreflexiva"
+     },
+     {
+      "txt": "Donc il existe quelque chose d’incréé. Dans un monde infini, la chaîne pourrait ne jamais se répéter : c’est pourquoi Isabelle ne le démontre que pour les mondes finis.",
+      "k": "fin"
+     }
+    ],
     "nombre": "6. Il y a quelque chose d'incréé",
     "pregunta": "Il y a quelque chose que <b>rien n'a créé</b>.",
     "prueba": "Dans un monde fini, il ne peut y avoir une chaîne de créateurs sans premier : si tout avait un créateur, en suivant la chaîne on reviendrait à une chose déjà vue, qui aurait commencé avant elle-même. Isabelle le démontre pour les mondes finis. Dans un monde infini, cela ne vaut pas : dans les nombres naturels, si chaque nombre est créé par le suivant, tout a été créé et rien n'est incréé. C'est pourquoi « tout a été créé » ne tient dans aucun monde fini avec ces prémisses.",

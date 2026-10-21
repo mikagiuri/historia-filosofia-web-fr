@@ -692,5 +692,331 @@ const REP_MAZO_B = {
    "desborda": "Ingérence : les classes échangent leurs places ; injustice, ἀδικία (*adikía*).",
    "falta": "Désagrégation : la cité devient « multiple » et en guerre contre elle-même."
   }
+ ],
+ "dialogos": [
+  {
+   "id": "b_dlg_cerdos",
+   "emoji": "🐖",
+   "quien": "Glaucon",
+   "loc": "République II, 372a-e",
+   "situacion": "Socrate décrit la première cité : pain d’orge, vin, fromage, olives, couronnes de myrte et une vie paisible jusqu’à la vieillesse. Glaucon l’interrompt : ce n’est pas une cité d’hommes.",
+   "cita": "« Et si tu fondais une cité de porcs, Socrate, de quoi d’autre les nourrirais-tu ? »",
+   "griego": "ὑῶν πόλις (*hyôn pólis*) : « cité de porcs ». Glaucon réclame ce qui est « d’usage » : lits, tables, mets et desserts (372d-e).",
+   "pregunta": "Quelle cité fondes-tu ?",
+   "opts": [
+    {
+     "t": "La cité saine : le nécessaire, et rien de plus.",
+     "razon": "Qui ne désire pas le superflu n’a pas besoin de l’ôter à personne.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Personne ne convoite le territoire du voisin (+1 d’harmonie), mais la cité renonce à presque tout ce qui n’est pas manger (−6 de production)."
+    },
+    {
+     "t": "Donner raison à Glaucon : lits, tables et mets raffinés.",
+     "razon": "Une vie humaine est plus que se nourrir.",
+     "ef": {
+      "prod": 6,
+      "arm": -1
+     },
+     "r": "Des artisans, des cuisiniers et des parfumeurs arrivent (+6 de production), mais avec le désir la cité grandit et commence à devenir trop étroite (−1 d’harmonie)."
+    },
+    {
+     "t": "Accepter la cité fiévreuse, mais avec des gardiens pour la tenir.",
+     "razon": "C’est ce que fait Platon : de la cité luxueuse naissent la guerre et les gardiens (373d-374a).",
+     "req": "ejercito",
+     "si": {
+      "ef": {
+       "prod": 3,
+       "arm": 1
+      },
+      "r": "Tes guerriers suffisent à contenir le désir et à défendre la frontière (+3 de production et +1 d’harmonie)."
+     },
+     "no": {
+      "ef": {
+       "prod": 3,
+       "arm": -2
+      },
+      "r": "La cité enfle et n’a personne pour la garder (+3 de production, −2 d’harmonie)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "« La vraie cité me paraît être celle que nous avons parcourue, une cité saine ; mais, si vous voulez, contemplons aussi une cité en fièvre. »",
+    "loc": "République II, 372e"
+   },
+   "critica": {
+    "autor": "Aristote",
+    "txt": "Il reproche à la République de faire naître la cité des métiers les plus nécessaires, comme si toute cité se constituait en vue du nécessaire et non plutôt en vue du beau (paraphrase). La cité saine est-elle une cité, ou seulement un garde-manger ?",
+    "loc": "Politique IV 4, 1291a10-19"
+   },
+   "glo": [
+    "g-la-ciudad-justa",
+    "g-templanza",
+    "g-alma-concupiscible"
+   ]
+  },
+  {
+   "id": "b_dlg_perro",
+   "emoji": "🐕",
+   "quien": "Glaucon",
+   "loc": "République II, 375a-376c",
+   "situacion": "La cité a besoin de gardiens. Socrate les compare à un chien de race : féroce avec l’inconnu, doux avec le familier. Il faut choisir les jeunes qui assureront la garde.",
+   "cita": "« Il faut qu’ils soient doux envers les leurs et rudes envers les ennemis ; sinon, ils n’attendront pas que d’autres les détruisent : ils se hâteront de le faire eux-mêmes. »",
+   "griego": "φιλόσοφος καὶ θυμοειδής (*philósophos kaì thymoeidés*) : « amateur de savoir et fougueux », les deux à la fois.",
+   "pregunta": "Qui choisis-tu pour la garde ?",
+   "opts": [
+    {
+     "t": "Les plus féroces : la garde exige du courage.",
+     "razon": "Un défenseur doux ne défend pas.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "Un producteur devient guerrier, mais sa férocité ne distingue pas les étrangers des voisins (−1 d’harmonie)."
+    },
+    {
+     "t": "Les plus doux : qu’ils ne se retournent jamais contre la cité.",
+     "razon": "Le danger d’un gardien, c’est qu’il devienne loup.",
+     "ef": {
+      "arm": 1,
+      "ap": -1
+     },
+     "r": "La cité est tranquille (+1 d’harmonie), mais ses gardiens n’effraient personne et il faut les renforcer (−1 AP)."
+    },
+    {
+     "t": "Les fougueux qui aiment aussi apprendre, et les éduquer.",
+     "razon": "Seul le savoir distingue l’ami de l’ennemi.",
+     "req": "flag:musica",
+     "si": {
+      "ef": {
+       "arm": 2,
+       "ap": -1
+      },
+      "r": "La musique a déjà accordé leur ardeur : féroces au-dehors et doux au-dedans (+2 d’harmonie, −1 AP pour l’éducation)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "Sans éducation musicale, leur ardeur ne sait pas qui mordre (−1 d’harmonie et −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "« Ce qui aime apprendre et ce qui aime la sagesse sont une seule et même chose. » C’est pourquoi le bon gardien sera, par nature, « philosophe, fougueux, rapide et fort ».",
+    "loc": "République II, 376b-c"
+   },
+   "critica": {
+    "autor": "Socrate, contre Polémarque (livre I)",
+    "txt": "« Ce n’est pas l’œuvre du juste de nuire, ni à un ami ni à quiconque, mais de son contraire, l’injuste. » Le chien de garde ne revient-il pas à la définition que Socrate a réfutée : faire du bien aux amis et du mal aux ennemis ?",
+    "loc": "République I, 335d"
+   },
+   "glo": [
+    "g-alma-irascible",
+    "g-valentia",
+    "g-paideia"
+   ]
+  },
+  {
+   "id": "b_dlg_mujeres",
+   "emoji": "⚔️",
+   "quien": "Socrate",
+   "loc": "République V, 451c-457b",
+   "situacion": "C’est la première « vague » du livre V : Socrate propose que les femmes reçoivent la même éducation que les hommes et qu’elles aussi gardent et gouvernent la cité. Il sait que beaucoup riront en les voyant s’exercer au gymnase (452a-b).",
+   "cita": "« Il n’y a, mon ami, aucune occupation parmi celles qui administrent la cité qui appartienne à la femme parce qu’elle est femme, ni à l’homme parce qu’il est homme : les natures sont réparties également dans l’un et l’autre, et la femme participe par nature à toutes les occupations, et l’homme à toutes, bien qu’en toutes la femme soit plus faible que l’homme. »",
+   "griego": "ὁμοίως διεσπαρμέναι αἱ φύσεις (*homoíos diesparménai hai phýseis*) : « les natures, réparties également ».",
+   "pregunta": "Ouvres-tu la garde aux femmes ?",
+   "opts": [
+    {
+     "t": "Oui : la même éducation et les mêmes charges pour qui en a la nature.",
+     "razon": "Ce qui décide de la classe, c’est l’âme, non le sexe.",
+     "ef": {
+      "mov": [
+       "E",
+       "G",
+       1
+      ],
+      "arm": -1
+     },
+     "r": "Une productrice entre dans la garde, mais la nouveauté divise l’assemblée, qui se moque (−1 d’harmonie)."
+    },
+    {
+     "t": "Non : chaque sexe a sa propre vertu.",
+     "razon": "C’est ce que défendra Aristote : autre est la vertu de celui qui commande, autre celle de celui qui sert.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Rien ne change et personne ne proteste (+1 d’harmonie) ; selon Platon, la cité se prive de la moitié des natures aptes à gouverner (−1 de sagesse par gardien)."
+    },
+    {
+     "t": "Examiner chaque personne, une à une, sans regarder le sexe.",
+     "razon": "Il y a une femme apte à la garde, et une autre qui ne l’est pas ; comme parmi les hommes (456a).",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "mov": [
+        "E",
+        "Z",
+        1
+       ]
+      },
+      "r": "Tes gardiens jugent sans préjugé : une femme à l’âme d’or monte gouverner."
+     },
+     "no": {
+      "ef": {
+       "arm": -1
+      },
+      "r": "Tes gardiens ne sont pas impartiaux et l’examen finit en faveurs (−1 d’harmonie)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "« Il y a une femme apte à la garde, et une autre qui ne l’est pas. » Et la nature propre à garder la cité est la même chez la femme et chez l’homme, « sauf en tant qu’elle est plus faible ou plus forte ».",
+    "loc": "République V, 456a"
+   },
+   "critica": {
+    "autor": "Aristote",
+    "txt": "« La tempérance de la femme n’est pas la même que celle de l’homme, ni le courage ni la justice, comme le croyait Socrate, mais l’un est courage de commandement et l’autre de service. » Du point de vue féministe, certaines lectures voient dans le livre V une avancée sans précédent (G. Vlastos, « Was Plato a Feminist? », 1989) ; d’autres, une instrumentalisation : Platon rend les gardiennes égales pour servir la cité et en supprimant la famille, non dans l’intérêt des femmes (J. Annas, « Plato's Republic and Feminism », 1976) (paraphrase).",
+    "loc": "Politique I 13, 1260a20-24"
+   },
+   "glo": [
+    "g-virtud",
+    "g-paideia",
+    "g-la-ciudad-justa"
+   ]
+  },
+  {
+   "id": "b_dlg_leoncio",
+   "emoji": "👁️",
+   "quien": "Glaucon",
+   "loc": "République IV, 439e-440b",
+   "situacion": "Léontios, fils d’Aglaïon, remonte du Pirée et voit des cadavres près du bourreau. Il veut les regarder et en même temps cela le répugne ; il se couvre le visage, lutte contre lui-même et, vaincu par le désir, court vers eux, les yeux grands ouverts (paraphrase de 439e-440a). Dans ta cité il y a un spectacle semblable et les jeunes s’y pressent.",
+   "cita": "« Les voilà, malheureux : repaissez-vous du beau spectacle ! »",
+   "griego": "θυμός (*thymós*) : l’ardeur, qui s’indigne ici contre son propre désir, ἐπιθυμία (*epithymía*).",
+   "pregunta": "Que fais-tu du désir de regarder ?",
+   "opts": [
+    {
+     "t": "Compter sur l’ardeur des jeunes pour qu’elle se range du côté de la raison.",
+     "razon": "La honte de Léontios prouve que l’âme n’est pas seulement appétit.",
+     "req": "justos",
+     "si": {
+      "ef": {
+       "arm": 2
+      },
+      "r": "Tes gardiens sont bien ordonnés : l’indignation sert la raison et l’exemple se répand (+2 d’harmonie)."
+     },
+     "no": {
+      "ef": {
+       "arm": -2
+      },
+      "r": "L’ardeur de tes gardiens n’est pas éduquée : le désir l’emporte, comme chez Léontios (−2 d’harmonie)."
+     }
+    },
+    {
+     "t": "Interdire le spectacle.",
+     "razon": "Mieux vaut ne pas mettre l’appétit à l’épreuve.",
+     "ef": {
+      "arm": 1,
+      "zsj": -1
+     },
+     "r": "Personne ne s’attroupe (+1 d’harmonie), mais personne n’apprend non plus à se gouverner soi-même (−1 de sagesse par gardien)."
+    },
+    {
+     "t": "Laisser chacun regarder s’il le veut.",
+     "razon": "Un désir qui ne nuit à personne n’est pas l’affaire de la cité.",
+     "ef": {
+      "ap": 2,
+      "arm": -1
+     },
+     "r": "La cité économise de la surveillance (+2 AP), mais s’habitue à laisser l’appétit décider (−1 d’harmonie)."
+    }
+   ],
+   "platon": {
+    "txt": "« Ce récit indique que la colère fait parfois la guerre aux appétits, comme une chose distincte d’une autre. » Quand les appétits contraignent quelqu’un contre son raisonnement, « comme entre deux factions en discorde, l’ardeur se fait l’alliée de la raison ».",
+    "loc": "République IV, 440a-b"
+   },
+   "critica": {
+    "autor": "Aristote",
+    "txt": "Si l’on divise l’âme en parties, les parties deviennent en quelque sorte infinies ; et le désir ne tient pas dans une seule : si l’âme est triple, il y aura du désir en chacune d’elles (paraphrase). Léontios lutte-t-il entre des parties, ou est-ce une seule âme divisée ?",
+    "loc": "De l’âme III 9, 432a22-b7"
+   },
+   "glo": [
+    "g-las-tres-partes-del-alma",
+    "g-alma-irascible",
+    "g-alma-concupiscible",
+    "g-alma-racional"
+   ]
+  },
+  {
+   "id": "b_dlg_asclepio",
+   "emoji": "⚕️",
+   "quien": "Glaucon",
+   "loc": "République III, 405c-408b",
+   "situacion": "La cité se remplit de malades chroniques et de médecins. Socrate rappelle Asclépios : il soignait les gens sains tombés malades pour qu’ils retournent à leur métier, mais ne prolongeait pas la vie de qui ne pouvait plus la mener (paraphrase de 407c-e). Il critique Hérodicos, qui inventa une médecine qui prolonge la mort (406a-b).",
+   "cita": "« Dans toutes les cités bien policées, à chacun on a assigné une tâche qu’il doit accomplir, et nul n’a le temps de passer sa vie à être malade et à se soigner. »",
+   "griego": "",
+   "pregunta": "Quelle médecine aura ta cité ?",
+   "opts": [
+    {
+     "t": "Celle d’Asclépios : soigner qui peut retourner à son métier.",
+     "razon": "La médecine sert la vie de la cité, non à prolonger la maladie.",
+     "ef": {
+      "prod": 4,
+      "arm": -1
+     },
+     "r": "La cité rend davantage (+4 de production), mais beaucoup de citoyens se sentent abandonnés (−1 d’harmonie)."
+    },
+    {
+     "t": "Soigner tout le monde, quoi qu’il en coûte.",
+     "razon": "La vie de chacun vaut par elle-même, non par son métier.",
+     "ef": {
+      "arm": 1,
+      "prod": -6
+     },
+     "r": "Personne n’est laissé de côté (+1 d’harmonie), mais les soins absorbent une bonne part du travail de la cité (−6 de production)."
+    },
+    {
+     "t": "Prévenir : une vie simple qui demande peu de médecins.",
+     "razon": "Pour Platon, la multitude de médecins et de juges est le signe d’une cité désordonnée (405a).",
+     "req": "alimenta",
+     "si": {
+      "ef": {
+       "arm": 1,
+       "ap": -1
+      },
+      "r": "La cité mange bien et avec mesure : elle tombe moins malade (+1 d’harmonie, −1 AP pour la réforme)."
+     },
+     "no": {
+      "ef": {
+       "arm": -1,
+       "ap": -1
+      },
+      "r": "Quand on a faim, il n’est pas de vie saine qui tienne : la prévention échoue (−1 d’harmonie, −1 AP)."
+     }
+    }
+   ],
+   "platon": {
+    "txt": "Asclépios, celui qui n’était pas capable de vivre selon le cours établi de la vie, « pensait qu’il ne fallait pas le traiter, car cela n’était profitable ni à lui-même ni à la cité ».",
+    "loc": "République III, 407d-e"
+   },
+   "critica": {
+    "autor": "Association médicale mondiale",
+    "txt": "Le médecin promet que ni l’âge, ni la maladie ou le handicap, ni la position sociale ne s’interposeront entre son devoir et son patient (paraphrase). D’autres lecteurs rapprochent le passage du débat actuel sur l’acharnement thérapeutique : où s’arrête soigner et où commence prolonger la souffrance ?",
+    "loc": "Déclaration de Genève (1948 ; révision de 2017)"
+   },
+   "glo": [
+    "g-justicia",
+    "g-la-ciudad-justa",
+    "g-templanza"
+   ]
+  }
  ]
 };

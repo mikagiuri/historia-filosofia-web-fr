@@ -94,10 +94,64 @@ const LABSPZ = {
   "mundo": "Monde",
   "mundoTiempo": "De pratique : temps, durée et création",
   "mundoSpinoza": "Spinoza, Éthique I",
+  "mundoReloj": "Le temps, défini",
+  "ledeReloj": "Maintenant, on dit ce qu'est le temps : il y a des instants ordonnés, et chaque chose commence à l'un et se termine à un autre. Commencer avant, durer plus longtemps et survivre ne sont plus des relations isolées : on les définit avec les instants. Ce qu'il fallait admettre comme prémisse dans le monde d'entraînement, ici on le démontre.",
+  "notaDefsReloj": "Ce qu'est le temps est fixé, car c'est ce que le temps signifie dans ce monde. Les prémisses de la création, en revanche, peuvent être retirées.",
+  "defsTiempoFijo": "Ce qu'est le temps",
+  "defsReloj": "Définitions",
+  "grupoR": "Propositions du temps défini",
+  "notaPieR": "On cherche des mondes d'au plus 4 choses, appelées A, B, C et D, et 4 instants. « Démontré dans Isabelle » signifie qu'Isabelle/HOL a vérifié la preuve avec ces prémisses (théorie Mundo_tiempo_definido). Si l'on ne trouve aucun monde où la proposition échoue, cela ne démontre rien.",
+  "hayMundoR": "Il existe un monde de {n} et {k} qui satisfait toutes les prémisses cochées et où la proposition échoue.",
+  "unInst": "1 instant",
+  "nInst": "{n} instants",
+  "sinMundoCompletoR": "Il n'y en a aucun d'au plus {c} choses et {a} instants.",
+  "lyVida": "barre : le temps où la chose existe",
+  "lyIncreadoR": "bord épais : incréé",
+  "ejeInst": "instants",
+  "hVidas": "Quand chaque chose existe",
+  "fVida": "{a} : de l'instant {b} à l'instant {c}",
+  "hRelReloj": "Avant, survie et durée",
+  "fSobrevive": "{a} survit à {b}",
+  "errTipoI": "Dans « {x} », la place {n} est pour un instant : utilise t, u, v ou w.",
+  "errTipoCI": "Dans « {x} », la place {n} est pour une chose ; t, u, v et w sont des instants.",
+  "errComp": "« {x} » compare des instants : des deux côtés, mets t, u, v ou w.",
   "ledeTiempo": "Un monde de pratique pour prendre le pli. Les choses ne se distinguent que par laquelle a commencé avant, laquelle dure plus longtemps et laquelle a créé laquelle. Et elles peuvent cesser d'exister : celui qui crée quelque chose peut disparaître alors que son œuvre continue, donc commencer avant ne veut pas dire durer plus longtemps. Choisis une proposition et les prémisses que tu admets : la table cherche un petit monde où toutes les prémisses sont vraies et où la proposition échoue ; si ce monde ne peut pas exister parce qu'Isabelle l'a déjà démontré avec ces prémisses, elle te donne la preuve.",
   "notaDefsTiempo": "Trois relations et une définition, rien de plus. Ce que les prémisses ne disent pas peut arriver : si tu ne coches pas que rien ne commence avant soi-même, cela peut se produire dans le monde cherché.",
   "defsTiempo": "Relations et définition",
   "grupoT": "Propositions de pratique",
+  "propiaNombre": "✎ Écris ta propre proposition",
+  "tEscribe": "Ta proposition, en logique",
+  "phEscribe": "Par exemple : ∀x y. Crea(x, y) → Antes(x, y)",
+  "tTeclado": "Symboles",
+  "tVocabulario": "Relations et définitions de ce monde",
+  "atajos": "Tu peux aussi taper ~ (non), & (et), | (ou), -> (si… alors), <-> (si et seulement si), != (différent), « {t} » (∀), « {h} » (∃) et « {n} » (¬). Les variables sont des lettres minuscules : x, y, z…",
+  "palTodo": "tout",
+  "palHay": "existe",
+  "palNo": "non",
+  "hasEscrito": "Tu as écrit",
+  "libresTodo": "Les variables sans « tout » ni « existe » ({x}) valent pour n'importe quoi : c'est comme si la formule commençait par « tout ».",
+  "modoSigue": "Est-ce que cela découle des prémisses cochées ?",
+  "modoPosible": "Est-ce que cela peut arriver avec les prémisses cochées ?",
+  "sinIsabelle": "Tu écris ceci toi-même, donc Isabelle ne l'a pas vérifié : la table ne cherche que de petits mondes. Si elle n'en trouve pas où cela échoue, cela ne le démontre pas.",
+  "tTusPremisas": "Tes prémisses",
+  "phPremisa": "Écris une prémisse ; par exemple : ∀x. ¬Crea(x, x)",
+  "bAnadir": "Ajouter",
+  "bQuitar": "Retirer",
+  "noHayPropias": "Tu n'en as encore écrit aucune.",
+  "errVacio": "Écris une formule.",
+  "errSimbolo": "Je ne comprends pas « {x} ».",
+  "errNombre": "Je ne connais pas « {x} ». Dans ce monde, tu peux utiliser : {y}.",
+  "errArgs": "« {x} » prend {n} entre parenthèses, séparés par des virgules.",
+  "errFaltaParen": "Après « {x} » viennent des parenthèses avec les choses : {x}(x, y).",
+  "errTipo": "Dans « {x} », la place {n} est pour un attribut : utilise a ou b.",
+  "errTipoC": "Dans « {x} », la place {n} est pour une chose ; a et b sont des attributs.",
+  "errEsperabaCosa": "Dans « {y} » viennent des variables (x, y, z…), pas « {x} ».",
+  "errParen": "Il manque une parenthèse fermante.",
+  "errAbre": "Il y a une parenthèse fermante en trop.",
+  "errSobra": "Je ne sais pas quoi faire de « {x} ». Manque-t-il un ∧, un ∨ ou un → ?",
+  "errCuant": "Après {x} viennent les variables : {x}x. …",
+  "errEsperaba": "Ici, j'attendais une formule, pas « {x} ».",
+  "errFin": "La formule s'arrête trop tôt : il manque quelque chose à la fin.",
   "selloNada": "Prémisses incompatibles",
   "selloPosible": "C'est possible",
   "puedeOcurrir": "Cela peut arriver",
@@ -805,7 +859,31 @@ const LABSPZ = {
   "distinto": "{1} est distinct de {2}",
   "define": "{a} veut dire : {b}",
   "Dios": "Dieu",
+  "paraTodoI": "pour tout instant {v}",
+  "paraTodosI": "pour tous les instants {v}",
+  "hayInst": "il y a un instant {v} tel que",
+  "hayInsts": "il y a des instants {v} tels que",
+  "hayMixtoI": "il y a une chose {c} et un instant {a} tels que",
+  "noHayInst": "il n'y a aucun instant {v} tel que",
+  "menorI": "{1} est antérieur à {2}",
+  "menorIgI": "{1} est antérieur ou égal à {2}",
   "rel": {
+   "Empieza": [
+    "{1} commence à l'instant {2}",
+    "{1} ne commence pas à l'instant {2}"
+   ],
+   "Acaba": [
+    "{1} se termine à l'instant {2}",
+    "{1} ne se termine pas à l'instant {2}"
+   ],
+   "Sobrevive": [
+    "{1} survit à {2}",
+    "{1} ne survit pas à {2}"
+   ],
+   "ExisteEn": [
+    "{1} existe à l'instant {2}",
+    "{1} n'existe pas à l'instant {2}"
+   ],
    "Antes": [
     "{1} a commencé avant {2}",
     "{1} n’a pas commencé avant {2}"
@@ -1017,9 +1095,9 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Pourquoi il y a deux mondes",
+    "titulo": "Pourquoi il y a trois mondes",
     "parrafos": [
-     "Celui de pratique est petit à dessein : trois relations que tout le monde comprend, pour en prendre le pli. Celui de Spinoza formalise la partie I de l'<em>Éthique</em>. Là, les prémisses qui commencent par H_ sont celles que Spinoza juge évidentes et n'écrit pas : nous avons dû les ajouter pour que ses démonstrations fonctionnent. Si l'une d'elles te semble fausse, retire-la et regarde ce qui cesse de s'ensuivre."
+     "Celui de pratique est petit à dessein : trois relations que tout le monde comprend, pour en prendre le pli, même s'il laisse sans dire ce qu'est le temps. Celui du temps défini le dit : avec des instants, commencer avant, durer plus longtemps et survivre se définissent, et ce qui n'étaient que des prémisses devient des théorèmes. Celui de Spinoza formalise la partie I de l'<em>Éthique</em>. Là, les prémisses qui commencent par H_ sont celles que Spinoza juge évidentes et n'écrit pas : nous avons dû les ajouter pour que ses démonstrations fonctionnent. Si l'une d'elles te semble fausse, retire-la et regarde ce qui cesse de s'ensuivre."
     ]
    }
   ],
@@ -1065,14 +1143,196 @@ const LABSPZ = {
   "tRecorrido": "Un parcours pour commencer",
   "recorrido": [
    "Monde de pratique, proposition 2. Appuie sur « Cela s'ensuit ? » tel quel. Il manque une prémisse : regarde le contre-modèle et dis laquelle.",
+   "Proposition 1. Il y a deux chemins. Coche seulement « le créateur dure plus longtemps » et « rien ne dure plus longtemps que soi-même » : est-ce que ça s’ensuit ? Compare la preuve avec celle du temps. Laquelle te semble la plus solide ?",
    "Proposition 4. Elle vient sans la prémisse discutable et il en sort un contre-modèle : quel cas réel lui ressemble ? Ensuite, coche-la et reteste.",
    "Proposition 5. Ce qui est créé peut-il durer plus longtemps que son créateur ? Regarde le monde que construit la table, puis coche la prémisse discutable.",
    "Proposition 6. Elle vient avec toutes les prémisses compatibles cochées et, malgré cela, cela ne s'ensuit pas. Pourquoi ?",
    "Proposition 7. Appuie sur « Toutes ». Que te dit la table ? Pourquoi « tout a été créé » ne tient-il pas avec les autres ?",
    "Proposition 8. Que faudrait-il ajouter pour qu'il n'y ait qu'une seule origine ?",
    "Proposition 9. Une chose peut-elle avoir deux créateurs ? Compte combien de choses il faut au monde, puis coche « Rien n’a deux créateurs ».",
+   "Dans le monde « Le temps, défini », propositions 9 et 10 : à quoi renoncerais-tu pour que tout ait un créateur, à ce que celui qui crée commence avant, ou à ce que le temps ait un commencement ? Que dirait Spinoza d'une chose qui se crée elle-même ?",
+   "Passe au monde « Le temps, défini », propositions 5 et 6. En quoi survivre et durer plus longtemps diffèrent-ils ? Regarde les barres. Puis la 7 : pourquoi survivre ne suffit-il pas pour durer plus longtemps ?",
+   "À la fin de la liste déroulante, « ✎ Écris ta propre proposition ». Écris en logique « celui qui crée quelque chose est incréé » et regarde si cela découle des prémisses. Sinon, quelle prémisse de ta part faudrait-il ? Ajoute-la dans « Tes prémisses ».",
    "Passe au monde de Spinoza, proposition 5. Avec la prémisse cochée au départ, un contre-modèle apparaît, celui de Leibniz. Quelle prémisse manque et que dit-elle ?",
    "Proposition 14. Retire une à une les prémisses qu'a utilisées Isabelle. Laquelle te paraît la plus discutable ?"
+  ]
+ },
+ "reloj": {
+  "fijas": [
+   {
+    "id": "F_instantes",
+    "origen": "Le temps",
+    "texto": "Il y a des instants ordonnés : 0, 1, 2… Le temps a un commencement, l'instant 0."
+   },
+   {
+    "id": "F_vida",
+    "origen": "Le temps",
+    "texto": "Chaque chose commence à un seul instant et se termine à un seul instant, et rien ne se termine avant d'avoir commencé."
+   }
+  ],
+  "defs": [
+   {
+    "id": "Antes",
+    "origen": "Définition",
+    "texto": "x commence avant y : son instant de début est antérieur."
+   },
+   {
+    "id": "DuraMas",
+    "origen": "Définition",
+    "texto": "x dure plus longtemps que y : x existe plus longtemps, sa barre est plus longue."
+   },
+   {
+    "id": "Sobrevive",
+    "origen": "Définition",
+    "texto": "x survit à y : x se termine après y et continue d'exister quand y n'existe plus."
+   },
+   {
+    "id": "ExisteEn",
+    "origen": "Définition",
+    "texto": "x existe à l'instant t : t est entre son début et sa fin."
+   },
+   {
+    "id": "increado",
+    "origen": "Définition",
+    "texto": "Est incréé ce que rien n'a créé."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "k",
+    "nom": "Création"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "K_existe",
+    "grupo": "k",
+    "que": "Celui qui crée existe à l'instant où commence ce qui est créé."
+   },
+   {
+    "id": "K_antes",
+    "grupo": "k",
+    "que": "Celui qui crée a commencé avant ce qui est créé."
+   },
+   {
+    "id": "K_no_despues",
+    "grupo": "k",
+    "que": "Celui qui crée ne commence pas après ce qui est créé : il peut créer à l'instant même où il commence, ou se créer lui-même."
+   },
+   {
+    "id": "K_un_creador",
+    "grupo": "k",
+    "que": "Rien n'a deux créateurs."
+   },
+   {
+    "id": "K_todo_creado",
+    "grupo": "k",
+    "que": "Tout a été créé par quelque chose."
+   }
+  ],
+  "props": [
+   {
+    "id": "R1",
+    "nombre": "1. Rien ne commence avant soi-même",
+    "pregunta": "Rien ne <b>commence avant</b> soi-même.",
+    "prueba": "Commencer avant, c'est commencer à un instant antérieur, et aucun instant n'est antérieur à lui-même. Cela découle de ce qu'est le temps, sans aucune prémisse : dans le monde d'entraînement, il fallait l'admettre."
+   },
+   {
+    "id": "R2",
+    "nombre": "2. « Avant » est transitif",
+    "pregunta": "Si x commence avant y, et y avant z, x <b>commence avant</b> z.",
+    "prueba": "Si l'instant où commence x est antérieur à celui de y, et celui de y à celui de z, celui de x est antérieur à celui de z : c'est ainsi que les instants sont ordonnés. Là non plus, aucune prémisse n'est nécessaire."
+   },
+   {
+    "id": "R3",
+    "nombre": "3. « Avant » n'est pas réciproque",
+    "pregunta": "Si x commence avant y, y <b>ne commence pas avant</b> x.",
+    "prueba": "Deux instants ne peuvent pas être chacun antérieur à l'autre. Encore une fois, sans prémisses."
+   },
+   {
+    "id": "R4",
+    "nombre": "4. Rien ne se crée soi-même",
+    "pregunta": "Rien <b>ne se crée</b> soi-même.",
+    "pasos": [
+     {
+      "txt": "Suppose qu’une chose x se soit créée elle-même : Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Celui qui crée a commencé avant ce qui est créé, donc x a commencé avant x : Antes(x, x).",
+      "k": "K_antes"
+     },
+     {
+      "txt": "Mais rien ne commence avant soi-même (proposition 1), et ici ce n'est pas une prémisse : c'est un théorème. Contradiction.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Sans elle, rien n'empêche qu'une chose se crée soi-même à l'instant même où elle commence."
+    }
+   },
+   {
+    "id": "R5",
+    "posible": true,
+    "nombre": "5. Ce qui est créé peut survivre à son créateur",
+    "pregunta": "Il peut y avoir quelque chose de créé qui <b>continue d'exister</b> quand son créateur n'existe plus.",
+    "nota": "Regarde les barres : le créateur existe un temps, crée pendant qu'il existe, puis disparaît ; ce qui est créé continue. Survivre, c'est se terminer après, non durer plus longtemps.",
+    "notaNo": "Avec ces prémisses, cela ne peut pas arriver."
+   },
+   {
+    "id": "R6",
+    "posible": true,
+    "nombre": "6. Ce qui est créé peut durer plus longtemps que son créateur",
+    "pregunta": "Il peut y avoir quelque chose de créé qui <b>existe plus longtemps</b> que son créateur.",
+    "nota": "Durer plus longtemps, c'est avoir la barre plus longue. Ce n'est pas la même chose que survivre : compare avec la proposition 5.",
+    "notaNo": "Avec ces prémisses, cela ne peut pas arriver."
+   },
+   {
+    "id": "R7",
+    "nombre": "7. Ce qui survit dure plus longtemps",
+    "pregunta": "Si x survit à y, x <b>dure plus longtemps</b> que y.",
+    "nota": "Cela ne s'ensuit pas : on peut commencer tard et finir un peu après. La barre se termine plus à droite, mais elle est plus courte."
+   },
+   {
+    "id": "R8",
+    "nombre": "8. Celui qui commence avant et se termine après dure plus longtemps",
+    "pregunta": "Si x commence avant y et survit à y, x <b>dure plus longtemps</b> que y.",
+    "prueba": "La barre de x commence avant et se termine après celle de y : elle la contient, donc elle est plus longue. Cela découle de ce qu'est le temps, sans prémisses."
+   },
+   {
+    "id": "R9",
+    "nombre": "9. Il y a quelque chose d'incréé",
+    "pregunta": "Il y a quelque chose que <b>rien n'a créé</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose que tout ait un créateur.",
+      "k": "hip"
+     },
+     {
+      "txt": "Celui qui crée a commencé avant : chaque créateur commence à un instant antérieur à celui de ce qu'il crée.",
+      "k": "K_antes"
+     },
+     {
+      "txt": "Mais le temps a un commencement : ce qui commence en premier ne peut avoir personne avant lui. Contradiction.",
+      "k": "fin"
+     },
+     {
+      "txt": "Ces trois choses ne peuvent donc pas aller ensemble : que tout ait un créateur, que celui qui crée commence avant et que le temps ait un commencement. Si l'on accepte les deux dernières, il y a quelque chose d'incréé, quel que soit le nombre de choses, même infini : c'est ce que démontre Isabelle. Mais qui veut que tout ait un créateur peut renoncer à ce que celui qui crée commence avant : regarde la proposition 10.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "K_antes": "Sans elle, le créateur peut commencer en même temps ou après ce qui est créé, et tout peut avoir un créateur : A crée B et B crée A."
+    }
+   },
+   {
+    "id": "R10",
+    "posible": true,
+    "nombre": "10. Tout peut avoir un créateur",
+    "pregunta": "<b>Tout</b> peut avoir été créé par quelque chose.",
+    "nota": "Sans « celui qui crée a commencé avant », cela peut arriver. Avec « celui qui crée ne commence pas après », quelque chose peut créer à l'instant même où commence ce qui est créé, ou se créer lui-même. Une chose qui se crée elle-même est la cause de soi, la <em>causa sui</em> par laquelle commence l'<em>Éthique</em> de Spinoza (définition 1).",
+    "notaNo": "Avec « celui qui crée a commencé avant », cela ne peut pas arriver : c'est la proposition 9. Pour que tout ait un créateur, il faut y renoncer."
+   }
   ]
  },
  "tiempo": {
@@ -1157,6 +1417,25 @@ const LABSPZ = {
   "props": [
    {
     "id": "Q1",
+    "pruebaAlt": "Par la durée{N}: si quelque chose se créait soi-même, cela durerait plus longtemps que soi-même, et rien ne dure plus longtemps que soi-même.",
+    "pasosAlt": [
+     {
+      "txt": "Suppose qu’une chose x se soit créée elle-même : Crea(x, x).",
+      "k": "hip"
+     },
+     {
+      "txt": "Celui qui crée dure plus longtemps que ce qui est créé, donc x dure plus longtemps que x : DuraMas(x, x).",
+      "k": "C_creador_dura_mas"
+     },
+     {
+      "txt": "Mais rien ne dure plus longtemps que soi-même : ¬DuraMas(x, x). Contradiction.",
+      "k": "D_irreflexiva"
+     },
+     {
+      "txt": "Donc rien ne se crée soi-même. Ce chemin s’appuie sur la prémisse discutable : si tu la retires, il s’effondre, mais celui du temps reste.",
+      "k": "fin"
+     }
+    ],
     "pasos": [
      {
       "txt": "Suppose qu’une chose x se soit créée elle-même : Crea(x, x).",

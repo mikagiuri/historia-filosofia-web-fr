@@ -94,11 +94,19 @@ const LABSPZ = {
   "mundo": "Monde",
   "mundoTiempo": "De pratique : temps, durée et création",
   "mundoSpinoza": "Spinoza, Éthique I",
-  "ledeTiempo": "Un monde de pratique pour prendre le pli. Les choses ne se distinguent que par laquelle a commencé avant, laquelle dure plus longtemps et laquelle a créé laquelle. Choisis une proposition et les prémisses que tu admets : la table cherche un petit monde où toutes les prémisses sont vraies et où la proposition échoue ; si ce monde ne peut pas exister parce qu'Isabelle l'a déjà démontré avec ces prémisses, elle te donne la preuve.",
+  "ledeTiempo": "Un monde de pratique pour prendre le pli. Les choses ne se distinguent que par laquelle a commencé avant, laquelle dure plus longtemps et laquelle a créé laquelle. Et elles peuvent cesser d'exister : celui qui crée quelque chose peut disparaître alors que son œuvre continue, donc commencer avant ne veut pas dire durer plus longtemps. Choisis une proposition et les prémisses que tu admets : la table cherche un petit monde où toutes les prémisses sont vraies et où la proposition échoue ; si ce monde ne peut pas exister parce qu'Isabelle l'a déjà démontré avec ces prémisses, elle te donne la preuve.",
   "notaDefsTiempo": "Trois relations et une définition, rien de plus. Ce que les prémisses ne disent pas peut arriver : si tu ne coches pas que rien ne commence avant soi-même, cela peut se produire dans le monde cherché.",
   "defsTiempo": "Relations et définition",
   "grupoT": "Propositions de pratique",
   "selloNada": "Prémisses incompatibles",
+  "selloPosible": "C'est possible",
+  "puedeOcurrir": "Cela peut arriver",
+  "noPuede": "Avec ces prémisses, cela ne peut pas arriver",
+  "posibleTxt": "Il existe un monde de {n} qui satisfait toutes les prémisses cochées et où cela arrive.",
+  "imposibleTxt": "Il n'existe aucun monde d'au plus {c} choses qui satisfasse les prémisses cochées et où cela arrive.",
+  "seCompruebaPos": "On vérifie si cela peut arriver : {x}",
+  "posibleIsa": "Isabelle construit un monde comme celui-là ({t}).",
+  "imposibleIsa": "Isabelle démontre que cela ne peut pas arriver avec {x} ({t}).",
   "incompatibles": "Les prémisses cochées ne peuvent pas être vraies ensemble",
   "incompatiblesTxt": "Il n'existe aucun monde d'au plus {c} choses où toutes soient vraies à la fois ; de telles prémisses, n'importe quoi s'ensuivrait. Retires-en une.",
   "hayMundoT": "Il existe un monde de {n} qui satisfait toutes les prémisses cochées et où la proposition échoue.",
@@ -755,13 +763,13 @@ const LABSPZ = {
     "id": "unico",
     "titulo": "Au plus une flèche arrive",
     "txt": "À chaque chose arrive au plus une flèche de la relation : ∀x y z. R(x, z) ∧ R(y, z) → x = y.",
-    "ej": "Rien n’a deux créateurs : si A et B ont créé C, A et B sont la même chose."
+    "ej": "Rien n’a deux créateurs : si A et B ont créé C, A et B sont la même chose. Sans cette prémisse, deux choses distinctes peuvent créer une troisième chose (proposition 9)."
    },
    {
     "id": "serie",
     "titulo": "À tout arrive une flèche",
     "txt": "Chaque chose reçoit au moins une flèche : ∀x. ∃y. R(y, x).",
-    "ej": "Tout a été créé par quelque chose. Dans un monde fini, avec « Antes » irréflexive et transitive, c’est impossible (proposition 6)."
+    "ej": "Tout a été créé par quelque chose. Dans un monde fini, avec « Antes » irréflexive et transitive, c’est impossible (proposition 7)."
    }
   ],
   "tSimbolos": "Les symboles",
@@ -932,6 +940,42 @@ const LABSPZ = {
    ]
   }
  },
+ "isabelle": {
+  "titulo": "À propos d’Isabelle, et merci",
+  "parrafos": [
+   "Cette table existe grâce à <b>Isabelle</b>, un assistant de démonstration : un programme dans lequel on écrit des énoncés dans un langage formel et on les démontre pas à pas, et qui vérifie chaque étape sans rien tenir pour acquis. La logique que nous utilisons est Isabelle/HOL, la logique d’ordre supérieur. C’est un logiciel libre.",
+   "Quand la table affiche « Démontré dans Isabelle », cela veut dire qu’Isabelle a vérifié cette preuve avec ces prémisses. Le chercheur de contre-modèles de la page est plus modeste : il imite Nitpick, l’outil d’Isabelle qui cherche des contre-exemples, mais il ne regarde que de petits mondes. C’est pourquoi « sans contre-modèle » ne démontre rien.",
+   "Isabelle descend du système LCF de Robin Milner, à Édimbourg : un petit noyau de confiance par lequel doit passer toute preuve. Lawrence C. Paulson l’a commencée à l’Université de Cambridge au milieu des années 1980, et ce fut vite un projet commun avec Tobias Nipkow, de l’Université technique de Munich. Makarius Wenzel a créé Isar, le langage dans lequel s’écrivent les preuves structurées. Paulson lui a donné son nom d’après la fille de Gérard Huet. Aujourd’hui, de nombreuses personnes et institutions du monde entier la font vivre."
+  ],
+  "gracias": "Merci à Lawrence Paulson, à Tobias Nipkow, à Makarius Wenzel et à toutes les personnes qui ont construit Isabelle et l’offrent comme logiciel libre. Sans des décennies de leur travail, formaliser l’<em>Éthique</em> de Spinoza ne serait pas à la portée d’une classe.",
+  "tEnlaces": "Pour en savoir plus",
+  "enlaces": [
+   {
+    "txt": "Isabelle : le site officiel",
+    "url": "https://isabelle.in.tum.de/"
+   },
+   {
+    "txt": "Archive of Formal Proofs : la bibliothèque de preuves vérifiées avec Isabelle",
+    "url": "https://www.isa-afp.org/"
+   },
+   {
+    "txt": "Lawrence C. Paulson (Université de Cambridge)",
+    "url": "https://www.cl.cam.ac.uk/~lp15/"
+   },
+   {
+    "txt": "Tobias Nipkow (Université technique de Munich)",
+    "url": "https://www.professoren.tum.de/en/nipkow-tobias"
+   },
+   {
+    "txt": "Makarius Wenzel",
+    "url": "https://sketis.net/"
+   },
+   {
+    "txt": "L. C. Paulson, T. Nipkow et M. Wenzel, « From LCF to Isabelle/HOL », Formal Aspects of Computing 31 (2019)",
+    "url": "https://arxiv.org/abs/1907.02836"
+   }
+  ]
+ },
  "guia": {
   "titulo": "Ce que tu as devant toi et comment t'en servir",
   "secciones": [
@@ -956,7 +1000,7 @@ const LABSPZ = {
     "lista": [
      "<b>Contre-modèle : cela ne s'ensuit pas.</b> La table a construit un petit monde qui satisfait toutes tes prémisses et où la proposition échoue. C'est la preuve que cela ne s'ensuit pas. Regarde le dessin pour voir où elle échoue et la liste des faits pour le vérifier toi-même.",
      "<b>Démontré dans Isabelle : cela s'ensuit.</b> Avec ces prémisses, Isabelle/HOL, un programme qui vérifie les démonstrations pas à pas sans rien tenir pour acquis, a validé la preuve. Tu en as ici un résumé en mots.",
-     "<b>Sans contre-modèle.</b> La table n'a pas trouvé de monde où cela échoue, mais elle ne cherche que parmi de petits mondes, d'au plus quatre choses. Cela ne démontre rien : il peut falloir un monde plus grand, voire infini. La proposition 6 du monde de pratique en est l'exemple.",
+     "<b>Sans contre-modèle.</b> La table n'a pas trouvé de monde où cela échoue, mais elle ne cherche que parmi de petits mondes, d'au plus quatre choses. Cela ne démontre rien : il peut falloir un monde plus grand, voire infini. La proposition 7 du monde de pratique en est l'exemple.",
      "<b>Prémisses incompatibles.</b> Il n'existe aucun petit monde où elles soient toutes satisfaites à la fois. De prémisses qui se contredisent, tout s'ensuit, donc elles ne servent à rien prouver."
     ]
    },
@@ -1021,10 +1065,12 @@ const LABSPZ = {
   "tRecorrido": "Un parcours pour commencer",
   "recorrido": [
    "Monde de pratique, proposition 2. Appuie sur « Cela s'ensuit ? » tel quel. Il manque une prémisse : regarde le contre-modèle et dis laquelle.",
-   "Proposition 4. Retire la prémisse discutable. Quel cas réel ressemble au contre-modèle ?",
-   "Proposition 5. Elle vient avec toutes les prémisses compatibles cochées et, malgré cela, cela ne s'ensuit pas. Pourquoi ?",
-   "Proposition 6. Appuie sur « Toutes ». Que te dit la table ? Pourquoi « tout a été créé » ne tient-il pas avec les autres ?",
-   "Proposition 7. Que faudrait-il ajouter pour qu'il n'y ait qu'une seule origine ?",
+   "Proposition 4. Elle vient sans la prémisse discutable et il en sort un contre-modèle : quel cas réel lui ressemble ? Ensuite, coche-la et reteste.",
+   "Proposition 5. Ce qui est créé peut-il durer plus longtemps que son créateur ? Regarde le monde que construit la table, puis coche la prémisse discutable.",
+   "Proposition 6. Elle vient avec toutes les prémisses compatibles cochées et, malgré cela, cela ne s'ensuit pas. Pourquoi ?",
+   "Proposition 7. Appuie sur « Toutes ». Que te dit la table ? Pourquoi « tout a été créé » ne tient-il pas avec les autres ?",
+   "Proposition 8. Que faudrait-il ajouter pour qu'il n'y ait qu'une seule origine ?",
+   "Proposition 9. Une chose peut-elle avoir deux créateurs ? Compte combien de choses il faut au monde, puis coche « Rien n’a deux créateurs ».",
    "Passe au monde de Spinoza, proposition 5. Avec la prémisse cochée au départ, un contre-modèle apparaît, celui de Leibniz. Quelle prémisse manque et que dit-elle ?",
    "Proposition 14. Retire une à une les prémisses qu'a utilisées Isabelle. Laquelle te paraît la plus discutable ?"
   ]
@@ -1100,7 +1146,7 @@ const LABSPZ = {
    {
     "id": "C_creador_dura_mas",
     "grupo": "c",
-    "que": "Qui crée quelque chose dure plus longtemps que ce qui est créé (discutable)."
+    "que": "Qui crée quelque chose dure plus longtemps que ce qui est créé (discutable : les choses peuvent cesser d'exister, et une œuvre peut survivre à son auteur)."
    },
    {
     "id": "C_todo_creado",
@@ -1220,6 +1266,7 @@ const LABSPZ = {
     ],
     "nombre": "4. Ce qui est créé ne dure pas plus longtemps que son créateur",
     "pregunta": "Si x crée y, y <b>ne dure pas plus longtemps</b> que x.",
+    "nota": "Les choses de ce monde peuvent cesser d'exister : celui qui crée quelque chose peut disparaître alors que son œuvre continue, comme l'auteur qui meurt et le livre qui reste. Commencer avant n'oblige pas à durer plus longtemps. Pour que ce qui est créé ne dure pas plus longtemps que son créateur, il faut l'admettre comme prémisse : coche la prémisse discutable et reteste.",
     "prueba": "x dure plus longtemps que y (la prémisse discutable) ; si de plus y durait plus longtemps que x, par la transitivité x durerait plus longtemps que lui-même.",
     "leccion": {
      "C_creador_dura_mas": "Être antérieur n'est pas durer plus longtemps : sans cette prémisse, ce qui est créé peut durer plus longtemps que son créateur, comme un livre qui survit à celui qui l'a écrit.",
@@ -1228,8 +1275,16 @@ const LABSPZ = {
     }
    },
    {
+    "id": "Q8",
+    "posible": true,
+    "nombre": "5. Ce qui est créé peut survivre à son créateur",
+    "pregunta": "Il peut y avoir quelque chose de créé qui <b>dure plus longtemps</b> que celui qui l'a créé.",
+    "nota": "C'est l'auteur qui meurt et le livre qui reste : celui qui a créé a commencé avant, mais ce qui est créé dure plus longtemps. Rien de ce que nous savons du temps et de la création ne l'empêche.",
+    "notaNo": "Avec la prémisse discutable cochée, cela ne peut pas arriver : c'est la proposition 4. Cette prémisse te semble-t-elle raisonnable ?"
+   },
+   {
     "id": "Q5",
-    "nombre": "5. Ce qui est antérieur dure plus longtemps",
+    "nombre": "6. Ce qui est antérieur dure plus longtemps",
     "pregunta": "Si x a commencé avant y, x <b>dure plus longtemps</b> que y.",
     "nota": "Cela ne s'ensuit d'aucune combinaison de prémisses compatibles : commencer avant et durer plus longtemps sont deux choses distinctes, et aucune prémisse ne relie le temps à la durée, sauf par la création."
    },
@@ -1257,7 +1312,7 @@ const LABSPZ = {
       "k": "fin"
      }
     ],
-    "nombre": "6. Il y a quelque chose d'incréé",
+    "nombre": "7. Il y a quelque chose d'incréé",
     "pregunta": "Il y a quelque chose que <b>rien n'a créé</b>.",
     "prueba": "Dans un monde fini, il ne peut y avoir une chaîne de créateurs sans premier : si tout avait un créateur, en suivant la chaîne on reviendrait à une chose déjà vue, qui aurait commencé avant elle-même. Isabelle le démontre pour les mondes finis. Dans un monde infini, cela ne vaut pas : dans les nombres naturels, si chaque nombre est créé par le suivant, tout a été créé et rien n'est incréé. C'est pourquoi « tout a été créé » ne tient dans aucun monde fini avec ces prémisses.",
     "leccion": {
@@ -1268,9 +1323,17 @@ const LABSPZ = {
    },
    {
     "id": "Q7",
-    "nombre": "7. Il n'y a qu'un seul incréé",
+    "nombre": "8. Il n'y a qu'un seul incréé",
     "pregunta": "Si x et y sont incréés, <b>ils sont une seule et même chose</b>.",
     "nota": "Cela ne s'ensuit pas : il peut y avoir deux origines indépendantes. Pour qu'il n'y en ait qu'une, il faut quelque chose de plus, et c'est ce que Spinoza tente de prouver de la substance (props. 5 et 14) : passe à l'autre monde."
+   },
+   {
+    "id": "Q9",
+    "posible": true,
+    "nombre": "9. Une chose peut avoir deux créateurs",
+    "pregunta": "Une chose peut avoir été créée par <b>deux choses distinctes</b>.",
+    "nota": "Il faut trois choses : deux qui créent et une qui est créée. Sur le dessin, deux flèches « a créé » arrivent à la même chose. C’est exactement ce qu’interdit la prémisse « Rien n’a deux créateurs » (C_un_creador) : sans elle, plusieurs créateurs sont possibles ; avec elle, un seul au plus. Dans le monde de Spinoza, qu’il n’y ait qu’une seule substance n’est pas tenu pour acquis : on essaie de le démontrer (prop. 5 et 14).",
+    "notaNo": "Avec « Rien n’a deux créateurs » cochée, cela ne peut pas arriver : ce qui est créé a au plus un créateur. Retire-la et réessaie."
    }
   ]
  }

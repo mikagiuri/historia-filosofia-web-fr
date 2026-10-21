@@ -5204,34 +5204,6 @@ const GLOSARIO = [
   "subject": "hf",
   "imp": 2,
   "impg": 13,
-  "t": "Marguerite Porete",
-  "id": "g-margarita-porete",
-  "area": "Religion",
-  "bloque": "B",
-  "tema": "La philosophie médiévale",
-  "def": "Mystique et béguine (v. 1250-1310). Dans *Le Miroir des âmes simples*, elle défendit l'union directe de l'âme avec Dieu par l'amour et la liberté, sans médiation du clergé. L'Inquisition de Paris la brûla pour hérésie en 1310.",
-  "ilustre": [
-   "porete"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Christine de Pizan",
-  "id": "g-christine-de-pizan",
-  "area": "Féminisme",
-  "bloque": "B",
-  "tema": "La philosophie médiévale",
-  "def": "Écrivaine (1364-v. 1430), première femme d'Europe à avoir vécu de sa plume. Dans *La Cité des dames*, elle réfuta par des arguments la misogynie de son époque ; on la considère comme une devancière de la « querelle des femmes ».",
-  "ilustre": [
-   "pizan"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
   "t": "Querelle des femmes",
   "id": "g-querella-de-las-mujeres",
   "area": "Féminisme",
@@ -5246,36 +5218,6 @@ const GLOSARIO = [
   "subject": "hf",
   "imp": 2,
   "impg": 13,
-  "t": "María de Maeztu",
-  "id": "g-maria-de-maeztu",
-  "area": "Éducation",
-  "bloque": "C",
-  "unidad": "C8",
-  "tema": "L'existentialisme",
-  "def": "Pédagogue (1881-1948), disciple d'Unamuno et d'Ortega. Elle dirigea la Residencia de Señoritas (1915-1936), qui ouvrit aux jeunes Espagnoles l'accès à l'université et à la vie intellectuelle.",
-  "ilustre": [
-   "maeztu"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Lou Andreas-Salomé",
-  "id": "g-lou-andreas-salome",
-  "area": "Psychologie",
-  "bloque": "C",
-  "unidad": "CN",
-  "tema": "Les philosophes du soupçon",
-  "def": "Écrivaine et psychanalyste (1861-1937), interlocutrice de Nietzsche, Rilke et Freud. Autrice de l'une des premières études sérieuses de la philosophie de Nietzsche et d'essais sur l'érotisme et la religiosité.",
-  "ilustre": [
-   "salome"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
   "t": "Besoins radicaux",
   "id": "g-necesidades-radicales",
   "et": "*Radical*, du latin *radix*, « racine » : ce qui touche à la racine.",
@@ -5284,21 +5226,6 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Selon Ágnes Heller, les besoins qualitativement supérieurs que le capitalisme ne peut satisfaire et qui, en se heurtant à la réalité sociale, poussent vers un changement émancipateur.",
-  "ilustre": [
-   "heller"
-  ]
- },
- {
-  "subject": "hf",
-  "imp": 2,
-  "impg": 13,
-  "t": "Ágnes Heller",
-  "id": "g-agnes-heller",
-  "area": "Politique",
-  "bloque": "C",
-  "unidad": "C5A",
-  "tema": "Les luttes après le marxisme",
-  "def": "Philosophe hongroise (1929-2019), de l'École de Budapest. Elle pensa la vie quotidienne et les besoins radicaux depuis le marxisme ; plus tard, elle critiqua le socialisme réel comme une « dictature des besoins » et défendit la démocratie.",
   "ilustre": [
    "heller"
   ]

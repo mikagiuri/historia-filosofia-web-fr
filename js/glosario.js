@@ -459,6 +459,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "Cinq voies",
+  "id": "g-cinco-vias",
+  "et": "*Voie*, du latin *via*, « chemin » : Thomas parle de *quinque viae*, « cinq chemins ».",
+  "area": "Religion",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Thomas d'Aquin",
+  "def": "Les cinq arguments par lesquels Thomas d'Aquin veut démontrer a posteriori que Dieu existe. Ils partent de faits du monde (le mouvement, les causes, la contingence, les degrés de perfection et l'ordre), montrent qu'ils dépendent d'un autre et concluent qu'il faut un premier fondement : premier moteur, cause première, être nécessaire, être souverainement parfait et ordonnateur suprême. Ce sont des arguments métaphysiques, non des preuves expérimentales ; Hume et Kant nieront que la raison puisse ainsi sauter au-delà de l'expérience.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Cynisme",
   "id": "g-cinismo",
@@ -752,6 +768,21 @@ const GLOSARIO = [
   "def": "Agir par respect pour la loi morale ; non seulement coïncider avec la norme, mais avoir la bonne motivation morale.",
   "ilustre": [
    "kant"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Déclaration des droits de la femme",
+  "id": "g-declaracion-de-los-derechos-de-la-mujer",
+  "area": "Politique",
+  "bloque": "C",
+  "unidad": "C1",
+  "tema": "Les Lumières",
+  "def": "La *Déclaration des droits de la femme et de la citoyenne* (1791) d'Olympe de Gouges : elle réécrit article par article celle de 1789 pour y inclure la femme et dénonce le fait que des droits « universels » qui excluent la moitié de l'humanité se contredisent. « La femme naît libre et demeure égale à l'homme en droits » (art. 1).",
+  "ilustre": [
+   "gouges"
   ]
  },
  {
@@ -1652,6 +1683,24 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 10,
+  "t": "État de nature",
+  "id": "g-estado-de-naturaleza",
+  "et": "*Nature*, du latin *natura*, de *nasci*, « naître ».",
+  "area": "Politique",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "Le contrat social",
+  "def": "La situation hypothétique antérieure à l'État, sans pouvoir commun. Ce n'est pas un fait historique, mais une expérience de pensée pour justifier le pouvoir : pour Hobbes, c'est une guerre de tous contre tous ; pour Locke, il y a déjà des droits naturels, mais mal protégés ; pour Rousseau, l'être humain est libre et bon, et c'est la société inégalitaire qui le corrompt.",
+  "ilustre": [
+   "hobbes",
+   "locke",
+   "rousseau"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 9,
   "t": "Eudaimonía (bonheur)",
   "id": "g-eudaimonia",
@@ -2389,6 +2438,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Jugements synthétiques a priori",
+  "id": "g-juicios-sinteticos-a-priori",
+  "et": "*Synthétique*, du grec σύνθεσις (*sýnthesis*), « composition » ; *a priori*, du latin, « à partir de ce qui vient avant ».",
+  "area": "Épistémologie",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "La philosophie de Kant",
+  "def": "Jugements qui élargissent la connaissance (synthétiques) et qui sont en même temps universels et nécessaires, sans dépendre de l'expérience (a priori), comme « 7 + 5 = 12 » ou « tout ce qui arrive a une cause ». Ce sont ceux des mathématiques et de la physique ; Kant demande comment ils sont possibles et répond par les formes a priori du sujet.",
+  "ilustre": [
+   "kant"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Justice",
@@ -2958,6 +3023,22 @@ const GLOSARIO = [
  {
   "subject": "hf",
   "imp": 4,
+  "impg": 11,
+  "t": "Mauvaise foi",
+  "id": "g-mala-fe",
+  "et": "En français dans le texte : *mauvaise foi*.",
+  "area": "Anthropologie",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "L'existentialisme",
+  "def": "Selon Sartre, la tromperie de soi par laquelle nous fuyons l'angoisse de la liberté : nous traiter comme une chose au caractère fixe (« je suis comme ça ») ou accuser la situation (« je n'avais pas le choix »). Il y a toujours un choix : ne pas choisir, c'est encore choisir.",
+  "ilustre": [
+   "sartre"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
   "impg": 10,
   "t": "Matérialisme",
   "id": "g-materialismo",
@@ -3452,6 +3533,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 11,
+  "t": "Raison vitale",
+  "id": "g-razon-vital",
+  "et": "*Vitale*, du latin *vita*, « vie ».",
+  "area": "Épistémologie",
+  "bloque": "C",
+  "unidad": "C8",
+  "tema": "L'existentialisme",
+  "def": "La raison selon Ortega y Gasset : non pas une abstraction froide, mais un outil de la vie concrète, qui est la réalité radicale. Il veut dépasser à la fois le rationalisme pur et le vitalisme irrationnel ; c'est pourquoi il dit que l'être humain n'a pas de nature, mais une histoire.",
+  "ilustre": [
+   "ortega"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 5,
   "impg": 4,
   "t": "Règles de la méthode",
@@ -3480,6 +3577,22 @@ const GLOSARIO = [
   "def": "Les deux sortes de connaissance selon Hume (*Enquête sur l'entendement humain*, IV) : les relations d'idées (mathématiques et logique), certaines par démonstration, parce que leur contraire est contradictoire ; et les questions de fait, qui dépendent de l'expérience et dont le contraire est toujours possible (que le soleil ne se lève pas demain). Ce qui n'est ni l'un ni l'autre, dit-il à la fin de l'ouvrage, « au feu ».",
   "ilustre": [
    "hume"
+  ]
+ },
+ {
+  "subject": "hf",
+  "imp": 5,
+  "impg": 5,
+  "t": "Révolution copernicienne",
+  "id": "g-revolucion-copernicana",
+  "et": "D'après Nicolas Copernic, qui plaça au centre le Soleil et non la Terre.",
+  "area": "Épistémologie",
+  "bloque": "C",
+  "unidad": "CK",
+  "tema": "La philosophie de Kant",
+  "def": "Le tournant de Kant en théorie de la connaissance : ce n'est pas le sujet qui se règle sur les objets, mais les objets, tels que nous les connaissons, qui se règlent sur les formes a priori du sujet (espace, temps et catégories). Cela ne signifie pas que le sujet invente le monde : l'expérience fournit la matière.",
+  "ilustre": [
+   "kant"
   ]
  },
  {
@@ -4799,6 +4912,22 @@ const GLOSARIO = [
  },
  {
   "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Vérités naturelles et surnaturelles",
+  "id": "g-verdades-naturales-y-sobrenaturales",
+  "et": "*Surnaturel*, du latin *super*, « au-dessus de », et *natura*, « nature ».",
+  "area": "Religion",
+  "bloque": "B",
+  "unidad": "BT",
+  "tema": "Thomas d'Aquin",
+  "def": "La distinction de Thomas d'Aquin entre les vérités qu'atteint la raison naturelle (que Dieu existe) et celles qui la dépassent et ne se connaissent que par la révélation (la Trinité). Certaines se connaissent par les deux chemins. Elles ne peuvent pas se contredire, car la vérité est une : foi et raison se distinguent, mais collaborent.",
+  "ilustre": [
+   "tomas"
+  ]
+ },
+ {
+  "subject": "hf",
   "imp": 3,
   "impg": 12,
   "t": "Vérifiabilité",
@@ -4970,6 +5099,22 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Le féminisme",
   "def": "La ligne qui ramène au centre de la morale la dépendance, la vulnérabilité et la relation."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
+  "t": "Volonté générale",
+  "id": "g-voluntad-general",
+  "et": "*Volonté*, du latin *voluntas*, de *velle*, « vouloir ».",
+  "area": "Politique",
+  "bloque": "B",
+  "unidad": "B6",
+  "tema": "Le contrat social",
+  "def": "Selon Rousseau, l'intérêt commun de la communauté politique, qui naît du contrat social. Ce n'est pas la « volonté de tous », la somme des intérêts particuliers. La souveraineté réside dans le peuple et ne se représente pas ; être libre, c'est obéir à la loi qu'on s'est soi-même donnée. Ses critiques discutent de qui décide, en pratique, quel est cet intérêt commun.",
+  "ilustre": [
+   "rousseau"
+  ]
  },
  {
   "subject": "hf",

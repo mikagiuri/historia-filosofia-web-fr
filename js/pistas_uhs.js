@@ -1237,7 +1237,262 @@ const PISTAS = [
    "parrafos": [
     "Face aux manichéens, qui posaient deux principes éternels, Augustin soutient que tout ce qui existe est bon et que le mal n'est pas une substance, mais une privation de bien. Le mal moral naît du mauvais usage du libre arbitre : une volonté qui se détourne du bien suprême vers des biens moindres. C'est pourquoi l'être humain en est responsable, non Dieu.",
     "Pour la PAU : confronte sa réponse à l'intellectualisme de Socrate (le mal comme ignorance) et à celle de Spinoza (rien n'est mauvais en soi, mais seulement par rapport à nous)."
-   ]
+   ],
+   "siguiente": "tomas-fe-razon"
+  }
+ },
+ {
+  "id": "tomas-fe-razon",
+  "ilustre": "tomas",
+  "subject": "hf",
+  "tema": "Thème 12 · Thomas d'Aquin",
+  "unidad": "hf-fe-razon",
+  "materia": "Philosophie · Thomas d'Aquin",
+  "titulo": "La foi et la raison peuvent-elles se contredire, et la raison peut-elle prouver que Dieu existe ?",
+  "lede": "Le rapport entre foi et raison est tombé à la PAU extraordinaire de 2026 ; les cinq voies sont ce qu'il y a de plus connu chez Thomas. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Comment Thomas d'Aquin distingue-t-il la foi et la raison, et pourquoi dit-il qu'elles ne peuvent pas se contredire ?",
+    "repaso": [
+     "Ai-je distingué les vérités naturelles (la raison les atteint) et les vérités surnaturelles (seulement par la révélation, comme la Trinité) ?",
+     "Ai-je dit que certaines vérités, comme l'existence de Dieu, peuvent se connaître par les deux chemins ?",
+     "Ai-je expliqué pourquoi elles ne peuvent pas se contredire : toutes deux viennent de Dieu et la vérité est une ?"
+    ],
+    "intro": [
+     "Au XIIIe siècle arrivent dans les universités les œuvres d'Aristote, un philosophe païen qui explique le monde sans la Bible. Beaucoup y voient une menace pour la foi. Réfléchis à ce que Thomas en fait avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour y voir clair : Thomas veut intégrer la philosophie d'<strong>Aristote</strong> au christianisme. Il ne remplace pas la foi par la raison, ni ne fait taire la raison au nom de la foi : il <strong>distingue</strong> les deux domaines et les fait <strong>collaborer</strong>.",
+     "Il y a des <strong>vérités naturelles</strong>, que la raison peut atteindre par elle-même en étudiant le monde, et des <strong>vérités surnaturelles</strong>, qui la dépassent et ne se connaissent que par la <strong>révélation</strong>, comme la Trinité.",
+     "Certaines vérités peuvent se connaître <strong>par les deux chemins</strong> : que Dieu existe, la foi le dit, mais la raison peut aussi le démontrer en partant du monde.",
+     "Et si elles se heurtent ? C'est impossible : la raison et la révélation viennent du même Dieu, et <strong>la vérité est une</strong>. Si une conclusion philosophique contredit la foi, c'est que la raison s'est trompée à une étape."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Thomas, quel rapport y a-t-il entre la foi et la raison ?",
+     "opciones": [
+      [
+       "Ce sont des chemins distincts qui collaborent et ne peuvent pas se contredire, car la vérité est une.",
+       true
+      ],
+      [
+       "La foi annule la raison : ce que dit la raison n'a pas d'importance.",
+       false,
+       "Thomas accorde une grande valeur à la raison : la philosophie d'Aristote est la base de son œuvre.",
+       "g-escolastica"
+      ],
+      [
+       "Ce sont deux vérités opposées qui peuvent être vraies en même temps.",
+       false,
+       "Thomas nie qu'il y ait deux vérités : si la raison contredit la foi, c'est la raison qui a échoué.",
+       "g-verdades-naturales-y-sobrenaturales"
+      ],
+      [
+       "La raison peut démontrer tout ce que dit la foi, y compris la Trinité.",
+       false,
+       "La Trinité est une vérité surnaturelle : la raison ne peut pas la démontrer.",
+       "g-verdades-naturales-y-sobrenaturales"
+      ]
+     ],
+     "ok": "Bien : distinguer sans séparer.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Un double mode de vérité",
+      "glosario": [
+       "g-verdades-naturales-y-sobrenaturales",
+       "g-escolastica"
+      ],
+      "cita": {
+       "texto": "« Dans ce que nous confessons de Dieu, il y a un double mode de vérité. Certaines vérités sur Dieu dépassent toute capacité de la raison humaine, comme que Dieu est trine et un. D'autres, en revanche, la raison naturelle peut aussi les atteindre, comme que Dieu existe, qu'il est un, et d'autres semblables. »",
+       "fuente": "Thomas d'Aquin, <em>Somme contre les Gentils</em>, I, 3 (traduction personnelle du latin)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Selon le texte, laquelle de ces vérités la raison naturelle peut-elle atteindre ?",
+       "opciones": [
+        [
+         "Que Dieu existe.",
+         true
+        ],
+        [
+         "Que Dieu est trine et un.",
+         false,
+         "Le texte donne justement cet exemple comme vérité qui dépasse la raison."
+        ],
+        [
+         "Aucune : tout ce que nous savons de Dieu vient de la révélation.",
+         false,
+         "Le texte parle de deux modes : la raison atteint l'un d'eux."
+        ],
+        [
+         "Toutes, si l'on raisonne bien.",
+         false,
+         "Le texte dit que certaines dépassent « toute capacité de la raison humaine »."
+        ]
+       ],
+       "ok": "Exact : l'existence de Dieu est une vérité des deux chemins.",
+       "mal": "Relis le texte.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Distinguer sans séparer",
+      "glosario": [
+       "g-verdades-naturales-y-sobrenaturales",
+       "g-ley-natural"
+      ],
+      "cita": {
+       "texto": "« La grâce ne détruit pas la nature, mais la parfait. »",
+       "fuente": "Thomas d'Aquin, <em>Somme théologique</em>, I, q. 1, a. 8, ad 2 (traduction personnelle du latin)"
+      },
+      "definicion": [
+       "<strong>Vérités naturelles</strong> → la raison les atteint en étudiant le monde, ses causes et son ordre. C'est le domaine de la philosophie.",
+       "<strong>Vérités surnaturelles</strong> → elles dépassent la raison et se connaissent par la révélation, comme la Trinité ou l'Incarnation. C'est le domaine de la théologie.",
+       "<strong>Elles ne se contredisent pas</strong> → toutes deux viennent de Dieu ; si une conclusion de la raison se heurte à la foi, il y a une erreur dans le raisonnement (« ce que la raison possède par nature ne peut être contraire à cette vérité », <em>Somme contre les Gentils</em>, I, 7).",
+       "<strong>Face à deux extrêmes</strong> → le fidéisme, qui méprise la raison, et le rationalisme théologique, qui veut soumettre toute la foi à la raison. Plus tard, Ockham séparera beaucoup plus les deux domaines."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Que veut dire que « la grâce ne détruit pas la nature, mais la parfait » ?",
+       "opciones": [
+        [
+         "Que la foi n'annule ni la raison ni la valeur du monde naturel, mais les complète.",
+         true
+        ],
+        [
+         "Que la nature est mauvaise et que la grâce doit la détruire.",
+         false,
+         "C'est exactement le contraire : la nature est bonne et la grâce la complète."
+        ],
+        [
+         "Que la raison est au-dessus de la foi.",
+         false,
+         "La phrase dit que la grâce parfait, non que la raison commande."
+        ],
+        [
+         "Que la nature n'a aucunement besoin de Dieu.",
+         false,
+         "Pour Thomas, le monde est créé par Dieu ; la grâce l'élève."
+        ]
+       ],
+       "ok": "Correct : collaboration, non substitution.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Comment Thomas essaie-t-il de démontrer que Dieu existe, et qu'ont en commun ses cinq voies ?",
+    "repaso": [
+     "Ai-je dit que la démonstration est a posteriori : elle part de faits de l'expérience, non du concept de Dieu (comme l'argument ontologique) ?",
+     "Ai-je nommé les cinq voies : mouvement, causes, contingence, degrés de perfection et ordre du monde ?",
+     "Ai-je expliqué la structure commune : ce que nous voyons dépend d'un autre, on ne peut pas remonter à l'infini, donc il y a un premier, et c'est lui que nous appelons Dieu ?"
+    ],
+    "intro": [
+     "Anselme avait voulu démontrer Dieu à partir de sa propre idée, sans regarder le monde. Thomas pense que ce chemin ne fonctionne pas et commence ailleurs. Réfléchis par où avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour y voir clair : Thomas refuse de prouver Dieu à partir de son seul concept, comme Anselme (l'argument ontologique). Sa démonstration est <strong>a posteriori</strong> : elle part de ce que nous voyons dans le monde et remonte jusqu'à sa cause.",
+     "Les <strong>cinq voies</strong> partent de cinq faits : le <strong>mouvement</strong>, les <strong>causes</strong> efficientes, la <strong>contingence</strong> (des choses qui pourraient ne pas exister), les <strong>degrés de perfection</strong> et l'<strong>ordre</strong> de la nature.",
+     "Toutes suivent le même schéma : ce que nous voyons <strong>dépend d'un autre</strong> ; cette chaîne <strong>ne peut pas remonter à l'infini</strong>, car alors rien ne l'expliquerait ; donc il y a un <strong>premier</strong> : un premier moteur, une cause première, un être nécessaire, un être souverainement parfait, un ordonnateur suprême.",
+     "La dernière étape est « et c'est ce que tous appellent Dieu ». Ce sont des <strong>arguments métaphysiques</strong>, non des expériences de laboratoire. Hume et Kant objecteront que la raison ne peut pas sauter de l'expérience à quelque chose qui est au-delà de toute expérience."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'ont en commun les cinq voies ?",
+     "opciones": [
+      [
+       "Elles partent d'un fait du monde, montrent qu'il dépend d'un autre et concluent qu'il doit y avoir un premier, qui est Dieu.",
+       true
+      ],
+      [
+       "Elles partent de l'idée de Dieu et en déduisent qu'il doit exister.",
+       false,
+       "C'est l'argument ontologique d'Anselme, que Thomas n'accepte pas.",
+       "g-argumento-ontologico"
+      ],
+      [
+       "Elles se fondent sur la Bible et sur la foi de celui qui les lit.",
+       false,
+       "Les voies relèvent de la raison naturelle : elles partent de l'expérience, non de la révélation.",
+       "g-cinco-vias"
+      ],
+      [
+       "Elles démontrent Dieu par des expériences, comme la physique moderne.",
+       false,
+       "Ce sont des arguments métaphysiques sur le fondement ultime, non des preuves expérimentales.",
+       "g-cinco-vias"
+      ]
+     ],
+     "ok": "Exact : du monde à son premier fondement.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "La première voie",
+      "titulo": "Du mouvement au premier moteur",
+      "glosario": [
+       "g-cinco-vias",
+       "g-el-ser-necesario",
+       "g-argumento-ontologico"
+      ],
+      "cita": {
+       "texto": "« Que Dieu existe, on peut le prouver par cinq voies. La première et la plus manifeste est celle qui se tire du mouvement. Il est certain, et cela est attesté par les sens, que dans ce monde certaines choses se meuvent […]. Il est donc nécessaire de parvenir à un premier moteur qui n'est mû par aucun autre ; et c'est lui que tous entendent par Dieu. »",
+       "fuente": "Thomas d'Aquin, <em>Somme théologique</em>, I, q. 2, a. 3 (traduction personnelle du latin)"
+      },
+      "definicion": [
+       "<strong>Point de départ</strong> → un fait attesté par les sens : le mouvement, les causes, les choses qui naissent et meurent, les degrés de bonté ou de vérité, l'ordre de la nature.",
+       "<strong>Dépendance</strong> → ce qui est mû est mû par un autre ; ce qui est causé a une cause ; le contingent ne s'explique pas par lui-même.",
+       "<strong>Pas de régression à l'infini</strong> → si toute la chaîne dépendait d'un autre, rien ne l'expliquerait. Il faut un premier qui ne dépende de rien : le premier moteur immobile (héritage d'Aristote), la cause première, l'être nécessaire.",
+       "<strong>La critique</strong> → Hume et Kant soutiennent que la causalité ne vaut qu'à l'intérieur de l'expérience et ne permet pas de conclure à quelque chose qui se trouve hors d'elle. C'est un débat ouvert dans l'histoire de la philosophie."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Pourquoi Thomas dit-il qu'il est « nécessaire de parvenir à un premier moteur » ?",
+       "opciones": [
+        [
+         "Parce que si chaque moteur était mû par un autre sans fin, rien n'expliquerait le mouvement que nous voyons.",
+         true
+        ],
+        [
+         "Parce que la Bible dit que Dieu a créé le monde.",
+         false,
+         "La voie est un raisonnement à partir de l'expérience, non une citation de la révélation."
+        ],
+        [
+         "Parce que tout ce qui existe se meut tout seul.",
+         false,
+         "Le texte dit le contraire : ce qui est mû est mû par un autre."
+        ],
+        [
+         "Parce que le monde ne se meut pas vraiment.",
+         false,
+         "La voie part de ce que le mouvement « est attesté par les sens »."
+        ]
+       ],
+       "ok": "Correct : sans un premier, la chaîne ne s'explique pas.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer Thomas d'Aquin",
+   "parrafos": [
+    "Thomas distingue les vérités naturelles, qu'atteint la raison, et les vérités surnaturelles, que seule la foi connaît ; certaines, comme l'existence de Dieu, se connaissent par les deux chemins. Elles ne peuvent pas se contredire car la vérité est une : la grâce ne détruit pas la nature, elle la parfait. Les cinq voies démontrent Dieu a posteriori : elles partent d'un fait du monde (mouvement, causes, contingence, degrés, ordre), montrent qu'il dépend d'un autre et concluent à un premier fondement.",
+    "Pour la PAU : compare son modèle de collaboration avec le « crois pour comprendre » d'Augustin et avec la séparation d'Ockham ; et rappelle-toi que Kant niera que la raison puisse démontrer Dieu."
+   ],
+   "siguiente": "descartes-metodo"
   }
  },
  {
@@ -1984,6 +2239,261 @@ const PISTAS = [
   }
  },
  {
+  "id": "descartes-sustancias",
+  "ilustre": "descartes",
+  "subject": "hf",
+  "tema": "Thème 15 · Descartes : les substances",
+  "unidad": "hf-metafisica",
+  "materia": "Philosophie · Descartes",
+  "titulo": "Combien y a-t-il de substances selon Descartes et comment l'âme et le corps sont-ils liés ?",
+  "lede": "Après le cogito, Descartes reconstruit la réalité : Dieu, la pensée et l'étendue. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Qu'est-ce qu'une substance pour Descartes et quelles sont les trois substances ?",
+    "repaso": [
+     "Ai-je donné la définition : la substance est ce qui existe de telle façon qu'il n'a besoin d'aucune autre chose pour exister ?",
+     "Ai-je dit qu'au sens strict seul Dieu répond à la définition (substance infinie), et que la pensée et le corps sont des substances finies qui ne dépendent que de Dieu ?",
+     "Ai-je défini les attributs essentiels : la pensée de la <em>res cogitans</em> et l'étendue de la <em>res extensa</em> ?"
+    ],
+    "intro": [
+     "Après le doute, il ne reste à Descartes qu'une certitude : « je pense, donc je suis ». À partir de là, il doit reconstruire le monde entier. Réfléchis à ce dont il a besoin pour sortir de son propre esprit."
+    ],
+    "pistas": [
+     "Pour y voir clair : Descartes définit la <strong>substance</strong> comme ce qui existe par soi-même, sans avoir besoin d'autre chose pour exister.",
+     "Au sens strict, seul <strong>Dieu</strong> y répond, la <strong>substance infinie</strong>. Son existence se démontre à partir de l'idée d'infini qui est en moi et elle <strong>garantit</strong> que les idées claires et distinctes sont vraies.",
+     "Les deux autres sont des <strong>substances finies</strong> : elles ne dépendent que de Dieu. La <strong>res cogitans</strong> (l'âme ou l'esprit), dont l'attribut est la <strong>pensée</strong> ; et la <strong>res extensa</strong> (les corps), dont l'attribut est l'<strong>étendue</strong> : longueur, largeur et profondeur.",
+     "Elles sont <strong>radicalement distinctes</strong> : l'esprit n'occupe pas d'espace et le corps ne pense pas. Le monde matériel est une grande <strong>machine</strong> qui s'explique par la figure et le mouvement (mécanisme) ; l'être humain est l'union des deux."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'est-ce qui distingue la res cogitans de la res extensa ?",
+     "opciones": [
+      [
+       "Leur attribut essentiel : l'une pense et n'occupe pas d'espace ; l'autre est étendue et ne pense pas.",
+       true
+      ],
+      [
+       "Que l'une est infinie et l'autre finie.",
+       false,
+       "Les deux sont finies ; la substance infinie, c'est Dieu.",
+       "g-sustancia-dm"
+      ],
+      [
+       "Que l'une est réelle et l'autre une illusion.",
+       false,
+       "Pour Descartes, les deux sont des substances réelles, garanties par Dieu.",
+       "g-dualismo-dm"
+      ],
+      [
+       "Que la res extensa a une âme et la res cogitans non.",
+       false,
+       "C'est l'inverse : la res cogitans est l'âme ; les corps sont pure étendue.",
+       "g-res-cogitans-dm"
+      ]
+     ],
+     "ok": "Bien : la pensée face à l'étendue.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Une substance qui ne fait que penser",
+      "glosario": [
+       "g-res-cogitans-dm",
+       "g-sustancia-dm"
+      ],
+      "cita": {
+       "texto": "« Je connus de là que j'étais une substance dont toute l'essence ou la nature n'est que de penser, et qui, pour être, n'a besoin d'aucun lieu, ni ne dépend d'aucune chose matérielle. »",
+       "fuente": "Descartes, <em>Discours de la méthode</em> (1637), IV (texte original)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Selon le texte, de quoi le moi pensant a-t-il besoin pour exister ?",
+       "opciones": [
+        [
+         "D'aucun lieu ni d'aucune chose matérielle : son essence est seulement de penser.",
+         true
+        ],
+        [
+         "D'un corps sain qui lui permette de penser.",
+         false,
+         "Le texte dit qu'il ne dépend « d'aucune chose matérielle »."
+        ],
+        [
+         "D'un lieu dans l'espace, comme n'importe quelle chose.",
+         false,
+         "Le texte le nie : il « n'a besoin d'aucun lieu »."
+        ],
+        [
+         "Des sens, qui lui donnent les idées.",
+         false,
+         "Pour Descartes, la pensée ne dépend pas des sens."
+        ]
+       ],
+       "ok": "Exact : le moi est pure res cogitans.",
+       "mal": "Relis le texte.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Les trois substances",
+      "glosario": [
+       "g-sustancia-dm",
+       "g-res-extensa",
+       "g-la-garantia-de-dios-dm"
+      ],
+      "cita": {
+       "texto": "« Par substance, nous ne pouvons entendre autre chose qu'une chose qui existe de telle façon qu'elle n'a besoin d'aucune autre chose pour exister. »",
+       "fuente": "Descartes, <em>Principes de la philosophie</em> (1644), I, 51 (traduction personnelle du latin)"
+      },
+      "definicion": [
+       "<strong>Dieu (substance infinie)</strong> → la seule qui ne dépend de rien. Il garantit la vérité des idées claires et distinctes et, par là, l'existence du monde.",
+       "<strong>Res cogitans</strong> → substance pensante, l'âme ou l'esprit : elle doute, comprend, veut, imagine, sent. Elle n'est pas étendue.",
+       "<strong>Res extensa</strong> → substance corporelle : tout ce qui a longueur, largeur et profondeur, et s'explique par la figure et le mouvement (mécanisme).",
+       "<strong>Dualisme</strong> → l'être humain est l'union de deux substances distinctes ; ce qui fait de nous ce que nous sommes, c'est l'esprit."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi, au sens strict, seul Dieu est-il substance ?",
+       "opciones": [
+        [
+         "Parce qu'il est le seul à n'avoir besoin d'aucune autre chose pour exister ; l'esprit et les corps dépendent de lui.",
+         true
+        ],
+        [
+         "Parce qu'il est le seul à penser.",
+         false,
+         "L'esprit humain pense aussi ; la clé, c'est de ne dépendre de rien."
+        ],
+        [
+         "Parce qu'il est le seul à être étendu.",
+         false,
+         "Dieu n'est pas étendu ; l'étendue est l'attribut des corps."
+        ],
+        [
+         "Parce que la Bible le dit.",
+         false,
+         "Descartes le déduit de sa définition de la substance, non de la révélation."
+        ]
+       ],
+       "ok": "Correct : indépendance totale.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Si l'âme et le corps sont si différents, comment peuvent-ils agir l'un sur l'autre ?",
+    "repaso": [
+     "Ai-je posé le problème de la communication des substances : une décision fait bouger la main et une blessure produit de la douleur ?",
+     "Ai-je expliqué la réponse de Descartes : la glande pinéale, dans le cerveau, comme lieu où ils s'unissent ?",
+     "Ai-je mentionné l'objection d'Élisabeth de Bohême et les solutions postérieures (occasionnalisme, monisme de Spinoza, harmonie préétablie de Leibniz) ?"
+    ],
+    "intro": [
+     "Tu décides de lever la main et la main se lève. Tu te piques et tu as mal. Rien de plus ordinaire. Mais si l'esprit n'occupe pas d'espace et que le corps ne pense pas, comment est-ce possible ? Essaie de voir où est le nœud."
+    ],
+    "pistas": [
+     "Rappelle-toi : la res cogitans et la res extensa n'ont rien en commun. L'une n'occupe pas d'espace ; l'autre ne se meut que par contact.",
+     "Pourtant, l'expérience montre qu'elles <strong>interagissent</strong> : la volonté meut le corps et le corps produit des sensations et des passions dans l'esprit. C'est le <strong>problème de la communication des substances</strong>.",
+     "Descartes situe l'union dans la <strong>glande pinéale</strong>, au centre du cerveau : là, l'âme mettrait en mouvement les « esprits animaux » et recevrait leurs mouvements.",
+     "La princesse <strong>Élisabeth de Bohême</strong> lui objecte : comment une chose sans étendue peut-elle pousser un corps ? La réponse n'a pas convaincu, et ses successeurs en ont cherché d'autres : l'<strong>occasionnalisme</strong> (Malebranche), le <strong>monisme</strong> de Spinoza et l'<strong>harmonie préétablie</strong> de Leibniz."
+    ],
+    "comprobacion": {
+     "pregunta": "Quel est le principal problème du dualisme cartésien ?",
+     "opciones": [
+      [
+       "Expliquer comment deux substances qui n'ont rien en commun (la pensée et l'étendue) peuvent agir l'une sur l'autre.",
+       true
+      ],
+      [
+       "Démontrer que l'esprit existe.",
+       false,
+       "L'esprit est la première chose qu'il démontre, avec le cogito.",
+       "g-cogito-dm"
+      ],
+      [
+       "Expliquer pourquoi les corps se meuvent.",
+       false,
+       "Cela, le mécanisme l'explique, par la figure et le mouvement.",
+       "g-mecanicismo-dm"
+      ],
+      [
+       "Démontrer que Dieu est étendu.",
+       false,
+       "Pour Descartes, Dieu n'est pas étendu.",
+       "g-dualismo-dm"
+      ]
+     ],
+     "ok": "Exact : le nœud, c'est l'interaction.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "L'objection d'Élisabeth",
+      "titulo": "Comment l'âme meut-elle le corps ?",
+      "glosario": [
+       "g-dualismo-dm",
+       "g-glandula-pineal",
+       "g-ocasionalismo-dm"
+      ],
+      "cita": {
+       "texto": "« Je vous prie de me dire comment l'âme de l'homme peut déterminer les esprits du corps, pour faire les actions volontaires (n'étant qu'une substance pensante). »",
+       "fuente": "Élisabeth de Bohême, lettre à Descartes de mai 1643 (texte original)"
+      },
+      "definicion": [
+       "<strong>Le problème</strong> → si l'esprit n'a pas d'étendue et que le corps ne se meut que par contact, l'interaction semble impossible, bien que nous la vivions à chaque instant.",
+       "<strong>La réponse de Descartes</strong> → la glande pinéale, où l'âme s'unit au corps ; et, dans ses lettres à Élisabeth, l'union comme une notion primitive que l'on connaît en vivant plus qu'en pensant.",
+       "<strong>L'objection</strong> → Élisabeth ne voit pas comment une chose immatérielle peut pousser une chose matérielle ; il lui semble plus facile d'attribuer à l'âme de la matière et de l'étendue.",
+       "<strong>D'autres issues</strong> → Malebranche : Dieu meut le corps à l'occasion de la volonté (occasionnalisme) ; Spinoza : l'esprit et le corps sont deux attributs d'une seule substance ; Leibniz : Dieu les a synchronisés dès le début. Le débat se poursuit aujourd'hui en philosophie de l'esprit."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Qu'objecte Élisabeth de Bohême à Descartes ?",
+       "opciones": [
+        [
+         "Qu'on ne comprend pas comment une substance seulement pensante, sans étendue, peut mouvoir le corps.",
+         true
+        ],
+        [
+         "Que l'esprit n'existe pas.",
+         false,
+         "Élisabeth admet l'esprit ; elle demande comment il agit sur le corps."
+        ],
+        [
+         "Que la glande pinéale n'est pas dans le cerveau.",
+         false,
+         "Son objection est philosophique, non anatomique."
+        ],
+        [
+         "Que le corps peut penser tout seul.",
+         false,
+         "Elle ne dit pas cela : elle s'interroge sur l'interaction entre les deux."
+        ]
+       ],
+       "ok": "Correct : c'est la question que le dualisme ne résout pas.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer les substances de Descartes",
+   "parrafos": [
+    "La substance est ce qui n'a besoin d'aucune autre chose pour exister : au sens strict, seul Dieu (substance infinie), qui garantit la vérité des idées claires et distinctes. Les substances finies sont la res cogitans, dont l'attribut est la pensée, et la res extensa, dont l'attribut est l'étendue. L'être humain est l'union des deux, et le grand problème est de savoir comment elles interagissent (glande pinéale, objection d'Élisabeth de Bohême).",
+    "Pour la PAU : compare le dualisme de Descartes avec le monisme de Spinoza (une seule substance) et avec le matérialisme de Hobbes (seulement des corps)."
+   ],
+   "siguiente": "spinoza-naturaleza"
+  }
+ },
+ {
   "id": "spinoza-naturaleza",
   "ilustre": "spinoza",
   "subject": "hf",
@@ -2717,7 +3227,263 @@ const PISTAS = [
    "parrafos": [
     "Vertu et puissance sont une seule et même chose : agir par vertu, c'est conserver son propre être sous la conduite de la raison. La joie est bonne et la tristesse mauvaise, et la béatitude n'est pas la récompense de la vertu, mais la vertu elle-même. Sous la raison, l'intérêt propre mène à la concorde : « l'homme est un dieu pour l'homme ».",
     "Pour le thème 15 et la dissertation : oppose cette éthique de la puissance à l'éthique du devoir de Kant et au juste milieu d'Aristote."
-   ]
+   ],
+   "siguiente": "contrato-social"
+  }
+ },
+ {
+  "id": "contrato-social",
+  "ilustre": "rousseau",
+  "subject": "hf",
+  "tema": "Thème 16 · Le contrat social",
+  "unidad": "hf-contrato",
+  "materia": "Philosophie · Hobbes, Locke et Rousseau",
+  "titulo": "Pourquoi obéissons-nous à l'État selon les contractualistes ?",
+  "lede": "Trois réponses à la même question : la sécurité, les droits ou la liberté. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Qu'est-ce que l'état de nature et pourquoi Hobbes et Locke arrivent-ils à des conclusions si différentes ?",
+    "repaso": [
+     "Ai-je expliqué que l'état de nature n'est pas un fait historique, mais une expérience de pensée : que se passerait-il sans pouvoir commun ?",
+     "Ai-je décrit celui de Hobbes (guerre de tous contre tous, peur) et son issue : céder tout le pouvoir à un souverain absolu, le Léviathan ?",
+     "Ai-je décrit celui de Locke (il y a déjà des droits naturels : la vie, la liberté et la propriété) et son issue : un gouvernement limité, avec un droit de résistance ?"
+    ],
+    "intro": [
+     "Imagine que demain disparaissent la police, les juges et les lois. Que se passerait-il ? Ta réponse en dit long sur la façon dont tu penses l'être humain. Hobbes et Locke ont répondu de manière très différente."
+    ],
+    "pistas": [
+     "Pour y voir clair : à l'époque moderne, la société cesse d'être vue comme quelque chose de naturel (l'« animal politique » d'Aristote) et on la comprend désormais comme un <strong>pacte</strong>. Pour la penser, on imagine l'<strong>état de nature</strong> : la vie sans pouvoir commun. Ce n'est pas de l'histoire, c'est une <strong>expérience de pensée</strong>.",
+     "<strong>Hobbes</strong> l'imagine comme une <strong>guerre de tous contre tous</strong> : nous sommes égaux en vulnérabilité, nous nous méfions les uns des autres et nous rivalisons, et la vie est « solitaire, pauvre, désagréable, brutale et brève ».",
+     "Par <strong>peur</strong> de la mort, les individus conviennent de céder tout leur pouvoir à un <strong>souverain absolu</strong>, le <strong>Léviathan</strong>, en échange de la sécurité. Une seule limite : personne n'est obligé de se laisser tuer.",
+     "<strong>Locke</strong> est plus optimiste : dans l'état de nature, il y a déjà des <strong>droits naturels</strong> (la vie, la liberté et la propriété), mais leur défense est incertaine. Le pacte crée un <strong>gouvernement limité</strong> qui les protège ; s'il les viole, le peuple peut lui <strong>résister</strong> et le changer. C'est la base du libéralisme politique."
+    ],
+    "comprobacion": {
+     "pregunta": "Pourquoi le souverain de Hobbes est-il absolu et le gouvernement de Locke, limité ?",
+     "opciones": [
+      [
+       "Parce que pour Hobbes, ce qu'on cherche, c'est la sécurité face à une guerre de tous contre tous ; pour Locke, protéger des droits naturels qui existaient déjà.",
+       true
+      ],
+      [
+       "Parce que Hobbes était roi et Locke non.",
+       false,
+       "Aucun des deux n'était roi : la différence tient à la façon dont ils imaginent l'état de nature.",
+       "g-estado-de-naturaleza"
+      ],
+      [
+       "Parce que Locke croit que l'être humain est mauvais par nature.",
+       false,
+       "C'est Hobbes qui a la vision la plus pessimiste.",
+       "g-estado-de-naturaleza"
+      ],
+      [
+       "Parce que pour Hobbes, le peuple peut se rebeller quand il le veut.",
+       false,
+       "Hobbes n'admet pas le droit de résistance ; Locke, si.",
+       "g-derechos-naturales"
+      ]
+     ],
+     "ok": "Bien : de la peur naît le pouvoir fort ; des droits, le pouvoir limité.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Solitaire, pauvre, brutale et brève",
+      "glosario": [
+       "g-estado-de-naturaleza",
+       "g-contrato-social"
+      ],
+      "cita": {
+       "texto": "« Tant que les hommes vivent sans un pouvoir commun qui les tienne tous dans la crainte, ils sont dans cette condition qu'on appelle guerre ; et une guerre telle qu'elle est de tout homme contre tout homme. […] Et la vie de l'homme est solitaire, pauvre, désagréable, brutale et brève. »",
+       "fuente": "Hobbes, <em>Léviathan</em> (1651), chap. 13 (traduction personnelle de l'anglais)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Selon le texte, que manque-t-il dans l'état de nature pour qu'il y ait la paix ?",
+       "opciones": [
+        [
+         "Un pouvoir commun qui tienne tout le monde dans la crainte.",
+         true
+        ],
+        [
+         "Une bonté naturelle chez les êtres humains.",
+         false,
+         "Le texte ne parle pas de bonté, mais de l'absence d'un pouvoir commun."
+        ],
+        [
+         "Une richesse suffisante pour tous.",
+         false,
+         "La pauvreté est une conséquence de la guerre, non ce qui manque pour la paix."
+        ],
+        [
+         "Une religion partagée.",
+         false,
+         "Le texte ne mentionne pas la religion."
+        ]
+       ],
+       "ok": "Exact : sans pouvoir commun, il y a la guerre.",
+       "mal": "Relis le texte.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Hobbes et Locke",
+      "glosario": [
+       "g-derechos-naturales",
+       "g-poder-legitimo",
+       "g-soberania"
+      ],
+      "cita": {
+       "texto": "« La fin de la loi n'est pas d'abolir ou de restreindre la liberté, mais de la préserver et de l'élargir. »",
+       "fuente": "Locke, <em>Second traité du gouvernement civil</em> (1689), § 57 (traduction personnelle de l'anglais)"
+      },
+      "definicion": [
+       "<strong>État de nature</strong> → situation hypothétique sans pouvoir commun ; elle sert à voir pourquoi l'État est nécessaire et quelles limites il doit avoir.",
+       "<strong>Hobbes</strong> → guerre de tous contre tous ; pacte par peur ; souverain absolu (Léviathan) ; l'obéissance se justifie par la sécurité.",
+       "<strong>Locke</strong> → droits naturels préalables (vie, liberté, propriété, fondée sur le travail) ; pacte par consentement ; gouvernement limité et révocable ; droit de résistance.",
+       "<strong>Le point commun</strong> → le pouvoir n'est pas légitime par lui-même, ni par une origine divine : il l'est parce que les individus le créent en vue d'une fin."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pour Locke, quand un gouvernement perd-il sa légitimité ?",
+       "opciones": [
+        [
+         "Quand il viole les droits naturels qu'il devait protéger : le peuple peut alors lui résister et le changer.",
+         true
+        ],
+        [
+         "Jamais : une fois le pacte conclu, il faut toujours obéir.",
+         false,
+         "Ce serait la position de Hobbes, pas celle de Locke."
+        ],
+        [
+         "Quand il perd une guerre.",
+         false,
+         "La légitimité dépend de la protection des droits, non du succès militaire."
+        ],
+        [
+         "Quand le roi meurt.",
+         false,
+         "Locke ne lie pas la légitimité à une personne, mais à la fin du gouvernement."
+        ]
+       ],
+       "ok": "Correct : le gouvernement est le gardien des droits, non leur propriétaire.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce que la volonté générale de Rousseau et pourquoi dit-il que lui obéir, c'est être libre ?",
+    "repaso": [
+     "Ai-je expliqué le point de départ de Rousseau : l'être humain naît libre et bon, et la société le corrompt et l'enchaîne ?",
+     "Ai-je défini la volonté générale (l'intérêt commun) et l'ai-je distinguée de la volonté de tous (la somme des intérêts particuliers) ?",
+     "Ai-je dit que la souveraineté appartient au peuple, que la liberté consiste à obéir à la loi qu'on se donne, et ai-je mentionné la critique (« forcé d'être libre ») ?"
+    ],
+    "intro": [
+     "Si les lois, nous les faisons tous ensemble, leur obéir, c'est d'une certaine manière m'obéir à moi-même. Rousseau construit sa théorie sur cette idée. Réfléchis au problème qu'il essaie de résoudre."
+    ],
+    "pistas": [
+     "Rappelle-toi : Hobbes cherche la sécurité et Locke, la protection des droits. <strong>Rousseau</strong> se demande comment rester <strong>libres</strong> au sein de la société : « l'homme est né libre, et partout il est dans les fers ».",
+     "Pour lui, l'être humain est <strong>bon par nature</strong> ; la société mal organisée, avec la propriété et l'inégalité, le corrompt. Le pacte légitime doit lui rendre la liberté.",
+     "Dans le contrat, chacun se donne tout entier à la communauté, et ainsi naît la <strong>volonté générale</strong> : l'<strong>intérêt commun</strong>, qui n'est pas la somme des intérêts particuliers (cela, c'est la « volonté de tous »).",
+     "La <strong>souveraineté appartient au peuple</strong> et ne peut pas être représentée. Obéir à la loi qu'on s'est soi-même donnée, c'est la <strong>liberté</strong>. Mais Rousseau dit aussi que celui qui n'y obéit pas, « on le forcera d'être libre », et beaucoup de critiques y voient un risque pour les minorités."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'est-ce que la volonté générale pour Rousseau ?",
+     "opciones": [
+      [
+       "L'intérêt commun de la communauté, distinct de la somme des intérêts particuliers.",
+       true
+      ],
+      [
+       "Ce que vote la majorité à chaque moment.",
+       false,
+       "Cela se rapproche de la « volonté de tous », que Rousseau distingue de la volonté générale.",
+       "g-voluntad-general"
+      ],
+      [
+       "La volonté du roi, qui représente le peuple.",
+       false,
+       "Pour Rousseau, la souveraineté appartient au peuple et ne peut pas être représentée.",
+       "g-soberania"
+      ],
+      [
+       "La somme de ce que veut chaque individu.",
+       false,
+       "C'est justement la « volonté de tous ».",
+       "g-voluntad-general"
+      ]
+     ],
+     "ok": "Exact : l'intérêt commun, pas la somme.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Rousseau",
+      "titulo": "S'obéir à soi-même",
+      "glosario": [
+       "g-voluntad-general",
+       "g-soberania",
+       "g-contrato-social"
+      ],
+      "cita": {
+       "texto": "« L'homme est né libre, et partout il est dans les fers. » « Trouver une forme d'association […] par laquelle chacun s'unissant à tous n'obéisse pourtant qu'à lui-même et reste aussi libre qu'auparavant. »",
+       "fuente": "Rousseau, <em>Du contrat social</em> (1762), I, 1 et I, 6 (texte original)"
+      },
+      "definicion": [
+       "<strong>Point de départ</strong> → l'être humain est bon et libre par nature ; la société inégalitaire l'enchaîne.",
+       "<strong>Le pacte</strong> → chacun se donne à la communauté tout entière ; comme tous le font de la même manière, personne n'est soumis à un autre.",
+       "<strong>Volonté générale</strong> → l'intérêt commun ; distincte de la volonté de tous, qui est la somme des intérêts privés. La souveraineté réside dans le peuple et ne se représente pas.",
+       "<strong>Liberté</strong> → obéir à la loi qu'on s'est donnée. <strong>Le débat</strong> : si celui qui n'y obéit pas sera « forcé d'être libre », qui décide de ce qu'est l'intérêt commun ? Les uns voient là la racine de la démocratie ; les autres, le risque d'écraser les minorités."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Pourquoi Rousseau dit-il que, dans le pacte légitime, chacun « n'obéit qu'à lui-même » ?",
+       "opciones": [
+        [
+         "Parce que la loi exprime la volonté générale, dont chaque citoyen est l'auteur en tant que membre du peuple souverain.",
+         true
+        ],
+        [
+         "Parce que chacun fait ce qu'il veut.",
+         false,
+         "Il ne s'agit pas de faire ce qu'on veut, mais d'obéir à la loi commune qu'on s'est soi-même donnée."
+        ],
+        [
+         "Parce qu'il n'y a pas de lois.",
+         false,
+         "Il y a des lois : ce sont celles que dicte la volonté générale."
+        ],
+        [
+         "Parce que le roi obéit au peuple.",
+         false,
+         "Chez Rousseau, le souverain est le peuple lui-même, non un roi."
+        ]
+       ],
+       "ok": "Correct : la liberté comme autonomie politique.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer le contrat social",
+   "parrafos": [
+    "L'état de nature est une expérience de pensée pour justifier le pouvoir. Pour Hobbes, c'est une guerre de tous contre tous, et par peur on conclut un pacte avec un souverain absolu qui assure la sécurité. Pour Locke, il y a déjà des droits naturels (vie, liberté, propriété), et le pacte crée un gouvernement limité, auquel on peut résister. Pour Rousseau, le pacte légitime crée la volonté générale : le peuple souverain, et la liberté comme obéissance à la loi qu'on se donne.",
+    "Pour la PAU : compare les trois dans un tableau (état de nature, motif du pacte, type de pouvoir, droit de résistance) et relie l'autonomie de Rousseau à celle de Kant."
+   ],
+   "siguiente": "kant-ilustracion"
   }
  },
  {
@@ -2963,6 +3729,515 @@ const PISTAS = [
    "parrafos": [
     "Les Lumières sont la sortie d'une minorité dont on est soi-même responsable : ce n'est pas l'entendement qui manque, mais la résolution et le courage (<em>Sapere aude</em>). Pour en sortir, il suffit de la liberté de faire usage public de sa raison, qui doit toujours être libre, tandis que l'usage privé, celui de la charge, peut être limité.",
     "Pour la PAU : dans le résumé, distingue la définition, les causes et les deux usages de la raison ; dans l'option A ou B, relie-le à l'autonomie de l'éthique kantienne."
+   ],
+   "siguiente": "feminismo-ilustrado"
+  }
+ },
+ {
+  "id": "feminismo-ilustrado",
+  "ilustre": "wollstonecraft",
+  "subject": "hf",
+  "tema": "Thème 18 · La première vague féministe",
+  "unidad": "hf-ilustracion",
+  "materia": "Philosophie · Olympe de Gouges et Mary Wollstonecraft",
+  "titulo": "Qu'est-ce que le premier féminisme a apporté aux Lumières ?",
+  "lede": "La PAU de 2026 a porté sur les apports de la pensée féministe. Deux autrices qui ont pris au sérieux les promesses des Lumières. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Que dénonce Olympe de Gouges dans la Déclaration des droits de la femme et de la citoyenne ?",
+    "repaso": [
+     "Ai-je expliqué la promesse des Lumières : des droits universels, « les hommes naissent et demeurent libres et égaux en droits » (Déclaration de 1789) ?",
+     "Ai-je dit que ces « droits de l'homme » laissaient les femmes de côté en tant que citoyennes : sans droit de vote, sans fonctions publiques, sans égalité devant la loi ?",
+     "Ai-je expliqué ce que fait De Gouges : elle réécrit la Déclaration article par article pour y inclure la femme, et elle exige que l'universalité soit tenue ?"
+    ],
+    "intro": [
+     "En 1789, la Révolution française a proclamé que « les hommes naissent et demeurent libres et égaux en droits ». Deux ans plus tard, une femme a réécrit cette phrase en changeant un seul mot. Réfléchis auquel et pourquoi c'était si dérangeant."
+    ],
+    "pistas": [
+     "Pour y voir clair : les Lumières parlent de droits <strong>universels</strong>. La <strong>Déclaration des droits de l'homme et du citoyen</strong> (1789) les proclame pour tous… mais les femmes ne votent pas, n'occupent pas de fonctions publiques et ne sont pas des citoyennes à part entière.",
+     "<strong>Olympe de Gouges</strong> répond en 1791 par la <strong>Déclaration des droits de la femme et de la citoyenne</strong> : elle copie celle de 1789 article par article, en mettant la femme là où il n'y avait auparavant que l'homme.",
+     "Son argument est un argument de <strong>cohérence</strong> : si les droits sont vraiment naturels et universels, exclure la moitié de l'humanité est une contradiction. L'exception a besoin d'une justification, et la coutume n'en est pas une.",
+     "Sa phrase la plus célèbre le montre : si la femme peut monter sur l'<strong>échafaud</strong> (être punie comme n'importe qui), elle doit aussi pouvoir monter à la <strong>tribune</strong> (parler et décider en public). Elle a été guillotinée en 1793."
+    ],
+    "comprobacion": {
+     "pregunta": "Quel argument de fond utilise Olympe de Gouges ?",
+     "opciones": [
+      [
+       "Que, si les droits sont universels, exclure les femmes est une contradiction : la promesse des Lumières doit être tenue.",
+       true
+      ],
+      [
+       "Que les femmes sont supérieures aux hommes et doivent gouverner.",
+       false,
+       "Elle ne demande pas la supériorité, mais l'égalité en droits.",
+       "g-feminismo"
+      ],
+      [
+       "Que les droits humains sont une invention et qu'il faut les rejeter.",
+       false,
+       "Au contraire : elle prend les droits au sérieux et exige qu'ils incluent toutes les femmes.",
+       "g-la-grieta-de-la-universalidad"
+      ],
+      [
+       "Que la femme doit rester à la maison, mais avec plus de respect.",
+       false,
+       "Elle demande la pleine citoyenneté, y compris à la « tribune », l'espace public.",
+       "g-declaracion-de-los-derechos-de-la-mujer"
+      ]
+     ],
+     "ok": "Bien : elle ne rejette pas les Lumières, elle exige d'elles la cohérence.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "De l'échafaud à la tribune",
+      "glosario": [
+       "g-declaracion-de-los-derechos-de-la-mujer",
+       "g-la-grieta-de-la-universalidad"
+      ],
+      "cita": {
+       "texto": "« La femme naît libre et demeure égale à l'homme en droits. » « La femme a le droit de monter sur l'échafaud ; elle doit avoir également celui de monter à la tribune. »",
+       "fuente": "Olympe de Gouges, <em>Déclaration des droits de la femme et de la citoyenne</em> (1791), articles 1 et 10 (texte original)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Que veut dire la comparaison entre l'échafaud et la tribune ?",
+       "opciones": [
+        [
+         "Que, si la loi traite la femme comme l'homme pour la punir, elle doit aussi la traiter de la même façon pour qu'elle participe à la vie publique.",
+         true
+        ],
+        [
+         "Que les femmes doivent être punies plus que les hommes.",
+         false,
+         "Elle ne demande pas plus de châtiment : elle montre l'inégalité entre devoirs et droits."
+        ],
+        [
+         "Que la tribune est aussi dangereuse que l'échafaud.",
+         false,
+         "La tribune est le lieu où l'on parle en public et où l'on participe à la politique."
+        ],
+        [
+         "Que De Gouges voulait être condamnée à mort.",
+         false,
+         "Le texte est un argument sur les droits, non un désir personnel."
+        ]
+       ],
+       "ok": "Exact : égales devant le châtiment, égales devant la citoyenneté.",
+       "mal": "Relis la phrase.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Une universalité à moitié",
+      "glosario": [
+       "g-declaracion-de-los-derechos-de-la-mujer",
+       "g-feminismo",
+       "g-las-olas"
+      ],
+      "cita": {
+       "texto": "« Femme, réveille-toi ; le tocsin de la raison se fait entendre dans tout l'univers ; reconnais tes droits. »",
+       "fuente": "Olympe de Gouges, <em>Déclaration des droits de la femme et de la citoyenne</em> (1791), postambule (texte original)"
+      },
+      "definicion": [
+       "<strong>La promesse</strong> → les Lumières proclament des droits naturels, égaux pour tous, face aux privilèges de l'Ancien Régime.",
+       "<strong>La faille</strong> → en pratique, le « citoyen » est un homme : les femmes sont exclues du vote, des fonctions publiques et de l'égalité devant la loi.",
+       "<strong>La réponse de De Gouges</strong> → réécrire la Déclaration pour y inclure la femme et en appeler à la raison même des Lumières. Elle y joint en outre d'autres causes : la pauvreté et l'opposition à l'esclavage.",
+       "<strong>Première vague</strong> → c'est ainsi qu'on appelle ce premier féminisme des XVIIIe et XIXe siècles, centré sur l'égalité des droits civils, politiques et éducatifs."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi dit-on que le premier féminisme critique les Lumières « de l'intérieur » ?",
+       "opciones": [
+        [
+         "Parce qu'il utilise les mêmes principes des Lumières (la raison, les droits universels) pour montrer qu'exclure les femmes les contredit.",
+         true
+        ],
+        [
+         "Parce que ses autrices étaient des philosophes de l'Encyclopédie.",
+         false,
+         "Il ne s'agit pas d'appartenir à un groupe, mais d'utiliser les mêmes arguments."
+        ],
+        [
+         "Parce qu'il rejette la raison et défend le sentiment.",
+         false,
+         "Au contraire : il en appelle à la raison (« le tocsin de la raison »)."
+        ],
+        [
+         "Parce qu'il ne critique que les rois de l'Ancien Régime.",
+         false,
+         "Il critique aussi les révolutionnaires qui ont laissé les femmes de côté."
+        ]
+       ],
+       "ok": "Correct : il exige que la promesse soit tenue.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Pourquoi Mary Wollstonecraft dit-elle que l'infériorité de la femme n'est pas naturelle, et que propose-t-elle face à Rousseau ?",
+    "repaso": [
+     "Ai-je expliqué la position de Rousseau dans l'<em>Émile</em> : l'éducation des femmes doit être pensée pour plaire aux hommes et les servir ?",
+     "Ai-je énoncé la thèse de Wollstonecraft : la faiblesse attribuée à la raison féminine est le produit d'une éducation inégale, non de la nature ?",
+     "Ai-je expliqué sa proposition (éducation égalitaire et indépendance économique) et ai-je mentionné ses limites (classe moyenne, maternité) ?"
+    ],
+    "intro": [
+     "Si l'on éduque quelqu'un depuis l'enfance uniquement pour plaire et obéir, et qu'on lui dit ensuite que « par nature » il raisonne mal, qu'a-t-on vraiment démontré ? Wollstonecraft pose cette question à Rousseau."
+    ],
+    "pistas": [
+     "Pour y voir clair : <strong>Rousseau</strong>, dans l'<em>Émile</em> (1762), propose une éducation libre pour le garçon, mais pour la femme une éducation <strong>relative aux hommes</strong> : leur plaire, leur être utile, obéir.",
+     "<strong>Mary Wollstonecraft</strong> répond dans la <em>Défense des droits de la femme</em> (1792) : la prétendue faiblesse de la raison féminine <strong>n'est pas naturelle, mais culturelle</strong>. Elle est produite par une éducation inégale, les mœurs et la dépendance économique.",
+     "Le raisonnement est circulaire : on refuse d'abord aux femmes la formation, puis on justifie leur exclusion en disant qu'elles ont moins de raison. C'est pourquoi l'idée se résume ainsi : <strong>la raison n'a pas de sexe</strong>.",
+     "Elle propose une <strong>éducation égalitaire</strong> et l'<strong>indépendance économique</strong> : que les femmes soient des sujets moraux et des citoyennes, non un ornement domestique. Ses limites : elle écrit surtout pour les femmes de la classe moyenne et continue de voir la maternité comme leur tâche principale."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Wollstonecraft, d'où vient l'infériorité attribuée aux femmes ?",
+     "opciones": [
+      [
+       "D'une éducation inégale et de la dépendance sociale et économique, non de la nature.",
+       true
+      ],
+      [
+       "De la nature : la raison féminine est plus faible.",
+       false,
+       "C'est l'idée qu'elle combat, présente chez Rousseau.",
+       "g-educacion-igualitaria"
+      ],
+      [
+       "De la volonté de Dieu.",
+       false,
+       "Wollstonecraft argumente à partir de la raison et de l'éducation, non d'un dessein divin.",
+       "g-educacion-igualitaria"
+      ],
+      [
+       "Du fait que les femmes ne veulent pas étudier.",
+       false,
+       "Ce n'est pas un manque d'intérêt : on leur refuse la formation.",
+       "g-educacion-igualitaria"
+      ]
+     ],
+     "ok": "Exact : l'inégalité se fabrique, elle ne naît pas.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Rousseau et Wollstonecraft",
+      "titulo": "Du pouvoir sur elles-mêmes",
+      "glosario": [
+       "g-educacion-igualitaria",
+       "g-feminismo"
+      ],
+      "cita": {
+       "texto": "« Toute l'éducation des femmes doit être relative aux hommes. Leur plaire, leur être utiles. » (Rousseau) — « Je ne souhaite pas qu'elles aient du pouvoir sur les hommes, mais sur elles-mêmes. » (Wollstonecraft)",
+       "fuente": "Rousseau, <em>Émile</em> (1762), livre V (texte original) ; Wollstonecraft, <em>Défense des droits de la femme</em> (1792), chap. 4 (traduction personnelle de l'anglais)"
+      },
+      "definicion": [
+       "<strong>Rousseau</strong> → la différence entre les sexes est naturelle et nécessaire ; la femme est éduquée pour plaire et obéir.",
+       "<strong>Wollstonecraft</strong> → la dépendance est une situation historique créée par l'éducation, les mœurs et l'économie ; la raison est une faculté humaine, sans sexe.",
+       "<strong>Sa proposition</strong> → la même éducation pour les deux sexes, publique, et l'indépendance économique de la femme : l'autonomie, non la domination sur les hommes.",
+       "<strong>Ses limites</strong> → elle pense surtout à la classe moyenne et maintient la maternité comme tâche principale. Le reconnaître ne lui enlève pas sa valeur : la critique des Lumières, elle aussi, se soumet à la critique."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Que veut dire que les femmes aient « du pouvoir sur elles-mêmes » ?",
+       "opciones": [
+        [
+         "Qu'elles soient autonomes : qu'elles pensent et décident par elles-mêmes grâce à l'éducation et à l'indépendance.",
+         true
+        ],
+        [
+         "Qu'elles commandent aux hommes.",
+         false,
+         "La phrase le nie expressément : « pas sur les hommes »."
+        ],
+        [
+         "Qu'elles se retirent de la société.",
+         false,
+         "Wollstonecraft veut qu'elles soient des citoyennes, non qu'elles s'isolent."
+        ],
+        [
+         "Qu'elles contrôlent leurs émotions pour plaire davantage.",
+         false,
+         "C'est le contraire d'éduquer pour plaire."
+        ]
+       ],
+       "ok": "Correct : l'autonomie, qui est le mot des Lumières.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer la première vague féministe",
+   "parrafos": [
+    "Olympe de Gouges réécrit en 1791 la Déclaration de 1789 pour y inclure la femme : si les droits sont universels, l'exclure est une contradiction (« si elle peut monter sur l'échafaud, elle doit pouvoir monter à la tribune »). Mary Wollstonecraft, face à Rousseau, soutient que l'infériorité attribuée à la femme est le produit d'une éducation inégale et propose une éducation égalitaire et l'indépendance économique.",
+    "Pour la PAU : présente-les toutes deux comme une critique menée de l'intérieur des Lumières, qui exige de tenir leur promesse, et relie-la à Beauvoir (« on ne naît pas femme »), qui donnera à cette idée un fondement existentialiste."
+   ],
+   "siguiente": "kant-conocimiento"
+  }
+ },
+ {
+  "id": "kant-conocimiento",
+  "ilustre": "kant",
+  "subject": "hf",
+  "tema": "Thème 19 · Kant : la connaissance",
+  "unidad": "hf-kant",
+  "materia": "Philosophie · Kant",
+  "titulo": "Que pouvons-nous connaître selon Kant, et pourquoi la métaphysique ne peut-elle pas être une science ?",
+  "lede": "La question de Kant entre rationalisme et empirisme, l'une de celles qui sont le plus tombées à la PAU à son sujet. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Comment Kant dépasse-t-il l'affrontement entre rationalisme et empirisme ?",
+    "repaso": [
+     "Ai-je expliqué le problème : le rationalisme tombe dans le dogmatisme, et l'empirisme de Hume dans le scepticisme ?",
+     "Ai-je dit que toute connaissance commence avec l'expérience, mais que toute ne procède pas d'elle, et ai-je distingué matière (a posteriori) et forme (a priori) ?",
+     "Ai-je expliqué la révolution copernicienne : ce n'est pas le sujet qui se règle sur l'objet, mais l'objet sur les formes du sujet ?"
+    ],
+    "intro": [
+     "Si tu portes des lunettes à verres bleus que tu ne peux pas enlever, tu verras tout en bleu. Le bleu n'est pas dans les choses, mais tu ne l'inventes pas non plus : c'est ta manière de regarder qui le met. Réfléchis à ce que cela a à voir avec Kant."
+    ],
+    "pistas": [
+     "Pour y voir clair : le <strong>rationalisme</strong> (Descartes) a confiance que la raison seule déduit tout, et il tombe dans le <strong>dogmatisme</strong>. L'<strong>empirisme</strong> (Hume) dit que tout vient de l'expérience, et il finit dans le <strong>scepticisme</strong> : même la causalité ne tient plus debout. Hume, dit Kant, l'a tiré de son « sommeil dogmatique ».",
+     "Kant cherche des jugements qui disent quelque chose de nouveau sur le monde (<strong>synthétiques</strong>) et qui soient en même temps universels et nécessaires (<strong>a priori</strong>), comme ceux des mathématiques et de la physique. Sa question est : comment les <strong>jugements synthétiques a priori</strong> sont-ils possibles ?",
+     "Réponse : <strong>toute connaissance commence avec l'expérience, mais toute ne procède pas d'elle</strong>. L'expérience fournit la <strong>matière</strong> (a posteriori) ; le sujet fournit la <strong>forme</strong> (a priori) : l'espace et le temps dans la sensibilité, les catégories (comme la causalité) dans l'entendement.",
+     "C'est sa <strong>révolution copernicienne</strong> : comme Copernic fit tourner la Terre autour du Soleil, Kant fait tourner l'objet autour du sujet. Ce n'est pas le sujet qui s'adapte aux choses, mais les choses, telles que nous les connaissons, qui se règlent sur ses formes."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Kant, qu'est-ce que le sujet apporte à la connaissance ?",
+     "opciones": [
+      [
+       "La forme a priori (espace, temps et catégories) qui organise ce que donne l'expérience.",
+       true
+      ],
+      [
+       "Tout : le sujet invente le monde à sa guise.",
+       false,
+       "L'expérience fournit la matière : sans elle, il n'y a pas de connaissance.",
+       "g-trascendental"
+      ],
+      [
+       "Rien : l'esprit est une page blanche qui copie l'expérience.",
+       false,
+       "C'est l'image empiriste que Kant corrige.",
+       "g-a-priori"
+      ],
+      [
+       "Les idées innées de Dieu, de l'âme et du monde, qu'il connaît sans expérience.",
+       false,
+       "Cela ressemble au rationalisme ; pour Kant, ces idées ne donnent pas de connaissance.",
+       "g-a-priori"
+      ]
+     ],
+     "ok": "Bien : la matière vient de l'expérience, la forme du sujet.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "Que les objets se règlent sur notre connaissance",
+      "glosario": [
+       "g-revolucion-copernicana",
+       "g-a-priori"
+      ],
+      "cita": {
+       "texto": "« Jusqu'ici, on a admis que toute notre connaissance devait se régler sur les objets […]. Essayons donc une fois de voir si nous n'avancerons pas mieux dans les problèmes de la métaphysique en admettant que les objets doivent se régler sur notre connaissance. »",
+       "fuente": "Kant, <em>Critique de la raison pure</em> (1787), préface de la seconde édition, B XVI (traduction personnelle de l'allemand)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Quel changement Kant propose-t-il dans ce texte ?",
+       "opciones": [
+        [
+         "Cesser d'admettre que la connaissance se règle sur les objets et essayer d'admettre que les objets se règlent sur notre connaissance.",
+         true
+        ],
+        [
+         "Abandonner la métaphysique et se consacrer seulement à la physique.",
+         false,
+         "Le texte veut avancer « dans les problèmes de la métaphysique », non les abandonner."
+        ],
+        [
+         "Démontrer que les objets n'existent pas.",
+         false,
+         "Kant ne nie pas les objets : il change le rapport entre le sujet et l'objet."
+        ],
+        [
+         "Revenir à la manière traditionnelle de connaître.",
+         false,
+         "C'est exactement le contraire : ce qu'il veut changer, c'est ce que « jusqu'ici, on a admis »."
+        ]
+       ],
+       "ok": "Exact : c'est la révolution copernicienne.",
+       "mal": "Relis le texte.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Jugements synthétiques a priori",
+      "glosario": [
+       "g-juicios-sinteticos-a-priori",
+       "g-intuiciones-puras",
+       "g-categoria"
+      ],
+      "cita": {
+       "texto": "« Bien que toute notre connaissance commence avec l'expérience, elle ne naît pas pour autant tout entière de l'expérience. »",
+       "fuente": "Kant, <em>Critique de la raison pure</em>, Introduction, B 1 (traduction personnelle de l'allemand)"
+      },
+      "definicion": [
+       "<strong>Analytiques</strong> → le prédicat est déjà dans le sujet : « les corps sont étendus ». Ils sont sûrs, mais n'élargissent pas la connaissance.",
+       "<strong>Synthétiques a posteriori</strong> → ils élargissent la connaissance, mais dépendent de l'expérience et ne sont pas nécessaires : « ce corps est pesant ».",
+       "<strong>Synthétiques a priori</strong> → ils élargissent la connaissance et sont universels et nécessaires : « 7 + 5 = 12 », « tout ce qui arrive a une cause ». Les mathématiques et la physique les utilisent.",
+       "<strong>Comment ils sont possibles</strong> → parce que le sujet apporte des formes a priori : les <strong>intuitions pures</strong> d'espace et de temps (sensibilité) et les <strong>catégories</strong> (entendement)."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi « tout ce qui arrive a une cause » est-il un jugement synthétique a priori ?",
+       "opciones": [
+        [
+         "Parce qu'il dit quelque chose de nouveau sur les événements et qu'en même temps il vaut de façon universelle et nécessaire, sans attendre l'expérience.",
+         true
+        ],
+        [
+         "Parce que nous l'avons vérifié dans tous les cas.",
+         false,
+         "Cela le rendrait a posteriori, et nous n'avons jamais tout vérifié (c'est le problème de Hume)."
+        ],
+        [
+         "Parce que « cause » est déjà contenue dans le mot « événement ».",
+         false,
+         "Si c'était le cas, il serait analytique ; Kant dit qu'il ajoute quelque chose."
+        ],
+        [
+         "Parce que c'est une habitude de l'esprit, comme le disait Hume.",
+         false,
+         "Kant veut exactement le contraire : que la causalité soit nécessaire, et non une habitude."
+        ]
+       ],
+       "ok": "Correct : il élargit la connaissance et il est nécessaire à la fois.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Qu'est-ce que le phénomène et qu'est-ce que le noumène, et pourquoi Kant conclut-il que la métaphysique ne peut pas être une science ?",
+    "repaso": [
+     "Ai-je défini le phénomène (la chose telle qu'elle nous apparaît, dans l'espace et le temps et pensée par les catégories) et le noumène (la chose en soi, que nous ne connaissons pas) ?",
+     "Ai-je expliqué que la connaissance a besoin à la fois d'intuitions et de concepts (« des pensées sans contenu sont vides ; des intuitions sans concepts sont aveugles ») ?",
+     "Ai-je dit que Dieu, l'âme et le monde comme totalité ne sont pas donnés dans l'expérience, de sorte que la métaphysique n'est pas une science, même si ses idées gardent un usage régulateur ?"
+    ],
+    "intro": [
+     "Reviens aux lunettes bleues. Si tu ne peux jamais les enlever, peux-tu savoir de quelle couleur sont vraiment les choses ? Kant en tire une limite pour la raison."
+    ],
+    "pistas": [
+     "Rappelle-toi : nous connaissons avec les formes du sujet. C'est pourquoi nous connaissons les choses <strong>telles qu'elles nous apparaissent</strong> : le <strong>phénomène</strong>. Ce que la chose est <strong>en elle-même</strong>, sans nos formes, c'est le <strong>noumène</strong> : nous pouvons le penser, mais non le connaître.",
+     "Pour connaître, il faut deux choses à la fois : quelque chose que la sensibilité <strong>intuitionne</strong> et un <strong>concept</strong> de l'entendement qui l'ordonne. Sans intuition, le concept est vide ; sans concept, l'intuition est aveugle.",
+     "La <strong>raison</strong> veut aller plus loin et penser l'inconditionné : l'<strong>âme</strong>, le <strong>monde</strong> comme totalité et <strong>Dieu</strong>. Mais rien de tout cela n'est donné dans l'expérience : là, la raison s'empêtre dans des contradictions (les <strong>antinomies</strong>).",
+     "Conclusion : la physique et les mathématiques sont des sciences ; la <strong>métaphysique ne peut pas l'être</strong>, car elle parle de ce qui n'apparaît jamais. Malgré tout, ses idées servent d'<strong>idées régulatrices</strong>, et l'éthique (thème 20) leur donnera un autre sens."
+    ],
+    "comprobacion": {
+     "pregunta": "Pour Kant, pourquoi la métaphysique ne peut-elle pas être une science ?",
+     "opciones": [
+      [
+       "Parce que ses objets (Dieu, l'âme, le monde comme totalité) ne sont pas donnés dans l'expérience, et sans intuition il n'y a pas de connaissance.",
+       true
+      ],
+      [
+       "Parce que Dieu, l'âme et le monde n'existent pas.",
+       false,
+       "Kant ne le nie pas : il dit que nous ne pouvons pas les connaître, non qu'ils n'existent pas.",
+       "g-noumeno"
+      ],
+      [
+       "Parce que la raison humaine ne sert à rien.",
+       false,
+       "La raison fonctionne dans la science ; le problème est de l'utiliser hors de l'expérience.",
+       "g-los-limites-de-la-razon"
+      ],
+      [
+       "Parce qu'on n'a pas encore trouvé la méthode adéquate.",
+       false,
+       "Ce n'est pas une question de méthode : c'est une limite de la raison elle-même.",
+       "g-fenomeno"
+      ]
+     ],
+     "ok": "Exact : une limite, non un échec.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Phénomène et noumène",
+      "titulo": "Vides et aveugles",
+      "glosario": [
+       "g-fenomeno",
+       "g-noumeno",
+       "g-idea-regulativa"
+      ],
+      "cita": {
+       "texto": "« Des pensées sans contenu sont vides ; des intuitions sans concepts sont aveugles. »",
+       "fuente": "Kant, <em>Critique de la raison pure</em>, A 51 / B 75 (traduction personnelle de l'allemand)"
+      },
+      "definicion": [
+       "<strong>Phénomène</strong> → la réalité telle qu'elle apparaît, dans l'espace et le temps et pensée par les catégories. C'est la seule chose que nous connaissons, et la science en cherche les lois.",
+       "<strong>Noumène</strong> → la chose en soi, hors de nos formes. On peut la penser comme limite, mais non la connaître.",
+       "<strong>Les idées de la raison</strong> → âme, monde et Dieu. Elles ne correspondent à aucune intuition : si la raison veut les connaître comme des objets, elle tombe dans des illusions et des antinomies.",
+       "<strong>Usage régulateur</strong> → elles ne donnent pas de connaissance, mais orientent la recherche vers l'unité. Et dans l'éthique, la liberté, l'âme immortelle et Dieu reviennent comme postulats de la raison pratique."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Que veut dire que « des intuitions sans concepts sont aveugles » ?",
+       "opciones": [
+        [
+         "Que ce que nous recevons par les sens n'est pas une connaissance tant que l'entendement ne l'ordonne pas par des concepts.",
+         true
+        ],
+        [
+         "Que les sens nous trompent toujours.",
+         false,
+         "Kant ne dit pas qu'ils trompent : il dit que, seuls, ils ne suffisent pas."
+        ],
+        [
+         "Que seuls les concepts donnent une connaissance, sans besoin d'expérience.",
+         false,
+         "L'autre moitié de la phrase le nie : sans contenu, les concepts sont vides."
+        ],
+        [
+         "Que nous ne pouvons pas voir le noumène parce que nous sommes aveugles.",
+         false,
+         "La phrase parle de la façon dont se combinent intuition et concept, non du noumène."
+        ]
+       ],
+       "ok": "Correct : il faut les deux.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer l'idéalisme transcendantal",
+   "parrafos": [
+    "Face au dogmatisme rationaliste et au scepticisme de Hume, Kant soutient que toute connaissance commence avec l'expérience, mais que toute ne procède pas d'elle : l'expérience fournit la matière et le sujet les formes a priori (espace, temps et catégories). C'est pourquoi les jugements synthétiques a priori de la science sont possibles. C'est la révolution copernicienne : l'objet se règle sur le sujet.",
+    "Nous connaissons des phénomènes, non la chose en soi (noumène). Comme Dieu, l'âme et le monde ne sont pas donnés dans l'expérience, la métaphysique ne peut pas être une science. Pour la PAU : compare point par point avec Descartes et avec Hume, et relie avec l'éthique du thème 20."
    ],
    "siguiente": "kant-imperativo"
   }
@@ -4193,7 +5468,258 @@ const PISTAS = [
    "parrafos": [
     "La banalité du mal : un mal immense peut être commis par quelqu'un d'ordinaire qui renonce à penser, et non par un monstre ; la thèse est discutée, car les documents montrent un Eichmann plus idéologique. La vie active : le travail entretient la vie, l'œuvre fabrique un monde et l'action, entre les personnes et dans un espace public, permet de commencer quelque chose de nouveau.",
     "Pour la dissertation : relie le « penser » d'Arendt à l'« ose penser » de Kant et à la solitude politique qui, selon elle, prépare le totalitarisme."
-   ]
+   ],
+   "siguiente": "sartre-existencia"
+  }
+ },
+ {
+  "id": "sartre-existencia",
+  "ilustre": "sartre",
+  "subject": "hf",
+  "tema": "Thème 25 · Sartre et l'existentialisme",
+  "unidad": "hf-existencialismo",
+  "materia": "Philosophie · Sartre",
+  "titulo": "Que signifie que l'existence précède l'essence, et pourquoi sommes-nous « condamnés à être libres » ?",
+  "lede": "La dissertation de la PAU extraordinaire de 2026 (l'être humain comme projet ouvert) et l'arrière-plan de Beauvoir. Ne demande que les indices dont tu as besoin.",
+  "ciclos": [
+   {
+    "fase": "Phase 1 · Rappel",
+    "etiqueta": "Question de départ",
+    "pregunta": "Que veut dire Sartre par « l'existence précède l'essence » ?",
+    "repaso": [
+     "Ai-je expliqué l'exemple de l'objet fabriqué : l'artisan a l'idée (l'essence) avant de le faire ?",
+     "Ai-je dit que chez l'être humain c'est l'inverse : il existe d'abord et se définit ensuite par ce qu'il fait ?",
+     "Ai-je relié la thèse à l'athéisme de Sartre : s'il n'y a pas de Dieu créateur, il n'y a pas de nature humaine fixée d'avance ?"
+    ],
+    "intro": [
+     "Avant de fabriquer un couteau, quelqu'un sait déjà à quoi il servira et comment il sera. Sartre se demande s'il en va de même pour les personnes. Essaie de répondre avant de demander de l'aide."
+    ],
+    "pistas": [
+     "Pour y voir clair : dans un <strong>objet fabriqué</strong>, comme un coupe-papier, l'<strong>essence</strong> (à quoi il sert, comment il est) vient <strong>avant</strong> l'existence : l'artisan l'a en tête avant de le faire.",
+     "Pendant des siècles, on a pensé ainsi l'être humain aussi : Dieu le crée selon une idée, une <strong>nature humaine</strong> qui est donnée. Sartre part de l'<strong>athéisme</strong> : s'il n'y a pas de créateur, il n'y a pas cette idée préalable.",
+     "Alors, chez l'être humain, l'<strong>existence précède l'essence</strong> : nous existons d'abord, nous surgissons dans le monde, et c'est seulement ensuite que nous nous <strong>définissons</strong> par ce que nous faisons. Il n'y a pas de nature humaine fixée d'avance.",
+     "C'est pourquoi l'être humain est un <strong>projet</strong> : il n'est rien d'autre que ce qu'il se fait. À la différence des choses (l'<strong>en-soi</strong>), la conscience (le <strong>pour-soi</strong>) n'est jamais achevée."
+    ],
+    "comprobacion": {
+     "pregunta": "Selon Sartre, que signifie que l'existence précède l'essence ?",
+     "opciones": [
+      [
+       "Que nous existons d'abord et nous définissons ensuite par ce que nous faisons : il n'y a pas de nature humaine donnée d'avance.",
+       true
+      ],
+      [
+       "Que l'être humain a une essence fixe dès sa naissance.",
+       false,
+       "C'est exactement ce que Sartre nie : l'essence n'est pas donnée.",
+       "g-la-existencia-primero"
+      ],
+      [
+       "Qu'exister est plus important que penser.",
+       false,
+       "Ce n'est pas une hiérarchie de valeurs, mais un ordre : d'abord exister, ensuite se définir.",
+       "g-la-existencia-primero"
+      ],
+      [
+       "Que l'être humain est comme un objet fabriqué en vue d'une fin.",
+       false,
+       "L'objet fabriqué est le contre-exemple : chez lui, l'essence vient avant.",
+       "g-ser-para-si"
+      ]
+     ],
+     "ok": "Bien : nous ne naissons pas tout faits, nous nous faisons.",
+     "mal": "Pas encore."
+    },
+    "rescate": [
+     {
+      "boton": "J'ai besoin de lire le texte",
+      "etiqueta": "Texte d'appui",
+      "titulo": "L'être humain n'est rien d'autre que ce qu'il se fait",
+      "glosario": [
+       "g-la-existencia-primero",
+       "g-ser-para-si"
+      ],
+      "cita": {
+       "texto": "« L'existence précède l'essence. » « L'homme n'est rien d'autre que ce qu'il se fait. »",
+       "fuente": "Sartre, <em>L'existentialisme est un humanisme</em> (1946), deux phrases brèves (texte original)"
+      },
+      "comprobacion": {
+       "etiqueta": "Vérification du texte",
+       "pregunta": "Si « l'homme n'est rien d'autre que ce qu'il se fait », qui décide de ce qu'est chaque personne ?",
+       "opciones": [
+        [
+         "Elle-même, par ses actes et ses choix.",
+         true
+        ],
+        [
+         "Sa nature, qui est donnée à la naissance.",
+         false,
+         "La phrase nie une nature préalable : nous sommes ce que nous faisons."
+        ],
+        [
+         "Dieu, qui l'a créée en vue d'une fin.",
+         false,
+         "Sartre part de l'athéisme : il n'y a pas de créateur qui fixe la fin."
+        ],
+        [
+         "La société, sans qu'elle-même puisse rien y faire.",
+         false,
+         "Pour Sartre, la situation pèse, mais il y a toujours un choix."
+        ]
+       ],
+       "ok": "Exact : chacun se fait par ce qu'il choisit.",
+       "mal": "Relis les phrases.",
+       "intentos": 2
+      }
+     },
+     {
+      "etiqueta": "Définition et explication",
+      "titulo": "Le coupe-papier et l'être humain",
+      "glosario": [
+       "g-la-existencia-primero",
+       "g-ser-para-si"
+      ],
+      "definicion": [
+       "<strong>Objet fabriqué</strong> → l'artisan a d'abord l'idée et la technique : l'essence précède l'existence.",
+       "<strong>Être humain</strong> → s'il n'y a pas de Dieu créateur, il n'y a pas d'idée préalable de l'humain : il existe d'abord, puis se définit. L'existence précède l'essence.",
+       "<strong>En-soi et pour-soi</strong> → les choses sont ce qu'elles sont, fermées (en-soi) ; la conscience prend ses distances avec elle-même, choisit et se projette (pour-soi).",
+       "<strong>Projet</strong> → l'être humain est ce qu'il se fait : sa vie est toujours ouverte et à faire."
+      ],
+      "comprobacion": {
+       "boton": "Vérifier ma compréhension",
+       "etiqueta": "Vérification finale",
+       "pregunta": "Pourquoi l'athéisme est-il important dans l'argument de Sartre ?",
+       "opciones": [
+        [
+         "Parce que, s'il n'y a pas de Dieu créateur, il n'y a pas d'idée préalable de l'être humain : personne n'a fixé notre essence.",
+         true
+        ],
+        [
+         "Parce que Sartre veut démontrer que Dieu n'existe pas.",
+         false,
+         "Il ne démontre pas l'athéisme : il en part et en tire les conséquences."
+        ],
+        [
+         "Parce que sans Dieu rien n'a d'importance et tout est égal.",
+         false,
+         "Pour Sartre, c'est le contraire : sans Dieu, la responsabilité est entièrement la nôtre."
+        ],
+        [
+         "Parce que les croyants ne peuvent pas être libres.",
+         false,
+         "L'argument porte sur la nature humaine, non sur la liberté des croyants."
+        ]
+       ],
+       "ok": "Correct : sans créateur, pas d'essence préalable.",
+       "mal": "Pas encore."
+      }
+     }
+    ]
+   },
+   {
+    "fase": "Phase 2 · Approfondissement",
+    "etiqueta": "Nouvelle question",
+    "pregunta": "Pourquoi la liberté produit-elle l'angoisse, et qu'est-ce que la mauvaise foi ?",
+    "repaso": [
+     "Ai-je dit que nous sommes « condamnés à être libres » : nous ne choisissons pas d'être libres, et ne pas choisir, c'est encore choisir ?",
+     "Ai-je expliqué qu'en me choisissant je choisis une image de l'être humain, et que de là naissent la responsabilité et l'angoisse ?",
+     "Ai-je défini la mauvaise foi (se tromper soi-même en disant « je suis comme ça » ou « je n'avais pas le choix ») et l'ai-je comparée à la circonstance d'Ortega ?"
+    ],
+    "intro": [
+     "« Je n'ai pas pu faire autrement », « je suis comme ça », « c'est ce qu'il faut faire ». Nous le disons souvent. Sartre dirait que c'est presque toujours un mensonge. Réfléchis à pourquoi."
+    ],
+    "pistas": [
+     "Rappelle-toi : il n'y a pas d'essence préalable. Il n'y a donc rien qui choisisse à notre place. Nous sommes <strong>condamnés à être libres</strong> : nous ne choisissons pas d'être libres, et même s'abstenir ne nous en libère pas, car <strong>ne pas choisir est aussi un choix</strong>.",
+     "De plus, en choisissant ce que je fais, je propose une image de ce que devrait être toute personne. Mon choix engage l'humanité entière : de là la <strong>responsabilité</strong> totale et l'<strong>angoisse</strong>, le vertige de savoir que tout dépend de moi.",
+     "Pour fuir l'angoisse, nous nous trompons nous-mêmes : c'est la <strong>mauvaise foi</strong>. Nous nous traitons comme des choses (« je suis comme ça », « le garçon de café doit se comporter en garçon de café », « je n'avais pas le choix ») pour ne pas porter le poids de la liberté.",
+     "Ortega, qui n'était pas existentialiste au sens strict, nuance : « je suis moi et ma <strong>circonstance</strong> ». La liberté est toujours <strong>située</strong>. Merleau-Ponty et Beauvoir insisteront aussi sur le poids de la situation."
+    ],
+    "comprobacion": {
+     "pregunta": "Qu'est-ce que la mauvaise foi pour Sartre ?",
+     "opciones": [
+      [
+       "Se tromper soi-même, en se présentant comme prisonnier d'un caractère ou d'une situation, pour ne pas assumer sa propre liberté.",
+       true
+      ],
+      [
+       "Mentir aux autres pour obtenir quelque chose.",
+       false,
+       "La mauvaise foi est une tromperie envers soi-même, non envers les autres.",
+       "g-mala-fe"
+      ],
+      [
+       "Ne pas croire en Dieu.",
+       false,
+       "Cela n'a rien à voir avec la foi religieuse, mais avec la fuite devant la liberté.",
+       "g-mala-fe"
+      ],
+      [
+       "Ressentir de l'angoisse devant la liberté.",
+       false,
+       "L'angoisse est ce que l'on ressent ; la mauvaise foi est la fuite devant cette angoisse.",
+       "g-angustia"
+      ]
+     ],
+     "ok": "Exact : la mauvaise foi, c'est fuir la liberté.",
+     "mal": "Pas tout à fait."
+    },
+    "rescate": [
+     {
+      "boton": "Afficher l'explication",
+      "etiqueta": "Liberté et responsabilité",
+      "titulo": "Condamnés à être libres",
+      "glosario": [
+       "g-angustia",
+       "g-mala-fe",
+       "g-circunstancia"
+      ],
+      "cita": {
+       "texto": "« L'homme est condamné à être libre. » « L'homme n'a pas de nature, mais il a… une histoire. »",
+       "fuente": "Sartre, <em>L'existentialisme est un humanisme</em> (1946 ; texte original), et Ortega y Gasset, <em>L'Histoire comme système</em> (1935)"
+      },
+      "definicion": [
+       "<strong>Condamnés à être libres</strong> → nous n'avons pas choisi d'être libres, mais nous ne pouvons pas cesser de choisir : s'abstenir, c'est aussi choisir.",
+       "<strong>Responsabilité et angoisse</strong> → en me choisissant, je choisis une image de l'être humain pour tous. L'angoisse est le poids de cette responsabilité sans excuses.",
+       "<strong>Mauvaise foi</strong> → se tromper soi-même pour fuir la liberté : se traiter comme une chose (« je suis comme ça ») ou accuser la situation (« je n'avais pas le choix »).",
+       "<strong>Ortega</strong> → l'être humain n'a pas de nature, mais une histoire : c'est un projet, mais toujours à l'intérieur de sa circonstance. C'est pourquoi sa raison est vitale et historique."
+      ],
+      "comprobacion": {
+       "boton": "Terminer par une vérification",
+       "pregunta": "Pourquoi Sartre dit-il que nous sommes « condamnés » à être libres ?",
+       "opciones": [
+        [
+         "Parce que nous ne choisissons pas d'être libres et ne pouvons pas cesser de choisir : même ne pas décider est une décision.",
+         true
+        ],
+        [
+         "Parce que la liberté est un châtiment que nous impose la société.",
+         false,
+         "Ce n'est pas un châtiment social : c'est la condition humaine sans essence préalable."
+        ],
+        [
+         "Parce qu'en réalité nous ne sommes pas libres.",
+         false,
+         "Au contraire : nous sommes totalement libres, et cela pèse."
+        ],
+        [
+         "Parce que la liberté n'apporte que des malheurs.",
+         false,
+         "« Condamnés » indique que nous ne pouvons pas nous en défaire, non qu'elle soit mauvaise."
+        ]
+       ],
+       "ok": "Correct : la liberté ne peut pas se rendre.",
+       "mal": "Relis l'explication."
+      }
+     }
+    ]
+   }
+  ],
+  "cierre": {
+   "titulo": "Tu peux maintenant expliquer l'existentialisme de Sartre",
+   "parrafos": [
+    "Dans un objet fabriqué, l'essence précède l'existence ; chez l'être humain, s'il n'y a pas de Dieu créateur, c'est l'inverse : il existe d'abord et se définit ensuite par ce qu'il fait. C'est un projet, condamné à être libre : ne pas choisir, c'est encore choisir. De là la responsabilité et l'angoisse, que nous fuyons par la mauvaise foi.",
+    "Pour la PAU : dans la dissertation sur l'être humain comme projet ouvert, oppose Sartre à Ortega (« je suis moi et ma circonstance » : une liberté située) et à Beauvoir, qui applique la thèse à la femme (« on ne naît pas femme »)."
+   ],
+   "siguiente": "beauvoir-conclusion"
   }
  },
  {

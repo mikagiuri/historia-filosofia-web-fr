@@ -911,7 +911,7 @@ const REP_MAZO_B = {
    },
    "critica": {
     "autor": "Aristote",
-    "txt": "« La tempérance de la femme n’est pas la même que celle de l’homme, ni le courage ni la justice, comme le croyait Socrate, mais l’un est courage de commandement et l’autre de service. » Du point de vue féministe, certaines lectures voient dans le livre V une avancée sans précédent (G. Vlastos, « Was Plato a Feminist? », 1989) ; d’autres, une instrumentalisation : Platon rend les gardiennes égales pour servir la cité et en supprimant la famille, non dans l’intérêt des femmes (J. Annas, « Plato's Republic and Feminism », 1976) (paraphrase).",
+    "txt": "« La tempérance de la femme n’est pas la même que celle de l’homme, ni le courage ni la justice, comme le croyait Socrate, mais l’un est courage de commandement et l’autre de service. » Du point de vue féministe, certaines lectures voient dans le livre V une avancée sans précédent (G. Vlastos, « Was Plato a Feminist ? », 1989) ; d’autres, une instrumentalisation : Platon rend les gardiennes égales pour servir la cité et en supprimant la famille, non dans l’intérêt des femmes (J. Annas, « Plato's Republic and Feminism », 1976) (paraphrase).",
     "loc": "Politique I 13, 1260a20-24"
    },
    "glo": [

@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
+   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
+   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
    "solo": "fil"
   },
   {
@@ -212,7 +212,7 @@ const GUIA = {
     },
     {
      "nombre": "Racines",
-     "texto": "D’où viennent les mots de la philosophie : leur racine grecque ou latine, pour mieux comprendre ce qu’ils signifient aujourd’hui. Cherche un mot ou parcours-les par thèmes.",
+     "texto": "D’où viennent les mots de la philosophie : leur racine grecque ou latine, pour mieux comprendre ce qu’ils signifient aujourd’hui. Cherche un mot ou parcours-les par thèmes.",
      "view": "etimos"
     }
    ]
@@ -280,7 +280,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées et les tables des jugements de Kant et des affects de Spinoza."
+   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées et les tables des jugements de Kant et des affects de Spinoza."
   },
   {
    "type": "h",
@@ -389,7 +389,7 @@ const GUIA = {
     },
     {
      "nombre": "Adages",
-     "texto": "Des devises latines et grecques que les philosophes citent depuis des siècles, et quand les utiliser. En haut, le bouton <strong>Phrases</strong> : des phrases célèbres des penseurs, avec ce qu’elles veulent dire et quand les utiliser.",
+     "texto": "Des devises latines et grecques que les philosophes citent depuis des siècles, et quand les utiliser. En haut, le bouton <strong>Phrases</strong> : des phrases célèbres des penseurs, avec ce qu’elles veulent dire et quand les utiliser.",
      "view": "adagios"
     },
     {
@@ -429,8 +429,15 @@ const GUIA = {
     },
     {
      "nombre": "Ateliers",
-     "texto": "Quatre ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie), L'art de la parole (littérature, rhétorique et langues anciennes) et Les affects selon Spinoza (psychologie et un modèle simulé pas à pas).",
-     "view": "leibniz"
+     "texto": "Quatre ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie), L'art de la parole (littérature, rhétorique et langues anciennes) et Les affects selon Spinoza (psychologie et un modèle simulé pas à pas).",
+     "view": "leibniz",
+     "solo": "fil"
+    },
+    {
+     "nombre": "Ateliers",
+     "texto": "Cinq ateliers qui relient la philosophie à d'autres matières, avec leurs boutons en haut : l'Atelier de Leibniz (mathématiques et informatique), L'univers aristotélicien (physique, chimie et biologie), L'art de la parole (littérature, rhétorique et langues anciennes), Les affects selon Spinoza (psychologie et un modèle simulé pas à pas) et l'Atelier de Hegel (histoire : le chemin de la conscience et l'histoire de la liberté, lue comme Hegel et à rebrousse-poil).",
+     "view": "leibniz",
+     "solo": "hf"
     }
    ]
   },
@@ -453,7 +460,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le site fonctionne de la même façon sur le portable. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les onglets s’ouvrent l’un sous l’autre, et chacun se déplie quand tu le touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
+   "x": "Le site fonctionne de la même façon sur le portable. Le menu se range dans le bouton ☰ : quand tu appuies dessus, les onglets s’ouvrent l’un sous l’autre, et chacun se déplie quand tu le touches. Si tu l’utilises souvent, ajoute-le à l’écran d’accueil depuis le menu du navigateur (« Ajouter à l’écran d’accueil ») : il s’ouvrira comme une application."
   },
   {
    "type": "img",

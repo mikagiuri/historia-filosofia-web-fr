@@ -2146,7 +2146,7 @@ const GLOSARIO = [
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Commandement moral inconditionné : il ordonne une action pour elle-même, sans dépendre d'aucune fin que l'on désire. Sa première formule, celle de la loi universelle : agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle (*Fondements de la métaphysique des mœurs*, II, Ak. IV 421).",
+  "def": "Commandement moral inconditionné : il ordonne une action pour elle-même, sans dépendre d'aucune fin que l'on désire. Sa première formule, celle de la loi universelle : agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle (*Fondements de la métaphysique des mœurs*, II, Ak. IV 421).",
   "ilustre": [
    "kant"
   ]
@@ -2157,12 +2157,12 @@ const GLOSARIO = [
   "impg": 5,
   "t": "Impératif hypothétique",
   "id": "g-imperativo-hipotetico",
-  "et": "*Hypothétique*, du grec ὑποθετικός (*hypothetikós*), « conditionnel » : de ὑπόθεσις (*hypóthesis*), « ce que l'on pose dessous, supposition ».",
+  "et": "*Hypothétique*, du grec ὑποθετικός (*hypothetikós*), « conditionnel » : de ὑπόθεσις (*hypóthesis*), « ce que l'on pose dessous, supposition ».",
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
   "tema": "La philosophie de Kant",
-  "def": "Commandement conditionné : il ordonne un moyen en vue d'une fin que l'on veut (« si tu veux réussir, étudie »). Kant distingue les règles de l'habileté et les conseils de la prudence ; y obéir ne donne pas de valeur morale à l'action (*Fondements*, II, Ak. IV 414-417).",
+  "def": "Commandement conditionné : il ordonne un moyen en vue d'une fin que l'on veut (« si tu veux réussir, étudie »). Kant distingue les règles de l'habileté et les conseils de la prudence ; y obéir ne donne pas de valeur morale à l'action (*Fondements*, II, Ak. IV 414-417).",
   "ilustre": [
    "kant"
   ]
@@ -3100,12 +3100,12 @@ const GLOSARIO = [
   "impg": 13,
   "t": "Métanoïa",
   "id": "g-metanoia",
-  "et": "Du grec μετάνοια (*metánoia*) : μετά (*metá*), « changement, après », + νοῦς (*noûs*), « esprit » : « changement d’esprit », et aussi « repentir ». Platon dit περιαγωγή (*periagōgḗ*), « faire faire demi-tour » (*République* VII, 518d).",
+  "et": "Du grec μετάνοια (*metánoia*) : μετά (*metá*), « changement, après », + νοῦς (*noûs*), « esprit » : « changement d’esprit », et aussi « repentir ». Platon dit περιαγωγή (*periagōgḗ*), « faire faire demi-tour » (*République* VII, 518d).",
   "area": "Anthropologie",
   "bloque": "A",
   "unidad": "AP",
   "tema": "Platon",
-  "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, *metanoeîte*, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
+  "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, *metanoeîte*, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
   "ilustre": [
    "platon",
    "agustin"

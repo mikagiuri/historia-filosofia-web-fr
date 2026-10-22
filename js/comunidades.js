@@ -463,28 +463,28 @@ const COMUNIDADES = [
   "nombre": "Le Musée et la Bibliothèque d'Alexandrie",
   "fechas": "Alexandrie, vers 300 av. J.-C. – IVe-Ve siècle apr. J.-C.",
   "cas_epoca": "ant",
-  "lugar": "À l'intérieur du palais royal des Ptolémées, près du port d'Alexandrie, en Égypte. Le Musée (Mouseîon, « maison des Muses ») était une institution de recherche dotée de salles d'étude, d'un réfectoire commun, d'une promenade et de jardins ; à côté, la grande Bibliothèque rassemblait les rouleaux de papyrus. Une seconde bibliothèque, plus accessible, était conservée au Sérapéum, le temple du dieu Sérapis.",
-  "hoy": "Il ne reste rien des bâtiments antiques : leur emplacement exact est discuté et une grande partie de l'Alexandrie des Ptolémées se trouve aujourd'hui sous l'eau ou sous la ville moderne. En 2002 a été inaugurée au bord de la mer la Bibliotheca Alexandrina, qui rappelle l'ancienne sans en être la continuation.",
-  "miembros": "Elle fut fondée par les premiers Ptolémées (Ptolémée Ier et Ptolémée II) qui suivirent, selon la tradition, le conseil de Démétrios de Phalère. Ce n'était pas une école dotée d'une doctrine, mais un centre de savants rémunérés par le roi : le mathématicien Euclide, Ératosthène (qui mesura la circonférence de la Terre et dirigea la Bibliothèque), l'astronome Aristarque de Samos (qui proposa que la Terre tourne autour du Soleil), les médecins Hérophile et Érasistrate, et le poète et bibliothécaire Callimaque, qui classa les fonds dans les Pinakes, le premier grand catalogue. Des siècles plus tard, déjà à l'époque romaine, la philosophe et mathématicienne Hypatie enseigna à Alexandrie.",
+  "lugar": "À l'intérieur du palais royal des Ptolémées, près du port d'Alexandrie, en Égypte. Le Musée (Mouseîon, « maison des Muses ») était une institution de recherche dotée de salles d'étude, d'un réfectoire commun, d'une promenade et de jardins ; à côté, la grande Bibliothèque rassemblait les rouleaux de papyrus. Une seconde bibliothèque, plus accessible, était conservée au Sérapéum, le temple du dieu Sérapis.",
+  "hoy": "Il ne reste rien des bâtiments antiques : leur emplacement exact est discuté et une grande partie de l'Alexandrie des Ptolémées se trouve aujourd'hui sous l'eau ou sous la ville moderne. En 2002 a été inaugurée au bord de la mer la Bibliotheca Alexandrina, qui rappelle l'ancienne sans en être la continuation.",
+  "miembros": "Elle fut fondée par les premiers Ptolémées (Ptolémée Ier et Ptolémée II) qui suivirent, selon la tradition, le conseil de Démétrios de Phalère. Ce n'était pas une école dotée d'une doctrine, mais un centre de savants rémunérés par le roi : le mathématicien Euclide, Ératosthène (qui mesura la circonférence de la Terre et dirigea la Bibliothèque), l'astronome Aristarque de Samos (qui proposa que la Terre tourne autour du Soleil), les médecins Hérophile et Érasistrate, et le poète et bibliothécaire Callimaque, qui classa les fonds dans les Pinakes, le premier grand catalogue. Des siècles plus tard, déjà à l'époque romaine, la philosophe et mathématicienne Hypatie enseigna à Alexandrie.",
   "vida": "Les savants vivaient du traitement royal et prenaient leurs repas ensemble, occupés à copier, corriger et commenter des textes et à mener des recherches en mathématiques, astronomie, géographie et médecine. Pour remplir la Bibliothèque, les Ptolémées achetaient des rouleaux dans toute la Méditerranée et, selon Galien, faisaient saisir les livres qui voyageaient sur les navires faisant escale au port, afin de les copier.",
   "ideas": "L'idée de rassembler en un seul lieu tout le savoir écrit du monde et de l'étudier avec méthode. Alexandrie fit de la connaissance un travail collectif et organisé, soutenu par le pouvoir politique.",
   "cita": {
    "t": "Un grand livre est un grand mal.",
    "ref": "Mot attribué à Callimaque, bibliothécaire d'Alexandrie, qui préférait les œuvres brèves (fragment 465 Pfeiffer)"
   },
-  "fin": "La Bibliothèque ne disparut pas en un seul jour. Elle subit des dommages pendant la guerre de Jules César à Alexandrie (48 av. J.-C.) et déclina au fil des siècles à mesure que les Ptolémées perdaient le pouvoir ; le Sérapéum fut détruit en 391 apr. J.-C. sur l'ordre de l'évêque Théophile. Quand les Arabes prirent la ville en 642, il ne restait presque plus rien de la grande Bibliothèque.",
-  "trampa": "On raconte souvent que la Bibliothèque brûla tout entière d'un coup — par la faute de César, du christianisme ou des Arabes — et l'on répète le chiffre de 700 000 rouleaux. Les historiens le nuancent : la perte fut lente et due à de nombreuses causes, les chiffres anciens sont peu fiables, et la fameuse histoire du calife Omar ordonnant de brûler les livres apparaît pour la première fois plus de cinq cents ans plus tard, chez un auteur du XIIIe siècle.",
-  "pregunta": "Un seul lieu peut-il conserver tout le savoir du monde ? Que perd-on quand on perd une bibliothèque ?",
+  "fin": "La Bibliothèque ne disparut pas en un seul jour. Elle subit des dommages pendant la guerre de Jules César à Alexandrie (48 av. J.-C.) et déclina au fil des siècles à mesure que les Ptolémées perdaient le pouvoir ; le Sérapéum fut détruit en 391 apr. J.-C. sur l'ordre de l'évêque Théophile. Quand les Arabes prirent la ville en 642, il ne restait presque plus rien de la grande Bibliothèque.",
+  "trampa": "On raconte souvent que la Bibliothèque brûla tout entière d'un coup — par la faute de César, du christianisme ou des Arabes — et l'on répète le chiffre de 700 000 rouleaux. Les historiens le nuancent : la perte fut lente et due à de nombreuses causes, les chiffres anciens sont peu fiables, et la fameuse histoire du calife Omar ordonnant de brûler les livres apparaît pour la première fois plus de cinq cents ans plus tard, chez un auteur du XIIIe siècle.",
+  "pregunta": "Un seul lieu peut-il conserver tout le savoir du monde ? Que perd-on quand on perd une bibliothèque ?",
   "temas": [
    "hf-helenismo"
   ],
   "fuentes": [
    {
-    "t": "Wikipédia : Bibliothèque d'Alexandrie",
+    "t": "Wikipédia : Bibliothèque d'Alexandrie",
     "url": "https://es.wikipedia.org/wiki/Biblioteca_de_Alejandr%C3%ADa"
    },
    {
-    "t": "Wikipédia : Musée d'Alexandrie",
+    "t": "Wikipédia : Musée d'Alexandrie",
     "url": "https://es.wikipedia.org/wiki/Museo_de_Alejandr%C3%ADa"
    }
   ]

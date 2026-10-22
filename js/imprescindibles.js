@@ -131,7 +131,7 @@ const IMPRESCINDIBLES = {
   ],
   "arendt": [
    5,
-   "Révision du professeur (20-10-2026) : Hannah Arendt, PAU"
+   "Révision du professeur (20-10-2026) : Hannah Arendt, PAU"
   ],
   "habermas": [
    4,
@@ -1153,7 +1153,7 @@ const IMPRESCINDIBLES = {
   ],
   "21": [
    5,
-   "Lecture de la PAU : Ecce Homo (Nietzsche) et Marx ; révision du professeur (20-10-2026)"
+   "Lecture de la PAU : Ecce Homo (Nietzsche) et Marx ; révision du professeur (20-10-2026)"
   ],
   "22": [
    4,
@@ -1161,7 +1161,7 @@ const IMPRESCINDIBLES = {
   ],
   "23": [
    3,
-   "Révision du professeur (20-10-2026) : la lecture de Nietzsche pour la PAU se travaille au thème 21"
+   "Révision du professeur (20-10-2026) : la lecture de Nietzsche pour la PAU se travaille au thème 21"
   ],
   "24": [
    3,
@@ -1173,7 +1173,7 @@ const IMPRESCINDIBLES = {
   ],
   "26": [
    5,
-   "Lecture de la PAU : Le Deuxième Sexe (Simone de Beauvoir)"
+   "Lecture de la PAU : Le Deuxième Sexe (Simone de Beauvoir)"
   ],
   "27": [
    3,
@@ -1181,15 +1181,15 @@ const IMPRESCINDIBLES = {
   ],
   "hf-ap": [
    5,
-   "Révision du professeur (20-10-2026) : Platon, lecture de la PAU (République VII)"
+   "Révision du professeur (20-10-2026) : Platon, lecture de la PAU (République VII)"
   ],
   "hf-aa": [
    5,
-   "Révision du professeur (20-10-2026) : Aristote, le système complet"
+   "Révision du professeur (20-10-2026) : Aristote, le système complet"
   ],
   "hf-descartes-makro": [
    5,
-   "Révision du professeur (20-10-2026) : lecture de la PAU (Discours de la méthode II-IV)"
+   "Révision du professeur (20-10-2026) : lecture de la PAU (Discours de la méthode II-IV)"
   ]
  },
  "glosarioGrupos": {

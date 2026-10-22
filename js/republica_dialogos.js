@@ -723,7 +723,7 @@ const REP_DIAL = {
   "situacion": "Er, un guerrier mort au combat, revient à la vie sur le bûcher et raconte ce qu’il a vu : les âmes choisissent leur prochaine vie. Le premier à choisir, sans réfléchir, prend celle du tyran le plus puissant ; puis il découvre qu’il y est écrit qu’il dévorera ses propres enfants.",
   "cita": "« La faute revient à celui qui choisit ; le dieu n’est pas coupable. »",
   "loc": "République X, 617e",
-  "griego": "αἰτία ἑλομένου· θεὸς ἀναίτιος (*aitía heloménou; theòs anaítios*).",
+  "griego": "αἰτία ἑλομένου· θεὸς ἀναίτιος (*aitía heloménou ; theòs anaítios*).",
   "pregunta": "C’est à toi de choisir une vie. Laquelle prends-tu ?",
   "opts": [
    {
@@ -766,7 +766,7 @@ const REP_DIAL = {
   "hudReg": "Régime",
   "elegir": "Choisis une version",
   "accionesMax": "Actions (3 max. ce tour)",
-  "justiciaTurno": "⚖️ La cité est juste : chaque classe fait ce qui lui revient (+0,5).",
+  "justiciaTurno": "⚖️ La cité est juste : chaque classe fait ce qui lui revient (+0,5).",
   "opcional": "facultatif",
   "clasesB": [
    "Gouvernants",
@@ -774,9 +774,9 @@ const REP_DIAL = {
    "Producteurs"
   ],
   "rosterB": [
-   "🦉 Gouvernants : σοφία (*sophía*) <span class=\"rep-floor\">les trois vertus ≥4 · peu nombreux, ceux qui délibèrent sur le tout</span>",
-   "🛡️ Auxiliaires : ἀνδρεία (*andreía*) <span class=\"rep-floor\">courage et tempérance ≥4 · ils gardent l’opinion droite</span>",
-   "🌾 Producteurs : σωφροσύνη (*sophrosýne*) <span class=\"rep-floor\">tempérance ≥4 · ils nourrissent la cité</span>"
+   "🦉 Gouvernants : σοφία (*sophía*) <span class=\"rep-floor\">les trois vertus ≥4 · peu nombreux, ceux qui délibèrent sur le tout</span>",
+   "🛡️ Auxiliaires : ἀνδρεία (*andreía*) <span class=\"rep-floor\">courage et tempérance ≥4 · ils gardent l’opinion droite</span>",
+   "🌾 Producteurs : σωφροσύνη (*sophrosýne*) <span class=\"rep-floor\">tempérance ≥4 · ils nourrissent la cité</span>"
   ],
   "elegirIntro": "Deux jeux avec le même moteur et des accents différents. Tu peux en changer quand tu veux.",
   "jugarEsta": "Jouer cette version →",
@@ -798,8 +798,8 @@ const REP_DIAL = {
   "cEconomiaT": "Tu commences avec 8 AP. Chaque tour, tu gagnes 1 AP de plus ; dans la version B, chaque nouvelle phase donne 2 AP. Tu peux jouer jusqu’à 3 actions par tour, chacune une seule fois.",
   "cVictoria": "Comment on gagne et comment on perd",
   "cVictoriaA": "Version A : tu commences en aristocratie avec 10 d’harmonie. Sous 8, timocratie ; sous 6, oligarchie ; sous 4, démocratie ; sous 2, tyrannie. On ne remonte pas. À 0 d’harmonie ou avec moins de 3 habitants, la cité s’effondre. Tu gagnes si tu finis en aristocratie ou en timocratie.",
-  "cVictoriaB": "Version B : tu gagnes la Callipolis si tu finis avec 20 d’harmonie ou plus et que la cité est juste (les trois fonctions remplies) ; avec 12 ou plus, la cité reste debout. Avec 0 d’harmonie ou moins de 3 habitants, elle se dissout. En B, l’harmonie monte vite : le difficile est d’arriver à la fin avec chaque classe à sa place.",
-  "cFunciones": "Les fonctions de la cité (dans les deux versions) : sagesse = un gardien de sagesse 5 ; courage = guerriers ≥ producteurs ÷ 2,5 ; tempérance = production ≥ population. La justice n’est pas une quatrième vertu : c’est que les trois soient remplies à la fois, chaque classe à sa place (République IV, 433a-c). À chaque tour où la cité est juste, +0,5 d’harmonie.",
+  "cVictoriaB": "Version B : tu gagnes la Callipolis si tu finis avec 20 d’harmonie ou plus et que la cité est juste (les trois fonctions remplies) ; avec 12 ou plus, la cité reste debout. Avec 0 d’harmonie ou moins de 3 habitants, elle se dissout. En B, l’harmonie monte vite : le difficile est d’arriver à la fin avec chaque classe à sa place.",
+  "cFunciones": "Les fonctions de la cité (dans les deux versions) : sagesse = un gardien de sagesse 5 ; courage = guerriers ≥ producteurs ÷ 2,5 ; tempérance = production ≥ population. La justice n’est pas une quatrième vertu : c’est que les trois soient remplies à la fois, chaque classe à sa place (République IV, 433a-c). À chaque tour où la cité est juste, +0,5 d’harmonie.",
   "cClases": "Les classes et leur coût",
   "cClasesT": "Coût de chaque profil = somme de ses trois vertus. Gardien : les trois ≥ 4. Guerrier : courage et tempérance ≥ 4. Producteur : tempérance ≥ 4 ; chaque producteur nourrit 2 personnes. Sous 30 habitants, l’événement « Cité amoindrie » retire des points. En mode Réel, producteurs ≥ 2 × (gardiens + guerriers) : c’est une règle du jeu, pas de Platon.",
   "cDialogos": "Dialogues : ceux de ta version apparaissent, un tous les trois tours. Tu choisis une position et une raison ; le résultat change la cité.",

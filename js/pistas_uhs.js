@@ -266,9 +266,9 @@ const PISTAS = [
     "etiqueta": "Question de départ",
     "pregunta": "Que représentent les prisonniers, les ombres et l'extérieur de la caverne ?",
     "repaso": [
-     "Ai-je dit que c'est une allégorie sur la connaissance, et non un récit réel ?",
-     "Ai-je expliqué que les ombres sont l'opinion (<em>doxa</em>) sur le sensible ?",
-     "Ai-je dit que l'extérieur et le soleil sont les Idées et le Bien, que seule la raison atteint (<em>épistémè</em>) ?"
+     "Ai-je dit que c'est une allégorie sur la connaissance, et non un récit réel ?",
+     "Ai-je expliqué que les ombres sont l'opinion (<em>doxa</em>) sur le sensible ?",
+     "Ai-je dit que l'extérieur et le soleil sont les Idées et le Bien, que seule la raison atteint (<em>épistémè</em>) ?"
     ],
     "intro": [
      "Rappelle-toi la scène : des prisonniers enchaînés depuis l'enfance regardent le mur du fond d'une grotte. Essaie d'expliquer ce que veut dire Platon avant de demander de l'aide."
@@ -401,9 +401,9 @@ const PISTAS = [
     "etiqueta": "Nouvelle question",
     "pregunta": "Pourquoi le prisonnier libéré doit-il retourner dans la caverne ?",
     "repaso": [
-     "Ai-je dit que celui qui a vu le Bien a le devoir de redescendre chercher les autres ?",
-     "Ai-je relié le retour au gouvernement des philosophes dans la <em>République</em> ?",
-     "Ai-je mentionné que les prisonniers le rejettent, comme Athènes a condamné Socrate ?"
+     "Ai-je dit que celui qui a vu le Bien a le devoir de redescendre chercher les autres ?",
+     "Ai-je relié le retour au gouvernement des philosophes dans la <em>République</em> ?",
+     "Ai-je mentionné que les prisonniers le rejettent, comme Athènes a condamné Socrate ?"
     ],
     "intro": [
      "Le récit ne s'arrête pas à l'extérieur : celui qui a vu le soleil retourne chercher les autres. Réfléchis à ce que cela a à voir avec la politique de Platon."
@@ -1760,9 +1760,9 @@ const PISTAS = [
     "etiqueta": "Question de départ",
     "pregunta": "Qu'est-ce que le doute méthodique et à quoi Descartes l'emploie-t-il ?",
     "repaso": [
-     "Ai-je dit que c'est une méthode pour atteindre une vérité indubitable, et non pour rester dans le doute ?",
-     "Ai-je nommé les raisons de douter : les sens, le rêve et le malin génie ?",
-     "Ai-je distingué Descartes du sceptique ?"
+     "Ai-je dit que c'est une méthode pour atteindre une vérité indubitable, et non pour rester dans le doute ?",
+     "Ai-je nommé les raisons de douter : les sens, le rêve et le malin génie ?",
+     "Ai-je distingué Descartes du sceptique ?"
     ],
     "intro": [
      "Descartes décide de douter de tout ce qui peut être mis en doute. Essaie d'expliquer pourquoi quelqu'un ferait une chose pareille avant de demander de l'aide."
@@ -1893,9 +1893,9 @@ const PISTAS = [
     "etiqueta": "Nouvelle question",
     "pregunta": "Quelle certitude résiste au doute le plus radical ?",
     "repaso": [
-     "Ai-je dit que la certitude est « je pense, donc je suis » (<em>cogito</em>) ?",
-     "Ai-je justifié pourquoi elle résiste : pour douter, et même pour être trompé, je dois penser, et pour penser, exister ?",
-     "Ai-je dit que c'est le premier principe sur lequel Descartes reconstruit la connaissance ?"
+     "Ai-je dit que la certitude est « je pense, donc je suis » (<em>cogito</em>) ?",
+     "Ai-je justifié pourquoi elle résiste : pour douter, et même pour être trompé, je dois penser, et pour penser, exister ?",
+     "Ai-je dit que c'est le premier principe sur lequel Descartes reconstruit la connaissance ?"
     ],
     "intro": [
      "Suppose que le malin génie te trompe en tout. Y a-t-il quelque chose dont tu ne puisses malgré tout douter ?"
@@ -4257,9 +4257,9 @@ const PISTAS = [
     "etiqueta": "Question de départ",
     "pregunta": "Qu'est-ce que l'impératif catégorique ?",
     "repaso": [
-     "Ai-je dit que c'est un commandement qui oblige sans conditions, sans « si tu veux… » derrière ?",
-     "L'ai-je distingué de l'impératif hypothétique ?",
-     "Ai-je dit qu'il donne sa valeur morale à l'action : agir par devoir, non par intérêt ?"
+     "Ai-je dit que c'est un commandement qui oblige sans conditions, sans « si tu veux… » derrière ?",
+     "L'ai-je distingué de l'impératif hypothétique ?",
+     "Ai-je dit qu'il donne sa valeur morale à l'action : agir par devoir, non par intérêt ?"
     ],
     "intro": [
      "Essaie de répondre avant d'ouvrir un indice. Tu n'as pas besoin d'une définition parfaite : il suffit de retrouver son trait essentiel."
@@ -4390,9 +4390,9 @@ const PISTAS = [
     "etiqueta": "Nouvelle question",
     "pregunta": "Comment Kant vérifie-t-il si une maxime est morale ?",
     "repaso": [
-     "Ai-je dit que ce que l'on examine, c'est la maxime, la règle d'après laquelle j'agis ?",
-     "Ai-je expliqué l'épreuve : puis-je vouloir que cette maxime devienne une loi pour tous ?",
-     "Ai-je donné l'exemple d'une maxime qui échoue à l'épreuve, comme celle de la fausse promesse ?"
+     "Ai-je dit que ce que l'on examine, c'est la maxime, la règle d'après laquelle j'agis ?",
+     "Ai-je expliqué l'épreuve : puis-je vouloir que cette maxime devienne une loi pour tous ?",
+     "Ai-je donné l'exemple d'une maxime qui échoue à l'épreuve, comme celle de la fausse promesse ?"
     ],
     "intro": [
      "Un nouveau cycle commence. Nous ne cherchons plus à définir ce qu'est l'impératif catégorique, mais comment on l'utilise comme épreuve. Kant l'a exprimé de plusieurs façons : t'en souviens-tu d'une ?"
@@ -4503,9 +4503,9 @@ const PISTAS = [
     "etiqueta": "Question de départ",
     "pregunta": "Que signifie traiter l'humanité toujours comme une fin et jamais seulement comme un moyen ?",
     "repaso": [
-     "Ai-je dit que ce qui est interdit, c'est de traiter quelqu'un <em>seulement</em> comme un moyen, et non de recourir à son aide ?",
-     "Ai-je expliqué que les personnes ont une dignité, et non un prix ?",
-     "Ai-je fondé cette dignité sur le fait que la personne est raisonnable et se donne à elle-même la loi morale ?"
+     "Ai-je dit que ce qui est interdit, c'est de traiter quelqu'un <em>seulement</em> comme un moyen, et non de recourir à son aide ?",
+     "Ai-je expliqué que les personnes ont une dignité, et non un prix ?",
+     "Ai-je fondé cette dignité sur le fait que la personne est raisonnable et se donne à elle-même la loi morale ?"
     ],
     "intro": [
      "Essaie de l'expliquer avec tes propres mots avant de demander de l'aide. Pense à un exemple de quelqu'un que l'on « utilise »."
@@ -4635,9 +4635,9 @@ const PISTAS = [
     "etiqueta": "Nouvelle question",
     "pregunta": "Pourquoi la fausse promesse échoue-t-elle dans les deux formules à la fois ?",
     "repaso": [
-     "Ai-je expliqué pourquoi la maxime de la fausse promesse ne peut pas être universalisée ?",
-     "Ai-je dit qu'en lui mentant, j'utilise l'autre seulement comme un moyen ?",
-     "Ai-je conclu que les deux formules expriment la même loi morale ?"
+     "Ai-je expliqué pourquoi la maxime de la fausse promesse ne peut pas être universalisée ?",
+     "Ai-je dit qu'en lui mentant, j'utilise l'autre seulement comme un moyen ?",
+     "Ai-je conclu que les deux formules expriment la même loi morale ?"
     ],
     "intro": [
      "Tu connais la formule de la loi universelle et celle de l'humanité. Il s'agit maintenant de les relier à un même cas : faire une fausse promesse pour obtenir de l'argent."
@@ -4795,7 +4795,7 @@ const PISTAS = [
       ],
       "cita": {
        "texto": "« Le travailleur devient d'autant plus pauvre qu'il produit plus de richesse. »",
-       "fuente": "Marx, <em>Manuscrits économico-philosophiques</em> (1844), « Le travail aliéné » (traduction personnelle à partir de l'allemand)"
+       "fuente": "Marx, <em>Manuscrits économico-philosophiques</em> (1844), « Le travail aliéné » (traduction personnelle à partir de l'allemand)"
       },
       "comprobacion": {
        "etiqueta": "Vérification du texte",

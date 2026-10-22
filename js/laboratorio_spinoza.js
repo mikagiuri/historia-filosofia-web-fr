@@ -95,6 +95,15 @@ const LABSPZ = {
   "mundoTiempo": "De pratique : temps, durée et création",
   "mundoSpinoza": "Spinoza, Éthique I",
   "mundoReloj": "Le temps, défini",
+  "chocan": "Ces prémisses entrent en conflit entre elles : {x}. Retire-en une et réessaie : un autre groupe peut aussi entrer en conflit.",
+  "chocanTodas": "Elles entrent toutes en conflit à la fois : si tu en retires une quelconque, les autres peuvent coexister.",
+  "chocanFijas": "Elles entrent en conflit avec ce qui est fixé dans ce monde, même si tu ne coches aucune prémisse.",
+  "sobraIsa": "Isabelle démontre que ces prémisses sont superflues, chacune séparément (pas toutes à la fois) :",
+  "sobraItem": "{x} : sans elle, la conclusion découle aussi ({t}).",
+  "bSobra": "Une prémisse est-elle superflue ?",
+  "sobraPosible": "Dans des mondes d'au plus {c} choses, la proposition n'échoue pas non plus si tu retires une seule de celles-ci : {x}.",
+  "sobraNoDemuestra": "Cela ne démontre pas qu'elles soient superflues : il faut peut-être un monde plus grand. Pour le savoir, il faut le démontrer, comme Isabelle l'a fait pour celles de Spinoza.",
+  "sobraNinguna": "Aucune n'est superflue : si tu retires l'une quelconque d'entre elles, un contre-modèle apparaît.",
   "mundoVias": "Les cinq voies",
   "ledeVias": "Thomas d'Aquin propose cinq voies pour montrer que Dieu existe (Somme théologique, I, question 2, article 3). Ici, chaque voie est décomposée en ses prémisses, pour voir laquelle fait le travail et où les objections portent leur coup. La table ne décide pas si Dieu existe : elle vérifie seulement ce qui découle de quoi.",
   "notaDefsVias": "Dans les voies, mouvoir et causer ne sont pas des événements dans le temps. Ce sont des causes <em>par soi</em>, qui agissent en même temps que leur effet, comme la main meut le bâton et le bâton la pierre. La dépendance va dans un seul sens : ce qui est mû dépend du moteur, et non le moteur de ce qui est mû. C'est pourquoi seule la troisième voie utilise des instants : elle parle d'exister et de cesser d'exister. Que le monde ait commencé dans le temps, Thomas le tient pour une vérité de foi, que la raison ne peut ni démontrer ni réfuter (I, question 46, articles 1 et 2), et aucune voie n'en a besoin. Que tout dépende de Dieu pour être, en revanche, il le tient pour démontrable (I, question 44, article 1).",
@@ -863,6 +872,64 @@ const LABSPZ = {
   ],
   "tSimbolos": "Les symboles",
   "bPracticar": "S’exercer aux propriétés des relations dans la table « Relations »",
+  "tMapa": "Carte des propriétés",
+  "introMapa": "Quelle propriété d'une relation découle de quelles autres. Cela vaut pour n'importe quelle relation : commencer avant, créer, déplacer, causer, être plus parfait… Ce qui découle est démontré dans Isabelle ; ce qui ne découle pas a un contre-exemple, lui aussi vérifié (théorie Propiedades_relaciones).",
+  "mapa": [
+   {
+    "sigue": true,
+    "si": "Irréflexive et transitive",
+    "da": "asymétrique"
+   },
+   {
+    "sigue": true,
+    "si": "Asymétrique",
+    "da": "irréflexive"
+   },
+   {
+    "sigue": true,
+    "si": "Sans régression à l'infini",
+    "da": "asymétrique, et donc irréflexive"
+   },
+   {
+    "sigue": true,
+    "si": "Sans régression à l'infini, s'il y a au moins une flèche",
+    "da": "il y a un premier élément, auquel aucune flèche n'aboutit"
+   },
+   {
+    "sigue": true,
+    "si": "Dans un monde fini, irréflexive et transitive",
+    "da": "sans régression à l'infini"
+   },
+   {
+    "sigue": true,
+    "si": "Dans un monde fini, un ordre strict où tout est comparable",
+    "da": "il y a un maximum"
+   },
+   {
+    "sigue": false,
+    "si": "Asymétrique",
+    "da": "transitive",
+    "ej": "0 va à 1 et 1 va à 2, mais 0 ne va pas à 2."
+   },
+   {
+    "sigue": false,
+    "si": "Irréflexive",
+    "da": "asymétrique",
+    "ej": "« Est différent de » : A est différent de B et B de A."
+   },
+   {
+    "sigue": false,
+    "si": "Transitive",
+    "da": "irréflexive",
+    "ej": "La relation qui relie chaque chose à toutes, y compris à elle-même."
+   },
+   {
+    "sigue": false,
+    "si": "Avec une infinité de choses, irréflexive et transitive",
+    "da": "sans régression à l'infini",
+    "ej": "Dans les nombres, chacun est précédé du suivant, sans fin. Compare avec la cinquième ligne."
+   }
+  ],
   "tLectura": "Cela se lit ainsi",
   "tPasos": "Pas à pas",
   "pHip": "supposition",

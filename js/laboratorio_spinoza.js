@@ -95,6 +95,41 @@ const LABSPZ = {
   "mundoTiempo": "De pratique : temps, durée et création",
   "mundoSpinoza": "Spinoza, Éthique I",
   "mundoReloj": "Le temps, défini",
+  "mundoVias": "Les cinq voies",
+  "ledeVias": "Thomas d'Aquin propose cinq voies pour montrer que Dieu existe (Somme théologique, I, question 2, article 3). Ici, chaque voie est décomposée en ses prémisses, pour voir laquelle fait le travail et où les objections portent leur coup. La table ne décide pas si Dieu existe : elle vérifie seulement ce qui découle de quoi.",
+  "notaDefsVias": "Dans les voies, mouvoir et causer ne sont pas des événements dans le temps. Ce sont des causes <em>par soi</em>, qui agissent en même temps que leur effet, comme la main meut le bâton et le bâton la pierre. La dépendance va dans un seul sens : ce qui est mû dépend du moteur, et non le moteur de ce qui est mû. C'est pourquoi seule la troisième voie utilise des instants : elle parle d'exister et de cesser d'exister. Que le monde ait commencé dans le temps, Thomas le tient pour une vérité de foi, que la raison ne peut ni démontrer ni réfuter (I, question 46, articles 1 et 2), et aucune voie n'en a besoin. Que tout dépende de Dieu pour être, en revanche, il le tient pour démontrable (I, question 44, article 1).",
+  "defsVias": "Définitions",
+  "grupoV1": "Première voie : le mouvement",
+  "grupoV2": "Deuxième voie : la cause efficiente",
+  "grupoV3": "Troisième voie : le contingent et le nécessaire",
+  "grupoV4": "Quatrième voie : les degrés de perfection",
+  "grupoV5": "Cinquième voie : le gouvernement des choses",
+  "grupoVD": "« Et c'est cela que nous appelons Dieu »",
+  "notaPieV": "On cherche des mondes d'au plus 4 choses, nommées A, B, C et D, et 4 instants. « Démontré dans Isabelle » signifie qu'Isabelle/HOL a vérifié la preuve avec ces prémisses (théorie Cinco_vias). Si l'on ne trouve aucun monde où la proposition échoue, cela ne démontre rien.",
+  "clPrimero": "premier",
+  "lyPrimero": "double cercle : un premier (rien ne le meut ou rien ne le cause)",
+  "lyMueve": "meut",
+  "lyPerfecto": "est plus parfait que",
+  "lyDirige": "dirige vers sa fin",
+  "hMovimiento": "Mouvement",
+  "hExistencia": "Quand chaque chose existe",
+  "hPerfeccion": "Perfection",
+  "hFines": "Fins",
+  "fMueveSi": "{a} se meut lui-même",
+  "fMueve": "{a} meut {b}",
+  "fExisteV": "Instants où {a} existe : {x}",
+  "fPerfSi": "{a} est plus parfait que lui-même",
+  "fPerf": "{a} est plus parfait que {b}",
+  "fFin": "{a} tend vers une fin",
+  "fConoce": "{a} connaît",
+  "fDirigeSi": "{a} se dirige lui-même vers sa fin",
+  "fDirige": "{a} dirige {b} vers sa fin",
+  "eFin": "tend vers une fin",
+  "eConoce": "connaît",
+  "eExiste": "existe en {x}",
+  "eNunca": "n'existe jamais",
+  "verExploVias": "L'exploration des cinq voies, dans Théorie",
+  "verPlanoDios": "Les preuves de l'existence de Dieu, dans Généalogies",
   "ledeReloj": "Maintenant, on dit ce qu'est le temps : il y a des instants ordonnés, et chaque chose commence à l'un et se termine à un autre. Commencer avant, durer plus longtemps et survivre ne sont plus des relations isolées : on les définit avec les instants. Ce qu'il fallait admettre comme prémisse dans le monde d'entraînement, ici on le démontre.",
   "notaDefsReloj": "Ce qu'est le temps est fixé, car c'est ce que le temps signifie dans ce monde. Les prémisses de la création, en revanche, peuvent être retirées.",
   "defsTiempoFijo": "Ce qu'est le temps",
@@ -896,6 +931,50 @@ const LABSPZ = {
     "{1} a créé {2}",
     "{1} n’a pas créé {2}"
    ],
+   "Mueve": [
+    "{1} meut {2}",
+    "{1} ne meut pas {2}"
+   ],
+   "MasPerfecto": [
+    "{1} est plus parfait que {2}",
+    "{1} n'est pas plus parfait que {2}"
+   ],
+   "TiendeAFin": [
+    "{1} tend vers une fin",
+    "{1} ne tend vers aucune fin"
+   ],
+   "Conoce": [
+    "{1} connaît",
+    "{1} ne connaît pas"
+   ],
+   "Dirige": [
+    "{1} dirige {2} vers sa fin",
+    "{1} ne dirige pas {2} vers sa fin"
+   ],
+   "movido": [
+    "{1} est mû par quelque chose",
+    "{1} n'est mû par rien"
+   ],
+   "causado": [
+    "{1} est causé par quelque chose",
+    "{1} n'est causé par rien"
+   ],
+   "primerMotor": [
+    "{1} est un premier moteur",
+    "{1} n'est pas un premier moteur"
+   ],
+   "primeraCausa": [
+    "{1} est une première cause",
+    "{1} n'est pas une première cause"
+   ],
+   "necesario": [
+    "{1} est nécessaire",
+    "{1} n'est pas nécessaire"
+   ],
+   "maximo": [
+    "{1} est le maximum",
+    "{1} n'est pas le maximum"
+   ],
    "increado": [
     "{1} est incréé",
     "{1} n’est pas incréé"
@@ -1095,9 +1174,10 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Pourquoi il y a trois mondes",
+    "titulo": "Pourquoi il y a quatre mondes",
     "parrafos": [
-     "Celui de pratique est petit à dessein : trois relations que tout le monde comprend, pour en prendre le pli, même s'il laisse sans dire ce qu'est le temps. Celui du temps défini le dit : avec des instants, commencer avant, durer plus longtemps et survivre se définissent, et ce qui n'étaient que des prémisses devient des théorèmes. Celui de Spinoza formalise la partie I de l'<em>Éthique</em>. Là, les prémisses qui commencent par H_ sont celles que Spinoza juge évidentes et n'écrit pas : nous avons dû les ajouter pour que ses démonstrations fonctionnent. Si l'une d'elles te semble fausse, retire-la et regarde ce qui cesse de s'ensuivre."
+     "Celui de pratique est petit à dessein : trois relations que tout le monde comprend, pour en prendre le pli, même s'il laisse sans dire ce qu'est le temps. Celui du temps défini le dit : avec des instants, commencer avant, durer plus longtemps et survivre se définissent, et ce qui n'étaient que des prémisses devient des théorèmes. Celui de Spinoza formalise la partie I de l'<em>Éthique</em>. Là, les prémisses qui commencent par H_ sont celles que Spinoza juge évidentes et n'écrit pas : nous avons dû les ajouter pour que ses démonstrations fonctionnent. Si l'une d'elles te semble fausse, retire-la et regarde ce qui cesse de s'ensuivre.",
+     "Celui des cinq voies décompose les arguments de Thomas d'Aquin en leurs prémisses. Dans presque toutes les voies, la conclusion découle aussitôt d'une prémisse : celle qui interdit la régression à l'infini, le passage de « tout peut ne pas être » à « il y a eu un moment où il n'y avait rien », ou celle qui dit que ce qui ne connaît pas ne tend vers une fin que si quelqu'un le dirige. C'est là que se situe la discussion."
     ]
    }
   ],
@@ -1153,8 +1233,266 @@ const LABSPZ = {
    "Dans le monde « Le temps, défini », propositions 9 et 10 : à quoi renoncerais-tu pour que tout ait un créateur, à ce que celui qui crée commence avant, ou à ce que le temps ait un commencement ? Que dirait Spinoza d'une chose qui se crée elle-même ?",
    "Passe au monde « Le temps, défini », propositions 5 et 6. En quoi survivre et durer plus longtemps diffèrent-ils ? Regarde les barres. Puis la 7 : pourquoi survivre ne suffit-il pas pour durer plus longtemps ?",
    "À la fin de la liste déroulante, « ✎ Écris ta propre proposition ». Écris en logique « celui qui crée quelque chose est incréé » et regarde si cela découle des prémisses. Sinon, quelle prémisse de ta part faudrait-il ? Ajoute-la dans « Tes prémisses ».",
+   "Dans « Les cinq voies », proposition 1. Elle ne vient qu'avec « quelque chose se meut » et un contre-modèle apparaît : qu'est-ce qui échoue ? Coche « pas de régression à l'infini » et relance la preuve. Puis la 5 : où se trompe le passage « si tout peut ne pas être, il y a eu un moment où rien n'était » ?",
    "Passe au monde de Spinoza, proposition 5. Avec la prémisse cochée au départ, un contre-modèle apparaît, celui de Leibniz. Quelle prémisse manque et que dit-elle ?",
    "Proposition 14. Retire une à une les prémisses qu'a utilisées Isabelle. Laquelle te paraît la plus discutable ?"
+  ]
+ },
+ "vias": {
+  "defs": [
+   {
+    "id": "movido",
+    "origen": "Première voie",
+    "texto": "x est mû : quelque chose le meut, le fait passer de la puissance à l'acte."
+   },
+   {
+    "id": "primerMotor",
+    "origen": "Première voie",
+    "texto": "x est un premier moteur : il meut, et rien ne le meut."
+   },
+   {
+    "id": "causado",
+    "origen": "Deuxième voie",
+    "texto": "x est causé : quelque chose est sa cause efficiente."
+   },
+   {
+    "id": "primeraCausa",
+    "origen": "Deuxième voie",
+    "texto": "x est une première cause : il cause, et rien ne le cause."
+   },
+   {
+    "id": "contingente",
+    "origen": "Troisième voie",
+    "texto": "x est contingent, il peut ne pas être : il y a au moins un instant où il n'existe pas."
+   },
+   {
+    "id": "necesario",
+    "origen": "Troisième voie",
+    "texto": "x est nécessaire : il existe à tous les instants."
+   },
+   {
+    "id": "maximo",
+    "origen": "Quatrième voie",
+    "texto": "x est le maximum : il est plus parfait que tout le reste."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "v1",
+    "nom": "Première voie : le mouvement"
+   },
+   {
+    "id": "v2",
+    "nom": "Deuxième voie : la cause efficiente"
+   },
+   {
+    "id": "v3",
+    "nom": "Troisième voie : le contingent et le nécessaire"
+   },
+   {
+    "id": "v4",
+    "nom": "Quatrième voie : les degrés de perfection"
+   },
+   {
+    "id": "v5",
+    "nom": "Cinquième voie : le gouvernement des choses"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "V1_hay_movimiento",
+    "grupo": "v1",
+    "que": "Quelque chose se meut. C'est certain et cela ressort des sens."
+   },
+   {
+    "id": "V1_sin_regreso",
+    "grupo": "v1",
+    "que": "Il n'y a pas de régression à l'infini dans les moteurs : on ne peut pas remonter de moteur en moteur sans fin. Sur la table, chaque chose porte un numéro d'ordre et le moteur en porte toujours un plus petit que ce qu'il meut. Ce numéro n'est pas un instant : les moteurs par soi meuvent en même temps."
+   },
+   {
+    "id": "V2_hay_causas",
+    "grupo": "v2",
+    "que": "Il existe des causes efficientes : quelque chose est causé par autre chose."
+   },
+   {
+    "id": "V2_sin_regreso",
+    "grupo": "v2",
+    "que": "Il n'y a pas de régression à l'infini dans les causes efficientes par soi."
+   },
+   {
+    "id": "V3_siempre_algo",
+    "grupo": "v3",
+    "que": "À aucun instant il ne manque tout. S'il y avait eu un moment où il n'y avait rien, il n'y aurait rien maintenant, car ce qui n'est pas ne commence à être que par quelque chose qui est déjà."
+   },
+   {
+    "id": "V3_paso_de_Tomas",
+    "grupo": "v3",
+    "que": "Si tout peut ne pas être, il y a eu un instant où il n'y avait rien."
+   },
+   {
+    "id": "V4_orden",
+    "grupo": "v4",
+    "que": "« Plus parfait que » est un ordre : rien n'est plus parfait que soi-même, et si x surpasse y, et y surpasse z, alors x surpasse z."
+   },
+   {
+    "id": "V4_comparables",
+    "grupo": "v4",
+    "que": "Deux choses distinctes peuvent toujours être comparées : l'une est plus parfaite que l'autre."
+   },
+   {
+    "id": "V5_hay_fines",
+    "grupo": "v5",
+    "que": "Ce qui ne connaît pas agit en vue d'une fin : les corps naturels agissent toujours, ou presque toujours, de la même manière, pour obtenir le meilleur."
+   },
+   {
+    "id": "V5_dirigido",
+    "grupo": "v5",
+    "que": "Ce qui ne connaît pas ne tend vers une fin que si quelqu'un qui connaît le dirige, comme l'archer dirige la flèche."
+   }
+  ],
+  "props": [
+   {
+    "id": "W1",
+    "parte": 1,
+    "nombre": "1. Il existe un premier moteur",
+    "pregunta": "Il y a quelque chose qui <b>meut sans être mû</b>.",
+    "pasos": [
+     {
+      "txt": "Quelque chose se meut : appelons-le m.",
+      "k": "V1_hay_movimiento"
+     },
+     {
+      "txt": "m est mû par autre chose. Si celle-ci est mue par une autre, et celle-là par une autre encore, on remonte de moteur en moteur.",
+      "k": "hip"
+     },
+     {
+      "txt": "Comme il n'y a pas de régression à l'infini, il faut arriver à un moteur que rien ne meut.",
+      "k": "V1_sin_regreso"
+     },
+     {
+      "txt": "Donc il existe un premier moteur. Isabelle le démontre aussi avec une infinité de choses. Ce qui est démontré, c'est qu'il y en a au moins un : qu'il n'y en ait qu'un seul ne s'ensuit pas (voir la 9).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V1_sin_regreso": "Sans elle, les moteurs peuvent tourner en rond : A meut B et B meut A, et aucun n'est le premier. Avec une infinité de choses, de plus, chacune peut être mue par la suivante. Attention : Thomas ne nie pas une série infinie de causes dans le temps, les unes avant les autres, comme un père qui a été engendré par un autre père, et ainsi de suite à l'infini (I, question 46, article 2, réponse à l'objection 7). Ce qu'il nie, c'est la régression infinie dans les moteurs qui meuvent simultanément, comme la main, le bâton et la pierre.",
+     "V1_hay_movimiento": "Sans elle, il se peut que rien ne se meuve, et alors aucun moteur n'est nécessaire."
+    }
+   },
+   {
+    "id": "W1b",
+    "parte": 1,
+    "nombre": "2. Rien ne se meut soi-même",
+    "cita": "Il est impossible que quelque chose soit, sous le même rapport et de la même manière, moteur et mû ; c'est-à-dire qu'il se meuve lui-même.",
+    "pregunta": "Rien ne <b>se meut soi-même</b>.",
+    "prueba": "Thomas l'argumente par la puissance et l'acte : se mouvoir, c'est passer de la puissance à l'acte, et rien n'est à la fois en puissance et en acte sous le même rapport. La table trouve un autre chemin : si quelque chose se mouvait soi-même, en remontant de moteur en moteur on ne finirait jamais : x, encore x, encore x… Il suffit de ne pas admettre la régression à l'infini.",
+    "leccion": {
+     "V1_sin_regreso": "Sans elle, quelque chose peut se mouvoir soi-même : c'est le plus petit des cercles."
+    }
+   },
+   {
+    "id": "W2",
+    "parte": 2,
+    "nombre": "3. Il existe une première cause",
+    "pregunta": "Il y a quelque chose qui <b>cause sans être causé</b>.",
+    "prueba": "C'est la même structure que la première voie, avec « cause » à la place de « meut » : il y a des causes, il n'y a pas de régression à l'infini, donc il y en a une que rien ne cause. Thomas ajoute que rien n'est cause efficiente de soi-même, car alors cela serait antérieur à soi-même (antérieur par nature, non dans le temps). Spinoza, en revanche, ouvre l'<em>Éthique</em> avec la cause de soi (définition 1) : compare avec la proposition 10 de « Le temps, défini ».",
+    "leccion": {
+     "V2_sin_regreso": "Sans elle, les causes peuvent tourner en rond, et aucune n'est la première.",
+     "V2_hay_causas": "Sans elle, il se peut que rien ne soit causé."
+    }
+   },
+   {
+    "id": "W3",
+    "parte": 3,
+    "nombre": "4. Il existe quelque chose de nécessaire",
+    "pregunta": "Il y a quelque chose qui <b>existe à tous les instants</b>.",
+    "pasos": [
+     {
+      "txt": "Supposons que tout soit contingent : tout peut ne pas être.",
+      "k": "hip"
+     },
+     {
+      "txt": "Alors il y a eu un instant où il n'y avait rien.",
+      "k": "V3_paso_de_Tomas"
+     },
+     {
+      "txt": "Mais à aucun instant il ne manque tout. Contradiction.",
+      "k": "V3_siempre_algo"
+     },
+     {
+      "txt": "Donc il existe quelque chose de nécessaire. Thomas poursuit : le nécessaire peut tenir sa nécessité d'un autre, et là non plus on ne peut aller à l'infini. La table s'en tient à ce premier pas.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V3_paso_de_Tomas": "Sans lui, tout peut être contingent et pourtant il peut y avoir toujours quelque chose : deux choses qui se relaient, l'une au début et l'autre ensuite. Voir la proposition 5.",
+     "V3_siempre_algo": "Sans elle, il peut y avoir un instant sans rien, et alors rien n'oblige à ce que quelque chose soit nécessaire."
+    }
+   },
+   {
+    "id": "W3s",
+    "parte": 3,
+    "nombre": "5. « Si tout peut ne pas être, il y a eu un moment où rien n'était »",
+    "cita": "Ce qui peut ne pas être, à un moment n'est pas. Si donc toutes choses peuvent ne pas être, à un moment il n'y a rien eu.",
+    "pregunta": "Si tout peut cesser d'exister, il y a un instant où <b>rien n'existe</b>.",
+    "nota": "Cela ne s'ensuit pas : chaque chose manque à un instant, mais pas toutes au même instant. C'est un saut de quantificateurs, de « pour chaque chose il y a un instant où elle n'existe pas » à « il y a un instant où aucune n'existe ». De nombreux commentateurs l'ont relevé, par exemple Anthony Kenny dans <em>The Five Ways</em> (1969). D'autres répondent que Thomas pense à un temps sans fin, dans lequel ce qui peut ne pas être finit par ne pas être, ou que l'argument porte sur toute la série des choses qui s'engendrent et se corrompent. Isabelle le vérifie avec un monde de deux choses qui se relaient (lemme via3_salto)."
+   },
+   {
+    "id": "W4",
+    "parte": 4,
+    "nombre": "6. Il existe quelque chose de maximal",
+    "pregunta": "Il y a quelque chose de <b>plus parfait que tout le reste</b>.",
+    "pasos": [
+     {
+      "txt": "« Plus parfait que » est un ordre : il n'y a pas de cercles de perfection.",
+      "k": "V4_orden"
+     },
+     {
+      "txt": "Dans un monde fini, on monte d'une chose à une autre plus parfaite jusqu'à arriver à une que rien ne surpasse.",
+      "k": "hip"
+     },
+     {
+      "txt": "Comme tout est comparable, cette chose surpasse toutes les autres.",
+      "k": "V4_comparables"
+     },
+     {
+      "txt": "Donc il existe quelque chose de maximal. Isabelle le démontre dans un monde fini (via4_finito). Avec une infinité de choses, cela ne tient pas : parmi les nombres, il y en a toujours un plus grand (via4_sin_maximo). Thomas va plus loin : le maximum d'un genre est cause de tout ce qui s'y trouve, comme le feu, le plus chaud, l'est de la chaleur (il le tire de la <em>Métaphysique</em> d'Aristote, livre II). La table ne vérifie que la première partie.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "V4_comparables": "Sans elle, il peut y avoir deux choses qui ne se comparent pas, et aucune ne surpasse toutes les autres : deux sommets, aucun plus haut. Peut-on comparer la perfection d'une rose et celle d'un nombre ?",
+     "V4_orden": "Sans elle, la perfection peut tourner en rond : A surpasse B, B surpasse C et C surpasse A."
+    }
+   },
+   {
+    "id": "W4u",
+    "parte": 4,
+    "nombre": "7. Le maximum est unique",
+    "pregunta": "Si x et y sont le maximum, x et y <b>sont la même chose</b>.",
+    "prueba": "S'il y avait deux maxima distincts, chacun surpasserait l'autre et, puisqu'il s'agit d'un ordre, chacun se surpasserait lui-même. Contradiction.",
+    "leccion": {
+     "V4_orden": "Sans elle, deux choses peuvent se surpasser l'une l'autre, et toutes deux sont le maximum."
+    }
+   },
+   {
+    "id": "W5",
+    "parte": 5,
+    "nombre": "8. Il y a quelqu'un qui connaît et dirige",
+    "pregunta": "Il y a quelque chose qui <b>connaît et dirige</b> une autre chose vers sa fin.",
+    "prueba": "Cela s'ensuit aussitôt : toute la force tient à la prémisse « ce qui ne connaît pas ne tend vers une fin que si quelqu'un qui connaît le dirige ». Certains la discutent : Hume, dans les <em>Dialogues sur la religion naturelle</em> (1779), puis ceux qui voient dans la sélection naturelle de Darwin un ordre sans personne pour le diriger. D'autres la défendent, par exemple en demandant d'où viennent les lois régulières de la nature que la sélection elle-même suppose.",
+    "leccion": {
+     "V5_dirigido": "Sans elle, il peut y avoir des choses qui tendent vers une fin sans que personne les dirige.",
+     "V5_hay_fines": "Sans elle, il se peut que rien ne tende vers une fin."
+    }
+   },
+   {
+    "id": "WD",
+    "parte": 6,
+    "nombre": "9. Le même dans les cinq voies ?",
+    "pregunta": "Si x est un premier moteur et y une première cause, x et y <b>sont la même chose</b>.",
+    "nota": "Cela ne découle pas des voies : il peut y avoir un premier moteur et, à part, une première cause. Chaque voie se termine en disant que cela, « tous l'appellent Dieu », et c'est une objection classique qu'arriver à un premier, ce n'est pas encore arriver à un Dieu unique. Thomas ne prétend pas que chaque voie, seule, donne tout ce que l'on dit de Dieu : l'unité, la simplicité et la perfection, il les argumente ensuite (I, questions 3, 4 et 11). La table montre seulement, pour l'instant, que ce pas est nécessaire."
+   }
   ]
  },
  "reloj": {

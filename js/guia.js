@@ -196,6 +196,11 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
+     "nombre": "Piliers",
+     "texto": "Les grands concepts (raison, idée, cause) en dix marches, du mot de tous les jours au débat d'aujourd'hui. Chaque marche corrige la précédente et demande du travail : appliquer l'idée à un cas, la relier à ce que tu as déjà gravi et vérifier si tu l'as comprise. Coche les marches que tu franchis : cela n'est enregistré que dans ton navigateur.",
+     "view": "pilares"
+    },
+    {
      "nombre": "Cartes",
      "texto": "Clique sur la carte (ou appuie sur la barre d’espace) pour la retourner et marque « Je la connais » celles que tu maîtrises. Ta progression est enregistrée.",
      "view": "tarjetas"

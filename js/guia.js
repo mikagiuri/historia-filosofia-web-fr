@@ -277,15 +277,18 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Logique"
+   "x": "Logique",
+   "solo": "fil"
   },
   {
    "type": "p",
+   "solo": "fil",
    "x": "Le <strong>Coin de logique</strong> a désormais son propre onglet. Il réunit tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices pour entraîner le raisonnement."
   },
   {
    "type": "p",
-   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées et les tables des jugements de Kant et des affects de Spinoza."
+   "solo": "fil",
+   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées et les tables des jugements de Kant et de l’Éthique de Spinoza."
   },
   {
    "type": "h",
@@ -374,12 +377,6 @@ const GUIA = {
      "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos. En haut, les boutons Chronogrammes et Généalogies.",
      "view": "epocas",
      "solo": "hf"
-    },
-    {
-     "nombre": "Époques",
-     "texto": "Des fiches pour chaque époque : comment étaient la société, la politique, la science et l’art, et comment on se représentait le cosmos.",
-     "view": "epocas",
-     "solo": "fil"
     },
     {
      "nombre": "Chronogrammes",

@@ -14,6 +14,7 @@ const LOG_ITIN = {
  "progreso": "Niveaux réussis : {n} sur {t}.",
  "progresoNada": "Coche chaque niveau quand tu réussis son point de contrôle : cela n’est enregistré que dans ce navigateur.",
  "noAqui": "n’est pas sur ce site",
+ "enLaDe1o": "sur le site de 1re année",
  "mapaIntro": "Appuie sur un niveau pour ouvrir sa page. La case marquée est la suivante pour toi.",
  "estHecho": "terminé",
  "estSig": "suivant",

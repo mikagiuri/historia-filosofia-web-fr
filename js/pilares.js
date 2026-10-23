@@ -250,7 +250,7 @@ const PILARES = {
      "quien": "Kant (1724-1804)",
      "dice": "Kant fait les deux choses à la fois. D'abord, les Lumières : sortir de la minorité, c'est-à-dire du fait de ne pas oser penser sans qu'un autre nous guide. La raison est <strong>autonomie</strong> : se donner à soi-même la loi. Mais la raison doit aussi être juge d'elle-même, faire sa propre <strong>critique</strong>. Il y a des questions qu'elle ne peut s'empêcher de se poser (Dieu, l'âme, le monde comme totalité) et auxquelles elle ne peut pas répondre par la connaissance, parce qu'elles dépassent toute expérience possible (<em>Critique de la raison pure</em>, préface de 1781, A VII). La raison mûre est celle qui sait jusqu'où elle va.",
      "cita": {
-      "t": "« Les Lumières, c'est la sortie de l'être humain hors de la minorité dont il est lui-même responsable. […] <em>Sapere aude!</em> Aie le courage de te servir de ton propre entendement ! »",
+      "t": "« Les Lumières, c'est la sortie de l'être humain hors de la minorité dont il est lui-même responsable. […] <em>Sapere aude !</em> Aie le courage de te servir de ton propre entendement ! »",
       "ref": "Kant, « Réponse à la question : qu'est-ce que les Lumières ? » (1784), AA VIII 35."
      },
      "aplica": "Cherche dans ta vie un cas de « minorité » au sens de Kant (non par manque de capacité, mais par confort ou par peur) : une application, une célébrité ou un groupe qui décide à ta place. Qu'est-ce que ce serait, en sortir ?",

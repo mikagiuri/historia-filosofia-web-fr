@@ -31,7 +31,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>. Le <strong>Coin de logique</strong> n’a pas d’onglet sur ce site : on l’ouvre par les liens des thèmes qui l’utilisent.",
+   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>. Le <strong>Coin de logique</strong> n’a pas d’onglet sur ce site : on l’ouvre par les liens des thèmes qui l’utilisent.",
    "solo": "hf"
   },
   {

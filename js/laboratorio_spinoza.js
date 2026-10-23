@@ -153,6 +153,7 @@ const LABSPZ = {
   "gNombre": "Elle s'appelle « Mondes possibles » parce que c'est ce qu'elle cherche : un monde possible dans lequel toutes tes prémisses sont vraies et l'affirmation fausse. S'il n'y en a pas, l'affirmation découle des prémisses. L'idée vient de Leibniz et c'est celle de la logique modale.",
   "tEjemplo": "Un monde d'exemple",
   "ejemploTxt": "Dans ce monde, toutes tes prémisses sont satisfaites, et l'affirmation aussi. Ce n'est pas un hasard : cela se produit dans tous les mondes possibles qui satisfont ces prémisses, et c'est cela que veut dire « découler ».",
+  "verIsabelle": "Voir la preuve dans Isabelle",
   "gElige": "Choisis une théorie",
   "gNRetos": "{n} défis",
   "gEmpieza": "pour commencer",
@@ -1948,6 +1949,93 @@ const LABSPZ = {
     "pregunta": "Il se peut que tout ce qui est dans le monde ait sa condition, que rien du dehors ne le conditionne et que <b>rien ne soit nécessaire</b>.",
     "nota": "C’est l’objection de Cléanthe dans les <em>Dialogues sur la religion naturelle</em> de D. Hume (1779, partie IX)  : si chaque membre d’une chaîne éternelle a son explication, demander en plus la cause du tout est une question de trop. Il suffit de lâcher la prémisse de la thèse, « la série des conditions est complète ». Isabelle construit ce monde avec les entiers relatifs (modelo_antitesis4). Débat ouvert, sans verdict.",
     "notaNo": "Avec la série complète, cela ne peut pas arriver  : quelque chose dans le monde serait inconditionné (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "isabelleWeb": {
+  "titulo": "Qu'est-ce qu'Isabelle ? Les démonstrations, de l'intérieur",
+  "parrafos": [
+   "Isabelle/HOL est un programme informatique qui vérifie des démonstrations pas à pas : s'il accepte une preuve, elle ne comporte aucune faille logique. Chaque prémisse de cette table est une définition dans Isabelle, et chaque affirmation que la table donne pour démontrée est un théorème avec sa preuve, qu'Isabelle a acceptée sans aucune erreur.",
+   "Ici, tu peux voir ces preuves telles qu'elles ont été écrites. À côté de chaque résultat de la table, le lien « Voir la preuve dans Isabelle » te mène au théorème exact."
+  ],
+  "pdf": "Télécharger le cahier d'Isabelle (PDF, 79 pages)",
+  "tTeorias": "Les 15 théories, avec leurs 298 résultats",
+  "nota": "Les preuves sont écrites dans le langage d'Isabelle, avec les commentaires en espagnol. Toutes ont été vérifiées avec Isabelle2025-2.",
+  "teorias": [
+   {
+    "f": "Mundo_tiempo_creacion",
+    "t": "De pratique : temps, durée et création",
+    "d": "Commencer avant, durer plus longtemps et créer, avec leurs prémisses."
+   },
+   {
+    "f": "Mundo_tiempo_definido",
+    "t": "Le temps, défini",
+    "d": "Avec des instants : commencer, finir, durer et survivre, définis."
+   },
+   {
+    "f": "Propiedades_relaciones",
+    "t": "Propriétés des relations",
+    "d": "Quelle propriété d'une relation découle de quelles autres, et lesquelles non."
+   },
+   {
+    "f": "Etica_proposicional",
+    "t": "L'Éthique en logique des propositions",
+    "d": "Seulement avec la négation, la disjonction et la conjonction."
+   },
+   {
+    "f": "Etica_nand",
+    "t": "L'Éthique avec un seul connecteur",
+    "d": "Tout avec NAND, la barre de Sheffer."
+   },
+   {
+    "f": "Spinoza_Etica_I",
+    "t": "Spinoza, Éthique I",
+    "d": "La Partie I de l'Éthique, avec chaque prémisse en évidence."
+   },
+   {
+    "f": "Spinoza_Etica_I_piloto",
+    "t": "Spinoza : seulement avec ce qu'il cite",
+    "d": "Chaque proposition, seulement avec les prémisses que Spinoza cite."
+   },
+   {
+    "f": "Spinoza_identidad_minimal",
+    "t": "Spinoza : le noyau minimal",
+    "d": "Une version minimale, dans l'ordre de Spinoza."
+   },
+   {
+    "f": "Spinoza_diagnostico_quatenus",
+    "t": "Spinoza : diagnostic du « en tant que »",
+    "d": "Quelle prémisse empêche qu'un corps et son idée soient la même chose."
+   },
+   {
+    "f": "Spinoza_redundancia",
+    "t": "Spinoza : prémisses superflues",
+    "d": "On vérifie si elles sont vraiment superflues."
+   },
+   {
+    "f": "Cinco_vias",
+    "t": "Les cinq voies",
+    "d": "Thomas d'Aquin, voie après voie, avec leurs prémisses."
+   },
+   {
+    "f": "Antinomias_matematicas",
+    "t": "Les antinomies de Kant : le commencement et le simple",
+    "d": "Thèse, antithèse, le choc et les issues."
+   },
+   {
+    "f": "Antinomias_dinamicas",
+    "t": "Les antinomies de Kant : la liberté et l'être nécessaire",
+    "d": "Thèse, antithèse, le choc et les issues."
+   },
+   {
+    "f": "Parmenides_herederos",
+    "t": "De l'être au cosmos : Parménide et ses héritiers",
+    "d": "L'un, l'immobile, les atomistes, Mélissos et Zénon."
+   },
+   {
+    "f": "Timeo_demiurgo",
+    "t": "De l'être au cosmos : le Démiurge",
+    "d": "Le Timée : l'artisan, le modèle et le temps."
    }
   ]
  },

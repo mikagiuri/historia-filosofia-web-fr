@@ -246,7 +246,7 @@ function bioCitas(p){
    · Conceptos del glosario: los términos con su id en el campo «ilustre» (tools/build_glosario_ilustres.js).
    Solo se enlaza a pensadores que están en esta web (build_subject.js filtra BIOGRAFIAS por materia). */
 const ILU_REL = { tit: "Affinités et oppositions", frente: "Face à", tesis: "Ses thèses en débat", acuerdo: "D’accord avec", desacuerdo: "En désaccord avec",
-  conceptos: "Concepts du glossaire", mas: "et {n} de plus" };
+  conceptos: "Concepts du dictionnaire", mas: "et {n} de plus" };
 function bioLink(id, cl){
   const q = BIOGRAFIAS[id]; if (!q) return "";
   return '<button type="button" class="bio-rel-a' + (cl ? " " + cl : "") + '" data-go-ilu="' + bioEsc(id) + '">' + bioEsc(q.name) + '</button>';

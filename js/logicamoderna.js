@@ -250,7 +250,7 @@ const LOGM_EXTRA_TXT = {
   lpIntro: "Les sophismes formels ci-dessus se réfutent par la forme : un contre-exemple suffit. D’autres sophismes n’ont pas de défaut de forme, mais les formaliser aide à les voir ; et d’autres encore ne peuvent pas être réfutés par la logique, parce que le problème se trouve dans le contenu.",
   lpAyuda: "La logique aide, mais ne suffit pas", lpNo: "La logique ne les réfute pas", lpQueVe: "Ce que montre la logique",
   lpNoIntro: "Leur forme peut être valide, ou ce n’est même pas un argument : le défaut tient à la vérité des prémisses ou à leur pertinence. Pour les repérer, il faut s’interroger sur le contenu.",
-  lpNoNomina: "Ce n’est qu’un échantillon. La liste complète des sophismes non formels, avec un nom pour chacun et sa définition du glossaire, est celle de « Sophismes non formels : la liste du Coin », plus bas dans cet onglet.", lpNoNominaIr: "Aller à la liste complète ↓",   /* (22-10) remite a la nómina única */
+  lpNoNomina: "Ce n’est qu’un échantillon. La liste complète des sophismes non formels, avec un nom pour chacun et sa définition du dictionnaire, est celle de « Sophismes non formels : la liste du Coin », plus bas dans cet onglet.", lpNoNominaIr: "Aller à la liste complète ↓",   /* (22-10) remite a la nómina única */
   lpDuelo: "Entraîne-toi dans le Duel de raisons →"
 };
 const LOGM_CONV = [

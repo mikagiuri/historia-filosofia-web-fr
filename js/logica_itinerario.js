@@ -558,7 +558,7 @@ const LOG_ITIN = {
    "txt": "Les pièges qui ne tiennent pas à la forme mais au contenu, et l’art de discuter.",
    "pasos": [
     {
-     "t": "Sophismes : la liste des sophismes informels, reliée au glossaire, et « Quel sophisme est-ce ? »",
+     "t": "Sophismes : la liste des sophismes informels, reliée au dictionnaire, et « Quel sophisme est-ce ? »",
      "h": "#logica/falacias"
     },
     {

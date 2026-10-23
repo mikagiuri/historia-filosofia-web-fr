@@ -99,12 +99,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du glossaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du glossaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
    "solo": "fil"
   },
   {
@@ -124,7 +124,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Sur ce site, les penseurs, les thèmes et les termes du glossaire portent de un à cinq <strong>points d’importance</strong> ●●●●○ : plus il y a de points, plus cela pèse dans la matière et à la PAU. Chaque niveau a son nom :"
+   "x": "Sur ce site, les penseurs, les thèmes et les termes du dictionnaire portent de un à cinq <strong>points d’importance</strong> ●●●●○ : plus il y a de points, plus cela pèse dans la matière et à la PAU. Chaque niveau a son nom :"
   },
   {
    "type": "list",
@@ -164,7 +164,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "hf",
-   "x": "Les points apparaissent dans <strong>Biographies</strong> (à côté des dates de chaque penseur ; dans sa fiche, avec le nom du niveau et une ligne <strong>Pourquoi</strong> qui en donne la raison), dans la <strong>liste des thèmes</strong> de la page de la matière et dans le <strong>Glossaire</strong>. Dans Biographies et dans le Glossaire, le bouton <strong>Seulement indispensables et essentiels</strong> ne garde que ceux qui ont cinq et quatre points, et <strong>Ce que signifient les points</strong> déplie cette même explication."
+   "x": "Les points apparaissent dans <strong>Biographies</strong> (à côté des dates de chaque penseur ; dans sa fiche, avec le nom du niveau et une ligne <strong>Pourquoi</strong> qui en donne la raison), dans la <strong>liste des thèmes</strong> de la page de la matière et dans le <strong>Dictionnaire</strong>. Dans Biographies et dans le Dictionnaire, le bouton <strong>Seulement indispensables et essentiels</strong> ne garde que ceux qui ont cinq et quatre points, et <strong>Ce que signifient les points</strong> déplie cette même explication."
   },
   {
    "type": "img",
@@ -323,7 +323,7 @@ const GUIA = {
     },
     {
      "nombre": "Lectures",
-     "texto": "Les cinq textes de la PAU avec leur guide de lecture, les extraits, des modèles de réponse et un glossaire.",
+     "texto": "Les cinq textes de la PAU avec leur guide de lecture, les extraits, des modèles de réponse et un dictionnaire.",
      "view": "lecturas"
     }
    ]
@@ -449,7 +449,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Clique sur la loupe 🔎 et tape un mot : le moteur de recherche cherche dans tout le site (théorie, glossaire, lectures, questions, cartes…) et regroupe les résultats par type, avec le mot surligné. Déplace-toi avec les flèches, ouvre un résultat avec Entrée et ferme avec Échap. Quand tu ouvres un résultat, le site t’emmène à l’endroit exact où le mot apparaît."
+   "x": "Clique sur la loupe 🔎 et tape un mot : le moteur de recherche cherche dans tout le site (théorie, dictionnaire, lectures, questions, cartes…) et regroupe les résultats par type, avec le mot surligné. Déplace-toi avec les flèches, ouvre un résultat avec Entrée et ferme avec Échap. Quand tu ouvres un résultat, le site t’emmène à l’endroit exact où le mot apparaît."
   },
   {
    "type": "img",

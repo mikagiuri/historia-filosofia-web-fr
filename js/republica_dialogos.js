@@ -761,7 +761,7 @@ const REP_DIAL = {
   "dPlaton": "Argument de Platon : la justice est l’harmonie des parties, dans la cité comme dans l’âme (République IV, 433a et 441d-e).",
   "dObjecion": "Objection : choisis l’une des critiques apparues dans ta partie (Thrasymaque, Glaucon, Aristote, Popper…) et explique-la avec tes mots.",
   "dTuya": "Ta conclusion : quelle position de ta partie défendrais-tu par écrit, et pourquoi ?",
-  "glosario": "Concepts dans le glossaire",
+  "glosario": "Concepts dans le dictionnaire",
   "sinDialogos": "Dans cette partie, il n’y a pas eu de dialogues.",
   "hudReg": "Régime",
   "elegir": "Choisis une version",

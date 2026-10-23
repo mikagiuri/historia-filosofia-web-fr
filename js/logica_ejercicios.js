@@ -18,7 +18,7 @@ const LOGX = {
   "silNoValido": "Non valide",
   "silTrad": "Valide seulement si ce dont parle le moyen terme existe",
   "nomTit": "Sophismes informels : la liste du Coin",
-  "nomIntro": "Les pièges qui ne sont pas dans la forme du raisonnement, mais dans son contenu : ce qu'on dit, de qui et dans quel but. Chaque nom mène à son entrée du glossaire, où il est défini ; ici figurent d'autres noms, un exemple et la manière de le contrer.",
+  "nomIntro": "Les pièges qui ne sont pas dans la forme du raisonnement, mais dans son contenu : ce qu'on dit, de qui et dans quel but. Chaque nom mène à son entrée du dictionnaire, où il est défini ; ici figurent d'autres noms, un exemple et la manière de le contrer.",
   "nomOtros": "Autres noms :",
   "nomEj": "Exemple :",
   "nomParar": "Comment le contrer :",

@@ -7927,7 +7927,7 @@ const QUIZZES = {
     "fb": "Dans la Théogonie, d'un chaos originel surgissent des couples de contraires ; c'est un récit mythique mettant en scène des êtres divins."
    },
    {
-    "q": "Dans le glossaire du thème, le terme logos inclut, outre « parole » et « raison »…",
+    "q": "Dans le dictionnaire du thème, le terme logos inclut, outre « parole » et « raison »…",
     "o": [
      "l'obligation d'accepter ce que transmettent les poètes",
      "l'obéissance aux lois votées par l'assemblée",
@@ -10162,7 +10162,7 @@ const QUIZZES = {
     "fb": "Pour l'intellectualisme socratique, le mal naît de l'ignorance : si l'on connaît vraiment le bien, on agit bien, donc la solution est d'enseigner."
    },
    {
-    "q": "Que signifie arétè selon le glossaire du thème ?",
+    "q": "Que signifie arétè selon le dictionnaire du thème ?",
     "o": [
      "Vertu : excellence dans l'accomplissement de la fonction propre",
      "Bonheur plein : fin dernière de toutes les actions humaines",
@@ -11477,7 +11477,7 @@ const QUIZZES = {
     "fb": "Le rasoir d'Ockham ordonne de ne pas multiplier les entités sans nécessité : entre deux explications équivalentes, la plus simple."
    },
    {
-    "q": "Qu'est-ce qu'une vérité naturelle, selon le glossaire du thème ?",
+    "q": "Qu'est-ce qu'une vérité naturelle, selon le dictionnaire du thème ?",
     "o": [
      "Celle qu'atteint la raison et qui est accessible à tous.",
      "Celle qui ne se connaît que par révélation divine.",
@@ -13280,7 +13280,7 @@ const QUIZZES = {
      "Une invention récente du néolibéralisme du XXe siècle"
     ],
     "a": 2,
-    "fb": "Selon le glossaire, la propriété privée est comprise comme un droit naturel et constitue la base du capitalisme."
+    "fb": "Selon le dictionnaire, la propriété privée est comprise comme un droit naturel et constitue la base du capitalisme."
    },
    {
     "q": "Selon l'aporie du thème, de quoi dépend le système politique qui nous paraît « naturel » ?",
@@ -17346,7 +17346,7 @@ const QUIZZES = {
     "fb": "Herrero critique un système qui donne la priorité au profit et agit comme si les ressources de la planète étaient infinies, en ignorant que nous sommes écodépendants."
    },
    {
-    "q": "Selon le glossaire du thème, qu'est-ce que l'écoféminisme de Yayo Herrero relie ?",
+    "q": "Selon le dictionnaire du thème, qu'est-ce que l'écoféminisme de Yayo Herrero relie ?",
     "o": [
      "La crise écologique et l'oppression des femmes",
      "La lutte ouvrière et la défense du libre marché",
@@ -17734,7 +17734,7 @@ const QUIZZES = {
     "fb": "On conserve la structure de contraires et la recherche d'un ordre, mais on abandonne le recours au surnaturel et à l'arbitraire."
    },
    {
-    "q": "Dans le glossaire du thème, la polis est définie comme…",
+    "q": "Dans le dictionnaire du thème, la polis est définie comme…",
     "o": [
      "la cité et la communauté politique",
      "le droit égal de parler à l'assemblée",
@@ -18477,7 +18477,7 @@ const QUIZZES = {
     "fb": "Pour Aristote, l'être humain est matière (corps) plus forme (âme) : l'hylémorphisme."
    },
    {
-    "q": "Selon le glossaire du thème, en quoi consiste le changement ?",
+    "q": "Selon le dictionnaire du thème, en quoi consiste le changement ?",
     "o": [
      "Dans l'union de la matière et de la forme.",
      "Dans le passage de la puissance à l'acte.",
@@ -18485,7 +18485,7 @@ const QUIZZES = {
      "Dans la purification de l'âme par la philosophie."
     ],
     "a": 1,
-    "fb": "Le glossaire définit le changement comme le passage de la puissance (possibilité d'être) à l'acte (sa réalisation)."
+    "fb": "Le dictionnaire définit le changement comme le passage de la puissance (possibilité d'être) à l'acte (sa réalisation)."
    },
    {
     "q": "Quand la théorie situe-t-elle le tournant anthropologique de la philosophie ?",
@@ -18627,7 +18627,7 @@ const QUIZZES = {
     "fb": "Les vertus éthiques sont des habitudes qui s'acquièrent par la répétition d'actes ; les dianoétiques, en revanche, s'acquièrent par l'enseignement."
    },
    {
-    "q": "Comment le glossaire définit-il le « juste milieu » ?",
+    "q": "Comment le dictionnaire définit-il le « juste milieu » ?",
     "o": [
      "La moyenne arithmétique que l'on calcule entre deux quantités",
      "L'équilibre qui se produit entre l'âme et le corps",
@@ -18894,7 +18894,7 @@ const QUIZZES = {
     "fb": "Le stoïcisme a été fondé par Zénon de Kition."
    },
    {
-    "q": "Dans le glossaire du thème, qu'est-ce que la koinè ?",
+    "q": "Dans le dictionnaire du thème, qu'est-ce que la koinè ?",
     "o": [
      "L'idéal de vivre caché",
      "La langue grecque commune de l'hellénisme",
@@ -19246,7 +19246,7 @@ const QUIZZES = {
      "L'ensemble des auteurs qui ont défendu le christianisme face aux accusations de l'Empire."
     ],
     "a": 0,
-    "fb": "Le glossaire définit la patristique comme la tradition des premiers penseurs de l'Église qui tente d'expliquer la foi chrétienne avec le langage conceptuel grec et romain ; Augustin en est l'un des sommets."
+    "fb": "Le dictionnaire définit la patristique comme la tradition des premiers penseurs de l'Église qui tente d'expliquer la foi chrétienne avec le langage conceptuel grec et romain ; Augustin en est l'un des sommets."
    },
    {
     "q": "Comment la scolastique est-elle définie dans le thème ?",
@@ -22203,7 +22203,7 @@ const QUIZZES = {
     "fb": "Le thème nomme « hétéronorme » ce qui est présenté comme normal, qui n'est pas naturel mais le résultat d'une norme répétée, selon Butler."
    },
    {
-    "q": "Selon le glossaire du thème, qu'est-ce que la performativité ?",
+    "q": "Selon le dictionnaire du thème, qu'est-ce que la performativité ?",
     "o": [
      "L'essence biologique et immuable du sexe",
      "L'interdiction externe des rôles sociaux",
@@ -22214,7 +22214,7 @@ const QUIZZES = {
     "fb": "La performativité désigne le genre comme acte répété : quelque chose que nous faisons par la répétition de gestes, de vêtements et de manières de parler."
    },
    {
-    "q": "Selon le glossaire, l'écodépendance est l'idée que…",
+    "q": "Selon le dictionnaire, l'écodépendance est l'idée que…",
     "o": [
      "l'être humain est un sujet souverain situé en dehors de la nature",
      "l'économie fonctionne en marge de la biosphère",
@@ -22258,7 +22258,7 @@ const QUIZZES = {
     "fb": "La sphère publique a besoin d'information fiable, de débat raisonné et d'attention partagée, des conditions que la logique des plateformes tend à affaiblir."
    },
    {
-    "q": "Un système automatique de sélection du personnel écarte des candidates de certains quartiers parce qu'il apprend à partir de données historiques biaisées. Quel concept du glossaire l'explique le mieux ?",
+    "q": "Un système automatique de sélection du personnel écarte des candidates de certains quartiers parce qu'il apprend à partir de données historiques biaisées. Quel concept du dictionnaire l'explique le mieux ?",
     "o": [
      "La discrimination algorithmique",
      "La fabrication du consentement",

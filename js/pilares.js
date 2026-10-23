@@ -42,7 +42,7 @@ const PILARES = {
      "limite": "Nous savons ce que c'est que donner une raison, mais pas ce qui fait qu'une raison vaut plus qu'une autre.",
      "enl": [
       {
-       "t": "Glossaire : raison",
+       "t": "Dictionnaire : raison",
        "h": "#glosario/g-fil-razon"
       },
       {
@@ -166,11 +166,11 @@ const PILARES = {
        "h": "#teoria/hf-verdad-no-contradice"
       },
       {
-       "t": "Glossaire : collaboration foi-raison",
+       "t": "Dictionnaire : collaboration foi-raison",
        "h": "#glosario/g-colaboracion-fe-razon"
       },
       {
-       "t": "Glossaire : les limites de la raison",
+       "t": "Dictionnaire : les limites de la raison",
        "h": "#glosario/g-los-limites-de-la-razon"
       }
      ]
@@ -200,11 +200,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-makro"
       },
       {
-       "t": "Glossaire : autonomie de la raison",
+       "t": "Dictionnaire : autonomie de la raison",
        "h": "#glosario/g-autonomia-de-la-razon"
       },
       {
-       "t": "Glossaire : idées claires et distinctes",
+       "t": "Dictionnaire : idées claires et distinctes",
        "h": "#glosario/g-ideas-claras-y-distintas"
       }
      ]
@@ -238,7 +238,7 @@ const PILARES = {
        "h": "#teoria/fil-t5"
       },
       {
-       "t": "Glossaire : relations d'idées et questions de fait",
+       "t": "Dictionnaire : relations d'idées et questions de fait",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -268,11 +268,11 @@ const PILARES = {
        "h": "#teoria/hf-kant"
       },
       {
-       "t": "Glossaire : usage privé de la raison",
+       "t": "Dictionnaire : usage privé de la raison",
        "h": "#glosario/g-uso-privado"
       },
       {
-       "t": "Glossaire : idée régulatrice",
+       "t": "Dictionnaire : idée régulatrice",
        "h": "#glosario/g-idea-regulativa"
       }
      ]
@@ -302,11 +302,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glossaire : raison instrumentale",
+       "t": "Dictionnaire : raison instrumentale",
        "h": "#glosario/g-razon-instrumental"
       },
       {
-       "t": "Glossaire : soupçon",
+       "t": "Dictionnaire : soupçon",
        "h": "#glosario/g-sospecha"
       }
      ]
@@ -328,11 +328,11 @@ const PILARES = {
        "h": "#teoria/hf-posmodernidad"
       },
       {
-       "t": "Glossaire : raison communicationnelle",
+       "t": "Dictionnaire : raison communicationnelle",
        "h": "#glosario/g-razon-comunicativa"
       },
       {
-       "t": "Glossaire : situation idéale de parole",
+       "t": "Dictionnaire : situation idéale de parole",
        "h": "#glosario/g-situacion-ideal-de-habla"
       },
       {
@@ -414,7 +414,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-superficie"
       },
       {
-       "t": "Glossaire : théorie des Idées",
+       "t": "Dictionnaire : théorie des Idées",
        "h": "#glosario/g-teoria-de-las-ideas"
       },
       {
@@ -444,7 +444,7 @@ const PILARES = {
        "h": "#teoria/hf-aa"
       },
       {
-       "t": "Glossaire : le rejet des Idées",
+       "t": "Dictionnaire : le rejet des Idées",
        "h": "#glosario/g-el-rechazo-de-las-ideas"
       },
       {
@@ -478,7 +478,7 @@ const PILARES = {
        "h": "#teoria/hf-platon-agustin"
       },
       {
-       "t": "Glossaire : nominalisme",
+       "t": "Dictionnaire : nominalisme",
        "h": "#glosario/g-nominalismo"
       }
      ]
@@ -508,11 +508,11 @@ const PILARES = {
        "h": "#teoria/hf-descartes-simulacion"
       },
       {
-       "t": "Glossaire : innéisme",
+       "t": "Dictionnaire : innéisme",
        "h": "#glosario/g-innatismo"
       },
       {
-       "t": "Glossaire : idées claires et distinctes",
+       "t": "Dictionnaire : idées claires et distinctes",
        "h": "#glosario/g-ideas-claras-y-distintas-dm"
       }
      ]
@@ -538,11 +538,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glossaire : impression",
+       "t": "Dictionnaire : impression",
        "h": "#glosario/g-impresion"
       },
       {
-       "t": "Glossaire : relations d'idées et questions de fait",
+       "t": "Dictionnaire : relations d'idées et questions de fait",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -572,11 +572,11 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glossaire : idée régulatrice",
+       "t": "Dictionnaire : idée régulatrice",
        "h": "#glosario/g-idea-regulativa"
       },
       {
-       "t": "Glossaire : catégorie",
+       "t": "Dictionnaire : catégorie",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -606,15 +606,15 @@ const PILARES = {
        "h": "#teoria/hf-sospecha"
       },
       {
-       "t": "Glossaire : dialectique",
+       "t": "Dictionnaire : dialectique",
        "h": "#glosario/g-dialectica"
       },
       {
-       "t": "Glossaire : dialectique matérialiste",
+       "t": "Dictionnaire : dialectique matérialiste",
        "h": "#glosario/g-dialectica-materialista"
       },
       {
-       "t": "Glossaire : idéalisme",
+       "t": "Dictionnaire : idéalisme",
        "h": "#glosario/g-fil-idealismo"
       }
      ]
@@ -670,7 +670,7 @@ const PILARES = {
      "limite": "Nous savons que venir avant ne suffit pas pour être une cause. Mais que se passe-t-il si deux choses vont toujours ensemble ?",
      "enl": [
       {
-       "t": "Glossaire : fausse cause",
+       "t": "Dictionnaire : fausse cause",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]
@@ -688,7 +688,7 @@ const PILARES = {
      "limite": "Nous savons ce qui ne suffit pas pour être une cause, mais pas encore ce qu'est une cause. Le premier philosophe à se poser sérieusement la question le fait depuis une prison.",
      "enl": [
       {
-       "t": "Glossaire : fausse cause",
+       "t": "Dictionnaire : fausse cause",
        "h": "#glosario/g-fil-causa-falsa"
       },
       {
@@ -752,11 +752,11 @@ const PILARES = {
        "h": "#universo"
       },
       {
-       "t": "Glossaire : les quatre causes",
+       "t": "Dictionnaire : les quatre causes",
        "h": "#glosario/g-las-cuatro-causas"
       },
       {
-       "t": "Glossaire : Moteur immobile",
+       "t": "Dictionnaire : Moteur immobile",
        "h": "#glosario/g-motor-inmovil"
       },
       {
@@ -790,7 +790,7 @@ const PILARES = {
        "h": "#teoria/hf-fe-razon"
       },
       {
-       "t": "Glossaire : cinq voies",
+       "t": "Dictionnaire : cinq voies",
        "h": "#glosario/g-cinco-vias"
       }
      ]
@@ -842,11 +842,11 @@ const PILARES = {
        "h": "#teoria/hf-racionalismo"
       },
       {
-       "t": "Glossaire : habitude",
+       "t": "Dictionnaire : habitude",
        "h": "#glosario/g-habito"
       },
       {
-       "t": "Glossaire : relations d'idées et questions de fait",
+       "t": "Dictionnaire : relations d'idées et questions de fait",
        "h": "#glosario/g-relaciones-de-ideas"
       }
      ]
@@ -876,7 +876,7 @@ const PILARES = {
        "h": "#teoria/hf-kant-juicios"
       },
       {
-       "t": "Glossaire : catégorie",
+       "t": "Dictionnaire : catégorie",
        "h": "#glosario/g-categoria"
       }
      ]
@@ -932,7 +932,7 @@ const PILARES = {
        "h": "#teoria/hf-siglo21"
       },
       {
-       "t": "Glossaire : fausse cause",
+       "t": "Dictionnaire : fausse cause",
        "h": "#glosario/g-fil-causa-falsa"
       }
      ]

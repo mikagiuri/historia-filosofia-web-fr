@@ -95,6 +95,83 @@ const LABSPZ = {
   "mundoTiempo": "De pratique : temps, durée et création",
   "mundoSpinoza": "Spinoza, Éthique I",
   "mundoReloj": "Le temps, défini",
+  "mundoAnt": "Les antinomies de Kant",
+  "ledeAnt": "Kant a montré dans la Critique de la raison pure (A426-461 / B454-489) que la raison, quand elle pense le monde comme un tout, se contredit  : sur le commencement du monde, le simple, la liberté et l’être nécessaire, elle peut prouver la thèse et aussi l’antithèse. Ici, chaque preuve est ramenée à ses prémisses  : chacune se démontre avec les siennes, et ce qui entre en conflit, ce sont les prémisses (coche-les toutes à la fois et tu le verras). Viennent ensuite les issues  : celle de Kant (dans les deux premières, la thèse et l’antithèse peuvent être fausses toutes les deux  ; dans les deux dernières, vraies toutes les deux) et une autre que Kant n’a pas prise, lâcher la prémisse de la thèse. À la fin, le débat sur les prémisses de Kant lui-même.",
+  "notaDefsAnt": "La table rend le squelette logique des antinomies, non l’idéalisme transcendantal de Kant. « La série est complète » se lit ici comme « il n’y a pas de régression à l’infini », comme dans les cinq voies : c’est une interprétation. Et comme la table ne cherche que des mondes finis, la régression sans fin et la division sans fin apparaissent comme des cercles ; les mondes infinis, c’est Isabelle qui les construit.",
+  "defsAnt": "Définitions",
+  "grupoA1": "1re : le commencement du monde",
+  "grupoA2": "2e : le simple",
+  "grupoA3": "3e : la liberté",
+  "grupoA4": "4e : l’être nécessaire",
+  "notaPieA": "On cherche des mondes d’au plus 4 choses et 4 instants. « Démontré dans Isabelle » signifie qu’Isabelle/HOL a vérifié la preuve avec ces prémisses (théories Antinomias_matematicas et Antinomias_dinamicas). Si l’on ne trouve pas de monde où la proposition échoue, cela ne démontre rien.",
+  "notaSinA": "Dans un monde fini, il y a toujours un premier instant, une première cause et une dernière partie. C’est pourquoi le monde sans commencement, la régression sans fin et la division sans fin ne tiennent pas dans la table : Isabelle les construit avec les entiers relatifs et les entiers naturels (modelo_antitesis1, modelo_antitesis2, modelo_antitesis3).",
+  "choqueIsa": "Isabelle démontre que ces prémisses entrent en conflit dans n’importe quel monde, y compris infini ({t}).",
+  "mundoCosmos": "De l'être au cosmos",
+  "ledeCosmos": "Parménide raisonne à partir de très peu de prémisses : ce qui est, est, et le non-être n'est pas. Il en tire que l'être ne naît pas, ne change pas et est un. Ici, la preuve est découpée en ses prémisses, et l'on voit laquelle fait tout le travail. Viennent ensuite ses héritiers, qui lâchent chacun une prémisse différente : les atomistes admettent le vide ; Mélissos, sans rien lâcher, fait un pas qui ne vaut pas ; et Platon, dans le Timée, scinde le problème en deux plans, ce qui est toujours et ce qui devient, et pose un artisan, le Démiurge.",
+  "notaDefsCosmos": "Ici, il y a des choses et des instants. « Est » se lit comme « il y a » : <code>ExisteEn(x, t)</code>, x est à l'instant t. <code>Claro(x, t)</code> tient lieu de n'importe quelle qualité susceptible de changer, comme la couleur éclatante du fragment B8. Les relations du <em>Timée</em> ne parlent pas du temps, sauf celle de commencer.",
+  "defsCosmos": "Définitions",
+  "grupoC1": "Parménide : l'être",
+  "grupoC2": "Les atomistes : le vide",
+  "grupoC3": "Mélissos : ce qui n'est pas engendré",
+  "grupoC4": "Le Démiurge du Timée",
+  "notaPieC": "On cherche des mondes d'au plus 4 choses et 3 instants. « Démontré dans Isabelle » signifie qu'Isabelle/HOL a vérifié la preuve avec ces prémisses (théories Parmenides_herederos et Timeo_demiurgo). Si l'on ne trouve aucun monde où la proposition échoue, cela ne démontre rien.",
+  "clSiempre": "est toujours",
+  "clVacio": "vide",
+  "lyHace": "fait",
+  "lyCopia": "est copie de",
+  "lyDobleC": "double cercle : ce qui est toujours, ou le vide",
+  "eDeviene": "devient",
+  "eVisible": "visible",
+  "eBello": "beau",
+  "eBueno": "bon",
+  "eGenerado": "engendré",
+  "ePrincipio": "avec un commencement",
+  "eClaro": "clair en {x}",
+  "eNuncaClaro": "n'est jamais clair",
+  "hClaro": "Quand chaque chose est claire",
+  "hVacio": "Le vide",
+  "hMeliso": "Génération et commencement",
+  "hDemiurgo": "Le Démiurge",
+  "fClaroV": "Instants où {a} est clair : {x}",
+  "fVacio": "{a} est vide",
+  "fGenerado": "{a} est engendré",
+  "fPrincipio": "{a} a un commencement",
+  "fCopia": "{a} est copie de {b}",
+  "fCopiaSi": "{a} est copie de soi",
+  "fSiempre": "{a} est toujours",
+  "fDeviene": "{a} devient",
+  "fVisible": "{a} est visible",
+  "fBello": "{a} est beau",
+  "fBueno": "{a} est bon",
+  "infinitoTxt": "Cela peut arriver, mais seulement dans un monde infini : la table, qui cherche des mondes d’au plus quatre choses, ne peut pas le construire. Isabelle, elle, le construit ({t}).",
+  "lyCausaInt": "est cause intelligible de",
+  "lyCond": "est condition de",
+  "lyFund": "est fondement intelligible de",
+  "lyDobleA": "double cercle : libre, inconditionné ou simple",
+  "clLibre": "libre",
+  "clIncond": "inconditionné",
+  "clSimple": "simple",
+  "eFen": "phénomène",
+  "eEnMundo": "dans le monde",
+  "eEspacio": "dans l’espace",
+  "hTiempoMundo": "Quand le monde existe",
+  "fMundoEn": "Le monde existe aux instants {x}",
+  "fMundoNunca": "Le monde n’existe à aucun instant",
+  "hPartes": "Parties",
+  "hCondiciones": "Conditions",
+  "fParteSi": "{a} est partie de soi-même",
+  "fCausaInt": "{a} est cause intelligible de {b}",
+  "fCausaIntSi": "{a} est cause intelligible de soi",
+  "fCond": "{a} est condition de {b}",
+  "fCondSi": "{a} est condition de soi",
+  "fFund": "{a} est fondement intelligible de {b}",
+  "fFundSi": "{a} est fondement de soi",
+  "fFen": "{a} est un phénomène",
+  "fEnMundo": "{a} est dans le monde",
+  "fEspacio": "{a} occupe un espace",
+  "tamTiempo": "Il existe une ligne de {k} qui satisfait toutes les prémisses cochées et sur laquelle la proposition échoue.",
+  "dibujoAriaT": "La ligne du temps : en couleur, les instants où le monde existe.",
+  "ejeMundo": "instants (en couleur, quand le monde existe)",
   "chocan": "Ces prémisses entrent en conflit entre elles : {x}. Retire-en une et réessaie : un autre groupe peut aussi entrer en conflit.",
   "chocanTodas": "Elles entrent toutes en conflit à la fois : si tu en retires une quelconque, les autres peuvent coexister.",
   "chocanFijas": "Elles entrent en conflit avec ce qui est fixé dans ce monde, même si tu ne coches aucune prémisse.",
@@ -986,6 +1063,58 @@ const LABSPZ = {
     "{1} existe à l'instant {2}",
     "{1} n'existe pas à l'instant {2}"
    ],
+   "Claro": [
+    "{1} est clair à l'instant {2}",
+    "{1} n'est pas clair à l'instant {2}"
+   ],
+   "Vacio": [
+    "{1} est vide",
+    "{1} n'est pas vide"
+   ],
+   "Generado": [
+    "{1} est engendré",
+    "{1} n'est pas engendré"
+   ],
+   "Principio": [
+    "{1} a un commencement",
+    "{1} n'a pas de commencement"
+   ],
+   "Siempre": [
+    "{1} fait partie de ce qui est toujours",
+    "{1} ne fait pas partie de ce qui est toujours"
+   ],
+   "Deviene": [
+    "{1} devient",
+    "{1} ne devient pas"
+   ],
+   "Visible": [
+    "{1} est visible et tangible",
+    "{1} n'est pas visible"
+   ],
+   "Bello": [
+    "{1} est beau",
+    "{1} n'est pas beau"
+   ],
+   "Bueno": [
+    "{1} est bon",
+    "{1} n'est pas bon"
+   ],
+   "Copia": [
+    "{1} est copie de {2}",
+    "{1} n'est pas copie de {2}"
+   ],
+   "cambia": [
+    "{1} change",
+    "{1} ne change pas"
+   ],
+   "siempreEs": [
+    "{1} est toujours",
+    "{1} n'est pas toujours"
+   ],
+   "comienza": [
+    "{1} commence",
+    "{1} ne commence pas"
+   ],
    "Antes": [
     "{1} a commencé avant {2}",
     "{1} n’a pas commencé avant {2}"
@@ -997,6 +1126,50 @@ const LABSPZ = {
    "Crea": [
     "{1} a créé {2}",
     "{1} n’a pas créé {2}"
+   ],
+   "Mundo": [
+    "le monde existe à l’instant {1}",
+    "le monde n’existe pas à l’instant {1}"
+   ],
+   "Parte": [
+    "{1} est une partie de {2}",
+    "{1} n’est pas une partie de {2}"
+   ],
+   "EnEspacio": [
+    "{1} occupe un espace",
+    "{1} n’occupe pas d’espace"
+   ],
+   "Fen": [
+    "{1} est un phénomène",
+    "{1} n’est pas un phénomène"
+   ],
+   "CausaInt": [
+    "{1} est cause intelligible de {2}",
+    "{1} n’est pas cause intelligible de {2}"
+   ],
+   "Cond": [
+    "{1} est condition de {2}",
+    "{1} n’est pas condition de {2}"
+   ],
+   "EnMundo": [
+    "{1} est dans le monde",
+    "{1} n’est pas dans le monde"
+   ],
+   "Fund": [
+    "{1} est fondement intelligible de {2}",
+    "{1} n’est pas fondement intelligible de {2}"
+   ],
+   "incondicionado": [
+    "{1} est inconditionné",
+    "{1} n’est pas inconditionné"
+   ],
+   "simple": [
+    "{1} est simple",
+    "{1} n’est pas simple"
+   ],
+   "compuesto": [
+    "{1} est composé",
+    "{1} n’est pas composé"
    ],
    "Mueve": [
     "{1} meut {2}",
@@ -1241,10 +1414,12 @@ const LABSPZ = {
     ]
    },
    {
-    "titulo": "Pourquoi il y a quatre mondes",
+    "titulo": "Pourquoi il y a six mondes",
     "parrafos": [
      "Celui de pratique est petit à dessein : trois relations que tout le monde comprend, pour en prendre le pli, même s'il laisse sans dire ce qu'est le temps. Celui du temps défini le dit : avec des instants, commencer avant, durer plus longtemps et survivre se définissent, et ce qui n'étaient que des prémisses devient des théorèmes. Celui de Spinoza formalise la partie I de l'<em>Éthique</em>. Là, les prémisses qui commencent par H_ sont celles que Spinoza juge évidentes et n'écrit pas : nous avons dû les ajouter pour que ses démonstrations fonctionnent. Si l'une d'elles te semble fausse, retire-la et regarde ce qui cesse de s'ensuivre.",
-     "Celui des cinq voies décompose les arguments de Thomas d'Aquin en leurs prémisses. Dans presque toutes les voies, la conclusion découle aussitôt d'une prémisse : celle qui interdit la régression à l'infini, le passage de « tout peut ne pas être » à « il y a eu un moment où il n'y avait rien », ou celle qui dit que ce qui ne connaît pas ne tend vers une fin que si quelqu'un le dirige. C'est là que se situe la discussion."
+     "Celui des cinq voies décompose les arguments de Thomas d'Aquin en leurs prémisses. Dans presque toutes les voies, la conclusion découle aussitôt d'une prémisse : celle qui interdit la régression à l'infini, le passage de « tout peut ne pas être » à « il y a eu un moment où il n'y avait rien », ou celle qui dit que ce qui ne connaît pas ne tend vers une fin que si quelqu'un le dirige. C'est là que se situe la discussion.",
+     "Celui des antinomies de Kant reprend les quatre contradictions de la raison quand elle pense le monde comme un tout  : le commencement, le simple, la liberté et l’être nécessaire. Chaque thèse et chaque antithèse se démontrent avec leur propre prémisse, et ce qui entre en conflit, ce sont les prémisses. Kant propose deux issues  : dans les deux premières, les deux parties peuvent être fausses  ; dans les deux dernières, vraies. Il y en a d’autres  : lâcher la prémisse de la thèse ou, avec Hegel, ne pas voir dans la contradiction une erreur. La table le vérifie avec de petits mondes, et Isabelle avec les mondes infinis.",
+     "Celui de Parménide et de ses héritiers, « De l'être au cosmos », suit une seule idée : devant le même argument, chaque école lâche une prémisse différente. Le saut de « n'être pas clair » à « n'être pas » donne à la fois l'un et l'immobile ; les atomistes lâchent « le vide n'est pas » ; Mélissos fait un pas qui ne vaut pas ; et Platon, dans le <em>Timée</em>, scinde le problème en deux plans et pose un artisan, le Démiurge."
     ]
    }
   ],
@@ -1301,8 +1476,781 @@ const LABSPZ = {
    "Passe au monde « Le temps, défini », propositions 5 et 6. En quoi survivre et durer plus longtemps diffèrent-ils ? Regarde les barres. Puis la 7 : pourquoi survivre ne suffit-il pas pour durer plus longtemps ?",
    "À la fin de la liste déroulante, « ✎ Écris ta propre proposition ». Écris en logique « celui qui crée quelque chose est incréé » et regarde si cela découle des prémisses. Sinon, quelle prémisse de ta part faudrait-il ? Ajoute-la dans « Tes prémisses ».",
    "Dans « Les cinq voies », proposition 1. Elle ne vient qu'avec « quelque chose se meut » et un contre-modèle apparaît : qu'est-ce qui échoue ? Coche « pas de régression à l'infini » et relance la preuve. Puis la 5 : où se trompe le passage « si tout peut ne pas être, il y a eu un moment où rien n'était » ?",
+   "Dans « De l'être au cosmos », proposition 2 : quelle prémisse fait tout le travail ? Retire-la et essaie la 3. Puis la 6, telle quelle : pourquoi ce que dit Mélissos ne s'ensuit-il pas ?",
+   "Dans « Les antinomies de Kant », proposition 8. Puis coche à la fois « La série des causes est complète » et « La loi naturelle » : que te dit la table ? Termine avec la 10 : comment les deux peuvent-elles coexister ?",
    "Passe au monde de Spinoza, proposition 5. Avec la prémisse cochée au départ, un contre-modèle apparaît, celui de Leibniz. Quelle prémisse manque et que dit-elle ?",
    "Proposition 14. Retire une à une les prémisses qu'a utilisées Isabelle. Laquelle te paraît la plus discutable ?"
+  ]
+ },
+ "antinomias": {
+  "defs": [
+   {
+    "id": "libre",
+    "origen": "Troisième antinomie",
+    "texto": "x est libre, au sens cosmologique : il commence de lui-même une série ; aucun état antérieur ne le détermine."
+   },
+   {
+    "id": "incondicionado",
+    "origen": "Quatrième antinomie",
+    "texto": "x est inconditionné, absolument nécessaire : son existence ne dépend d’aucune condition."
+   },
+   {
+    "id": "simple",
+    "origen": "Deuxième antinomie",
+    "texto": "x est simple : il n’a pas de parties."
+   },
+   {
+    "id": "compuesto",
+    "origen": "Deuxième antinomie",
+    "texto": "x est composé : il a au moins une partie."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "a1",
+    "nom": "1re : le commencement du monde"
+   },
+   {
+    "id": "a2",
+    "nom": "2e : le simple"
+   },
+   {
+    "id": "a3",
+    "nom": "3e : la liberté"
+   },
+   {
+    "id": "a4",
+    "nom": "4e : l’être nécessaire"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "T1_sintesis_completa",
+    "grupo": "a1",
+    "que": "La série des états passés du monde est complète : il n’y a pas de régression à l’infini vers le passé. C’est ainsi que la table lit la phrase de Kant « une série infinie ne peut s’achever par synthèse successive ». Dans un monde fini, comme ceux de la table, elle est toujours vérifiée."
+   },
+   {
+    "id": "A1_tiempo_sin_principio",
+    "grupo": "a1",
+    "que": "Le temps n’a pas de premier instant : avant chaque instant, il y en a un autre. Cela ne tient que dans un monde infini, que la table ne peut pas construire."
+   },
+   {
+    "id": "A1_tiempo_vacio_homogeneo",
+    "grupo": "a1",
+    "que": "Le temps vide est homogène : si le monde existe à un instant et qu’avant il n’y avait rien, rien ne distingue cet instant d’un instant vide antérieur, de sorte que le monde devrait exister aussi en celui-ci."
+   },
+   {
+    "id": "M1_hay_mundo",
+    "grupo": "a1",
+    "que": "Le monde existe à un instant au moins : c’est un tout donné dans le temps."
+   },
+   {
+    "id": "T2_division_acaba",
+    "grupo": "a2",
+    "que": "La division s’arrête : il n’y a pas de parties de parties sans fin. C’est ainsi que la table lit Kant : la composition n’est qu’une relation entre des substances, et si on la supprimait, il devrait rester quelque chose."
+   },
+   {
+    "id": "M_transitiva",
+    "grupo": "a2",
+    "que": "La partie d’une partie est partie du tout."
+   },
+   {
+    "id": "M_irreflexiva",
+    "grupo": "a2",
+    "que": "Rien n’est partie propre de soi-même."
+   },
+   {
+    "id": "A2_espacio_divisible",
+    "grupo": "a2",
+    "que": "Ce qui occupe un espace a des parties qui occupent aussi un espace : l’espace n’est pas fait de points, mais d’espaces."
+   },
+   {
+    "id": "M2_hay_espacio",
+    "grupo": "a2",
+    "que": "Quelque chose occupe un espace."
+   },
+   {
+    "id": "T3_serie_completa",
+    "grupo": "a3",
+    "que": "La série des causes de ce qui arrive est complète : il n’y a pas de régression à l’infini."
+   },
+   {
+    "id": "A3_ley_natural",
+    "grupo": "a3",
+    "que": "La loi naturelle : tout ce qui arrive a un état antérieur qui le détermine."
+   },
+   {
+    "id": "S3_ley_de_los_fenomenos",
+    "grupo": "a3",
+    "que": "La loi naturelle vaut pour les phénomènes : tout phénomène a une cause naturelle qui est aussi un phénomène."
+   },
+   {
+    "id": "T4_serie_completa",
+    "grupo": "a4",
+    "que": "La série des conditions d’existence est complète : il n’y a pas de régression à l’infini."
+   },
+   {
+    "id": "T4_condicion_en_el_tiempo",
+    "grupo": "a4",
+    "que": "Ce qui conditionne quelque chose qui est dans le temps est aussi dans le temps, dans le monde. La thèse et l’antithèse l’utilisent toutes les deux."
+   },
+   {
+    "id": "A4_ley_dinamica",
+    "grupo": "a4",
+    "que": "La loi dynamique : tout ce qui est dans le monde a une condition."
+   },
+   {
+    "id": "M4_hay_mundo",
+    "grupo": "a4",
+    "que": "Il y a un monde : quelque chose y existe."
+   },
+   {
+    "id": "S4_ley_en_el_mundo",
+    "grupo": "a4",
+    "que": "À l’intérieur du monde, toute chose a une condition qui est aussi dans le monde."
+   }
+  ],
+  "debate": {
+   "titulo": "Et si le problème, c’était les prémisses de Kant ?",
+   "parrafos": [
+    "La logique ne décide pas si la thèse et l’antithèse sont contradictoires ou contraires  : cela dépend d’une prémisse préalable, celle de savoir si « le monde » est un tout donné. Kant la résout avec sa propre philosophie, et cela ouvre plusieurs objections. Ici, on ne rend pas de verdict.",
+    "<b>Un cercle ?</b> Kant présente les antinomies comme une preuve indirecte de son idéalisme transcendantal  : si le monde était une chose en soi, la raison se contredirait (A506-507 / B534-535). Mais son issue suppose déjà que l’espace et le temps sont des formes de notre sensibilité, et c’est pourquoi le monde n’est jamais donné en entier. Si les antinomies se dissolvent grâce à l’idéalisme, peuvent-elles être en même temps une preuve indépendante de celui-ci ? H. E. Allison, dans <em>Kant's Transcendental Idealism</em> (1983), répond qu’une prémisse plus faible suffit  : le réaliste suppose que le monde est un tout donné en soi, et cette supposition conduit à elle seule à la contradiction.",
+    "<b>Pourquoi lâcher cette prémisse et pas une autre ?</b> Chaque conflit repose sur plusieurs prémisses, et la table permet de retirer n’importe laquelle. Kant lâche le monde donné. Celui qui lâche la prémisse de la thèse, « la série est complète », garde l’antithèse sans antinomie  : ce sont les propositions 4b, 7b, 10b et 14b, qu’Isabelle construit avec les entiers relatifs et les entiers naturels. C’est ce qu’ont vu, avec des raisons différentes, Schopenhauer, Cantor et Russell.",
+    "<b>Et si la contradiction n’était pas une erreur ?</b> G. W. F. Hegel, dans l’<em>Encyclopédie des sciences philosophiques</em> (§ 48), reproche à Kant trop de tendresse pour le monde  : il lui ôte la contradiction pour la mettre sur le dos de la raison. Pour Hegel, la contradiction est dans les choses mêmes, et il n’y a pas quatre antinomies, elles apparaissent dans tout concept. La logique classique de la table n’admet pas cette issue  : en elle, d’une contradiction découle n’importe quoi.",
+    "À réfléchir  : sur la table, quelle prémisse te semble la plus facile à lâcher dans chaque antinomie ? Est-ce la même dans les quatre ?"
+   ],
+   "tAntes": "Avant Kant",
+   "antes": [
+    "Zénon d’Élée (Ve siècle av. J.-C.)  : les paradoxes du mouvement et de la division sans fin, tels que les rapporte Aristote dans la <em>Physique</em> (livre VI).",
+    "Sextus Empiricus (IIe siècle), <em>Esquisses pyrrhoniennes</em>  : opposer à chaque raisonnement un autre de force égale (<em>isosthéneia</em>) et suspendre le jugement (<em>epokhḗ</em>).",
+    "Maïmonide, <em>Guide des égarés</em> (II, 15-25), et Thomas d’Aquin, <em>Somme théologique</em> (I, q. 46, a. 2) et <em>De l’éternité du monde</em>  : ni le commencement du monde ni son éternité ne peuvent se démontrer. Kant dira quelque chose de plus fort  : que les deux se démontrent.",
+    "P. Bayle, <em>Dictionnaire historique et critique</em> (1697), article « Zénon d’Élée »  : l’étendue ne peut être constituée ni de points, ni d’atomes étendus, ni de parties divisibles à l’infini. C’est presque la deuxième antinomie, mais Bayle conclut qu’il faut s’en remettre à la foi.",
+    "G. W. Leibniz et S. Clarke, <em>Correspondance</em> (1715-1716)  : le commencement du monde, l’espace absolu et la liberté. S. M. Al-Azm, dans <em>The Origins of Kant's Arguments in the Antinomies</em> (1972), soutient que Kant y a puisé une bonne partie de ses preuves."
+   ]
+  },
+  "props": [
+   {
+    "id": "K1T",
+    "parte": 1,
+    "nombre": "1. Le monde a un commencement (thèse)",
+    "cita": "Le monde a un commencement dans le temps et il est aussi enfermé dans des limites dans l’espace. (A426 / B454)",
+    "pregunta": "Le monde a un <b>commencement</b> dans le temps : il y a un instant où il existe et avant lequel il n’existait pas.",
+    "pasos": [
+     {
+      "txt": "Suppose que le monde n’ait pas de commencement : avant chaque état du monde, il y en a eu un autre.",
+      "k": "hip"
+     },
+     {
+      "txt": "Alors, jusqu’à maintenant, une série infinie d’états se serait écoulée, et une série infinie ne peut pas avoir été achevée.",
+      "k": "T1_sintesis_completa"
+     },
+     {
+      "txt": "Mais le monde existe. Conflit.",
+      "k": "M1_hay_mundo"
+     },
+     {
+      "txt": "Donc il a un commencement. Isabelle le démontre (tesis1), avec la synthèse complète lue comme « sans régression à l’infini ».",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T1_sintesis_completa": "Sans elle, le monde peut ne pas avoir de commencement, mais seulement dans un monde infini, comme les entiers relatifs : la table ne peut pas le construire (modelo_antitesis1). Dans un monde fini, il y a toujours un premier instant.",
+     "M1_hay_mundo": "Sans elle, il se peut qu’il n’y ait pas de monde, et alors pas non plus de commencement."
+    }
+   },
+   {
+    "id": "K1A",
+    "parte": 1,
+    "nombre": "2. Le monde n’a pas de commencement (antithèse)",
+    "cita": "Le monde n’a ni commencement ni limites dans l’espace, mais il est infini aussi bien dans le temps que dans l’espace. (A427 / B455)",
+    "pregunta": "Le monde n’a <b>pas de commencement</b> dans le temps.",
+    "pasos": [
+     {
+      "txt": "Suppose que le monde commence à un instant.",
+      "k": "hip"
+     },
+     {
+      "txt": "Avant cet instant, il y en a eu un autre : un temps vide.",
+      "k": "A1_tiempo_sin_principio"
+     },
+     {
+      "txt": "Mais dans le temps vide, aucun instant ne se distingue d’un autre : si le monde a commencé à celui-ci, il devrait exister aussi au précédent. Conflit.",
+      "k": "A1_tiempo_vacio_homogeneo"
+     },
+     {
+      "txt": "Donc le monde ne commence pas. Isabelle le démontre (antitesis1).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "A1_tiempo_sin_principio": "Sans elle, le temps peut avoir un premier instant, et le monde commencer à cet instant sans aucun temps vide avant.",
+     "A1_tiempo_vacio_homogeneo": "Sans elle, le monde peut commencer à un instant quelconque, après un temps vide."
+    }
+   },
+   {
+    "id": "K1D",
+    "parte": 1,
+    "nombre": "3. Si le monde est donné, ou bien il commence ou bien il ne commence pas",
+    "pregunta": "Si le monde existe comme un tout dans le temps, ou bien il <b>a un commencement</b> ou bien il <b>n’en a pas</b>.",
+    "prueba": "Le monde étant donné, « a un commencement » et « n’a pas de commencement » sont contradictoires : l’une des deux est vraie et l’autre fausse. C’est pourquoi Kant peut prouver chacune en réfutant l’autre : toutes ses preuves sont par réduction à l’absurde."
+   },
+   {
+    "id": "K1S",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4. Sans le monde donné, les deux tombent (l’issue de Kant)",
+    "pregunta": "Il se peut que le monde <b>n’ait ni commencement ni absence de commencement</b>.",
+    "nota": "Cela arrive si le monde n’est pas un tout donné dans le temps. C’est l’issue que propose Kant pour les antinomies mathématiques (A501-507 / B529-535)  : la thèse et l’antithèse ne sont pas contradictoires, mais contraires, comme « tout corps sent bon » et « tout corps sent mauvais », qui sont fausses toutes les deux si les corps n’ont pas d’odeur. Pour Kant, le monde n’est pas une chose en soi, mais une régression d’expériences qui n’est jamais donnée en entier. La table montre seulement la forme logique  : sans la présupposition, aucune des deux n’est vérifiée.",
+    "notaNo": "Le monde étant donné, cela ne peut pas arriver : c’est la proposition 3."
+   },
+   {
+    "id": "K1C",
+    "parte": 1,
+    "posible": true,
+    "nombre": "4b. Une autre issue  : un passé sans commencement",
+    "pregunta": "Il se peut que le monde existe et <b>n’ait pas de commencement</b>  : avant chaque état, il y en a eu un autre, sans fin.",
+    "nota": "C’est une issue que Kant n’a pas prise  : lâcher la prémisse de la thèse, « une série infinie ne peut s’être achevée ». Avec l’infini actuel de G. Cantor, un passé infini déjà écoulé ne renferme aucune contradiction, et l’antithèse reste sans rivale. B. Russell, dans <em>Our Knowledge of the External World</em> (1914, leçon VI), a soutenu que les preuves des thèses reposent sur une erreur au sujet de l’infini. Isabelle construit ce monde avec les entiers relatifs (modelo_antitesis1). Quelle prémisse faut-il lâcher, celle de la thèse ou celle du monde donné, la logique ne le décide plus.",
+    "notaNo": "Avec la prémisse de la thèse, cela ne peut pas arriver  : c’est la proposition 1."
+   },
+   {
+    "id": "K2T",
+    "parte": 2,
+    "nombre": "5. Tout composé se compose de parties simples (thèse)",
+    "cita": "Toute substance composée se compose dans le monde de parties simples, et il n’existe nulle part rien d’autre que le simple ou ce qui en est composé. (A434 / B462)",
+    "pregunta": "Tout composé a au moins une <b>partie simple</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose un composé sans aucune partie simple : chacune de ses parties a une autre partie, et cette autre encore une autre, sans fin.",
+      "k": "hip"
+     },
+     {
+      "txt": "Mais la division s’arrête : la composition n’est qu’une relation entre des substances, et si on la supprimait, il resterait quelque chose.",
+      "k": "T2_division_acaba"
+     },
+     {
+      "txt": "Le dernier terme auquel on parvient est partie du composé, parce que la partie d’une partie est partie.",
+      "k": "M_transitiva"
+     },
+     {
+      "txt": "Donc le composé a une partie simple. Isabelle le démontre (tesis2).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T2_division_acaba": "Sans elle, dans un monde fini, elle ne peut échouer que si quelque chose est partie de soi-même : la division sans fin, pour de bon, exige un monde infini (modelo_antitesis2).",
+     "M_transitiva": "Sans elle, le dernier terme auquel on parvient en divisant peut ne pas être partie du composé."
+    }
+   },
+   {
+    "id": "K2A",
+    "parte": 2,
+    "nombre": "6. Rien n’est simple (antithèse)",
+    "cita": "Aucune chose composée dans le monde ne se compose de parties simples, et il n’existe en lui rien de simple. (A435 / B463)",
+    "pregunta": "Rien de ce qui occupe un espace n’est <b>simple</b>.",
+    "prueba": "Tout ce qui est composé occupe un espace, et l’espace n’est pas fait de points, mais d’espaces : ce qui l’occupe a des parties les unes hors des autres, qui occupent aussi un espace. Rien en lui ne peut être simple. Isabelle le démontre (antitesis2).",
+    "leccion": {
+     "A2_espacio_divisible": "Sans elle, quelque chose dans l’espace peut être simple, comme un atome."
+    }
+   },
+   {
+    "id": "K2M",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7. Quelque chose de simple et un composé sans parties simples (les deux échouent)",
+    "pregunta": "Il peut y avoir quelque chose de simple et, en même temps, un composé qui <b>n’a aucune partie simple</b>.",
+    "nota": "Ce monde rend fausses la thèse et l’antithèse à la fois : ici non plus elles ne sont pas contradictoires, mais contraires, et plus nettement que dans la première, parce qu’il y a des composés. Pour Kant, la division d’un corps va seulement « à l’indéfini » : on n’arrive pas à des parties simples et il n’est pas non plus donné une infinité de parties (A523-527 / B551-555). Cela, la logique ne le vérifie plus."
+   },
+   {
+    "id": "K2C",
+    "parte": 2,
+    "posible": true,
+    "nombre": "7b. Une autre issue  : divisible sans fin",
+    "pregunta": "Il peut y avoir des composés et <b>rien de simple</b>  : chaque partie a à son tour des parties, sans fin.",
+    "nota": "Encore une fois, lâcher la prémisse de la thèse, « la division s’achève ». A. Schopenhauer, dans la « Critique de la philosophie kantienne » qu’il a ajoutée au <em>Monde comme volonté et comme représentation</em> (1819), soutient que dans les quatre antinomies seules valent les preuves des antithèses, et que celles des thèses sont des sophismes. Les mathématiques du continu, depuis Cantor et Dedekind, traitent sans contradiction un segment à une infinité de parties. Isabelle construit ce monde avec les entiers naturels (modelo_antitesis2).",
+    "notaNo": "Avec la prémisse de la thèse, cela ne peut pas arriver  : si la division s’achève, quelque chose est simple."
+   },
+   {
+    "id": "K3T",
+    "parte": 3,
+    "nombre": "8. Il y a une causalité par liberté (thèse)",
+    "cita": "La causalité selon les lois de la nature n’est pas la seule dont puissent dériver tous les phénomènes du monde. Pour les expliquer, il est nécessaire d’admettre en outre une causalité par liberté. (A444 / B472)",
+    "pregunta": "Il y a quelque chose de <b>libre</b> : il commence de lui-même une série, sans aucun état antérieur qui le détermine.",
+    "pasos": [
+     {
+      "txt": "Suppose que tout arrive seulement selon des lois naturelles : chaque état a un état antérieur qui le détermine.",
+      "k": "hip"
+     },
+     {
+      "txt": "Alors la série des causes n’a jamais de premier commencement.",
+      "k": "hip"
+     },
+     {
+      "txt": "Mais la série des causes doit être complète : rien n’arrive sans une cause suffisamment déterminée. Conflit.",
+      "k": "T3_serie_completa"
+     },
+     {
+      "txt": "Donc il y a une cause qui commence d’elle-même une série : une causalité par liberté. Isabelle le démontre (tesis3).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T3_serie_completa": "Sans elle, les causes peuvent aller en cercle, et tout événement a sa cause. Isabelle construit en outre la régression sans fin avec les entiers relatifs (modelo_antitesis3)."
+    }
+   },
+   {
+    "id": "K3A",
+    "parte": 3,
+    "nombre": "9. Tout arrive par des lois naturelles (antithèse)",
+    "cita": "Il n’y a pas de liberté, mais tout dans le monde arrive uniquement selon des lois de la nature. (A445 / B473)",
+    "pregunta": "Rien n’est <b>libre</b> : tout a un état antérieur qui le détermine.",
+    "prueba": "Une cause libre commencerait une série sans aucun état antérieur qui la détermine selon une loi. Cela rompt la loi de la causalité et, avec elle, l’unité de l’expérience. Isabelle le démontre (antitesis3).",
+    "leccion": {
+     "A3_ley_natural": "Sans elle, un événement peut commencer de lui-même."
+    }
+   },
+   {
+    "id": "K3S",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10. Liberté et nature, à la fois (l’issue de Kant)",
+    "pregunta": "Il peut y avoir quelque chose <b>qui n’est pas un phénomène</b>, de libre, qui soit cause intelligible des phénomènes, bien que chaque phénomène ait sa cause naturelle.",
+    "nota": "C’est l’issue que propose Kant pour les antinomies dynamiques (A532-558 / B560-586)  : l’antithèse vaut des phénomènes et la thèse de l’intelligible. Avec deux causalités distinctes, la naturelle entre phénomènes et l’intelligible venue du dehors, les deux peuvent coexister  : ici, elles ne sont pas fausses toutes les deux, comme dans les mathématiques, mais vraies toutes les deux. Dans un monde fini, la causalité naturelle entre phénomènes tourne en cercle  ; Isabelle la construit sans cercles, avec les entiers relatifs (solucion3). Que cette cause intelligible existe, la logique ne le décide pas  : elle montre seulement qu’il n’y a pas de contradiction.",
+    "notaNo": "Avec ces prémisses, cela ne peut pas arriver."
+   },
+   {
+    "id": "K3C",
+    "parte": 3,
+    "posible": true,
+    "nombre": "10b. Une autre issue  : des causes sans cause première",
+    "pregunta": "Il se peut que tout ait sa cause <b>sans cercles et sans cause première</b>  : une régression sans fin.",
+    "nota": "Lâcher la prémisse de la thèse, « la série des causes est complète », laisse l’antithèse seule  : tout arrive selon des lois naturelles et il n’est pas besoin d’une cause libre qui commence la série. Isabelle le construit avec les entiers relatifs (modelo_antitesis3). Savoir s’il reste alors une place pour la liberté humaine est une autre question, et la logique ne la décide pas.",
+    "notaNo": "Avec la prémisse de la thèse, cela ne peut pas arriver  : il y a quelque chose de libre (proposition 8)."
+   },
+   {
+    "id": "K4T",
+    "parte": 4,
+    "nombre": "11. Au monde appartient quelque chose de nécessaire (thèse)",
+    "cita": "Au monde appartient quelque chose qui, soit comme partie de lui, soit comme sa cause, est un être absolument nécessaire. (A452 / B480)",
+    "pregunta": "Dans le monde, il y a quelque chose d’<b>inconditionné</b>, d’absolument nécessaire.",
+    "pasos": [
+     {
+      "txt": "Suppose que tout ce qui est dans le monde ait une condition.",
+      "k": "hip"
+     },
+     {
+      "txt": "Mais la série des conditions est complète : il faut arriver à quelque chose d’inconditionné.",
+      "k": "T4_serie_completa"
+     },
+     {
+      "txt": "Ce qui conditionne quelque chose qui est dans le temps est dans le temps : l’inconditionné appartient au monde.",
+      "k": "T4_condicion_en_el_tiempo"
+     },
+     {
+      "txt": "Et il y a un monde. Conflit.",
+      "k": "M4_hay_mundo"
+     },
+     {
+      "txt": "Donc au monde appartient quelque chose d’absolument nécessaire. Isabelle le démontre (tesis4). Attention : de « chaque chose du monde a une condition », il ne suit pas que « le monde entier a une condition hors de lui ». C’est le pas de l’argument cosmologique que Kant critique, et pour le vérifier il faut parler d’ensembles de choses, en logique d’ordre supérieur (el_todo_no_tiene_condicion_exterior).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "T4_serie_completa": "Sans elle, les conditions peuvent aller en cercle, et rien dans le monde n’est inconditionné.",
+     "T4_condicion_en_el_tiempo": "Sans elle, l’inconditionné peut être hors du monde, et la thèse ne dit plus qu’il lui appartient.",
+     "M4_hay_mundo": "Sans elle, il se peut qu’il n’y ait pas de monde."
+    }
+   },
+   {
+    "id": "K4A",
+    "parte": 4,
+    "nombre": "12. Rien dans le monde n’est nécessaire (antithèse)",
+    "cita": "Il n’existe nulle part aucun être absolument nécessaire, ni dans le monde ni hors du monde comme sa cause. (A453 / B481)",
+    "pregunta": "Rien de ce qui est dans le monde n’est <b>inconditionné</b>.",
+    "prueba": "À l’intérieur du monde règne la loi dynamique : tout ce qui y est a une condition. Isabelle le démontre (antitesis4_en_el_mundo).",
+    "leccion": {
+     "A4_ley_dinamica": "Sans elle, quelque chose dans le monde peut ne pas avoir de condition."
+    }
+   },
+   {
+    "id": "K4F",
+    "parte": 4,
+    "nombre": "13. Rien hors du monde ne le conditionne (antithèse)",
+    "pregunta": "Rien de ce qui est <b>hors du monde</b> n’est condition de quelque chose du monde.",
+    "prueba": "Si quelque chose du dehors conditionnait quelque chose du monde, il commencerait une série dans le temps et serait donc dans le monde. C’est la même prémisse que celle qu’utilisait la thèse : « ce qui conditionne quelque chose dans le temps est dans le temps ». Isabelle le démontre (antitesis4_fuera).",
+    "leccion": {
+     "T4_condicion_en_el_tiempo": "Sans elle, quelque chose hors du monde peut conditionner quelque chose du monde."
+    }
+   },
+   {
+    "id": "K4S",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14. Un fondement hors du temps (l’issue de Kant)",
+    "pregunta": "Il peut y avoir quelque chose <b>hors du monde</b>, d’inconditionné, qui soit fondement intelligible de tout ce qui est dans le monde, bien qu’à l’intérieur du monde tout ait sa condition.",
+    "nota": "Kant n’applique pas la prémisse « ce qui conditionne quelque chose dans le temps est dans le temps » au fondement intelligible, parce que ce n’est pas une condition dans le temps. Ainsi la thèse, de l’intelligible, et l’antithèse, des phénomènes, peuvent coexister (A559-565 / B587-593). Que ce fondement existe, et que ce soit ce que la religion appelle Dieu, la logique ne le décide plus : Kant le laisse à la raison pratique. Isabelle construit le monde sans cercles (solucion4).",
+    "notaNo": "Avec ces prémisses, cela ne peut pas arriver."
+   },
+   {
+    "id": "K4C",
+    "parte": 4,
+    "posible": true,
+    "nombre": "14b. Une autre issue  : une chaîne sans être nécessaire",
+    "pregunta": "Il se peut que tout ce qui est dans le monde ait sa condition, que rien du dehors ne le conditionne et que <b>rien ne soit nécessaire</b>.",
+    "nota": "C’est l’objection de Cléanthe dans les <em>Dialogues sur la religion naturelle</em> de D. Hume (1779, partie IX)  : si chaque membre d’une chaîne éternelle a son explication, demander en plus la cause du tout est une question de trop. Il suffit de lâcher la prémisse de la thèse, « la série des conditions est complète ». Isabelle construit ce monde avec les entiers relatifs (modelo_antitesis4). Débat ouvert, sans verdict.",
+    "notaNo": "Avec la série complète, cela ne peut pas arriver  : quelque chose dans le monde serait inconditionné (salida4_con_serie_completa)."
+   }
+  ]
+ },
+ "cosmos": {
+  "defs": [
+   {
+    "id": "cambia",
+    "origen": "Parménide, B8",
+    "texto": "x change : il est clair à un instant et ne l'est pas à un autre."
+   },
+   {
+    "id": "siempreEs",
+    "origen": "Parménide, B8",
+    "texto": "x est toujours : il existe à tous les instants."
+   },
+   {
+    "id": "comienza",
+    "origen": "Timée, 28b",
+    "texto": "x commence : il existe à un instant et à aucun instant antérieur."
+   }
+  ],
+  "grupos": [
+   {
+    "id": "c1",
+    "nom": "Parménide : l'être"
+   },
+   {
+    "id": "c2",
+    "nom": "Les atomistes : le vide"
+   },
+   {
+    "id": "c3",
+    "nom": "Mélissos : ce qui n'est pas engendré"
+   },
+   {
+    "id": "c4",
+    "nom": "Le Démiurge du Timée"
+   }
+  ],
+  "premisas": [
+   {
+    "id": "P_no_ser",
+    "grupo": "c1",
+    "que": "Le non-être n'est pas : ce qui est, est à tout instant ; rien ne commence ni ne cesse d'être (B6, B8)."
+   },
+   {
+    "id": "P_salto_otro",
+    "grupo": "c1",
+    "que": "Être autre, c'est ne pas être : si x n'est pas y, alors x n'est pas. C'est lire « ne pas être y » comme « ne pas être » tout court."
+   },
+   {
+    "id": "P_salto_cambio",
+    "grupo": "c1",
+    "que": "Cesser d'être clair, c'est ne pas être : si x n'est pas clair à un instant, à cet instant x n'est pas."
+   },
+   {
+    "id": "P_sin_vacio",
+    "grupo": "c2",
+    "que": "Le vide n'est pas : rien n'est vide."
+   },
+   {
+    "id": "P_separa",
+    "grupo": "c2",
+    "que": "Deux étants ne se distinguent que s'il y a quelque chose de vide qui les sépare. C'est ainsi qu'Aristote lit les Éléates."
+   },
+   {
+    "id": "M_generado_principio",
+    "grupo": "c3",
+    "que": "Ce qui est engendré a un commencement."
+   },
+   {
+    "id": "M_no_generado",
+    "grupo": "c3",
+    "que": "L'être n'est pas engendré."
+   },
+   {
+    "id": "M_conversa",
+    "grupo": "c3",
+    "que": "Ce qui a un commencement est engendré. C'est la réciproque de la première, et Mélissos ne la dit pas."
+   },
+   {
+    "id": "D_dos_planos",
+    "grupo": "c4",
+    "que": "Rien n'est toujours et ne devient à la fois : ce sont deux plans (27d-28a)."
+   },
+   {
+    "id": "D_causa",
+    "grupo": "c4",
+    "que": "Tout ce qui devient devient par quelque cause (28a)."
+   },
+   {
+    "id": "D_visible",
+    "grupo": "c4",
+    "que": "Ce qui est visible et tangible devient (28b-c)."
+   },
+   {
+    "id": "D_bello",
+    "grupo": "c4",
+    "que": "Le visible, le cosmos, est beau (29a)."
+   },
+   {
+    "id": "D_hacedor_bueno",
+    "grupo": "c4",
+    "que": "Celui qui fait le visible est bon (29a)."
+   },
+   {
+    "id": "D_modelo",
+    "grupo": "c4",
+    "que": "Si ce qui est fait est beau et que celui qui le fait est bon, il l'a fait en regardant un modèle qui est toujours (29a)."
+   },
+   {
+    "id": "U_dos_copias",
+    "grupo": "c4",
+    "que": "S'il y avait deux copies du même modèle, chacune serait copie d'un autre modèle qui les embrasserait toutes deux (31a)."
+   },
+   {
+    "id": "U_un_modelo",
+    "grupo": "c4",
+    "que": "Chaque copie l'est d'un seul modèle, le complet (31b)."
+   },
+   {
+    "id": "L_literal",
+    "grupo": "c4",
+    "que": "Ce qui est fait commence à être. C'est ainsi qu'Aristote lit le « il est devenu » (<em>gégonen</em>) du Timée."
+   }
+  ],
+  "debate": {
+   "titulo": "Zénon, et ce que la logique ne tranche pas",
+   "parrafos": [
+    "<b>Zénon et la dichotomie.</b> Pour défendre Parménide, Zénon soutient que le mouvement est impossible : pour parcourir un stade, il faut d'abord en parcourir la moitié, et avant cela la moitié de ce qui reste, et ainsi sans fin (Aristote, <em>Physique</em>, VI 9, 239b11-14). La réponse mathématique moderne est que des moitiés infinies totalisent une distance finie : 1/2 + 1/4 + 1/8 + … = 1. Isabelle le démontre (dicotomia) ; la table ne le peut pas, car il faudrait un monde infini. Savoir si cela répond vraiment à Zénon, qui demandait comment s'achève une série sans fin, reste discuté : c'est la même question que la première antinomie de Kant.",
+    "<b>Quelle prémisse lâcher ?</b> Devant Parménide, chaque héritier en lâche une différente : les atomistes, « le vide n'est pas » ; Platon, le saut entre « n'être pas clair » et « n'être pas » ; Empédocle et Anaxagore, « rien ne change », qu'ils remplacent par le mélange et la séparation de ce qui est déjà. Aucun ne lâche « rien ne vient de rien ». La logique dit quelles prémisses s'opposent ; laquelle on lâche, c'est la philosophie qui le décide.",
+    "<b>Un récit vraisemblable.</b> Platon appelle sa cosmologie <em>eikṑs mŷthos</em>, un récit vraisemblable (29d). La table montre sa structure et quelles prémisses font le travail, non s'il est vrai. Débat ouvert, sans verdict.",
+    "À réfléchir : le Démiurge fait le cosmos, mais qui fait le Démiurge ? Quelle prémisse de la proposition 7 l'empêche ou le permet ?"
+   ]
+  },
+  "props": [
+   {
+    "id": "C1",
+    "parte": 1,
+    "nombre": "1. Rien ne change",
+    "cita": "Aussi ne sera-t-il que nom, tout ce que les mortels ont posé, persuadés que c'est vrai : naître et périr, être et ne pas être, changer de lieu et muer la couleur éclatante. (B8, 38-41)",
+    "pregunta": "Rien ne <b>change</b> : ce qui est clair l'est toujours, et ce qui n'est pas clair ne l'est jamais.",
+    "pasos": [
+     {
+      "txt": "Suppose que x est clair à un instant et ne l'est pas à un autre.",
+      "k": "hip"
+     },
+     {
+      "txt": "À l'instant où il n'est pas clair, x n'est pas : c'est le saut de « n'être pas clair » à « n'être pas ».",
+      "k": "P_salto_cambio"
+     },
+     {
+      "txt": "Mais le non-être n'est pas : x est à tout instant. Choc.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "Donc rien ne change. Isabelle le démontre (inmovil_mesa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_cambio": "Sans elle, quelque chose peut changer et continuer d'être : cesser d'être clair n'est pas cesser d'être. C'est l'issue de Platon dans le <em>Sophiste</em> (proposition 3).",
+     "P_no_ser": "Sans elle, quelque chose peut changer s'il cesse d'être quand il n'est pas clair. Parménide ne l'admettrait pas."
+    }
+   },
+   {
+    "id": "C2",
+    "parte": 1,
+    "nombre": "2. L'être est un",
+    "cita": "Il ne fut jamais ni ne sera, puisqu'il est maintenant, tout ensemble, un, continu. (B8, 5-6)",
+    "pregunta": "Tout est <b>la même chose</b> : il n'y a pas deux choses.",
+    "pasos": [
+     {
+      "txt": "Suppose deux choses distinctes, x et y.",
+      "k": "hip"
+     },
+     {
+      "txt": "x n'est pas y, et le saut dit qu'alors x n'est pas.",
+      "k": "P_salto_otro"
+     },
+     {
+      "txt": "Mais le non-être n'est pas. Choc.",
+      "k": "P_no_ser"
+     },
+     {
+      "txt": "Donc il n'y a qu'une seule chose. Isabelle le démontre (uno_mesa). Le même saut, appliqué à « être autre » et à « n'être pas clair », donne l'un et l'immobile : dans Isabelle, les deux cas découlent d'une seule prémisse d'ordre supérieur (salto_casos).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "P_salto_otro": "Sans elle, il peut y avoir beaucoup de choses : être autre n'est pas ne pas être.",
+     "P_no_ser": "Sans elle, il peut y avoir deux choses, mais aucune ne serait jamais."
+    }
+   },
+   {
+    "id": "C3",
+    "parte": 1,
+    "posible": true,
+    "nombre": "3. Beaucoup de choses qui changent, sans non-être (l'issue du Sophiste)",
+    "pregunta": "Il peut y avoir <b>deux choses</b> qui sont toujours, et l'une d'elles peut <b>changer</b>.",
+    "nota": "Cela arrive si l'on lâche le saut : « n'être pas clair » veut dire « être autre que clair », non « ne pas être du tout ». C'est ce que fait Platon dans le <em>Sophiste</em> (241d), quand il dit qu'il faut mettre à l'épreuve le raisonnement de « notre père Parménide » : le prétendu « parricide ». Que Parménide ait raisonné avec ce saut est une interprétation, défendue par plusieurs commentateurs, comme G. E. L. Owen, et contestée par d'autres. Isabelle construit ce monde (sin_el_salto).",
+    "notaNo": "Avec le saut, cela ne peut pas arriver : c'est la proposition 1."
+   },
+   {
+    "id": "C4",
+    "parte": 2,
+    "nombre": "4. Sans vide, ce qui est est un",
+    "cita": "Certains anciens ont cru que ce qui est est nécessairement un et immobile : le vide n'est pas, et il ne pourrait y avoir beaucoup de choses sans quelque chose qui les sépare. (Aristote, De la génération et de la corruption, I 8, 325a2-6)",
+    "pregunta": "Ce qui n'est pas vide est <b>une seule chose</b>.",
+    "prueba": "S'il y avait deux étants, quelque chose de vide les séparerait ; or le vide n'est pas. Isabelle le démontre (uno_sin_vacio). C'est un autre chemin vers l'un, sans le saut : celui de la lecture d'Aristote.",
+    "leccion": {
+     "P_sin_vacio": "Sans elle, il peut y avoir beaucoup d'étants avec le vide entre eux : c'est l'issue des atomistes (proposition 5).",
+     "P_separa": "Sans elle, deux étants peuvent être côte à côte sans rien entre eux."
+    }
+   },
+   {
+    "id": "C5",
+    "parte": 2,
+    "posible": true,
+    "nombre": "5. Beaucoup d'atomes et le vide (l'issue des atomistes)",
+    "cita": "Leucippe et son compagnon Démocrite disent que les éléments sont le plein et le vide, et appellent l'un l'être et l'autre le non-être ; c'est pourquoi ils disent aussi que l'être n'est pas plus que le non-être. (Aristote, Métaphysique, I 4, 985b4-8)",
+    "pregunta": "Il peut y avoir <b>deux étants</b> et du <b>vide</b>.",
+    "nota": "Les atomistes acceptent que deux étants ne se distinguent que par le vide, et lâchent « le vide n'est pas ». Ils conservent une autre prémisse de Parménide : rien ne vient de rien. Les atomes ne naissent ni ne périssent ; ils se déplacent seulement dans le vide. Isabelle construit ce monde (muchos_con_vacio) et un autre avec mouvement (atomistas).",
+    "notaNo": "Sans vide, cela ne peut pas arriver : c'est la proposition 4."
+   },
+   {
+    "id": "C6",
+    "parte": 3,
+    "nombre": "6. Ce qui n'est pas engendré n'a pas de commencement (Mélissos)",
+    "cita": "Puisqu'il n'est pas né, il est, et il était toujours et sera toujours, et il n'a ni commencement ni fin, mais il est infini. (Mélissos, B2)",
+    "pregunta": "Rien n'a de <b>commencement</b>.",
+    "pasos": [
+     {
+      "txt": "L'être n'est pas engendré.",
+      "k": "M_no_generado"
+     },
+     {
+      "txt": "Ce qui a un commencement est engendré. C'est la prémisse qu'il faut, et Mélissos ne la dit pas.",
+      "k": "M_conversa"
+     },
+     {
+      "txt": "Donc l'être n'a pas de commencement. Isabelle le démontre avec la réciproque (Meliso_con_la_conversa).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "M_conversa": "Sans elle, cela ne s'ensuit pas : quelque chose peut avoir un commencement sans avoir été engendré. C'est la faute que lui reproche Aristote (<em>Réfutations sophistiques</em>, 5, 167b13-20) : de « ce qui est engendré a un commencement », Mélissos passe à « ce qui n'est pas engendré n'en a pas », et c'est nier l'antécédent (falacia_de_Meliso).",
+     "M_no_generado": "Sans elle, quelque chose peut être engendré et avoir un commencement."
+    }
+   },
+   {
+    "id": "C7",
+    "parte": 4,
+    "nombre": "7. Le visible a un artisan",
+    "cita": "Tout ce qui devient devient nécessairement par quelque cause. (Timée, 28a)",
+    "pregunta": "Tout ce qui est <b>visible</b> a quelqu'un qui le <b>fait</b>.",
+    "pasos": [
+     {
+      "txt": "Prends quelque chose de visible.",
+      "k": "hip"
+     },
+     {
+      "txt": "Ce qui est visible et tangible devient.",
+      "k": "D_visible"
+     },
+     {
+      "txt": "Ce qui devient a une cause.",
+      "k": "D_causa"
+     },
+     {
+      "txt": "Donc le visible a un artisan, le Démiurge. Isabelle le démontre (hay_hacedor_mesa). C'est la même forme que la deuxième voie de Thomas, mais ici on ne dit pas que l'artisan soit un ni qu'il n'ait pas de cause.",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "D_visible": "Sans elle, quelque chose de visible peut ne pas devenir, et n'a pas besoin de cause.",
+     "D_causa": "Sans elle, quelque chose peut devenir sans cause."
+    }
+   },
+   {
+    "id": "C8",
+    "parte": 4,
+    "nombre": "8. Le cosmos copie un modèle éternel",
+    "cita": "Si ce cosmos est beau et que son artisan est bon, il est évident qu'il a regardé vers l'éternel. (Timée, 29a)",
+    "pregunta": "Tout ce qui est visible est fait <b>en regardant un modèle qui est toujours</b>.",
+    "prueba": "Le visible a un artisan (proposition 7). Le visible est beau et son artisan, bon ; et ce qui est beau, fait par quelqu'un de bon, copie un modèle éternel. Isabelle le démontre (modelo_eterno_mesa). Deux de ces prémisses ne sont pas de fait, mais de valeur : Platon ajoute qu'il n'est pas permis de penser autrement, ni de le dire.",
+    "leccion": {
+     "D_hacedor_bueno": "Sans elle, l'artisan peut ne pas être bon et ne copier aucun modèle éternel (sin_hacedor_bueno).",
+     "D_bello": "Sans elle, le visible peut ne pas être beau, et rien n'oblige à un modèle éternel.",
+     "D_modelo": "Sans elle, un artisan bon peut faire quelque chose de beau sans modèle.",
+     "D_causa": "Sans elle, le visible peut ne pas avoir d'artisan.",
+     "D_visible": "Sans elle, le visible peut ne pas devenir ni avoir d'artisan."
+    }
+   },
+   {
+    "id": "C9",
+    "parte": 4,
+    "nombre": "9. Le modèle ne devient pas",
+    "cita": "Qu'est-ce qui est toujours et n'a pas de génération, et qu'est-ce qui devient toujours et n'est jamais ? (Timée, 27d-28a)",
+    "pregunta": "Ce qui <b>est toujours</b> ne <b>devient</b> pas.",
+    "prueba": "Ce sont deux plans : ce qui est toujours et n'a pas de génération, et ce qui devient toujours et n'est jamais. Isabelle le démontre (el_modelo_no_deviene). C'est le coup de Platon face à Parménide : le non-changement vaut pour un plan, et le changement, pour l'autre. Kant fera quelque chose de semblable dans les antinomies dynamiques.",
+    "leccion": {
+     "D_dos_planos": "Sans elle, quelque chose peut être toujours et devenir à la fois : les plans se mêlent."
+    }
+   },
+   {
+    "id": "C10",
+    "parte": 4,
+    "nombre": "10. Il n'y a qu'un seul cosmos",
+    "cita": "Avons-nous bien dit qu'il y a un seul ciel, ou était-il plus juste de dire qu'il y en a beaucoup et d'infinis ? Un, s'il doit être fait d'après le modèle. (Timée, 31a)",
+    "pregunta": "Deux copies du même modèle sont <b>la même</b>.",
+    "pasos": [
+     {
+      "txt": "Suppose deux copies distinctes du même modèle.",
+      "k": "hip"
+     },
+     {
+      "txt": "Chacune serait copie d'un autre modèle qui les embrasserait toutes deux.",
+      "k": "U_dos_copias"
+     },
+     {
+      "txt": "Mais chaque copie l'est d'un seul modèle. Choc.",
+      "k": "U_un_modelo"
+     },
+     {
+      "txt": "Donc il n'y a qu'un seul cosmos. Isabelle le démontre (un_solo_cosmos_mesa). C'est un argument de régression, cousin du « troisième homme » du <em>Parménide</em> de Platon (132a-b).",
+      "k": "fin"
+     }
+    ],
+    "leccion": {
+     "U_dos_copias": "Sans elle, deux cosmos peuvent copier le même modèle (sin_dos_copias) : tout le poids de l'argument repose sur cette prémisse.",
+     "U_un_modelo": "Sans elle, une copie peut l'être de deux modèles à la fois."
+    }
+   },
+   {
+    "id": "C11",
+    "parte": 4,
+    "posible": true,
+    "nombre": "11. Fait et sans commencement (la lecture de Xénocrate)",
+    "pregunta": "Il peut y avoir quelque chose de <b>fait</b> qui existe et ne <b>commence</b> pas.",
+    "nota": "Ainsi lisaient le <em>Timée</em> Xénocrate puis les néoplatoniciens : « il est devenu » (<em>gégonen</em>) veut dire « il dépend d'une cause », non « il a commencé à un instant », et Platon le raconterait comme s'il avait commencé pour mieux l'enseigner. Aristote rejette cette lecture (<em>Du ciel</em>, I 10, 279b32-280a11). Un cosmos causé et éternel exige des instants infinis vers le passé : Isabelle le construit avec les entiers (lectura_dependencia). Compare avec Thomas d'Aquin, dans « Les cinq voies » : pour lui, la raison seule ne décide pas si le monde a commencé.",
+    "notaNo": "Avec la lecture littérale, cela ne peut pas arriver : ce qui est fait commence."
+   },
+   {
+    "id": "C12",
+    "parte": 4,
+    "posible": true,
+    "nombre": "12. Un commencement sans « avant » : le temps naît avec le cosmos",
+    "cita": "Le temps est donc né avec le ciel, afin que, nés ensemble, ils se dissolvent aussi ensemble, si jamais ils se dissolvent. (Timée, 38b)",
+    "pregunta": "Il peut y avoir quelque chose qui <b>commence</b> et pourtant <b>est toujours</b> : il n'y a aucun instant où il n'existait pas.",
+    "nota": "C'est la réponse de Platon : le temps est « image mobile de l'éternité » (37d) et naît avec le cosmos. Le cosmos a un premier instant, mais il n'y a pas de temps vide avant lui. Ainsi la lecture littérale est possible sans l'objection du temps vide : Platon lâche la prémisse A1_tiempo_sin_principio de la première antinomie de Kant. Augustin dira la même chose dans les <em>Confessions</em> (XI) : demander ce que Dieu faisait avant de créer n'a pas de sens, car il n'y avait pas d'avant. Isabelle le vérifie (tiempo_con_el_cosmos).",
+    "notaNo": "Avec ces prémisses, cela ne peut pas arriver."
+   }
   ]
  },
  "vias": {

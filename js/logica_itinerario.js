@@ -471,6 +471,14 @@ const LOG_ITIN = {
      "h": "#logica/spinoza"
     },
     {
+     "t": "Laboratoire, « Spinoza », monde « Les antinomies de Kant »  : thèse, antithèse, l’issue de Kant et d’autres",
+     "h": "#logica/spinoza"
+    },
+    {
+     "t": "Laboratoire, « Spinoza », monde « De l'être au cosmos » : Parménide, ses héritiers et le Démiurge",
+     "h": "#logica/spinoza"
+    },
+    {
      "t": "Les cinq voies et leurs origines",
      "h": "#teoria/hf-cinco-vias"
     }

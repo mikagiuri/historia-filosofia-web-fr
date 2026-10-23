@@ -350,7 +350,7 @@ const LOG_ITIN = {
      "h": "#logica/relaciones"
     },
     {
-     "t": "Laboratoire, « Spinoza » : la carte des propriétés de la révision",
+     "t": "Laboratoire, « Mondes possibles » : la carte des propriétés de la révision",
      "h": "#logica/spinoza"
     }
    ],
@@ -416,15 +416,15 @@ const LOG_ITIN = {
    "meta": "ce qu’est un assistant de preuve, chercher des contre-modèles et retirer des prémisses pour voir lesquelles sont nécessaires, et écrire tes propres propositions et prémisses.",
    "pasos": [
     {
-     "t": "Laboratoire, « Spinoza » : « À propos d’Isabelle, et merci »",
+     "t": "Laboratoire, « Mondes possibles » : « À propos d'Isabelle, et merci »",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratoire, « Spinoza », monde d’entraînement : temps, durée et création",
+     "t": "Laboratoire, « Mondes possibles », théorie de pratique : temps, durée et création",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratoire, « Spinoza », monde « Le temps, défini »",
+     "t": "Laboratoire, « Mondes possibles », théorie « Le temps, défini »",
      "h": "#logica/spinoza"
     },
     {
@@ -438,10 +438,10 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Comprendre ce que fait un assistant de démonstration, utiliser le chercheur de contre-modèles pour voir quelles prémisses sont nécessaires et écrire ses propres propositions.",
     "rec": [
-     "Table « Spinoza », « À propos d'Isabelle, et merci » : ce qu'Isabelle vérifie et ce qu'elle ne vérifie pas.",
-     "Monde de pratique : le « parcours pour commencer » de la table, dans l'ordre.",
-     "Monde « Le temps, défini » : les propositions 9 et 10.",
-     "« ✎ Écris ta propre proposition » dans l'un ou l'autre des deux mondes."
+     "Table « Mondes possibles », « À propos d'Isabelle, et merci » : ce qu'Isabelle vérifie et ce qu'elle ne vérifie pas.",
+     "Théorie de pratique : le « parcours pour commencer » de la table, dans l'ordre.",
+     "Théorie « Le temps, défini » : les propositions 9 et 10.",
+     "« ✎ Écris ta propre proposition » dans l'une ou l'autre des deux théories."
     ],
     "preg": [
      "Dans le monde de pratique, proposition 2 : appuie sur « Cela s'ensuit-il ? » telle qu'elle est. Quelle prémisse manque ? Ajoute-la et essaie de nouveau.",
@@ -467,15 +467,15 @@ const LOG_ITIN = {
    "meta": "séparer un argument célèbre en ses prémisses, voir laquelle fait le travail à chaque étape et où les objections mettent le doigt.",
    "pasos": [
     {
-     "t": "Laboratoire, « Spinoza », monde « Les cinq voies »",
+     "t": "Laboratoire, « Mondes possibles », théorie « Les cinq voies »",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratoire, « Spinoza », monde « Les antinomies de Kant »  : thèse, antithèse, l’issue de Kant et d’autres",
+     "t": "Laboratoire, « Mondes possibles », théorie « Les antinomies de Kant » : thèse, antithèse, l'issue de Kant et d'autres",
      "h": "#logica/spinoza"
     },
     {
-     "t": "Laboratoire, « Spinoza », monde « De l'être au cosmos » : Parménide, ses héritiers et le Démiurge",
+     "t": "Laboratoire, « Mondes possibles », théorie « De l'être au cosmos » : Parménide, ses héritiers et le Démiurge",
      "h": "#logica/spinoza"
     },
     {
@@ -490,7 +490,7 @@ const LOG_ITIN = {
     "obj": "Séparer un argument célèbre en ses prémisses, voir laquelle fait le travail à chaque pas et où les objections mettent le doigt, sans rendre de verdict sur la question de fond.",
     "rec": [
      "Lis l'exploration « Les cinq voies et leurs origines ».",
-     "Table « Spinoza », monde « Les cinq voies » : chaque voie avec ses prémisses.",
+     "Table « Mondes possibles », théorie « Les cinq voies » : chaque voie avec ses prémisses.",
      "Propositions 5 et 9 : cherche leurs contre-modèles.",
      "La note sur les causes « par soi » et le temps, en bas des définitions."
     ],
@@ -518,7 +518,7 @@ const LOG_ITIN = {
    "meta": "lire la Partie I de l’Éthique comme un système, découvrir les prémisses que l’auteur n’écrit pas, voir lesquelles sont superflues et lesquelles s’opposent, et comprendre ce que signifie qu’un programme vérifie une œuvre entière.",
    "pasos": [
     {
-     "t": "Laboratoire, « Spinoza », monde « Spinoza, Éthique I » : couches, « Une prémisse est-elle superflue ? » et « Écris ta propre proposition »",
+     "t": "Laboratoire, « Mondes possibles », théorie « Spinoza, Éthique I » : couches, « Une prémisse est-elle superflue ? » et « Écris ta propre proposition »",
      "h": "#logica/spinoza"
     }
    ],
@@ -528,7 +528,7 @@ const LOG_ITIN = {
    "guia": {
     "obj": "Lire la Partie I de l'Éthique comme un système, découvrir les prémisses que Spinoza n'écrit pas, voir lesquelles sont superflues et lesquelles se heurtent, et comprendre ce que signifie qu'un programme vérifie une œuvre entière.",
     "rec": [
-     "Table « Spinoza », monde « Spinoza, Éthique I » : commence par la première couche.",
+     "Table « Mondes possibles », théorie « Spinoza, Éthique I » : commence par la première couche.",
      "Choisis une proposition et appuie sur « Une prémisse est-elle superflue ? ».",
      "Cherche une prémisse qui commence par H_ (celles que Spinoza n'écrit pas) et lis-la tranquillement.",
      "« ✎ Écris ta propre proposition » avec les termes de l'Éthique."

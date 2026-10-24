@@ -3,301 +3,301 @@ const GEN_TESIS = {
  "tesis": [
   {
    "id": "her-flujo",
-   "ilustre": "heraclito",
+   "biografia": "heraclito",
    "t": "Tout s'écoule : on ne peut pas se baigner deux fois dans le même fleuve.",
    "ref": "Fragment DK 22 B 91 (Plutarque) ; « tout s'écoule » (panta rhei) est la formule par laquelle la tradition le résume",
    "forma": "formule traditionnelle"
   },
   {
    "id": "par-ser",
-   "ilustre": "parmenides",
+   "biografia": "parmenides",
    "t": "L'être est et le non-être n'est pas : le changement et la multiplicité sont apparence.",
    "ref": "Poème, fragments DK 28 B 2 et B 8",
    "forma": "paraphrase"
   },
   {
    "id": "pro-medida",
-   "ilustre": "protagoras",
+   "biografia": "protagoras",
    "t": "L'homme est la mesure de toutes choses.",
    "ref": "Fragment DK 80 B 1, cité par Platon, Théétète 152a",
    "forma": "littéral"
   },
   {
    "id": "soc-examen",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "Une vie sans examen ne vaut pas d'être vécue.",
    "ref": "Platon, Apologie de Socrate 38a",
    "forma": "littéral"
   },
   {
    "id": "soc-virtud",
-   "ilustre": "socrates",
+   "biografia": "socrates",
    "t": "Nul ne fait le mal sciemment : la vertu est connaissance.",
    "ref": "Platon, Protagoras 345d-e et 358c-d (intellectualisme moral)",
    "forma": "paraphrase"
   },
   {
    "id": "pla-ideas",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Les Idées, éternelles et immuables, sont la véritable réalité ; le sensible n'en est qu'une copie.",
    "ref": "La République VII 514a-517c (la caverne) ; Phédon 74a-75d",
    "forma": "paraphrase"
   },
   {
    "id": "pla-anam",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Connaître, c'est se ressouvenir de ce que l'âme a contemplé avant de naître.",
    "ref": "Ménon 81c-d ; Phédon 72e-76e (anamnèse)",
    "forma": "paraphrase"
   },
   {
    "id": "pla-rey",
-   "ilustre": "platon",
+   "biografia": "platon",
    "t": "Il n'y aura pas de fin aux maux des cités tant que les philosophes ne gouverneront pas ou que les gouvernants ne philosopheront pas.",
    "ref": "La République V 473c-d",
    "forma": "paraphrase"
   },
   {
    "id": "ari-forma",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Il n'y a pas d'Idées séparées : la forme est dans les choses mêmes, unie à la matière.",
    "ref": "Métaphysique I 9 (990b-991b) et VII",
    "forma": "paraphrase"
   },
   {
    "id": "ari-exp",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "Toute connaissance commence par la perception sensible : d'elle naissent la mémoire et l'expérience.",
    "ref": "Métaphysique I 1 (980a-981a) ; Seconds Analytiques II 19 (100a)",
    "forma": "paraphrase"
   },
   {
    "id": "ari-habito",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "La vertu éthique ne s'enseigne pas comme une science : elle s'acquiert par l'habitude, en la pratiquant.",
    "ref": "Éthique à Nicomaque II 1 (1103a14-b25)",
    "forma": "paraphrase"
   },
   {
    "id": "ari-polis",
-   "ilustre": "aristoteles",
+   "biografia": "aristoteles",
    "t": "L'être humain est par nature un animal politique.",
    "ref": "Politique I 2 (1253a2-3)",
    "forma": "littéral"
   },
   {
    "id": "epi-placer",
-   "ilustre": "epicuro",
+   "biografia": "epicuro",
    "t": "Le plaisir est le principe et la fin de la vie bienheureuse.",
    "ref": "Lettre à Ménécée 128-129",
    "forma": "littéral"
   },
   {
    "id": "agu-interior",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Ne va pas au dehors, rentre en toi-même : c'est dans l'homme intérieur qu'habite la vérité.",
    "ref": "De la vraie religion 39, 72",
    "forma": "littéral"
   },
   {
    "id": "agu-creer",
-   "ilustre": "agustin",
+   "biografia": "agustin",
    "t": "Crois pour comprendre et comprends pour croire.",
    "ref": "Sermon 43, 7, 9",
    "forma": "paraphrase"
   },
   {
    "id": "tom-armonia",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "La raison et la foi ne peuvent pas se contredire, car toutes deux viennent de Dieu.",
    "ref": "Somme contre les Gentils I 7",
    "forma": "paraphrase"
   },
   {
    "id": "tom-vias",
-   "ilustre": "tomas",
+   "biografia": "tomas",
    "t": "L'existence de Dieu se démontre à partir de ses effets dans le monde sensible (les cinq voies).",
    "ref": "Somme théologique I, q. 2, a. 3",
    "forma": "paraphrase"
   },
   {
    "id": "ock-navaja",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Il ne faut pas multiplier les entités sans nécessité.",
    "ref": "« Rasoir d'Ockham » ; dans ses œuvres : « il ne faut pas poser la pluralité sans nécessité » (Ordinatio I, d. 30, q. 1)",
    "forma": "formule traditionnelle"
   },
   {
    "id": "ock-univ",
-   "ilustre": "ockham",
+   "biografia": "ockham",
    "t": "Les universaux n'existent pas hors de l'esprit : ce sont des signes qui signifient de nombreuses choses singulières.",
    "ref": "Somme de logique I 14-15",
    "forma": "paraphrase"
   },
   {
    "id": "des-cogito",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "Je pense, donc je suis.",
    "ref": "Discours de la méthode IV (AT VI 32)",
    "forma": "littéral"
   },
   {
    "id": "des-innatas",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "Il y a des idées innées, comme celle de Dieu, qui ne viennent pas des sens.",
    "ref": "Méditations métaphysiques III (AT VII 37-38 et 51)",
    "forma": "paraphrase"
   },
   {
    "id": "des-dual",
-   "ilustre": "descartes",
+   "biografia": "descartes",
    "t": "L'âme et le corps sont deux substances distinctes : l'une pense et l'autre est étendue.",
    "ref": "Méditations métaphysiques VI (AT VII 78)",
    "forma": "paraphrase"
   },
   {
    "id": "hob-guerra",
-   "ilustre": "hobbes",
+   "biografia": "hobbes",
    "t": "Sans un pouvoir commun qui les tienne en respect, les hommes vivent dans une guerre de tous contre tous, et la vie est solitaire, misérable, désagréable, brutale et brève.",
    "ref": "Léviathan I 13",
    "forma": "paraphrase"
   },
   {
    "id": "loc-tabla",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "Il n'y a pas d'idées innées : au départ, l'esprit est comme une feuille blanche, et tout lui vient de l'expérience.",
    "ref": "Essai sur l'entendement humain I et II 1, § 2",
    "forma": "paraphrase"
   },
   {
    "id": "loc-resistir",
-   "ilustre": "locke",
+   "biografia": "locke",
    "t": "Le gouvernement existe pour protéger la vie, la liberté et la propriété ; s'il les viole, le peuple peut lui résister.",
    "ref": "Second traité du gouvernement civil §§ 123-131 et 222",
    "forma": "paraphrase"
   },
   {
    "id": "hum-impr",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "Toutes nos idées sont des copies d'impressions.",
    "ref": "Enquête sur l'entendement humain, section II",
    "forma": "paraphrase"
   },
   {
    "id": "hum-causa",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "La connexion nécessaire entre la cause et l'effet ne se perçoit pas : nous l'attendons par habitude.",
    "ref": "Enquête sur l'entendement humain, sections V et VII",
    "forma": "paraphrase"
   },
   {
    "id": "hum-esclava",
-   "ilustre": "hume",
+   "biografia": "hume",
    "t": "La raison est, et ne doit être, que l'esclave des passions.",
    "ref": "Traité de la nature humaine II, 3, 3",
    "forma": "littéral"
   },
   {
    "id": "rou-bueno",
-   "ilustre": "rousseau",
+   "biografia": "rousseau",
    "t": "L'être humain est bon par nature : la société le corrompt.",
    "ref": "Formule qui résume le Discours sur l'origine de l'inégalité et le début de l'Émile (« tout dégénère entre les mains de l'homme »)",
    "forma": "formule traditionnelle"
   },
   {
    "id": "kan-sapere",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Les Lumières, c'est la sortie de l'homme hors de l'état de minorité : aie le courage de te servir de ton propre entendement !",
    "ref": "Réponse à la question : qu'est-ce que les Lumières ? (1784), AA VIII 35",
    "forma": "littéral"
   },
   {
    "id": "kan-exp",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Si toute notre connaissance débute avec l'expérience, cela ne prouve pas qu'elle dérive toute de l'expérience.",
    "ref": "Critique de la raison pure, Introduction, B 1",
    "forma": "littéral"
   },
   {
    "id": "kan-ley",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Agis seulement d'après la maxime grâce à laquelle tu peux vouloir en même temps qu'elle devienne une loi universelle.",
    "ref": "Fondements de la métaphysique des mœurs, AA IV 421",
    "forma": "littéral"
   },
   {
    "id": "kan-mentir",
-   "ilustre": "kant",
+   "biografia": "kant",
    "t": "Il n'est pas permis de mentir, pas même à l'assassin qui demande où se cache ton ami.",
    "ref": "D'un prétendu droit de mentir par humanité (1797), AA VIII 425-430",
    "forma": "paraphrase"
   },
   {
    "id": "mil-util",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "Les actions sont bonnes dans la mesure où elles tendent à accroître le bonheur, et mauvaises si elles produisent le contraire.",
    "ref": "L'utilitarisme, chap. II",
    "forma": "paraphrase"
   },
   {
    "id": "mil-socrates",
-   "ilustre": "mill",
+   "biografia": "mill",
    "t": "Il vaut mieux être un Socrate insatisfait qu'un imbécile satisfait.",
    "ref": "L'utilitarisme, chap. II",
    "forma": "littéral"
   },
   {
    "id": "mar-conciencia",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "Ce n'est pas la conscience qui détermine l'être, mais l'être social qui détermine la conscience.",
    "ref": "Contribution à la critique de l'économie politique (1859), Préface",
    "forma": "littéral"
   },
   {
    "id": "mar-tesis",
-   "ilustre": "marx",
+   "biografia": "marx",
    "t": "Les philosophes n'ont fait qu'interpréter le monde de différentes manières, ce qui importe, c'est de le transformer.",
    "ref": "Thèses sur Feuerbach, XI",
    "forma": "littéral"
   },
   {
    "id": "nie-dios",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Dieu est mort, et c'est nous qui l'avons tué.",
    "ref": "Le Gai Savoir § 125 (« L'insensé »)",
    "forma": "littéral"
   },
   {
    "id": "nie-fabula",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Le « monde vrai » est une fable : il n'y a pas d'autre monde derrière celui où nous vivons.",
    "ref": "Crépuscule des idoles, « Comment le “monde vrai” finit par devenir une fable »",
    "forma": "paraphrase"
   },
   {
    "id": "nie-socrates",
-   "ilustre": "nietzsche",
+   "biografia": "nietzsche",
    "t": "Socrate est un symptôme de décadence : opposer la raison aux instincts, c'est tomber malade.",
    "ref": "Crépuscule des idoles, « Le problème de Socrate »",
    "forma": "paraphrase"
   },
   {
    "id": "ort-circ",
-   "ilustre": "ortega",
+   "biografia": "ortega",
    "t": "Je suis moi et ma circonstance, et si je ne la sauve pas, je ne me sauve pas moi-même.",
    "ref": "Méditations du Quichotte (1914), « Lecteur… »",
    "forma": "littéral"
   },
   {
    "id": "sar-exist",
-   "ilustre": "sartre",
+   "biografia": "sartre",
    "t": "L'existence précède l'essence : l'être humain n'est rien d'autre que ce qu'il se fait.",
    "ref": "L'existentialisme est un humanisme (1946)",
    "forma": "littéral"
   },
   {
    "id": "bea-mujer",
-   "ilustre": "beauvoir",
+   "biografia": "beauvoir",
    "t": "On ne naît pas femme : on le devient.",
    "ref": "Le Deuxième Sexe, vol. II, première partie, chap. I",
    "forma": "littéral"

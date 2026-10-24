@@ -1,5 +1,5 @@
-// Generado por web_i18n/i18n_rebuild.js (fr) a partir de web/js/glosario.js. No editar a mano: editar la memoria tm/fr.json y regenerar.
-const GLOSARIO = [
+// Generado por web_i18n/i18n_rebuild.js (fr) a partir de web/js/diccionario.js. No editar a mano: editar la memoria tm/fr.json y regenerar.
+const DICCIONARIO = [
  {
   "subject": "hf",
   "imp": 5,
@@ -12,7 +12,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Condition ou structure qui vaut avant l'expérience concrète ; cela ne signifie pas que ce soit le contenu d'une idée innée.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -28,7 +28,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Le processus par lequel l'entendement, partant des choses particulières, distingue la forme ou structure générale.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -44,7 +44,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "La puissance est la possibilité d'être ; l'acte, l'état dans lequel cette possibilité est réalisée. Le changement se comprend comme passage de l'une à l'autre.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -60,7 +60,7 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "État de celui qui sait ce qu'il doit faire, mais cède au désir et agit contre son propre jugement ; ensuite, il le regrette. Pour Aristote, il montre, face à l'intellectualisme socratique, que savoir le bien ne suffit pas pour le faire.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -76,7 +76,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "Avec le désir, ce sont les affects fondamentaux : la joie est le passage à une plus grande perfection ou puissance d'agir ; la tristesse, le passage à une moindre (*Éthique* III, prop. 11, scolie). L'amour est une joie accompagnée de l'idée d'une cause extérieure, et la haine, une tristesse accompagnée de cette idée (prop. 13, scolie).",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -92,7 +92,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Le travailleur devient étranger à son produit, à son activité de travail, aux autres et à sa capacité créatrice.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -108,7 +108,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La partie inférieure de l'âme : les désirs et les appétits du corps (manger, boire, le plaisir, l'argent). Elle a son siège dans le ventre et sa vertu est la tempérance.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -124,7 +124,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La partie de l'âme qui éprouve le cœur, le courage et l'indignation ; si elle obéit à la raison, elle l'aide à dominer les désirs. Elle a son siège dans la poitrine et sa vertu est le courage.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -140,7 +140,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La partie supérieure de l'âme selon Platon (*République* IV) : elle pense, connaît les Idées et doit gouverner les deux autres. Elle a son siège dans la tête et sa vertu est la sagesse.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -169,7 +169,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Connaître, c'est se souvenir : l'âme, qui a contemplé les Idées avant de s'unir au corps, s'en souvient lorsque le sensible lui en donne l'occasion. Platon l'expose dans le *Ménon* (l'esclave qui découvre un théorème de géométrie rien qu'avec des questions) et dans le *Phédon*.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -224,7 +224,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Le conflit qui surgit lorsque la raison veut démontrer des affirmations opposées sur le monde entier au-delà de la limite de l'expérience.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -253,7 +253,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "Les auteurs qui ont défendu le christianisme primitif. Ils n'ont pas seulement prêché la foi : ils ont voulu l'expliquer par des raisons, face aux accusations de l'empire et à la philosophie classique.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -308,7 +308,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "L'idée du Dieu parfait contient en elle l'existence : une perfection ne peut pas manquer d'existence. Par conséquent, Dieu existe par sa propre définition.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -376,7 +376,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Que le sujet rationnel agisse selon le principe qu'il peut se donner à lui-même comme loi universelle.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -392,7 +392,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Le mal ne naît pas toujours d'une intention malveillante ; il est parfois la conséquence du renoncement à penser. Eichmann en est l'exemple classique : amoureux de la bureaucratie, obéissance aveugle.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -408,7 +408,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "Le bonheur le plus haut, qui naît de la connaissance de Dieu ou de la Nature et de l'amour intellectuel que cette connaissance produit. Ce n'est pas la récompense de la vertu, mais la vertu elle-même (*Éthique* V, prop. 42).",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -436,7 +436,7 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Le féminisme",
   "def": "Pour Nussbaum, les capacités sont les possibilités qu'une personne peut réellement faire et être. La justice ne consiste pas seulement à reconnaître des droits ; elle consiste aussi à garantir les conditions pour les rendre réels.",
-  "ilustre": [
+  "biografia": [
    "nussbaum"
   ]
  },
@@ -452,7 +452,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Concept pur de l'entendement ; il ne vient pas de l'expérience, mais il est nécessaire pour penser l'expérience comme objective.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -468,7 +468,7 @@ const GLOSARIO = [
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
   "def": "Les cinq arguments par lesquels Thomas d'Aquin veut démontrer a posteriori que Dieu existe. Ils partent de faits du monde (le mouvement, les causes, la contingence, les degrés de perfection et l'ordre), montrent qu'ils dépendent d'un autre et concluent qu'il faut un premier fondement : premier moteur, cause première, être nécessaire, être souverainement parfait et ordonnateur suprême. Ce sont des arguments métaphysiques, non des preuves expérimentales ; Hume et Kant nieront que la raison puisse ainsi sauter au-delà de l'expérience.",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -497,7 +497,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Chez Ortega, l'ensemble des conditions historiques, sociales, matérielles et personnelles qui composent la vie concrète. Ce n'est pas un décor : cela fait partie du moi.",
-  "ilustre": [
+  "biografia": [
    "ortega"
   ]
  },
@@ -525,7 +525,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Pour Aristote, le groupe social qui renforce la stabilité de la polis, parce qu'il adoucit les intérêts extrêmes.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -541,7 +541,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "La première certitude qu'exprime la formule « je pense, donc je suis » : le sujet qui doute ne peut pas se défaire en niant son propre penser.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -557,7 +557,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "Pour Augustin, la foi et la raison s'impulsent mutuellement : la raison cherche, la foi oriente, et la raison approfondit de nouveau.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -586,7 +586,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "L'effort par lequel chaque chose, autant qu'il est en elle, s'efforce de persévérer dans son être. Pour Spinoza, ce n'est pas quelque chose que la chose possède, mais son essence même (*Éthique* III, prop. 6-7). Chez l'être humain, quand il en est conscient, il s'appelle désir.",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -602,7 +602,7 @@ const GLOSARIO = [
   "unidad": "C10",
   "tema": "Défis du XXIe siècle",
   "def": "Il apparaît lorsque la consommation cesse d'être une activité destinée à satisfaire des besoins pour devenir une logique sociale qui organise l'identité, le prestige et le désir. Dans la critique de Klein, les marques et la publicité naturalisent ce pouvoir économique.",
-  "ilustre": [
+  "biografia": [
    "klein"
   ]
  },
@@ -643,7 +643,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "Chez Augustin, ce n'est pas un simple changement d'opinion. C'est réorganiser l'orientation entière de la vie : la vérité, la volonté et la recherche de Dieu se nouent.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -659,7 +659,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Les êtres humains ne sont pas de simples membres d'un État ; ils ont des droits et des devoirs partagés dans un monde commun.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -688,7 +688,7 @@ const GLOSARIO = [
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
   "def": "Chez Kant, l'attitude qui examine la capacité et les limites de la raison ; elle veut dépasser le dogmatisme et le scepticisme.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -704,7 +704,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Examiner la capacité, la limite et les usages légitimes de la raison ; non pas une simple destruction, mais un jugement responsable.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -719,7 +719,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Examiner les idées, les lois et les institutions en lien avec leurs conditions économiques et historiques.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -734,7 +734,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "L'idéologie qui utilise l'explication biologique de Darwin pour justifier l'inégalité sociale, le colonialisme ou la concurrence économique sauvage.",
-  "ilustre": [
+  "biografia": [
    "darwin"
   ]
  },
@@ -750,7 +750,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Le terme qu'emploie Heidegger désigne l'être humain, mais pas comme simple objet biologique : c'est l'être qui peut s'interroger sur son être et qui est situé dans le monde.",
-  "ilustre": [
+  "biografia": [
    "heidegger"
   ]
  },
@@ -766,7 +766,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Agir par respect pour la loi morale ; non seulement coïncider avec la norme, mais avoir la bonne motivation morale.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -781,7 +781,7 @@ const GLOSARIO = [
   "unidad": "C1",
   "tema": "Les Lumières",
   "def": "La *Déclaration des droits de la femme et de la citoyenne* (1791) d'Olympe de Gouges : elle réécrit article par article celle de 1789 pour y inclure la femme et dénonce le fait que des droits « universels » qui excluent la moitié de l'humanité se contredisent. « La femme naît libre et demeure égale à l'homme en droits » (art. 1).",
-  "ilustre": [
+  "biografia": [
    "gouges"
   ]
  },
@@ -809,7 +809,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "La chaîne politique que décrit Platon : de l'aristocratie à la timocratie, l'oligarchie, la démocratie et la tyrannie.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -825,7 +825,7 @@ const GLOSARIO = [
   "unidad": "B6",
   "tema": "Société et pouvoir",
   "def": "Les droits qui appartiennent à la personne avant l'État ; dans le cas de Locke, la vie, la liberté et la propriété.",
-  "ilustre": [
+  "biografia": [
    "locke"
   ]
  },
@@ -877,7 +877,7 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Le féminisme",
   "def": "La proposition de Butler est de ne pas accepter les catégories binaires de genre comme si elles étaient naturelles, mais de mettre à nu leur caractère performatif et historique.",
-  "ilustre": [
+  "biografia": [
    "butler"
   ]
  },
@@ -905,7 +905,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "« Dieu ou la Nature » : la formule centrale de Spinoza. Il n'y a qu'une seule substance, et toutes les choses en sont des modes ou des expressions.",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -934,7 +934,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La méthode de la philosophie pour Platon : le dialogue qui examine les hypothèses par des questions et des réponses et s'élève d'Idée en Idée jusqu'au Bien, sans s'appuyer sur des images sensibles. C'est le chemin de la noèse.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -950,7 +950,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Situer les contradictions historiques dans les conditions matérielles : travail, propriété, production et rapports de classe.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -966,7 +966,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Dans la proposition d'Adorno, la pensée ne doit pas se hâter d'enfermer la réalité dans une formule apaisante. Elle essaie d'écouter ce que les concepts n'attrapent pas tout à fait.",
-  "ilustre": [
+  "biografia": [
    "adorno"
   ]
  },
@@ -982,7 +982,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Dans la ligne divisée (*République* VI), la pensée discursive : elle connaît des réalités intelligibles en partant d'hypothèses qu'elle n'examine pas et en s'aidant de figures, comme le font les mathématiques. C'est le premier degré de l'épistémè.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -998,7 +998,7 @@ const GLOSARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "Le concept de Derrida exprime que la signification n'est jamais tout à fait présente, mais reste toujours dans le jeu de la différence et du report. Le sens ne se fixe pas métaphysiquement.",
-  "ilustre": [
+  "biografia": [
    "derrida"
   ]
  },
@@ -1014,7 +1014,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "La valeur absolue de la personne ; ce n'est ni un prix, ni une utilité, ni une substituabilité.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -1030,7 +1030,7 @@ const GLOSARIO = [
   "unidad": "B3",
   "tema": "Renaissance et science",
   "def": "La dignité de l'homme : l'humanisme de la Renaissance (Pic de la Mirandole) a soutenu que l'être humain n'a pas de nature fixe, qu'il est un être capable de se construire lui-même en liberté.",
-  "ilustre": [
+  "biografia": [
    "pico"
   ]
  },
@@ -1057,7 +1057,7 @@ const GLOSARIO = [
   "unidad": "C9",
   "tema": "Le féminisme",
   "def": "La tradition féministe a distingué le sexe comme donnée biologique et le genre comme construction culturelle. Butler problématise cette distinction, en soutenant que le sexe aussi est construit par des normes sociales.",
-  "ilustre": [
+  "biografia": [
    "butler"
   ]
  },
@@ -1073,7 +1073,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "L'opinion ou la croyance courante. Elle se meut dans le domaine des sens et des apparences, et n'a pas la solidité de l'épistémè.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1102,7 +1102,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Distinguer la réalité en deux niveaux : le monde sensible changeant et le monde intelligible et immuable des Idées.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1118,7 +1118,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "Le doute systématique employé pour trouver une certitude solide ; il ne veut pas détruire la connaissance, mais chercher un fondement sûr.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -1159,7 +1159,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Le degré le plus bas de la connaissance dans la ligne divisée (*République* VI) : l'imagination ou conjecture, qui ne saisit que des images, des ombres et des reflets des choses sensibles. C'est le premier degré de la doxa.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1175,7 +1175,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Pour Camus, l'être humain veut du sens, de l'ordre et de la clarté, mais le monde ne satisfait pas automatiquement cette exigence. Du choc entre les deux naît l'absurde.",
-  "ilustre": [
+  "biografia": [
    "camus"
   ]
  },
@@ -1190,7 +1190,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "La célèbre dialectique de Hegel : la lutte pour la reconnaissance entre deux consciences de soi. L'esclave, par le travail, ouvre le chemin vers la liberté ; grande influence sur Marx et sur l'existentialisme.",
-  "ilustre": [
+  "biografia": [
    "hegel",
    "marx"
   ]
@@ -1207,7 +1207,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Le sommet de la hiérarchie des Idées. Le principe suprême qui éclaire la connaissance et l'être, représenté par le soleil dans l'allégorie de la caverne.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1235,7 +1235,7 @@ const GLOSARIO = [
   "unidad": "BAV",
   "tema": "Avicenne",
   "def": "al-Qanun fi al-Tibb. L'encyclopédie médicale d'Avicenne, qui fut pendant des siècles le manuel de référence en Europe et dans le monde islamique.",
-  "ilustre": [
+  "biografia": [
    "avicena"
   ]
  },
@@ -1263,7 +1263,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "C'est l'idée que critique Beauvoir : que le destin de la femme est décidé par la biologie ou la tradition sociale. À son avis, ce destin est une construction historique, et la liberté peut le briser.",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ]
  },
@@ -1278,7 +1278,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "Le sommet de l'esprit objectif : le domaine où la liberté rationnelle se réalise dans l'institution commune, au-dessus de la famille et de la société civile.",
-  "ilustre": [
+  "biografia": [
    "hegel"
   ]
  },
@@ -1294,7 +1294,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "L'hypothèse pour porter le doute à l'extrême : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas s'effacer.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -1309,7 +1309,7 @@ const GLOSARIO = [
   "unidad": "BAV",
   "tema": "Avicenne",
   "def": "L'expérience de pensée d'Avicenne : l'argument pour démontrer que la conscience de soi de l'âme est indépendante de la perception du corps.",
-  "ilustre": [
+  "biografia": [
    "avicena"
   ]
  },
@@ -1325,7 +1325,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "L'école fondée par Aristote à Athènes. Elle unissait la recherche systématique, la classification, l'observation et le raisonnement logique.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1341,7 +1341,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "La réponse d'Augustin au problème du mal : le mal n'est ni une substance ni un principe rival de Dieu, comme le soutenaient les manichéens, mais le manque d'un bien qui devrait être présent. Tout ce qui existe, en tant qu'il existe, est bon (*Confessions* VII, 12, 18).",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -1369,7 +1369,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Allégorie qui symbolise la situation des êtres humains ordinaires : ils vivent parmi des apparences (les ombres) jusqu'à être libérés. C'est l'image de l'ascension dialectique et de l'éducation.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1384,7 +1384,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "La maternité est souvent présentée comme la fin naturelle de la femme ; Beauvoir montre que ce mythe naturalise la répartition déséquilibrée du travail de soin.",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ]
  },
@@ -1400,7 +1400,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Le « monde de la vie » de Husserl (all. Lebenswelt) : le monde d'expérience vécue qui précède et sous-tend la science, plein de sens quotidien. L'existentialisme part de là pour expliquer que l'être humain est situé dans le monde.",
-  "ilustre": [
+  "biografia": [
    "husserl"
   ]
  },
@@ -1416,7 +1416,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "La difficulté de justifier l'induction : que quelque chose se soit toujours produit ne garantit pas logiquement que cela continuera de se produire. Pour Hume, cette attente n'est pas fondée par la raison, mais par l'habitude.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -1432,7 +1432,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Le dualisme platonicien laisse une question : comment le monde des Idées et les choses sensibles se relient-ils ? Aristote répond en situant les formes dans les choses mêmes.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1447,7 +1447,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Aristote critique le fait que les formes soient situées à part des choses ; il pense que cela dédouble la réalité.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1463,7 +1463,7 @@ const GLOSARIO = [
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
   "def": "Axe essentiel de la métaphysique thomiste ; la clé pour comprendre le niveau de réalité auquel participent les êtres finis.",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -1479,7 +1479,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Unique, continu, complet, immuable, éternel. Le changement que donnent les sens est pure apparence. On ne le connaît que par la raison.",
-  "ilustre": [
+  "biografia": [
    "parmenides"
   ]
  },
@@ -1494,7 +1494,7 @@ const GLOSARIO = [
   "unidad": "BAV",
   "tema": "Avicenne",
   "def": "L'être dont l'existence coïncide avec l'essence. Pour Avicenne, la chaîne des êtres contingents exige ce premier fondement.",
-  "ilustre": [
+  "biografia": [
    "avicena"
   ]
  },
@@ -1510,7 +1510,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Critique de la théorie des Idées : si la chose et l'Idée sont semblables, il faudrait une autre Idée pour expliquer leur ressemblance, ce qui engendrerait une régression à l'infini.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1526,7 +1526,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Pour les atomistes, l'espace non rempli qui rend le mouvement possible. Face à Parménide, accepter le vide est un pas décisif.",
-  "ilustre": [
+  "biografia": [
    "parmenides"
   ]
  },
@@ -1541,7 +1541,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "L'image de Benjamin : le progrès n'est pas une amélioration tranquille, mais une accumulation de catastrophes ; l'ange veut regarder le passé, mais la tempête du « progrès » le pousse vers l'avant.",
-  "ilustre": [
+  "biografia": [
    "benjamin"
   ]
  },
@@ -1557,7 +1557,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "Hume : les jugements moraux ne viennent pas de la raison, mais du sentiment. En disant « bon » ou « mauvais », nous exprimons un sentiment d'approbation ou de rejet, non un fait objectif.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -1586,7 +1586,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La connaissance vraie. On y parvient lorsque la raison comprend les Idées et leurs connexions.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -1601,7 +1601,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Marcuse ne comprend pas le désir seulement comme un risque privé. Le corps, l'imagination et l'art peuvent être une force critique contre la normalité quotidienne.",
-  "ilustre": [
+  "biografia": [
    "marcuse"
   ]
  },
@@ -1617,7 +1617,7 @@ const GLOSARIO = [
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
   "def": "La méthode de pensée développée dans les universités médiévales : elle cherche la vérité au moyen de questions, d'arguments, d'objections et de réponses systématiques.",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -1644,7 +1644,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Le lieu du débat politique et de l'action, où les citoyens parlent et s'écoutent. C'est là que naît le pouvoir.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -1660,7 +1660,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "Dans le système de Hegel, le niveau où la liberté se réalise dans des institutions : le droit, la moralité, la famille, la société civile et l'État.",
-  "ilustre": [
+  "biografia": [
    "hegel"
   ]
  },
@@ -1676,7 +1676,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Le médiateur permettant d'appliquer les catégories aux phénomènes à travers le temps ; il unit le concept pur et l'intuition sensible.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -1692,7 +1692,7 @@ const GLOSARIO = [
   "unidad": "B6",
   "tema": "Le contrat social",
   "def": "La situation hypothétique antérieure à l'État, sans pouvoir commun. Ce n'est pas un fait historique, mais une expérience de pensée pour justifier le pouvoir : pour Hobbes, c'est une guerre de tous contre tous ; pour Locke, il y a déjà des droits naturels, mais mal protégés ; pour Rousseau, l'être humain est libre et bon, et c'est la société inégalitaire qui le corrompt.",
-  "ilustre": [
+  "biografia": [
    "hobbes",
    "locke",
    "rousseau"
@@ -1710,7 +1710,7 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "Pour Aristote, la fin ultime de la vie humaine, ce que l'on recherche pour soi-même et non pour autre chose. Ce n'est pas un sentiment passager, mais une activité de l'âme conforme à la vertu dans une vie entière ; elle a aussi besoin de quelques biens extérieurs (*Éthique à Nicomaque* I 7-8).",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -1751,7 +1751,7 @@ const GLOSARIO = [
   "unidad": "C7",
   "tema": "Langage et Science",
   "def": "Une théorie est scientifique si certains faits possibles donnent la possibilité de la réfuter. C'est le principal critère de la science chez Popper.",
-  "ilustre": [
+  "biografia": [
    "popper"
   ]
  },
@@ -1792,7 +1792,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "Tout ce que nous savons des choses correspond à la manière dont elles nous apparaissent (les phénomènes) ; nous ne pouvons pas connaître ce qu'il y a derrière les apparences.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -1808,7 +1808,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "La réalité qui nous apparaît dans l'expérience, structurée par les conditions de la sensibilité et de l'entendement.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -1824,7 +1824,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Il se produit lorsque les rapports de travail et de pouvoir entre personnes apparaissent comme des rapports naturels entre choses.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -1840,7 +1840,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Méthode critique pour examiner les valeurs morales selon leurs origines historiques, affectives et de pouvoir.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -1906,7 +1906,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "La tendance à comprendre le moi permanent non comme une substance unique, mais comme un ensemble de perceptions et d'expériences changeantes.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -1961,7 +1961,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "La théorie selon laquelle les êtres concrets sont composés de matière et de forme. La forme n'est pas en dehors des choses ; c'est la structure même de la chose.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -2015,7 +2015,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Selon Anaxagore, les semences ou parties infiniment petites qui composent la réalité, chacune contenant quelque chose de toutes les choses. Le Nous (l'intelligence) les organise pour créer le monde à partir du mélange initial.",
-  "ilustre": [
+  "biografia": [
    "anaxagoras"
   ]
  },
@@ -2056,7 +2056,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "L'attente qui naît après avoir vu ensemble, encore et encore, certains événements. Pour Hume, la croyance pratique en la causalité vient de l'habitude.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -2072,7 +2072,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "L'idée qui possède en elle toutes les propriétés d'une idée vraie, parce qu'elle comprend son objet par ses causes (*Éthique* II, déf. 4). C'est la clé de la liberté : un affect qui est une passion cesse de l'être dès que nous en formons une idée claire et distincte (V, prop. 3).",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -2087,7 +2087,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Elle n'est pas objet de la connaissance théorique, mais sert à orienter la pensée et la recherche.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -2103,7 +2103,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "Les idées qui se présentent à l'entendement sans confusion et avec évidence ; pour Descartes, elles forment le noyau du critère de vérité.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -2119,7 +2119,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Forme de conscience qui présente les rapports historiques et sociaux comme s'ils étaient naturels, justes ou immuables.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -2147,7 +2147,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Commandement moral inconditionné : il ordonne une action pour elle-même, sans dépendre d'aucune fin que l'on désire. Sa première formule, celle de la loi universelle : agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle (*Fondements de la métaphysique des mœurs*, II, Ak. IV 421).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -2163,7 +2163,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Commandement conditionné : il ordonne un moyen en vue d'une fin que l'on veut (« si tu veux réussir, étudie »). Kant distingue les règles de l'habileté et les conseils de la prudence ; y obéir ne donne pas de valeur morale à l'action (*Fondements*, II, Ak. IV 414-417).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -2192,7 +2192,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "La perception vive et intense de l'expérience : voir, entendre, sentir, la douleur ou le plaisir. Les idées sont des copies plus faibles des impressions.",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -2234,7 +2234,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Le lien entre la base économique et les formes juridiques, politiques et culturelles qui se construisent sur elle.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -2250,7 +2250,7 @@ const GLOSARIO = [
   "unidad": "BL",
   "tema": "Locke",
   "def": "La thèse de Berkeley : la matière n'existe pas comme substance indépendante ; ce qui existe, ce sont les idées perçues et les esprits qui les perçoivent. Son principe est « esse est percipi » (« être, c'est être perçu »). Conséquence radicale de l'empirisme.",
-  "ilustre": [
+  "biografia": [
    "locke",
    "berkeley"
   ]
@@ -2267,7 +2267,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "Certaines idées et certains principes sont possédés par l'entendement lui-même dès la naissance, indépendamment de l'expérience. Base du rationalisme ; il a un lien avec l'anamnèse platonicienne.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -2283,7 +2283,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "Selon Socrate, celui qui connaît vraiment le bien n'agirait pas mal exprès. La racine du mal est l'ignorance.",
-  "ilustre": [
+  "biografia": [
    "socrates"
   ]
  },
@@ -2299,7 +2299,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Trait fondamental de la phénoménologie (Husserl) : la conscience est toujours « conscience de quelque chose », toujours dirigée vers quelque chose. Penser, vouloir ou craindre ont toujours un objet.",
-  "ilustre": [
+  "biografia": [
    "husserl"
   ]
  },
@@ -2315,7 +2315,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "Recourir à l'expérience intérieure du sujet dans la recherche de la vérité, mais sans s'en tenir à ses seules opinions.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -2344,7 +2344,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "L'espace et le temps : les formes a priori par lesquelles la sensibilité reçoit les phénomènes.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -2360,7 +2360,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "Socrate avoue qu'il ne sait pas et met à l'épreuve les croyances fermes de son interlocuteur.",
-  "ilustre": [
+  "biografia": [
    "socrates"
   ]
  },
@@ -2389,7 +2389,7 @@ const GLOSARIO = [
   "unidad": "C7",
   "tema": "Langage et Science",
   "def": "Selon le premier Wittgenstein, l'idée que la structure logique du langage et la structure des faits du monde peuvent partager la même forme. Ainsi, le langage est l'image logique du monde.",
-  "ilustre": [
+  "biografia": [
    "wittgenstein"
   ]
  },
@@ -2417,7 +2417,7 @@ const GLOSARIO = [
   "unidad": "C7",
   "tema": "Langage et Science",
   "def": "L'usage du langage dans un contexte déterminé, avec ses propres règles. Selon le second Wittgenstein, la signification est liée à l'usage, non à une référence fixe.",
-  "ilustre": [
+  "biografia": [
    "wittgenstein"
   ]
  },
@@ -2432,7 +2432,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "Le procès de Socrate laisse une question acérée : faut-il toujours obéir à la loi, ou la conscience exige-t-elle une autre responsabilité face à une loi injuste ?",
-  "ilustre": [
+  "biografia": [
    "socrates"
   ]
  },
@@ -2448,7 +2448,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Jugements qui élargissent la connaissance (synthétiques) et qui sont en même temps universels et nécessaires, sans dépendre de l'expérience (a priori), comme « 7 + 5 = 12 » ou « tout ce qui arrive a une cause ». Ce sont ceux des mathématiques et de la physique ; Kant demande comment ils sont possibles et répond par les formes a priori du sujet.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -2464,7 +2464,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Pour Platon, la justice n'est pas seulement la loi extérieure. C'est l'harmonie qui surgit lorsque chaque partie de l'âme et de la cité remplit dûment sa fonction. Elle est réalisée par celui qui équilibre les trois autres vertus (sagesse, courage et tempérance) : c'est pourquoi elle est la vertu qui ordonne toutes les autres.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -2480,7 +2480,7 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "Disposition mauvaise du caractère : le vicieux agit mal par choix, convaincu que c'est le bien, et c'est pourquoi il ne regrette pas. Aristote l'oppose à la vertu et le distingue de l'incontinence (akrasía), qui, elle, regrette.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -2521,7 +2521,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "L'école philosophique fondée par Platon à Athènes. Elle unissait l'éducation mathématique, la dialectique et la préparation au gouvernement.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -2536,7 +2536,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "Pour Beauvoir, l'être humain est à la fois libre et conditionné. C'est pourquoi l'existence n'est ni une essence fermée, ni une liberté pure et sans limites.",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ]
  },
@@ -2552,7 +2552,7 @@ const GLOSARIO = [
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
   "def": "Comprendre l'univers non comme un pur chaos, mais comme une structure vivante avec de l'ordre, du sens et des liens.",
-  "ilustre": [
+  "biografia": [
    "hildegarda"
   ]
  },
@@ -2580,7 +2580,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Pour Platon, l'ordre politique qui surgit lorsque chaque partie de la cité remplit bien sa fonction.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -2595,7 +2595,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "Beauvoir suggère qu'être femme n'est pas une simple donnée biologique. La société, l'éducation et les rapports de pouvoir font entrer la femme dans un rôle déterminé.",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ]
  },
@@ -2611,7 +2611,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Sartre dit que l'être humain n'est pas un objet fabriqué : il existe d'abord, puis se forme lui-même par ses actes.",
-  "ilustre": [
+  "biografia": [
    "sartre"
   ]
  },
@@ -2639,7 +2639,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -2666,7 +2666,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Formule qui exprime le déclin des valeurs absolues et des fondements transcendants. Cela ouvre le problème du nihilisme.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -2681,7 +2681,7 @@ const GLOSARIO = [
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
   "def": "La figure d'Hildegarde montre que les femmes aussi ont eu une grande production intellectuelle et spirituelle, même si les structures sociales la limitaient.",
-  "ilustre": [
+  "biografia": [
    "hildegarda"
   ]
  },
@@ -2697,7 +2697,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Même si l'entendement est vide en acte, il a le potentiel d'y écrire les formes des êtres. Selon Aristote, la connaissance vient de l'expérience, mais l'entendement a la capacité de recevoir les formes. (Plus tard Locke le reprendra sous le nom de « tabula rasa ».)",
-  "ilustre": [
+  "biografia": [
    "aristoteles",
    "locke"
   ]
@@ -2713,7 +2713,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "Dans la ligne de Beauvoir et d'Ortega y Gasset, le sujet ne choisit pas à partir de rien : son corps, les conditions de son époque et les relations sociales le situent.",
-  "ilustre": [
+  "biografia": [
    "ortega",
    "beauvoir"
   ]
@@ -2742,7 +2742,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "L'idée augustinienne : la vérité se trouve à l'intérieur de l'être humain, non à l'extérieur. Le principal précédent du tournant cartésien vers le sujet.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -2758,7 +2758,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Aristote distingue la cause matérielle, la formelle, l'efficiente et la finale pour expliquer les choses de façon plus complète.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -2786,7 +2786,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Selon Arendt, les totalitarismes du XXe siècle ont une double racine : l'antisémitisme moderne (l'affaire Dreyfus) et l'impérialisme. Tous deux ont préparé la crise de l'État-nation et l'atomisation des masses.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -2802,7 +2802,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La structure anthropologique qui distingue le rationnel, l'irascible et l'appétitif ; c'est aussi le pont entre l'éthique et la politique.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -2818,7 +2818,7 @@ const GLOSARIO = [
   "unidad": "A10",
   "tema": "L'hellénisme",
   "def": "Le conseil de vie d'Épicure : « vis caché ». Loin de la vie politique agitée, la sérénité (ataraxie) se cherche dans le petit cercle d'amis et dans le plaisir mesuré.",
-  "ilustre": [
+  "biografia": [
    "epicuro"
   ]
  },
@@ -2833,7 +2833,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "Selon Comte, l'humanité passe de l'explication théologique à la métaphysique, puis à l'état positif ; dans ce dernier dominent les faits et les lois.",
-  "ilustre": [
+  "biografia": [
    "comte"
   ]
  },
@@ -2849,7 +2849,7 @@ const GLOSARIO = [
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
   "def": "Le fondement de la norme morale que la raison humaine peut percevoir dans l'ordre de la nature et des fins humaines.",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -2878,7 +2878,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "La capacité de la volonté de choisir. Pour Augustin, c'est un bien que Dieu a donné à l'être humain pour qu'il agisse bien ; le mal moral naît de son mauvais usage, quand la volonté se détourne du bien suprême vers des biens moindres, et c'est pourquoi l'être humain en est responsable, non Dieu (*Du libre arbitre*). Plus tard, face à Pélage, il insiste sur le fait que sans la grâce la volonté ne suffit pas pour faire le bien.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -2894,7 +2894,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "La force qui exprime la clarté, la forme, la mesure, l'image et l'individualité. Dans la tragédie, elle apparaît aux côtés du dionysiaque.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -2910,7 +2910,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Il exprime la démesure, le corps, l'impulsion, le chaos créateur et l'unité tragique de la vie.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -2939,7 +2939,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "Idée liée à Gorgias : la parole peut être à la fois remède et poison ; elle n'explique pas seulement, elle agit aussi.",
-  "ilustre": [
+  "biografia": [
    "gorgias"
   ]
  },
@@ -2954,7 +2954,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Selon Habermas, la connaissance est toujours liée à un intérêt : technique (dominer le monde), pratique (trouver du sens) et émancipateur (libérer l'être humain). Le dernier est le principal.",
-  "ilustre": [
+  "biografia": [
    "habermas"
   ]
  },
@@ -2970,7 +2970,7 @@ const GLOSARIO = [
   "unidad": "BOC",
   "tema": "Ockham",
   "def": "L'idée que la philosophie ne peut pas démontrer à elle seule toutes les vérités que donnent la foi ou la révélation.",
-  "ilustre": [
+  "biografia": [
    "ockham"
   ]
  },
@@ -2986,7 +2986,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Le conflit historique entre classes aux intérêts opposés à l'intérieur d'un mode de production.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -3014,7 +3014,7 @@ const GLOSARIO = [
   "unidad": "C4",
   "tema": "Les maîtres du soupçon",
   "def": "La dénomination qui réunit Marx, Nietzsche et Freud. Tous trois brisent la transparence de la conscience, mais à des niveaux et avec des fins différents.",
-  "ilustre": [
+  "biografia": [
    "marx",
    "nietzsche",
    "freud"
@@ -3032,7 +3032,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Selon Sartre, la tromperie de soi par laquelle nous fuyons l'angoisse de la liberté : nous traiter comme une chose au caractère fixe (« je suis comme ça ») ou accuser la situation (« je n'avais pas le choix »). Il y a toujours un choix : ne pas choisir, c'est encore choisir.",
-  "ilustre": [
+  "biografia": [
    "sartre"
   ]
  },
@@ -3061,7 +3061,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "Théorie qui examine comment les modes de production, les rapports de classe et les conditions matérielles conditionnent l'histoire.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -3077,7 +3077,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "La méthode qui aide à accoucher la pensée par des questions ; Socrate conduit l'interlocuteur vers la recherche.",
-  "ilustre": [
+  "biografia": [
    "socrates"
   ]
  },
@@ -3106,7 +3106,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Changement profond de la manière de penser et de vivre, et non d’une opinion isolée. Chez Platon, c’est la « conversion » de l’âme tout entière : l’éducation ne met pas la vue dans l’âme, qui l’a déjà, mais la tourne tout entière de ce qui change vers ce qui est, comme le prisonnier qui sort de la caverne (*République* VII, 518c-d). Le christianisme en fait le repentir et la conversion (« convertissez-vous », μετανοεῖτε, *metanoeîte*, Marc 1, 15), et Augustin la raconte dans les *Confessions*. En rhétorique, la « métanoïa » est aussi la figure qui corrige à voix haute ce que l’on vient de dire (« c’est bon ; que dis-je, excellent »).",
-  "ilustre": [
+  "biografia": [
    "platon",
    "agustin"
   ]
@@ -3123,7 +3123,7 @@ const GLOSARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "C'est le grand récit qui légitime globalement l'histoire, la science ou la politique. Exemples : le récit du progrès des Lumières, le développement de l'Esprit chez Hegel, la société sans classes du marxisme.",
-  "ilustre": [
+  "biografia": [
    "hegel"
   ]
  },
@@ -3139,7 +3139,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Pour Kant, l'incapacité de se servir de son propre entendement sans la direction d'un autre. On en est soi-même responsable quand elle tient non à un manque d'entendement, mais à un manque de résolution et de courage ; ses causes sont la paresse et la lâcheté (*Qu'est-ce que les Lumières ?*, 1784, Ak. VIII 35).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -3155,7 +3155,7 @@ const GLOSARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "Définition : l'idée de Habermas selon laquelle les promesses de liberté et de raison des Lumières doivent être reconstruites de façon critique sans être écartées.",
-  "ilustre": [
+  "biografia": [
    "habermas"
   ]
  },
@@ -3171,7 +3171,7 @@ const GLOSARIO = [
   "unidad": "C10",
   "tema": "Défis du XXIe siècle",
   "def": "Selon Bauman, c'est la situation historique où les structures, les liens et les identités de la société deviennent de plus en plus flexibles et instables.",
-  "ilustre": [
+  "biografia": [
    "bauman"
   ]
  },
@@ -3187,7 +3187,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "L'expression concrète de la substance unique. Les êtres particuliers ne sont pas des substances indépendantes, mais des modes limités.",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -3203,7 +3203,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Les maximes que Descartes se donne pour vivre tant qu'il met tout en doute (*Discours de la méthode*, III) : obéir aux lois et aux coutumes de son pays, être ferme dans ses actions une fois la décision prise, chercher à se vaincre soi-même plutôt que la fortune et consacrer sa vie à cultiver la raison.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -3219,7 +3219,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Le premier principe du mouvement : acte pur qui, sans changer lui-même, attire tout le reste comme cause finale.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -3235,7 +3235,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Le domaine changeant, passager et apparent ; à lui seul, il ne donne pas la solidité de la connaissance vraie.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3251,7 +3251,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "La manière de distinguer dans chaque problème les conditions, les limites et l'usage légitime ; ce n'est pas une recette, mais une orientation rationnelle.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -3267,7 +3267,7 @@ const GLOSARIO = [
   "unidad": "B3",
   "tema": "Renaissance et science",
   "def": "Le mode de recherche qui unit observation, hypothèse, mesure et preuve ; avec l'œuvre de Galilée, il s'est placé au centre de la science moderne.",
-  "ilustre": [
+  "biografia": [
    "galileo"
   ]
  },
@@ -3296,7 +3296,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "La manière de présenter la philosophie au moyen d'une chaîne rigoureuse de définitions, d'axiomes et de propositions ; Spinoza l'emploie dans l'Éthique pour montrer la cohérence de tout le système.",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -3312,7 +3312,7 @@ const GLOSARIO = [
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
   "def": "Selon Leibniz, les substances simples, indivisibles et spirituelles qui composent la réalité. Chaque monade reflète l'univers entier depuis sa perspective, et elles s'accordent grâce à l'« harmonie préétablie ».",
-  "ilustre": [
+  "biografia": [
    "leibniz"
   ]
  },
@@ -3328,7 +3328,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "L'être humain apporte quelque chose de nouveau au monde, il crée la possibilité de la nouveauté. La liberté politique est liée à la naissance.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -3344,7 +3344,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "Deux manières de regarder l'unique réalité. Comme cause libre, la substance avec ses attributs, qui est en soi et se conçoit par soi, est la *natura naturans* ; comme tout ce qui s'en suit nécessairement, ses modes, elle est la *natura naturata* (*Éthique* I, prop. 29, scolie).",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -3372,7 +3372,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "Le courant qui relit l'héritage de Platon. Il fut important pour Augustin afin de penser la vérité, l'âme et la transcendance de Dieu.",
-  "ilustre": [
+  "biografia": [
    "platon",
    "agustin"
   ]
@@ -3389,7 +3389,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "La crise qui surgit lorsque tombe le fondement des valeurs suprêmes. Il peut être passif, de désespérance, ou actif, occasion de créer des valeurs nouvelles.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -3405,7 +3405,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Le degré le plus élevé de la connaissance dans la ligne divisée : l'intelligence qui, au moyen de la dialectique, contemple les Idées elles-mêmes jusqu'à atteindre le Bien, sans se servir d'images.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3421,7 +3421,7 @@ const GLOSARIO = [
   "unidad": "BOC",
   "tema": "Ockham",
   "def": "La perspective qui défend que les universaux n'ont pas de réalité indépendante ; ce sont des noms généraux que nous employons pour nommer les choses individuelles.",
-  "ilustre": [
+  "biografia": [
    "ockham"
   ]
  },
@@ -3462,7 +3462,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Selon Anaxagore, l'intelligence ou principe directeur qui ordonne et met en mouvement l'univers.",
-  "ilustre": [
+  "biografia": [
    "anaxagoras"
   ]
  },
@@ -3478,7 +3478,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Concept-limite pour penser la chose en soi ; on ne la connaît pas à la manière d'un phénomène.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -3494,7 +3494,7 @@ const GLOSARIO = [
   "unidad": "B4",
   "tema": "Rationalisme et empirisme",
   "def": "La doctrine de Malebranche : les corps et les âmes ne peuvent pas s'influencer directement ; Dieu est la seule cause, et chaque événement est l'« occasion » de Son intervention. Une réponse au dualisme corps-âme de Descartes.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "malebranche"
   ]
@@ -3511,7 +3511,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Éducation au sens large : formation du caractère et de l'esprit. Chez Platon, tâche principale de la cité, qui sélectionne les gouvernants au terme d'un long parcours d'études et d'épreuves.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3527,7 +3527,7 @@ const GLOSARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "La vertu intellectuelle qui sait bien délibérer sur ce qui convient pour bien vivre dans chaque situation concrète. C'est elle qui fixe le juste milieu des vertus éthiques : c'est pourquoi la vertu se définit comme « ce que déterminerait l'homme prudent » (*Éthique à Nicomaque* II 6 et VI 5).",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -3543,7 +3543,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "La raison selon Ortega y Gasset : non pas une abstraction froide, mais un outil de la vie concrète, qui est la réalité radicale. Il veut dépasser à la fois le rationalisme pur et le vitalisme irrationnel ; c'est pourquoi il dit que l'être humain n'a pas de nature, mais une histoire.",
-  "ilustre": [
+  "biografia": [
    "ortega"
   ]
  },
@@ -3559,7 +3559,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Les quatre règles du *Discours de la méthode* (II) : évidence (ne rien admettre que l'on ne connaisse avec évidence), analyse (diviser chaque difficulté en autant de parties qu'il faudra), synthèse (conduire ses pensées avec ordre, du plus simple au plus complexe) et dénombrement (tout passer en revue pour ne rien omettre).",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -3575,7 +3575,7 @@ const GLOSARIO = [
   "unidad": "BH",
   "tema": "Hume",
   "def": "Les deux sortes de connaissance selon Hume (*Enquête sur l'entendement humain*, IV) : les relations d'idées (mathématiques et logique), certaines par démonstration, parce que leur contraire est contradictoire ; et les questions de fait, qui dépendent de l'expérience et dont le contraire est toujours possible (que le soleil ne se lève pas demain). Ce qui n'est ni l'un ni l'autre, dit-il à la fin de l'ouvrage, « au feu ».",
-  "ilustre": [
+  "biografia": [
    "hume"
   ]
  },
@@ -3591,7 +3591,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Le tournant de Kant en théorie de la connaissance : ce n'est pas le sujet qui se règle sur les objets, mais les objets, tels que nous les connaissons, qui se règlent sur les formes a priori du sujet (espace, temps et catégories). Cela ne signifie pas que le sujet invente le monde : l'expérience fournit la matière.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -3607,7 +3607,7 @@ const GLOSARIO = [
   "unidad": "BS",
   "tema": "Spinoza",
   "def": "L'impuissance humaine à modérer et à réprimer les affects : celui qui y est soumis n'est pas maître de lui, mais dépend de la fortune (*Éthique* IV, préface). On ne la vainc pas à force de volonté, car un affect ne se réprime que par un autre affect contraire et plus fort (IV, prop. 7).",
-  "ilustre": [
+  "biografia": [
    "spinoza"
   ]
  },
@@ -3623,7 +3623,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Chez Platon, le gouvernement des guerriers, qui valorisent l'honneur et la victoire ; premier pas dans la dégénérescence de la cité idéale, avant l'oligarchie, la démocratie et la tyrannie.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3639,7 +3639,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Étranger résidant à Athènes : il payait des impôts et pouvait servir dans l'armée, mais il n'avait pas de droits politiques et ne pouvait pas posséder de terres.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -3655,7 +3655,7 @@ const GLOSARIO = [
   "unidad": "A9",
   "tema": "La politique classique",
   "def": "Gouvernement oligarchique imposé à Athènes, avec l'appui de Sparte, après la défaite dans la guerre du Péloponnèse (404-403 av. J.-C.). Parmi eux se trouvaient Critias et Charmide, parents de Platon.",
-  "ilustre": [
+  "biografia": [
    "platon",
    "socrates"
   ]
@@ -3685,7 +3685,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "La formule « tout coule » ; selon Héraclite, la réalité est devenir et mouvement incessants.",
-  "ilustre": [
+  "biografia": [
    "heraclito"
   ]
  },
@@ -3714,7 +3714,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La structure et le sens que les choses sensibles reçoivent en participant des Idées. L'Idée est le modèle (archétype), et la chose sensible en est l'imitation (mimésis) ou la copie.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3743,7 +3743,7 @@ const GLOSARIO = [
   "unidad": "B1",
   "tema": "Augustin d'Hippone",
   "def": "La tradition philosophico-théologique des premiers penseurs de l'Église. Elle essaie d'expliquer la foi chrétienne avec les langages conceptuels de la Grèce et de Rome ; Augustin est l'un des sommets de la patristique occidentale.",
-  "ilustre": [
+  "biografia": [
    "agustin"
   ]
  },
@@ -3758,7 +3758,7 @@ const GLOSARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "La pensée que propose Vattimo renonce aux vérités absolues, aux métaphysiques fermes et aux légitimations totales. Ce n'est pas une pensée banale, mais l'effort pour ne pas s'imposer comme force totalisante.",
-  "ilustre": [
+  "biografia": [
    "vattimo"
   ]
  },
@@ -3786,7 +3786,7 @@ const GLOSARIO = [
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
   "def": "La tendance à comprendre l'être humain, la nature et le sacré dans une totalité inséparable.",
-  "ilustre": [
+  "biografia": [
    "hildegarda"
   ]
  },
@@ -3802,7 +3802,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Il souligne que toute connaissance est située. Cela ne signifie pas que toutes les opinions se valent, mais que les discours absolus se déguisent eux-mêmes.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -3831,7 +3831,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "Dans la ligne divisée, la croyance : la connaissance des choses sensibles elles-mêmes (animaux, plantes, objets fabriqués). Avec l'eikasía, elle forme la doxa.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -3846,7 +3846,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Doctrine selon laquelle la réalité surgit de plusieurs éléments et principes originels. Empédocle, Anaxagore et les atomistes étaient pluralistes.",
-  "ilustre": [
+  "biografia": [
    "anaxagoras",
    "empedocles"
   ]
@@ -3863,7 +3863,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "La valeur excédentaire que le travailleur crée mais ne reçoit pas en salaire ; l'une des bases de l'accumulation du capital.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -3878,7 +3878,7 @@ const GLOSARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "Pour Foucault, le pouvoir et la vérité ne peuvent pas être séparés. Au moment où une société décide ce qui est normal ou vrai, le pouvoir est aussi à l'œuvre. Le savoir n'est jamais neutre.",
-  "ilustre": [
+  "biografia": [
    "foucault"
   ]
  },
@@ -3906,7 +3906,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Selon Arendt, ce n'est pas la même chose. Le pouvoir naît lorsque les gens agissent ensemble ; la violence, en revanche, peut être un outil pour remplacer ce pouvoir ou couvrir son vide.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -3973,7 +3973,7 @@ const GLOSARIO = [
   "unidad": "CM",
   "tema": "Marx",
   "def": "L'activité historique qui unit la théorie et la transformation pratique.",
-  "ilustre": [
+  "biografia": [
    "marx"
   ]
  },
@@ -4014,7 +4014,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Une même chose ne peut pas être et ne pas être à la fois et sous le même rapport ; c'est la condition de la définition, du débat et de la science.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4029,7 +4029,7 @@ const GLOSARIO = [
   "unidad": "B7",
   "tema": "Utilitarisme et libéralisme",
   "def": "Selon Mill, la raison principale de limiter la liberté par la force est d'éviter de nuire à autrui.",
-  "ilustre": [
+  "biografia": [
    "mill"
   ]
  },
@@ -4057,7 +4057,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Outil pour canaliser massivement la conscience et l'imaginaire politique.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -4098,7 +4098,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "La raison fondée sur le dialogue libre, les arguments et le consensus raisonné. Pour Habermas, c'est de là que vient le potentiel émancipateur de la modernité.",
-  "ilustre": [
+  "biografia": [
    "habermas"
   ]
  },
@@ -4139,7 +4139,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "C'est le concept de Zambrano : la raison ne se réduit pas au pur calcul ou à la définition, mais pense aussi par le vécu, la mémoire et la clarté intérieure.",
-  "ilustre": [
+  "biografia": [
    "zambrano"
   ]
  },
@@ -4155,7 +4155,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Dans la perspective aristotélicienne, les formes et les essences ne sont pas en dehors des choses ; il faut les trouver et les comprendre dans les choses concrètes elles-mêmes.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4170,7 +4170,7 @@ const GLOSARIO = [
   "unidad": "CXIX",
   "tema": "La pensée du XIXe siècle",
   "def": "Être accepté par l'autre comme sujet libre et égal. Pour Hegel, c'est la condition sociale de la liberté.",
-  "ilustre": [
+  "biografia": [
    "hegel"
   ]
  },
@@ -4185,7 +4185,7 @@ const GLOSARIO = [
   "unidad": "CdB",
   "tema": "Simone de Beauvoir",
   "def": "Selon Fraser, la justice de genre a besoin de deux axes : la redistribution des ressources, du temps et des opportunités sociales ; et, à la fois, la reconnaissance de la dignité et de la voix des sujets opprimés.",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ]
  },
@@ -4200,7 +4200,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "La position éthique de Joxe Azurmendi : renoncer aux valeurs absolues, mais sans tomber dans le nihilisme ; unir l'éthique de la conviction (principes) et celle de la responsabilité (conséquences), sans reconnaître de valeur absolue à aucune des deux.",
-  "ilustre": [
+  "biografia": [
    "kant",
    "azurmendi"
   ]
@@ -4217,7 +4217,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "C'est la manière dont le monde apparaît au sujet. Nous ne connaissons pas directement la chose en soi, mais le monde qui apparaît dans nos formes de connaissance.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -4246,7 +4246,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Selon Marcuse, toute civilisation a besoin de certaines limites, mais la société capitaliste ajoute à ces limites nécessaires une discipline sociale excédentaire, au profit du travail, de la consommation et de l'obéissance.",
-  "ilustre": [
+  "biografia": [
    "marcuse"
   ]
  },
@@ -4262,7 +4262,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "La substance pensante ; son trait n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -4278,7 +4278,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "C'est la vengeance cachée née de l'impuissance ; elle fait du fort un méchant et présente la faiblesse comme une vertu.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -4306,7 +4306,7 @@ const GLOSARIO = [
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
   "def": "La manière de penser sans séparer le savoir théorique, l'expérience pratique, le soin du corps, le symbole et la vie de la communauté.",
-  "ilustre": [
+  "biografia": [
    "hildegarda"
   ]
  },
@@ -4322,7 +4322,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La vertu de la partie rationnelle de l'âme : savoir ce qui convient à chaque partie et à l'ensemble. Dans la cité idéale, c'est la vertu des gouvernants, les philosophes.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -4338,7 +4338,7 @@ const GLOSARIO = [
   "unidad": "BL",
   "tema": "Locke",
   "def": "Les deux sources de l'expérience. Sensation : les idées que nous recevons du monde extérieur par les sens (couleurs, sons). Réflexion : la conscience des opérations internes de l'esprit (penser, vouloir).",
-  "ilustre": [
+  "biografia": [
    "locke"
   ]
  },
@@ -4366,7 +4366,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Chez Unamuno, la tension existentielle de l'être humain qui, tout en sachant qu'il doit mourir, continue de chercher du sens, de la permanence et de la foi.",
-  "ilustre": [
+  "biografia": [
    "unamuno"
   ]
  },
@@ -4381,7 +4381,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Cette idée de Heidegger exprime que l'être humain compose sa vie avec des possibilités finies, et que sa mort est la limite propre et inévitable de ces possibilités.",
-  "ilustre": [
+  "biografia": [
    "heidegger"
   ]
  },
@@ -4396,7 +4396,7 @@ const GLOSARIO = [
   "unidad": "C8",
   "tema": "L'existentialisme",
   "def": "Selon Sartre, la conscience n'est pas une chose fermée ; c'est l'existence qui prend de la distance par rapport à elle-même, choisit et se forme comme projet.",
-  "ilustre": [
+  "biografia": [
    "sartre"
   ]
  },
@@ -4412,7 +4412,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "La forme de raisonnement qui tire de deux prémisses une conclusion nécessaire ; la base de la logique aristotélicienne.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4466,7 +4466,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "La situation où les individus s'insèrent dans de grands mécanismes de fabrication de l'opinion et du désir.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -4481,7 +4481,7 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Pour Marcuse, la société qui naît lorsque la critique et les alternatives politiques sont absorbées à l'intérieur du système. Le désaccord lui-même peut devenir un style de marché.",
-  "ilustre": [
+  "biografia": [
    "marcuse"
   ]
  },
@@ -4509,7 +4509,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Pour Arendt, c'est l'une des bases du totalitarisme. Lorsque l'individu se détache des liens communs, il se retrouve plus démuni face à la propagande et à l'obéissance.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -4538,7 +4538,7 @@ const GLOSARIO = [
   "unidad": "BD",
   "tema": "Descartes",
   "def": "Le risque qui surgit lorsqu'on conclut que sa propre conscience (le cogito) est la seule certitude : ne pas pouvoir démontrer que le monde extérieur et les autres esprits existent, et penser que seul le moi est réel. Descartes veut le surmonter grâce à la garantie de Dieu.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -4567,7 +4567,7 @@ const GLOSARIO = [
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
   "def": "La position selon laquelle la vérité et les valeurs dépendent du sujet : la perception et l'intérêt propres sont la mesure. C'est une forme de relativisme appliquée à l'individu (Protagoras : « l'homme est la mesure de toutes choses »).",
-  "ilustre": [
+  "biografia": [
    "protagoras"
   ]
  },
@@ -4596,7 +4596,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "C'est la force vitale créatrice capable de créer des valeurs nouvelles. Ce n'est pas une caricature politique, mais l'image du dépassement de l'homme.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -4612,7 +4612,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "La chose concrète, ce qui est par soi. Pour Aristote, les autres caractéristiques appartiennent à la substance.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4641,7 +4641,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "(telos + logie) Théorie philosophique qui propose que tous les êtres — y compris la nature — ont une fin. Synonyme : finalisme.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4657,7 +4657,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La vertu de la partie concupiscible de l'âme : que les désirs se laissent gouverner par la raison. Pour Platon, c'est un accord de toutes les parties sur qui doit commander ; dans la cité, tous en ont besoin, et surtout les producteurs.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -4685,7 +4685,7 @@ const GLOSARIO = [
   "unidad": "C7",
   "tema": "Langage et Science",
   "def": "Définition : l'analyse de Russell pour clarifier la structure logique qui se trouve sous la grammaire superficielle d'une phrase.",
-  "ilustre": [
+  "biografia": [
    "russell"
   ]
  },
@@ -4701,7 +4701,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La réalité vraie ne se trouve pas dans la variabilité que donnent les sens, mais dans le niveau stable des idées ou formes.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -4741,7 +4741,7 @@ const GLOSARIO = [
   "unidad": "AA",
   "tema": "Aristote",
   "def": "Il distingue la végétative, la sensitive et la rationnelle ; ce sont l'outil pour comprendre la gradation des vivants.",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ]
  },
@@ -4770,7 +4770,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "Forme de pouvoir politique du XXe siècle qui absorbe entièrement l'individu au moyen d'une idéologie totalisante, en usant de la terreur et en créant la société de masse. Ce n'est pas la tyrannie classique.",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -4786,7 +4786,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "L'âme est immortelle, elle change de corps (renaît dans un autre corps) et après la mort doit se purifier pour retourner au monde des Idées.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -4801,7 +4801,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Le processus consistant à dépasser les vieilles valeurs qui nient la vie et à créer des valeurs nouvelles qui affirment la force de la vie, la créativité et l'auto-dépassement.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -4817,7 +4817,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Relatif aux conditions qui rendent possible la connaissance objective ; non la chose en soi, mais la structure de l'expérience.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -4833,7 +4833,7 @@ const GLOSARIO = [
   "unidad": "BOC",
   "tema": "Ockham",
   "def": "Les sept arts libéraux médiévaux : le trivium (grammaire, rhétorique, dialectique) et le quadrivium (arithmétique, géométrie, astronomie, musique). Ils formaient le cursus de base de la scolastique dans les universités.",
-  "ilustre": [
+  "biografia": [
    "ockham"
   ]
  },
@@ -4862,7 +4862,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "Celui qu'une personne fait de sa raison dans une charge ou un poste civil qui lui a été confié : un officier en service, un fonctionnaire, un pasteur devant sa communauté. Kant admet qu'on le limite, car là il faut obéir ; l'usage public, en revanche, doit toujours être libre (Ak. VIII 37).",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -4877,7 +4877,7 @@ const GLOSARIO = [
   "unidad": "CK",
   "tema": "La philosophie de Kant",
   "def": "User de la raison devant le public : la capacité d'argumenter, de débattre et de critiquer les institutions.",
-  "ilustre": [
+  "biografia": [
    "kant"
   ]
  },
@@ -4906,7 +4906,7 @@ const GLOSARIO = [
   "unidad": "AP",
   "tema": "Platon",
   "def": "La vertu de la partie irascible de l'âme : maintenir, face à la peur et au plaisir, ce que la raison enseigne qu'il faut craindre et ce qu'il ne faut pas craindre. Dans la cité idéale, c'est la vertu des gardiens.",
-  "ilustre": [
+  "biografia": [
    "platon"
   ]
  },
@@ -4922,7 +4922,7 @@ const GLOSARIO = [
   "unidad": "BT",
   "tema": "Thomas d'Aquin",
   "def": "La distinction de Thomas d'Aquin entre les vérités qu'atteint la raison naturelle (que Dieu existe) et celles qui la dépassent et ne se connaissent que par la révélation (la Trinité). Certaines se connaissent par les deux chemins. Elles ne peuvent pas se contredire, car la vérité est une : foi et raison se distinguent, mais collaborent.",
-  "ilustre": [
+  "biografia": [
    "tomas"
   ]
  },
@@ -4951,7 +4951,7 @@ const GLOSARIO = [
   "unidad": "BHvB",
   "tema": "Hildegarde de Bingen",
   "def": "Chez Hildegarde, le concept qui exprime la verdeur, la force et la fécondité de la vie. Il noue la nature, la santé et la force vitale de Dieu.",
-  "ilustre": [
+  "biografia": [
    "hildegarda"
   ]
  },
@@ -4980,7 +4980,7 @@ const GLOSARIO = [
   "unidad": "B3",
   "tema": "Renaissance et science",
   "def": "Chez Machiavel, le courage et la détermination dont le gouvernant a besoin pour faire face à la fortune (le hasard). Ce n'est pas une vertu morale, mais la capacité efficace de dominer la situation politique en sa faveur.",
-  "ilustre": [
+  "biografia": [
    "maquiavelo"
   ]
  },
@@ -4996,7 +4996,7 @@ const GLOSARIO = [
   "unidad": "C5B",
   "tema": "Hannah Arendt",
   "def": "La théorie d'Arendt qui organise l'activité humaine en trois niveaux : le labeur (biologique), le travail (artificiel) et l'action (politique).",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ]
  },
@@ -5024,7 +5024,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Pour Schopenhauer, au fond de la réalité il n'y a pas de raison transparente, mais une impulsion sans fin rationnelle et un désir insatiable.",
-  "ilustre": [
+  "biografia": [
    "nietzsche",
    "schopenhauer"
   ]
@@ -5041,7 +5041,7 @@ const GLOSARIO = [
   "unidad": "CN",
   "tema": "Nietzsche",
   "def": "Le concept de Nietzsche ne signifie pas seulement domination brute. Il exprime la force créatrice de la vie, la capacité d'imposer des formes nouvelles et l'élan de se dépasser.",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ]
  },
@@ -5057,7 +5057,7 @@ const GLOSARIO = [
   "unidad": "A4",
   "tema": "Les premiers philosophes",
   "def": "Selon Anaximandre, le principe n'est pas un élément concret, mais un fondement illimité, indéterminé et incommensurable.",
-  "ilustre": [
+  "biografia": [
    "anaximandro"
   ]
  },
@@ -5112,7 +5112,7 @@ const GLOSARIO = [
   "unidad": "B6",
   "tema": "Le contrat social",
   "def": "Selon Rousseau, l'intérêt commun de la communauté politique, qui naît du contrat social. Ce n'est pas la « volonté de tous », la somme des intérêts particuliers. La souveraineté réside dans le peuple et ne se représente pas ; être libre, c'est obéir à la loi qu'on s'est soi-même donnée. Ses critiques discutent de qui décide, en pratique, quel est cet intérêt commun.",
-  "ilustre": [
+  "biografia": [
    "rousseau"
   ]
  },
@@ -5128,7 +5128,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Le trait le plus caractéristique de l'époque moderne. L'exercice de la raison n'est limité par aucune instance extérieure (ni la tradition, ni l'autorité, ni la foi). La raison est le principe et le tribunal suprême pour juger du vrai.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5144,7 +5144,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Courant philosophique qui reconnaît la raison comme unique source, fondement et critère de toute connaissance humaine. Au XVIIe siècle, avec Descartes, Spinoza et Leibniz, il est devenu un courant philosophique précis.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "spinoza",
    "leibniz"
@@ -5162,7 +5162,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Théorie qui soutient que l'entendement possède certaines idées fondamentales dès la naissance. Selon le rationalisme, ce sont des principes indépendants de l'expérience, base de la connaissance sûre.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5178,7 +5178,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "La perception directe, sans doute possible, d'un esprit clair et attentif. Selon Descartes, le point de départ de la connaissance sûre.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5194,7 +5194,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Tirer des conclusions nécessaires à partir de principes sûrs, au moyen d'une chaîne logique.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5210,7 +5210,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Tout mettre en doute pour trouver un fondement sûr. C'est un instrument, non une fin.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5226,7 +5226,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Hypothèse du 3e niveau du doute : même si tout ce que le sujet pense était trompeur, le sujet même qui doute ne peut pas être éliminé.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5242,7 +5242,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "« Je pense, donc je suis ». La première vérité et le fondement de la philosophie de Descartes : on ne peut pas nier l'existence du sujet qui doute.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5258,7 +5258,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Une idée est claire lorsqu'elle est immédiate et manifeste pour un esprit attentif. Elle est distincte lorsqu'elle est séparée de toutes les autres. Critère de vérité tiré du cogito.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5274,7 +5274,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Le degré de réalité de la chose qu'une idée représente. En appliquant le principe de causalité, la réalité objective d'une idée a besoin d'une cause qui ait une réalité formelle égale ou supérieure.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5289,7 +5289,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Pour Descartes, un Dieu parfait ne nous trompe pas de façon systématique ; c'est pourquoi les idées claires et distinctes peuvent avoir valeur de vérité.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5305,7 +5305,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Ce qui existe en soi-même et n'a besoin d'aucune autre chose pour exister. Selon Descartes, au sens strict seul Dieu est substance.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5321,7 +5321,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "La propriété essentielle de la substance, qui ne peut en être séparée. Celui de la res cogitans est la pensée ; celui de la res extensa, l'étendue.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5337,7 +5337,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Une modification particulière de l'attribut. Par exemple, comprendre et vouloir sont des modes de la pensée ; la forme et le mouvement, des modes de l'étendue.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5353,7 +5353,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "C'est la substance pensante ; sa caractéristique n'est pas l'étendue, mais penser, douter, vouloir et avoir conscience.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5369,7 +5369,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "C'est le domaine des corps et de la nature : la réalité qui peut s'expliquer au moyen de l'étendue, de la figure, de la position et du mouvement.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5385,7 +5385,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Structure que Descartes a proposée comme point d'union entre l'âme et le corps ; elle nomme le problème, mais ne le résout pas définitivement.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5401,7 +5401,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Conception qui divise la réalité en deux substances indépendantes : res cogitans (pensée) et res extensa (étendue).",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5417,7 +5417,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Conception qui explique la nature par la matière et le mouvement mécanique. Selon Descartes, l'univers fonctionne au moyen de grands tourbillons.",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ]
  },
@@ -5433,7 +5433,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Doctrine de Malebranche : les substances n'agissent pas les unes sur les autres, Dieu est la seule cause.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "malebranche"
   ]
@@ -5450,7 +5450,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Dieu et la Nature sont la même chose. Spinoza : Deus sive Natura. Il n'existe qu'une seule substance.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "spinoza"
   ]
@@ -5467,7 +5467,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Selon Leibniz, la substance simple, active et indivisible. Les monades n'ont pas de fenêtres.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "leibniz"
   ]
@@ -5484,7 +5484,7 @@ const GLOSARIO = [
   "unidad": "DM",
   "tema": "Descartes et le rationalisme : unité complète",
   "def": "Doctrine de Leibniz : Dieu, en créant le monde, a synchronisé les substances pour toujours, sans influence externe.",
-  "ilustre": [
+  "biografia": [
    "descartes",
    "leibniz"
   ]
@@ -5499,7 +5499,7 @@ const GLOSARIO = [
   "bloque": "B",
   "tema": "La philosophie médiévale",
   "def": "Longue polémique, ouverte par Christine de Pizan vers 1400 avec la « querelle de la Rose », sur la dignité et la capacité intellectuelle des femmes ; elle se prolongea dans la culture européenne jusqu'à la Révolution française.",
-  "ilustre": [
+  "biografia": [
    "pizan"
   ]
  },
@@ -5515,12 +5515,12 @@ const GLOSARIO = [
   "unidad": "C5A",
   "tema": "Les luttes après le marxisme",
   "def": "Selon Ágnes Heller, les besoins qualitativement supérieurs que le capitalisme ne peut satisfaire et qui, en se heurtant à la réalité sociale, poussent vers un changement émancipateur.",
-  "ilustre": [
+  "biografia": [
    "heller"
   ]
  }
 ];
-const GLOSARIO_TRAMPAS = {
+const DICCIONARIO_TRAMPAS = {
  "hf": [
   [
    "L'être (Parménide)",

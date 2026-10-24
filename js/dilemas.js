@@ -48,7 +48,7 @@ const DILEMAS = [
     "quien": "Socrate",
     "elige": "B",
     "porque": "Trois raisons dans le Criton : il ne faut pas rendre l'injustice pour l'injustice ; les Lois l'ont élevé et il les a acceptées en restant à Athènes (un accord tacite) ; fuir nuirait à son âme, et l'âme vaut plus que la vie.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    },
    {
     "quien": "Antigone (Sophocle)",
@@ -59,19 +59,19 @@ const DILEMAS = [
     "quien": "Platon",
     "elige": "B",
     "porque": "Il hérite de la réponse de son maître, mais dans La République il conclut que le problème de fond est autre : tant que gouverneront ceux qui ne savent pas, les lois seront injustes ; la solution n'est pas de fuir, mais que les philosophes gouvernent.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Spinoza",
     "elige": "B",
     "porque": "Avec des nuances. L'homme libre n'agit jamais par tromperie, pas même pour échapper à un danger de mort (Éthique, IV, 72, scolie), et fuir en se jouant des lois de sa propre cité y ressemblerait. Mais se retirer à temps exige autant de fermeté que combattre (IV, 69, corollaire), et lui, chassé de sa communauté comme Socrate, s'est mis à l'écart avec prudence pour continuer à penser : ni martyr ni fugitif.",
-    "ilustre": "spinoza"
+    "biografia": "spinoza"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "Obéis dans tes actes et raisonne en public : l'officier exécute l'ordre et peut ensuite le critiquer par écrit (Qu'est-ce que les Lumières ?, 1784). Dans la Métaphysique des mœurs (1797), il refuse tout droit de rébellion ; savoir si cela exclut aussi de refuser d'exécuter un ordre immoral reste un débat ouvert entre ses interprètes.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "otra": "Celle de Spinoza, condamné comme Socrate par sa propre communauté : ni fuir en se jouant de la loi ni rester pour mourir, mais se mettre à l'écart à temps, taire l'indispensable (sa devise était « Caute », avec prudence) et continuer à penser.",
@@ -121,13 +121,13 @@ const DILEMAS = [
     "quien": "Platon",
     "elige": "A",
     "porque": "Celui qui a vu le bien ne peut pas rester à le contempler : la cité l'a éduqué et lui doit le retour ; le philosophe qui ne gouverne pas laisse le pouvoir à ceux qui aiment le pouvoir.",
-    "ilustre": "platon"
+    "biografia": "platon"
    },
    {
     "quien": "Épicure",
     "elige": "B",
     "porque": "« Vis caché » : la politique est source de trouble ; le sage cultive son jardin avec ses amis et ne prétend pas sauver la multitude, qui ne veut pas être sauvée.",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Les stoïciens",
@@ -138,7 +138,7 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "B",
     "porque": "Avec soupçon : et si celui qui redescend ne veut pas libérer mais dominer ? Zarathoustra descend de la montagne et découvre que le peuple ne veut pas de son cadeau. La vérité ne s'impose pas : elle s'offre à qui peut la supporter.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    }
   ],
   "debate": {
@@ -173,7 +173,7 @@ const DILEMAS = [
     "quien": "Épicure",
     "elige": "A",
     "porque": "Les plaisirs de l'âme, l'amitié et la conversation suffisent ; le désir naturel est facile à satisfaire et la crainte des dieux et de la mort est une erreur de raisonnement. « Vis caché ».",
-    "ilustre": "epicuro"
+    "biografia": "epicuro"
    },
    {
     "quien": "Les stoïciens (Zénon, Sénèque, Épictète)",
@@ -189,7 +189,7 @@ const DILEMAS = [
     "quien": "Aristote",
     "elige": "B",
     "porque": "Avec une correction : le bonheur est l'activité de la raison dans la cité, avec des amis et quelques biens extérieurs ; ni le tonneau de Diogène ni le jardin d'Épicure ne suffisent à une vie épanouie.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    }
   ],
   "debate": {
@@ -229,13 +229,13 @@ const DILEMAS = [
     "quien": "Augustin d'Hippone",
     "elige": "A",
     "porque": "Avec une nuance : « crois pour comprendre ». La foi vient en premier, mais non contre la raison : elle en est le guide ; la raison intervient ensuite pour comprendre ce qui est cru.",
-    "ilustre": "agustin"
+    "biografia": "agustin"
    },
    {
     "quien": "Thomas d'Aquin",
     "elige": "B",
     "porque": "Foi et raison collaborent parce qu'elles viennent de la même source ; la raison peut démontrer que Dieu existe (les cinq voies) et défendre la foi, même si les mystères (Trinité) restent au-dessus d'elle.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "Guillaume d'Ockham",
@@ -280,7 +280,7 @@ const DILEMAS = [
     "quien": "Thomas d'Aquin",
     "elige": "B",
     "porque": "Le vrai ne peut pas contredire le vrai. Si Aristote conclut que le monde est éternel, il faut examiner son argument : la raison, dit Thomas, ne peut démontrer ni l'éternité ni la création ; la question est laissée à la foi.",
-    "ilustre": "tomas"
+    "biografia": "tomas"
    },
    {
     "quien": "L'évêque Tempier (condamnation de 1277)",
@@ -325,13 +325,13 @@ const DILEMAS = [
     "quien": "Descartes (rationalisme)",
     "elige": "A",
     "porque": "Le doute méthodique est volontaire, provisoire et radical, et il trouve un fond : je doute, donc je pense, donc je suis. À partir de là, avec la garantie de Dieu, tout se reconstruit avec certitude.",
-    "ilustre": "descartes"
+    "biografia": "descartes"
    },
    {
     "quien": "Hume (empirisme)",
     "elige": "B",
     "porque": "Le doute cartésien, s'il était possible, serait incurable : il n'y a aucun principe dont on ne puisse douter. Heureusement, il est impossible : la nature nous oblige à croire. Il faut partir de l'expérience, non du néant.",
-    "ilustre": "hume"
+    "biografia": "hume"
    },
    {
     "quien": "Peirce et le pragmatisme (XIXe siècle)",
@@ -342,7 +342,7 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "A",
     "porque": "À sa manière : il n'a pas douté de tout, mais il s'est bien interrogé sur les conditions de toute connaissance possible avant d'en admettre aucune. La critique est le doute cartésien devenu méthode.",
-    "ilustre": "kant"
+    "biografia": "kant"
    }
   ],
   "debate": {
@@ -377,13 +377,13 @@ const DILEMAS = [
     "quien": "Hobbes",
     "elige": "A",
     "porque": "À l'état de nature, la vie est « solitaire, pauvre, méchante, brutale et brève » ; par peur, les hommes cèdent tout leur droit à un souverain absolu. Diviser le pouvoir, c'est retourner à la guerre.",
-    "ilustre": "hobbes"
+    "biografia": "hobbes"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
     "porque": "L'homme naît libre et bon ; le pacte légitime ne livre pas la liberté mais la transforme : chacun obéit à la volonté générale dont il fait partie, et ainsi n'obéit qu'à lui-même.",
-    "ilustre": "rousseau"
+    "biografia": "rousseau"
    },
    {
     "quien": "Locke",
@@ -428,19 +428,19 @@ const DILEMAS = [
     "quien": "Kant",
     "elige": "B",
     "porque": "Il l'a écrit en 1797 contre ceux qui lui avaient opposé ce cas : mentir est toujours contraire au devoir, parce que la maxime « je mens quand cela m'arrange » ne peut pas être universalisée sans détruire la confiance qui rend le langage possible ; du résultat de la vérité, ce n'est pas moi qui suis responsable, mais l'assassin.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Bentham et Mill (utilitarisme)",
     "elige": "A",
     "porque": "Une action est bonne si elle produit le plus grand bonheur pour le plus grand nombre ; le mensonge qui sauve une vie est obligatoire. Mill ajouterait que la règle « ne pas mentir » est utile en général et que, pour cette raison, les exceptions doivent être rarissimes et très claires.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Aristote",
     "elige": "A",
     "porque": "Pas par calcul : la personne prudente (phronêsis) sait que la véracité est une vertu parmi d'autres et que la justice et l'amitié pèsent ici davantage ; l'éthique ne consiste pas à appliquer des règles mais à bien juger le cas concret.",
-    "ilustre": "aristoteles"
+    "biografia": "aristoteles"
    },
    {
     "quien": "Benjamin Constant",
@@ -480,13 +480,13 @@ const DILEMAS = [
     "quien": "Nietzsche",
     "elige": "A",
     "porque": "La morale des maîtres dit « bon » à ce qui est noble et fort ; celle des esclaves, née du ressentiment, inverse les valeurs : elle appelle bon le doux et mauvais le puissant. Judaïsme et christianisme ont gagné cette bataille ; il faut transvaluer les valeurs.",
-    "ilustre": "nietzsche"
+    "biografia": "nietzsche"
    },
    {
     "quien": "Kant",
     "elige": "B",
     "porque": "La dignité est égale en tout être raisonnable ; il n'y a ni « maîtres » ni « esclaves » devant la loi morale. Que la morale favorise le faible ne la réfute pas : l'humanité n'est pas un tournoi.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Marx",
@@ -497,7 +497,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "La morale de l'ambiguïté : ma liberté n'est réelle que si elle veut la liberté des autres ; le « maître » nietzschéen qui a besoin d'esclaves n'est pas libre, il dépend de sa domination.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    }
   ],
   "debate": {
@@ -532,13 +532,13 @@ const DILEMAS = [
     "quien": "Hannah Arendt",
     "elige": "B",
     "porque": "Eichmann était coupable et devait mourir ; mais ce qui était terrible, c'était sa normalité : l'incapacité de penser du point de vue d'un autre. Le mal radical n'exige pas de méchanceté, seulement de cesser de juger. Et cela peut arriver à n'importe qui.",
-    "ilustre": "arendt"
+    "biografia": "arendt"
    },
    {
     "quien": "Kant",
     "elige": "A",
     "porque": "L'autonomie morale consiste à se donner à soi-même la loi ; celui qui obéit à un ordre immoral a renoncé à sa raison et reste responsable, parce que nul ne peut être contraint d'être immoral. Kant, ironie tragique, était le philosophe qu'Eichmann disait avoir lu.",
-    "ilustre": "kant"
+    "biografia": "kant"
    },
    {
     "quien": "Sartre (existentialisme)",
@@ -549,7 +549,7 @@ const DILEMAS = [
     "quien": "Socrate",
     "elige": "A",
     "porque": "Il l'a déjà dit face aux Trente Tyrans, qui lui ordonnaient d'arrêter un innocent : il est rentré chez lui. Il vaut mieux subir l'injustice que la commettre, et une loi injuste ne rend pas juste ce qu'elle commande.",
-    "ilustre": "socrates"
+    "biografia": "socrates"
    }
   ],
   "debate": {
@@ -584,7 +584,7 @@ const DILEMAS = [
     "quien": "Simone de Beauvoir",
     "elige": "B",
     "porque": "« On ne naît pas femme : on le devient. » La femme a été construite comme l'Autre ; sa liberté est réelle mais située, et une situation d'oppression rétrécit les choix possibles. On ne juge pas la personne : on change la situation.",
-    "ilustre": "beauvoir"
+    "biografia": "beauvoir"
    },
    {
     "quien": "Sartre",
@@ -595,7 +595,7 @@ const DILEMAS = [
     "quien": "Mill (libéralisme)",
     "elige": "A",
     "porque": "Sur lui-même, sur son corps et son esprit, l'individu est souverain ; la société ne peut intervenir que pour éviter de nuire aux autres. Bien que Mill lui-même, dans L'Assujettissement des femmes, admette qu'une préférence éduquée dans la soumission n'est pas tout à fait une préférence.",
-    "ilustre": "mill"
+    "biografia": "mill"
    },
    {
     "quien": "Marx",
@@ -635,7 +635,7 @@ const DILEMAS = [
     "quien": "Rawls (libéralisme égalitaire)",
     "elige": "B",
     "porque": "Sous le voile d'ignorance, un être rationnel choisit la stratégie du maximin : que la pire place possible soit la meilleure possible. De là ses deux principes : des libertés de base pour tous et des inégalités seulement si elles favorisent les plus défavorisés. L'État-providence a ainsi une base morale : intervenir n'est pas de la charité, c'est de la justice.",
-    "ilustre": "rawls"
+    "biografia": "rawls"
    },
    {
     "quien": "Nozick (libertarisme)",

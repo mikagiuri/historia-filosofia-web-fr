@@ -43,7 +43,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionnaire : raison",
-       "h": "#glosario/g-fil-razon"
+       "h": "#diccionario/g-fil-razon"
       },
       {
        "t": "Logique et argumentation (Philosophie 1re Bach.)",
@@ -167,11 +167,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : collaboration foi-raison",
-       "h": "#glosario/g-colaboracion-fe-razon"
+       "h": "#diccionario/g-colaboracion-fe-razon"
       },
       {
        "t": "Dictionnaire : les limites de la raison",
-       "h": "#glosario/g-los-limites-de-la-razon"
+       "h": "#diccionario/g-los-limites-de-la-razon"
       }
      ]
     },
@@ -201,11 +201,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : autonomie de la raison",
-       "h": "#glosario/g-autonomia-de-la-razon"
+       "h": "#diccionario/g-autonomia-de-la-razon"
       },
       {
        "t": "Dictionnaire : idées claires et distinctes",
-       "h": "#glosario/g-ideas-claras-y-distintas"
+       "h": "#diccionario/g-ideas-claras-y-distintas"
       }
      ]
     },
@@ -239,7 +239,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : relations d'idées et questions de fait",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -269,11 +269,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : usage privé de la raison",
-       "h": "#glosario/g-uso-privado"
+       "h": "#diccionario/g-uso-privado"
       },
       {
        "t": "Dictionnaire : idée régulatrice",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       }
      ]
     },
@@ -303,11 +303,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : raison instrumentale",
-       "h": "#glosario/g-razon-instrumental"
+       "h": "#diccionario/g-razon-instrumental"
       },
       {
        "t": "Dictionnaire : soupçon",
-       "h": "#glosario/g-sospecha"
+       "h": "#diccionario/g-sospecha"
       }
      ]
     },
@@ -329,11 +329,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : raison communicationnelle",
-       "h": "#glosario/g-razon-comunicativa"
+       "h": "#diccionario/g-razon-comunicativa"
       },
       {
        "t": "Dictionnaire : situation idéale de parole",
-       "h": "#glosario/g-situacion-ideal-de-habla"
+       "h": "#diccionario/g-situacion-ideal-de-habla"
       },
       {
        "t": "Logique et argumentation (Philosophie 1re Bach.)",
@@ -415,7 +415,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : théorie des Idées",
-       "h": "#glosario/g-teoria-de-las-ideas"
+       "h": "#diccionario/g-teoria-de-las-ideas"
       },
       {
        "t": "La réalité : qu'y a-t-il et comment est-ce ? (Philosophie 1re Bach.)",
@@ -445,7 +445,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : le rejet des Idées",
-       "h": "#glosario/g-el-rechazo-de-las-ideas"
+       "h": "#diccionario/g-el-rechazo-de-las-ideas"
       },
       {
        "t": "Atelier : l'univers aristotélicien",
@@ -479,7 +479,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : nominalisme",
-       "h": "#glosario/g-nominalismo"
+       "h": "#diccionario/g-nominalismo"
       }
      ]
     },
@@ -509,11 +509,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : innéisme",
-       "h": "#glosario/g-innatismo"
+       "h": "#diccionario/g-innatismo"
       },
       {
        "t": "Dictionnaire : idées claires et distinctes",
-       "h": "#glosario/g-ideas-claras-y-distintas-dm"
+       "h": "#diccionario/g-ideas-claras-y-distintas-dm"
       }
      ]
     },
@@ -539,11 +539,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : impression",
-       "h": "#glosario/g-impresion"
+       "h": "#diccionario/g-impresion"
       },
       {
        "t": "Dictionnaire : relations d'idées et questions de fait",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -573,11 +573,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : idée régulatrice",
-       "h": "#glosario/g-idea-regulativa"
+       "h": "#diccionario/g-idea-regulativa"
       },
       {
        "t": "Dictionnaire : catégorie",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -607,15 +607,15 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : dialectique",
-       "h": "#glosario/g-dialectica"
+       "h": "#diccionario/g-dialectica"
       },
       {
        "t": "Dictionnaire : dialectique matérialiste",
-       "h": "#glosario/g-dialectica-materialista"
+       "h": "#diccionario/g-dialectica-materialista"
       },
       {
        "t": "Dictionnaire : idéalisme",
-       "h": "#glosario/g-fil-idealismo"
+       "h": "#diccionario/g-fil-idealismo"
       }
      ]
     },
@@ -671,7 +671,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionnaire : fausse cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     },
@@ -689,7 +689,7 @@ const PILARES = {
      "enl": [
       {
        "t": "Dictionnaire : fausse cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       },
       {
        "t": "La méthode hypothético-déductive : le cas Semmelweis (Philosophie 1re Bach.)",
@@ -753,11 +753,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : les quatre causes",
-       "h": "#glosario/g-las-cuatro-causas"
+       "h": "#diccionario/g-las-cuatro-causas"
       },
       {
        "t": "Dictionnaire : Moteur immobile",
-       "h": "#glosario/g-motor-inmovil"
+       "h": "#diccionario/g-motor-inmovil"
       },
       {
        "t": "La réalité : qu'y a-t-il et comment est-ce ? (Philosophie 1re Bach.)",
@@ -791,7 +791,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : cinq voies",
-       "h": "#glosario/g-cinco-vias"
+       "h": "#diccionario/g-cinco-vias"
       }
      ]
     },
@@ -843,11 +843,11 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : habitude",
-       "h": "#glosario/g-habito"
+       "h": "#diccionario/g-habito"
       },
       {
        "t": "Dictionnaire : relations d'idées et questions de fait",
-       "h": "#glosario/g-relaciones-de-ideas"
+       "h": "#diccionario/g-relaciones-de-ideas"
       }
      ]
     },
@@ -877,7 +877,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : catégorie",
-       "h": "#glosario/g-categoria"
+       "h": "#diccionario/g-categoria"
       }
      ]
     },
@@ -933,7 +933,7 @@ const PILARES = {
       },
       {
        "t": "Dictionnaire : fausse cause",
-       "h": "#glosario/g-fil-causa-falsa"
+       "h": "#diccionario/g-fil-causa-falsa"
       }
      ]
     }

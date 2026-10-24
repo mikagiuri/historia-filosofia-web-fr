@@ -6,7 +6,7 @@ const GENEALOGIAS = {
    "name": "Raison et Idées",
    "color": "#2f6fd6",
    "desc": "La vraie connaissance vient de la raison, non des sens.",
-   "ilustre": [
+   "biografia": [
     "parmenides",
     "platon",
     "plotino",
@@ -24,7 +24,7 @@ const GENEALOGIAS = {
    "name": "Dualisme âme-corps",
    "color": "#1b9e9e",
    "desc": "L'être humain est deux choses distinctes : une âme ou un esprit immatériel et un corps matériel.",
-   "ilustre": [
+   "biografia": [
     "pitagoras",
     "platon",
     "plotino",
@@ -41,7 +41,7 @@ const GENEALOGIAS = {
    "name": "Expérience et science",
    "color": "#d95f02",
    "desc": "Toute connaissance commence par l'expérience et se vérifie par elle.",
-   "ilustre": [
+   "biografia": [
     "aristoteles",
     "roger_bacon",
     "ockham",
@@ -60,7 +60,7 @@ const GENEALOGIAS = {
    "name": "Matière et nature",
    "color": "#7a5230",
    "desc": "Seule la matière existe ; l'être humain aussi s'explique par la nature.",
-   "ilustre": [
+   "biografia": [
     "leucipo",
     "democrito",
     "epicuro",
@@ -77,7 +77,7 @@ const GENEALOGIAS = {
    "name": "Foi et raison",
    "color": "#8a4b84",
    "desc": "Comment harmoniser ce que l'on croit avec ce que l'on démontre.",
-   "ilustre": [
+   "biografia": [
     "plotino",
     "agustin",
     "escoto_erigena",
@@ -96,7 +96,7 @@ const GENEALOGIAS = {
    "name": "Scepticisme",
    "color": "#6b7a8f",
    "desc": "Nous ne pouvons atteindre aucune certitude : le plus sage est de suspendre son jugement ou de se contenter du probable.",
-   "ilustre": [
+   "biografia": [
     "gorgias",
     "pirron",
     "timon",
@@ -111,7 +111,7 @@ const GENEALOGIAS = {
    "name": "Doute méthodique et critique",
    "color": "#8f6600",
    "desc": "Douter pour savoir : le doute comme méthode et la critique des limites de la connaissance.",
-   "ilustre": [
+   "biografia": [
     "socrates",
     "descartes",
     "hume",
@@ -124,7 +124,7 @@ const GENEALOGIAS = {
    "name": "Bonheur et vie bonne",
    "color": "#2e9e6b",
    "desc": "L'éthique comme art de bien vivre : vertu, plaisir, utilité.",
-   "ilustre": [
+   "biografia": [
     "socrates",
     "aristipo",
     "aristoteles",
@@ -143,7 +143,7 @@ const GENEALOGIAS = {
    "name": "Pouvoir et État",
    "color": "#c0392b",
    "desc": "Qui doit commander et pourquoi nous obéissons : de la polis au contrat et à la démocratie.",
-   "ilustre": [
+   "biografia": [
     "platon",
     "aristoteles",
     "maquiavelo",
@@ -163,7 +163,7 @@ const GENEALOGIAS = {
    "name": "Devenir, dialectique et critique sociale",
    "color": "#b44fc4",
    "desc": "La réalité change par le choc des contraires ; la philosophie comme critique de la société.",
-   "ilustre": [
+   "biografia": [
     "heraclito",
     "hegel",
     "feuerbach",
@@ -178,7 +178,7 @@ const GENEALOGIAS = {
    "name": "Soupçon et postmodernité",
    "color": "#e377c2",
    "desc": "Derrière la vérité et la conscience, il y a des intérêts, des pulsions et du pouvoir.",
-   "ilustre": [
+   "biografia": [
     "nietzsche",
     "freud",
     "heidegger",
@@ -194,7 +194,7 @@ const GENEALOGIAS = {
    "name": "Existence et liberté",
    "color": "#3fa7c9",
    "desc": "L'être humain concret, sa liberté et son angoisse.",
-   "ilustre": [
+   "biografia": [
     "agustin",
     "nietzsche",
     "unamuno",
@@ -210,7 +210,7 @@ const GENEALOGIAS = {
    "name": "Femmes et féminisme",
    "color": "#a8b82e",
    "desc": "Des philosophes oubliées à la critique du patriarcat et du genre.",
-   "ilustre": [
+   "biografia": [
     "aspasia",
     "hipatia",
     "hildegarda",
@@ -230,7 +230,7 @@ const GENEALOGIAS = {
    "name": "Logique et langage",
    "color": "#5b4fc4",
    "desc": "Bien penser, c'est parler avec rigueur : de la logique au tournant linguistique.",
-   "ilustre": [
+   "biografia": [
     "aristoteles",
     "ockham",
     "llull",
@@ -245,121 +245,121 @@ const GENEALOGIAS = {
  ],
  "op": [
   {
-   "ilustre": [
+   "biografia": [
     "heraclito",
     "parmenides"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "protagoras",
     "socrates"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "platon",
     "aristoteles"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "epicuro",
     "zenon"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "tomas",
     "averroes"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "tomas",
     "ockham"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "hume"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hobbes",
     "rousseau"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "rousseau",
     "wollstonecraft"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "kant",
     "bentham"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hegel",
     "marx"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "hegel",
     "nietzsche"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "marx",
     "popper"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "habermas",
     "foucault"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "sartre",
     "foucault"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "isabel"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "spinoza"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "ryle"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "descartes",
     "pirron"
    ]
   },
   {
-   "ilustre": [
+   "biografia": [
     "arcesilao",
     "zenon"
    ]
@@ -377,7 +377,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "1re voie : le mouvement",
     "color": "#e0a526",
     "desc": "Tout ce qui se meut est mû par un autre, et la chaîne ne peut pas être infinie : il y a un premier moteur.",
-    "ilustre": [
+    "biografia": [
      "platon",
      "aristoteles",
      "averroes",
@@ -390,7 +390,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "2e voie : la cause",
     "color": "#3fa7c9",
     "desc": "Rien n'est cause de soi-même, et sans une première cause il n'y en aurait aucune : il y a une cause première.",
-    "ilustre": [
+    "biografia": [
      "aristoteles",
      "avicena",
      "tomas",
@@ -403,7 +403,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "3e voie : la contingence",
     "color": "#7b61d9",
     "desc": "Ce qui pourrait ne pas exister a besoin d'autre chose pour exister : il y a un être nécessaire par lui-même.",
-    "ilustre": [
+    "biografia": [
      "avicena",
      "maimonides",
      "tomas",
@@ -416,7 +416,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "4e voie : les degrés",
     "color": "#b44fc4",
     "desc": "S'il y a des choses plus ou moins bonnes et vraies, il y a un maximum qui est leur mesure et leur cause.",
-    "ilustre": [
+    "biografia": [
      "platon",
      "agustin",
      "boecio",
@@ -429,7 +429,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "5e voie : l'ordre",
     "color": "#2e9e6b",
     "desc": "Les choses dépourvues de connaissance agissent en vue d'une fin, comme la flèche que dirige l'archer : il y a une intelligence qui ordonne la nature.",
-    "ilustre": [
+    "biografia": [
      "ciceron",
      "tomas",
      "paley"
@@ -440,7 +440,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Argument ontologique",
     "color": "#d95f02",
     "desc": "Du seul concept de Dieu, « ce dont on ne peut rien penser de plus grand », il s'ensuivrait qu'il existe.",
-    "ilustre": [
+    "biografia": [
      "anselmo",
      "descartes",
      "leibniz"
@@ -451,7 +451,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Kalâm : le monde a commencé",
     "color": "#9a7b5f",
     "desc": "Le monde a eu un commencement, et tout ce qui commence à exister a une cause.",
-    "ilustre": [
+    "biografia": [
      "al_kindi",
      "al_ghazali",
      "buenaventura"
@@ -462,7 +462,7 @@ const GENEALOGIAS_PLANOS = [
     "name": "Les critiques",
     "color": "#6e6e78",
     "desc": "Ceux qui ont mis en doute que la raison puisse démontrer l'existence de Dieu.",
-    "ilustre": [
+    "biografia": [
      "hume",
      "kant",
      "darwin",
@@ -472,49 +472,49 @@ const GENEALOGIAS_PLANOS = [
   ],
   "op": [
    {
-    "ilustre": [
+    "biografia": [
      "anselmo",
      "tomas"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "tomas",
      "buenaventura"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "avicena",
      "averroes"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "al_ghazali",
      "averroes"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "descartes",
      "kant"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "hume",
      "paley"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "paley",
      "darwin"
     ]
    },
    {
-    "ilustre": [
+    "biografia": [
      "russell",
      "copleston"
     ]

@@ -41,7 +41,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Certaines sections réunissent plusieurs choses du même type : en haut, elles ont une <strong>rangée de boutons</strong> pour passer de l’une à l’autre. Par exemple, dans Quiz tu peux passer à <strong>Contre la montre</strong>, et dans Biographies, à <strong>Persécutés</strong> ou à <strong>Communautés</strong>."
+   "x": "Certaines sections réunissent plusieurs choses du même type : en haut, elles ont une <strong>rangée de boutons</strong> pour passer de l’une à l’autre. Par exemple, dans Quiz tu peux passer à <strong>Défis</strong>, et dans Biographies, à <strong>Persécutés</strong> ou à <strong>Communautés</strong>."
   },
   {
    "type": "h",
@@ -213,7 +213,7 @@ const GUIA = {
     {
      "nombre": "Glossaire",
      "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes.",
-     "view": "glosario"
+     "view": "diccionario"
     },
     {
      "nombre": "Racines",
@@ -242,7 +242,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Quiz",
-     "texto": "Des questions à choix multiples avec correction immédiate et l’explication de chaque réponse. Ton meilleur score est enregistré. En haut, le bouton Contre la montre : des questions chronométrées, avec des points pour la rapidité et pour les séries.",
+     "texto": "Des questions à choix multiples avec correction immédiate et l’explication de chaque réponse. Ton meilleur score est enregistré. En haut, le bouton Défis : des questions chronométrées, avec des points pour la rapidité et pour les séries.",
      "view": "cuestionarios"
     },
     {
@@ -265,7 +265,7 @@ const GUIA = {
   {
    "type": "img",
    "src": "08_cuestionarios.webp",
-   "cap": "Quiz : en haut, le bouton Contre la montre ; en dessous, filtre, choisis le quiz dans la liste déroulante et réponds."
+   "cap": "Quiz : en haut, le bouton Défis ; en dessous, filtre, choisis le quiz dans la liste déroulante et réponds."
   },
   {
    "type": "tip",
@@ -307,9 +307,9 @@ const GUIA = {
    "solo": "hf",
    "rows": [
     {
-     "nombre": "Guide de l’épreuve",
+     "nombre": "Prépare la PAU",
      "texto": "Comment se passe l’examen, comment aborder l’Exercice 1 (compréhension de texte) et l’Exercice 3 (exposé), et les modèles officiels.",
-     "view": "pau"
+     "view": "prepara_PAU"
     },
     {
      "nombre": "Commentaire de texte",
@@ -331,7 +331,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Commence par le Guide de l’épreuve pour savoir ce qu’on va te demander, puis suis le Parcours PAU de la page de la matière : il te fait passer dans l’ordre par chaque exercice."
+   "x": "Commence par « Prépare la PAU » pour savoir ce qu’on va te demander, puis suis le Parcours PAU de la page de la matière : il te fait passer dans l’ordre par chaque exercice."
   },
   {
    "type": "h",
@@ -505,7 +505,7 @@ const GUIA = {
     {
      "titulo": "Prépare l’examen",
      "texto": "PAU : lectures, commentaires et dissertations.",
-     "view": "pau",
+     "view": "prepara_PAU",
      "solo": "hf"
     },
     {

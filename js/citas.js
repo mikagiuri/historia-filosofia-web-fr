@@ -118,7 +118,7 @@ const CITAS = [
   "o": "fragment DK 21 B15",
   "e": "antique",
   "id": "jenofanes",
-  "img": "media/retratos/ilustres/jenofanes.jpg",
+  "img": "media/retratos/biografias/jenofanes.jpg",
   "sen": "Xénophane critique l'anthropomorphisme de la religion grecque : chaque peuple imagine les dieux à sa propre image. Face à cela, il défend un dieu unique, qui ne ressemble pas aux mortels.",
   "uso": "Pour expliquer le passage du mythe au logos et la critique présocratique des dieux d'Homère, ou dans des débats sur la religion et la projection humaine."
  },
@@ -222,7 +222,7 @@ const CITAS = [
   "o": "paraphrase non localisée dans le Scivias ; la « lumière vivante » provient de sa lettre à Guibert de Gembloux (1175)",
   "e": "médiévale",
   "id": "hildegarda",
-  "img": "media/retratos/ilustres/hildegarda.jpg",
+  "img": "media/retratos/biografias/hildegarda.jpg",
   "sen": "Hildegarde décrit ses visions comme une lumière qui vient de Dieu et se reflète dans toutes les créatures. Pour elle, le monde entier manifeste la splendeur divine.",
   "uso": "Pour présenter Hildegarde de Bingen et la mystique médiévale, ou dans un exposé sur les femmes philosophes au Moyen Âge.",
   "trampa": "Ce n'est pas une citation localisée : c'est une paraphrase ; la « lumière vivante » provient de sa lettre à Guibert de Gembloux, et non du Scivias."
@@ -469,7 +469,7 @@ const CITAS = [
   "o": "paraphrase de L'Homme-machine (1748)",
   "e": "moderne",
   "id": "lamettrie",
-  "img": "media/retratos/ilustres/lamettrie.jpg",
+  "img": "media/retratos/biografias/lamettrie.jpg",
   "sen": "La Mettrie défend un matérialisme radical : l'être humain est une machine complexe et ce que nous appelons l'âme dépend entièrement de l'organisation du corps.",
   "uso": "Pour présenter le matérialisme des Lumières face au dualisme cartésien, ou dans des débats sur la relation entre l'esprit et le cerveau.",
   "trampa": "Ce n'est pas une citation littérale, mais un résumé de la thèse centrale de L'Homme-machine."
@@ -500,7 +500,7 @@ const CITAS = [
   "o": "De la liberté du chrétien (1520), § 1",
   "e": "moderne",
   "id": "lutero",
-  "img": "media/retratos/ilustres/lutero.jpg",
+  "img": "media/retratos/biografias/lutero.jpg",
   "sen": "Luther présente un paradoxe : par la foi, le chrétien est libre et ne dépend de personne pour être sauvé ; par amour, il se met au service des autres.",
   "uso": "Pour présenter la Réforme protestante et son idée de liberté intérieure, ou dans des débats sur la liberté et la responsabilité."
  },
@@ -632,7 +632,7 @@ const CITAS = [
   "o": "La Dialectique de la Raison (1944), « Le concept de Lumières »",
   "e": "contemporaine",
   "id": "adorno",
-  "img": "media/retratos/ilustres/adorno.jpg",
+  "img": "media/retratos/biografias/adorno.jpg",
   "sen": "Pour Adorno et Horkheimer, la raison des Lumières, en réduisant tout au calcul et à la domination de la nature, se retourne contre les êtres humains eux-mêmes et finit par servir la domination.",
   "uso": "Pour expliquer l'École de Francfort et la raison instrumentale, ou dans une dissertation sur les limites du progrès technique.",
   "trampa": "Ce n'est pas un rejet des Lumières : les auteurs veulent que la raison se critique elle-même pour sauver sa promesse d'émancipation."
@@ -681,7 +681,7 @@ const CITAS = [
   "o": "Trouble dans le genre (1990), chap. 1",
   "e": "contemporaine",
   "id": "butler",
-  "img": "media/retratos/ilustres/butler.jpg",
+  "img": "media/retratos/biografias/butler.jpg",
   "sen": "Pour Butler, le genre n'est pas quelque chose que l'on est par nature, mais quelque chose que l'on fait : des actes répétés selon des normes sociales qui, à force d'être répétés, ressemblent à une essence naturelle.",
   "uso": "Pour expliquer la théorie de la performativité du genre, ou dans des débats sur la nature et la culture dans l'identité."
  },
@@ -701,7 +701,7 @@ const CITAS = [
   "o": "De la grammatologie (1967), partie II, chap. 2",
   "e": "contemporaine",
   "id": "derrida",
-  "img": "media/retratos/ilustres/derrida.jpg",
+  "img": "media/retratos/biografias/derrida.jpg",
   "sen": "Derrida affirme qu'il n'y a pas de sens pur en dehors du langage : tout ce que nous comprenons nous parvient déjà pris dans des réseaux de signes et d'interprétations.",
   "uso": "Pour présenter la déconstruction et le tournant linguistique, ou dans des débats sur l'interprétation et la vérité.",
   "trampa": "Cela ne veut pas dire que seuls les livres existent ou que le monde n'est pas réel, mais que nous n'accédons à rien sans la médiation du langage et de l'interprétation."
@@ -911,7 +911,7 @@ const CITAS = [
   "o": "La Condition postmoderne (1979), Introduction",
   "e": "contemporaine",
   "id": "lyotard",
-  "img": "media/retratos/ilustres/lyotard.jpg",
+  "img": "media/retratos/biografias/lyotard.jpg",
   "sen": "Pour Lyotard, la postmodernité cesse de croire aux grands récits qui donnaient un sens à l'histoire, comme le progrès, l'émancipation ou la révolution.",
   "uso": "Pour présenter la postmodernité et la crise de la modernité, ou dans une dissertation sur le progrès."
  },
@@ -982,7 +982,7 @@ const CITAS = [
   "o": "Modernité liquide (2000), Prologue",
   "e": "contemporaine",
   "id": "bauman",
-  "img": "media/retratos/ilustres/bauman.jpg",
+  "img": "media/retratos/biografias/bauman.jpg",
   "sen": "Bauman utilise l'image des liquides pour décrire notre époque : le travail, les relations et les identités ne sont plus solides ni durables, mais changent sans cesse de forme.",
   "uso": "Pour expliquer la modernité liquide de Bauman, ou dans des débats sur la précarité, la consommation et les relations dans la société actuelle."
  },
@@ -1591,7 +1591,7 @@ const CITAS = [
   "o": "Lettre à Herder, 6 août 1784",
   "e": "moderne",
   "id": "hamann",
-  "img": "media/retratos/ilustres/hamann.jpg",
+  "img": "media/retratos/biografias/hamann.jpg",
   "sen": "Hamann critique la raison pure de Kant : il n'y a pas de raison séparée du langage, car nous pensons toujours avec les mots d'une langue concrète, héritée et historique. En grec, logos signifie à la fois raison et parole.",
   "uso": "Pour présenter la critique des Lumières et le tournant vers le langage, ou dans une dissertation sur la relation entre pensée et langage."
  },
@@ -1601,7 +1601,7 @@ const CITAS = [
   "o": "Traité sur l'origine de la langue (1772), première phrase",
   "e": "moderne",
   "id": "herder",
-  "img": "media/retratos/ilustres/herder.jpg",
+  "img": "media/retratos/biografias/herder.jpg",
   "sen": "Herder ouvre son traité en affirmant que le langage n'est ni un don divin ni une invention tardive : il plonge ses racines dans l'expression naturelle des sensations, que l'être humain partage avec les animaux.",
   "uso": "Pour expliquer le débat des Lumières sur l'origine du langage, ou dans une dissertation sur ce qui distingue l'être humain des animaux."
  },
@@ -1611,7 +1611,7 @@ const CITAS = [
   "o": "Les Souffrances du jeune Werther (1774), lettre du 22 mai",
   "e": "moderne",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Werther, le héros de Goethe, se réfugie en lui-même et y découvre tout un monde de sentiments et d'imagination, plus riche que la réalité extérieure qui le déçoit.",
   "uso": "Pour présenter le Sturm und Drang et le romantisme, avec leur valorisation du sentiment et de l'intériorité face à la raison des Lumières."
  },
@@ -1621,7 +1621,7 @@ const CITAS = [
   "o": "Faust I (1808), scène du cabinet d'étude",
   "e": "moderne",
   "id": "goethe",
-  "img": "media/retratos/ilustres/goethe.jpg",
+  "img": "media/retratos/biografias/goethe.jpg",
   "sen": "Faust tente de traduire le début de l'Évangile de Jean, « Au commencement était le Verbe », et finit par écrire « l'action » : ce qui vient en premier, ce n'est ni la parole ni la pensée, mais le faire.",
   "uso": "Pour présenter le Faust de Goethe et le primat de l'action, ou dans une dissertation sur la théorie et la pratique."
  },
@@ -1631,7 +1631,7 @@ const CITAS = [
   "o": "Lettres sur l'éducation esthétique de l'homme (1795), lettre 15",
   "e": "moderne",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Pour Schiller, dans le jeu, et surtout dans l'art, l'être humain unit ses deux pulsions, sensible et rationnelle, sans que l'une domine l'autre ; c'est pourquoi c'est là qu'il est pleinement libre et humain.",
   "uso": "Pour expliquer l'éducation esthétique chez Schiller, ou dans une dissertation sur l'art, le jeu et la liberté."
  },
@@ -1641,7 +1641,7 @@ const CITAS = [
   "o": "Réponse à Goethe sur la plante originelle (1794), d'après Goethe, Heureux événement (1817)",
   "e": "moderne",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Goethe croyait avoir vu la plante originelle dont dérivent toutes les plantes ; Schiller, kantien, lui répliqua que cela ne se voit pas : c'est une idée de la raison, et non quelque chose de donné dans l'expérience.",
   "uso": "Pour expliquer la distinction kantienne entre expérience et idée, ou le dialogue entre Goethe et Schiller sur la science et la nature."
  },
@@ -1661,7 +1661,7 @@ const CITAS = [
   "o": "Athenaeum (1798), fragment 116",
   "e": "contemporaine",
   "id": "schlegel",
-  "img": "media/retratos/ilustres/schlegel.jpg",
+  "img": "media/retratos/biografias/schlegel.jpg",
   "sen": "Schlegel définit la poésie romantique comme un projet ouvert qui mêle les genres, unit poésie, philosophie et vie, et n'est jamais achevé : elle est toujours en train de se faire.",
   "uso": "Pour présenter le romantisme allemand et son idée de l'art comme quête infinie, face au classicisme."
  },
@@ -1689,7 +1689,7 @@ const CITAS = [
   "o": "Une nouvelle vision de la société (1813), premier essai",
   "e": "contemporaine",
   "id": "owen",
-  "img": "media/retratos/ilustres/owen.jpg",
+  "img": "media/retratos/biografias/owen.jpg",
   "sen": "Pour Owen, le caractère des personnes ne dépend pas d'elles, mais des circonstances et de l'éducation qu'elles reçoivent ; en changeant l'environnement, on peut former toute une société meilleure.",
   "uso": "Pour présenter le socialisme utopique d'Owen, ou dans une dissertation sur l'influence du milieu et de l'éducation sur le caractère."
  },
@@ -1699,7 +1699,7 @@ const CITAS = [
   "o": "Théorie des quatre mouvements (1808)",
   "e": "contemporaine",
   "id": "fourier",
-  "img": "media/retratos/ilustres/fourier.jpg",
+  "img": "media/retratos/biografias/fourier.jpg",
   "sen": "Pour Fourier, le degré de liberté des femmes est la mesure du progrès d'une société : plus elles sont libres, plus celle-ci est avancée.",
   "uso": "Pour présenter le socialisme utopique de Fourier et son rapport au féminisme, ou dans une dissertation sur le progrès social."
  },
@@ -1709,7 +1709,7 @@ const CITAS = [
   "o": "Qu'est-ce que la propriété ? (1840), chap. 1",
   "e": "contemporaine",
   "id": "proudhon",
-  "img": "media/retratos/ilustres/proudhon.jpg",
+  "img": "media/retratos/biografias/proudhon.jpg",
   "sen": "Proudhon critique la propriété entendue comme droit de percevoir des revenus sans travailler, par des rentes ou des intérêts : pour lui, c'est s'approprier le travail d'autrui.",
   "uso": "Pour présenter l'anarchisme et le socialisme du XIXe siècle, ou dans une dissertation sur la propriété privée.",
   "trampa": "Elle n'est pas de Marx, et Proudhon ne rejette pas toute possession : il distingue la propriété qui vit du travail d'autrui de la possession de ce que l'on utilise et travaille soi-même."
@@ -1770,7 +1770,7 @@ const CITAS = [
   "o": "Lettre à Hegel, 4 février 1795",
   "e": "contemporaine",
   "id": "schelling",
-  "img": "media/retratos/ilustres/schelling.jpg",
+  "img": "media/retratos/biografias/schelling.jpg",
   "sen": "Le jeune Schelling confie à Hegel son adhésion à Spinoza : il cherchait, comme lui, un principe absolu unique dont tout dérive, mais en partant du moi et de la liberté.",
   "uso": "Pour présenter l'influence de Spinoza sur l'idéalisme allemand et l'amitié entre Schelling et Hegel."
  },
@@ -1801,7 +1801,7 @@ const CITAS = [
   "o": "Lettres sur l'éducation esthétique de l'homme (1795), lettre 6",
   "e": "moderne",
   "id": "schiller",
-  "img": "media/retratos/ilustres/schiller.jpg",
+  "img": "media/retratos/biografias/schiller.jpg",
   "sen": "Schiller critique la division du travail et la spécialisation de la société moderne : chaque personne est réduite à une petite tâche et ne développe qu'une partie d'elle-même, au lieu d'être un être humain complet.",
   "uso": "Pour expliquer la critique de la modernité chez Schiller, comme antécédent de l'aliénation chez Marx, ou dans des débats sur la spécialisation."
  },
@@ -1821,7 +1821,7 @@ const CITAS = [
   "o": "Le Père Goriot (1835), paroles de Vautrin",
   "e": "contemporaine",
   "id": "balzac",
-  "img": "media/retratos/ilustres/balzac.jpg",
+  "img": "media/retratos/biografias/balzac.jpg",
   "sen": "Vautrin, un criminel du roman de Balzac, suggère que les grandes fortunes d'origine obscure cachent un délit dont personne ne se souvient, parce qu'il a été commis sans laisser de traces.",
   "uso": "Pour illustrer la critique littéraire de la société bourgeoise du XIXe siècle, ou dans des débats sur l'origine de la richesse et les inégalités.",
   "trampa": "On la cite souvent sous la forme « derrière toute grande fortune, il y a un crime », mais Balzac ne parle que des fortunes sans cause apparente, et c'est un personnage qui le dit, non l'auteur."
@@ -1832,7 +1832,7 @@ const CITAS = [
   "o": "Le Messager hessois (1834), avec Friedrich Ludwig Weidig ; devise de la Révolution française",
   "e": "contemporaine",
   "id": "buchner",
-  "img": "media/retratos/ilustres/buchner.jpg",
+  "img": "media/retratos/biografias/buchner.jpg",
   "sen": "Le pamphlet de Büchner et Weidig appelle les paysans pauvres à se révolter contre les princes et les riches qui les exploitent par les impôts : c'est la lutte de ceux d'en bas contre ceux d'en haut.",
   "uso": "Pour présenter la pensée révolutionnaire antérieure à 1848 et la critique sociale du XIXe siècle.",
   "trampa": "On l'attribue souvent à Büchner comme si elle était de lui, mais il l'a reprise d'une devise de la Révolution française."

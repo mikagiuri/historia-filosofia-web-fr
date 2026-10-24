@@ -1192,7 +1192,7 @@ const IMPRESCINDIBLES = {
    "Révision du professeur (20-10-2026) : lecture de la PAU (Discours de la méthode II-IV)"
   ]
  },
- "glosarioGrupos": {
+ "diccionarioGrupos": {
   "1": [
    5,
    "Vocabulaire de La République, VII, lecture de la PAU"

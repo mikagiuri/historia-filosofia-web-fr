@@ -5,7 +5,7 @@ const VIDEOS_EU = [
   "eu_titulo": "PLATON ulertzeko gakoak",
   "es": "Clés pour comprendre Platon",
   "dur": "7:23",
-  "ilustre": [
+  "biografia": [
    "platon"
   ],
   "temas": [
@@ -18,7 +18,7 @@ const VIDEOS_EU = [
   "eu_titulo": "ARISTOTELES ulertzeko gakoak",
   "es": "Clés pour comprendre Aristote",
   "dur": "8:23",
-  "ilustre": [
+  "biografia": [
    "aristoteles"
   ],
   "temas": [
@@ -30,7 +30,7 @@ const VIDEOS_EU = [
   "eu_titulo": "DESCARTES ulertzeko gakoak",
   "es": "Clés pour comprendre Descartes",
   "dur": "6:38",
-  "ilustre": [
+  "biografia": [
    "descartes"
   ],
   "temas": [
@@ -43,7 +43,7 @@ const VIDEOS_EU = [
   "eu_titulo": "KANT ulertzeko gakoak",
   "es": "Clés pour comprendre Kant",
   "dur": "7:32",
-  "ilustre": [
+  "biografia": [
    "kant"
   ],
   "temas": [
@@ -56,7 +56,7 @@ const VIDEOS_EU = [
   "eu_titulo": "NIETZSCHE ulertzeko gakoak",
   "es": "Clés pour comprendre Nietzsche",
   "dur": "6:54",
-  "ilustre": [
+  "biografia": [
    "nietzsche"
   ],
   "temas": [
@@ -69,7 +69,7 @@ const VIDEOS_EU = [
   "eu_titulo": "HANNAH ARENDT ulertzeko gakoak",
   "es": "Clés pour comprendre Hannah Arendt",
   "dur": "7:20",
-  "ilustre": [
+  "biografia": [
    "arendt"
   ],
   "temas": [
@@ -81,7 +81,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SIMONE DE BEAUVOIR ulertzeko gakoak",
   "es": "Clés pour comprendre Simone de Beauvoir",
   "dur": "8:29",
-  "ilustre": [
+  "biografia": [
    "beauvoir"
   ],
   "temas": [
@@ -94,7 +94,7 @@ const VIDEOS_EU = [
   "eu_titulo": "KARL MARX ulertzeko gakoak",
   "es": "Clés pour comprendre Karl Marx",
   "dur": "8:19",
-  "ilustre": [
+  "biografia": [
    "marx"
   ],
   "temas": [
@@ -107,7 +107,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MARY WOLLSTONECRAFT ulertzeko gakoak",
   "es": "Clés pour comprendre Mary Wollstonecraft",
   "dur": "6:56",
-  "ilustre": [
+  "biografia": [
    "wollstonecraft"
   ],
   "temas": [
@@ -120,7 +120,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MICHEL FOUCAULT ulertzeko gakoak",
   "es": "Clés pour comprendre Michel Foucault",
   "dur": "8:42",
-  "ilustre": [
+  "biografia": [
    "foucault"
   ],
   "temas": [
@@ -132,7 +132,7 @@ const VIDEOS_EU = [
   "eu_titulo": "bell hooks ulertzeko gakoak",
   "es": "Clés pour comprendre bell hooks",
   "dur": "7:08",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -142,7 +142,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SALLY HASLANGER ulertzeko gakoak",
   "es": "Clés pour comprendre Sally Haslanger",
   "dur": "8:36",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -152,7 +152,7 @@ const VIDEOS_EU = [
   "eu_titulo": "JOXE AZURMENDI ulertzeko gakoak",
   "es": "Clés pour comprendre Joxe Azurmendi",
   "dur": "8:33",
-  "ilustre": [
+  "biografia": [
    "azurmendi"
   ],
   "temas": [
@@ -164,7 +164,7 @@ const VIDEOS_EU = [
   "eu_titulo": "TXILLARDEGI ulertzeko gakoak",
   "es": "Clés pour comprendre Txillardegi",
   "dur": "6:46",
-  "ilustre": [
+  "biografia": [
    "txillardegi"
   ],
   "temas": [
@@ -176,7 +176,7 @@ const VIDEOS_EU = [
   "eu_titulo": "JUDITH BUTLER ulertzeko gakoak",
   "es": "Clés pour comprendre Judith Butler",
   "dur": "7:47",
-  "ilustre": [
+  "biografia": [
    "butler"
   ],
   "temas": [
@@ -188,7 +188,7 @@ const VIDEOS_EU = [
   "eu_titulo": "BYUNG-CHUL HAN ulertzeko gakoak",
   "es": "Clés pour comprendre Byung-Chul Han",
   "dur": "7:44",
-  "ilustre": [
+  "biografia": [
    "han"
   ],
   "temas": [
@@ -200,7 +200,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MIGUEL UNAMUNO ulertzeko gakoak",
   "es": "Clés pour comprendre Miguel de Unamuno",
   "dur": "8:32",
-  "ilustre": [
+  "biografia": [
    "unamuno"
   ],
   "temas": [
@@ -213,7 +213,7 @@ const VIDEOS_EU = [
   "eu_titulo": "LUDWIG WITTGENSTEIN ulertzeko gakoak",
   "es": "Clés pour comprendre Ludwig Wittgenstein",
   "dur": "8:43",
-  "ilustre": [
+  "biografia": [
    "wittgenstein"
   ],
   "temas": [
@@ -225,7 +225,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Ideia jakin batzuk barneratuta jaiotzen gara? | ENPIRISMOA",
   "es": "Naissons-nous avec certaines idées déjà en nous ? L'empirisme",
   "dur": "8:01",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-racionalismo",
    "fil-t3"
@@ -236,7 +236,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Arauak behar ditugu gizartean bizitzeko? | KONTRAKTUALISMOA",
   "es": "Avons-nous besoin de règles pour vivre en société ? Le contractualisme",
   "dur": "8:53",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-contrato",
    "fil-t6"
@@ -247,7 +247,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nola izan zoriontsu? | ESTOIZISMOA",
   "es": "Comment être heureux ? Le stoïcisme",
   "dur": "7:33",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-helenismo",
    "fil-helenismo"
@@ -258,7 +258,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nola dakigu ez garela simulazio batean bizi? | ESZEPTIZISMO KARTESIARRA",
   "es": "Comment savons-nous que nous ne vivons pas dans une simulation ? Le scepticisme cartésien",
   "dur": "7:13",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-descartes-simulacion",
    "hf-racionalismo"
@@ -269,7 +269,7 @@ const VIDEOS_EU = [
   "eu_titulo": "MARI LUZ ESTEBAN ulertzeko gakoak",
   "es": "Clés pour comprendre Mari Luz Esteban",
   "dur": "9:10",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-beauvoir"
   ]
@@ -279,7 +279,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Ezin bada frogatu, ez da nire iraultza | POSITIBISMOA",
   "es": "Si ça ne se prouve pas, ce n'est pas ma révolution : le positivisme",
   "dur": "8:36",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-sospecha",
    "hf-analitica",
@@ -291,7 +291,7 @@ const VIDEOS_EU = [
   "eu_titulo": "DAVID HUME ulertzeko gakoak",
   "es": "Clés pour comprendre David Hume",
   "dur": "7:03",
-  "ilustre": [
+  "biografia": [
    "hume"
   ],
   "temas": [
@@ -303,7 +303,7 @@ const VIDEOS_EU = [
   "eu_titulo": "SIGMUND FREUD ulertzeko gakoak",
   "es": "Clés pour comprendre Sigmund Freud",
   "dur": "8:14",
-  "ilustre": [
+  "biografia": [
    "freud"
   ],
   "temas": [
@@ -315,7 +315,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Zoriontsu izateko formula? | EPIKUREISMOA",
   "es": "Une formule pour être heureux ? L'épicurisme",
   "dur": "8:09",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-helenismo",
    "fil-helenismo"
@@ -326,7 +326,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Nork urratu du emakumeen askapen bidea? | EMAKUMEEN AUZIA",
   "es": "Qui a ouvert la voie de la libération des femmes ? La question des femmes",
   "dur": "9:37",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t1-filosofia-mujer",
    "hf-filosofas-dialogo"
@@ -337,7 +337,7 @@ const VIDEOS_EU = [
   "eu_titulo": "AYN RAND ulertzeko gakoak",
   "es": "Clés pour comprendre Ayn Rand",
   "dur": "9:06",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-silicon-valley"
   ]
@@ -347,7 +347,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Utopiak, zergatik eta zertarako? | UTOPIAK",
   "es": "Les utopies : pourquoi et pour quoi faire ?",
   "dur": "8:28",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-utopias-autoras",
    "hf-modernidad"
@@ -358,7 +358,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Mary Shelley-en Frankenstein, eleberri beldurgarri bezain filosofikoa",
   "es": "Le Frankenstein de Mary Shelley, un roman aussi terrifiant que philosophique",
   "dur": "8:35",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t2"
   ]
@@ -368,7 +368,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Adimen artifizialak artea egin dezake?",
   "es": "L'intelligence artificielle peut-elle faire de l'art ?",
   "dur": "6:53",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "fil-t7"
   ]
@@ -378,7 +378,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Teknozientzia: zientzia enpresa teknologiko handien esku?",
   "es": "La technoscience : la science aux mains des grandes entreprises technologiques ?",
   "dur": "6:07",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-siglo21",
    "hf-silicon-valley"
@@ -389,7 +389,7 @@ const VIDEOS_EU = [
   "eu_titulo": "Teknologiari begiratzeko bi modu: teknopositibismoa vs luddismoa",
   "es": "Deux façons de regarder la technologie : technopositivisme contre luddisme",
   "dur": "4:21",
-  "ilustre": [],
+  "biografia": [],
   "temas": [
    "hf-siglo21",
    "hf-silicon-valley"

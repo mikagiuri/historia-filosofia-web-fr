@@ -154,6 +154,8 @@ const LABMP = {
   "tEjemplo": "Un monde d'exemple",
   "ejemploTxt": "Dans ce monde, toutes tes prémisses sont satisfaites, et l'affirmation aussi. Ce n'est pas un hasard : cela se produit dans tous les mondes possibles qui satisfont ces prémisses, et c'est cela que veut dire « découler ».",
   "verIsabelle": "Voir la preuve dans Isabelle",
+  "asiIsabelle": "Voici comment Isabelle le vérifie (clique pour voir toute la théorie) :",
+  "altTeorema": "Capture d’écran d’Isabelle : le théorème {t} et sa preuve",
   "altCaptura": "Capture d'écran d'Isabelle : {t}",
   "gElige": "Choisis une théorie",
   "gNRetos": "{n} défis",

@@ -58,7 +58,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Antique, Médiévale, Renaissance, Moderne, Lumières et Contemporaine), chacune avec sa couleur, et la liste commence par le Thème 3. Les thèmes 1 et 2, qui introduisent la matière, sont à la fin. La couleur de chaque époque t’accompagne dans tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Antique, Médiévale, Moderne, Lumières et Contemporaine), chacune avec sa couleur, et la liste commence par le Thème 3. Les thèmes 1 et 2, qui introduisent la matière, sont à la fin. La couleur de chaque époque t’accompagne dans tout le site : dans les filtres, les cartes et les quiz.",
    "solo": "hf"
   },
   {
@@ -85,6 +85,10 @@ const GUIA = {
    "x": "Dans l’en-tête, tu as aussi le <strong>moteur de recherche</strong> 🔎, le bouton de <strong>langue</strong> 🌐, celui du <strong>thème clair ou sombre</strong> ◐ et celui de ce <strong>guide</strong> ?. Les captures de ce guide sont en <strong>mode nuit</strong> ; si tu préfères le fond clair, appuie sur ◐."
   },
   {
+   "type": "p",
+   "x": "Le bouton <strong>Aa</strong> ouvre les <strong>réglages de lecture</strong>. <strong>Écouter cette page</strong> lit à voix haute, paragraphe par paragraphe, ce que tu as sous les yeux. Tu peux aussi agrandir le texte, espacer davantage les lignes, les lettres et les mots, changer de police, aligner le texte à gauche, augmenter le contraste ou supprimer les animations. Les réglages ne sont enregistrés que sur ton appareil, et <strong>Réinitialiser</strong> remet tout comme avant. Pour écouter, l’appareil doit disposer d’une voix dans la langue du site ; avec les voix « en ligne » de Chrome ou d’Edge, le texte de la page passe par le service vocal du navigateur."
+  },
+  {
    "type": "h",
    "x": "À l’intérieur d’un thème"
   },
@@ -99,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, dilemmes, indices, le Coin de logique, polémiques, communautés, persécutés, le Duel de raisons, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes, indices et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, communautés, persécutés, le Duel de raisons, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
    "solo": "fil"
   },
   {
@@ -207,11 +211,11 @@ const GUIA = {
     },
     {
      "nombre": "Cartes et infographies",
-     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour agrandir. Les infographies et les schémas de chaque thème s’ouvrent depuis l’encadré « Pour continuer avec ce thème » ou depuis « Explore la matière », sur la page de la matière.",
+     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour agrandir. En haut, deux boutons permettent de passer des cartes conceptuelles aux infographies. Les schémas de chaque thème s’ouvrent depuis l’encadré « Pour continuer avec ce thème » ou depuis « Explore la matière », sur la page de la matière.",
      "view": "mapas"
     },
     {
-     "nombre": "Glossaire",
+     "nombre": "Dictionnaire",
      "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes.",
      "view": "diccionario"
     },
@@ -226,6 +230,10 @@ const GUIA = {
    "type": "img",
    "src": "07_tarjetas.webp",
    "cap": "Cartes : choisis le type, le filtre et le paquet ; en dessous, les boutons pour avancer, mélanger et marquer « Je la connais »."
+  },
+  {
+   "type": "tip",
+   "x": "Dans <strong>Cartes et infographies</strong>, il y a aussi <strong>Ma carte</strong> : fais ta propre carte pendant que tu lis, une idée par ligne et le retrait pour les branches, ou pars d’une carte du site et complète-la. Elle est enregistrée sur ton appareil et tu peux la télécharger pour la voir hors connexion. Elle ne se rend pas et n’est pas corrigée : c’est pour étudier."
   },
   {
    "type": "h",
@@ -283,12 +291,12 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "Le <strong>Coin de logique</strong> a désormais son propre onglet. Il réunit tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices pour entraîner le raisonnement."
+   "x": "Le <strong>Coin de logique</strong> a désormais son propre onglet. Il réunit tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices pour entraîner le raisonnement, ainsi qu’un <strong>itinéraire de zéro à expert</strong> à suivre dans l’ordre."
   },
   {
    "type": "p",
    "solo": "fil",
-   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées et les tables des jugements de Kant et de l’Éthique de Spinoza."
+   "x": "En haut, le <strong>Laboratoire</strong>, avec plusieurs tables pour travailler pas à pas : arbres de vérité, un monde de figures, des relations, des démonstrations guidées, la déduction naturelle, l’induction et l’abduction, « On se parle », les jugements de Kant et « Mondes possibles », encore en développement."
   },
   {
    "type": "h",

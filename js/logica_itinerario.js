@@ -351,7 +351,7 @@ const LOG_ITIN = {
     },
     {
      "t": "Laboratoire, « Mondes possibles » : la carte des propriétés de la révision",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -417,19 +417,19 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratoire, « Mondes possibles » : « À propos d'Isabelle, et merci »",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratoire, « Mondes possibles », théorie de pratique : temps, durée et création",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratoire, « Mondes possibles », théorie « Le temps, défini »",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "« ✎ Écris ta propre proposition », dans l’un ou l’autre des deux mondes",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {
@@ -468,15 +468,15 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratoire, « Mondes possibles », théorie « Les cinq voies »",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratoire, « Mondes possibles », théorie « Les antinomies de Kant » : thèse, antithèse, l'issue de Kant et d'autres",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Laboratoire, « Mondes possibles », théorie « De l'être au cosmos » : Parménide, ses héritiers et le Démiurge",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     },
     {
      "t": "Les cinq voies et leurs origines",
@@ -519,7 +519,7 @@ const LOG_ITIN = {
    "pasos": [
     {
      "t": "Laboratoire, « Mondes possibles », théorie « Spinoza, Éthique I » : couches, « Une prémisse est-elle superflue ? » et « Écris ta propre proposition »",
-     "h": "#logica/spinoza"
+     "h": "#logica/mundos"
     }
    ],
    "control": {

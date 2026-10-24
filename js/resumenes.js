@@ -972,7 +972,7 @@ const RESUMENES = [
     "items": [
      {
       "t": "Guerre de tous contre tous",
-      "d": "« L'homme est un loup pour l'homme. »"
+      "d": "« L'homme est un loup pour l'homme » : phrase de Plaute que Hobbes a rendue célèbre."
      },
      {
       "t": "Un souverain absolu : le Léviathan",

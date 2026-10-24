@@ -112,7 +112,7 @@ const MAPS = {
   "subject": "hf",
   "tema": "Histoire de la philosophie · Philosophie politique moderne",
   "title": "Le contrat social",
-  "md": "# Le contrat social\n## L'idée\n- Le pouvoir ne vient pas de Dieu, mais d'un **pacte** entre individus\n- De l'**état de nature** à la **société civile**\n## Hobbes — absolutisme\n- État de nature : **guerre de tous contre tous**\n- *« L'homme est un loup pour l'homme »*\n- On cède **tout** le pouvoir au souverain : le **Léviathan**\n- Fin : la **sécurité**\n## Locke — libéralisme\n- Droits naturels : vie, liberté et **propriété**\n- Le pouvoir est **limité** et révocable\n- **Séparation des pouvoirs** ; monarchie parlementaire\n- Fin : protéger les droits\n## Rousseau — démocratie\n- L'être humain naît **bon** ; la société le corrompt\n- **Volonté générale** — souveraineté du peuple\n- Fin : la **liberté** et l'égalité"
+  "md": "# Le contrat social\n## L'idée\n- Le pouvoir ne vient pas de Dieu, mais d'un **pacte** entre individus\n- De l'**état de nature** à la **société civile**\n## Hobbes — absolutisme\n- État de nature : **guerre de tous contre tous**\n- *« L'homme est un loup pour l'homme »* (Plaute ; popularisée par Hobbes)\n- On cède **tout** le pouvoir au souverain : le **Léviathan**\n- Fin : la **sécurité**\n## Locke — libéralisme\n- Droits naturels : vie, liberté et **propriété**\n- Le pouvoir est **limité** et révocable\n- **Séparation des pouvoirs** ; monarchie parlementaire\n- Fin : protéger les droits\n## Rousseau — démocratie\n- L'être humain naît **bon** ; la société le corrompt\n- **Volonté générale** — souveraineté du peuple\n- Fin : la **liberté** et l'égalité"
  },
  "map-utilitarismo-liberalismo": {
   "subject": "hf",

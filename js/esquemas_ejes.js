@@ -198,7 +198,7 @@ const EA_EJES = {
      "Machiavel ; les contractualistes Hobbes, Locke et Rousseau ; Montesquieu, qui réfléchit à la manière de limiter le pouvoir.",
      "Rupture avec l'origine divine ou naturelle du pouvoir : la société est le produit de la volonté humaine. Locke fonde les droits naturels en Dieu ; Hobbes raisonne de façon mécanique.",
      "L'état de nature n'est pas un fait historique, mais une expérience de pensée philosophique : un modèle pour justifier rationnellement le pouvoir politique.",
-     "Loup pour l'homme, égoïste (Hobbes) ; raisonnable, avec des droits à la vie, à la liberté et à la propriété (Locke) ; bon par nature, corrompu par la société (Rousseau).",
+     "Égoïste, un loup pour l'homme (Hobbes, avec les mots de Plaute) ; raisonnable, avec des droits à la vie, à la liberté et à la propriété (Locke) ; bon par nature, corrompu par la société (Rousseau).",
      "Pouvoir absolu qui donne la sécurité (Léviathan), gouvernement limité et révocable (Locke), souveraineté populaire et volonté générale (Rousseau), séparation des pouvoirs (Montesquieu).",
      "Machiavel décrit le pouvoir tel qu'il est, non tel qu'il devrait être (*fortuna* et *virtù*) ; Hobbes explique la politique avec le regard mécanique de la science nouvelle.",
      "Fondement du libéralisme et de l'État de droit ; écho dans la Déclaration d'indépendance des États-Unis (1776) ; critère de légitimité : origine, fin et limite du pouvoir."

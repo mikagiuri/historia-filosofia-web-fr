@@ -800,7 +800,7 @@ const INFOGRAFIAS = {
   "title": "THOMAS<br><em>HOBBES</em>",
   "kicker": "Histoire de la philosophie · Hobbes",
   "subtitle": "Le contrat de la peur",
-  "tagline": "Homo homini lupus",
+  "tagline": "Homo homini lupus (Plaute)",
   "author": "1588–1679",
   "ghost": "Leviathan",
   "portrait": "hobbes.jpg",
@@ -817,7 +817,7 @@ const INFOGRAFIAS = {
      },
      {
       "t": "Guerre de tous contre tous",
-      "p": "« L'homme est un loup pour l'homme » ; la vie est solitaire, pauvre et brève."
+      "p": "Comme le dit la phrase de Plaute, « l'homme est un loup pour l'homme » ; la vie est solitaire, pauvre et brève."
      },
      {
       "t": "Le pacte",

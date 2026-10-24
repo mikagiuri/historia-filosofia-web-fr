@@ -3550,7 +3550,7 @@ const ESQUEMAS = {
   "block": "B",
   "tema": "Contrat social",
   "title": "Le contrat social",
-  "mermaid": "flowchart TD\n  center[\"LE CONTRAT SOCIAL\"]:::axis\n  idea[\"De l'état de nature à la société<br>par un pacte\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"thèse commune\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"« homo homini lupus »\"]\n  hob -->|\"pacte qui donne\"| h2[\"Léviathan :<br>monarchie absolue\"]\n  loc --> l1[\"droits naturels :<br>vie, liberté, propriété\"]\n  loc -->|\"pacte qui donne\"| l2[\"monarchie parlementaire<br>+ séparation des pouvoirs\"]\n  rou --> r1[\"la volonté générale\"]\n  rou -->|\"pacte qui donne\"| r2[\"démocratie d'assemblée\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a ;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
+  "mermaid": "flowchart TD\n  center[\"LE CONTRAT SOCIAL\"]:::axis\n  idea[\"De l'état de nature à la société<br>par un pacte\"]:::key\n  hob[\"HOBBES\"]:::key\n  loc[\"LOCKE\"]:::key\n  rou[\"ROUSSEAU\"]:::key\n  center -->|\"thèse commune\"| idea\n  idea --> hob\n  idea --> loc\n  idea --> rou\n  hob --> h1[\"« homo homini lupus »<br>(Plaute, popularisée par Hobbes)\"]\n  hob -->|\"pacte qui donne\"| h2[\"Léviathan :<br>monarchie absolue\"]\n  loc --> l1[\"droits naturels :<br>vie, liberté, propriété\"]\n  loc -->|\"pacte qui donne\"| l2[\"monarchie parlementaire<br>+ séparation des pouvoirs\"]\n  rou --> r1[\"la volonté générale\"]\n  rou -->|\"pacte qui donne\"| r2[\"démocratie d'assemblée\"]\nclassDef axis fill:#1f5d5a,color:#fff,stroke:#1f5d5a ;\nclassDef key fill:#9a6a22,color:#fff,stroke:#9a6a22;",
   "v2": {
    "pregunta": "Si la société n'est pas naturelle, pourquoi obéissons-nous au pouvoir et quelles limites a-t-il ?",
    "raiz": "LE CONTRAT SOCIAL",
@@ -3576,7 +3576,7 @@ const ESQUEMAS = {
       {
        "rel": "état de nature",
        "t": "Guerre de tous contre tous",
-       "d": "« L'homme est un loup pour l'homme. »"
+       "d": "« L'homme est un loup pour l'homme » : phrase de Plaute que Hobbes a rendue célèbre."
       },
       {
        "rel": "le contrat crée",

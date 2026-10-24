@@ -77,7 +77,7 @@ const CINE = [
   "t": "Sa Majesté des mouches",
   "year": 1990,
   "autor": "Harry Hook",
-  "q": "L'état de nature chez Hobbes : sans pacte, « l'homme est un loup pour l'homme ».",
+  "q": "L'état de nature chez Hobbes : sans pacte, « l'homme est un loup pour l'homme » (phrase de Plaute qu'il a rendue célèbre).",
   "esc": "La conque comme symbole du droit à la parole, et le moment où le groupe de Jack la méprise.",
   "pregs": [
    "Que représente la conque et pourquoi perd-elle son pouvoir ?",

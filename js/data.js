@@ -12932,7 +12932,7 @@ const QUIZZES = {
      "Hobbes la voit égoïste ; Rousseau, bonne jusqu'à ce que la société la corrompe."
     ],
     "a": 3,
-    "fb": "Pour Hobbes, sans État l'être humain est égoïste (« un loup pour l'homme ») ; pour Rousseau, il est bon par nature et la société le corrompt."
+    "fb": "Pour Hobbes, sans État l'être humain est égoïste (« un loup pour l'homme », selon la phrase de Plaute qu'il a rendue célèbre) ; pour Rousseau, il est bon par nature et la société le corrompt."
    },
    {
     "q": "Quelle idée de la tradition antique les contractualistes modernes remettent-ils en question ?",
@@ -13067,15 +13067,15 @@ const QUIZZES = {
     "fb": "La coercition est l'usage de la force de l'État (ici, la sanction) pour faire respecter les lois."
    },
    {
-    "q": "À qui appartient la phrase « l'homme est un loup pour l'homme » ?",
+    "q": "Quel philosophe moderne a popularisé la phrase de Plaute « l'homme est un loup pour l'homme » ?",
     "o": [
-     "À Machiavel.",
-     "À Rousseau.",
-     "À Locke.",
-     "À Hobbes."
+     "Machiavel.",
+     "Rousseau.",
+     "Locke.",
+     "Hobbes."
     ],
     "a": 3,
-    "fb": "La phrase résume la vision de Hobbes de l'état de nature : sans État, l'égoïsme conduit à la guerre de tous contre tous."
+    "fb": "La phrase est de Plaute (Asinaria), mais c'est Hobbes qui l'a rendue célèbre dans le De cive (1642) : pour lui, sans État, l'égoïsme conduit à la guerre de tous contre tous."
    },
    {
     "q": "Quel auteur a écrit « Le Prince », où il décrit le pouvoir tel qu'il est ?",

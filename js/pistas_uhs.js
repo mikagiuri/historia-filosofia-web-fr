@@ -3134,16 +3134,16 @@ const PISTAS = [
     "repaso": [
      "Ai-je dit que, pour Spinoza, rien n'est plus utile à l'être humain qu'un autre être humain ?",
      "Ai-je expliqué que ceux qui se guident par la raison s'accordent, parce qu'ils désirent pour les autres ce qu'ils désirent pour eux-mêmes ?",
-     "Ai-je opposé sa formule « l'homme est un dieu pour l'homme » au « loup » de Hobbes ?"
+     "Ai-je opposé sa formule « l'homme est un dieu pour l'homme » au « loup » de Plaute popularisé par Hobbes ?"
     ],
     "intro": [
-     "Hobbes, contemporain de Spinoza, pensait que, si chacun cherche son propre intérêt, l'être humain est un loup pour l'être humain. Spinoza part lui aussi de l'intérêt propre. Imagine où il arrive."
+     "Hobbes, contemporain de Spinoza, pensait que, si chacun cherche son propre intérêt, l'être humain est un loup pour l'être humain (une phrase de Plaute qu'il a rendue célèbre). Spinoza part lui aussi de l'intérêt propre. Imagine où il arrive."
     ],
     "pistas": [
      "Rappelle-toi : pour Spinoza, chercher sa propre utilité n'est pas un vice ; c'est la base de la vertu.",
      "Demande-toi ce qui est le plus utile pour conserver et augmenter ta puissance. Une chose, ou quelqu'un ?",
      "Spinoza répond que <strong>rien n'est plus utile à l'homme que l'homme</strong>, surtout celui qui se guide par la raison : deux personnes qui pensent bien désirent des choses compatibles.",
-     "C'est pourquoi ceux qui se guident par la raison <strong>ne désirent pour eux-mêmes rien qu'ils ne désirent pour les autres</strong>. Face au loup de Hobbes, Spinoza écrit que « l'homme est un dieu pour l'homme »."
+     "C'est pourquoi ceux qui se guident par la raison <strong>ne désirent pour eux-mêmes rien qu'ils ne désirent pour les autres</strong>. Face au loup popularisé par Hobbes (la phrase est de Plaute), Spinoza écrit que « l'homme est un dieu pour l'homme »."
     ],
     "comprobacion": {
      "pregunta": "Selon Spinoza, pourquoi chercher sa propre utilité ne conduit-il pas à l'affrontement ?",
@@ -3189,7 +3189,7 @@ const PISTAS = [
       "definicion": [
        "Spinoza n'oppose pas intérêt propre et morale : chercher ce qui est utile à soi-même, sous la raison, c'est la vertu.",
        "Mais la raison montre que ce qui est le plus utile à chacun, c'est un autre être humain qui se guide lui aussi par la raison : ensemble, ils sont plus puissants que séparément. C'est pourquoi ils désirent pour les autres la même chose que pour eux-mêmes.",
-       "Les passions, en revanche, nous opposent : en elles, les êtres humains divergent. Face au « loup » de Hobbes, qui a besoin d'un souverain pour le contenir, Spinoza compte sur la raison pour produire la concorde."
+       "Les passions, en revanche, nous opposent : en elles, les êtres humains divergent. Face au « loup » de Plaute que Hobbes a rendu célèbre, un loup qui a besoin d'un souverain pour le contenir, Spinoza compte sur la raison pour produire la concorde."
       ],
       "comprobacion": {
        "boton": "Terminer par une vérification",
@@ -3212,7 +3212,7 @@ const PISTAS = [
         [
          "Jamais : l'homme est un loup pour l'homme.",
          false,
-         "C'est la thèse de Hobbes, que Spinoza retourne."
+         "C'est la vision que Hobbes a rendue célèbre avec la phrase de Plaute, et Spinoza la retourne."
         ]
        ],
        "ok": "Correct : la raison unit ; les passions séparent.",

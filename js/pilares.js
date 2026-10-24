@@ -1,7 +1,7 @@
 // Generado por web_i18n/i18n_rebuild.js (fr) a partir de web/js/pilares.js. No editar a mano: editar la memoria tm/fr.json y regenerar.
 const PILARES = {
  "t": {
-  "intro": "Un <strong>pilier</strong> est un concept qui soutient une bonne partie de la philosophie et dont le sens a changé au cours de l'histoire. Ici, on le gravit en dix marches : chacune est une manière de le comprendre qui corrige ou remplace la précédente. Les premières te paraîtront faciles ; les dernières, vraiment difficiles. Ce n'est pas un glossaire à réviser : c'est un exercice. À chaque marche, il faut comprendre ce qui est dit, l'appliquer à un cas, le relier à ce qu'on a déjà gravi et vérifier qu'on l'a compris.",
+  "intro": "Un <strong>pilier</strong> est un concept qui soutient une bonne partie de la philosophie et dont le sens a changé au cours de l'histoire. Ici, on le gravit en dix marches : chacune est une manière de le comprendre qui corrige ou remplace la précédente. Les premières te paraîtront faciles ; les dernières, vraiment difficiles. Ce n'est pas un dictionnaire à réviser : c'est un exercice. À chaque marche, il faut comprendre ce qui est dit, l'appliquer à un cas, le relier à ce qu'on a déjà gravi et vérifier qu'on l'a compris.",
   "comoTit": "Comment travailler un pilier",
   "como": [
    "<strong>Comprends</strong> ce qui est dit et la citation : lis-la lentement et explique-la avec tes propres mots.",

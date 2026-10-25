@@ -31,12 +31,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>. Le <strong>Coin de logique</strong> n’a pas d’onglet sur ce site : on l’ouvre par les liens des thèmes qui l’utilisent.",
+   "x": "Les premiers onglets du menu sont les indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’entraîner) et <strong>PAU</strong> (l’examen, les textes et l’écriture). Après une ligne viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes, avec les Piliers et les Étymons) et <strong>Jeux</strong>. Le <strong>Coin de logique</strong> n’a pas d’onglet sur ce site : les liens des thèmes qui l’utilisent l’ouvrent.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’exercer), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après un trait viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes) et <strong>Jeux</strong>.",
+   "x": "Les premiers onglets du menu sont les indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’entraîner), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après une ligne viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes, avec les Piliers et les Étymons) et <strong>Jeux</strong>.",
    "solo": "fil"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>branches</strong> de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique), chacune avec sa couleur. Tu retrouves cette couleur sur tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés en <strong>blocs</strong> («  Bloc 2 · …  »), chacun avec la couleur de sa branche de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique). Cliquez sur l’en-tête d’un bloc pour le déplier : vous verrez ses thèmes, avec les sous-thèmes numérotés (1.1, 1.2…). Le thème 1 est à part, dans un groupe d’Introduction, en gris. Cette couleur vous accompagne sur tout le site : dans les filtres, les cartes et les questionnaires.",
    "solo": "fil"
   },
   {
@@ -77,7 +77,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "<strong>Explorations</strong> déplie des lectures d’approfondissement du thème, qui sont facultatives. Plus bas se trouve <strong>Explore la matière</strong> : tout ce que contient le site, compté par type.",
+   "x": "Dans chaque bloc, <strong>Explorations</strong> déploie les activités et lectures d’approfondissement, qui sont facultatives. Plus bas se trouve <strong>Explore la matière</strong> : tout ce qu’il y a sur le site, présenté par types.",
    "solo": "fil"
   },
   {
@@ -86,7 +86,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Le bouton <strong>Aa</strong> ouvre les <strong>réglages de lecture</strong>. <strong>Écouter cette page</strong> lit à voix haute, paragraphe par paragraphe, ce que tu as sous les yeux. Tu peux aussi agrandir le texte, espacer davantage les lignes, les lettres et les mots, changer de police, aligner le texte à gauche, augmenter le contraste ou supprimer les animations. Les réglages ne sont enregistrés que sur ton appareil, et <strong>Réinitialiser</strong> remet tout comme avant. Pour écouter, l’appareil doit disposer d’une voix dans la langue du site ; avec les voix « en ligne » de Chrome ou d’Edge, le texte de la page passe par le service vocal du navigateur."
+   "x": "Le bouton <strong>Aa</strong> ouvre les <strong>réglages de lecture</strong>. <strong>Écouter cette page</strong> lit à voix haute, paragraphe par paragraphe, ce que tu as devant toi. Tu peux aussi agrandir la police, espacer davantage les lignes, les lettres et les mots, changer la police, aligner le texte à gauche, augmenter le contraste ou supprimer les animations. Les réglages sont enregistrés uniquement sur ton appareil, et <strong>Réinitialiser</strong> remet tout comme avant. Pour écouter, l’appareil a besoin d’une voix dans la langue du site ; avec les voix «  en ligne  » de Chrome ou Edge, le texte de la page passe par le service de synthèse vocale du navigateur. De plus, dans la Théorie, les termes du dictionnaire apparaissent soulignés en pointillés dans le texte. S’ils te gênent, désactive-les avec <strong>Aa</strong>."
   },
   {
    "type": "h",
@@ -103,12 +103,12 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire, son époque et son chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, dilemmes, indices, le Coin de logique, polémiques, communautés, persécutés, le Duel de raisons, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème se trouve une boîte, <strong>Pour continuer avec ce thème</strong>, avec tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (fiches, questionnaires, infographies, cartes, schémas, concepts du dictionnaire, leur époque et leur chronogramme), <strong>Préparer la PAU</strong> (lectures, commentaires, dissertations et comparatifs) et <strong>Approfondir</strong>, qui se déplie en cliquant dessus (explorations, dilemmes, pistes, le Coin de logique, polémiques, communautés, persécutés, le Duel de raisons, jeux et, dans certains thèmes, des vidéos en basque avec leur transcription). La boîte apparaît <strong>une seule fois</strong>, à la fin. De plus, les matériels du thème (fiches, schémas…) apparaissent aussi <strong>intercalés entre les paragraphes</strong> où ils sont pertinents.",
    "solo": "hf"
   },
   {
    "type": "p",
-   "x": "À la fin de chaque thème, un encadré, <strong>Pour continuer avec ce thème</strong>, rassemble tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (cartes, quiz, infographies, cartes conceptuelles, schémas, notions du dictionnaire et son époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes, indices et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie quand on clique dessus (explorations, polémiques, communautés, persécutés, le Duel de raisons, jeux et, pour certains thèmes, vidéos en basque avec leur transcription).",
+   "x": "À la fin de chaque thème se trouve une boîte, <strong>Pour continuer avec ce thème</strong>, avec tout le matériel de ce thème en trois blocs : <strong>Étudier</strong> (fiches, questionnaires, infographies, cartes, schémas, concepts du dictionnaire et leur époque), <strong>Penser et écrire</strong> (lectures, dissertations, dilemmes, pistes et le Coin de logique) et <strong>Approfondir</strong>, qui se déplie en cliquant dessus (explorations, polémiques, communautés, persécutés, le Duel de raisons, jeux et, dans certains thèmes, des vidéos en basque avec leur transcription). La boîte apparaît <strong>une seule fois</strong>, à la fin. De plus, les matériels du thème (fiches, schémas…) apparaissent aussi <strong>intercalés entre les paragraphes</strong> où ils sont pertinents.",
    "solo": "fil"
   },
   {
@@ -200,29 +200,24 @@ const GUIA = {
      "view": "MATERIA"
     },
     {
-     "nombre": "Piliers",
-     "texto": "Les grands concepts (raison, idée, cause) en dix marches, du mot de tous les jours au débat d'aujourd'hui. Chaque marche corrige la précédente et demande du travail : appliquer l'idée à un cas, la relier à ce que tu as déjà gravi et vérifier si tu l'as comprise. Coche les marches que tu franchis : cela n'est enregistré que dans ton navigateur.",
-     "view": "pilares"
-    },
-    {
      "nombre": "Cartes",
      "texto": "Clique sur la carte (ou appuie sur la barre d’espace) pour la retourner et marque « Je la connais » celles que tu maîtrises. Ta progression est enregistrée.",
      "view": "tarjetas"
     },
     {
      "nombre": "Cartes et infographies",
-     "texto": "Des cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour agrandir. En haut, deux boutons permettent de passer des cartes conceptuelles aux infographies. Les schémas de chaque thème s’ouvrent depuis l’encadré « Pour continuer avec ce thème » ou depuis « Explore la matière », sur la page de la matière.",
+     "texto": "Cartes qui se plient et se déplient : clique sur un nœud pour ouvrir ou fermer ses branches, fais glisser pour te déplacer et utilise la molette pour zoomer. En haut, il y a deux boutons pour passer des cartes conceptuelles aux infographies.",
      "view": "mapas"
     },
     {
-     "nombre": "Dictionnaire",
-     "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes.",
-     "view": "diccionario"
+     "nombre": "Schémas",
+     "texto": "Schémas conceptuels avec leurs relations. Choisis-en un par son titre. Dans Histoire de la philosophie, tu peux les filtrer par époque.",
+     "view": "esquemas"
     },
     {
-     "nombre": "Racines",
-     "texto": "D’où viennent les mots de la philosophie : leur racine grecque ou latine, pour mieux comprendre ce qu’ils signifient aujourd’hui. Cherche un mot ou parcours-les par thèmes.",
-     "view": "etimos"
+     "nombre": "Dictionnaire",
+     "texto": "Le dictionnaire de la matière : chaque terme avec sa définition. Cherche un mot ou filtre les termes. Dans la Théorie, les termes du dictionnaire de ce thème sont accompagnés d’un <em>souligné en pointillés</em> la première fois qu’ils apparaissent dans chaque section. Touche-les, accède-y avec le clavier ou passe la souris dessus : tu verras la définition, la racine et «  Voir la fiche  ». <strong>Échap</strong> la ferme. Il est activé par défaut, et le bouton <strong>Aa</strong> le désactive.",
+     "view": "diccionario"
     }
    ]
   },
@@ -316,7 +311,7 @@ const GUIA = {
    "rows": [
     {
      "nombre": "Prépare la PAU",
-     "texto": "Comment se passe l’examen, comment aborder l’Exercice 1 (compréhension de texte) et l’Exercice 3 (exposé), et les modèles officiels.",
+     "texto": "Un index avec 6 groupes repliables, dans l’ordre de l’examen : <strong>Connaître l’examen</strong>, <strong>Exercice 1 · Compréhension de texte</strong>, <strong>Exercice 2 · Dissertation</strong>, <strong>Exercice 3 · Repenser la HF</strong>, <strong>Les cinq lectures</strong> et <strong>Pratique : simulations</strong>. Ouvre chaque guide depuis son lien et passe de l’un à l’autre avec les boutons <strong>Précédent</strong> et <strong>Suivant</strong>. Inclut <strong>Réponses corrigées</strong> : modèles corrigés de l’Exercice 1, de la dissertation et de l’Exercice 3.",
      "view": "prepara_PAU"
     },
     {
@@ -339,7 +334,7 @@ const GUIA = {
   {
    "type": "tip",
    "solo": "hf",
-   "x": "Commence par « Prépare la PAU » pour savoir ce qu’on va te demander, puis suis le Parcours PAU de la page de la matière : il te fait passer dans l’ordre par chaque exercice."
+   "x": "Commence par Préparer la PAU pour savoir ce qu’on va te demander. Parcours les 6 groupes dans l’ordre avec <strong>Précédent</strong> et <strong>Suivant</strong>, et suis l’Itinéraire PAU de la page de la matière : il te guide dans l’ordre à travers chaque exercice. Quand tu as des doutes, regarde les <strong>Réponses corrigées</strong>."
   },
   {
    "type": "h",
@@ -406,6 +401,16 @@ const GUIA = {
      "nombre": "Galerie",
      "texto": "Des images par auteur et par thème ; clique dessus pour les voir en plein écran.",
      "view": "galeria"
+    },
+    {
+     "nombre": "Piliers",
+     "texto": "Les grands concepts (raison, idée, cause) en dix marches, du mot de tous les jours au débat d'aujourd'hui. Chaque marche corrige la précédente et demande du travail : appliquer l'idée à un cas, la relier à ce que tu as déjà gravi et vérifier si tu l'as comprise. Coche les marches que tu franchis : cela n'est enregistré que dans ton navigateur.",
+     "view": "pilares"
+    },
+    {
+     "nombre": "Racines",
+     "texto": "D’où viennent les mots de la philosophie : leur racine grecque ou latine, pour mieux comprendre ce qu’ils signifient aujourd’hui. Cherche un mot ou parcours-les par thèmes.",
+     "view": "etimos"
     }
    ]
   },

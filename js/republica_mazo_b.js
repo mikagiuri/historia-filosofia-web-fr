@@ -726,7 +726,7 @@ const REP_MAZO_B = {
    "emoji": "🐖",
    "quien": "Glaucon",
    "loc": "République II, 372a-e",
-   "situacion": "Socrate décrit la première cité : pain d’orge, vin, fromage, olives, couronnes de myrte et une vie paisible jusqu’à la vieillesse. Glaucon l’interrompt : ce n’est pas une cité d’hommes.",
+   "situacion": "Socrate décrit la première cité : pain d’orge, vin, fromage, olives, couronnes de myrte et une vie paisible jusqu’à la vieillesse. Glaucon l’interrompt : ce n’est pas une cité d’êtres humains.",
    "cita": "« Et si tu fondais une cité de porcs, Socrate, de quoi d’autre les nourrirais-tu ? »",
    "griego": "ὑῶν πόλις (*hyôn pólis*) : « cité de porcs ». Glaucon réclame ce qui est « d’usage » : lits, tables, mets et desserts (372d-e).",
    "pregunta": "Quelle cité fondes-tu ?",

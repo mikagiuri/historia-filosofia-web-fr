@@ -2649,7 +2649,7 @@ const PISTAS = [
     "pistas": [
      "Rappelle-toi : chez Spinoza, tout découle de la nature de Dieu avec <strong>nécessité</strong>, comme les propriétés d'un triangle découlent de sa définition.",
      "Un triangle n'a pas ses angles « pour » quoi que ce soit. Demande-toi si la Nature, qui est Dieu, a besoin de fins.",
-     "Dans l'appendice de la partie I, Spinoza dit que les hommes supposent que les choses naturelles agissent, comme eux, <strong>en vue d'une fin</strong> : c'est un préjugé né de notre ignorance des causes.",
+     "Dans l'appendice de la partie I, Spinoza dit que les êtres humains supposent que les choses naturelles agissent, comme eux, <strong>en vue d'une fin</strong> : c'est un préjugé né de notre ignorance des causes.",
      "C'est pourquoi connaître Dieu, ce n'est pas deviner ses plans : c'est <strong>comprendre l'ordre nécessaire</strong> de la Nature. Sur ce point, il se sépare des stoïciens, qui croyaient en une providence bonne."
     ],
     "comprobacion": {
@@ -4990,7 +4990,7 @@ const PISTAS = [
     "etiqueta": "Question de départ",
     "pregunta": "Que veut dire Nietzsche quand il se nomme « le premier immoraliste » ?",
     "repaso": [
-     "Ai-je dit que « immoraliste » renferme deux négations : celle du type d'homme « bon » et celle de la morale chrétienne ?",
+     "Ai-je dit que « immoraliste » renferme deux négations : celle du type d'être humain « bon » et celle de la morale chrétienne ?",
      "Ai-je expliqué qu'il appelle cette morale « morale de la <em>décadence</em> », signe de faiblesse et d'une vie qui décline ?",
      "Ai-je dit que nier n'est pas son dernier mot : il nie pour pouvoir dire oui à la vie ?"
     ],
@@ -5000,14 +5000,14 @@ const PISTAS = [
     "pistas": [
      "Pour t'ancrer : un <strong>immoraliste</strong> n'est pas quelqu'un qui défend le crime, mais quelqu'un qui nie que la morale reçue vaille en soi.",
      "Au §4, Nietzsche dit que le mot renferme <strong>deux négations</strong>. Cherche à qui chacune se rapporte : à un type de personne et à un type de morale.",
-     "Il nie le type d'homme tenu pour suprême, <strong>les bons</strong>, les bienveillants ; et il nie la morale qui s'est imposée comme « morale en soi » : la <strong>morale chrétienne</strong>, qu'il appelle morale de la <em>décadence</em>.",
+     "Il nie le type d'être humain tenu pour suprême, <strong>les bons</strong>, les bienveillants ; et il nie la morale qui s'est imposée comme « morale en soi » : la <strong>morale chrétienne</strong>, qu'il appelle morale de la <em>décadence</em>.",
      "Mais ce n'est pas seulement un « non » : il se présente comme l'antithèse d'un esprit qui dit non. <strong>Nier et anéantir sont des conditions du oui</strong> à la vie."
     ],
     "comprobacion": {
      "pregunta": "Que nie Nietzsche en se nommant « immoraliste » ?",
      "opciones": [
       [
-       "Le type d'homme « bon » et la morale chrétienne, qu'il considère comme une morale de la décadence.",
+       "Le type d'être humain « bon » et la morale chrétienne, qu'il considère comme une morale de la décadence.",
        true
       ],
       [
@@ -5027,7 +5027,7 @@ const PISTAS = [
        "Non : ce qu'il critique, c'est la manière dont la morale a réparti le « bon » et le « mauvais »."
       ]
      ],
-     "ok": "Bien : deux négations, l'homme « bon » et la morale de la <em>décadence</em>.",
+     "ok": "Bien : deux négations, l'être humain « bon » et la morale de la <em>décadence</em>.",
      "mal": "Pas encore."
     },
     "rescate": [
@@ -5084,7 +5084,7 @@ const PISTAS = [
        "g-genealogia-de-la-moral"
       ],
       "definicion": [
-       "<strong>Première négation</strong> → le type d'homme considéré comme suprême : « les bons », les bienveillants. Leur condition d'existence, dit-il, est de ne pas vouloir voir comment est la réalité (§4).",
+       "<strong>Première négation</strong> → le type d'être humain considéré comme suprême : « les bons », les bienveillants. Leur condition d'existence, dit-il, est de ne pas vouloir voir comment est la réalité (§4).",
        "<strong>Seconde négation</strong>, la décisive → la morale chrétienne, morale de la <em>décadence</em> : une morale du renoncement à soi qui trahit une volonté de fin (§4 et §7).",
        "<strong>Mais ce n'est pas un simple « non »</strong> → nier et anéantir sont des conditions pour dire oui à la vie. C'est pourquoi il se nomme lui-même « joyeux messager » (§1)."
       ],
@@ -5100,7 +5100,7 @@ const PISTAS = [
         [
          "Celle des personnes concrètes qui sont aimables.",
          false,
-         "Il n'attaque pas des personnes concrètes, mais un type d'homme que la morale a érigé en modèle."
+         "Il n'attaque pas des personnes concrètes, mais un type d'être humain que la morale a érigé en modèle."
         ],
         [
          "Celle de la science et de la connaissance.",
@@ -5217,7 +5217,7 @@ const PISTAS = [
   "cierre": {
    "titulo": "Tu peux maintenant expliquer « Pourquoi je suis un destin »",
    "parrafos": [
-    "Nietzsche se nomme « le premier immoraliste » : il nie le type d'homme « bon » et la morale chrétienne, qu'il considère comme une morale de la <em>décadence</em>, hostile à la vie. Sa formule est la transvaluation de toutes les valeurs : créer des valeurs qui disent oui à la vie, résumées dans « Dionysos contre le Crucifié ».",
+    "Nietzsche se nomme « le premier immoraliste » : il nie le type d'être humain « bon » et la morale chrétienne, qu'il considère comme une morale de la <em>décadence</em>, hostile à la vie. Sa formule est la transvaluation de toutes les valeurs : créer des valeurs qui disent oui à la vie, résumées dans « Dionysos contre le Crucifié ».",
     "Pour la PAU : dans le résumé, rappelle les deux négations du §4 ; dans l'option A ou B, relie-les à la mort de Dieu et au nihilisme."
    ]
   }

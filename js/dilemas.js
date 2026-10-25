@@ -64,7 +64,7 @@ const DILEMAS = [
    {
     "quien": "Spinoza",
     "elige": "B",
-    "porque": "Avec des nuances. L'homme libre n'agit jamais par tromperie, pas même pour échapper à un danger de mort (Éthique, IV, 72, scolie), et fuir en se jouant des lois de sa propre cité y ressemblerait. Mais se retirer à temps exige autant de fermeté que combattre (IV, 69, corollaire), et lui, chassé de sa communauté comme Socrate, s'est mis à l'écart avec prudence pour continuer à penser : ni martyr ni fugitif.",
+    "porque": "Avec des nuances. L'être humain libre n'agit jamais par tromperie, pas même pour échapper à un danger de mort (Éthique, IV, 72, scolie), et fuir en se jouant des lois de sa propre cité y ressemblerait. Mais se retirer à temps exige autant de fermeté que combattre (IV, 69, corollaire), et lui, chassé de sa communauté comme Socrate, s'est mis à l'écart avec prudence pour continuer à penser : ni martyr ni fugitif.",
     "biografia": "spinoza"
    },
    {
@@ -376,13 +376,13 @@ const DILEMAS = [
    {
     "quien": "Hobbes",
     "elige": "A",
-    "porque": "À l'état de nature, la vie est « solitaire, pauvre, méchante, brutale et brève » ; par peur, les hommes cèdent tout leur droit à un souverain absolu. Diviser le pouvoir, c'est retourner à la guerre.",
+    "porque": "À l'état de nature, la vie est « solitaire, pauvre, méchante, brutale et brève » ; par peur, les êtres humains cèdent tout leur droit à un souverain absolu. Diviser le pouvoir, c'est retourner à la guerre.",
     "biografia": "hobbes"
    },
    {
     "quien": "Rousseau",
     "elige": "B",
-    "porque": "L'homme naît libre et bon ; le pacte légitime ne livre pas la liberté mais la transforme : chacun obéit à la volonté générale dont il fait partie, et ainsi n'obéit qu'à lui-même.",
+    "porque": "L'être humain naît libre et bon ; le pacte légitime ne livre pas la liberté mais la transforme : chacun obéit à la volonté générale dont il fait partie, et ainsi n'obéit qu'à lui-même.",
     "biografia": "rousseau"
    },
    {
@@ -393,7 +393,7 @@ const DILEMAS = [
    {
     "quien": "Machiavel",
     "elige": "A",
-    "porque": "Sans illusions : les hommes sont ingrats et changeants, et il est plus sûr d'être craint qu'aimé. Le fondateur d'un ordre nouveau a besoin d'avoir les mains libres ; ensuite, s'il est prudent, il pourra donner des lois."
+    "porque": "Sans illusions : les êtres humains sont ingrats et changeants, et il est plus sûr d'être craint qu'aimé. Le fondateur d'un ordre nouveau a besoin d'avoir les mains libres ; ensuite, s'il est prudent, il pourra donner des lois."
    }
   ],
   "debate": {
@@ -524,7 +524,7 @@ const DILEMAS = [
   "titulo": "Il ne faisait qu'obéir aux ordres",
   "situacion": "Jérusalem, 1961. Adolf Eichmann, le fonctionnaire qui a organisé les trains vers les camps d'extermination, se défend : il ne haïssait personne, il n'a tué personne de ses mains, il a respecté les lois de son État et les ordres de ses supérieurs ; désobéir aurait été, dans son monde, l'immoral. Hannah Arendt, qui assiste au procès, écrit que ce n'était pas un monstre mais un homme qui avait cessé de penser. Tu fais partie du jury.",
   "a": "Coupable sans circonstances atténuantes : obéir n'excuse pas ; chacun est responsable de ce qu'il fait, et « exécuter des ordres » est l'excuse de tous les bourreaux.",
-  "b": "Coupable, mais le verdict ne suffit pas : si un homme normal a pu faire cela simplement parce qu'il ne pensait pas, le problème n'est pas lui mais un système qui fabrique des obéissants ; ne juger que lui est trop commode.",
+  "b": "Coupable, mais le verdict ne suffit pas : si un être humain normal a pu faire cela simplement parce qu'il ne pensait pas, le problème n'est pas lui mais un système qui fabrique des obéissants ; ne juger que lui est trop commode.",
   "pregunta": "Une personne peut-elle être responsable du mal qu'elle commet en obéissant ? Le mal est-il un choix ou une absence de pensée ?",
   "enjuego": "La banalité du mal, la responsabilité individuelle au sein d'un système, et la relation entre penser et bien agir.",
   "escuelas": [
@@ -563,7 +563,7 @@ const DILEMAS = [
    "Si le mal est de ne pas penser, la philosophie est-elle un vaccin ? Et pourquoi y avait-il des professeurs de philosophie dans le parti nazi ?",
    "Y a-t-il des ordres que tu exécutes aujourd'hui sans penser (au travail, dans le groupe, sur les réseaux) ? Où mettrais-tu la limite et comment saurais-tu que tu l'as franchie ?"
   ],
-  "ysi": "Et si Eichmann avait désobéi et avait été fusillé, et que les trains soient partis quand même avec un autre fonctionnaire ? Arendt répond que cela compte : non parce que cela changerait le résultat, mais parce que le monde serait autre avec un homme de moins qui a dit oui.",
+  "ysi": "Et si Eichmann avait désobéi et avait été fusillé, et que les trains soient partis quand même avec un autre fonctionnaire ? Arendt répond que cela compte : non parce que cela changerait le résultat, mais parce que le monde serait autre avec un être humain de moins qui a dit oui.",
   "pau": "« Celui qui obéit à des ordres est-il responsable de ses actes ? » Argumente en 200-300 mots à partir d'Arendt et d'au moins une autre position (Kant, Sartre ou Socrate), avec un exemple actuel.",
   "dato": "Arendt a été durement attaquée par la communauté juive pour son livre : beaucoup ont lu « banalité » comme une excuse. Elle a répondu qu'elle avait décrit quelque chose de plus effrayant qu'un monstre : le fait que le mal n'a pas besoin de monstres."
  },

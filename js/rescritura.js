@@ -143,7 +143,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "malinterpretacion",
-    "texto": "Rousseau explique comment les hommes ont perdu leur liberté naturelle et propose de briser les chaînes en revenant vivre dans la nature, sans lois ni gouvernement.",
+    "texto": "Rousseau explique comment les êtres humains ont perdu leur liberté naturelle et propose de briser les chaînes en revenant vivre dans la nature, sans lois ni gouvernement.",
     "porque": "Rousseau dit expressément qu'il ne sait pas comment le changement s'est produit, et il ne propose pas de revenir à la nature, mais de déterminer ce qui rend légitime l'ordre social."
    }
   ]
@@ -363,7 +363,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "sinonimia",
-    "texto": "Une existence sans analyse n'est pas digne d'être vécue par l'homme.",
+    "texto": "Une existence sans analyse n'est pas digne d'être vécue par l'être humain.",
     "porque": "La même phrase avec des synonymes. Et « analyse » n'est pas la même chose qu'« examen » : Socrate ne parle pas d'analyser des données, mais de passer en revue sa propre vie en dialoguant."
    },
    {
@@ -377,7 +377,7 @@ const RESCRITURA_TEXTOS = [
   "id": "protagoras",
   "autor": "Protagoras",
   "obra": "Cité par Platon dans le <em>Théétète</em>, 152a (Ve siècle av. J.-C.)",
-  "original": "L'homme est la mesure de toutes choses : de celles qui sont, en tant qu'elles sont, et de celles qui ne sont pas, en tant qu'elles ne sont pas.",
+  "original": "L'être humain est la mesure de toutes choses : de celles qui sont, en tant qu'elles sont, et de celles qui ne sont pas, en tant qu'elles ne sont pas.",
   "terminos": [
    "mesure"
   ],
@@ -389,7 +389,7 @@ const RESCRITURA_TEXTOS = [
    },
    {
     "tipo": "copia",
-    "texto": "Protagoras dit que l'homme est la mesure de toutes choses, de celles qui sont et de celles qui ne sont pas.",
+    "texto": "Protagoras dit que l'être humain est la mesure de toutes choses, de celles qui sont et de celles qui ne sont pas.",
     "porque": "C'est la phrase originale précédée de « Protagoras dit que » et avec un morceau en moins."
    },
    {

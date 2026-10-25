@@ -282,7 +282,7 @@ const DECKS = {
    [
     "📏",
     "Protagoras",
-    "« L'homme est la mesure de toutes choses » : relativisme. Il n'y a ni vérité ni justice uniques ; elles dépendent de l'être humain."
+    "« L'être humain est la mesure de toutes choses » : relativisme. Il n'y a ni vérité ni justice uniques ; elles dépendent de l'être humain."
    ],
    [
     "🌀",
@@ -374,7 +374,7 @@ const DECKS = {
    ],
    [
     "🏛️",
-    "« L'homme est la mesure de toutes choses : de celles qui sont, qu'elles sont ; de celles qui ne sont pas, qu'elles ne sont pas. »",
+    "« L'être humain est la mesure de toutes choses : de celles qui sont, qu'elles sont ; de celles qui ne sont pas, qu'elles ne sont pas. »",
     "Protagoras — L'homme comme mesure (DK B1)"
    ],
    [
@@ -4406,7 +4406,7 @@ const QUIZZES = {
      "Interdire le débat public."
     ],
     "a": 1,
-    "fb": "Le langage des droits ouvre le problème de savoir qui l'« homme » inclut vraiment, puisque les femmes, les esclaves et les colonisés restaient exclus."
+    "fb": "Le langage des droits ouvre le problème de savoir qui l'« être humain » inclut vraiment, puisque les femmes, les esclaves et les colonisés restaient exclus."
    },
    {
     "q": "Que fait la critique d'Olympe de Gouges ?",
@@ -8554,11 +8554,11 @@ const QUIZZES = {
     "o": [
      "Un dieu ordonnateur, imitant un modèle éternel.",
      "Personne : il fut toujours, est et sera, un feu toujours vivant.",
-     "Les hommes, en lui donnant un nom par le langage.",
+     "Les êtres humains, en lui donnant un nom par le langage.",
      "L'Amour et la Haine, en unissant et en séparant les racines."
     ],
     "a": 1,
-    "fb": "Le cosmos n'a été créé ni par des dieux ni par des hommes : il est éternel et autosuffisant, un feu qui s'allume et s'éteint selon une mesure."
+    "fb": "Le cosmos n'a été créé ni par des dieux ni par des êtres humains : il est éternel et autosuffisant, un feu qui s'allume et s'éteint selon une mesure."
    },
    {
     "q": "Que signifie le fait que le feu d'Héraclite s'allume et s'éteigne « selon une mesure » ?",
@@ -9543,7 +9543,7 @@ const QUIZZES = {
     "o": [
      "Parce qu'il est la matière dont l'âme est la forme, et que sans lui elle ne pourrait pas exister.",
      "Parce qu'il la distrait par des désirs, des craintes et des maladies, et l'empêche d'atteindre la vérité.",
-     "Parce qu'il a été créé par les dieux pour punir la faute des premiers hommes.",
+     "Parce qu'il a été créé par les dieux pour punir la faute des premiers êtres humains.",
      "Parce qu'il oblige l'âme à obéir aux lois de la cité plutôt qu'à la raison."
     ],
     "a": 1,
@@ -13937,7 +13937,7 @@ const QUIZZES = {
    {
     "q": "Les trois questions de Kant (que puis-je connaître ? que dois-je faire ? que m'est-il permis d'espérer ?) se résument, selon lui, en une seule. Laquelle ?",
     "o": [
-     "Qu'est-ce que l'homme ?",
+     "Qu'est-ce que l'être humain ?",
      "Qu'est-ce que l'être ?",
      "Qu'est-ce que le bonheur ?",
      "Qu'est-ce que la vérité ?"
@@ -14306,7 +14306,7 @@ const QUIZZES = {
      "Qu'est-ce que l'être ?"
     ],
     "a": 3,
-    "fb": "Les trois questions kantiennes sont : que puis-je connaître, que dois-je faire et que m'est-il permis d'espérer, résumées en : qu'est-ce que l'homme ?"
+    "fb": "Les trois questions kantiennes sont : que puis-je connaître, que dois-je faire et que m'est-il permis d'espérer, résumées en : qu'est-ce que l'être humain ?"
    }
   ]
  },
@@ -16322,10 +16322,10 @@ const QUIZZES = {
    {
     "q": "Quelle relation Sartre établit-il entre son athéisme et la liberté humaine ?",
     "o": [
-     "Dieu accorde la liberté pour que l'homme se sauve.",
+     "Dieu accorde la liberté pour que l'être humain se sauve.",
      "Sans un Dieu qui dicte des normes, chacun se fait lui-même.",
      "Sans Dieu, tout est soumis aux lois naturelles.",
-     "L'athéisme libère l'homme de toute responsabilité."
+     "L'athéisme libère l'être humain de toute responsabilité."
     ],
     "a": 1,
     "fb": "L'humanisme athée de Sartre part du fait qu'il n'y a pas de Dieu pour dicter des normes ; c'est pourquoi nous sommes totalement responsables de ce que nous sommes."
@@ -16346,11 +16346,11 @@ const QUIZZES = {
     "o": [
      "Que l'amour de Dieu est la preuve que Dieu existe.",
      "Que la raison démontre que l'âme est immortelle.",
-     "Que le sentir définit l'homme plus que le penser.",
+     "Que le sentir définit l'être humain plus que le penser.",
      "Que n'existe que ce que quelqu'un perçoit."
     ],
     "a": 2,
-    "fb": "Unamuno oppose sa formule au « je pense, donc je suis » : ce qui définit l'homme de chair et d'os, c'est le sentir, non le raisonnement abstrait."
+    "fb": "Unamuno oppose sa formule au « je pense, donc je suis » : ce qui définit l'être humain de chair et d'os, c'est le sentir, non le raisonnement abstrait."
    },
    {
     "q": "Pourquoi Ortega propose-t-il une « raison vitale » ?",
@@ -16391,7 +16391,7 @@ const QUIZZES = {
      "Il soutient que la vie n'a pas de fin préétablie.",
      "Il affirme que l'histoire marche vers sa décadence.",
      "Il nie que l'être humain puisse connaître quoi que ce soit de certain.",
-     "Il considère que l'homme est mauvais par nature."
+     "Il considère que l'être humain est mauvais par nature."
     ],
     "a": 0,
     "fb": "Le pessimisme existentialiste consiste en ce que la vie n'a pas de but donné d'avance (la « nausée » de Sartre, le « néant » de Heidegger)."

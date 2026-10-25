@@ -154,7 +154,7 @@ const CITAS = [
   "trampa": "Ce n'est pas une citation littérale : elle résume plusieurs passages de La République sur l'analogie du soleil, où l'Idée de Bien apparaît comme le « fils » ou le rejeton que le Bien engendre semblable à lui."
  },
  {
-  "c": "L'homme est la mesure de toutes choses : de celles qui sont, qu'elles sont ; de celles qui ne sont pas, qu'elles ne sont pas.",
+  "c": "L'être humain est la mesure de toutes choses : de celles qui sont, qu'elles sont ; de celles qui ne sont pas, qu'elles ne sont pas.",
   "a": "Protagoras",
   "o": "fragment DK 80 B1 (cité par Platon, Théétète 152a)",
   "e": "antique",
@@ -307,7 +307,7 @@ const CITAS = [
   "e": "moderne",
   "id": "diderot",
   "img": "media/retratos/museo2/diderot.jpg",
-  "sen": "L'Encyclopédie voulait rassembler tout le savoir de son temps et le mettre à la portée du public, pour le transmettre et rendre les hommes plus éclairés et plus heureux.",
+  "sen": "L'Encyclopédie voulait rassembler tout le savoir de son temps et le mettre à la portée du public, pour le transmettre et rendre les êtres humains plus éclairés et plus heureux.",
   "uso": "Pour présenter les Lumières françaises et l'Encyclopédie, ou dans des débats sur la diffusion de la connaissance."
  },
  {
@@ -491,7 +491,7 @@ const CITAS = [
   "e": "moderne",
   "id": "maquiavelo",
   "img": "media/retratos/museo2/maquiavelo.jpg",
-  "sen": "Machiavel sépare la politique de la morale : celui qui gouverne doit tenir compte de la manière dont les hommes agissent réellement, et non de républiques idéales, s'il veut conserver le pouvoir.",
+  "sen": "Machiavel sépare la politique de la morale : celui qui gouverne doit tenir compte de la manière dont les êtres humains agissent réellement, et non de républiques idéales, s'il veut conserver le pouvoir.",
   "uso": "Pour expliquer le réalisme politique de Machiavel et le passage à la politique moderne, ou dans des débats sur l'éthique et la politique."
  },
  {
@@ -693,7 +693,7 @@ const CITAS = [
   "id": "darwin",
   "img": "media/retratos/museo/darwin.jpg",
   "sen": "Malgré toutes ses capacités, l'être humain provient de formes de vie antérieures ; son corps garde les traces de cette ascendance animale.",
-  "uso": "Pour expliquer la théorie de l'évolution et son impact sur l'idée d'être humain, ou dans une dissertation sur la place de l'homme dans la nature."
+  "uso": "Pour expliquer la théorie de l'évolution et son impact sur l'idée d'être humain, ou dans une dissertation sur la place de l'être humain dans la nature."
  },
  {
   "c": "Il n'y a pas de hors-texte.",
@@ -973,7 +973,7 @@ const CITAS = [
   "e": "contemporaine",
   "id": "unamuno",
   "img": "media/retratos/museo2/unamuno.jpg",
-  "sen": "Pour Unamuno, la philosophie ne doit pas s'occuper d'un homme abstrait, mais de l'individu réel qui naît, souffre et meurt. Ce qui pousse à penser, c'est le désir de ne pas mourir tout entier.",
+  "sen": "Pour Unamuno, la philosophie ne doit pas s'occuper d'un être humain abstrait, mais de l'individu réel qui naît, souffre et meurt. Ce qui pousse à penser, c'est le désir de ne pas mourir tout entier.",
   "uso": "Pour présenter la pensée d'Unamuno et le sentiment tragique de la vie, ou dans une dissertation sur la raison et la foi face à la mort."
  },
  {
@@ -1180,7 +1180,7 @@ const CITAS = [
   "uso": "Pour expliquer la vertu comme habitude dans l'éthique d'Aristote, ou dans des débats sur l'éducation morale."
  },
  {
-  "c": "Il peut arriver que la multitude, bien qu'aucun de ses membres ne soit pris à part un homme excellent, se révèle, une fois réunie, meilleure que ce petit nombre, non pas un par un, mais tous ensemble, de même que les repas où chacun apporte sa part valent mieux que ceux qu'un seul paie.",
+  "c": "Il peut arriver que la multitude, bien qu'aucun de ses membres ne soit pris à part un être humain excellent, se révèle, une fois réunie, meilleure que ce petit nombre, non pas un par un, mais tous ensemble, de même que les repas où chacun apporte sa part valent mieux que ceux qu'un seul paie.",
   "a": "Aristote",
   "o": "Politique, III, 11, 1281a42-b3, trad. personnelle",
   "e": "antique",
@@ -1240,7 +1240,7 @@ const CITAS = [
   "uso": "Pour expliquer la critique de l'écriture chez Platon dans le Phèdre, ou dans des débats sur la mémoire, la lecture et les nouvelles technologies."
  },
  {
-  "c": "La guerre est le père de toutes choses et le roi de toutes choses ; elle a révélé les uns comme dieux et les autres comme hommes ; elle a fait les uns esclaves et les autres libres.",
+  "c": "La guerre est le père de toutes choses et le roi de toutes choses ; elle a révélé les uns comme dieux et les autres comme êtres humains ; elle a fait les uns esclaves et les autres libres.",
   "a": "Héraclite",
   "o": "fragment DK 22 B53, trad. personnelle",
   "e": "antique",
@@ -1355,7 +1355,7 @@ const CITAS = [
   "e": "moderne",
   "id": "hobbes",
   "img": "media/retratos/museo2/hobbes.jpg",
-  "sen": "Pour Hobbes, sans un pouvoir commun qui impose l'ordre, les hommes vivent dans la guerre de tous contre tous, et la vie est misérable et dangereuse. C'est ainsi qu'il décrit l'état de nature.",
+  "sen": "Pour Hobbes, sans un pouvoir commun qui impose l'ordre, les êtres humains vivent dans la guerre de tous contre tous, et la vie est misérable et dangereuse. C'est ainsi qu'il décrit l'état de nature.",
   "uso": "Pour expliquer l'état de nature chez Hobbes et pourquoi un pacte est nécessaire, ou en le comparant à Locke et à Rousseau.",
   "trampa": "On pense souvent que Hobbes décrit une époque historique ; en réalité, c'est surtout une hypothèse sur ce qui se passerait sans État."
  },
@@ -1406,7 +1406,7 @@ const CITAS = [
   "e": "moderne",
   "id": "maquiavelo",
   "img": "media/retratos/museo2/maquiavelo.jpg",
-  "sen": "Pour Machiavel, le gouvernant doit partir de ce que sont les hommes, et non de ce qu'ils devraient être : comme l'amour est instable, la crainte assure un contrôle plus sûr, sans aller toutefois jusqu'à se faire haïr.",
+  "sen": "Pour Machiavel, le gouvernant doit partir de ce que sont les êtres humains, et non de ce qu'ils devraient être : comme l'amour est instable, la crainte assure un contrôle plus sûr, sans aller toutefois jusqu'à se faire haïr.",
   "uso": "Pour expliquer le réalisme politique de Machiavel et la séparation entre politique et morale, ou dans des débats sur le pouvoir.",
   "trampa": "On attribue à Machiavel « la fin justifie les moyens », mais cette phrase n'apparaît pas dans Le Prince."
  },

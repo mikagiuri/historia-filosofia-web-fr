@@ -1029,7 +1029,7 @@ const DICCIONARIO = [
   "bloque": "B",
   "unidad": "B3",
   "tema": "Renaissance et science",
-  "def": "La dignité de l'homme : l'humanisme de la Renaissance (Pic de la Mirandole) a soutenu que l'être humain n'a pas de nature fixe, qu'il est un être capable de se construire lui-même en liberté.",
+  "def": "La dignité de l'être humain : l'humanisme de la Renaissance (Pic de la Mirandole) a soutenu que l'être humain n'a pas de nature fixe, qu'il est un être capable de se construire lui-même en liberté.",
   "biografia": [
    "pico"
   ]
@@ -4566,7 +4566,7 @@ const DICCIONARIO = [
   "bloque": "A",
   "unidad": "A5",
   "tema": "Sophistes, Aspasie et Socrate",
-  "def": "La position selon laquelle la vérité et les valeurs dépendent du sujet : la perception et l'intérêt propres sont la mesure. C'est une forme de relativisme appliquée à l'individu (Protagoras : « l'homme est la mesure de toutes choses »).",
+  "def": "La position selon laquelle la vérité et les valeurs dépendent du sujet : la perception et l'intérêt propres sont la mesure. C'est une forme de relativisme appliquée à l'individu (Protagoras : « l'être humain est la mesure de toutes choses »).",
   "biografia": [
    "protagoras"
   ]
@@ -4595,7 +4595,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "CN",
   "tema": "Nietzsche",
-  "def": "C'est la force vitale créatrice capable de créer des valeurs nouvelles. Ce n'est pas une caricature politique, mais l'image du dépassement de l'homme.",
+  "def": "C'est la force vitale créatrice capable de créer des valeurs nouvelles. Ce n'est pas une caricature politique, mais l'image du dépassement de l'être humain.",
   "biografia": [
    "nietzsche"
   ]

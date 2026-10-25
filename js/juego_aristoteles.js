@@ -276,7 +276,7 @@ const JUEGO_ARIS = {
     }
    },
    "perfil": "Le sophiste le plus célèbre et le mieux payé de Grèce ; ami de Périclès et suspect aux yeux des dévots.",
-   "frase": "L'homme est la mesure de toutes choses.",
+   "frase": "L'être humain est la mesure de toutes choses.",
    "destino": "Périclès lui confia les lois de la colonie de Thourioi. Selon la tradition, on l'accusa d'impiété à cause de son livre Sur les dieux, on brûla ses livres sur l'agora et il mourut dans un naufrage en fuyant Athènes."
   },
   {

@@ -1142,7 +1142,7 @@ const INFOGRAFIAS = {
      {
       "emoji": "🧭",
       "t": "Réalisme",
-      "p": "Voir les hommes tels qu'ils sont, et non tels qu'ils devraient être."
+      "p": "Voir les êtres humains tels qu'ils sont, et non tels qu'ils devraient être."
      }
     ]
    },
@@ -1613,7 +1613,7 @@ const INFOGRAFIAS = {
        },
        {
         "t": "Relativisme",
-        "p": "« L'homme est la mesure de toutes choses » : il n'y a pas de vérité universelle."
+        "p": "« L'être humain est la mesure de toutes choses » : il n'y a pas de vérité universelle."
        }
       ]
      },

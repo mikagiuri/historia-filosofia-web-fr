@@ -272,7 +272,7 @@ const ADAGIOS = [
   "la": "Homo mensura",
   "gr": "Πάντων χρημάτων μέτρον ἄνθρωπος",
   "tr": "pánton khremáton métron ánthropos",
-  "es": "L'homme est la mesure de toutes choses.",
+  "es": "L'être humain est la mesure de toutes choses.",
   "o": "Protagoras, cité par Platon, Théétète 152a",
   "sen": "Les choses sont pour chacun telles qu'elles lui apparaissent : il n'y a pas de vérité au-dessus de tous les points de vue.",
   "uso": "Pour les sophistes et le relativisme.",

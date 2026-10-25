@@ -18,7 +18,7 @@ const GEN_TESIS = {
   {
    "id": "pro-medida",
    "biografia": "protagoras",
-   "t": "L'homme est la mesure de toutes choses.",
+   "t": "L'être humain est la mesure de toutes choses.",
    "ref": "Fragment DK 80 B 1, cité par Platon, Théétète 152a",
    "forma": "littéral"
   },
@@ -407,7 +407,7 @@ const GEN_TESIS = {
   {
    "k": "hob-guerra|rou-bueno",
    "tipo": "desacuerdo",
-   "por": "Rousseau reproche à Hobbes d'attribuer à l'homme naturel les vices que produit en réalité la société."
+   "por": "Rousseau reproche à Hobbes d'attribuer à l'être humain naturel les vices que produit en réalité la société."
   },
   {
    "k": "hob-guerra|loc-resistir",

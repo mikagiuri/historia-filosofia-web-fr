@@ -267,7 +267,7 @@ const POLEMICAS = [
    "t": "On regarde la conscience de celui qui donne [le baptême], car c'est elle qui lave celle de celui qui le reçoit.",
    "ref": "Pétilien, lettre citée par Augustin dans Contre les lettres de Pétilien, I, 1, 2"
   },
-  "fuerte_a": "Si le baptême dépendait de la conscience du prêtre, personne ne pourrait être sûr d'être baptisé, car la conscience d'autrui ne se voit pas. L'espérance serait placée dans un homme et non en Dieu.",
+  "fuerte_a": "Si le baptême dépendait de la conscience du prêtre, personne ne pourrait être sûr d'être baptisé, car la conscience d'autrui ne se voit pas. L'espérance serait placée dans un être humain et non en Dieu.",
   "fuerte_b": "Une Église qui accueille comme pasteurs ceux qui ont trahi la foi pour se sauver perd sa sainteté. La pureté des ministres est la garantie qu'elle reste l'Église des martyrs.",
   "desenlace": "À la conférence de Carthage (1er, 3 et 8 juin 411), avec 286 évêques catholiques et environ 280 donatistes, le délégué impérial Marcellin trancha en faveur des catholiques, et une loi d'Honorius de 412 sanctionna les donatistes. Augustin, qui au début ne voulait contraindre personne, finit par accepter la pression des lois impériales (lettre 93, de 408), une position qui a été très discutée par la suite.",
   "trucos": "Pétilien accusa Augustin d'avoir été prêtre manichéen et d'être un « dialecticien », un artiste de la tromperie ; Augustin nia le premier point et défendit la dialectique (Contre les lettres de Pétilien, III, 16-17).",
@@ -531,7 +531,7 @@ const POLEMICAS = [
   ],
   "pregunta": "Existe-t-il un seul intellect pour toute l'humanité ? La raison peut-elle démontrer le contraire de ce qu'enseigne la foi ?",
   "contexto": "À Paris, la faculté des arts enseignait Aristote avec les commentaires d'Averroès, et la faculté de théologie en craignait les conséquences. Siger de Brabant (vers 1240-1284), maître ès arts, défendait la lecture d'Averroès ; Thomas, théologien dominicain, admirait lui aussi Aristote, mais lu autrement. En 1270, Thomas écrivit L'Unité de l'intellect contre les averroïstes, et la même année l'évêque Tempier condamna treize thèses.",
-  "tesis_a": "Chaque être humain a son propre intellect, qui fait partie de son âme : c'est pourquoi c'est cet homme concret qui pense. Et il le lisait chez Aristote lui-même. La raison bien employée ne contredit jamais la foi.",
+  "tesis_a": "Chaque être humain a son propre intellect, qui fait partie de son âme : c'est pourquoi c'est cet être humain concret qui pense. Et il le lisait chez Aristote lui-même. La raison bien employée ne contredit jamais la foi.",
   "tesis_b": "À la suite d'Averroès, l'intellect qui connaît est un et séparé pour toute l'espèce humaine. Siger disait exposer ce que les philosophes soutenaient par la raison naturelle, même si, en tant que chrétien, il acceptait ce que commande la foi.",
   "cita_a": {
    "t": "Qu'il ne parle pas dans les coins ni devant des jeunes gens incapables de juger de questions si ardues, mais qu'il écrive contre cet écrit, s'il l'ose.",

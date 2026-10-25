@@ -855,14 +855,14 @@ const REP_MAZO_A = {
    "id": "alma_thymos",
    "name": "L’âme timocratique (l’ardeur gouverne)",
    "lema": "Elle aime l’honneur et le pouvoir plus que le savoir.",
-   "txt": "L’homme timocratique remet le commandement, en lui-même, à l’élément irascible et amoureux de la victoire. Le *thymós* est la partie irascible ou ardente ; son excès est l’ambition (*philotimía*).",
+   "txt": "L’être humain timocratique remet le commandement, en lui-même, à l’élément irascible et amoureux de la victoire. Le *thymós* est la partie irascible ou ardente ; son excès est l’ambition (*philotimía*).",
    "loc": "République VIII, 548d-550b"
   },
   {
    "id": "alma_epithymia_nec",
    "name": "L’âme oligarchique (l’appétit nécessaire gouverne)",
    "lema": "Elle épargne, craint de dépenser et laisse inassouvi tout désir qui ne rapporte rien.",
-   "txt": "L’homme oligarchique met sur le trône l’élément appétitif et amoureux de l’argent. L’*epithymía* est la partie appétitive ; ici domine sa forme « nécessaire », celle de l’argent.",
+   "txt": "L’être humain oligarchique met sur le trône l’élément appétitif et amoureux de l’argent. L’*epithymía* est la partie appétitive ; ici domine sa forme « nécessaire », celle de l’argent.",
    "loc": "République VIII, 553a-554e"
   },
   {
@@ -876,7 +876,7 @@ const REP_MAZO_A = {
    "id": "alma_eros_tirano",
    "name": "L’âme tyrannique (le désir à l’aiguillon gouverne : Éros)",
    "lema": "Celui qui peut tout au-dehors est le plus esclave au-dedans.",
-   "txt": "Dans l’âme du tyran, un désir directeur gouverne les autres comme un aiguillon ; il est réellement esclave bien qu’il commande, plein de peur, sans amis, incapable de faire ce qu’il veut : le plus malheureux des hommes. On expose l’argument de Platon, non un jugement sur un régime réel.",
+   "txt": "Dans l’âme du tyran, un désir directeur gouverne les autres comme un aiguillon ; il est réellement esclave bien qu’il commande, plein de peur, sans amis, incapable de faire ce qu’il veut : le plus malheureux des êtres humains. On expose l’argument de Platon, non un jugement sur un régime réel.",
    "loc": "République IX, 571a-580a"
   }
  ],

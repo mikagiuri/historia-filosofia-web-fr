@@ -250,7 +250,7 @@ const RESUMENES = [
     "items": [
      {
       "t": "Relativisme",
-      "d": "« L'homme est la mesure de toutes choses » : il n'y a pas de vérité ni de justice uniques.",
+      "d": "« L'être humain est la mesure de toutes choses » : il n'y a pas de vérité ni de justice uniques.",
       "a": "Protagoras"
      },
      {

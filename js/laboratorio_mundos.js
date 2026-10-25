@@ -156,7 +156,7 @@ const LABMP = {
   "verIsabelle": "Voir la preuve dans Isabelle",
   "asiIsabelle": "Voici comment Isabelle le vérifie (clique pour voir toute la théorie) :",
   "altTeorema": "Capture d’écran d’Isabelle : le théorème {t} et sa preuve",
-  "altCaptura": "Capture d'écran d'Isabelle : {t}",
+  "altCaptura": "Capture d'écran d'Isabelle : {t}",
   "gElige": "Choisis une théorie",
   "gNRetos": "{n} défis",
   "gEmpieza": "pour commencer",
@@ -1961,48 +1961,48 @@ const LABMP = {
    "Isabelle/HOL est un programme informatique qui vérifie des démonstrations pas à pas : s'il accepte une preuve, elle ne comporte aucune faille logique. Chaque prémisse de cette table est une définition dans Isabelle, et chaque affirmation que la table donne pour démontrée est un théorème avec sa preuve, qu'Isabelle a acceptée sans aucune erreur.",
    "Ici, tu peux voir ces preuves telles qu'elles ont été écrites. À côté de chaque résultat de la table, le lien « Voir la preuve dans Isabelle » te mène au théorème exact."
   ],
-  "tCapturas": "Voici à quoi ressemble Isabelle : huit captures",
+  "tCapturas": "Voici à quoi ressemble Isabelle : huit captures",
   "introCapturas": "Captures réelles du programme (Isabelle2025-2) avec les théories de cette table. Clique sur une image pour l'agrandir.",
   "capturas": [
    {
     "f": "01_programa_abierto",
     "t": "1. Le programme ouvert.",
-    "d": "À gauche, l'éditeur, où l'on écrit la théorie (ici, celle de Parménide). En bas, le panneau « Output », où Isabelle répond. À droite, la liste des théories : le carré blanc signifie que tout est vérifié."
+    "d": "À gauche, l'éditeur, où l'on écrit la théorie (ici, celle de Parménide). En bas, le panneau « Output », où Isabelle répond. À droite, la liste des théories : le carré blanc signifie que tout est vérifié."
    },
    {
     "f": "02_definiciones",
     "t": "2. Une prémisse est une phrase qui a un nom.",
-    "d": "« definition P_no_ser » donne un nom à une phrase : « toute chose x existe à tout instant t ». Plus bas, « P_salto_otro » : si x est différente de y, x n'existe pas. Dans la table, ces phrases sont les cartes de prémisses."
+    "d": "« definition P_no_ser » donne un nom à une phrase : « toute chose x existe à tout instant t ». Plus bas, « P_salto_otro » : si x est différente de y, x n'existe pas. Dans la table, ces phrases sont les cartes de prémisses."
    },
    {
     "f": "03_teorema_demostrado",
     "t": "3. Un théorème démontré.",
-    "d": "« theorem uno_mesa » : avec les deux prémisses (« assumes »), toutes les choses sont la même (« shows »). La preuve est la dernière ligne (« by blast »). Isabelle l'accepte : dans « Output », elle répète le théorème, sans aucun avertissement."
+    "d": "« theorem uno_mesa » : avec les deux prémisses (« assumes »), toutes les choses sont la même (« shows »). La preuve est la dernière ligne (« by blast »). Isabelle l'accepte : dans « Output », elle répète le théorème, sans aucun avertissement."
    },
    {
     "f": "04_sin_la_premisa",
     "t": "4. Sans une prémisse, la preuve échoue.",
-    "d": "La même preuve, mais sans « P_salto_otro ». Isabelle marque la ligne en rouge et prévient : « Failed to apply initial proof method » (elle n'a pas pu appliquer la méthode de preuve). Avec « P_no_ser » seule, l'affirmation ne s'ensuit pas."
+    "d": "La même preuve, mais sans « P_salto_otro ». Isabelle marque la ligne en rouge et prévient : « Failed to apply initial proof method » (elle n'a pas pu appliquer la méthode de preuve). Avec « P_no_ser » seule, l'affirmation ne s'ensuit pas."
    },
    {
     "f": "05_nitpick_contramodelo",
     "t": "5. Nitpick cherche un monde où ça échoue.",
-    "d": "Nitpick fait la même chose que la table : il cherche un monde possible où la prémisse est vraie et l'affirmation, fausse. Il en trouve un avec 2 choses et 1 instant : x = c₁ et y = c₂ sont deux choses distinctes, et toutes deux existent. C'est un contre-exemple : voilà pourquoi l'affirmation ne s'ensuit pas."
+    "d": "Nitpick fait la même chose que la table : il cherche un monde possible où la prémisse est vraie et l'affirmation, fausse. Il en trouve un avec 2 choses et 1 instant : x = c₁ et y = c₂ sont deux choses distinctes, et toutes deux existent. C'est un contre-exemple : voilà pourquoi l'affirmation ne s'ensuit pas."
    },
    {
     "f": "06_prueba_por_pasos",
     "t": "6. Une preuve pas à pas.",
-    "d": "La thèse de la quatrième antinomie (« tesis4 »), démontrée pas à pas, comme dans « Pas à pas » de la table : chaque ligne avec « have » ou « obtain » est une étape, avec sa justification (« by … »). En bas, « Proof state » montre ce qu'il reste à démontrer."
+    "d": "La thèse de la quatrième antinomie (« tesis4 »), démontrée pas à pas, comme dans « Pas à pas » de la table : chaque ligne avec « have » ou « obtain » est une étape, avec sa justification (« by … »). En bas, « Proof state » montre ce qu'il reste à démontrer."
    },
    {
     "f": "07_modelo_infinito",
     "t": "7. Un modèle infini.",
-    "d": "« modelo_antitesis3 » utilise les nombres entiers (int) : chaque nombre a une cause, le précédent (x = y + 1), et la série ne s'arrête jamais en remontant. La table ne construit que de petits mondes ; Isabelle raisonne aussi sur des mondes infinis."
+    "d": "« modelo_antitesis3 » utilise les nombres entiers (int) : chaque nombre a une cause, le précédent (x = y + 1), et la série ne s'arrête jamais en remontant. La table ne construit que de petits mondes ; Isabelle raisonne aussi sur des mondes infinis."
    },
    {
     "f": "08_cuenta_con_numeros",
     "t": "8. Isabelle connaît aussi les mathématiques.",
-    "d": "La dichotomie de Zénon : 1/2 + 1/4 + 1/8 + … = 1. Dans Isabelle, on écrit « (λn. (1/2) ^ Suc n) sums 1 » (« Suc n » est n + 1) et on la prouve avec deux théorèmes de sa bibliothèque sur les séries : une infinité de moitiés s'additionnent en une distance finie."
+    "d": "La dichotomie de Zénon : 1/2 + 1/4 + 1/8 + … = 1. Dans Isabelle, on écrit « (λn. (1/2) ^ Suc n) sums 1 » (« Suc n » est n + 1) et on la prouve avec deux théorèmes de sa bibliothèque sur les séries : une infinité de moitiés s'additionnent en une distance finie."
    }
   ],
   "pdf": "Télécharger le cahier d'Isabelle (PDF, 79 pages)",

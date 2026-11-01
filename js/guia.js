@@ -54,11 +54,11 @@ const GUIA = {
   {
    "type": "img",
    "src": "01_ficha.webp",
-   "cap": "La page de la matière : en haut, le menu ; en dessous, la liste des thèmes."
+   "cap": "La page de la matière : en haut, le menu ; en dessous, les thèmes, en blocs qui se déploient (ici, un bloc ouvert)."
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés par <strong>époques</strong> (Antique, Médiévale, Moderne, Lumières et Contemporaine), chacune avec sa couleur, et la liste commence par le Thème 3. Les thèmes 1 et 2, qui introduisent la matière, sont à la fin. La couleur de chaque époque t’accompagne dans tout le site : dans les filtres, les cartes et les quiz.",
+   "x": "Les thèmes sont regroupés en <strong>blocs</strong> par époques («Bloc 1 · Antique», «Bloc 2 · Médiévale»… jusqu'à la Contemporaine), chacun avec sa couleur et, entre parenthèses, combien de thèmes il contient. Clique sur l'en-tête d'un bloc pour le déplier et tu verras ses thèmes ; clique à nouveau dessus pour le replier. Les thèmes 1 et 2, d'introduction à la matière, sont à la fin, dans le groupe <strong>Introduction</strong>, en gris. La couleur de chaque époque t'accompagne dans tout le site : dans les filtres, les cartes et les quiz.",
    "solo": "hf"
   },
   {
@@ -67,7 +67,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les thèmes sont regroupés en <strong>blocs</strong> («  Bloc 2 · …  »), chacun avec la couleur de sa branche de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique). Cliquez sur l’en-tête d’un bloc pour le déplier : vous verrez ses thèmes, avec les sous-thèmes numérotés (1.1, 1.2…). Le thème 1 est à part, dans un groupe d’Introduction, en gris. Cette couleur vous accompagne sur tout le site : dans les filtres, les cartes et les questionnaires.",
+   "x": "Les thèmes sont regroupés en <strong>blocs</strong> (« Bloc 2 · … »), chacun avec la couleur de sa branche de la philosophie (anthropologie, connaissance, logique, éthique, politique et esthétique). Clique sur l’en-tête d’un bloc pour le déplier : tu verras ses thèmes, avec les sous-thèmes numérotés (1.1, 1.2…). Le Bloc 1 (« Qu’est-ce que la philosophie ? ») est l’introduction et il est en gris. Cette couleur t’accompagne sur tout le site : dans les filtres, les cartes et les questionnaires.",
    "solo": "fil"
   },
   {
@@ -212,7 +212,14 @@ const GUIA = {
     {
      "nombre": "Schémas",
      "texto": "Schémas conceptuels avec leurs relations. Choisis-en un par son titre. Dans Histoire de la philosophie, tu peux les filtrer par époque.",
-     "view": "esquemas"
+     "view": "esquemas",
+     "solo": "hf"
+    },
+    {
+     "nombre": "Schémas",
+     "texto": "Schémas conceptuels avec leurs relations. Choisis-en un par son titre.",
+     "view": "esquemas",
+     "solo": "fil"
     },
     {
      "nombre": "Dictionnaire",

@@ -498,6 +498,11 @@ const GUIA = {
    "type": "steps",
    "rows": [
     {
+     "titulo": "Revois ses termes",
+     "texto": "En haut de chaque thème, ouvre « Avant de commencer : 5 termes » et lis leurs définitions avant la théorie.",
+     "view": "MATERIA"
+    },
+    {
      "titulo": "Lis la théorie du thème",
      "texto": "Étudier › Théorie › le thème. Utilise les parties de gauche pour avancer par étapes.",
      "view": "MATERIA"
@@ -537,6 +542,40 @@ const GUIA = {
     {
      "titulo": "Si tu veux aller plus loin",
      "texto": "Les onglets Histoire et Jeux, S’entraîner › Débattre et le bloc « Approfondir » de l’encadré du thème : contexte, jeux, débats et vidéos pour aller plus loin."
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "x": "<strong>Pour mieux étudier</strong>, quel que soit le thème :"
+  },
+  {
+   "type": "list",
+   "rows": [
+    {
+     "nombre": "En blocs courts",
+     "texto": "De 10 à 20 minutes avec toute ton attention, et une pause brève entre l'un et l'autre : cela rapporte plus qu'une après-midi entière à moitié."
+    },
+    {
+     "nombre": "Carte recto-verso",
+     "texto": "Sur une face, l'auteur et sa thèse en une phrase ; sur l'autre, un dessin de l'idée. Révise en regardant une face et en disant l'autre."
+    },
+    {
+     "nombre": "Redessine la carte",
+     "texto": "Regarde la carte conceptuelle du thème, ferme-la et redessine-la de mémoire. Ensuite compare-la avec l'original : ce qui manque est ce que tu dois réviser."
+    },
+    {
+     "nombre": "Reconstruis un argument",
+     "texto": "Avec trois questions : qu'affirme l'auteur ? pourquoi l'affirme-t-il ? comment passe-t-il de ses raisons à sa conclusion ?"
+    },
+    {
+     "nombre": "Avant de répondre",
+     "texto": "Marque l'énoncé : l'instruction, le thème et les limites. C'est expliqué dans « Comment lire un énoncé », dans Dissertations.",
+     "view": "disertaciones"
+    },
+    {
+     "nombre": "Si tu as un blanc",
+     "texto": "Écris la première chose dont tu te souviens, même si c'est un mot isolé, et reviens à la question. Si tu es en train d'étudier, regarde seulement le titre de la partie et essaie à nouveau avant de le relire."
     }
    ]
   },

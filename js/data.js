@@ -61,9 +61,9 @@ const WEEK = [
 const SUBJECTS = {
  "hf": {
   "name": "Histoire de la philosophie",
-  "kick": "2e année de Bachillerato · Blocs A, B et C",
+  "kick": "2e année de Bachillerato",
   "color": "var(--hf)",
-  "intro": "De la philosophie antique à la philosophie contemporaine : théorie des 27 thèmes, ressources de classe et les cinq textes de la PAU (Platon, Descartes, Kant, Nietzsche et Beauvoir), dans l'onglet « Lectures ».",
+  "intro": "",
   "mats": [],
   "tools": [
    [
@@ -6984,7 +6984,7 @@ const QUIZZES = {
   ]
  },
  "hf-a01-banco": {
-  "name": "T1 · Historicité et universalité de la philosophie (banque élargie)",
+  "name": "T1 · Historicité et universalité de la philosophie",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7376,7 +7376,7 @@ const QUIZZES = {
   ]
  },
  "hf-a02-banco": {
-  "name": "T2 · Les méthodes de la philosophie (banque élargie)",
+  "name": "T2 · Les méthodes de la philosophie",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -7768,7 +7768,7 @@ const QUIZZES = {
   ]
  },
  "hf-a03-banco": {
-  "name": "T3 · La naissance de la philosophie : du mythe au logos (banque élargie)",
+  "name": "T3 · La naissance de la philosophie : du mythe au logos",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8160,7 +8160,7 @@ const QUIZZES = {
   ]
  },
  "hf-a04-banco": {
-  "name": "T4 · Le problème de la réalité chez les présocratiques (banque élargie)",
+  "name": "T4 · Le problème de la réalité chez les présocratiques",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -8596,7 +8596,7 @@ const QUIZZES = {
   ]
  },
  "hf-a05-banco": {
-  "name": "T5 · Les Lumières grecques : sophistes, Socrate et Aspasie (banque élargie)",
+  "name": "T5 · Les Lumières grecques : sophistes, Socrate et Aspasie",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9021,7 +9021,7 @@ const QUIZZES = {
   ]
  },
  "hf-a06-banco": {
-  "name": "T6 · Platon : la théorie des Idées et La République (banque élargie)",
+  "name": "T6 · Platon : la théorie des Idées et La République",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9457,7 +9457,7 @@ const QUIZZES = {
   ]
  },
  "hf-a07-banco": {
-  "name": "T7 · L'anthropologie classique : Socrate, Platon et Aristote (banque élargie)",
+  "name": "T7 · L'anthropologie classique : Socrate, Platon et Aristote",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -9849,7 +9849,7 @@ const QUIZZES = {
   ]
  },
  "hf-a08-banco": {
-  "name": "T8 · L'éthique classique : intellectualisme, vertus et eudaimonia (banque élargie)",
+  "name": "T8 · L'éthique classique : intellectualisme, vertus et eudaimonia",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10241,7 +10241,7 @@ const QUIZZES = {
   ]
  },
  "hf-a09-banco": {
-  "name": "T9 · La politique classique : Platon et Aristote (banque élargie)",
+  "name": "T9 · La politique classique : Platon et Aristote",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -10633,7 +10633,7 @@ const QUIZZES = {
   ]
  },
  "hf-a10-banco": {
-  "name": "T10 · L'hellénisme : cynisme, stoïcisme, épicurisme et scepticisme (banque élargie)",
+  "name": "T10 · L'hellénisme : cynisme, stoïcisme, épicurisme et scepticisme",
   "subject": "hf",
   "block": "A",
   "items": [
@@ -11025,7 +11025,7 @@ const QUIZZES = {
   ]
  },
  "hf-b11-banco": {
-  "name": "T11 · La philosophie médiévale : étapes, méthodes et problème des universaux (banque élargie)",
+  "name": "T11 · La philosophie médiévale : étapes, méthodes et problème des universaux",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11340,7 +11340,7 @@ const QUIZZES = {
   ]
  },
  "hf-b12-banco": {
-  "name": "T12 · Foi et raison : l'assimilation de la philosophie grecque et l'existence de Dieu (banque élargie)",
+  "name": "T12 · Foi et raison : l'assimilation de la philosophie grecque et l'existence de Dieu",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -11677,7 +11677,7 @@ const QUIZZES = {
   ]
  },
  "hf-b13-banco": {
-  "name": "T13 · La naissance de la modernité : Renaissance, protestantisme et révolution scientifique (banque élargie)",
+  "name": "T13 · La naissance de la modernité : Renaissance, protestantisme et révolution scientifique",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12014,7 +12014,7 @@ const QUIZZES = {
   ]
  },
  "hf-b14-banco": {
-  "name": "T14 · Rationalisme et empirisme : Descartes et Hume (banque élargie)",
+  "name": "T14 · Rationalisme et empirisme : Descartes et Hume",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12406,7 +12406,7 @@ const QUIZZES = {
   ]
  },
  "hf-b15-banco": {
-  "name": "T15 · Le débat métaphysique moderne : dualisme et matérialisme (banque élargie)",
+  "name": "T15 · Le débat métaphysique moderne : dualisme et matérialisme",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -12743,7 +12743,7 @@ const QUIZZES = {
   ]
  },
  "hf-b16-banco": {
-  "name": "T16 · L'origine de la société et du pouvoir : Machiavel et le contrat social (banque élargie)",
+  "name": "T16 · L'origine de la société et du pouvoir : Machiavel et le contrat social",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13135,7 +13135,7 @@ const QUIZZES = {
   ]
  },
  "hf-b17-banco": {
-  "name": "T17 · Utilitarisme et libéralisme : les bases du capitalisme (banque élargie)",
+  "name": "T17 · Utilitarisme et libéralisme : les bases du capitalisme",
   "subject": "hf",
   "block": "B",
   "items": [
@@ -13527,7 +13527,7 @@ const QUIZZES = {
   ]
  },
  "hf-c18-banco": {
-  "name": "T18 · Le projet des Lumières : puissance et limites de la raison (banque élargie)",
+  "name": "T18 · Le projet des Lumières : puissance et limites de la raison",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -13919,7 +13919,7 @@ const QUIZZES = {
   ]
  },
  "hf-c19-banco": {
-  "name": "T19 · La philosophie critique de Kant et le problème de la métaphysique (banque élargie)",
+  "name": "T19 · La philosophie critique de Kant et le problème de la métaphysique",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14311,7 +14311,7 @@ const QUIZZES = {
   ]
  },
  "hf-c20-banco": {
-  "name": "T20 · Éthiques du bonheur et éthiques du devoir : Kant face à l'utilitarisme (banque élargie)",
+  "name": "T20 · Éthiques du bonheur et éthiques du devoir : Kant face à l'utilitarisme",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -14703,7 +14703,7 @@ const QUIZZES = {
   ]
  },
  "hf-c21-banco": {
-  "name": "T21 · Les philosophes du soupçon : Marx, Nietzsche et Freud (banque élargie)",
+  "name": "T21 · Les philosophes du soupçon : Marx, Nietzsche et Freud",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15095,7 +15095,7 @@ const QUIZZES = {
   ]
  },
  "hf-c22-banco": {
-  "name": "T22 · La critique du capitalisme : de Marx à Rawls (banque élargie)",
+  "name": "T22 · La critique du capitalisme : de Marx à Rawls",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15487,7 +15487,7 @@ const QUIZZES = {
   ]
  },
  "hf-c23-banco": {
-  "name": "T23 · Nietzsche et la postmodernité : Habermas face aux penseurs de la rupture (banque élargie)",
+  "name": "T23 · Nietzsche et la postmodernité : Habermas face aux penseurs de la rupture",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -15868,7 +15868,7 @@ const QUIZZES = {
   ]
  },
  "hf-c24-banco": {
-  "name": "T24 · La philosophie analytique : Wittgenstein et le tournant linguistique (banque élargie)",
+  "name": "T24 · La philosophie analytique : Wittgenstein et le tournant linguistique",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16260,7 +16260,7 @@ const QUIZZES = {
   ]
  },
  "hf-c25-banco": {
-  "name": "T25 · L'existentialisme : Heidegger, Sartre et la philosophie espagnole (banque élargie)",
+  "name": "T25 · L'existentialisme : Heidegger, Sartre et la philosophie espagnole",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -16652,7 +16652,7 @@ const QUIZZES = {
   ]
  },
  "hf-c26-banco": {
-  "name": "T26 · Le féminisme contemporain : Simone de Beauvoir (banque élargie)",
+  "name": "T26 · Le féminisme contemporain : Simone de Beauvoir",
   "subject": "hf",
   "block": "C",
   "items": [
@@ -17033,7 +17033,7 @@ const QUIZZES = {
   ]
  },
  "hf-c27-banco": {
-  "name": "T27 · La société actuelle : défis du XXIe siècle (banque élargie)",
+  "name": "T27 · La société actuelle : défis du XXIe siècle",
   "subject": "hf",
   "block": "C",
   "items": [

@@ -374,6 +374,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "Que le sujet rationnel agisse selon le principe qu'il peut se donner à lui-même comme loi universelle.",
   "biografia": [
@@ -424,6 +425,19 @@ const DICCIONARIO = [
   "unidad": "C6",
   "tema": "La postmodernité",
   "def": "Le régime qui naît lorsque le pouvoir moderne administre la vie : il gère les populations, la santé, la sexualité, les taux de natalité, les migrations, non seulement par des lois, mais par la statistique, l'épidémiologie et les dispositifs de sécurité."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Canon",
+  "id": "g-canon",
+  "et": "Du grec κανών (*kanón*), « baguette de mesure, règle ».",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Au seuil de la philosophie",
+  "def": "Liste d’auteurs et d’œuvres qu’une tradition tient pour « classiques » et que l’on étudie pour cette raison. Les choisir n’est pas neutre : pendant des siècles, ce choix a laissé de côté de nombreuses philosophes et des penseurs non européens."
  },
  {
   "subject": "hf",
@@ -667,6 +681,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 3,
   "impg": 12,
+  "t": "Vision du monde",
+  "id": "g-cosmovision",
+  "et": "Calque de l’allemand *Weltanschauung* (*Welt*, « monde », et *Anschauung*, « vision »). L’espagnol *cosmovisión* est formé du grec κόσμος (*kósmos*), « ordre, monde », et du latin *visio*, « vision ».",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Au seuil de la philosophie",
+  "def": "Ensemble de croyances qu’une époque ou une culture tient pour acquises sans les discuter et à partir desquelles elle interprète le monde. Les remettre en question est souvent ce qui fait avancer la philosophie."
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
   "t": "Crise écologique",
   "id": "g-crisis-ecologica",
   "et": "*Crise*, du grec κρίσις (*krísis*), « décision, moment décisif ». *Écologie*, du grec οἶκος (*oîkos*) « maison » + λόγος (*lógos*) « étude ».",
@@ -764,6 +791,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "Agir par respect pour la loi morale ; non seulement coïncider avec la norme, mais avoir la bonne motivation morale.",
   "biografia": [
@@ -1012,6 +1040,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "La valeur absolue de la personne ; ce n'est ni un prix, ni une utilité, ni une substituabilité.",
   "biografia": [
@@ -1736,6 +1765,7 @@ const DICCIONARIO = [
   "area": "Méthode",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Au seuil de la philosophie",
   "def": "Raisonnement qui paraît solide mais ne justifie pas correctement sa conclusion."
  },
@@ -1891,8 +1921,9 @@ const DICCIONARIO = [
   "area": "Texte",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Au seuil de la philosophie",
-  "def": "Définition : forme écrite ou discursive d'organiser et d'exprimer la pensée."
+  "def": "Forme écrite ou discursive d'organiser et d'exprimer la pensée."
  },
  {
   "subject": "hf",
@@ -1989,7 +2020,7 @@ const DICCIONARIO = [
   "bloque": "A",
   "unidad": "A1-A2",
   "tema": "Au seuil de la philosophie",
-  "def": "Étymologie : histoire + -icité, caractère ou condition. Définition : la pensée est toujours située dans une époque, une société et une culture concrètes."
+  "def": "La pensée est toujours située dans une époque, une société et une culture concrètes."
  },
  {
   "subject": "hf",
@@ -2145,6 +2176,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "Commandement moral inconditionné : il ordonne une action pour elle-même, sans dépendre d'aucune fin que l'on désire. Sa première formule, celle de la loi universelle : agis uniquement d'après la maxime qui fait que tu peux vouloir en même temps qu'elle devienne une loi universelle (*Fondements de la métaphysique des mœurs*, II, Ak. IV 421).",
   "biografia": [
@@ -2161,6 +2193,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "Commandement conditionné : il ordonne un moyen en vue d'une fin que l'on veut (« si tu veux réussir, étudie »). Kant distingue les règles de l'habileté et les conseils de la prudence ; y obéir ne donne pas de valeur morale à l'action (*Fondements*, II, Ak. IV 414-417).",
   "biografia": [
@@ -3040,6 +3073,19 @@ const DICCIONARIO = [
   "subject": "hf",
   "imp": 4,
   "impg": 10,
+  "t": "Main invisible",
+  "id": "g-mano-invisible",
+  "et": "Métaphore d’Adam Smith (*invisible hand*) dans *La Richesse des nations* (1776), livre IV, chapitre 2.",
+  "area": "Économie",
+  "bloque": "B",
+  "unidad": "B7",
+  "tema": "Utilitarisme et libéralisme",
+  "def": "Image d’Adam Smith : celui qui recherche son propre intérêt sur un marché libre contribue, sans le vouloir, au bien-être de tous, comme si une main invisible coordonnait les intérêts de chacun. D’où son idée que l’État doit peu intervenir dans l’économie."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 10,
   "t": "Matérialisme",
   "id": "g-materialismo",
   "et": "*Matière*, du latin *materia*, « bois, matériau de construction », apparenté à *mater*, « mère ».",
@@ -3137,11 +3183,25 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 18,
   "tema": "La philosophie de Kant",
   "def": "Pour Kant, l'incapacité de se servir de son propre entendement sans la direction d'un autre. On en est soi-même responsable quand elle tient non à un manque d'entendement, mais à un manque de résolution et de courage ; ses causes sont la paresse et la lâcheté (*Qu'est-ce que les Lumières ?*, 1784, Ak. VIII 35).",
   "biografia": [
    "kant"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Mythe",
+  "id": "g-mito",
+  "et": "Du grec μῦθος (*mýthos*), « parole, récit ».",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A3",
+  "tema": "La naissance de la philosophie en Grèce",
+  "def": "Récit traditionnel, transmis par les poètes (surtout Homère et Hésiode), qui explique l’origine du monde et ce qui s’y passe par la volonté de dieux et d’êtres extraordinaires, sans chercher les causes dans la nature elle-même."
  },
  {
   "subject": "hf",
@@ -3154,7 +3214,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C6",
   "tema": "La postmodernité",
-  "def": "Définition : l'idée de Habermas selon laquelle les promesses de liberté et de raison des Lumières doivent être reconstruites de façon critique sans être écartées.",
+  "def": "L'idée de Habermas selon laquelle les promesses de liberté et de raison des Lumières doivent être reconstruites de façon critique sans être écartées.",
   "biografia": [
    "habermas"
   ]
@@ -3281,6 +3341,7 @@ const DICCIONARIO = [
   "area": "Méthode",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Au seuil de la philosophie",
   "def": "Procédure qui organise les questions, les concepts et les arguments pour travailler un problème."
  },
@@ -3533,6 +3594,20 @@ const DICCIONARIO = [
  },
  {
   "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Quaestio et disputatio",
+  "id": "g-quaestio-disputatio",
+  "et": "Du latin *quaestio*, « recherche, question », de *quaerere*, « chercher », et *disputatio*, « discussion », de *disputare*, « examiner à fond ».",
+  "area": "Méthode",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "temaN": 2,
+  "tema": "Au seuil de la philosophie",
+  "def": "Méthode des universités médiévales : on pose une question, on rassemble les raisons et les autorités pour et contre, on donne une réponse argumentée et on répond à chaque objection. C’est ainsi que Thomas d’Aquin écrivit sa *Somme théologique*."
+ },
+ {
+  "subject": "hf",
   "imp": 4,
   "impg": 11,
   "t": "Raison vitale",
@@ -3642,6 +3717,19 @@ const DICCIONARIO = [
   "biografia": [
    "aristoteles"
   ]
+ },
+ {
+  "subject": "hf",
+  "imp": 3,
+  "impg": 12,
+  "t": "Transmission",
+  "id": "g-transmision",
+  "et": "Du latin *transmissio*, « passage de l’autre côté », de *transmittere*, « envoyer à travers ».",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Au seuil de la philosophie",
+  "def": "Chemin par lequel les textes et les idées passent d’une génération à l’autre : on les copie, on les traduit, on les commente et on les enseigne dans des écoles, des monastères ou des universités. Ce qui n’a pas été transmis s’est perdu, et cela change l’image que nous avons de chaque auteur."
  },
  {
   "subject": "hf",
@@ -3946,7 +4034,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C10",
   "tema": "Défis du XXIe siècle",
-  "def": "Définition : que le pouvoir apparaisse, au lieu de l'interdiction, comme un commandement continu de capacité, d'amélioration de soi et de rendement."
+  "def": "Que le pouvoir apparaisse, au lieu de l'interdiction, comme un commandement continu de capacité, d'amélioration de soi et de rendement."
  },
  {
   "subject": "hf",
@@ -3999,6 +4087,7 @@ const DICCIONARIO = [
   "area": "Méthode",
   "bloque": "A",
   "unidad": "A1-A2",
+  "temaN": 2,
   "tema": "Au seuil de la philosophie",
   "def": "En interprétant un texte ou un interlocuteur, essayer de reconstruire sa version la plus solide. Ce n'est pas être d'accord, mais comprendre ce qu'il défend réellement avant de le critiquer."
  },
@@ -4198,6 +4287,7 @@ const DICCIONARIO = [
   "area": "Éthique",
   "bloque": "C",
   "unidad": "CK",
+  "temaN": 20,
   "tema": "La philosophie de Kant",
   "def": "La position éthique de Joxe Azurmendi : renoncer aux valeurs absolues, mais sans tomber dans le nihilisme ; unir l'éthique de la conviction (principes) et celle de la responsabilité (conséquences), sans reconnaître de valeur absolue à aucune des deux.",
   "biografia": [
@@ -4684,7 +4774,7 @@ const DICCIONARIO = [
   "bloque": "C",
   "unidad": "C7",
   "tema": "Langage et Science",
-  "def": "Définition : l'analyse de Russell pour clarifier la structure logique qui se trouve sous la grammaire superficielle d'une phrase.",
+  "def": "L'analyse de Russell pour clarifier la structure logique qui se trouve sous la grammaire superficielle d'une phrase.",
   "biografia": [
    "russell"
   ]
@@ -4849,6 +4939,19 @@ const DICCIONARIO = [
   "unidad": "A8",
   "tema": "L'éthique classique",
   "def": "La mesure adéquate entre l'excès et le défaut, ajustée à la situation et à la droite raison."
+ },
+ {
+  "subject": "hf",
+  "imp": 4,
+  "impg": 9,
+  "t": "Universalité",
+  "id": "g-universalidad",
+  "et": "Du latin *universalis*, « qui concerne le tout », de *universus*, « entier, tourné vers l’un » (*unus* + *versus*).",
+  "area": "Histoire",
+  "bloque": "A",
+  "unidad": "A1-A2",
+  "tema": "Au seuil de la philosophie",
+  "def": "Caractère des questions philosophiques qui reviennent à des époques et dans des cultures différentes (qu’est-ce que la vérité, qu’est-ce qui est juste, sommes-nous libres), parce qu’elles naissent de préoccupations fondamentales de la vie humaine. Cela ne veut pas dire qu’il n’y ait qu’une seule réponse."
  },
  {
   "subject": "hf",
@@ -5497,6 +5600,7 @@ const DICCIONARIO = [
   "id": "g-querella-de-las-mujeres",
   "area": "Féminisme",
   "bloque": "B",
+  "temaN": 11,
   "tema": "La philosophie médiévale",
   "def": "Longue polémique, ouverte par Christine de Pizan vers 1400 avec la « querelle de la Rose », sur la dignité et la capacité intellectuelle des femmes ; elle se prolongea dans la culture européenne jusqu'à la Révolution française.",
   "biografia": [

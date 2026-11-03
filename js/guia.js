@@ -36,7 +36,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "Les premiers onglets du menu sont les indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’entraîner), <strong>Logique</strong> (le Coin de logique, avec ses exercices et son laboratoire) et <strong>Écrire et lire</strong> (la dissertation et les textes). Après une ligne viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes, avec les Piliers et les Étymons) et <strong>Jeux</strong>.",
+   "x": "Les premiers onglets du menu sont les indispensables : <strong>Étudier</strong> (la théorie et ce qui t’aide à l’apprendre), <strong>S’entraîner</strong> (vérifier ce que tu sais et t’entraîner) et <strong>Raisonner et écrire</strong> (le Coin de logique, la dissertation et les textes). Après une ligne viennent les complémentaires : <strong>Histoire</strong> (le contexte des philosophes, avec les Piliers et les Étymons) et <strong>Jeux</strong>.",
    "solo": "fil"
   },
   {
@@ -49,7 +49,7 @@ const GUIA = {
   },
   {
    "type": "p",
-   "x": "En ouvrant le site, tu arrives sur la <strong>page de la matière</strong> : le titre, une brève présentation et la <strong>liste des thèmes</strong>. Clique sur un thème pour ouvrir sa théorie. De n’importe où, tu reviens ici avec <strong>Étudier › Théorie</strong> ou en cliquant sur « Salle de philosophie », en haut à gauche."
+   "x": "En ouvrant le site, tu arrives sur la <strong>page de la matière</strong> : le titre et la <strong>liste des thèmes</strong>. Clique sur un thème pour ouvrir sa théorie. De n’importe où, tu reviens ici avec <strong>Étudier › Théorie</strong> ou en cliquant sur « Salle de philosophie », en haut à gauche."
   },
   {
    "type": "img",
@@ -293,7 +293,7 @@ const GUIA = {
   {
    "type": "p",
    "solo": "fil",
-   "x": "Le <strong>Coin de logique</strong> a désormais son propre onglet. Il réunit tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices pour entraîner le raisonnement, ainsi qu’un <strong>itinéraire de zéro à expert</strong> à suivre dans l’ordre."
+   "x": "Le <strong>Coin de logique</strong> se trouve dans le groupe <strong>Raisonner et écrire</strong>, avec la dissertation et les lectures. Il réunit tables de vérité, arguments valides, syllogismes avec des diagrammes de Venn, paradoxes et exercices pour entraîner le raisonnement, ainsi qu’un <strong>itinéraire de zéro à expert</strong> à suivre dans l’ordre."
   },
   {
    "type": "p",
@@ -345,13 +345,13 @@ const GUIA = {
   },
   {
    "type": "h",
-   "x": "Écrire et lire",
+   "x": "Raisonner et écrire",
    "solo": "fil"
   },
   {
    "type": "img",
    "src": "04_menu_tercera.webp",
-   "cap": "Le menu « Écrire et lire ».",
+   "cap": "Le menu « Raisonner et écrire ».",
    "w": "menu",
    "solo": "fil"
   },
@@ -535,7 +535,7 @@ const GUIA = {
     },
     {
      "titulo": "Prépare l’examen",
-     "texto": "Écrire et lire : dissertations et lectures.",
+     "texto": "Raisonner et écrire : logique, dissertations et lectures.",
      "view": "disertaciones",
      "solo": "fil"
     },

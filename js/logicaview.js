@@ -18,7 +18,7 @@ const LOG_TXT = {
   argTitulo: "Cet argument est-il valide ?", premisas: "Prémisses (séparées par un point-virgule)", conclusion: "Conclusion",
   comprobar: "Vérifier", premisa: "Prémisse {n}",
   valido: "Valide : dans toutes les lignes où les prémisses sont vraies, la conclusion l’est aussi.",
-  noValido: "Non valide : il y a au moins une ligne où les prémisses sont vraies et la conclusion fausse (marquée en rouge). C’est un contre-exemple.",
+  noValido: "Non valide : il y a au moins une ligne où les prémisses sont vraies et la conclusion fausse (marquée d’un ✗). C’est un contre-exemple.",
   filasPremisas: "Les lignes en surbrillance sont celles où toutes les prémisses sont vraies.",
   mp: "Modus ponens", mt: "Modus tollens", ac: "Affirmation du conséquent (sophisme)", sd: "Syllogisme disjonctif", sh: "Syllogisme hypothétique",
   demorgan: "Loi de De Morgan", tercero: "Tiers exclu", nocontra: "Contradiction",

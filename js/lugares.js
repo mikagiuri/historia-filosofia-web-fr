@@ -179,5 +179,187 @@ const LUGARES = {
     "t": "Après l'effondrement, il est interné dans une clinique de Bâle, puis dans celle d'Iéna (1889-1890) ; il vit ensuite à Naumburg, aux soins de sa mère. À la mort de celle-ci, en 1897, sa sœur Elisabeth l'emmène à Weimar, au siège des Archives Nietzsche. Il meurt le 25 août 1900."
    }
   ]
+ },
+ "marx": {
+  "titulo": "Les lieux de Marx",
+  "intro": "Marx est né prussien et mort apatride. La censure et les expulsions l'ont mené de la Prusse à Paris, de Paris à Bruxelles et, après la révolution de 1848, à Londres, où il a passé en exil la seconde moitié de sa vie.",
+  "nota": "La ligne suit l'ordre du voyage. Il est revenu à Cologne et à Paris : en 1848, il est allé de Bruxelles à Cologne, après quelques semaines à Paris, et en 1849, de Cologne à Paris, puis de là à Londres.",
+  "notaFronteras": "Les frontières sont celles de 1849. L'Allemagne n'existait pas en tant qu'État : il y avait une Confédération germanique, ligue d'une quarantaine d'États souverains dominée par l'Autriche et la Prusse. Trèves, Bonn et Cologne appartenaient depuis 1815 au royaume de Prusse, dont le territoire était coupé en deux. Les autres États allemands (Hanovre, Saxe, Bavière, Wurtemberg…) figurent ici dans une même couleur, séparés par des lignes pointillées.",
+  "marco": [
+   -1.1,
+   47.9,
+   15.6,
+   54.5
+  ],
+  "fronteras": 1849,
+  "internos": true,
+  "detalle": {
+   "marco": [
+    6.4,
+    50.58,
+    7.3,
+    51.08
+   ],
+   "en": [
+    0.21,
+    0.03
+   ],
+   "ancho": 0.17
+  },
+  "ruta": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   4,
+   5,
+   7
+  ],
+  "rotulos": [
+   {
+    "t": "Royaume de Prusse",
+    "tipo": "pais",
+    "lon": 12.3,
+    "lat": 53.15,
+    "partir": true
+   },
+   {
+    "t": "Prusse",
+    "tipo": "pais",
+    "lon": 8,
+    "lat": 51.75
+   },
+   {
+    "t": "France",
+    "tipo": "pais",
+    "lon": 4.6,
+    "lat": 48.5
+   },
+   {
+    "t": "Royaume-Uni",
+    "tipo": "pais",
+    "lon": 0.35,
+    "lat": 52.75,
+    "partir": true
+   },
+   {
+    "t": "Belgique",
+    "tipo": "pais",
+    "lon": 4.6,
+    "lat": 50.4
+   },
+   {
+    "t": "Pays-Bas",
+    "tipo": "pais",
+    "lon": 5.65,
+    "lat": 52.4,
+    "partir": true
+   },
+   {
+    "t": "Luxembourg",
+    "tipo": "menor",
+    "lon": 5.6,
+    "lat": 49.26
+   },
+   {
+    "t": "Empire d'Autriche",
+    "tipo": "pais",
+    "lon": 13.9,
+    "lat": 49.6,
+    "partir": true
+   },
+   {
+    "t": "Hanovre",
+    "tipo": "interno",
+    "lon": 9.5,
+    "lat": 52.8
+   },
+   {
+    "t": "Saxe",
+    "tipo": "interno",
+    "lon": 13.2,
+    "lat": 51
+   },
+   {
+    "t": "Bavière",
+    "tipo": "interno",
+    "lon": 11.5,
+    "lat": 49
+   },
+   {
+    "t": "Wurtemberg",
+    "tipo": "interno",
+    "lon": 9.2,
+    "lat": 48.5
+   },
+   {
+    "t": "Mer du Nord",
+    "tipo": "mar",
+    "lon": 6.7,
+    "lat": 54.1
+   },
+   {
+    "t": "La Manche",
+    "tipo": "mar",
+    "lon": 0.1,
+    "lat": 50.45,
+    "partir": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Trèves",
+    "fechas": "1818-1835",
+    "lon": 6.641,
+    "lat": 49.757,
+    "t": "Il naît le 5 mai 1818, fils d'un avocat d'origine juive converti au protestantisme. Il étudie au lycée de la ville jusqu'en 1835. C'est ici qu'il rencontre Jenny von Westphalen, qu'il épousera en 1843."
+   },
+   {
+    "lugar": "Bonn",
+    "fechas": "1835-1836",
+    "lon": 7.099,
+    "lat": 50.734,
+    "det": true,
+    "t": "Il commence le droit à l'université. Il y passe une année de vie étudiante plus que d'étude, et son père l'envoie poursuivre son cursus à Berlin."
+   },
+   {
+    "lugar": "Berlin",
+    "fechas": "1836-1841",
+    "lon": 13.405,
+    "lat": 52.52,
+    "t": "Il délaisse le droit pour la philosophie et rejoint les jeunes hégéliens. En 1841, il obtient son doctorat avec une thèse sur Démocrite et Épicure : il la présente à l'université d'Iéna, sans s'y rendre."
+   },
+   {
+    "lugar": "Cologne",
+    "fechas": "1842-1843 et 1848-1849",
+    "lon": 6.958,
+    "lat": 50.938,
+    "det": true,
+    "t": "Il dirige la <em>Gazette rhénane</em> (<em>Rheinische Zeitung</em>), un quotidien libéral que le gouvernement prussien interdit en 1843. Il revient avec la révolution de 1848 et fonde la <em>Nouvelle Gazette rhénane</em> ; en mai 1849, il est expulsé de Prusse, et le dernier numéro paraît imprimé à l'encre rouge."
+   },
+   {
+    "lugar": "Paris",
+    "fechas": "1843-1845 et 1849",
+    "lon": 2.352,
+    "lat": 48.857,
+    "t": "Tout juste marié, il arrive pour publier une revue avec Arnold Ruge. Il écrit les <em>Manuscrits économico-philosophiques</em> (1844) et, la même année, se lie d'amitié avec Friedrich Engels. La France l'expulse en 1845, à la demande de la Prusse ; en 1849, il y revient quelques mois, en route pour Londres."
+   },
+   {
+    "lugar": "Bruxelles",
+    "fechas": "1845-1848",
+    "lon": 4.352,
+    "lat": 50.847,
+    "t": "Il écrit ici les <em>Thèses sur Feuerbach</em> (1845) et, avec Engels, <em>L'Idéologie allemande</em> et le <em>Manifeste du Parti communiste</em>, publié à Londres en février 1848. Quelques jours plus tard, la révolution éclate à Paris, et la Belgique l'expulse."
+   },
+   {
+    "lugar": "Londres",
+    "fechas": "1849-1883",
+    "lon": -0.128,
+    "lat": 51.507,
+    "t": "Son exil définitif : plus de trente ans, dont beaucoup dans la pauvreté et avec l'aide financière d'Engels. Il étudie l'économie à la bibliothèque du British Museum et publie le livre I du <em>Capital</em> (1867). Il meurt le 14 mars 1883 et repose au cimetière de Highgate."
+   }
+  ]
  }
 };

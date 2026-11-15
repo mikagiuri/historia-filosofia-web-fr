@@ -361,5 +361,785 @@ const LUGARES = {
     "t": "Son exil définitif : plus de trente ans, dont beaucoup dans la pauvreté et avec l'aide financière d'Engels. Il étudie l'économie à la bibliothèque du British Museum et publie le livre I du <em>Capital</em> (1867). Il meurt le 14 mars 1883 et repose au cimetière de Highgate."
    }
   ]
+ },
+ "descartes": {
+  "titulo": "Les lieux de Descartes",
+  "intro": "Descartes est né en France, mais il a écrit presque toute son œuvre dans les Provinces-Unies, la république hollandaise où il vécut vingt ans, en quête de tranquillité et de liberté pour penser. Auparavant, il avait parcouru la moitié de l'Europe en soldat et en voyageur ; à la fin, il accepta l'invitation de la reine Christine de Suède et mourut à Stockholm, quelques mois après son arrivée.",
+  "nota": "La ligne relie les étapes dans l'ordre d'arrivée et simplifie beaucoup. Entre 1620 et 1625, Descartes voyagea sans résidence fixe en Allemagne, en France et en Italie, et dans les Provinces-Unies il changea souvent de maison (Franeker, Deventer, Utrecht, Santpoort…) : seules trois de ses résidences sont indiquées ici. Les dates du collège et le lieu exact de la nuit des songes ne sont pas connus avec certitude.",
+  "notaFronteras": "Les frontières sont celles de 1648, l'année de la paix de Westphalie. L'Allemagne n'existait pas comme État : le Saint-Empire romain germanique était une mosaïque de plus de trois cents principautés, évêchés et villes libres ; il figure ici d'une seule couleur, avec quelques-uns de ses plus grands États séparés par des lignes pointillées. La Hollande était la principale province d'une république, les Provinces-Unies ; les Pays-Bas du Sud, la Franche-Comté et Milan (tous trois de la même couleur) appartenaient au roi d'Espagne. La France était plus petite qu'aujourd'hui : il lui manquait la Lorraine, Strasbourg et l'Artois.",
+  "marco": [
+   -4.8,
+   45.35,
+   20.8,
+   60.7
+  ],
+  "fronteras": 1648,
+  "lagoMin": 5,
+  "internos": true,
+  "detalle": {
+   "marco": [
+    3.75,
+    51.2,
+    6.5,
+    52.95
+   ],
+   "en": [
+    0.03,
+    0.02
+   ],
+   "ancho": 0.39,
+   "internos": true
+  },
+  "rotulos": [
+   {
+    "t": "Royaume de France",
+    "tipo": "pais",
+    "lon": 2.9,
+    "lat": 47.6,
+    "partir": true
+   },
+   {
+    "t": "Saint-Empire romain germanique",
+    "tipo": "pais",
+    "lon": 10.6,
+    "lat": 51.9,
+    "partir": true
+   },
+   {
+    "t": "Angleterre",
+    "tipo": "pais",
+    "lon": -1.4,
+    "lat": 52.4
+   },
+   {
+    "t": "Pays-Bas espagnols",
+    "tipo": "menor",
+    "lon": 4.3,
+    "lat": 50.6,
+    "partir": true
+   },
+   {
+    "t": "Franche-Comté",
+    "tipo": "menor",
+    "lon": 5.8,
+    "lat": 47.3,
+    "partir": true
+   },
+   {
+    "t": "Confédération suisse",
+    "tipo": "menor",
+    "lon": 8.8,
+    "lat": 46.85,
+    "partir": true
+   },
+   {
+    "t": "Savoie",
+    "tipo": "menor",
+    "lon": 6.85,
+    "lat": 45.85
+   },
+   {
+    "t": "Milan",
+    "tipo": "menor",
+    "lon": 9,
+    "lat": 45.75
+   },
+   {
+    "t": "Venise",
+    "tipo": "menor",
+    "lon": 11.9,
+    "lat": 45.85
+   },
+   {
+    "t": "Danemark-Norvège",
+    "tipo": "pais",
+    "lon": 9,
+    "lat": 57.85,
+    "partir": true
+   },
+   {
+    "t": "Suède",
+    "tipo": "pais",
+    "lon": 14.7,
+    "lat": 58
+   },
+   {
+    "t": "Pologne-Lituanie",
+    "tipo": "pais",
+    "lon": 17.6,
+    "lat": 52.6,
+    "partir": true
+   },
+   {
+    "t": "Royaume de Hongrie",
+    "tipo": "menor",
+    "lon": 18.05,
+    "lat": 48.5,
+    "partir": true
+   },
+   {
+    "t": "Empire ottoman",
+    "tipo": "menor",
+    "lon": 18.1,
+    "lat": 46.65,
+    "partir": true
+   },
+   {
+    "t": "Bavière",
+    "tipo": "interno",
+    "lon": 12.3,
+    "lat": 48.05
+   },
+   {
+    "t": "Saxe",
+    "tipo": "interno",
+    "lon": 13.5,
+    "lat": 50.95
+   },
+   {
+    "t": "Brandebourg",
+    "tipo": "interno",
+    "lon": 13.2,
+    "lat": 52.5
+   },
+   {
+    "t": "Poméranie",
+    "tipo": "interno",
+    "lon": 15.6,
+    "lat": 53.75
+   },
+   {
+    "t": "Bohême",
+    "tipo": "interno",
+    "lon": 14.8,
+    "lat": 49.8
+   },
+   {
+    "t": "Autriche",
+    "tipo": "interno",
+    "lon": 14.6,
+    "lat": 47.5
+   },
+   {
+    "t": "Lorraine",
+    "tipo": "interno",
+    "lon": 6.2,
+    "lat": 48.75
+   },
+   {
+    "t": "Mer du Nord",
+    "tipo": "mar",
+    "lon": 2.9,
+    "lat": 53.55
+   },
+   {
+    "t": "Mer Baltique",
+    "tipo": "mar",
+    "lon": 17.6,
+    "lat": 55.7
+   },
+   {
+    "t": "La Manche",
+    "tipo": "mar",
+    "lon": -1.6,
+    "lat": 50,
+    "partir": true
+   },
+   {
+    "t": "Provinces-Unies",
+    "tipo": "pais",
+    "lon": 5.75,
+    "lat": 52.2,
+    "partir": true,
+    "det": true
+   },
+   {
+    "t": "Hollande",
+    "tipo": "interno",
+    "lon": 4.75,
+    "lat": 51.95,
+    "det": true
+   },
+   {
+    "t": "Zuiderzee",
+    "tipo": "mar",
+    "lon": 5.42,
+    "lat": 52.57,
+    "det": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "La Haye en Touraine",
+    "fechas": "1596",
+    "lon": 0.7,
+    "lat": 46.972,
+    "t": "Il naît le 31 mars 1596, dans une famille de petite noblesse : son père est conseiller au parlement de Bretagne. Sa mère meurt l'année suivante et c'est sa grand-mère qui l'élève. Le village s'appelle aujourd'hui Descartes, en son honneur."
+   },
+   {
+    "lugar": "La Flèche",
+    "fechas": "1607-1615",
+    "lon": -0.075,
+    "lat": 47.699,
+    "t": "Il étudie environ huit ans au collège des jésuites, fondé par Henri IV et l'un des plus célèbres d'Europe. De ce qu'il y apprend, seules les mathématiques le convainquent, « à cause de la certitude et de l'évidence de leurs raisons ». En 1616, il obtient sa licence en droit à l'université de Poitiers."
+   },
+   {
+    "lugar": "Breda",
+    "fechas": "1618-1619",
+    "lon": 4.776,
+    "lat": 51.589,
+    "det": true,
+    "t": "Il s'engage comme volontaire dans l'armée protestante de Maurice de Nassau. En novembre 1618, il rencontre le savant hollandais Isaac Beeckman, qui éveille son intérêt pour l'application des mathématiques à la physique ; c'est pour lui qu'il écrit son premier ouvrage, l'<em>Abrégé de musique</em>."
+   },
+   {
+    "lugar": "Neubourg-sur-le-Danube",
+    "fechas": "hiver 1619-1620",
+    "lon": 11.181,
+    "lat": 48.737,
+    "t": "Au début de la guerre de Trente Ans, il sert dans l'armée catholique du duc de Bavière et passe l'hiver enfermé dans une chambre chauffée par un poêle. Dans la nuit du 10 au 11 novembre 1619, il fait trois songes qu'il interprète comme l'appel à fonder une science nouvelle, dotée d'une méthode unique. La tradition situe la scène ici, à Neubourg ; d'autres, près d'Ulm."
+   },
+   {
+    "lugar": "Paris",
+    "fechas": "1625-1628",
+    "lon": 2.352,
+    "lat": 48.857,
+    "t": "Après plusieurs années de voyages, le dernier en Italie, il s'installe à Paris. Il fréquente le père Mersenne, qui sera son correspondant et son lien avec les savants d'Europe, et travaille à l'optique et aux mathématiques. Il écrit, sans les achever, les <em>Règles pour la direction de l'esprit</em>, et décide de se retirer dans un pays où il pourra penser en paix."
+   },
+   {
+    "lugar": "Amsterdam",
+    "fechas": "1629-1635",
+    "lon": 4.893,
+    "lat": 52.373,
+    "det": true,
+    "t": "À la fin de 1628, il part pour les Provinces-Unies, où il vivra vingt ans. Après quelques mois à Franeker, il réside surtout à Amsterdam : il étudie l'anatomie et écrit <em>Le Monde</em>, un traité de physique qui défend le mouvement de la Terre. En 1633, apprenant que Galilée a été condamné à Rome, il renonce à le publier."
+   },
+   {
+    "lugar": "Leyde",
+    "fechas": "1636-1637 et 1640-1643",
+    "lon": 4.497,
+    "lat": 52.16,
+    "det": true,
+    "t": "C'est ici qu'est imprimé en 1637, en français et sans nom d'auteur, le <em>Discours de la méthode</em>, avec trois essais scientifiques : la <em>Dioptrique</em>, les <em>Météores</em> et la <em>Géométrie</em>. Il revient en 1640 et, depuis le château voisin d'Endegeest, voit paraître à Paris les <em>Méditations métaphysiques</em> (1641). Ce sont aussi les années de sa querelle avec Voetius, théologien d'Utrecht, qui l'accuse d'athéisme."
+   },
+   {
+    "lugar": "Egmond",
+    "fechas": "1643-1649",
+    "lon": 4.654,
+    "lat": 52.61,
+    "det": true,
+    "t": "Ses années les plus tranquilles, dans deux villages de la côte de Hollande. Il publie <em>Les Principes de la philosophie</em> (1644), dédiés à la princesse Élisabeth de Bohême ; des lettres qu'il échange avec elle naît <em>Les Passions de l'âme</em> (1649). De là, il fait trois voyages en France."
+   },
+   {
+    "lugar": "Stockholm",
+    "fechas": "1649-1650",
+    "lon": 18.069,
+    "lat": 59.329,
+    "t": "Il arrive en octobre 1649, invité par la reine Christine de Suède, qui veut recevoir ses leçons de philosophie à cinq heures du matin, en plein hiver. Au bout de quelques mois, il contracte une pneumonie et meurt le 11 février 1650. Ses restes furent transférés à Paris des années plus tard."
+   }
+  ]
+ },
+ "platon": {
+  "titulo": "Les lieux de Platon",
+  "intro": "Platon est resté athénien toute sa vie, mais il a quitté sa cité pour apprendre et pour tenter de porter la philosophie au pouvoir. Après la mort de Socrate, il se réfugie dans la ville voisine de Mégare ; vers quarante ans, il voyage dans le sud de l'Italie et en Sicile, où il retourne deux fois, déjà âgé, dans l'espoir d'éduquer un tyran. Son monde n'était pas un pays : il était fait de centaines de cités grecques indépendantes, dispersées sur les côtes de la Méditerranée, de la Sicile à l'Asie Mineure.",
+  "nota": "La ligne suit le premier voyage : le trajet des deux autres séjours à Syracuse, des allers-retours depuis Athènes, n'est pas tracé. Presque toutes les dates sont approximatives. Le séjour à Mégare et la vente comme esclave à Égine sont rapportés par des biographes bien plus tardifs, comme Diogène Laërce ; les voyages en Sicile, par la « Lettre VII », dont l'authenticité est discutée. Les mêmes biographes parlent de voyages à Cyrène et en Égypte, qui sont douteux et ne sont pas tracés.",
+  "notaFronteras": "La carte montre qui commandait où vers 387 av. J.-C., l'année de la paix du Roi. La couleur des cités grecques ne représente pas un État : c'étaient des centaines de cités indépendantes (les polis), alliées ou ennemies selon le moment (Athènes, Sparte, Thèbes, Corinthe…). L'Ionie et les autres cités grecques d'Asie Mineure étaient alors soumises au roi perse. La Sicile était partagée entre Carthage et Syracuse, dont le tyran, Denys Ier, dominait aussi la pointe de l'Italie ; la Macédoine n'était encore qu'un petit royaume. Les points sont des cités grecques situées sur les terres d'autres peuples. Dans l'Antiquité, il n'y avait pas de frontières tracées : les limites sont indicatives.",
+  "marco": [
+   11.2,
+   33.6,
+   30,
+   42.4
+  ],
+  "fronteras": -387,
+  "detalle": {
+   "marco": [
+    22.92,
+    37.52,
+    24.02,
+    38.2
+   ],
+   "en": [
+    0.25,
+    0.648
+   ],
+   "ancho": 0.26
+  },
+  "ruta": [
+   1,
+   2,
+   1,
+   3,
+   4,
+   5,
+   1
+  ],
+  "rotulos": [
+   {
+    "t": "Empire perse",
+    "tipo": "pais",
+    "lon": 28.4,
+    "lat": 39.05,
+    "partir": true
+   },
+   {
+    "t": "Cités grecques",
+    "tipo": "pais",
+    "lon": 22.5,
+    "lat": 39.5,
+    "partir": true
+   },
+   {
+    "t": "Macédoine",
+    "tipo": "menor",
+    "lon": 22.2,
+    "lat": 40.72
+   },
+   {
+    "t": "Carthage",
+    "tipo": "menor",
+    "lon": 12.7,
+    "lat": 37.95
+   },
+   {
+    "t": "Syracuse",
+    "tipo": "menor",
+    "lon": 14.2,
+    "lat": 37.6
+   },
+   {
+    "t": "Peuples italiques",
+    "tipo": "pueblo",
+    "lon": 15.3,
+    "lat": 41.2
+   },
+   {
+    "t": "Illyriens",
+    "tipo": "pueblo",
+    "lon": 20.2,
+    "lat": 41.75
+   },
+   {
+    "t": "Épire",
+    "tipo": "pueblo",
+    "lon": 20.35,
+    "lat": 40
+   },
+   {
+    "t": "Thraces",
+    "tipo": "pueblo",
+    "lon": 25.6,
+    "lat": 41.75
+   },
+   {
+    "t": "Mer Égée",
+    "tipo": "mar",
+    "lon": 25.05,
+    "lat": 38.85
+   },
+   {
+    "t": "Mer Ionienne",
+    "tipo": "mar",
+    "lon": 18.6,
+    "lat": 38.75
+   },
+   {
+    "t": "Mer Tyrrhénienne",
+    "tipo": "mar",
+    "lon": 13.2,
+    "lat": 39.9
+   },
+   {
+    "t": "Golfe Saronique",
+    "tipo": "mar",
+    "lon": 23.81,
+    "lat": 37.7,
+    "det": true,
+    "partir": true
+   },
+   {
+    "t": "Attique",
+    "tipo": "interno",
+    "lon": 23.88,
+    "lat": 38.12,
+    "det": true
+   }
+  ],
+  "ciudades": [
+   [
+    14.25,
+    40.84
+   ],
+   [
+    15.15,
+    40.16
+   ],
+   [
+    16.49,
+    39.72
+   ],
+   [
+    17.12,
+    39.08
+   ],
+   [
+    19.45,
+    41.32
+   ],
+   [
+    19.47,
+    40.72
+   ],
+   [
+    20.98,
+    39.16
+   ],
+   [
+    23.85,
+    40.82
+   ],
+   [
+    24.97,
+    40.95
+   ],
+   [
+    25.52,
+    40.88
+   ],
+   [
+    26.08,
+    40.72
+   ],
+   [
+    26.4,
+    40.28
+   ],
+   [
+    27.95,
+    40.97
+   ],
+   [
+    28.98,
+    41.01
+   ],
+   [
+    26.69,
+    40.35
+   ],
+   [
+    27.88,
+    40.39
+   ],
+   [
+    26.75,
+    38.67
+   ],
+   [
+    26.77,
+    38.36
+   ],
+   [
+    27.34,
+    37.94
+   ],
+   [
+    27.28,
+    37.53
+   ],
+   [
+    27.42,
+    37.04
+   ]
+  ],
+  "leyenda": [
+   {
+    "t": "Cités grecques (polis indépendantes)",
+    "tono": 4
+   },
+   {
+    "t": "Empire perse",
+    "tono": 2
+   },
+   {
+    "t": "Royaume de Macédoine",
+    "tono": 8
+   },
+   {
+    "t": "Carthage",
+    "tono": 9
+   },
+   {
+    "t": "Syracuse (Denys Ier)",
+    "tono": 1
+   },
+   {
+    "t": "Autres peuples",
+    "tono": 0
+   },
+   {
+    "t": "Cité grecque en terre étrangère",
+    "ciudad": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Athènes",
+    "fechas": "v. 427-347 av. J.-C.",
+    "lon": 23.727,
+    "lat": 37.984,
+    "det": true,
+    "t": "Il naît vers 427 av. J.-C., dans une famille aristocratique et en pleine guerre du Péloponnèse. Vers vingt ans, il devient disciple de Socrate, dont la condamnation à mort, en 399, l'éloigne de la politique. Vers 387, de retour de Sicile, il fonde l'Académie dans un jardin aux portes de la ville : il y enseigne quarante ans, a pour élève Aristote et écrit des dialogues comme <em>Le Banquet</em>, le <em>Phédon</em>, <em>La République</em> et le <em>Phèdre</em>. Il meurt en 347 av. J.-C."
+   },
+   {
+    "lugar": "Mégare",
+    "fechas": "399 av. J.-C.",
+    "lon": 23.344,
+    "lat": 37.996,
+    "det": true,
+    "t": "Après la mort de Socrate, Platon et d'autres disciples se retirent quelque temps chez Euclide de Mégare, qui l'avait été lui aussi. Mégare était à une journée de marche, mais c'était une autre cité, et du côté de Sparte dans la guerre qu'Athènes venait de perdre. De retour dans sa ville, il écrit ses premiers dialogues, comme l'<em>Apologie de Socrate</em> et le <em>Criton</em>."
+   },
+   {
+    "lugar": "Tarente",
+    "fechas": "v. 388 av. J.-C.",
+    "lon": 17.24,
+    "lat": 40.47,
+    "t": "Vers quarante ans, il se rend en Grande-Grèce, le sud de l'Italie peuplé de cités grecques, pour rencontrer les pythagoriciens. À Tarente, colonie fondée par des Spartiates, il se lie d'amitié avec Archytas, mathématicien et homme politique pythagoricien qui finira par gouverner la cité. Il apprend d'eux à voir dans les mathématiques le chemin vers ce qui ne change pas, et il partage leur croyance en l'immortalité de l'âme."
+   },
+   {
+    "lugar": "Syracuse",
+    "fechas": "v. 388, 367 et 361 av. J.-C.",
+    "lon": 15.29,
+    "lat": 37.07,
+    "t": "Trois voyages et trois échecs. Lors du premier, il découvre la cour du tyran Denys Ier et gagne à la philosophie le jeune Dion, beau-frère du tyran. À la mort de celui-ci, Dion l'appelle en 367 pour faire de Denys II un roi-philosophe ; mais le nouveau tyran exile Dion et retient Platon, qui revient encore en 361, sans plus de succès, et ne parvient à repartir que grâce à Archytas. C'est ce que raconte la <em>Lettre VII</em>, attribuée à Platon."
+   },
+   {
+    "lugar": "Égine",
+    "fechas": "v. 387 av. J.-C.",
+    "lon": 23.428,
+    "lat": 37.747,
+    "det": true,
+    "t": "Selon la tradition, Denys Ier, irrité par sa franchise, le livre à un ambassadeur spartiate, qui l'emmène à Égine pour le vendre comme esclave. L'île, en vue d'Athènes, était alors son ennemie et servait de base à la flotte de Sparte. Annicéris de Cyrène l'achète et lui rend la liberté, et Platon peut rentrer chez lui. Il n'est pas certain que cela ait eu lieu."
+   }
+  ]
+ },
+ "aristoteles": {
+  "titulo": "Les lieux d'Aristote",
+  "intro": "Aristote n'était pas athénien : il est né à Stagire, une petite cité grecque du nord, voisine du royaume de Macédoine, et à Athènes il a toujours vécu en étranger. Il a passé vingt ans à l'Académie de Platon et douze autres en voyage, sur la côte d'Asie Mineure, dans l'île de Lesbos et à la cour de Macédoine, avant de revenir à Athènes pour fonder sa propre école, le Lycée. Sa vie coïncide avec l'ascension de la Macédoine, dont les rois, Philippe II et son fils Alexandre, ont fini par commander à toute la Grèce.",
+  "nota": "Les dates sont celles que l'on donne habituellement ; celles d'Assos, de Mytilène et de la cour de Macédoine sont approximatives. Le numéro 5 est placé à Miéza : c'est Plutarque qui raconte, plus de quatre siècles plus tard, que les leçons s'y donnaient. Le retour à Stagire vers 340 av. J.-C. et la reconstruction de la cité à sa demande relèvent de la tradition : la ligne y passe, mais ce n'est pas sûr.",
+  "notaFronteras": "La carte montre qui commandait où vers 335 av. J.-C., l'année où Aristote fonde le Lycée. Philippe II avait fait de la Macédoine la première puissance de Grèce : il a vaincu Athènes et Thèbes à Chéronée (338 av. J.-C.) et réuni les cités dans la Ligue de Corinthe. Les rayures signifient l'hégémonie : ces cités conservaient leurs lois et leur gouvernement, mais elles étaient obligées de suivre le roi de Macédoine à la guerre et en politique extérieure ; Thèbes s'est révoltée et Alexandre l'a détruite cette même année. Sparte n'est pas entrée dans la Ligue, et rien n'atteste que les îles proches de l'Asie l'aient fait. Les Thraces, vaincus par Philippe, payaient un tribut à la Macédoine. L'Asie Mineure, avec ses cités grecques, restait sous l'Empire perse : l'année suivante, Alexandre a franchi le détroit et l'a envahie. Les points sont des cités grecques situées sur les terres d'autres peuples. Dans l'Antiquité, il n'y avait pas de frontières tracées : les limites sont indicatives.",
+  "marco": [
+   20.6,
+   36,
+   28.6,
+   41.7
+  ],
+  "fronteras": -335,
+  "ruta": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   1,
+   2,
+   6
+  ],
+  "curvas": {
+   "1>2": -0.24,
+   "4>5": -0.1,
+   "5>1": -0.12
+  },
+  "rotulos": [
+   {
+    "t": "Royaume de Macédoine",
+    "tipo": "pais",
+    "lon": 22.95,
+    "lat": 41,
+    "partir": true
+   },
+   {
+    "t": "Empire perse",
+    "tipo": "pais",
+    "lon": 28,
+    "lat": 39.2,
+    "partir": true
+   },
+   {
+    "t": "Ligue de Corinthe",
+    "tipo": "pais",
+    "lon": 22,
+    "lat": 39.45,
+    "partir": true
+   },
+   {
+    "t": "Sparte",
+    "tipo": "menor",
+    "lon": 22.5,
+    "lat": 36.95
+   },
+   {
+    "t": "Thraces",
+    "tipo": "pueblo",
+    "lon": 26.2,
+    "lat": 41.42
+   },
+   {
+    "t": "Épire",
+    "tipo": "pueblo",
+    "lon": 20.98,
+    "lat": 39.72
+   },
+   {
+    "t": "Péoniens",
+    "tipo": "pueblo",
+    "lon": 21.95,
+    "lat": 41.5
+   },
+   {
+    "t": "Mer Égée",
+    "tipo": "mar",
+    "lon": 25,
+    "lat": 38.2
+   },
+   {
+    "t": "Mer Ionienne",
+    "tipo": "mar",
+    "lon": 21.05,
+    "lat": 37.05,
+    "partir": true
+   }
+  ],
+  "ciudades": [
+   [
+    20.98,
+    39.16
+   ],
+   [
+    24.97,
+    40.95
+   ],
+   [
+    25.52,
+    40.88
+   ],
+   [
+    26.08,
+    40.72
+   ],
+   [
+    26.4,
+    40.28
+   ],
+   [
+    27.95,
+    40.97
+   ],
+   [
+    26.69,
+    40.35
+   ],
+   [
+    27.88,
+    40.39
+   ],
+   [
+    26.92,
+    39.09
+   ],
+   [
+    26.75,
+    38.67
+   ],
+   [
+    26.77,
+    38.36
+   ],
+   [
+    27.34,
+    37.94
+   ],
+   [
+    27.28,
+    37.53
+   ],
+   [
+    27.42,
+    37.04
+   ]
+  ],
+  "leyenda": [
+   {
+    "t": "Royaume de Macédoine",
+    "tono": 8
+   },
+   {
+    "t": "Cités de la Ligue de Corinthe (hégémonie macédonienne)",
+    "tono": 4,
+    "trama": 8
+   },
+   {
+    "t": "Cités grecques hors de la Ligue",
+    "tono": 4
+   },
+   {
+    "t": "Empire perse",
+    "tono": 2
+   },
+   {
+    "t": "Thraces, soumis à la Macédoine",
+    "tono": 0,
+    "trama": 8
+   },
+   {
+    "t": "Autres peuples",
+    "tono": 0
+   },
+   {
+    "t": "Cité grecque en terre étrangère",
+    "ciudad": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Stagire",
+    "fechas": "384-367 et v. 340-335 av. J.-C.",
+    "lon": 23.795,
+    "lat": 40.592,
+    "t": "Il naît en 384 av. J.-C. dans cette petite cité de Chalcidique, fondée par des colons de l'île d'Andros. Son père, Nicomaque, était le médecin d'Amyntas III, roi de Macédoine et grand-père d'Alexandre : de là viennent ses liens avec la cour. Philippe II rasa la cité en 348 ; selon la tradition, il la reconstruisit à la demande d'Aristote, qui y aurait de nouveau vécu avant de revenir à Athènes."
+   },
+   {
+    "lugar": "Athènes",
+    "fechas": "367-347 et 335-323 av. J.-C.",
+    "lon": 23.727,
+    "lat": 37.984,
+    "t": "Il arrive à dix-sept ans pour étudier à l'Académie de Platon et y reste vingt ans, jusqu'à la mort du maître. Il revient en 335, alors que la Grèce est déjà sous la domination de la Macédoine, et fonde son école au Lycée, un gymnase des faubourgs ; ses membres furent appelés « péripatéticiens », sans doute à cause des promenades couvertes du lieu. De ses leçons proviennent les œuvres que nous conservons, comme la <em>Métaphysique</em>, l'<em>Éthique à Nicomaque</em>, la <em>Politique</em> et <em>De l'âme</em>. Étranger, il ne pouvait posséder à Athènes ni maison ni terres."
+   },
+   {
+    "lugar": "Assos",
+    "fechas": "347-345 av. J.-C.",
+    "lon": 26.337,
+    "lat": 39.49,
+    "t": "À la mort de Platon, l'Académie passe aux mains de son neveu Speusippe et Aristote part pour Assos, sur la côte d'Asie Mineure. Il y est accueilli par Hermias, maître d'Atarnée et d'Assos, qui avait fréquenté l'Académie et gouvernait presque à sa guise sous l'autorité du roi perse. Il y réunit un petit groupe de philosophes et épouse Pythias, nièce ou fille adoptive d'Hermias."
+   },
+   {
+    "lugar": "Mytilène (Lesbos)",
+    "fechas": "345-343 av. J.-C.",
+    "lon": 26.555,
+    "lat": 39.105,
+    "t": "Il passe dans l'île de Lesbos, la patrie de Théophraste, qui sera son collaborateur et son successeur à la tête du Lycée. Il y étudie de près les animaux, surtout les animaux marins : bien des observations de l'<em>Histoire des animaux</em> viennent de ces côtes et de la lagune de Pyrrha. C'est pourquoi on le considère comme le fondateur de la biologie."
+   },
+   {
+    "lugar": "Pella et Miéza",
+    "fechas": "v. 343-340 av. J.-C.",
+    "lon": 22.05,
+    "lat": 40.64,
+    "t": "Philippe II l'appelle à la cour de Macédoine, à Pella, pour éduquer son fils Alexandre, qui a treize ans. Selon Plutarque, les leçons se donnaient à Miéza, un lieu retiré à une trentaine de kilomètres de la capitale. Elles durent environ trois ans : en 340, Alexandre commence à gouverner en l'absence de son père. De ce qu'il lui a enseigné, nous ne savons presque rien."
+   },
+   {
+    "lugar": "Chalcis (Eubée)",
+    "fechas": "323-322 av. J.-C.",
+    "lon": 23.595,
+    "lat": 38.463,
+    "t": "À la mort d'Alexandre, en 323, Athènes se soulève contre la Macédoine, et Aristote, ami des Macédoniens, est accusé d'impiété. Il laisse le Lycée à Théophraste et se retire à Chalcis, dans l'île d'Eubée, où la famille de sa mère possédait une maison. Il y meurt l'année suivante, de maladie, à soixante-deux ans."
+   }
+  ]
  }
 };

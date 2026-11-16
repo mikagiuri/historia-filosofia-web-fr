@@ -1141,5 +1141,429 @@ const LUGARES = {
     "t": "À la mort d'Alexandre, en 323, Athènes se soulève contre la Macédoine, et Aristote, ami des Macédoniens, est accusé d'impiété. Il laisse le Lycée à Théophraste et se retire à Chalcis, dans l'île d'Eubée, où la famille de sa mère possédait une maison. Il y meurt l'année suivante, de maladie, à soixante-deux ans."
    }
   ]
+ },
+ "presocraticos": {
+  "titulo": "Les lieux des présocratiques",
+  "intro": "La philosophie grecque n'est pas née à Athènes, mais dans les cités de la périphérie : d'abord en Ionie, sur la côte de l'Asie Mineure, puis en Grande-Grèce, le sud de l'Italie et la Sicile, où arrivèrent de nombreux Ioniens fuyant les Perses. C'étaient des ports et des colonies, ouverts au commerce et à d'autres cultures. La carte suit les présocratiques ville par ville, à peu près dans l'ordre de leur apparition.",
+  "nota": "Chaque numéro est une ville : celle où un penseur est né ou celle où il a enseigné. Les dates sont approximatives, et une bonne partie de ce que l'on sait de leur vie est rapportée par des biographes bien plus tardifs, comme Diogène Laërce.",
+  "notaFronteras": "La carte ne trace pas de frontières : entre le VIe et le Ve siècle av. J.-C., le monde grec était fait de centaines de cités indépendantes, réparties sur les côtes de la Méditerranée, et depuis 546 av. J.-C. celles d'Ionie étaient soumises au roi perse. Seules les régions sont nommées.",
+  "marco": [
+   11.6,
+   33.4,
+   29.6,
+   42.3
+  ],
+  "sinRuta": true,
+  "sinFronteras": true,
+  "detalle": {
+   "marco": [
+    26.2,
+    37.35,
+    27.75,
+    38.55
+   ],
+   "en": [
+    0.25,
+    0.52
+   ],
+   "ancho": 0.3
+  },
+  "zonas": [
+   {
+    "tipo": "h",
+    "poly": [
+     [
+      26.15,
+      38.85
+     ],
+     [
+      27.15,
+      38.85
+     ],
+     [
+      27.75,
+      38.55
+     ],
+     [
+      28,
+      38.1
+     ],
+     [
+      27.95,
+      37.6
+     ],
+     [
+      27.6,
+      37.3
+     ],
+     [
+      27.1,
+      37.28
+     ],
+     [
+      26.5,
+      37.55
+     ],
+     [
+      25.8,
+      38.1
+     ],
+     [
+      25.8,
+      38.65
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      14.75,
+      40.72
+     ],
+     [
+      15.6,
+      40.95
+     ],
+     [
+      16.6,
+      40.85
+     ],
+     [
+      17.5,
+      40.75
+     ],
+     [
+      18.7,
+      40.45
+     ],
+     [
+      18.7,
+      39.6
+     ],
+     [
+      17.6,
+      37.7
+     ],
+     [
+      15.66,
+      37.7
+     ],
+     [
+      15.66,
+      38.32
+     ],
+     [
+      15.4,
+      38.9
+     ],
+     [
+      15.25,
+      39.55
+     ],
+     [
+      14.55,
+      39.95
+     ]
+    ]
+   },
+   {
+    "tipo": "d",
+    "poly": [
+     [
+      13.1,
+      38.4
+     ],
+     [
+      15.75,
+      38.4
+     ],
+     [
+      15.75,
+      36.5
+     ],
+     [
+      12.9,
+      36.9
+     ]
+    ]
+   }
+  ],
+  "grupos": [
+   {
+    "t": "Milésiens",
+    "paradas": [
+     1
+    ],
+    "d": "Thalès, Anaximandre et Anaximène, de Milet, cherchent l'<em>archè</em>, le principe dont tout est fait."
+   },
+   {
+    "t": "Pythagoriciens",
+    "paradas": [
+     2,
+     4
+    ],
+    "viajes": [
+     {
+      "de": 2,
+      "a": 4
+     }
+    ],
+    "d": "Pythagore naît à Samos et fonde sa communauté à Crotone ; ses disciples, comme Philolaos, voient dans les nombres la clé de l'univers."
+   },
+   {
+    "t": "Héraclite",
+    "paradas": [
+     5
+    ],
+    "d": "Héraclite d'Éphèse n'eut pas d'école : tout change, mais selon une loi, le <em>logos</em>."
+   },
+   {
+    "t": "Éléates",
+    "paradas": [
+     3,
+     6,
+     2
+    ],
+    "viajes": [
+     {
+      "de": 3,
+      "a": [
+       15.08,
+       37.5
+      ]
+     },
+     {
+      "de": [
+       15.08,
+       37.5
+      ],
+      "a": 6,
+      "dudoso": true
+     }
+    ],
+    "d": "Parménide et Zénon, d'Élée, et Mélissos, de Samos : l'être ne peut pas changer et les sens nous trompent. La tradition fait de Xénophane, de Colophon, leur précurseur."
+   },
+   {
+    "t": "Pluralistes",
+    "paradas": [
+     7,
+     8,
+     9
+    ],
+    "viajes": [
+     {
+      "de": 7,
+      "a": 9
+     }
+    ],
+    "d": "Empédocle, d'Akragas, et Anaxagore, de Clazomènes, qui enseigna à Athènes : tout est fait de nombreux éléments qui se mélangent et se séparent."
+   },
+   {
+    "t": "Atomistes",
+    "paradas": [
+     10
+    ],
+    "viajes": [
+     {
+      "de": 1,
+      "a": 10,
+      "dudoso": true
+     },
+     {
+      "de": 6,
+      "a": 10,
+      "dudoso": true,
+      "comba": -0.12
+     }
+    ],
+    "d": "Leucippe et Démocrite, à Abdère : tout est fait d'atomes qui se meuvent dans le vide."
+   }
+  ],
+  "rotulos": [
+   {
+    "t": "Grande-Grèce",
+    "tipo": "region",
+    "lon": 16.55,
+    "lat": 40.55,
+    "partir": true
+   },
+   {
+    "t": "Sicile",
+    "tipo": "region",
+    "lon": 14.35,
+    "lat": 37.85
+   },
+   {
+    "t": "Grèce",
+    "tipo": "region",
+    "lon": 21.9,
+    "lat": 39.45
+   },
+   {
+    "t": "Thrace",
+    "tipo": "region",
+    "lon": 25.6,
+    "lat": 41.55
+   },
+   {
+    "t": "Asie Mineure",
+    "tipo": "region",
+    "lon": 28.9,
+    "lat": 39.35,
+    "partir": true
+   },
+   {
+    "t": "Mer Égée",
+    "tipo": "mar",
+    "lon": 25,
+    "lat": 38.95
+   },
+   {
+    "t": "Mer Ionienne",
+    "tipo": "mar",
+    "lon": 19,
+    "lat": 38.95
+   },
+   {
+    "t": "Mer Tyrrhénienne",
+    "tipo": "mar",
+    "lon": 13.2,
+    "lat": 39.9
+   },
+   {
+    "t": "Ionie",
+    "tipo": "region",
+    "lon": 27.45,
+    "lat": 38.3,
+    "det": true
+   }
+  ],
+  "paradas": [
+   {
+    "lugar": "Milet",
+    "anio": -585,
+    "fechas": "VIe s. av. J.-C.",
+    "lon": 27.28,
+    "lat": 37.53,
+    "det": true,
+    "biografia": [
+     "tales",
+     "anaximandro",
+     "anaximenes"
+    ],
+    "t": "La ville la plus riche d'Ionie, un port ouvert sur l'Égypte, la Phénicie et Babylone. Ici commencent la philosophie et la science grecques, avec trois penseurs qui cherchent l'<em>archè</em>, le principe de toutes choses : Thalès (l'eau), Anaximandre (l'<em>apeiron</em>, l'illimité) et Anaximène (l'air). Les Perses rasèrent Milet en 494 av. J.-C. Aujourd'hui, ses ruines se trouvent à quelque huit kilomètres de la mer : les alluvions du Méandre ont comblé la baie."
+   },
+   {
+    "lugar": "Samos",
+    "anio": -570,
+    "anioGrupo": {
+     "3": -440
+    },
+    "fechas": "v. 570-530 av. J.-C. et Ve s. av. J.-C.",
+    "lon": 26.94,
+    "lat": 37.69,
+    "det": true,
+    "biografia": [
+     "pitagoras",
+     "meliso"
+    ],
+    "t": "Sur cette île, face à Milet, naît Pythagore vers 570 av. J.-C. Vers 530, il part pour l'Italie, fuyant, dit-on, le tyran Polycrate. Au siècle suivant, Mélissos, disciple de Parménide, est lui aussi de Samos ; il commanda en outre la flotte de l'île contre Athènes."
+   },
+   {
+    "lugar": "Colophon",
+    "anio": -546,
+    "fechas": "v. 570-546 av. J.-C.",
+    "lon": 27.14,
+    "lat": 38.12,
+    "det": true,
+    "biografia": [
+     "jenofanes"
+    ],
+    "t": "Patrie de Xénophane. Quand les Perses conquièrent l'Ionie, en 546 av. J.-C., il la quitte à vingt-cinq ans environ et passe le reste de sa longue vie à voyager de cité grecque en cité grecque, surtout en Sicile, en récitant ses vers. Il s'y moque des dieux à forme humaine : si les bœufs savaient peindre, ils peindraient des dieux à forme de bœuf."
+   },
+   {
+    "lugar": "Crotone",
+    "anio": -530,
+    "fechas": "à partir de v. 530 av. J.-C.",
+    "lon": 17.12,
+    "lat": 39.08,
+    "biografia": [
+     "pitagoras",
+     "filolao"
+    ],
+    "t": "Dans cette colonie du sud de l'Italie, Pythagore fonde une communauté de vie commune, avec des règles sur la nourriture et le silence, qui étudie les nombres comme clé de l'univers et en vient à gouverner la ville. Une révolte met fin à son pouvoir, et Pythagore meurt dans la ville voisine de Métaponte. Philolaos (Ve s. av. J.-C.), le premier pythagoricien à avoir écrit un livre, est lui aussi de Crotone."
+   },
+   {
+    "lugar": "Éphèse",
+    "anio": -500,
+    "fechas": "v. 540-480 av. J.-C.",
+    "lon": 27.34,
+    "lat": 37.94,
+    "det": true,
+    "biografia": [
+     "heraclito"
+    ],
+    "t": "Héraclite, d'une famille noble, vit ici à l'écart de la politique et des gens. Il dit que tout change, comme un fleuve dans lequel on ne peut se baigner deux fois, mais que le changement suit une loi, le <em>logos</em>. On l'appelait « l'Obscur » à cause de son style et, selon la tradition, il déposa son livre dans le temple d'Artémis."
+   },
+   {
+    "lugar": "Élée",
+    "anio": -480,
+    "fechas": "Ve s. av. J.-C.",
+    "lon": 15.15,
+    "lat": 40.16,
+    "biografia": [
+     "parmenides",
+     "zenon_elea"
+    ],
+    "t": "Colonie fondée vers 540 av. J.-C. dans le sud de l'Italie par des Ioniens de Phocée qui fuyaient les Perses. Ici, Parménide écrit un poème sur l'être : ce qui est est, et ne peut ni changer ni cesser d'être ; les sens nous trompent. Selon la tradition, il donna des lois à la cité. Son disciple Zénon le défend par des paradoxes comme celui d'Achille et la tortue."
+   },
+   {
+    "lugar": "Clazomènes",
+    "anio": -500,
+    "fechas": "v. 500 av. J.-C.",
+    "lon": 26.77,
+    "lat": 38.36,
+    "det": true,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "Ville ionienne où naît Anaxagore, d'une famille riche. On raconte qu'il laissa ses biens à ses proches pour se consacrer à l'étude de la nature. Pour lui, tout est dans tout, mélangé en parties minuscules, et une intelligence, le <em>noûs</em>, met tout en ordre."
+   },
+   {
+    "lugar": "Akragas (Agrigente)",
+    "anio": -465,
+    "fechas": "v. 495-435 av. J.-C.",
+    "lon": 13.58,
+    "lat": 37.31,
+    "biografia": [
+     "empedocles"
+    ],
+    "t": "Riche cité grecque du sud de la Sicile. Empédocle, d'une famille noble, y défend la démocratie et, selon la tradition, refuse d'être roi. Il enseigne que tout est fait de quatre racines (la terre, l'eau, l'air et le feu), que l'Amour unit et que la Haine sépare. La légende dit qu'il mourut en se jetant dans l'Etna."
+   },
+   {
+    "lugar": "Athènes",
+    "anio": -455,
+    "fechas": "v. 460-430 av. J.-C.",
+    "lon": 23.73,
+    "lat": 37.98,
+    "biografia": [
+     "anaxagoras"
+    ],
+    "t": "Anaxagore apporte la philosophie d'Ionie à Athènes, où il vit une trentaine d'années et devient l'ami de Périclès. Accusé d'impiété pour avoir dit que le Soleil est une pierre incandescente, il part pour Lampsaque, où il meurt vers 428 av. J.-C. Selon Platon, Parménide et Zénon visitèrent Athènes vers 450 ; Démocrite, lui, racontait qu'il y était allé et que personne ne l'avait reconnu."
+   },
+   {
+    "lugar": "Abdère",
+    "anio": -430,
+    "fechas": "Ve s. av. J.-C.",
+    "lon": 24.98,
+    "lat": 40.94,
+    "biografia": [
+     "leucipo",
+     "democrito"
+    ],
+    "t": "Colonie ionienne sur la côte de Thrace. Ici enseigne Démocrite (v. 460-370 av. J.-C.) : tout est fait d'atomes, des particules indivisibles qui se meuvent dans le vide. Il tenait cette idée de Leucippe, dont on sait très peu de chose ; la tradition le place à Abdère, mais d'autres le font venir de Milet ou d'Élée. Le sophiste Protagoras était lui aussi d'Abdère."
+   }
+  ]
  }
 };
